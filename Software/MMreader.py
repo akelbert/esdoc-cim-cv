@@ -8,8 +8,10 @@ iconXOR='button_cancel'
 iconOR='button_ok'
 iconFREETEXT='pencil'
 iconTBD='messagebox_warning'
-icons={iconXOR:'XOR',iconOR:'OR',iconFREETEXT:'UserDefined',iconTBD:'ToBeDone'}
-logicIcons={iconXOR:'XOR',iconOR:'OR'}
+iconAND='bookmark'
+iconHELP='help'
+icons={iconXOR:'XOR',iconOR:'OR',iconAND:'AND',iconFREETEXT:'UserDefined',iconTBD:'ToBeDone',iconHELP:'ToBeDone'}
+logicIcons={iconXOR:'XOR',iconOR:'OR',iconAND:'AND'}
 
 class mm:
     ''' implements a python version of a freemind mindmap. '''
@@ -43,7 +45,10 @@ class mm:
         except KeyError:
             fontcol='none'
         #discriminate on parameters based on font color
-        if fontcol=='#996600':
+        
+        if fontcol in ['#0033ff'] and 'LINK' in parent.keys():
+            e=ET.Element('CommonPropertyType')
+        elif fontcol in ['#996600']:
             e=ET.Element('parameters')
         else:
             e=ET.Element('component')
@@ -90,7 +95,7 @@ if __name__=="__main__":
     f=sys.argv[1]
     # this useful node list is currently constructed by hand, and at the moment we only support the Atmosphere mind map, and
     # not even that ocmpletely.
-    cmip5={'Atmosphere.mm':['Atmosphere']}
+    cmip5={'Atmosphere.mm':['Atmosphere'],'Ocean.mm':['Ocean','NumericalProperties','ComponentDomain']}
     froot=cmip5[f]
     MM=mm(f,froot)
         
