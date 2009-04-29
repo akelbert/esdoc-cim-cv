@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Rupert Ford (Manchester Informatics Ltd.) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="vocab" type="vocabType">
+		<xs:annotation>
+			<xs:documentation>Software Component Vocabulary Schema</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="parameter">
+		<xs:complexType>
+			<xs:choice>
+				<xs:element name="value" maxOccurs="unbounded">
+					<xs:complexType/>
+				</xs:element>
+				<xs:choice maxOccurs="unbounded">
+					<xs:element ref="parameter"/>
+					<xs:element ref="parameterRef"/>
+				</xs:choice>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="component" type="vocabType"/>
+	<xs:element name="componentRef">
+		<xs:complexType>
+			<xs:attribute name="ref" type="xs:string" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="parameterRef"/>
+	<xs:complexType name="vocabType">
+		<xs:choice maxOccurs="unbounded">
+			<xs:element ref="component"/>
+			<xs:element ref="componentRef"/>
+			<xs:element ref="parameter"/>
+			<xs:element ref="parameterRef"/>
+		</xs:choice>
+	</xs:complexType>
+</xs:schema>
