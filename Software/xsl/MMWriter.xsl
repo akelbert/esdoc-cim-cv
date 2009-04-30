@@ -43,7 +43,9 @@ xml representation into an xml MindMap representation (270409) -->
     </xsl:when>
     <xsl:otherwise>
       <xsl:message terminate="yes">
-        <xsl:text>Error: unknown mmtype found for component in xml
+        <xsl:text>Error: unknown mmtype attribute value found for component in xml. Expecting one of 'component', 'sub-component' or 'scheme' but found '</xsl:text>
+        <xsl:value-of select="@mmtype"/>
+        <xsl:text>'
 </xsl:text>
       </xsl:message>
     </xsl:otherwise>
@@ -76,7 +78,9 @@ xml representation into an xml MindMap representation (270409) -->
     </xsl:when>
     <xsl:otherwise>
       <xsl:message terminate="yes">
-        <xsl:text>Error: unknown mmtype found for component in xml
+        <xsl:text>Error: unknown mmtype attribute value found for component in xml. Expecting one of 'component', 'sub-component' or 'scheme' but found '</xsl:text>
+        <xsl:value-of select="@mmtype"/>
+        <xsl:text>'
 </xsl:text>
       </xsl:message>
     </xsl:otherwise>
@@ -85,66 +89,129 @@ xml representation into an xml MindMap representation (270409) -->
   </xsl:template>
 
   <xsl:template match="parameter">
-    <node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="" ID="" MODIFIED="" POSITION="right" TEXT="{@name}">
-      <edge WIDTH="thin"/>
-      <font NAME="SansSerif" SIZE="14"/>
-      <xsl:apply-templates/>
+    <xsl:choose>
+    <xsl:when test="@common='true'">
+      <!-- Common Property (blue) -->
+      <node COLOR="#0033ff" CREATED="" ID="" MODIFIED="" POSITION="right" TEXT="{@name}">
+        <font NAME="Arial" SIZE="15"/>
+        <xsl:apply-templates/>
+      </node>
+    </xsl:when>
+    <xsl:when test="parameter">
+      <!-- complex parameter (purple) -->
+      <node BACKGROUND_COLOR="#ffffff" COLOR="#990099" CREATED="" ID="" MODIFIED="" STYLE="bubble" TEXT="{@name}">
+        <font NAME="SansSerif" SIZE="14"/>
+        <xsl:apply-templates/>
+      </node>
+    </xsl:when>
+    <xsl:otherwise>
+      <!-- leaf parameter (brown) -->
+      <node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="" ID="" MODIFIED="" POSITION="right" TEXT="{@name}">
+        <edge WIDTH="thin"/>
+        <font NAME="SansSerif" SIZE="14"/>
+
+        <xsl:if test="@note">
+          <hook NAME="accessories/plugins/NodeNote.properties">
+            <text><xsl:value-of select="@note"/></text>
+          </hook>
+        </xsl:if>
+
+        <xsl:apply-templates/>
     </node>
+    </xsl:otherwise>
+    </xsl:choose>
+
   </xsl:template>
 
-  <xsl:template match="value">
-    <node BACKGROUND_COLOR="#ffffff" CREATED="" ID="" MODIFIED="" STYLE="fork" TEXT="{@name}">
-      <font NAME="Arial" SIZE="14"/>
-      <xsl:choose>
-        <xsl:when test="@format='number'">
-          <icon BUILTIN="full-1"/>
-        </xsl:when>
-        <xsl:when test="@type='string'">
-          <icon BUILTIN="pencil"/>
-        </xsl:when>
-        <xsl:otherwise/>
-      </xsl:choose>
-      <xsl:choose>
-        <xsl:when test="@type='XOR'">
-          <icon BUILTIN="button_cancel"/>
-        </xsl:when>
-        <xsl:when test="@type='AND'">
-          <icon BUILTIN="bookmark"/>
-        </xsl:when>
-        <xsl:when test="@type='OR'">
-          <icon BUILTIN="button_ok"/>
-        </xsl:when>
-        <xsl:otherwise/>
-      </xsl:choose>
-      <xsl:apply-templates/>
+  <xsl:template match="parameterRef">
+    <xsl:choose>
+    <xsl:when test="@common='true'">
+      <node COLOR="#0033ff" LINK="{@ref}" CREATED="" ID="" MODIFIED="" POSITION="right" TEXT="{@name}">
+        <font NAME="Arial" SIZE="15"/>
+        <xsl:apply-templates/>
     </node>
-  </xsl:template>
-
-  <xsl:template match="CommonPropertyType">
-    <node COLOR="#0033ff" CREATED="" ID="" MODIFIED="" POSITION="right" TEXT="{@name}">
-      <font NAME="Arial" SIZE="15"/>
-      <xsl:apply-templates/>
-    </node>
-  </xsl:template>
-
-  <xsl:template match="CommonPropertyTypeRef">
-    <node COLOR="#0033ff" LINK="@ref" CREATED="" ID="" MODIFIED="" POSITION="right" TEXT="{@name}">
-      <font NAME="Arial" SIZE="15"/>
-      <xsl:apply-templates/>
-    </node>
+    </xsl:when>
+    <xsl:otherwise>
+      <xsl:message terminate="true">
+        <xsl:text>Error: parameter references without the common attribute set to true are not supported (I think!)
+</xsl:text>
+      </xsl:message>
+    </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
  
-  <xsl:template match="ComplexParameter">
-    <node BACKGROUND_COLOR="#ffffff" COLOR="#990099" CREATED="" ID="" MODIFIED="" STYLE="bubble" TEXT="{@name}">
-      <font NAME="SansSerif" SIZE="14"/>
-      <xsl:apply-templates/>
-    </node>
-  </xsl:template>
+  <xsl:template match="value">
 
-  <xsl:template match="text">
-    <hook NAME="accessories/plugins/NodeNote.properties">
-      <text><xsl:value-of select="."/></text>
-    </hook>
+    <xsl:variable name="myName">
+      <xsl:choose>
+      <xsl:when test="@name">
+        <xsl:value-of select="@name"/>
+      </xsl:when>
+      <xsl:when test="@format">
+        <xsl:text>[</xsl:text>
+        <xsl:value-of select="@note"/>
+        <xsl:text>]</xsl:text>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:message terminate="true">
+        <xsl:text>ERROR: value element contains neither a name nor a note attribute
+</xsl:text>
+        </xsl:message>
+      </xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
+
+    <node BACKGROUND_COLOR="#ffffff" CREATED="" ID="" MODIFIED="" STYLE="fork" TEXT="{$myName}">
+      <font NAME="Arial" SIZE="14"/>
+
+      <xsl:if test="@name">
+      <xsl:choose>
+        <xsl:when test="parent::parameter[@choice='XOR']">
+          <icon BUILTIN="button_cancel"/>
+        </xsl:when>
+        <xsl:when test="parent::parameter[@choice='AND']">
+          <icon BUILTIN="bookmark"/>
+        </xsl:when>
+        <xsl:when test="parent::parameter[@choice='OR']">
+          <icon BUILTIN="button_ok"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:message terminate="true">
+          <xsl:text>ERROR: value element has a name attribute, however its parent parameter does not have a valid choice attribute. Valid values are AND,XOR,OR. Found '</xsl:text>
+          <xsl:value-of select="parent::parameter/@choice"/>
+          <xsl:text>'
+</xsl:text>
+          </xsl:message>
+        </xsl:otherwise>
+      </xsl:choose>
+      </xsl:if>
+
+      <xsl:if test="@format">
+      <xsl:choose>
+        <xsl:when test="@format='numerical'">
+          <icon BUILTIN="full-1"/>
+        </xsl:when>
+        <xsl:when test="@format='string'">
+          <icon BUILTIN="pencil"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:message terminate="true">
+          <xsl:text>ERROR: value element has an unknown format attribute value. numerical and string are supported. Found '</xsl:text>
+          <xsl:value-of select="@format"/>
+          <xsl:text>'
+</xsl:text>
+          </xsl:message>
+        </xsl:otherwise>
+      </xsl:choose>
+      </xsl:if>
+
+      <xsl:if test="@name and @note">
+        <hook NAME="accessories/plugins/NodeNote.properties">
+          <text><xsl:value-of select="@note"/></text>
+        </hook>
+      </xsl:if>
+
+    </node>
   </xsl:template>
 
 </xsl:stylesheet>

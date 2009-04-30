@@ -14,7 +14,6 @@ does not contain a value and that the parent of a value is a parameter
   </xsl:template>
 
   <!-- match all nodes with a messagebox_warning icon -->
-  <!-- priority 2 overrides any lower priority template matches -->
   <xsl:template match="node[icon[@BUILTIN='messagebox_warning']]" priority="1" >
     <!-- skip these nodes as they are not complete -->
   </xsl:template>
@@ -36,6 +35,7 @@ does not contain a value and that the parent of a value is a parameter
   <!-- this convoluted test is for a value -->
   <xsl:template match="node[@STYLE='fork' and @COLOR='#000000' and not(font[@ITALIC])]">
 
+    <!-- Does this node contain another node? -->
     <xsl:if test="node[@STYLE='fork' and @COLOR='#000000']">
       <xsl:message terminate="no">
         <xsl:text>Error: value '</xsl:text>
@@ -56,6 +56,7 @@ does not contain a value and that the parent of a value is a parameter
       </xsl:message>
     </xsl:if>
 
+    <!-- Does this node have a parent that is a (brown) parameter? -->
     <xsl:if test="not(parent::node[@COLOR='#996600'])">
       <xsl:message terminate="no">
         <xsl:text>Error: value '</xsl:text>
@@ -65,6 +66,7 @@ does not contain a value and that the parent of a value is a parameter
       </xsl:message>
     </xsl:if>
 
+    <!-- is this value specified as being OR,AND,XOR or a keyboard input? -->
     <xsl:if test="not(icon[@BUILTIN='pencil' or @BUILTIN='full-1' or @BUILTIN='button_cancel' or @BUILTIN='button_ok' or @BUILTIN='bookmark'])">
       <xsl:message terminate="no">
         <xsl:text>Error: value '</xsl:text>
