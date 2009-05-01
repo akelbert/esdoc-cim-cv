@@ -1154,7 +1154,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233142100081" FOLDED="true" ID="Freemind_Link_763351893" MODIFIED="1240910190542" TEXT="Type">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233142100081" ID="Freemind_Link_763351893" MODIFIED="1240910190542" TEXT="Type">
 <arrowlink DESTINATION="Freemind_Link_763351893" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Freemind_Arrow_Link_1668737856" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <font NAME="Arial" SIZE="14"/>
 <node CREATED="1233142296524" ID="Freemind_Link_955103115" MODIFIED="1240390738935" STYLE="fork" TEXT="&lt;list of names&gt;">
@@ -1639,47 +1639,45 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1234216711628" FOLDED="true" ID="Freemind_Link_1557791159" MODIFIED="1234220893283" POSITION="right" TEXT="ComponentDomain">
+<node COLOR="#0033ff" CREATED="1234216711628" ID="Freemind_Link_1557791159" MODIFIED="1234220893283" POSITION="right" TEXT="ComponentDomain">
 <font NAME="SansSerif" SIZE="16"/>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#990099" CREATED="1233750974551" ID="Freemind_Link_836370312" MODIFIED="1237373705130" STYLE="bubble" TEXT="Space">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>or &quot;SpatialDiscretisation&quot;&#xa;</text>
 </hook>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233750994232" ID="Freemind_Link_796460613" MODIFIED="1237385244938" STYLE="bubble" TEXT="HorizontalDiscretisation">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233750994232" ID="Freemind_Link_796460613" MODIFIED="1241178811322" STYLE="bubble" TEXT="HorizontalDiscretisationType">
 <font NAME="SansSerif" SIZE="14"/>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_416711289" MODIFIED="1240396436788" STYLE="fork" TEXT="Spectral">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1394493473" MODIFIED="1240398170782" STYLE="fork" TEXT="[Spectral Truncation Number]">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="full-1"/>
-</node>
-</node>
-<node COLOR="#000000" CREATED="1233751977075" ID="Freemind_Link_1987822318" MODIFIED="1240396465164" STYLE="fork" TEXT="Fixed Grid">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1616403121" MODIFIED="1240398156477" STYLE="fork" TEXT="[Number of Zonal Grid Boxes]">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="bookmark"/>
-<icon BUILTIN="full-1"/>
-</node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1348398821" MODIFIED="1240398148584" STYLE="fork" TEXT="[Number of Meridional Grid Boxes]">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="bookmark"/>
-<icon BUILTIN="full-1"/>
-</node>
-</node>
-<node COLOR="#000000" CREATED="1233751977075" ID="Freemind_Link_934768991" MODIFIED="1240396527946" STYLE="fork" TEXT="Other">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_416711289" MODIFIED="1241178933595" STYLE="fork" TEXT="Spectral">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>Other: enter horizontal discretisation method&#xa;</text>
+<text>Enter the spectral truncation number as the horizontal descretisation value</text>
 </hook>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1208417398" MODIFIED="1240397921518" STYLE="fork" TEXT="[Describe grid resolution]">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="pencil"/>
 </node>
+<node COLOR="#000000" CREATED="1233751977075" ID="Freemind_Link_1987822318" MODIFIED="1241179508088" STYLE="fork" TEXT="Fixed Grid">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>Enter the nuber of zonal grid boxes and the number of meridional grid boxes separated by a comma as the horizontal discretisationn value</text>
+</hook>
+</node>
+<node COLOR="#000000" CREATED="1233751977075" ID="Freemind_Link_934768991" MODIFIED="1241179148578" STYLE="fork" TEXT="Other">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>Other: enter horizontal discretisation type and a some measure of the resolution. &#xa;&#xa;</text>
+</hook>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233750994232" ID="Freemind_Link_1564025054" MODIFIED="1241178821431" STYLE="bubble" TEXT="HorizontalDiscretisationValue">
+<font NAME="SansSerif" SIZE="14"/>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1740412495" MODIFIED="1241179483908" STYLE="fork" TEXT="[Truncation number or N(lon),N(lat)]">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-1"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>If the horizontal discretisation type is &quot;Spectral&quot;&#xa;&#x9;* enter the spectral truncation number&#xa;If the horizontal discretisation type is &quot;Fixed Grid&quot;&#xa;&#x9;* enter the nuber of zonal grid boxes and the number of meridional grid boxes separated by a comma</text>
+</hook>
 </node>
 </node>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233751003143" ID="Freemind_Link_72096446" MODIFIED="1237385244922" STYLE="bubble" TEXT="VerticalCoordinateSystem">
@@ -1696,22 +1694,25 @@
 <font NAME="Arial" SIZE="15"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node COLOR="#000000" CREATED="1233270123274" ID="Freemind_Link_855187606" MODIFIED="1240397281065" STYLE="fork" TEXT="Other">
+<node COLOR="#000000" CREATED="1233270123274" ID="Freemind_Link_855187606" MODIFIED="1240919288512" STYLE="fork" TEXT="Other">
 <font NAME="Arial" SIZE="15"/>
 <icon BUILTIN="button_cancel"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>Other: enter vertical coordinate type and a description</text>
+<text>Other: enter vertical coordinate type and a brief description</text>
 </hook>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233751003143" ID="Freemind_Link_755347475" MODIFIED="1240397338577" STYLE="bubble" TEXT="VerticalDomain">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233751003143" ID="Freemind_Link_755347475" MODIFIED="1241179245610" STYLE="bubble" TEXT="VerticalDomainNumberOfLevels">
 <font NAME="SansSerif" SIZE="14"/>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1678379215" MODIFIED="1240398124201" STYLE="fork" TEXT="[Number of Levels]">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="full-1"/>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1538417814" MODIFIED="1240398137788" STYLE="fork" TEXT="[Top model level (hPa)]">
+</node>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233751003143" ID="Freemind_Link_1853457805" MODIFIED="1241179264478" STYLE="bubble" TEXT="VerticalDomainTopModelLevel">
+<font NAME="SansSerif" SIZE="14"/>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1970737477" MODIFIED="1240398137788" STYLE="fork" TEXT="[Top model level (hPa)]">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="bookmark"/>
 <icon BUILTIN="full-1"/>
