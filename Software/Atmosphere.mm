@@ -445,12 +445,12 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233677577835" FOLDED="true" ID="Freemind_Link_1274991364" MODIFIED="1233932889729" TEXT="RadiatonTimeStep ">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233677577835" ID="Freemind_Link_1274991364" MODIFIED="1233932889729" TEXT="RadiatonTimeStep ">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>RadiationTimeStep is a numerical property but there is no need to deploy all the NumericalProperties common feature.</text>
 </hook>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233141751017" ID="Freemind_Link_1711958724" MODIFIED="1240486208097" STYLE="fork" TEXT="[Time Step (hours)]">
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233141751017" ID="Freemind_Link_1711958724" MODIFIED="1241530015714" STYLE="fork" TEXT="[Time Step] (hours)">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
@@ -996,9 +996,9 @@
 </node>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233138808759" ID="Freemind_Link_1898916985" MODIFIED="1240911782282" TEXT="AtmosPrecipitation">
 <font BOLD="true" NAME="Arial" SIZE="14"/>
-<node COLOR="#990099" CREATED="1233139028691" ID="Freemind_Link_1380314148" MODIFIED="1240912080809" TEXT="LargeScalePrecipitation">
+<node COLOR="#990099" CREATED="1233139028691" FOLDED="true" ID="Freemind_Link_1380314148" MODIFIED="1240912080809" TEXT="LargeScalePrecipitation">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233142548831" FOLDED="true" ID="Freemind_Link_172320802" MODIFIED="1240911666514" TEXT="Scheme">
+<node COLOR="#996600" CREATED="1233142548831" ID="Freemind_Link_172320802" MODIFIED="1240911666514" TEXT="Scheme">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1233142296524" ID="Freemind_Link_1247523439" MODIFIED="1240326894142" STYLE="fork" TEXT="&lt;list of names&gt;">
 <font NAME="Arial" SIZE="14"/>
@@ -1017,7 +1017,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233142100081" FOLDED="true" ID="Freemind_Link_1685355010" MODIFIED="1240910190542" TEXT="Type">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233142100081" ID="Freemind_Link_1685355010" MODIFIED="1240910190542" TEXT="Type">
 <arrowlink DESTINATION="Freemind_Link_1685355010" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Freemind_Arrow_Link_1792154127" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <font NAME="Arial" SIZE="14"/>
 <node CREATED="1233142296524" ID="Freemind_Link_151155908" MODIFIED="1240390738935" STYLE="fork" TEXT="&lt;list of names&gt;">
@@ -1154,7 +1154,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233142100081" ID="Freemind_Link_763351893" MODIFIED="1240910190542" TEXT="Type">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233142100081" FOLDED="true" ID="Freemind_Link_763351893" MODIFIED="1240910190542" TEXT="Type">
 <arrowlink DESTINATION="Freemind_Link_763351893" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Freemind_Arrow_Link_1668737856" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <font NAME="Arial" SIZE="14"/>
 <node CREATED="1233142296524" ID="Freemind_Link_955103115" MODIFIED="1240390738935" STYLE="fork" TEXT="&lt;list of names&gt;">
@@ -1672,7 +1672,7 @@
 </node>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233750994232" ID="Freemind_Link_1564025054" MODIFIED="1241178821431" STYLE="bubble" TEXT="HorizontalDiscretisationValue">
 <font NAME="SansSerif" SIZE="14"/>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1740412495" MODIFIED="1241179483908" STYLE="fork" TEXT="[Truncation number or N(lon),N(lat)]">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1740412495" MODIFIED="1241530113355" STYLE="fork" TEXT="[Truncation number] or &#xa;[Number of Longitudinal grid cells],[Number of lLatitudinal grid cells]">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
@@ -1704,17 +1704,15 @@
 </node>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233751003143" ID="Freemind_Link_755347475" MODIFIED="1241179245610" STYLE="bubble" TEXT="VerticalDomainNumberOfLevels">
 <font NAME="SansSerif" SIZE="14"/>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1678379215" MODIFIED="1240398124201" STYLE="fork" TEXT="[Number of Levels]">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1678379215" MODIFIED="1241530141171" STYLE="fork" TEXT="[Number of Levels]">
 <font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="bookmark"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233751003143" ID="Freemind_Link_1853457805" MODIFIED="1241179264478" STYLE="bubble" TEXT="VerticalDomainTopModelLevel">
 <font NAME="SansSerif" SIZE="14"/>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1970737477" MODIFIED="1240398137788" STYLE="fork" TEXT="[Top model level (hPa)]">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1970737477" MODIFIED="1241530207223" STYLE="fork" TEXT="[Top model level](hPa)">
 <font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="bookmark"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
@@ -1744,7 +1742,21 @@
 <icon BUILTIN="pencil"/>
 </node>
 </node>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_881735073" MODIFIED="1241530343271" TEXT="Spatial Extent">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="messagebox_warning"/>
+<icon BUILTIN="help"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>should&apos;nt SpatialExtent be described in GridPackage?&#xa;</text>
+</hook>
 </node>
+</node>
+<node COLOR="#990099" CREATED="1233140905740" ID="Freemind_Link_1792228654" MODIFIED="1241530276735" STYLE="bubble" TEXT="Time">
+<font NAME="Arial" SIZE="14"/>
+<icon BUILTIN="messagebox_warning"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>&#xa;should&apos;nt Time be described in GridPackage?</text>
+</hook>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233751261777" ID="Freemind_Link_1153520910" MODIFIED="1240398483063" STYLE="bubble" TEXT="TimeSteppingFramework">
 <font NAME="SansSerif" SIZE="15"/>
 <icon BUILTIN="messagebox_warning"/>
@@ -1762,18 +1774,19 @@
 <icon BUILTIN="button_cancel"/>
 <icon BUILTIN="pencil"/>
 </node>
-<node COLOR="#000000" CREATED="1233850737922" ID="Freemind_Link_388148861" MODIFIED="1234220665398" STYLE="fork" TEXT="put here TimeStep ?">
-<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="help"/>
 </node>
-</node>
-<node COLOR="#990099" CREATED="1233140905740" ID="Freemind_Link_1507566113" MODIFIED="1240398487353" STYLE="bubble" TEXT="Spatial Extent">
-<font NAME="Arial" SIZE="14"/>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233751261777" ID="Freemind_Link_579236623" MODIFIED="1241530372070" STYLE="bubble" TEXT="TimeStep">
+<font NAME="SansSerif" SIZE="15"/>
 <icon BUILTIN="messagebox_warning"/>
 <icon BUILTIN="help"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>should&apos;nt SpatialExtent be moved to ComponentDomain/Space?&#xa;should&apos;nt SpatialExtent be described in GridPackage?</text>
+<text>Or &quot;TimeIntegration&quot;</text>
 </hook>
+<node COLOR="#000000" CREATED="1233270123274" ID="Freemind_Link_1520027348" MODIFIED="1241530419362" STYLE="fork" TEXT="[Time Step](hours)">
+<font NAME="Arial" SIZE="15"/>
+<icon BUILTIN="full-1"/>
+</node>
+</node>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1233141186319" FOLDED="true" ID="Freemind_Link_246516693" MODIFIED="1234220893299" POSITION="right" TEXT="NumericalProperties">
