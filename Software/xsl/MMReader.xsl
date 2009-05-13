@@ -26,6 +26,11 @@ lower priority templates -->
     <!-- skip -->
   </xsl:template>
 
+  <!-- match all nodes in italics as they are comments (but not the top one!)-->
+  <xsl:template match="node[font[@ITALIC='true'] and not(parent::map)]" priority="5" >
+    <!-- skip -->
+  </xsl:template>
+
   <!-- match all textual "hook" nodes which contain node notes -->
   <xsl:template match="hook" priority="5">
     <!-- skip these nodes, the text is picked up separately -->
@@ -38,13 +43,13 @@ lower priority templates -->
     <xsl:variable name="ComponentType">
       <xsl:call-template name="GetComponentType"/>
     </xsl:variable>
-    <!-- The presence of a link indicates info exists elsewhere -->
+    <!-- The presence of a link indicates this is a reference -->
     <xsl:choose>
     <xsl:when test="@LINK">
       <componentRef name="{@TEXT}" ref="{@LINK}" mmtype="{$ComponentType}"/>
     </xsl:when>
     <xsl:otherwise>
-      <!-- add an id if I am referenced -->
+      <!-- TODO: add an id if I am referenced -->
       <component name="{@TEXT}" mmtype="{$ComponentType}">
         <xsl:apply-templates/>
       </component>
@@ -143,6 +148,9 @@ lower priority templates -->
     </xsl:choose>
   </xsl:template>
 
+<!-- end of pattern matching -->
+
+
   <xsl:template name="GetChoice">
     <xsl:choose>
     <xsl:when test="node/icon[@BUILTIN='button_cancel']">
@@ -186,18 +194,18 @@ lower priority templates -->
   <xsl:template name="GetComponentType">
     <xsl:choose>
       <xsl:when test="@COLOR='#990099'">
-        <xsl:text>scheme</xsl:text>
+        <xsl:text>child</xsl:text>
       </xsl:when>
       <xsl:when test="font[@SIZE='14']">
-        <xsl:text>sub-component</xsl:text>
+        <xsl:text>child-of-root</xsl:text>
       </xsl:when>
       <xsl:when test="font[@SIZE='18']">
-        <xsl:text>component</xsl:text>
+        <xsl:text>root</xsl:text>
       </xsl:when>
       <xsl:otherwise>
         <xsl:message terminate="yes">
-        <xsl:text>Error, unknown component type found in mindmap</xsl:text>
-        <xsl:text>Expecting component (bold 18font), sub-component(bold 14font) or scheme(bold,blue,14font.
+        <xsl:text>Error, unknown component format found in mindmap</xsl:text>
+        <xsl:text>Expecting component (bold 18font),(bold 14font) or (bold,blue,14font).
 </xsl:text>
         </xsl:message>
       </xsl:otherwise>
