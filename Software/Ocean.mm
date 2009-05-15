@@ -860,7 +860,7 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233335383551" FOLDED="true" ID="Freemind_Link_1642798336" MODIFIED="1234170087152" TEXT="OceanBoundaryForcing">
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233335383551" ID="Freemind_Link_1642798336" MODIFIED="1234170087152" TEXT="OceanBoundaryForcing">
 <font BOLD="true" NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>not a component</text>
@@ -923,14 +923,14 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1233335434999" FOLDED="true" ID="Freemind_Link_1679557339" MODIFIED="1233877605344" TEXT="Tracers">
+<node COLOR="#990099" CREATED="1233335434999" ID="Freemind_Link_1679557339" MODIFIED="1233877605344" TEXT="Tracers">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#990099" CREATED="1233139413774" FOLDED="true" ID="Freemind_Link_1484919451" MODIFIED="1234169973046" TEXT="OceanSunlightPenetration">
+<node COLOR="#990099" CREATED="1233139413774" ID="Freemind_Link_1484919451" MODIFIED="1234169973046" TEXT="OceanSunlightPenetration">
 <font NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>move in a new component OceanSurface component</text>
 </hook>
-<node COLOR="#000000" CREATED="1233753810140" FOLDED="true" ID="Freemind_Link_1488260871" MODIFIED="1236797119631" STYLE="fork" TEXT="Method">
+<node COLOR="#000000" CREATED="1233753810140" ID="Freemind_Link_1488260871" MODIFIED="1236797119631" STYLE="fork" TEXT="Method">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 <node COLOR="#996600" CREATED="1233878176257" FOLDED="true" ID="Freemind_Link_1169909143" MODIFIED="1233878370102" STYLE="bubble" TEXT="Type">
@@ -978,20 +978,12 @@
 </node>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233754574439" FOLDED="true" ID="Freemind_Link_128392278" MODIFIED="1233878373433" STYLE="bubble" TEXT="Ocean color dependant">
+<node COLOR="#996600" CREATED="1233754574439" ID="Freemind_Link_128392278" MODIFIED="1233878373433" STYLE="bubble" TEXT="Ocean color dependant">
 <font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1233753810140" FOLDED="true" ID="Freemind_Link_139281885" MODIFIED="1233916552296" STYLE="fork" TEXT="Yes">
+<node CREATED="1233753810140" ID="Freemind_Link_139281885" MODIFIED="1233916552296" STYLE="fork" TEXT="Yes">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
-<node CREATED="1233755353210" FOLDED="true" ID="Freemind_Link_1100768048" MODIFIED="1233877342897" STYLE="fork" TEXT="source">
-<font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1233755356611" ID="Freemind_Link_336990964" MODIFIED="1233916560080" STYLE="fork" TEXT="file">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node CREATED="1233755359619" ID="Freemind_Link_192119716" MODIFIED="1233916560080" STYLE="fork" TEXT="OGB component">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
+<node CREATED="1242391280764" ID="Freemind_Link_1829305084" LINK="get_data.mm" MODIFIED="1242391280764" TEXT="&lt;get data&gt;"/>
 </node>
 <node CREATED="1233754598439" ID="Freemind_Link_1644927734" MODIFIED="1233916552312" STYLE="fork" TEXT="No">
 <font NAME="SansSerif" SIZE="14"/>
