@@ -13,7 +13,7 @@ any lower priority templates -->
   <!-- match the top level of the xml document -->
   <xsl:template match="/">
 
-     <xsl:variable name="RHSChildren" select="map/node/node[not(icon[@BUILTIN='messagebox_warning'] or font[@ITALIC='true'])]"/>
+     <xsl:variable name="RHSChildren" select="map/node/node[not(icon[@BUILTIN='messagebox_warning'] or font[@ITALIC='true']) and @POSITION='right']"/>
 
      <!-- test for correct type of nodes at the "top" level of the mindmap -->
      <xsl:for-each select="$RHSChildren">
@@ -463,7 +463,7 @@ any lower priority templates -->
   <xsl:template match="node[@STYLE='fork']">
 
     <!-- make sure parents are parameters -->
-    <xsl:if test="not(parent::node[font[@COLOR='#996600']])">
+    <xsl:if test="not(parent::node[@COLOR='#996600'])">
       <xsl:message terminate="no">
         <xsl:text>*ERROR: Value '</xsl:text>
         <xsl:value-of select="@TEXT"/>
