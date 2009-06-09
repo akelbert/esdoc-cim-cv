@@ -7,14 +7,14 @@
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233138667215" ID="_" MODIFIED="1236848504074" POSITION="right" STYLE="bubble" TEXT="Atmosphere">
 <edge COLOR="#999999" STYLE="bezier" WIDTH="2"/>
 <font BOLD="true" NAME="Arial" SIZE="18"/>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#0033ff" CREATED="1233755874069" ID="Freemind_Link_1767162724" LINK="#Freemind_Link_99405222" MODIFIED="1234219863824" TEXT="AtmosDomain">
-<font NAME="SansSerif" SIZE="14"/>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#0033ff" CREATED="1233755874069" ID="Freemind_Link_1767162724" LINK="#Freemind_Link_99405222" MODIFIED="1244548144309" TEXT="AtmosDomain">
+<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#0033ff" CREATED="1233755874069" ID="Freemind_Link_633041695" LINK="#Freemind_Link_1510325376" MODIFIED="1233932889604" TEXT="AtmosNumericalProperties">
-<font NAME="SansSerif" SIZE="15"/>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#0033ff" CREATED="1233755874069" ID="Freemind_Link_633041695" LINK="#Freemind_Link_1510325376" MODIFIED="1244548150153" TEXT="AtmosNumericalProperties">
+<font ITALIC="true" NAME="SansSerif" SIZE="15"/>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#0033ff" CREATED="1233587234324" FOLDED="true" ID="Freemind_Link_713740879" MODIFIED="1234219816446" TEXT="ListOfAtmosPrognosticVariables">
-<font NAME="Arial" SIZE="15"/>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#0033ff" CREATED="1233587234324" FOLDED="true" ID="Freemind_Link_713740879" MODIFIED="1244548158096" TEXT="ListOfAtmosPrognosticVariables">
+<font ITALIC="true" NAME="Arial" SIZE="15"/>
 <node CREATED="1233587267956" ID="Freemind_Link_1063480822" MODIFIED="1233914120027" STYLE="fork" TEXT="Temperature">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
@@ -1639,8 +1639,8 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1234216711628" ID="Freemind_Link_1557791159" MODIFIED="1234220893283" POSITION="right" TEXT="ComponentDomain">
-<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#0033ff" CREATED="1234216711628" ID="Freemind_Link_1557791159" MODIFIED="1244548186454" POSITION="right" TEXT="ComponentDomain">
+<font ITALIC="true" NAME="SansSerif" SIZE="16"/>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#990099" CREATED="1233750974551" ID="Freemind_Link_836370312" MODIFIED="1237373705130" STYLE="bubble" TEXT="Space">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
@@ -1789,9 +1789,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1233141186319" FOLDED="true" ID="Freemind_Link_246516693" MODIFIED="1234220893299" POSITION="right" TEXT="NumericalProperties">
+<node COLOR="#0033ff" CREATED="1233141186319" FOLDED="true" ID="Freemind_Link_246516693" MODIFIED="1244548190921" POSITION="right" TEXT="NumericalProperties">
 <edge WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
+<font ITALIC="true" NAME="SansSerif" SIZE="16"/>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233140619821" ID="Freemind_Link_765014997" MODIFIED="1237385244953" STYLE="bubble" TEXT="ModelFamily">
 <font NAME="SansSerif" SIZE="14"/>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233140643598" ID="Freemind_Link_653737568" MODIFIED="1237385244985" STYLE="fork" TEXT="AGCM">

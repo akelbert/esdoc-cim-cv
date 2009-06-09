@@ -63,7 +63,7 @@ any lower priority templates -->
 
   <!-- match all textual "hook" nodes which contain node notes -->
   <xsl:template match="hook" priority="5">
-    <!-- skip these nodes, the text is picked up separately -->
+    <!-- skip these nodes as they may appear in any node -->
   </xsl:template>
 
   <!-- match all Software Component nodes (bold font) -->
@@ -74,6 +74,14 @@ any lower priority templates -->
     <xsl:choose>
 
     <xsl:when test="@LINK">
+
+      <xsl:message terminate="no">
+      <xsl:text>*WARNING: Found Component Reference node '</xsl:text>
+      <xsl:value-of select="@TEXT"/>
+      <xsl:text>'. Such nodes are ignored as they are not used in the Questionnaire.
+</xsl:text>
+      </xsl:message>
+
       <!-- a componentref should have no children -->
       <xsl:variable name="Children" select="node[not(icon[@BUILTIN='messagebox_warning'] or font[@ITALIC='true'])]"/>
       <xsl:if test="$Children">
@@ -85,114 +93,6 @@ any lower priority templates -->
         </xsl:message>
       </xsl:if>
 
-      <!-- A Componentref must reference something valid -->
-      <xsl:choose>
-        <xsl:when test="concat('#',substring-after(@LINK,'#'))=@LINK"> <!-- convoluted way to check there is a # at the beginning of the string -->
-
-          <xsl:variable name="LinkName" select="substring-after(@LINK,'#')"/>
-
-          <xsl:choose>
-
-            <!-- Check reference points to a node -->
-            <xsl:when test="not(//node[@ID=$LinkName])">
-
-              <xsl:message terminate="no">
-              <xsl:text>*ERROR: the internal reference in component node '</xsl:text>
-              <xsl:value-of select="$NodeName"/>
-              <xsl:text>' does not reference a node</xsl:text>
-              </xsl:message>
-
-            </xsl:when>
-
-            <xsl:otherwise>
-
-              <!-- Check reference points to a component -->
-              <xsl:if test="not(//node[@ID=$LinkName and font[@BOLD='true']])">
-
-                <xsl:message terminate="no">
-                <xsl:text>*ERROR: the internal reference in component node '</xsl:text>
-                <xsl:value-of select="$NodeName"/>
-                <xsl:text>' does not reference a component. It references '</xsl:text>
-                <xsl:value-of select="//node[@ID=$LinkName]/@TEXT"/>
-                <xsl:text>'
-</xsl:text>
-                </xsl:message>
-
-              </xsl:if>
-
-              <!-- Check reference does not point to a parent of the reference (or we will recurse forever) -->
-              <xsl:if test="ancestor::node[@ID=$LinkName]">
-
-                <xsl:message terminate="no">
-                <xsl:text>*ERROR: the internal reference in component node '</xsl:text>
-                <xsl:value-of select="$NodeName"/>
-                <xsl:text>' references a parent '</xsl:text>
-                <xsl:value-of select="//node[@ID=$LinkName]/@TEXT"/>
-                <xsl:text>'. Any inlining will cause infinite recursion.
-</xsl:text>
-                </xsl:message>
-              </xsl:if>
-
-            </xsl:otherwise>
-
-          </xsl:choose>
-          
-        </xsl:when>
-
-        <xsl:when test="concat(substring-before(@LINK,'.mm'),'.mm')=@LINK"> <!-- convoluted way to check there is .mm at the end of the string -->
-
-          <!-- check to see if the reference conforms to the _flat.mm naming convention -->
-          <xsl:if test="not(concat(substring-before(@LINK,'_flat.mm'),'_flat.mm')=@LINK)">
-            <xsl:message terminate="no">
-            <xsl:text>*WARNING: the external mindmap '</xsl:text>
-            <xsl:value-of select="@LINK"/>
-            <xsl:text>' referenced by node '</xsl:text>
-            <xsl:value-of select="$NodeName"/>
-            <xsl:text>' does not conform to the _flat.mm naming convention.
-</xsl:text>
-            </xsl:message>
-          </xsl:if>
-
-          <xsl:choose>
-          <!-- first check to see if the mm document exists -->
-          <xsl:when test="not(document(@LINK))">
-            <xsl:message terminate="no">
-            <xsl:text>*ERROR: the external mindmap '</xsl:text>
-            <xsl:value-of select="@LINK"/>
-            <xsl:text>' referenced by node '</xsl:text>
-            <xsl:value-of select="$NodeName"/>
-            <xsl:text>' does not exist.
-</xsl:text>
-            </xsl:message>
-          </xsl:when>
-          <!-- now check to see if the required node in the document exists -->
-          <xsl:when test="not(document(@LINK)//node[font[@BOLD='true'] and @TEXT=$NodeName])">
-            <!-- Warning: not an exhaustive check so errors could creep in here -->
-            <xsl:message terminate="no">
-            <xsl:text>*ERROR: the external mindmap '</xsl:text>
-            <xsl:value-of select="@LINK"/>
-            <xsl:text>' does not contain the node '</xsl:text>
-            <xsl:value-of select="$NodeName"/>
-            <xsl:text>'.
-</xsl:text>
-            </xsl:message>
-          </xsl:when>
-          <xsl:otherwise/> <!-- all seems OK -->
-          </xsl:choose>
-          
-        </xsl:when>
-        <!-- I don't recognise this as an internal reference or a mindmap reference -->
-        <xsl:otherwise>
-          <xsl:message terminate="no">
-          <xsl:text>*ERROR: the reference name '</xsl:text>
-          <xsl:value-of select="@LINK"/>
-          <xsl:text>' for node '</xsl:text>
-          <xsl:value-of select="$NodeName"/>
-          <xsl:text>' does not appear to be an internal reference or a mindmap reference.
-</xsl:text>
-          </xsl:message>
-        </xsl:otherwise>
-      </xsl:choose>
     </xsl:when>
 
     <!-- Software Component is not a link -->
@@ -300,7 +200,7 @@ any lower priority templates -->
       <!-- we have only 1 value for this parameter so it should not have a choice option -->
       <xsl:if test="$ValueChildren[icon[@BUILTIN='button_ok' or @BUILTIN='button_cancel' or @BUILTIN='bookmark']]">
         <xsl:message terminate="no">
-        <xsl:text>*ERROR: Parameter '</xsl:text>
+        <xsl:text>*WARNING: Parameter '</xsl:text>
         <xsl:value-of select="@TEXT"/>
         <xsl:text>' has one valid value '</xsl:text>
         <xsl:value-of select="$ValueChildren/@TEXT"/>
