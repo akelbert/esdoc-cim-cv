@@ -39,105 +39,125 @@ lower priority templates -->
   <!-- match all component nodes (bold font) -->
   <!-- priority 4 overrides any lower (and default) priority template matches -->
   <xsl:template match="node[font[@BOLD='true']]" priority="4">
-    <!-- determine type of component -->
-    <xsl:variable name="ComponentType">
-      <xsl:call-template name="GetComponentType"/>
-    </xsl:variable>
-    <!-- The presence of a link indicates this is a reference -->
-    <xsl:choose>
-    <xsl:when test="@LINK">
-      <componentRef name="{@TEXT}" ref="{@LINK}" mmtype="{$ComponentType}"/>
-    </xsl:when>
-    <xsl:otherwise>
-      <!-- TODO: add an id if I am referenced -->
-      <component name="{@TEXT}" mmtype="{$ComponentType}">
-        <xsl:apply-templates/>
-      </component>
-    </xsl:otherwise>
-    </xsl:choose>
+    <!-- The presence of a link indicates this is a reference. We allow references but ignore them -->
+    <xsl:if test="not(@LINK)">
+
+      <xsl:choose>
+      <xsl:when test="hook/text"> <!-- provide any notes -->
+        <component name="{@TEXT}" note="{hook/text}">
+          <xsl:apply-templates/>
+        </component>
+      </xsl:when>
+      <xsl:otherwise>
+        <component name="{@TEXT}">
+          <xsl:apply-templates/>
+        </component>
+      </xsl:otherwise>
+      </xsl:choose>
+
+    </xsl:if>
+
   </xsl:template>
 
   <!-- match all parameter nodes which contain values (colour brown) -->
   <xsl:template match="node[@COLOR='#996600']" priority="3">
+
     <xsl:variable name="choice">
       <xsl:call-template name="GetChoice"/>
     </xsl:variable>
-    <xsl:choose>
-    <xsl:when test="hook/text">
-    <parameter name="{@TEXT}" common="false" choice="{$choice}" note="{hook/text}" >
-      <xsl:apply-templates/>
-    </parameter>
-    </xsl:when>
-    <xsl:otherwise>
-    <parameter name="{@TEXT}" common="false" choice="{$choice}" >
-      <xsl:apply-templates/>
-    </parameter>
-    </xsl:otherwise>
-    </xsl:choose>
-  </xsl:template>
 
-  <!-- match all parameter nodes which contain other parameters (colour purple) -->
-  <xsl:template match="node[@COLOR='#990099']" priority="3">
-    <xsl:variable name="choice">
-      <xsl:call-template name="GetChoice"/>
-    </xsl:variable>
     <xsl:choose>
     <xsl:when test="hook/text">
-    <parameter name="{@TEXT}" common="false" choice="{$choice}" note="{hook/text}" >
-      <xsl:apply-templates/>
-    </parameter>
-    </xsl:when>
-    <xsl:otherwise>
-    <parameter name="{@TEXT}" common="false" choice="{$choice}" >
-      <xsl:apply-templates/>
-    </parameter>
-    </xsl:otherwise>
-    </xsl:choose>
-  </xsl:template>
 
-  <!-- match all common parameters (colour blue) -->
-  <xsl:template match="node[@COLOR='#0033ff']" priority="3">
-    <!-- The presence of a link indicates info exists elsewhere -->
-    <xsl:choose>
-    <xsl:when test="@LINK">
-      <parameterRef name="{@TEXT}" common="true" ref="{@LINK}"/>
+      <xsl:choose>
+      <xsl:when test="$choice">
+        <parameter name="{@TEXT}" choice="{$choice}" note="{hook/text}" >
+          <xsl:apply-templates/>
+        </parameter>
+      </xsl:when>
+      <xsl:otherwise>
+        <parameter name="{@TEXT}" note="{hook/text}" >
+          <xsl:apply-templates/>
+        </parameter>
+      </xsl:otherwise>
+      </xsl:choose>
+
     </xsl:when>
     <xsl:otherwise>
-      <xsl:variable name="choice">
-        <xsl:call-template name="GetChoice"/>
-      </xsl:variable>
-    <xsl:choose>
-    <xsl:when test="hook/text">
-      <parameter name="{@TEXT}" common="true" choice="{$choice}" note="{hook/text}" >
-        <xsl:apply-templates/>
-      </parameter>
-    </xsl:when>
-    <xsl:otherwise>
-      <parameter name="{@TEXT}" common="true" choice="{$choice}" >
-        <xsl:apply-templates/>
-      </parameter>
+
+      <xsl:choose>
+      <xsl:when test="$choice">
+        <parameter name="{@TEXT}" choice="{$choice}" >
+          <xsl:apply-templates/>
+        </parameter>
+      </xsl:when>
+      <xsl:otherwise>
+        <parameter name="{@TEXT}" >
+          <xsl:apply-templates/>
+        </parameter>
+      </xsl:otherwise>
+      </xsl:choose>
+
     </xsl:otherwise>
     </xsl:choose>
-    </xsl:otherwise>
-    </xsl:choose>
+
   </xsl:template>
 
   <!-- match all nodes which expect a numerical keyboard input (full-1 icon) -->
   <xsl:template match="node[icon[@BUILTIN='full-1']]" priority="2">
-    <!-- Remove the square brackets from the name -->
+    <!-- Extract the name from the Square Brackets -->
     <xsl:variable name="myName" select="substring-before(substring-after(@TEXT,'['),']')"/>
-    <value format="numerical" note="{$myName}"/>
+    <!-- Extract the units from the Round Brackets -->
+    <xsl:variable name="myUnits" select="substring-before(substring-after(@TEXT,'('),')')"/>
+
+    <xsl:choose>
+    <xsl:when test="hook/text">
+
+      <xsl:choose>
+      <xsl:when test="$myUnits">
+        <value format="numerical" name="{$myName}" units="{$myUnits}" note="{hook/text}"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <value format="numerical" name="{$myName}" note="{hook/text}"/>
+      </xsl:otherwise>
+      </xsl:choose>
+
+    </xsl:when>
+    <xsl:otherwise>
+
+      <xsl:choose>
+      <xsl:when test="$myUnits">
+        <value format="numerical" name="{$myName}" units="{$myUnits}"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <value format="numerical" name="{$myName}"/>
+      </xsl:otherwise>
+      </xsl:choose>
+
+    </xsl:otherwise>
+    </xsl:choose>
+
   </xsl:template>
 
   <!-- match all nodes which expect a string keyboard input (pencil icon) -->
   <xsl:template match="node[icon[@BUILTIN='pencil']]" priority="2">
-    <!-- Remove the square brackets from the name -->
+    <!-- Extract the name from the Square Brackets -->
     <xsl:variable name="myName" select="substring-before(substring-after(@TEXT,'['),']')"/>
-    <value format="string" note="{$myName}" />
+
+    <xsl:choose>
+    <xsl:when test="hook/text">
+      <value format="string" name="{$myName}" note="{hook/text}"/>
+    </xsl:when>
+    <xsl:otherwise>
+      <value format="string" name="{$myName}"/>
+    </xsl:otherwise>
+    </xsl:choose>
+
   </xsl:template>
 
   <!-- match all nodes which provide vocabulary (button_ok,button_cancel,bookmark) -->
   <xsl:template match="node[icon[@BUILTIN='button_ok' or @BUILTIN='button_cancel' or @BUILTIN='bookmark']]" priority="1">
+
     <xsl:choose>
     <xsl:when test="hook/text">
     <value name="{@TEXT}" note="{hook/text}"/>
@@ -146,6 +166,7 @@ lower priority templates -->
     <value name="{@TEXT}"/>
     </xsl:otherwise>
     </xsl:choose>
+
   </xsl:template>
 
 <!-- end of pattern matching -->
@@ -166,19 +187,15 @@ lower priority templates -->
       <!-- there is only one option which must be typed by the user -->
       <xsl:text>keyboard</xsl:text>
     </xsl:when>
-    <!-- I am purple and at least one of my children are brown -->
-    <xsl:when test="@COLOR='#990099' and node[@COLOR='#996600']">
-      <!-- assumption: it is XOR for parameters containing parameters -->
-      <xsl:text>XOR</xsl:text>
+    <xsl:when test="count(node)=1">
+      <!-- there is only 1 node so we do not need XOR, OR or AND to be specified -->
     </xsl:when>
-    <!-- I am blue and at least one of my children are purple or brown -->
-    <xsl:when test="@COLOR='#0033ff' and node[@COLOR='#990099' or @COLOR='#996600']">
-      <!-- assumption: it is AND for vocab containing parameters -->
-      <xsl:text>AND</xsl:text>
+    <xsl:when test="count(node)=0">
+      <!-- there are no nodes. This should not really happen (it is an error in the checker) -->
     </xsl:when>
     <xsl:otherwise>
       <xsl:message terminate="yes">
-        <xsl:text>Error: In general a parameter should have a child with a value that is declared as one of XOR,OR,AND, or KeyBoardEntry. The valid exceptions are 1: a parameter coded in purple contains parameters coded in brown 2: the common CV parameter coded in blue may contain parameters coded in brown and/or parameters coded in purple. This parameter breaks these rules.
+        <xsl:text>Error: In general a parameter should have a child with a value that is declared as one of XOR, OR, AND, or KeyBoardEntry. The exception is when the parameter only has one child (or none!). This parameter breaks these rules.
 </xsl:text>
         <xsl:text>Parameter is '</xsl:text>
       <xsl:value-of select="@TEXT"/>
@@ -188,27 +205,6 @@ lower priority templates -->
 </xsl:text>
       </xsl:message>
     </xsl:otherwise>
-    </xsl:choose>
-  </xsl:template>
-
-  <xsl:template name="GetComponentType">
-    <xsl:choose>
-      <xsl:when test="@COLOR='#990099'">
-        <xsl:text>child</xsl:text>
-      </xsl:when>
-      <xsl:when test="font[@SIZE='14']">
-        <xsl:text>child-of-root</xsl:text>
-      </xsl:when>
-      <xsl:when test="font[@SIZE='18']">
-        <xsl:text>root</xsl:text>
-      </xsl:when>
-      <xsl:otherwise>
-        <xsl:message terminate="yes">
-        <xsl:text>Error, unknown component format found in mindmap</xsl:text>
-        <xsl:text>Expecting component (bold 18font),(bold 14font) or (bold,blue,14font).
-</xsl:text>
-        </xsl:message>
-      </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
 
