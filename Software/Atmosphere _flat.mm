@@ -1371,7 +1371,7 @@
 </node>
 <node CREATED="1242815104070" ID="Freemind_Link_188906600" MODIFIED="1242815343835" POSITION="left" STYLE="bubble" TEXT="version">
 <font ITALIC="true" NAME="SansSerif" SIZE="15"/>
-<node CREATED="1242815129537" ID="Freemind_Link_93957810" MODIFIED="1244807610233" STYLE="fork" TEXT="based on r557 (mariepierre, 2009-06-09) of Atmosphere.mm.">
+<node CREATED="1242815129537" ID="Freemind_Link_93957810" MODIFIED="1244558956818" STYLE="fork" TEXT="based on r557 (mariepierre, 2009-06-09) of Atmosphere.mm">
 <font ITALIC="true" NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
