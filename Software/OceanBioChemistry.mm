@@ -126,7 +126,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233138714062" ID="Freemind_Link_51409906" MODIFIED="1237479111729" POSITION="right" STYLE="bubble" TEXT="OceanBiogeoChemistry">
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233138714062" ID="Freemind_Link_51409906" MODIFIED="1245068330261" POSITION="right" STYLE="bubble" TEXT="OceanBiogeoChemistry">
 <edge COLOR="#999999"/>
 <font BOLD="true" NAME="Arial" SIZE="16"/>
 <node CREATED="1237479137672" ID="Freemind_Link_1628477958" LINK="#Freemind_Link_171465" MODIFIED="1237479354594" TEXT="OceanBioDomain">
@@ -136,233 +136,334 @@
 <font BOLD="true" NAME="Arial" SIZE="14"/>
 <icon BUILTIN="messagebox_warning"/>
 </node>
-<node CREATED="1236609069866" FOLDED="true" ID="Freemind_Link_441868071" MODIFIED="1237479102472" TEXT="OceanBioTransport">
+<node CREATED="1236609069866" ID="Freemind_Link_441868071" MODIFIED="1237479102472" TEXT="OceanBioTransport">
 <font BOLD="true" NAME="Arial" SIZE="14"/>
-<node CREATED="1236610470035" ID="Freemind_Link_601999934" MODIFIED="1237479496633" TEXT="Offline">
+<node CREATED="1236610470035" ID="Freemind_Link_601999934" MODIFIED="1245068322711" STYLE="fork" TEXT="Offline">
+<font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1236610479674" ID="Freemind_Link_562854438" MODIFIED="1237479496634" TEXT="Online">
+<node CREATED="1236610479674" ID="Freemind_Link_562854438" MODIFIED="1245068322711" STYLE="fork" TEXT="Online">
+<font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
-<node CREATED="1236608983145" ID="Freemind_Link_918655724" MODIFIED="1236608993907" TEXT="Ask if same than ocean TRACER">
-<node CREATED="1236608997962" ID="Freemind_Link_1130354501" MODIFIED="1236609010005" TEXT="if yes, links ">
+<node COLOR="#996600" CREATED="1236608983145" ID="Freemind_Link_918655724" MODIFIED="1245068400477" STYLE="bubble" TEXT="SameAsOceanTracers">
+<font NAME="SansSerif" SIZE="14"/>
+<node CREATED="1236608997962" ID="Freemind_Link_1130354501" MODIFIED="1245068422526" STYLE="fork" TEXT="yes">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
 <node CREATED="1233140145256" ID="Freemind_Link_722725558" LINK="#Freemind_Link_1123121019" MODIFIED="1236609098317" TEXT="OceanBioAdvection">
 <font NAME="Arial" SIZE="14"/>
 </node>
-<node CREATED="1236608690222" ID="Freemind_Link_990841343" LINK="#Freemind_Link_531784001" MODIFIED="1236608822309" TEXT="OceanBioLateral Physics"/>
-<node CREATED="1236608884400" ID="Freemind_Link_71623048" LINK="#Freemind_Link_1336585920" MODIFIED="1236608918845" TEXT="OceanBioVerticalPhysics"/>
-<node CREATED="1236608926153" ID="Freemind_Link_855879961" LINK="#Freemind_Link_1973300299" MODIFIED="1236609117630" TEXT="OceanBioConvection"/>
-<node CREATED="1236609126475" ID="Freemind_Link_1102840071" LINK="#Freemind_Link_942916441" MODIFIED="1236609142987" TEXT="OceanBioBottomBoundaryLayer"/>
+<node CREATED="1236608690222" ID="Freemind_Link_990841343" LINK="#Freemind_Link_722725558" MODIFIED="1245068449280" TEXT="OceanBioLateral Physics">
+<font NAME="SansSerif" SIZE="14"/>
 </node>
-<node CREATED="1236609011490" ID="Freemind_Link_844105910" MODIFIED="1236609016757" TEXT="if not, describe diffs"/>
+<node CREATED="1236608884400" ID="Freemind_Link_71623048" LINK="#Freemind_Link_722725558" MODIFIED="1245068449280" TEXT="OceanBioVerticalPhysics">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node CREATED="1236608926153" ID="Freemind_Link_855879961" LINK="#Freemind_Link_722725558" MODIFIED="1245068449280" TEXT="OceanBioConvection">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node CREATED="1236609126475" ID="Freemind_Link_1102840071" LINK="#Freemind_Link_722725558" MODIFIED="1245068449280" TEXT="OceanBioBottomBoundaryLayer">
+<font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-</node>
-<node CREATED="1233140167006" FOLDED="true" ID="Freemind_Link_555399975" MODIFIED="1237479103320" TEXT="OceanBioBoundaryForcing">
-<font BOLD="true" NAME="Arial" SIZE="14"/>
-<node CREATED="1236609182979" ID="Freemind_Link_255287398" MODIFIED="1236609193279" TEXT="AtmosphericDeposition">
-<node CREATED="1236609262933" ID="Freemind_Link_491739383" MODIFIED="1237479519262" TEXT="from file">
+<node CREATED="1236609011490" ID="Freemind_Link_844105910" MODIFIED="1245068422542" STYLE="fork" TEXT="no">
+<font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
-</node>
-<node CREATED="1236609262933" ID="Freemind_Link_43098440" MODIFIED="1237479519261" TEXT="from Atmospheric chemistry">
-<icon BUILTIN="button_cancel"/>
-</node>
-</node>
-<node CREATED="1236609194652" ID="Freemind_Link_89361265" MODIFIED="1236609207032" TEXT="RiverInput">
-<node CREATED="1236609262933" ID="Freemind_Link_499490382" MODIFIED="1237479519259" TEXT="from file">
-<icon BUILTIN="button_cancel"/>
-</node>
-<node CREATED="1236609538584" ID="Freemind_Link_211157359" MODIFIED="1237479519260" TEXT="from LandSurface">
-<icon BUILTIN="button_cancel"/>
-</node>
-</node>
-<node CREATED="1236609212876" ID="Freemind_Link_1302842013" MODIFIED="1236609222032" TEXT="SedimentInteractions">
-<node CREATED="1236609238949" ID="Freemind_Link_43749171" MODIFIED="1237479519256" TEXT="from file">
-<icon BUILTIN="button_cancel"/>
-</node>
-<node CREATED="1236609245093" ID="Freemind_Link_690314398" MODIFIED="1237479519258" TEXT="from sediment model">
-<icon BUILTIN="button_cancel"/>
-</node>
-</node>
-</node>
-<node CREATED="1236609296453" FOLDED="true" ID="Freemind_Link_1321812138" MODIFIED="1237479103856" TEXT="OceanBioGazExchange">
-<font BOLD="true" NAME="Arial" SIZE="14"/>
-<node CREATED="1236609310789" ID="Freemind_Link_1837561293" MODIFIED="1236609362582" TEXT="Species">
-<node CREATED="1236609373142" ID="Freemind_Link_1627531141" LINK="#Freemind_Link_1101561283" MODIFIED="1237479535272" TEXT="CO2">
-<icon BUILTIN="button_ok"/>
-</node>
-<node CREATED="1236609375494" ID="Freemind_Link_743145867" LINK="#Freemind_Link_1101561283" MODIFIED="1237479535285" TEXT="O2">
-<icon BUILTIN="button_ok"/>
-</node>
-<node CREATED="1236609381661" ID="Freemind_Link_1126975680" LINK="#Freemind_Link_1101561283" MODIFIED="1237479535284" TEXT="DMS">
-<icon BUILTIN="button_ok"/>
-</node>
-<node CREATED="1236609385141" ID="Freemind_Link_647541092" LINK="#Freemind_Link_1101561283" MODIFIED="1237479535283" TEXT="N2">
-<icon BUILTIN="button_ok"/>
-</node>
-<node CREATED="1236609388293" ID="Freemind_Link_741538984" LINK="#Freemind_Link_1101561283" MODIFIED="1237479535275" TEXT="N2O">
-<icon BUILTIN="button_ok"/>
-</node>
-<node CREATED="1236609395158" ID="Freemind_Link_110233999" LINK="#Freemind_Link_1101561283" MODIFIED="1237479535274" TEXT="CO">
-<icon BUILTIN="button_ok"/>
-</node>
-</node>
-<node CREATED="1236609402695" ID="Freemind_Link_1101561283" MODIFIED="1236609410057" TEXT="Schemes">
-<node CREATED="1236609412294" ID="Freemind_Link_1281369211" MODIFIED="1237479545161" TEXT="Liss &amp; Merlivat">
-<icon BUILTIN="button_cancel"/>
-</node>
-<node CREATED="1236609423823" ID="Freemind_Link_1649777104" MODIFIED="1237479545165" TEXT="Wanninkhof">
-<icon BUILTIN="button_cancel"/>
-</node>
-<node CREATED="1236609433102" ID="Freemind_Link_878107531" MODIFIED="1237479545164" TEXT="Nightingale">
-<icon BUILTIN="button_cancel"/>
-</node>
-<node CREATED="1236609454175" ID="Freemind_Link_185485043" MODIFIED="1237479549017" TEXT="Other">
-<icon BUILTIN="button_cancel"/>
+<node CREATED="1236609011490" ID="Freemind_Link_1860418814" MODIFIED="1245069156787" STYLE="fork" TEXT="[describe the differences]">
+<font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="pencil"/>
 </node>
 </node>
 </node>
-<node CREATED="1233333993001" FOLDED="true" ID="Freemind_Link_1940440780" MODIFIED="1236609576889" TEXT="OceanBioTracerDamping">
+</node>
+</node>
+<node CREATED="1233140167006" ID="Freemind_Link_555399975" MODIFIED="1237479103320" TEXT="OceanBioBoundaryForcing">
 <font BOLD="true" NAME="Arial" SIZE="14"/>
-<node CREATED="1233246364208" ID="Freemind_Link_322138040" MODIFIED="1237479557593" STYLE="fork" TEXT="none">
+<node COLOR="#996600" CREATED="1236609182979" ID="Freemind_Link_255287398" MODIFIED="1245068486026" TEXT="AtmosphericDeposition">
+<font NAME="SansSerif" SIZE="14"/>
+<node CREATED="1236609262933" ID="Freemind_Link_491739383" MODIFIED="1245068322680" STYLE="fork" TEXT="from file">
+<font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1233246393000" ID="Freemind_Link_1347339304" MODIFIED="1237479557594" STYLE="fork" TEXT="SpatialExtent">
+<node CREATED="1236609262933" ID="Freemind_Link_43098440" MODIFIED="1245068322680" STYLE="fork" TEXT="from Atmospheric chemistry">
+<font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
+</node>
+</node>
+<node COLOR="#996600" CREATED="1236609194652" ID="Freemind_Link_89361265" MODIFIED="1245068486073" TEXT="RiverInput">
+<font NAME="SansSerif" SIZE="14"/>
+<node CREATED="1236609262933" ID="Freemind_Link_499490382" MODIFIED="1245068322680" STYLE="fork" TEXT="from file">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1236609538584" ID="Freemind_Link_211157359" MODIFIED="1245068322680" STYLE="fork" TEXT="from LandSurface">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+</node>
+<node COLOR="#996600" CREATED="1236609212876" ID="Freemind_Link_1302842013" MODIFIED="1245068486057" TEXT="SedimentInteractions">
+<font NAME="SansSerif" SIZE="14"/>
+<node CREATED="1236609238949" ID="Freemind_Link_43749171" MODIFIED="1245068322680" STYLE="fork" TEXT="from file">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1236609245093" ID="Freemind_Link_690314398" MODIFIED="1245069172411" STYLE="fork" TEXT="from Sediment model">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+</node>
+</node>
+<node CREATED="1236609296453" ID="Freemind_Link_1321812138" MODIFIED="1237479103856" TEXT="OceanBioGazExchange">
+<font BOLD="true" NAME="Arial" SIZE="14"/>
+<node COLOR="#996600" CREATED="1236609310789" ID="Freemind_Link_1837561293" MODIFIED="1245068668492" TEXT="Species">
+<font NAME="SansSerif" SIZE="14"/>
+<node CREATED="1236609373142" ID="Freemind_Link_1627531141" LINK="#Freemind_Link_1101561283" MODIFIED="1245068322664" STYLE="fork" TEXT="CO2">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1236609375494" ID="Freemind_Link_743145867" LINK="#Freemind_Link_1101561283" MODIFIED="1245068322664" STYLE="fork" TEXT="O2">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1236609381661" ID="Freemind_Link_1126975680" LINK="#Freemind_Link_1101561283" MODIFIED="1245068322664" STYLE="fork" TEXT="DMS">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1236609385141" ID="Freemind_Link_647541092" LINK="#Freemind_Link_1101561283" MODIFIED="1245068322664" STYLE="fork" TEXT="N2">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1236609388293" ID="Freemind_Link_741538984" LINK="#Freemind_Link_1101561283" MODIFIED="1245068322664" STYLE="fork" TEXT="N2O">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1236609395158" ID="Freemind_Link_110233999" LINK="#Freemind_Link_1101561283" MODIFIED="1245068322664" STYLE="fork" TEXT="CO">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+</node>
+<node COLOR="#996600" CREATED="1236609402695" ID="Freemind_Link_1101561283" MODIFIED="1245068541219" TEXT="Scheme">
+<font NAME="SansSerif" SIZE="14"/>
+<node CREATED="1236609412294" ID="Freemind_Link_1281369211" MODIFIED="1245068322649" STYLE="fork" TEXT="Liss &amp; Merlivat">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1236609423823" ID="Freemind_Link_1649777104" MODIFIED="1245068322649" STYLE="fork" TEXT="Wanninkhof">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1236609433102" ID="Freemind_Link_878107531" MODIFIED="1245068322649" STYLE="fork" TEXT="Nightingale">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1236609454175" ID="Freemind_Link_185485043" MODIFIED="1245069563914" STYLE="fork" TEXT="Other">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+</node>
+</node>
+<node CREATED="1233333993001" ID="Freemind_Link_1940440780" MODIFIED="1236609576889" TEXT="OceanBioTracerDamping">
+<font BOLD="true" NAME="Arial" SIZE="14"/>
+<node CREATED="1233246364208" ID="Freemind_Link_322138040" MODIFIED="1245068322649" STYLE="fork" TEXT="none">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1233246364208" ID="Freemind_Link_858199631" MODIFIED="1245068566023" STYLE="fork" TEXT="yes">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+<node COLOR="#996600" CREATED="1233246393000" ID="Freemind_Link_1347339304" MODIFIED="1245068581054" STYLE="bubble" TEXT="SpatialExtent">
+<font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1233246454929" ID="Freemind_Link_1892320957" MODIFIED="1237479562576" STYLE="fork" TEXT="Depth">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
+<node CREATED="1233246454929" ID="Freemind_Link_1875162906" MODIFIED="1245069258997" STYLE="fork" TEXT="[min, max]">
+<font NAME="Arial" SIZE="14"/>
+</node>
 </node>
 <node CREATED="1233246454929" ID="Freemind_Link_166232182" MODIFIED="1237479562578" STYLE="fork" TEXT="Latitude">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
+<node CREATED="1233246454929" ID="Freemind_Link_562867265" MODIFIED="1245069258997" STYLE="fork" TEXT="[min, max]">
+<font NAME="Arial" SIZE="14"/>
+</node>
 </node>
 <node CREATED="1233246454929" ID="Freemind_Link_365225604" MODIFIED="1237479562578" STYLE="fork" TEXT="Longitude">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
+<node CREATED="1233246454929" ID="Freemind_Link_1845378710" MODIFIED="1245069258997" STYLE="fork" TEXT="[min, max]">
+<font NAME="Arial" SIZE="14"/>
 </node>
 </node>
 </node>
-<node CREATED="1236609594440" FOLDED="true" ID="Freemind_Link_1158082513" MODIFIED="1237479104664" TEXT="OceanBioTracers">
+</node>
+</node>
+<node CREATED="1236609594440" ID="Freemind_Link_1158082513" MODIFIED="1237479104664" TEXT="OceanBioTracers">
 <font BOLD="true" NAME="Arial" SIZE="14"/>
-<node CREATED="1236609609489" ID="Freemind_Link_774395166" MODIFIED="1236609615132" TEXT="Ecosystem">
-<node CREATED="1236609630224" ID="Freemind_Link_1462334004" MODIFIED="1236609636102" TEXT="Phytoplancton">
-<node CREATED="1236609645057" ID="Freemind_Link_1525971091" MODIFIED="1237479587721" TEXT="none">
+<node COLOR="#990099" CREATED="1236609609489" ID="Freemind_Link_774395166" MODIFIED="1245069389039" TEXT="Ecosystem">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#996600" CREATED="1236609630224" ID="Freemind_Link_1462334004" MODIFIED="1245069380342" TEXT="Phytoplancton">
+<font NAME="SansSerif" SIZE="14"/>
+<node CREATED="1236609645057" ID="Freemind_Link_1525971091" MODIFIED="1245068322617" STYLE="fork" TEXT="none">
+<font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1236609649057" ID="Freemind_Link_455409570" MODIFIED="1237479587730" TEXT="Generic">
+<node CREATED="1236609649057" ID="Freemind_Link_455409570" MODIFIED="1245068322617" STYLE="fork" TEXT="Generic">
+<font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1236609655609" ID="Freemind_Link_517744501" MODIFIED="1237479587724" TEXT="List">
+<node CREATED="1236609655609" ID="Freemind_Link_517744501" MODIFIED="1245068322617" STYLE="fork" TEXT="List">
+<font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
-<node CREATED="1236609658609" ID="Freemind_Link_1128383174" MODIFIED="1237479598177" TEXT="Diatoms">
+<node CREATED="1236609658609" ID="Freemind_Link_1128383174" MODIFIED="1245068322617" TEXT="Diatoms">
+<font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1236609662076" ID="Freemind_Link_418999734" MODIFIED="1237479598181" TEXT="Nfixers">
+<node CREATED="1236609662076" ID="Freemind_Link_418999734" MODIFIED="1245068322602" TEXT="Nfixers">
+<font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1236609671273" ID="Freemind_Link_1786072871" MODIFIED="1237479598180" TEXT="Calcifiers">
+<node CREATED="1236609671273" ID="Freemind_Link_1786072871" MODIFIED="1245068322602" TEXT="Calcifiers">
+<font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1236609679353" ID="Freemind_Link_1590857719" MODIFIED="1237479598179" TEXT="Picophytoplancton">
+<node CREATED="1236609679353" ID="Freemind_Link_1590857719" MODIFIED="1245068322602" TEXT="Picophytoplancton">
+<font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1236609454175" ID="Freemind_Link_445455961" MODIFIED="1237479620971" TEXT="Other">
+<node CREATED="1236609454175" ID="Freemind_Link_445455961" MODIFIED="1245068322602" TEXT="Other">
+<font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 <icon BUILTIN="pencil"/>
 </node>
 </node>
 </node>
-<node CREATED="1236609636353" ID="Freemind_Link_1361070834" MODIFIED="1236609642419" TEXT="Zooplancton">
-<node CREATED="1236609645057" ID="Freemind_Link_1570821733" MODIFIED="1237479593249" TEXT="none">
+<node COLOR="#996600" CREATED="1236609636353" ID="Freemind_Link_1361070834" MODIFIED="1245069380389" TEXT="Zooplancton">
+<font NAME="SansSerif" SIZE="14"/>
+<node CREATED="1236609645057" ID="Freemind_Link_1570821733" MODIFIED="1245068322602" STYLE="fork" TEXT="none">
+<font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1236609649057" ID="Freemind_Link_1951365792" MODIFIED="1237479593255" TEXT="Generic">
+<node CREATED="1236609649057" ID="Freemind_Link_1951365792" MODIFIED="1245068322602" STYLE="fork" TEXT="Generic">
+<font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1236609655609" ID="Freemind_Link_257992468" MODIFIED="1237479593252" TEXT="List">
+<node CREATED="1236609655609" ID="Freemind_Link_257992468" MODIFIED="1245068322586" STYLE="fork" TEXT="List">
+<font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
-<node CREATED="1236609658609" ID="Freemind_Link_119319107" MODIFIED="1237479612168" TEXT="Microzooplancton">
+<node CREATED="1236609658609" ID="Freemind_Link_119319107" MODIFIED="1245068322586" TEXT="Microzooplancton">
+<font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1236609662076" ID="Freemind_Link_1143904823" MODIFIED="1237479612171" TEXT="Mesozooplancton">
+<node CREATED="1236609662076" ID="Freemind_Link_1143904823" MODIFIED="1245068322586" TEXT="Mesozooplancton">
+<font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1236609671273" ID="Freemind_Link_955411679" MODIFIED="1237479612170" TEXT="more...">
+<node CREATED="1236609671273" ID="Freemind_Link_955411679" MODIFIED="1245069323675" TEXT="&lt;more...&gt;">
+<font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1236609454175" ID="Freemind_Link_217540431" MODIFIED="1237479620969" TEXT="Other">
+<node CREATED="1236609454175" ID="Freemind_Link_217540431" MODIFIED="1245068322586" TEXT="Other">
+<font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 <icon BUILTIN="pencil"/>
 </node>
 </node>
 </node>
-<node CREATED="1236609779554" ID="Freemind_Link_1919102301" MODIFIED="1236609797194" TEXT="Upper trophic levels">
-<node CREATED="1236609798282" ID="Freemind_Link_1575197756" MODIFIED="1237479627665" TEXT="Yes">
+<node COLOR="#996600" CREATED="1236609779554" ID="Freemind_Link_1919102301" MODIFIED="1245069340406" TEXT="UpperTrophicLevels">
+<font NAME="SansSerif" SIZE="14"/>
+<node CREATED="1236609798282" ID="Freemind_Link_1575197756" MODIFIED="1245068322586" STYLE="fork" TEXT="Yes">
+<font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1236609800882" ID="Freemind_Link_1601175706" MODIFIED="1237479627667" TEXT="No">
+<node CREATED="1236609800882" ID="Freemind_Link_1601175706" MODIFIED="1245068322571" STYLE="fork" TEXT="No">
+<font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
 </node>
-<node CREATED="1236609616738" ID="Freemind_Link_577317245" MODIFIED="1236609621632" TEXT="Nutrients">
-<node CREATED="1236610013445" ID="Freemind_Link_571006165" MODIFIED="1237479647297" TEXT="Nitrogen N">
+<node COLOR="#990099" CREATED="1236609616738" ID="Freemind_Link_577317245" MODIFIED="1245069615604" TEXT="Nutrients">
+<font NAME="SansSerif" SIZE="14"/>
+<node CREATED="1236610013445" ID="Freemind_Link_571006165" MODIFIED="1245068322555" STYLE="fork" TEXT="Nitrogen N">
+<font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
-<node CREATED="1236609879739" ID="Freemind_Link_230062177" MODIFIED="1237479637714" TEXT="Nitrates NO3">
+<node CREATED="1236609879739" ID="Freemind_Link_230062177" MODIFIED="1245068322555" TEXT="Nitrates NO3">
+<font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1236609906697" ID="Freemind_Link_145050530" MODIFIED="1237479637713" TEXT="Nitrates NO3 +Amonium NH4">
+<node CREATED="1236609906697" ID="Freemind_Link_145050530" MODIFIED="1245068322539" TEXT="Nitrates NO3 +Amonium NH4">
+<font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1236609965613" ID="Freemind_Link_1359593749" MODIFIED="1237479647306" TEXT="Denitrification">
+<node CREATED="1236609965613" ID="Freemind_Link_1359593749" MODIFIED="1245068322539" TEXT="Denitrification">
+<font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1236609982637" ID="Freemind_Link_57556985" MODIFIED="1237479647306" TEXT="N Fixation">
+<node CREATED="1236609982637" ID="Freemind_Link_57556985" MODIFIED="1245068322539" TEXT="N Fixation">
+<font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1236610033613" ID="Freemind_Link_1469897134" MODIFIED="1237479647305" TEXT="Phosphorus P">
+<node CREATED="1236610033613" ID="Freemind_Link_1469897134" MODIFIED="1245068322524" STYLE="fork" TEXT="Phosphorus P">
+<font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1236610047421" ID="Freemind_Link_624055122" MODIFIED="1237479647304" TEXT="Silicium Si">
+<node CREATED="1236610047421" ID="Freemind_Link_624055122" MODIFIED="1245068322524" STYLE="fork" TEXT="Silicium Si">
+<font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1236609933004" ID="Freemind_Link_512528665" MODIFIED="1237479647303" TEXT="Iron Fe">
+<node CREATED="1236609933004" ID="Freemind_Link_512528665" MODIFIED="1245068322524" STYLE="fork" TEXT="Iron Fe">
+<font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1236609938060" ID="Freemind_Link_1716975352" MODIFIED="1237479651777" TEXT="Other">
+<node CREATED="1236609938060" ID="Freemind_Link_1716975352" MODIFIED="1245069558142" STYLE="fork" TEXT="Other">
+<font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
-<icon BUILTIN="pencil"/>
 </node>
 </node>
-<node CREATED="1236609622705" ID="Freemind_Link_1593948899" MODIFIED="1237479663649" TEXT="CarbonRelated">
+<node COLOR="#990099" CREATED="1236609622705" ID="Freemind_Link_1593948899" MODIFIED="1245069396636" TEXT="CarbonRelated">
+<font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="messagebox_warning"/>
 </node>
-<node CREATED="1236610544371" ID="Freemind_Link_534594214" MODIFIED="1237479663652" TEXT="Sulfur related">
+<node COLOR="#990099" CREATED="1236610544371" ID="Freemind_Link_534594214" MODIFIED="1245069396652" TEXT="Sulfur related">
+<font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="messagebox_warning"/>
 </node>
-<node CREATED="1236610396306" ID="Freemind_Link_998869927" MODIFIED="1237479663651" TEXT="Particules">
+<node COLOR="#990099" CREATED="1236610396306" ID="Freemind_Link_998869927" MODIFIED="1245069396652" TEXT="Particules">
+<font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="messagebox_warning"/>
 </node>
 </node>
-<node CREATED="1236610217295" FOLDED="true" ID="Freemind_Link_1000734000" MODIFIED="1237479123580" TEXT="OcenBioChemistry">
+<node CREATED="1236610217295" ID="Freemind_Link_1000734000" MODIFIED="1237479123580" TEXT="OcenBioChemistry">
 <font BOLD="true" NAME="Arial" SIZE="14"/>
 <icon BUILTIN="messagebox_warning"/>
-<node CREATED="1236610238383" ID="Freemind_Link_1446581503" MODIFIED="1236610244044" TEXT="CarbonChemistry"/>
+<node COLOR="#990099" CREATED="1236610238383" ID="Freemind_Link_1446581503" MODIFIED="1245069406168" TEXT="CarbonChemistry">
+<font NAME="SansSerif" SIZE="14"/>
 </node>
-<node CREATED="1236610297849" FOLDED="true" ID="Freemind_Link_67229465" MODIFIED="1237479123582" TEXT="OceanBioTime Stepping">
+</node>
+<node CREATED="1236610297849" ID="Freemind_Link_67229465" MODIFIED="1237479123582" TEXT="OceanBioTime Stepping">
 <font BOLD="true" NAME="Arial" SIZE="14"/>
 <icon BUILTIN="messagebox_warning"/>
-<node CREATED="1236610305992" ID="Freemind_Link_1223495031" MODIFIED="1236610346661" TEXT="Synchro with ocean"/>
-<node CREATED="1236610321457" ID="Freemind_Link_556121678" MODIFIED="1236610351015" TEXT="transport / bio sychro"/>
+<node CREATED="1236610305992" ID="Freemind_Link_1223495031" MODIFIED="1245069420847" STYLE="fork" TEXT="Synchro with ocean">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1236610321457" ID="Freemind_Link_556121678" MODIFIED="1245069420863" STYLE="fork" TEXT="transport / bio sychro">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1234216711628" ID="Freemind_Link_171465" MODIFIED="1234220893283" POSITION="right" TEXT="ComponentDomain">
 <font NAME="SansSerif" SIZE="16"/>
-<node CREATED="1237479398113" ID="Freemind_Link_679995097" MODIFIED="1237479403981" TEXT="link to OceanDomain"/>
+<node COLOR="#000000" CREATED="1237479398113" ID="Freemind_Link_679995097" MODIFIED="1245069505219" STYLE="fork" TEXT="Same as Ocean Domain">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
 </node>
-<node COLOR="#0033ff" CREATED="1233141186319" FOLDED="true" ID="Freemind_Link_1329790666" MODIFIED="1234220893299" POSITION="right" TEXT="NumericalProperties">
+<node CREATED="1245069513572" ID="Freemind_Link_148676770" MODIFIED="1245069542152" TEXT="link to OceanDomain">
+<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1233141186319" ID="Freemind_Link_1329790666" MODIFIED="1234220893299" POSITION="right" TEXT="NumericalProperties">
 <edge WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#996600" CREATED="1233140619821" ID="Freemind_Link_161148183" MODIFIED="1233938843399" STYLE="bubble" TEXT="ModelFamily">
@@ -381,10 +482,6 @@
 <node CREATED="1233246454929" ID="Freemind_Link_176186030" MODIFIED="1233585676976" POSITION="right" STYLE="fork" TEXT="[Reference]">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="pencil"/>
-</node>
-<node CREATED="1237479875520" ID="Freemind_Link_943972190" MODIFIED="1237479881611" POSITION="right" TEXT="still to be done">
-<font ITALIC="true" NAME="Arial" SIZE="14"/>
-<node CREATED="1237479882216" ID="Freemind_Link_716019605" MODIFIED="1237479896460" TEXT="color coding of nodes"/>
 </node>
 </node>
 </map>
