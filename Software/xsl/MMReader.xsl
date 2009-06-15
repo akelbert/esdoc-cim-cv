@@ -62,6 +62,13 @@ lower priority templates -->
   <!-- match all parameter nodes which contain values (colour brown) -->
   <xsl:template match="node[@COLOR='#996600']" priority="3">
 
+    <xsl:if test="node">
+      <!-- only output if our parameter has at least one defined value.
+           This clause will not get triggered for "correct" mindmaps but
+           is useful as it allows some "in-prep" mindmaps to give valid
+           output. Note we simply test there is a node rather than
+            checking if the node is a valid "value" node  -->
+
     <xsl:variable name="choice">
       <xsl:call-template name="GetChoice"/>
     </xsl:variable>
@@ -100,6 +107,8 @@ lower priority templates -->
 
     </xsl:otherwise>
     </xsl:choose>
+
+    </xsl:if>
 
   </xsl:template>
 
