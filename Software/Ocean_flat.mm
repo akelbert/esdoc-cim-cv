@@ -3,7 +3,7 @@
 <node BACKGROUND_COLOR="#ffffff" COLOR="#990000" CREATED="1233138660368" ID="Freemind_Link_1634648506" MODIFIED="1242072486397" STYLE="fork" TEXT="                   Ocean &#xa;         mind map rewriting&#xa;  for questionnaire processing">
 <edge WIDTH="2"/>
 <font ITALIC="true" NAME="Arial" SIZE="15"/>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233138680751" FOLDED="true" ID="Freemind_Link_1161786097" MODIFIED="1233843333819" POSITION="right" STYLE="bubble" TEXT="Ocean">
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233138680751" ID="Freemind_Link_1161786097" MODIFIED="1233843333819" POSITION="right" STYLE="bubble" TEXT="Ocean">
 <edge COLOR="#999999"/>
 <font BOLD="true" NAME="Arial" SIZE="17"/>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233138776960" ID="Freemind_Link_1047373511" MODIFIED="1243247269249" STYLE="bubble" TEXT="OceanAdvection">
@@ -720,8 +720,9 @@
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233754574439" ID="Freemind_Link_444757817" LINK="get_data.mm" MODIFIED="1243327098252" STYLE="bubble" TEXT="OceanColor">
+<node COLOR="#996600" CREATED="1233754574439" ID="Freemind_Link_444757817" LINK="get_data.mm" MODIFIED="1245677225466" STYLE="bubble" TEXT="OceanColor">
 <font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="messagebox_warning"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>If the model is ocean color dependant, provide the origin for ocean color.</text>
 </hook>
@@ -843,8 +844,9 @@
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233330046298" ID="Freemind_Link_736481834" MODIFIED="1243264045593" TEXT="SpecificHeat">
+<node COLOR="#996600" CREATED="1233330046298" ID="Freemind_Link_736481834" MODIFIED="1245677268147" TEXT="SpecificHeat">
 <font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="messagebox_warning"/>
 </node>
 </node>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233329979500" ID="Freemind_Link_786667002" MODIFIED="1234170312447" TEXT="OceanFreeSurface">

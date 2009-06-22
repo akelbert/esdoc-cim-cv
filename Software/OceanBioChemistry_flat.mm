@@ -4,7 +4,7 @@
 <edge WIDTH="2"/>
 <font ITALIC="true" NAME="Arial" SIZE="15"/>
 <hook NAME="accessories/plugins/CreationModificationPlugin_new.properties"/>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233138714062" FOLDED="true" ID="Freemind_Link_51409906" MODIFIED="1245068330261" POSITION="right" STYLE="bubble" TEXT="OceanBiogeoChemistry">
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233138714062" ID="Freemind_Link_51409906" MODIFIED="1245068330261" POSITION="right" STYLE="bubble" TEXT="OceanBiogeoChemistry">
 <edge COLOR="#999999"/>
 <font BOLD="true" NAME="Arial" SIZE="16"/>
 <node CREATED="1236609069866" ID="Freemind_Link_441868071" MODIFIED="1237479102472" TEXT="OceanBioTransport">
@@ -54,8 +54,9 @@
 </node>
 <node CREATED="1233140167006" ID="Freemind_Link_555399975" MODIFIED="1237479103320" TEXT="OceanBioBoundaryForcing">
 <font BOLD="true" NAME="Arial" SIZE="14"/>
-<node COLOR="#996600" CREATED="1236609182979" ID="Freemind_Link_255287398" LINK="get_data.mm" MODIFIED="1245070975339" TEXT="AtmosphericDeposition">
+<node COLOR="#996600" CREATED="1236609182979" ID="Freemind_Link_255287398" LINK="get_data.mm" MODIFIED="1245678048272" TEXT="AtmosphericDeposition">
 <font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="messagebox_warning"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>Provide the origin of Atmospheric Deposition.</text>
 </hook>
@@ -63,8 +64,9 @@
 <font ITALIC="true" NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1236609194652" ID="Freemind_Link_89361265" LINK="get_data.mm" MODIFIED="1245070998583" TEXT="RiverInput">
+<node COLOR="#996600" CREATED="1236609194652" ID="Freemind_Link_89361265" LINK="get_data.mm" MODIFIED="1245678048303" TEXT="RiverInput">
 <font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="messagebox_warning"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>Provide the origin of River Input.</text>
 </hook>
@@ -72,8 +74,9 @@
 <font ITALIC="true" NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1236609212876" ID="Freemind_Link_1302842013" LINK="get_data.mm" MODIFIED="1245071024963" TEXT="SedimentInteractions">
+<node COLOR="#996600" CREATED="1236609212876" ID="Freemind_Link_1302842013" LINK="get_data.mm" MODIFIED="1245678048288" TEXT="SedimentInteractions">
 <font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="messagebox_warning"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>Provide the origin of Sedimentation Interactions.</text>
 </hook>
