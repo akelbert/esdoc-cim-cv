@@ -1,91 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Rupert Ford (Manchester Informatics Ltd.) -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
-	<xs:element name="vocab" type="vocabType">
+	<xs:element name="vocab">
 		<xs:annotation>
 			<xs:documentation>Software Component Vocabulary Schema</xs:documentation>
 		</xs:annotation>
-	</xs:element>
-	<xs:element name="parameter">
 		<xs:complexType>
-			<xs:choice>
-				<xs:element name="value" maxOccurs="unbounded">
-					<xs:complexType>
-						<xs:attribute name="format" use="required">
-							<xs:simpleType>
-								<xs:restriction base="xs:string">
-									<xs:enumeration value="integer"/>
-									<xs:enumeration value="string"/>
-									<xs:enumeration value="vocab"/>
-								</xs:restriction>
-							</xs:simpleType>
-						</xs:attribute>
-						<xs:attribute name="name" type="xs:string" use="optional"/>
-						<xs:attribute name="note" type="xs:string" use="optional"/>
-					</xs:complexType>
-				</xs:element>
-				<xs:choice maxOccurs="unbounded">
-					<xs:element ref="parameter"/>
-					<xs:element ref="parameterRef"/>
-				</xs:choice>
-			</xs:choice>
-			<xs:attributeGroup ref="parameterAttGrp"/>
-			<xs:attribute name="choice" use="required">
-				<xs:simpleType>
-					<xs:restriction base="xs:string">
-						<xs:enumeration value="AND"/>
-						<xs:enumeration value="OR"/>
-						<xs:enumeration value="XOR"/>
-					</xs:restriction>
-				</xs:simpleType>
-			</xs:attribute>
-			<xs:attribute name="note" type="xs:string" use="optional"/>
-			<xs:attribute name="id" type="xs:string" use="optional"/>
+			<xs:sequence>
+				<xs:element ref="component"/>
+			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="component">
 		<xs:complexType>
 			<xs:complexContent>
-				<xs:extension base="vocabType">
+				<xs:extension base="componentType">
+					<xs:choice maxOccurs="unbounded">
+						<xs:element name="parameter">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="value" maxOccurs="unbounded">
+										<xs:complexType>
+											<xs:attribute name="units" type="xs:string" use="optional"/>
+											<xs:attribute name="format" use="optional">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:enumeration value="integer"/>
+														<xs:enumeration value="string"/>
+														<xs:enumeration value="vocab"/>
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:attribute>
+											<xs:attribute name="name" type="xs:string" use="required"/>
+											<xs:attributeGroup ref="noteAttGrp"/>
+										</xs:complexType>
+									</xs:element>
+								</xs:sequence>
+								<xs:attributeGroup ref="parameterAttGrp"/>
+								<xs:attributeGroup ref="noteAttGrp"/>
+							</xs:complexType>
+						</xs:element>
+						<xs:element ref="component"/>
+					</xs:choice>
 					<xs:attributeGroup ref="componentAttGrp"/>
-					<xs:attribute name="id" type="xs:string" use="optional"/>
+					<xs:attributeGroup ref="noteAttGrp"/>
 				</xs:extension>
 			</xs:complexContent>
 		</xs:complexType>
 	</xs:element>
-	<xs:element name="componentRef">
-		<xs:complexType>
-			<xs:attributeGroup ref="componentAttGrp"/>
-			<xs:attribute name="ref" type="xs:string" use="required"/>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="parameterRef">
-		<xs:complexType>
-			<xs:attributeGroup ref="parameterAttGrp"/>
-		</xs:complexType>
-	</xs:element>
-	<xs:complexType name="vocabType">
-		<xs:choice maxOccurs="unbounded">
-			<xs:element ref="component"/>
-			<xs:element ref="componentRef"/>
-			<xs:element ref="parameter"/>
-			<xs:element ref="parameterRef"/>
-		</xs:choice>
-	</xs:complexType>
+	<xs:complexType name="componentType"/>
 	<xs:attributeGroup name="componentAttGrp">
 		<xs:attribute name="name" type="xs:string" use="required"/>
-		<xs:attribute name="mmtype" use="required">
+	</xs:attributeGroup>
+	<xs:attributeGroup name="parameterAttGrp">
+		<xs:attribute name="name" type="xs:string" use="required"/>
+		<xs:attribute name="choice" use="optional">
 			<xs:simpleType>
 				<xs:restriction base="xs:string">
-					<xs:enumeration value="component"/>
-					<xs:enumeration value="sub-component"/>
-					<xs:enumeration value="scheme"/>
+					<xs:enumeration value="XOR"/>
+					<xs:enumeration value="AND"/>
+					<xs:enumeration value="OR"/>
 				</xs:restriction>
 			</xs:simpleType>
 		</xs:attribute>
 	</xs:attributeGroup>
-	<xs:attributeGroup name="parameterAttGrp">
-		<xs:attribute name="name" type="xs:string" use="required"/>
-		<xs:attribute name="common" type="xs:boolean" use="optional"/>
+	<xs:attributeGroup name="noteAttGrp">
+		<xs:attribute name="note" type="xs:string" use="optional"/>
 	</xs:attributeGroup>
 </xs:schema>
