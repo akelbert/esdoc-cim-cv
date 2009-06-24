@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<numericalExperiment documentVersion="1" control="false" xmlns="http://www.metaforclimate.eu/cim/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.metaforclimate.eu/cim/1.1 Z:\CIM\XSDs\dev0p3\activity.xsd" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+	<!-- Notes from document:
+	Repeat of the 1.1 2005 forecast with an imposed “Pinatubo” eruption in 2010
+	-->
+	
+	<rationale> To explore the degree to which future climate states depend on the initial climate state (from 'A Summary of the CMIP5 Experiment Design' by Karl Taylor et al. 2008)</rationale>
+	<Why/>
+	
+	<!-- Initial Conditions -->
+	<numericalRequirement xsi:type="InitialCondition">
+	  <description>Ocean Initial Conditions must represent in some measure the observed anomolies for the start date</description>
+	  <id xsi:type="Identifier">1.4.ic.oc</id>
+	</numericalRequirement>
+	<numericalRequirement xsi:type="InitialCondition">
+	  <description>Sea ice obs (unless modelled) must precede start date of simulation </description>
+	  <id xsi:type="Identifier">1.4.ic.seaice</id>
+	</numericalRequirement>
+	
+	<!-- Boundary/Forcing Conditions -->
+	<numericalRequirement xsi:type="BoundaryCondition">
+      <description>Imposed changing concentrations of well mixed gases (anthropogenic)</description>
+      <id xsi:type="Identifier">1.4.bc.wmg_anth</id>
+    </numericalRequirement>
+    <numericalRequirement xsi:type="BoundaryCondition">
+      <description>Imposed changing concentrations of well mixed gases (volcanic)</description>
+      <id xsi:type="Identifier">1.4.bc.wmg_volc</id>
+    </numericalRequirement>
+    <numericalRequirement xsi:type="BoundaryCondition">
+      <description>Imposed changing concentrations of short lived gas species</description>
+      <id xsi:type="Identifier">1.4.bc.sls_conc</id>
+    </numericalRequirement>
+    <numericalRequirement xsi:type="BoundaryCondition">
+      <description>Imposed changing emissions of short lived gas species</description>
+      <id xsi:type="Identifier">1.4.bc.sls_em</id>
+    </numericalRequirement>
+    <numericalRequirement xsi:type="BoundaryCondition">
+      <description>Imposed changing concentrations of aerosols (natural)</description>
+      <id xsi:type="Identifier">1.4.bc.nat_aer_conc</id>
+    </numericalRequirement>
+    <numericalRequirement xsi:type="BoundaryCondition">
+      <description>Imposed changing concentrations of aerosols (anthropogenic)</description>
+      <id xsi:type="Identifier">1.4.bc.anthr_aer_conc</id>
+    </numericalRequirement>
+    <numericalRequirement xsi:type="BoundaryCondition">
+      <description>Imposed changing emissions of aerosols (natural)</description>
+      <id xsi:type="Identifier">1.4.bc.nat_aer_em</id>
+    </numericalRequirement>
+    <numericalRequirement xsi:type="BoundaryCondition">
+      <description>Imposed changing emissions of aerosols (anthropogenic)</description>
+      <id xsi:type="Identifier">1.4.bc.anthr_aer_em</id>
+    </numericalRequirement>
+    <numericalRequirement xsi:type="BoundaryCondition">
+      <description>Imposed changing concentrations of aerosol (natural) precursors</description>
+      <id xsi:type="Identifier">1.4.bc.nat_aer_prec</id>
+    </numericalRequirement>
+    <numericalRequirement xsi:type="BoundaryCondition">
+      <description>Imposed changing concentrations of aerosol (anthropogenic) precursors</description>
+      <id xsi:type="Identifier">1.4.bc.anthro_aer_prec</id>
+    </numericalRequirement>
+    <numericalRequirement xsi:type="BoundaryCondition">
+      <description>Imposed changing solar forcing</description>
+      <id xsi:type="Identifier">1.4.bc.solar</id>
+    </numericalRequirement>           
+    <numericalRequirement xsi:type="BoundaryCondition">
+      <description>Imposed changing land use</description>
+      <id xsi:type="Identifier">1.4.bc.land</id>
+    </numericalRequirement>
+    <!-- Pinutubo-like eruption in 2010 to be simulated -->
+    <numericalRequirement xsi:type="BoundaryCondition">
+	  <description> Pinutubo-like eruption in 2010 </description>
+	  <id xsi:type="Identifier">1.4.bc.Pina2010</id>
+	</numericalRequirement>
+	<numericalRequirement xsi:type="BoundaryCondition">
+	  <description> For future dates, the RCP4.5 scenario should be used</description>
+	  <id></id>
+	</numericalRequirement>
+     
+    <CalendarType>
+		<realCalendar>
+			<range/>			
+		</realCalendar>
+	</CalendarType>
+	<requiredDuration xsi:type="ClosedDateRange">
+		<startDate> 2005-09-01T00:00:00Z</startDate>
+		<endDate> 2016-01-01T00:00:00Z </endDate>
+	</requiredDuration>
+	<author></author>
+	<creationDate>
+		2009-06-23T15:00:00Z
+	</creationDate>
+	<documentID xsi:type="Identifier">
+		CMIP5_Numreq_1.4
+	</documentID>
+</numericalExperiment>
