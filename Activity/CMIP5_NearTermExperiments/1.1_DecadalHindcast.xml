@@ -1,5 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<numericalExperiment documentVersion="1" control="false" xmlns="http://www.metaforclimate.eu/cim/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.metaforclimate.eu/cim/1.1 Z:\CIM\XSDs\dev0p3\activity.xsd" xmlns:xlink="http://www.w3.org/1999/xlink">
+<numericalExperiment documentVersion="1" control="true" xmlns="http://www.metaforclimate.eu/cim/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.metaforclimate.eu/cim/1.1 Z:\CIM\XSDs\dev0p3\activity.xsd" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+	<!-- Notes from document:
+	With ocean initial conditions in some way representative of the observed anomalies or full fields for the start date, simulations should be initialized towards the end of 1960, 1965, 1970,
+	1975, 1980, 1985, 1990, 1995 and 2000 and 2005. A minimum ensemble size of 3 should be produced for each start date. The atmospheric composition (and other conditions) should 
+	be prescribed as in the historical run (expt. 3.2) and the RCP4.5 scenario (expt. 4.1) of the long-term suite of experiments.
+
+	10 year integrations with initial dates towards the end of 1960, 1965, 1970, 1975, 1980, 1985, 1990, 1995 and 2000 and 2005 (see below). Ensemble size of 3, optionally to be increased to O(10)
+	Ocean initial conditions should be in some way representative of the observed anomalies or full fields for the start date. Land, sea-ice and atmosphere initial conditions left to the discretion of each
+	group.
+
+	Calendar start date can be 1st September, 1st November, 1st December or 1st January, according to the convenience of the modeling group. Dates should allow complete years/decades to 
+	be analyzed, e.g. start 1st Sep 1960, 1st Nov 1960 or 1st Jan 1961.
+
+	Choice of initial conditions is up to each group, subject to the principle that they should represent in some way the observed state of the climate system for the start date. Analyses of 
+	past ocean states and/or anomalies are available. Methods to transfer such analyses into an ocean model’s initial condition exist. Most experience so far is of using observed anomalies 
+	on top of the coupled model climate, but initializing with the full state is also possible, and will be used by some groups, though the whole question of initializing the climate system presents 
+	one of the biggest scientific challenges of decadal prediction.
+	- All forcings should be included as observed values for past dates, with prescribed concentrations of well-mixed GHGs. The details should be the same as used in the CMIP5 historical 
+	(20th century) runs (see Table 3), with the same flexibility on the treatment of ozone and aerosol and the same specified observational datasets.
+	- For future dates, the RCP4.5 scenario should be used if possible. Specification of reactive species and aerosols will follow those used in the long-term projection runs (see Table 4).
+	- Any deviations from the standard specifications should be properly documented.
+	- If sea-ice needs to be specified instead of being modeled, then “no cheating” applies: values cannot be specified using observations later than the start of the run. Persistence of ice from, 
+	for example, the year or decade prior to the start of the run is recommended.
+	- Note the treatment of volcanic aerosol: observed values should be used for past dates, as per CMIP5, but values to be used after 2005 should be specified based on the assumption of no 
+	further volcanic eruptions. The model runs are thus configured to predict what will happen to climate, relative to the observed past, if no major eruptions take place, which is a possible 
+	outcome for a thirty year period.
+
+	-->
+
 	<rationale> To explore the degree to which future climate states depend on the initial climate state (from 'A Summary of the CMIP5 Experiment Design' by Karl Taylor et al. 2008)</rationale>
 	<Why/>
 	

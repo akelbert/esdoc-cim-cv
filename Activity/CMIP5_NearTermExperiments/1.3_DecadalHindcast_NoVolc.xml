@@ -2,14 +2,10 @@
 <numericalExperiment documentVersion="1" control="false" xmlns="http://www.metaforclimate.eu/cim/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.metaforclimate.eu/cim/1.1 Z:\CIM\XSDs\dev0p3\activity.xsd" xmlns:xlink="http://www.w3.org/1999/xlink">
 
     <!-- Notes from document: 
-		Additional runs from 1960, 1975, 1980, 1985 and 1990 without including the Agung,
-El Chichon and Pinatubo eruptions will enable an assessment of the impact of
-volcanic eruptions on decadal predictions. It also enables an estimate of “overall
-skill” of decadal prediction to be made, complementing a dual analysis of
-“expected skill conditional on no big volcano” and “possible impact of volcano”.
-These runs could either all be 10 years long, or the 1960 and 1980 runs could be
-30 years to assess the longer term impact of the volcanoes.
--->
+	Additional runs from 1960, 1975, 1980, 1985 and 1990 without including the Agung, El Chichon and Pinatubo eruptions will enable an assessment of the impact of volcanic eruptions 
+	on decadal predictions. It also enables an estimate of “overall skill” of decadal prediction to be made, complementing a dual analysis of “expected skill conditional on no big volcano” and 
+	“possible impact of volcano”. These runs could either all be 10 years long, or the 1960 and 1980 runs could be 30 years to assess the longer term impact of the volcanoes.
+	-->
 
 	<rationale> To explore the degree to which future climate states depend on the initial climate state (from 'A Summary of the CMIP5 Experiment Design' by Karl Taylor et al. 2008)</rationale>
 	<Why/>
