@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <numericalExperiment documentVersion="1" control="false"
-    xmlns="http://metaforclimate.eu/cim/1.1"
+    xmlns="http://www.metaforclimate.eu/cim/1.1"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://metaforclimate.eu/cim/1.1 C:\Users\clp73\Desktop\Metafor\subversion\CIM\branches\dev0p3\activity.xsd"
+    xsi:schemaLocation="http://www.metaforclimate.eu/cim/1.1 C:\Users\clp73\Desktop\Metafor\subversion\CIM\branches\dev0p3\activity.xsd"
     xmlns:xlink="http://www.w3.org/1999/xlink">
     <rationale>
         Hansen experiment to diagnose fast climate system responses to 4X[CO2].  

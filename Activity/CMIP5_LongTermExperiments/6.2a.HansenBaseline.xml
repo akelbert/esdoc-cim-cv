@@ -87,5 +87,7 @@
     </requiredDuration>
     <author>Charlotte Pascoe</author>
     <creationDate>2009-06-26T11:44:00Z</creationDate>
-    <documentID xsi:type="Identifier"> CMIP5_Numreq_6.2a </documentID>
+    <documentID xsi:type="Identifier"> 
+        CMIP5_Numreq_6.2a 
+    </documentID>
 </numericalExperiment>
