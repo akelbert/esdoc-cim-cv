@@ -24,6 +24,7 @@
             Initial conditions are from experiment 3.1.PreIndustrialControl
         </description>
         <id xsi:type="Identifier">6.3.ic</id>
+        <!-- 3.2.ic -->
         <!-- 6.1.ic -->
         <!-- 6.2a.ic -->
         <!-- 6.2b.ic -->

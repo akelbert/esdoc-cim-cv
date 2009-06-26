@@ -18,7 +18,7 @@
 
     <!-- Boundary Conditions -->
     <numericalRequirement xsi:type="BoundaryCondition">
-        <description>Prescribed atmospheric concentrations of well mixed gases: not CO2</description>
+        <description>Prescribed atmospheric concentrations of well mixed gases: excluding CO2</description>
         <id xsi:type="Identifier">3.1.bc.wmg.conc</id>
     </numericalRequirement>
     <numericalRequirement xsi:type="BoundaryCondition">
