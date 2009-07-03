@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<numericalExperiment documentVersion="1" control="false" xmlns="http://www.metaforclimate.eu/cim/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.metaforclimate.eu/cim/1.1 Z:\CIM\XSDs\dev0p3\activity.xsd" xmlns:xlink="http://www.w3.org/1999/xlink">
+<numericalExperiment documentVersion="1" control="false" xmlns="http://www.metaforclimate.eu/cim/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.metaforclimate.eu/cim/1.1 Z:\CIM\XSDs\dev0p3\activity.xsd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
 	
 	<!-- Notes from document:
 	Since there is at present no generally accepted “best” way to initialize models, some groups may choose to try different initialization methods.
@@ -20,10 +20,6 @@
 	  <description>Alternative strategy/data to initialise non-ocean conditions
 	  </description>
 	  <id xsi:type="Identifier">1.5.ic.non-oc</id>
-	</numericalRequirement>
-	<numericalRequirement xsi:type="InitialCondition">
-	  <description>Sea ice obs (unless modelled) must precede start date of simulation </description>
-	  <id xsi:type="Identifier">1.5.ic.seaice</id>
 	</numericalRequirement>
 	
 	<!-- using the boundary conditions here from 1.1 (and duplicates) but in theory 1.5 could have boundary conditions related to any of the near-term experiments -->
@@ -83,24 +79,63 @@
 	  <id xsi:type="Identifier">1.5.bc.NoVolc2005</id>
 	</numericalRequirement>
 	<numericalRequirement xsi:type="BoundaryCondition">
-	  <description> For future dates, the RCP4.5 scenario should be used</description>
-	  <id></id>
+	  <description>Sea ice observations forcing (unless modelled) must precede start date of simulation </description>
+	  <id xsi:type="Identifier">1.5.bc.seaice</id>
 	</numericalRequirement>
+	<numericalRequirement xsi:type="BoundaryCondition">
+	  <description> For future dates, the RCP4.5 scenario should be used</description>
+	  <id xsi:type="Identifier">1.5.bc.rcp4.5</id>
+	</numericalRequirement>
+	
+	<shortName>
+		CMIP5_NumReq_1.5
+	</shortName>
+    <longName> 
+		CMIP5 Tier 1 near-term decadal experiment 1.5 - Alternative Initialization
+	</longName>
      
-    <CalendarType>
+    <calendarType>
 		<realCalendar>
 			<range/>			
 		</realCalendar>
-	</CalendarType>
+	</calendarType>
 	<requiredDuration xsi:type="ClosedDateRange">
 		<startDate> 1965-09-01T00:00:00Z</startDate>
 		<endDate> 2016-01-01T00:00:00Z </endDate>
 	</requiredDuration>
-	<author></author>
+	<author>
+		<gmd:CI_ResponsibleParty>
+			<gmd:individualName>
+				<gco:CharacterString>
+					Gerard Devine
+				</gco:CharacterString>
+			</gmd:individualName>
+			<gmd:organisationName>
+				<gco:CharacterString>
+					NCAS-CMS, University of Reading
+				</gco:CharacterString>
+			</gmd:organisationName>
+			<gmd:contactInfo>
+				<gmd:CI_Contact>
+					<gmd:address>
+						<gmd:CI_Address>
+							<gmd:electronicMailAddress>
+								<gco:CharacterString>
+									g.m.devine@reading.ac.uk
+								</gco:CharacterString>
+							</gmd:electronicMailAddress>
+						</gmd:CI_Address>
+					</gmd:address>
+				</gmd:CI_Contact>
+			</gmd:contactInfo>
+			<gmd:role>
+				<gmd:CI_RoleCode codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeList="originator"/>
+			</gmd:role>
+		</gmd:CI_ResponsibleParty>
+	</author>
 	<creationDate>
 		2009-06-23T15:00:00Z
 	</creationDate>
 	<documentID xsi:type="Identifier">
-		CMIP5_Numreq_1.5
 	</documentID>
 </numericalExperiment>

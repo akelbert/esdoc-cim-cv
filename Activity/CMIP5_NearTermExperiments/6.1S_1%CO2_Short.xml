@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<numericalExperiment documentVersion="1" control="false" xmlns="http://www.metaforclimate.eu/cim/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.metaforclimate.eu/cim/1.1 Z:\CIM\XSDs\dev0p3\activity.xsd" xmlns:xlink="http://www.w3.org/1999/xlink">
+<numericalExperiment documentVersion="1" control="false" xmlns="http://www.metaforclimate.eu/cim/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.metaforclimate.eu/cim/1.1 Z:\CIM\XSDs\dev0p3\activity.xsd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
 
 	<!-- Notes from document:
 
@@ -63,22 +63,57 @@
       <description>Unperturbed Land Use</description>
       <id xsi:type="Identifier">6.1S.bc.LandUse</id>
     </numericalRequirement>
+    
+    <shortName>
+		CMIP5_NumReq_6.1S
+	</shortName>
+    <longName> 
+		CMIP5 Tier 1 near-term decadal experiment 6.1S - 1%/yr CO2
+	</longName>
 	     
 	<!-- Ignore the contents of the start/end dates for now -->
-    <CalendarType>
+    <calendarType>
 		<realCalendar>
 			<range/>			
 		</realCalendar>
-	</CalendarType>
+	</calendarType>
 	<requiredDuration xsi:type="ClosedDateRange">
 		<startDate> 1965-09-01T00:00:00Z</startDate>
 		<endDate> 2016-01-01T00:00:00Z </endDate>
 	</requiredDuration>
-	<author></author>
+	<author>
+		<gmd:CI_ResponsibleParty>
+			<gmd:individualName>
+				<gco:CharacterString>
+					Gerard Devine
+				</gco:CharacterString>
+			</gmd:individualName>
+			<gmd:organisationName>
+				<gco:CharacterString>
+					NCAS-CMS, University of Reading
+				</gco:CharacterString>
+			</gmd:organisationName>
+			<gmd:contactInfo>
+				<gmd:CI_Contact>
+					<gmd:address>
+						<gmd:CI_Address>
+							<gmd:electronicMailAddress>
+								<gco:CharacterString>
+									g.m.devine@reading.ac.uk
+								</gco:CharacterString>
+							</gmd:electronicMailAddress>
+						</gmd:CI_Address>
+					</gmd:address>
+				</gmd:CI_Contact>
+			</gmd:contactInfo>
+			<gmd:role>
+				<gmd:CI_RoleCode codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeList="originator"/>
+			</gmd:role>
+		</gmd:CI_ResponsibleParty>
+	</author>
 	<creationDate>
 		2009-06-23T15:00:00Z
 	</creationDate>
 	<documentID xsi:type="Identifier">
-		CMIP5_Numreq_6.1S
 	</documentID>
 </numericalExperiment>

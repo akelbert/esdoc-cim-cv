@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<numericalExperiment documentVersion="1" control="true" xmlns="http://www.metaforclimate.eu/cim/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.metaforclimate.eu/cim/1.1 Z:\CIM\XSDs\dev0p3\activity.xsd" xmlns:xlink="http://www.w3.org/1999/xlink">
+<numericalExperiment documentVersion="1" control="true" xmlns="http://www.metaforclimate.eu/cim/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.metaforclimate.eu/cim/1.1 Z:\CIM\XSDs\dev0p3\activity.xsd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco">
 
 	<!-- Notes from document:
 	Extend to 30 years the expt. 1.1 integrations with initial dates near the end of 1960, 1980 and 2005. A minimum ensemble size of 3 should be produced for each start date.
@@ -11,10 +11,6 @@
 	<numericalRequirement xsi:type="InitialCondition">
 	  <description>Ocean Initial Conditions must represent in some measure the observed anomolies for the start date</description>
 	  <id xsi:type="Identifier">1.2.ic.oc</id>
-	</numericalRequirement>
-	<numericalRequirement xsi:type="InitialCondition">
-	  <description>Sea ice obs (unless modelled) must precede start date of simulation </description>
-	  <id xsi:type="Identifier">1.2.ic.seaice</id>
 	</numericalRequirement>
 	
 	<!-- Boundary/Forcing Conditions -->
@@ -72,24 +68,63 @@
 	  <id xsi:type="Identifier">1.2.bc.NoVolc2005</id>
 	</numericalRequirement>
 	<numericalRequirement xsi:type="BoundaryCondition">
+	  <description>Sea ice observations forcing (unless modelled) must precede start date of simulation </description>
+	  <id xsi:type="Identifier">1.2.ic.seaice</id>
+	</numericalRequirement>
+	<numericalRequirement xsi:type="BoundaryCondition">
 	  <description> For future dates, the RCP4.5 scenario should be used</description>
 	  <id></id>
 	</numericalRequirement>
+
+	<shortName>
+		CMIP5_NumReq_1.2
+	</shortName>
+    <longName> 
+		CMIP5 Core near-term decadal experiment 1.2 - 30yr Ensemble
+	</longName>
      
-    <CalendarType>
+    <calendarType>
 		<realCalendar>
 			<range/>			
 		</realCalendar>
-	</CalendarType>
+	</calendarType>
 	<requiredDuration xsi:type="ClosedDateRange">
 		<startDate> 1965-09-01T00:00:00Z</startDate>
 		<endDate> 2036-01-01T00:00:00Z </endDate>
 	</requiredDuration>
-	<author></author>
+	<author>
+		<gmd:CI_ResponsibleParty>
+			<gmd:individualName>
+				<gco:CharacterString>
+					Gerard Devine
+				</gco:CharacterString>
+			</gmd:individualName>
+			<gmd:organisationName>
+				<gco:CharacterString>
+					NCAS-CMS, University of Reading
+				</gco:CharacterString>
+			</gmd:organisationName>
+			<gmd:contactInfo>
+				<gmd:CI_Contact>
+					<gmd:address>
+						<gmd:CI_Address>
+							<gmd:electronicMailAddress>
+								<gco:CharacterString>
+									g.m.devine@reading.ac.uk
+								</gco:CharacterString>
+							</gmd:electronicMailAddress>
+						</gmd:CI_Address>
+					</gmd:address>
+				</gmd:CI_Contact>
+			</gmd:contactInfo>
+			<gmd:role>
+				<gmd:CI_RoleCode codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeList="originator"/>
+			</gmd:role>
+		</gmd:CI_ResponsibleParty>
+	</author>
 	<creationDate>
 		2009-06-23T15:00:00Z
 	</creationDate>
 	<documentID xsi:type="Identifier">
-		CMIP5_Numreq_1.2
 	</documentID>
 </numericalExperiment>
