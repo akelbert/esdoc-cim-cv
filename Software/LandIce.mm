@@ -124,9 +124,6 @@
 <font BOLD="true" NAME="Arial" SIZE="16"/>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233140079676" ID="Freemind_Link_1605446502" MODIFIED="1241021545710" TEXT="LandGlaciers">
 <font NAME="Arial" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>Not necessary according to Bertrand Decharme&#xa;Jan Polcher does not agree: cf. Gerhard Krinner (LGGE)</text>
-</hook>
 <node CREATED="1233671047851" ID="Freemind_Link_1645160569" MODIFIED="1245945460896" STYLE="fork" TEXT="yes ">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -170,6 +167,14 @@
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
+<node CREATED="1246524914500" ID="Freemind_Link_1929609108" MODIFIED="1246525028153" STYLE="fork" TEXT="Not necessary according to Bertrand Decharme...">
+<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="flag"/>
+</node>
+<node CREATED="1246524914500" ID="Freemind_Link_1883943106" MODIFIED="1246525035025" STYLE="fork" TEXT="Jan Polcher does not agree: cf. Gerhard Krinner (LGGE)">
+<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="flag"/>
+</node>
 </node>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233140113119" ID="Freemind_Link_535222412" MODIFIED="1233932888965" TEXT="LandIceSheets">
 <font NAME="Arial" SIZE="14"/>
@@ -194,9 +199,6 @@
 </node>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233140117582" ID="Freemind_Link_751721543" MODIFIED="1241021535046" TEXT="LandIceShelfs">
 <font NAME="Arial" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>Not necessary according to Bertrand Decharme&#xa;Jan Polcher does not agree: cf. Gerhard Krinner (LGGE)</text>
-</hook>
 <node CREATED="1233671047851" ID="Freemind_Link_1917554282" MODIFIED="1233917373082" STYLE="fork" TEXT="yes ">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -214,6 +216,14 @@
 <node CREATED="1233671064629" ID="Freemind_Link_635576632" MODIFIED="1233884826846" STYLE="fork" TEXT="no">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1246524914500" ID="Freemind_Link_470876427" MODIFIED="1246525040843" STYLE="fork" TEXT="Not necessary according to Bertrand Decharme...">
+<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="flag"/>
+</node>
+<node CREATED="1246524914500" ID="Freemind_Link_1548029113" MODIFIED="1246525040848" STYLE="fork" TEXT="Jan Polcher does not agree: cf. Gerhard Krinner (LGGE)">
+<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="flag"/>
 </node>
 </node>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233673871685" ID="Freemind_Link_1472721321" MODIFIED="1233932888949" TEXT="LandIceDynamics">
@@ -238,32 +248,25 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1234216711628" FOLDED="true" ID="Freemind_Link_171465" MODIFIED="1234220893283" POSITION="right" TEXT="ComponentDomain">
-<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#0033ff" CREATED="1234216711628" ID="Freemind_Link_171465" MODIFIED="1246525408009" POSITION="right" STYLE="bubble" TEXT="ComponentDomain">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="messagebox_warning"/>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#990099" CREATED="1233750974551" ID="Freemind_Link_1436213409" MODIFIED="1237373705130" STYLE="bubble" TEXT="Space">
 <font NAME="SansSerif" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>or &quot;SpatialDiscretisation&quot;&#xa;</text>
-</hook>
 </node>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233751261777" ID="Freemind_Link_634660337" MODIFIED="1237373737734" STYLE="bubble" TEXT="TimeSteppingFramework">
 <font NAME="SansSerif" SIZE="15"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>Or &quot;TimeIntegration&quot;</text>
-</hook>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1233141186319" FOLDED="true" ID="Freemind_Link_1329790666" MODIFIED="1234220893299" POSITION="right" TEXT="NumericalProperties">
+<node COLOR="#0033ff" CREATED="1233141186319" ID="Freemind_Link_1329790666" MODIFIED="1246525408019" POSITION="right" STYLE="bubble" TEXT="NumericalProperties">
 <edge WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="messagebox_warning"/>
 <node COLOR="#996600" CREATED="1233140619821" ID="Freemind_Link_161148183" MODIFIED="1233938843399" STYLE="bubble" TEXT="ModelFamily">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 <node COLOR="#990099" CREATED="1233140905740" ID="Freemind_Link_1853170669" MODIFIED="1237373942055" STYLE="bubble" TEXT="Spatial Extent">
 <font NAME="Arial" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>should&apos;nt SpatialExtent be moved to ComponentDomain/Space?&#xa;should&apos;nt SpatialExtent be described in GridPackage?</text>
-</hook>
 </node>
 <node COLOR="#996600" CREATED="1233140744489" ID="Freemind_Link_915589743" MODIFIED="1233937748310" STYLE="bubble" TEXT="Nudged">
 <font NAME="SansSerif" SIZE="14"/>
