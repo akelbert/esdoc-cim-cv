@@ -5,7 +5,14 @@
 
 <!-- This stylesheet Checks that Metafor MindMap controlled vocabulary
 files conform to the required rules to allow for correct translation
-with the MMRead.xsl stylesheet -->
+with the MMRead.xsl and MMConstraint.xsl stylesheets -->
+
+<!-- if this parameter is not set to yes then MMConstraint tests will not be performed. This value can be changed on the command line -->
+<xsl:param name="CheckConstraints" select="'yes'"/>
+
+<!-- if this parameter is not set to yes then warnings will not be output. This value can be changed on the command line -->
+<xsl:param name="Warnings" select="'yes'"/>
+
 
 <!-- note: higher priority (higher value) templates are matched before
 any lower priority templates -->
@@ -75,12 +82,14 @@ any lower priority templates -->
 
     <xsl:when test="@LINK">
 
+      <xsl:if test="$Warning='yes'">
       <xsl:message terminate="no">
       <xsl:text>*WARNING: Found Component Reference node '</xsl:text>
       <xsl:value-of select="@TEXT"/>
       <xsl:text>'. Such nodes are ignored as they are not used in the Questionnaire.
 </xsl:text>
       </xsl:message>
+      </xsl:if>
 
       <!-- a componentref should have no children -->
       <xsl:variable name="Children" select="node[not(icon[@BUILTIN='messagebox_warning'] or font[@ITALIC='true'])]"/>
@@ -136,12 +145,14 @@ any lower priority templates -->
     <!-- A component should not have the word scheme at the end of its name -->
     <xsl:variable name="tolower" select="translate(@TEXT,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz')"/>
     <xsl:if test="contains($tolower,'scheme')">
+      <xsl:if test="$Warning='yes'">
       <xsl:message terminate="no">
       <xsl:text>*WARNING: It is recommended that you do not use the term 'scheme' when specifying a component. Found component called '</xsl:text>
       <xsl:value-of select="@TEXT"/>
       <xsl:text>'
 </xsl:text>
       </xsl:message>
+      </xsl:if>
     </xsl:if>
 
     <xsl:apply-templates/>
@@ -199,6 +210,7 @@ any lower priority templates -->
 
       <!-- we have only 1 value for this parameter so it should not have a choice option -->
       <xsl:if test="$ValueChildren[icon[@BUILTIN='button_ok' or @BUILTIN='button_cancel' or @BUILTIN='bookmark']]">
+        <xsl:if test="$Warning='yes'">
         <xsl:message terminate="no">
         <xsl:text>*WARNING: Parameter '</xsl:text>
         <xsl:value-of select="@TEXT"/>
@@ -207,6 +219,7 @@ any lower priority templates -->
         <xsl:text>' so this value should not be marked as OR, XOR or AND
 </xsl:text>
         </xsl:message>
+        </xsl:if>
       </xsl:if>
 
     </xsl:when>
@@ -331,6 +344,7 @@ any lower priority templates -->
     </xsl:otherwise>
     </xsl:choose>
 
+    <xsl:if test="$CheckConstraints='yes'">
       <!-- check that notes conform to the required syntax -->
     <xsl:if test="hook/text">
 
@@ -410,6 +424,8 @@ any lower priority templates -->
         </xsl:choose>
 
       </xsl:for-each>
+
+    </xsl:if>
 
     </xsl:if>
 

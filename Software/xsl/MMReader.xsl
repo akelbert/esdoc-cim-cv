@@ -11,9 +11,16 @@ lower priority templates -->
 
   <!-- match the top level of the xml document -->
   <xsl:template match="/">
-    <vocab>
+    <xsl:variable name="MMVersion">
+      <xsl:call-template name="GetMMVersion"/>
+    </xsl:variable>
+    <vocab mmversion="{$MMVersion}" defnversion="">
       <xsl:apply-templates/>
     </vocab>
+  </xsl:template>
+
+  <xsl:template name="GetMMVersion">
+    <xsl:value-of select="//node[@POSITION='left' and @TEXT='version']/node/@TEXT"/>
   </xsl:template>
 
   <!-- match all nodes to the left (these are for information only) -->
