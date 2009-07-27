@@ -3,8 +3,11 @@
     xmlns="http://www.metaforclimate.eu/cim/1.1"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.metaforclimate.eu/cim/1.1 C:\Users\clp73\Desktop\Metafor\subversion\CIM\branches\dev0p3\activity.xsd"
-    xmlns:xlink="http://www.w3.org/1999/xlink">
-    <rationale>Pre-Industrial Control imposes non-evolving pre-industrial conditions</rationale>
+    xmlns:xlink="http://www.w3.org/1999/xlink" 
+    xmlns:gmd="http://www.isotc211.org/2005/gmd"
+    xmlns:gco="http://www.isotc211.org/2005/gco">
+    <rationale>Pre-Industrial coupled atmosphere ocean control run. 
+        Imposes non-evolving pre-industrial conditions</rationale>
     <Why>This is the main CMIP5 control experiment against which perturbations
     are compared</Why>
     
@@ -73,7 +76,7 @@
     <author>Charlotte Pascoe</author>
     <creationDate>2009-06-26T10:14:00Z</creationDate>
     <documentID xsi:type="Identifier">
-        CMIP5_Numreq_3.1
+        3.1_pi-control
     </documentID>
     
 </numericalExperiment>
