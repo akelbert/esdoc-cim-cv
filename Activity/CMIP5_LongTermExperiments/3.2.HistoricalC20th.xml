@@ -94,7 +94,7 @@
     </CalendarType>
     <requiredDuration xsi:type="ClosedDateRange">
         <startDate>1850-01-01T00:00:00Z</startDate>
-        <endDate>2005-01-01T00:00:00Z</endDate>
+        <endDate>2006-01-01T00:00:00Z</endDate>
         <lengthYears>156</lengthYears>
     </requiredDuration>
     <author>Charlotte Pascoe</author>
