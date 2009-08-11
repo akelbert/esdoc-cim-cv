@@ -11,7 +11,7 @@ with the MMRead.xsl and MMConstraint.xsl stylesheets -->
 <xsl:param name="CheckConstraints" select="'yes'"/>
 
 <!-- if this parameter is not set to yes then warnings will not be output. This value can be changed on the command line -->
-<xsl:param name="Warnings" select="'yes'"/>
+<xsl:param name="Warning" select="'yes'"/>
 
 
 <!-- note: higher priority (higher value) templates are matched before
