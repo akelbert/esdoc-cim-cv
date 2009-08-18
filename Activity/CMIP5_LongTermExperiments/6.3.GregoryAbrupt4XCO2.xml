@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<numericalExperiment documentVersion="2" control="false"
+<numericalExperiment documentVersion="3" control="false"
     xmlns="http://www.metaforclimate.eu/cim/1.1"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.metaforclimate.eu/cim/1.1 C:\Users\clp73\Desktop\Metafor\subversion\CIM\branches\dev0p3\activity.xsd"
@@ -24,21 +24,18 @@
     <!-- Initial Conditions -->
     <numericalRequirement xsi:type="InitialCondition">
         <description>
-            Initial conditions are from experiment 3.1_pi-control
+            Initial conditions are from a January in experiment 3.1_pi-control
         </description>
-        <id xsi:type="Identifier">6.3.ic</id>
-        <!-- 3.2.ic -->
-        <!-- 6.1.ic -->
-        <!-- 6.2a.ic -->
-        <!-- 6.2b.ic -->
+        <name xsi:type="Identifier">6.3.ic</name>
+        <id xsi:type="Identifier">ic.006</id>
     </numericalRequirement>
     
     <!-- Boundary Conditions -->
     <numericalRequirement xsi:type="BoundaryCondition">
         <description>Prescribed concentration of well mixed Gas: CO2 
-            Instantaneous quadrupling of 3.1_pi-control concentration</description>
-        <id xsi:type="Identifier">6.3.bc.4XCO2.conc</id>
-        <!-- 6.2b.bc.4XCO2.conc -->
+                     is quadruple of 3.1_pi-control concentration</description>
+        <name xsi:type="Identifier">6.3.bc.4XCO2.conc</name>
+        <id xsi:type="Identifier">bc.056</id>
     </numericalRequirement> 
     
     <CalendarType>
