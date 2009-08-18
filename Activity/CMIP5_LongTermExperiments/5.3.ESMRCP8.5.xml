@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<numericalExperiment documentVersion="1" control="false"
+<numericalExperiment documentVersion="2" control="false"
     xmlns="http://www.metaforclimate.eu/cim/1.1"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.metaforclimate.eu/cim/1.1 C:\Users\clp73\Desktop\Metafor\subversion\CIM\branches\dev0p3\activity.xsd"
@@ -23,34 +23,41 @@
     
     <!-- Initial Conditions -->
     <numericalRequirement xsi:type="InitialCondition">
-        <description> Initial conditions are from experiment 3.2 </description>
-        <id xsi:type="Identifier">5.3.ic</id>
+        <description> Initial conditions are from the end of experiment 3.2_historical </description>
+        <name xsi:type="Identifier">5.3.ic</name>
+        <id xsi:type="Identifier">ic.004</id>
     </numericalRequirement>
     
     <!-- Boundary/Forcing Conditions -->
     <numericalRequirement xsi:type="BoundaryCondition">
         <description>Imposed changing emissions of RCP8.5 well mixed gases, including CO2</description>
-        <id xsi:type="Identifier">5.3.bc.wmg.em</id>
+        <name xsi:type="Identifier">5.3.bc.wmg.em</name>
+        <id xsi:type="Identifier">bc.039</id>
     </numericalRequirement>
     <numericalRequirement xsi:type="BoundaryCondition">
         <description>Imposed changing emissions of RCP8.5 short lived gas species </description>
-        <id xsi:type="Identifier">5.3.bc.sls.em</id>
+        <name xsi:type="Identifier">5.3.bc.sls.em</name>
+        <id xsi:type="Identifier">bc.040</id>
     </numericalRequirement>
     <numericalRequirement xsi:type="BoundaryCondition">
         <description>Imposed changing emissions of RCP8.5 aerosols </description>
-        <id xsi:type="Identifier">5.3.bc.aer.em</id>
+        <name xsi:type="Identifier">5.3.bc.aer.em</name>
+        <id xsi:type="Identifier">bc.041</id>
     </numericalRequirement>
     <numericalRequirement xsi:type="BoundaryCondition">
         <description>Imposed changing emissions of RCP8.5 aerosol precursors </description>
-        <id xsi:type="Identifier">5.3.bc.aer_pre.em</id>
+        <name xsi:type="Identifier">5.3.bc.aer_pre.em</name>
+        <id xsi:type="Identifier">bc.042</id>
     </numericalRequirement>
     <numericalRequirement xsi:type="BoundaryCondition">
         <description>Imposed changing RCP8.5 land use </description>
-        <id xsi:type="Identifier">5.3.bc.LandUse</id>
+        <name xsi:type="Identifier">5.3.bc.LandUse</name>
+        <id xsi:type="Identifier">bc.043</id>
     </numericalRequirement>
     <numericalRequirement xsi:type="BoundaryCondition">
         <description>Imposed constant background volcanic aerosol may (or may not) be specified</description>
-        <id xsi:type="Identifier">5.3.bc.aer_volc.conc</id>
+        <name xsi:type="Identifier">5.3.bc.aer_volc.conc</name>
+        <id xsi:type="Identifier">bc.034</id>
     </numericalRequirement>
     
     <CalendarType>

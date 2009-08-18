@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<numericalExperiment documentVersion="1" control="false"
+<numericalExperiment documentVersion="2" control="false"
     xmlns="http://www.metaforclimate.eu/cim/1.1"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.metaforclimate.eu/cim/1.1 C:\Users\clp73\Desktop\Metafor\subversion\CIM\branches\dev0p3\activity.xsd"
@@ -27,50 +26,56 @@
     
     <!-- Initial Conditions -->
     <numericalRequirement xsi:type="InitialCondition">
-        <description> Initial conditions are from experiment 3.1.PreIndustrialControl </description>
-        <id xsi:type="Identifier">5.2.ic</id>
-        <!-- 3.2.ic -->
-        <!-- 6.1.ic -->
-        <!-- 6.2a.ic -->
-        <!-- 6.2b.ic -->
+        <description> Initial conditions are from experiment 3.1_pi-control </description>
+        <name xsi:type="Identifier">5.2.ic</name>
+        <id xsi:type="Identifier">ic.002</id>
     </numericalRequirement>
     
     <!-- Boundary/Forcing Conditions -->
     <numericalRequirement xsi:type="BoundaryCondition">
-        <description>Imposed changing emissions of anthropogenic well mixed gases, including CO2</description>
-        <id xsi:type="Identifier">5.2.bc.wmg_anth.em</id>
+        <description>Imposed changing emissions of historical anthropogenic well mixed gases, including CO2</description>
+        <name xsi:type="Identifier">5.2.bc.wmg_anth.em</name>
+        <id xsi:type="Identifier">bc.047</id>
     </numericalRequirement>
     <numericalRequirement xsi:type="BoundaryCondition">
-        <description>Imposed changing emissions of volcanic well mixed gases, including CO2</description>
-        <id xsi:type="Identifier">5.2.bc.wmg_volc.em</id>
+        <description>Imposed changing emissions of historical volcanic well mixed gases, including CO2</description>
+        <name xsi:type="Identifier">5.2.bc.wmg_volc.em</name>
+        <id xsi:type="Identifier">bc.048</id>
     </numericalRequirement>
     <numericalRequirement xsi:type="BoundaryCondition">
-        <description>Imposed changing emissions of short lived gas species</description>
-        <id xsi:type="Identifier">5.2.bc.sls.em</id>
+        <description>Imposed changing emissions of historical short lived gas species</description>
+        <name xsi:type="Identifier">5.2.bc.sls.em</name>
+        <id xsi:type="Identifier">bc.018</id>
     </numericalRequirement>
     <numericalRequirement xsi:type="BoundaryCondition">
-        <description>Imposed changing emissions of natural aerosols</description>
-        <id xsi:type="Identifier">5.2.bc.aer_nat.em</id>
+        <description>Imposed changing emissions of historical natural aerosols</description>
+        <name xsi:type="Identifier">5.2.bc.aer_nat.em</name>
+        <id xsi:type="Identifier">bc.019</id>
     </numericalRequirement>
     <numericalRequirement xsi:type="BoundaryCondition">
-        <description>Imposed changing emissions of anthropogenic aerosols</description>
-        <id xsi:type="Identifier">5.2.bc.aer_anth.em</id>
+        <description>Imposed changing emissions of historical anthropogenic aerosols</description>
+        <name xsi:type="Identifier">5.2.bc.aer_anth.em</name>
+        <id xsi:type="Identifier">bc.020</id>
     </numericalRequirement>
     <numericalRequirement xsi:type="BoundaryCondition">
-        <description>Imposed changing emissions of natural aerosol precursors</description>
-        <id xsi:type="Identifier">5.2.bc.aer_pre_nat.em</id>
+        <description>Imposed changing emissions of historical natural aerosol precursors</description>
+        <name xsi:type="Identifier">5.2.bc.aer_pre_nat.em</name>
+        <id xsi:type="Identifier">bc.049</id>
     </numericalRequirement>
     <numericalRequirement xsi:type="BoundaryCondition">
-        <description>Imposed changing emissions of anthropogenic aerosol precursors</description>
-        <id xsi:type="Identifier">5.2.bc.aer_pre_anth.em</id>
+        <description>Imposed changing emissions of historical anthropogenic aerosol precursors</description>
+        <name xsi:type="Identifier">5.2.bc.aer_pre_anth.em</name>
+        <id xsi:type="Identifier">bc.050</id>
     </numericalRequirement>
     <numericalRequirement xsi:type="BoundaryCondition">
-        <description>Imposed changing solar forcing</description>
-        <id xsi:type="Identifier">5.2.bc.solar</id>
+        <description>Imposed historical changing solar forcing</description>
+        <name xsi:type="Identifier">5.2.bc.solar</name>
+        <id xsi:type="Identifier">bc.021</id>        
     </numericalRequirement>
     <numericalRequirement xsi:type="BoundaryCondition">
-        <description>Imposed changing land use</description>
-        <id xsi:type="Identifier">5.2.bc.LandUse</id>
+        <description>Imposed historical changing land use</description>
+        <name xsi:type="Identifier">5.2.bc.LandUse</name>
+        <id xsi:type="Identifier">bc.022</id>
     </numericalRequirement>
     
     <CalendarType>
