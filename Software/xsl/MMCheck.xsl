@@ -13,8 +13,8 @@ with the MMRead.xsl and MMConstraint.xsl stylesheets -->
 <!-- if this parameter is not set to yes then warnings will not be output. This value can be changed on the command line -->
 <xsl:param name="Warning" select="'yes'"/>
 
-<!-- The default maximum number of characters allowed for a parameter name. This value can be changed on the command line -->
-<xsl:param name="ParamLength" select="20"/>
+<!-- The default maximum number of characters allowed for a component name. This value can be changed on the command line -->
+<xsl:param name="CompLen" select="20"/>
 
 <!-- note: higher priority (higher value) templates are matched before
 any lower priority templates -->
@@ -128,6 +128,21 @@ any lower priority templates -->
         </xsl:if>
       </xsl:for-each>
 
+      <!-- the length of the component name must be <= CompLen characters -->
+      <xsl:if test="string-length($NodeName)>$CompLen">
+        <xsl:message terminate="no">
+          <xsl:text>*ERROR: a component name must be at most </xsl:text>
+          <xsl:value-of select="$CompLen"/>
+          <xsl:text> characters long. Found component '</xsl:text>
+          <xsl:value-of select="$NodeName"/>
+          <xsl:text>' in '</xsl:text>
+          <xsl:call-template name="AncestorComponents"/>
+          <xsl:text>'.</xsl:text>
+        </xsl:message>
+      </xsl:if>
+
+
+
     </xsl:otherwise>
 
     </xsl:choose>
@@ -191,16 +206,6 @@ any lower priority templates -->
             <xsl:text>' that is not a component.
 </xsl:text>
           </xsl:message>
-     </xsl:if>
-
-     <!-- the length of the parameter name must be <= ParamLenth characters -->
-     <xsl:if test="string-length(@TEXT)>$ParamLength">
-       <xsl:message terminate="no">
-         <xsl:text>*ERROR: a parameter name must be at most </xsl:text>
-         <xsl:value-of select="$ParamLength"/>
-         <xsl:text> characters long. </xsl:text>
-         <xsl:call-template name="ParameterAndAncestorComponents"/>
-       </xsl:message>
      </xsl:if>
 
     <!-- Perform some checks on the values associated with this parameter -->
