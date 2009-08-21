@@ -1071,28 +1071,25 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233246393000" ID="Freemind_Link_607092311" MODIFIED="1233881475485" STYLE="bubble" TEXT="SpatialExtent">
-<font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1233246454929" ID="Freemind_Link_172050918" MODIFIED="1246548231422" STYLE="fork" TEXT="depth">
+<node COLOR="#990099" CREATED="1233246393000" ID="Freemind_Link_607092311" MODIFIED="1250866745003" STYLE="bubble" TEXT="SpatialExtent">
+<font BOLD="true" NAME="SansSerif" SIZE="14"/>
+<node COLOR="#996600" CREATED="1233246454929" ID="Freemind_Link_172050918" MODIFIED="1250866767857" STYLE="bubble" TEXT="depth">
 <font NAME="Arial" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-<node CREATED="1244813158337" ID="Freemind_Link_1696765756" MODIFIED="1246548165775" TEXT="[min, max values](meters)">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="full-1"/>
-</node>
-</node>
-<node CREATED="1233246454929" ID="Freemind_Link_401973543" MODIFIED="1246548236253" STYLE="fork" TEXT="latitude">
-<font NAME="Arial" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-<node CREATED="1244813158337" ID="Freemind_Link_1654552067" MODIFIED="1246548188965" TEXT="[min, max values](degN)">
+<node CREATED="1244813158337" ID="Freemind_Link_1696765756" MODIFIED="1246548165775" STYLE="fork" TEXT="[min, max values](meters)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node CREATED="1233246454929" ID="Freemind_Link_1137934434" MODIFIED="1246548240866" STYLE="fork" TEXT="longitude">
+<node COLOR="#996600" CREATED="1233246454929" ID="Freemind_Link_401973543" MODIFIED="1250866767872" STYLE="bubble" TEXT="latitude">
 <font NAME="Arial" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-<node CREATED="1244813158337" ID="Freemind_Link_838844267" MODIFIED="1246548206432" TEXT="[min, max values](degW)">
+<node CREATED="1244813158337" ID="Freemind_Link_1654552067" MODIFIED="1246548188965" STYLE="fork" TEXT="[min, max values](degN)">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-1"/>
+</node>
+</node>
+<node COLOR="#996600" CREATED="1233246454929" ID="Freemind_Link_1137934434" MODIFIED="1250866767857" STYLE="bubble" TEXT="longitude">
+<font NAME="Arial" SIZE="14"/>
+<node CREATED="1244813158337" ID="Freemind_Link_838844267" MODIFIED="1246548206432" STYLE="fork" TEXT="[min, max values](degW)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>

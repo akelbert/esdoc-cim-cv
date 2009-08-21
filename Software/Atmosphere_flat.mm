@@ -7,7 +7,7 @@
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233138667215" ID="_" MODIFIED="1236848504074" POSITION="right" STYLE="bubble" TEXT="Atmosphere">
 <edge COLOR="#999999" STYLE="bezier" WIDTH="2"/>
 <font BOLD="true" NAME="Arial" SIZE="18"/>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233138776960" FOLDED="true" ID="Freemind_Link_1994420078" MODIFIED="1242398919418" TEXT="DynamicalCore">
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233138776960" ID="Freemind_Link_1994420078" MODIFIED="1242398919418" TEXT="DynamicalCore">
 <font BOLD="true" NAME="Arial" SIZE="14"/>
 <node COLOR="#996600" CREATED="1233141022285" FOLDED="true" ID="Freemind_Link_599221753" MODIFIED="1244564171502" STYLE="bubble" TEXT="BasicApproximations">
 <font NAME="Arial" SIZE="14"/>
@@ -483,7 +483,7 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233138793223" FOLDED="true" ID="Freemind_Link_581230624" MODIFIED="1242401102688" TEXT="Radiation">
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233138793223" ID="Freemind_Link_581230624" MODIFIED="1242401102688" TEXT="Radiation">
 <font BOLD="true" NAME="Arial" SIZE="14"/>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#990099" CREATED="1233138867142" ID="Freemind_Link_1498154611" MODIFIED="1233932889838" TEXT="Longwave">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
@@ -670,7 +670,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1242399058639" ID="Freemind_Link_1253463125" MODIFIED="1243356956628" TEXT="TurbulenceConvectionClouds">
+<node CREATED="1242399058639" ID="Freemind_Link_1253463125" MODIFIED="1250866313070" TEXT="TurbulenceConvectionCloud">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1233139103300" ID="Freemind_Link_337098503" MODIFIED="1243356935077" TEXT="BoundaryLayerTurbulence">
 <font BOLD="true" NAME="Arial" SIZE="14"/>
@@ -910,10 +910,10 @@
 <icon BUILTIN="messagebox_warning"/>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1233138805927" ID="Freemind_Link_1251977174" MODIFIED="1243356935186" TEXT="AtmosCloudScheme">
+<node COLOR="#990099" CREATED="1233138805927" ID="Freemind_Link_1251977174" MODIFIED="1250866412504" TEXT="CloudScheme">
 <edge STYLE="bezier"/>
 <font BOLD="true" NAME="Arial" SIZE="14"/>
-<node COLOR="#990099" CREATED="1242399316765" ID="Freemind_Link_398816266" MODIFIED="1244799252090" TEXT="SubGridScaleWaterDistribution">
+<node COLOR="#990099" CREATED="1242399316765" ID="Freemind_Link_398816266" MODIFIED="1250866326806" TEXT="SubGridScaleWaterDistrib">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1242399294597" ID="Freemind_Link_774479283" MODIFIED="1244732704352" TEXT="Type">
 <font NAME="SansSerif" SIZE="14"/>
@@ -998,7 +998,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1233138808759" ID="Freemind_Link_1898916985" MODIFIED="1243356935139" TEXT="AtmosLargeScalePrecipitation">
+<node COLOR="#990099" CREATED="1233138808759" ID="Freemind_Link_1898916985" MODIFIED="1250866419392" TEXT="LargeScalePrecipitation">
 <font BOLD="true" NAME="Arial" SIZE="14"/>
 <node COLOR="#996600" CREATED="1233142548831" ID="Freemind_Link_172320802" MODIFIED="1245674895287" TEXT="SchemeName">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1102,7 +1102,7 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233138801111" FOLDED="true" ID="Freemind_Link_744791386" MODIFIED="1242400590519" TEXT="OrographyAndWaves">
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233138801111" ID="Freemind_Link_744791386" MODIFIED="1242400590519" TEXT="OrographyAndWaves">
 <font BOLD="true" NAME="Arial" SIZE="14"/>
 <node COLOR="#990099" CREATED="1242400602835" ID="Freemind_Link_473167737" MODIFIED="1243412131341" TEXT="GravityWaves">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
