@@ -14,7 +14,7 @@ with the MMRead.xsl and MMConstraint.xsl stylesheets -->
 <xsl:param name="Warning" select="'yes'"/>
 
 <!-- The default maximum number of characters allowed for a component name. This value can be changed on the command line -->
-<xsl:param name="CompLen" select="20"/>
+<xsl:param name="CompLen" select="25"/>
 
 <!-- note: higher priority (higher value) templates are matched before
 any lower priority templates -->
