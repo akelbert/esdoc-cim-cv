@@ -12,52 +12,65 @@
 	-->
 
 	<rationale> To explore the degree to which future climate states depend on the initial climate state (from 'A Summary of the CMIP5 Experiment Design' by Karl Taylor et al. 2008)</rationale>
-	<Why/>
+	<why/>
 	
 	<!-- Initial Conditions -->
-	<numericalRequirement xsi:type="InitialCondition">
-      <description>
-            Pre-industrial conditions used to initialise model following a spin-up <!-- need to think about this one a bit more -->
-      </description>
-      <id xsi:type="Identifier">3.1S.ic</id>
+    <numericalRequirement xsi:type="InitialCondition">
+        <id xsi:type="Identifier">ic.001</id>
+        <name xsi:type="Identifier">3.1S.ic</name>
+        <description>A description of initial condition for the control run </description>
     </numericalRequirement>
-    
+	    
 	<!-- Boundary/Forcing Conditions -->
     <numericalRequirement xsi:type="BoundaryCondition">
-      <description>Prescribed atmospheric concentrations of well mixed gases - including [CO2]</description>
-      <id xsi:type="Identifier">3.1S.bc.wmg </id>
+        <id xsi:type="Identifier">bc.001</id>
+        <name xsi:type="Identifier">3.1S.bc.wmg.conc</name>
+        <description>Prescribed atmospheric concentrations of pre-industrial well mixed gases: excluding CO2</description>
     </numericalRequirement>
     <numericalRequirement xsi:type="BoundaryCondition">
-      <description>Prescribed atmospheric concentration of short lived (reactive) gas species</description>
-      <id xsi:type="Identifier">3.1S.bc.sls </id>
+        <id xsi:type="Identifier">bc.002</id>
+        <name xsi:type="Identifier">3.1S.bc.CO2.conc</name>
+        <description>Prescribed atmospheric concentrations of pre-industrial well mixed gas: Carbon Dioxide</description>
     </numericalRequirement>
     <numericalRequirement xsi:type="BoundaryCondition">
-      <description>Prescribed concentrations of natural aerosols</description>
-      <id xsi:type="Identifier">3.1S.bc.cna</id>
+        <id xsi:type="Identifier">bc.003</id>
+        <name xsi:type="Identifier">3.1S.bc.sls.conc</name>
+        <description>Prescribed atmospheric concentration of pre-industrial short lived (reactive) gas species</description>
     </numericalRequirement>
     <numericalRequirement xsi:type="BoundaryCondition">
-      <description>Prescribed concentrations of natural aerosol precursors</description>
-      <id xsi:type="Identifier">3.1S.bc.cnap</id>
+        <id xsi:type="Identifier">bc.004</id>
+        <name xsi:type="Identifier">3.1S.bc.nat_aer.conc</name>
+        <description>Prescribed concentrations of pre-industrial natural aerosols</description>
     </numericalRequirement>
     <numericalRequirement xsi:type="BoundaryCondition">
-	  <description>Prescribed concentrations of short lived (reactive) aerosol species</description>
-	  <id xsi:type="Identifier">3.1S.bc.csla</id>
+        <id xsi:type="Identifier">bc.005</id>
+        <name xsi:type="Identifier">3.1S.bc.nat_aer_precur.conc</name>
+        <description>Prescribed concentrations of pre-industrial natural aerosol precursors</description>
     </numericalRequirement>
     <numericalRequirement xsi:type="BoundaryCondition">
-	  <description>Prescribed emissions of natural aerosols</description>
-      <id xsi:type="Identifier">3.1S.bc.ena</id>
+        <id xsi:type="Identifier">bc.006</id>
+        <name xsi:type="Identifier">3.1S.bc.sl_aer.conc</name>
+        <description>Prescribed concentrations of pre-industrial short lived (reactive) aerosol species</description>
     </numericalRequirement>
     <numericalRequirement xsi:type="BoundaryCondition">
-      <description>Prescribed emissions of natural aerosol precursors</description>
-      <id xsi:type="Identifier">3.1S.bc.enap</id>
+        <id xsi:type="Identifier">bc.007</id>
+        <name xsi:type="Identifier">3.1S.bc.nat_aer.em</name>
+        <description>Prescribed emissions of pre-industrial natural aerosols</description>
     </numericalRequirement>
     <numericalRequirement xsi:type="BoundaryCondition">
-	  <description>Prescribed emissions of short lived (reactive) aerosol species</description>
-	  <id xsi:type="Identifier">3.1S.bc.esla </id>
+        <id xsi:type="Identifier">bc.008</id>
+        <name xsi:type="Identifier">3.1S.bc.nat_aer_precur.em</name>
+        <description>Prescribed emissions of pre-industrial natural aerosol precursors</description>
     </numericalRequirement>
     <numericalRequirement xsi:type="BoundaryCondition">
-      <description>Unperturbed Land Use</description>
-      <id xsi:type="Identifier">3.1S.bc.LandUse</id>
+        <id xsi:type="Identifier">bc.009</id>
+        <name xsi:type="Identifier">3.1S.bc.sl_aer.em</name>
+        <description>Prescribed emissions of pre-industrial short lived (reactive) aerosol species</description>
+    </numericalRequirement>
+    <numericalRequirement xsi:type="BoundaryCondition">
+        <id xsi:type="Identifier">bc.010</id>
+        <name xsi:type="Identifier">3.1S.bc.LandUse</name>
+        <description>Unperturbed Pre-Industrial Land Use</description>
     </numericalRequirement>
 	    
 	<shortName>
@@ -67,15 +80,16 @@
 		CMIP5 Tier 1 near-term decadal experiment 3.1S - Shortened pre-industrial
 	</longName>
 	
-	<!-- Ignore the contents of the start/end dates for now -->
-    <calendarType>
-		<realCalendar>
-			<range/>			
-		</realCalendar>
-	</calendarType>
+    <calendar>
+		<daily-360>
+			<range>
+				<closedDateRange></closedDateRange>
+			</range>
+		</daily-360>
+	</calendar>
 	<requiredDuration xsi:type="ClosedDateRange">
-		<startDate> 1965-09-01T00:00:00Z</startDate>
-		<endDate> 2016-01-01T00:00:00Z </endDate>
+		<startDate> 1850-01-01T00:00:00Z</startDate>
+		<endDate> 1950-01-01T00:00:00Z </endDate>
 	</requiredDuration>
 	<author>
 		<gmd:CI_ResponsibleParty>
@@ -107,9 +121,9 @@
 			</gmd:role>
 		</gmd:CI_ResponsibleParty>
 	</author>
+	<documentID xsi:type="Identifier">
+	</documentID>
 	<creationDate>
 		2009-06-23T15:00:00Z
 	</creationDate>
-	<documentID xsi:type="Identifier">
-	</documentID>
 </numericalExperiment>

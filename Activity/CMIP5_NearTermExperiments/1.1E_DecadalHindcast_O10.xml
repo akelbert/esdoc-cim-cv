@@ -6,76 +6,160 @@
 	-->
 
 	<rationale> To explore the degree to which future climate states depend on the initial climate state (from 'A Summary of the CMIP5 Experiment Design' by Karl Taylor et al. 2008)</rationale>
-	<Why/>
+	<why/>
 	
 	<!-- Initial Conditions -->
 	<numericalRequirement xsi:type="InitialCondition">
-	  <description>Ocean Initial Conditions must represent in some measure the observed anomolies for the start date</description>
-	  <id xsi:type="Identifier">1.1E.ic.oc</id>
+		<id xsi:type="Identifier">ic.007</id>
+		<name>1.1E.ic.oc</name>
+		<description>Ocean Initial Conditions must represent in some measure the observed anomolies for the start date used</description>
 	</numericalRequirement>
 	
 	<!-- Boundary/Forcing Conditions -->
 	<numericalRequirement xsi:type="BoundaryCondition">
-      <description>Imposed changing concentrations of well mixed gases (anthropogenic)</description>
-      <id xsi:type="Identifier">1.1E.bc.wmg_anth</id>
+		<id xsi:type="Identifier">bc.011</id>
+		<name>1.1E.bc.wmg_anth</name>
+		<description>Imposed changing concentrations of well mixed gases (anthropogenic)</description>
     </numericalRequirement>
+    
     <numericalRequirement xsi:type="BoundaryCondition">
-      <description>Imposed changing concentrations of well mixed gases (volcanic)</description>
-      <id xsi:type="Identifier">1.1E.bc.wmg_volc</id>
+		<id xsi:type="Identifier">bc.012</id>
+		<name>1.1E.bc.wmg_volc</name>
+		<description>Imposed changing concentrations of well mixed gases (volcanic)</description>
     </numericalRequirement>
+    
     <numericalRequirement xsi:type="BoundaryCondition">
-      <description>Imposed changing concentrations of short lived gas species</description>
-      <id xsi:type="Identifier">1.1E.bc.sls_conc</id>
+		<id xsi:type="Identifier">bc.013</id>
+		<name>1.1E.bc.sls_conc</name>
+		<description>Imposed changing concentrations of short lived gas species</description>
     </numericalRequirement>
+    
     <numericalRequirement xsi:type="BoundaryCondition">
-      <description>Imposed changing emissions of short lived gas species</description>
-      <id xsi:type="Identifier">1.1E.bc.sls_em</id>
+		<id xsi:type="Identifier">bc.018</id>
+		<name>1.1E.bc.sls_em</name>
+		<description>Imposed changing emissions of short lived gas species</description>
     </numericalRequirement>
+    
     <numericalRequirement xsi:type="BoundaryCondition">
-      <description>Imposed changing concentrations of aerosols (natural)</description>
-      <id xsi:type="Identifier">1.1E.bc.nat_aer_conc</id>
+		<id xsi:type="Identifier">bc.014</id>
+		<name>1.1E.bc.nat_aer_conc</name>
+		<description>Imposed changing concentrations of aerosols (natural)</description>
     </numericalRequirement>
+    
     <numericalRequirement xsi:type="BoundaryCondition">
-      <description>Imposed changing concentrations of aerosols (anthropogenic)</description>
-      <id xsi:type="Identifier">1.1E.bc.anthr_aer_conc</id>
+		<id xsi:type="Identifier">bc.015</id>
+		<name>1.1E.bc.anthr_aer_conc</name>
+		<description>Imposed changing concentrations of aerosols (anthropogenic)</description>
     </numericalRequirement>
+    
     <numericalRequirement xsi:type="BoundaryCondition">
-      <description>Imposed changing emissions of aerosols (natural)</description>
-      <id xsi:type="Identifier">1.1E.bc.nat_aer_em</id>
+		<id xsi:type="Identifier">bc.019</id>
+		<name>1.1E.bc.nat_aer_em</name>
+		<description>Imposed changing emissions of aerosols (natural)</description>
     </numericalRequirement>
+    
     <numericalRequirement xsi:type="BoundaryCondition">
-      <description>Imposed changing emissions of aerosols (anthropogenic)</description>
-      <id xsi:type="Identifier">1.1E.bc.anthr_aer_em</id>
+		<id xsi:type="Identifier">bc.020</id>
+		<name>1.1E.bc.anthr_aer_em</name>
+		<description>Imposed changing emissions of aerosols (anthropogenic)</description>
     </numericalRequirement>
+    
     <numericalRequirement xsi:type="BoundaryCondition">
-      <description>Imposed changing concentrations of aerosol (natural) precursors</description>
-      <id xsi:type="Identifier">1.1E.bc.nat_aer_prec</id>
+		<id xsi:type="Identifier">bc.016</id>
+		<name>1.1E.bc.nat_aer_prec</name>
+		<description>Imposed changing concentrations of aerosol (natural) precursors</description>
     </numericalRequirement>
+    
     <numericalRequirement xsi:type="BoundaryCondition">
-      <description>Imposed changing concentrations of aerosol (anthropogenic) precursors</description>
-      <id xsi:type="Identifier">1.1E.bc.anthro_aer_prec</id>
+		<id xsi:type="Identifier">bc.017</id>
+		<name>1.1E.bc.anthro_aer_prec</name>
+		<description>Imposed changing concentrations of aerosol (anthropogenic) precursors</description>
     </numericalRequirement>
+    
     <numericalRequirement xsi:type="BoundaryCondition">
-      <description>Imposed changing solar forcing</description>
-      <id xsi:type="Identifier">1.1E.bc.solar</id>
-    </numericalRequirement>           
-    <numericalRequirement xsi:type="BoundaryCondition">
-      <description>Imposed changing land use</description>
-      <id xsi:type="Identifier">1.1E.bc.land</id>
+		<id xsi:type="Identifier">bc.021</id>
+		<name>1.1E.bc.solar</name>
+		<description>Imposed changing solar forcing</description>
     </numericalRequirement>
-    <!-- Treatment of Volcanic aerosol beyond 2005 (i.e. should assume no volcanic eruptions after 2005) may be able to be checked in software/data but am including here in case -->
+               
     <numericalRequirement xsi:type="BoundaryCondition">
-	  <description> No volcanic aerosol emissions beyond 2005 </description>
-	  <id xsi:type="Identifier">1.1E.bc.NoVolc2005</id>
+		<id xsi:type="Identifier">bc.022</id>
+		<name>1.1E.bc.land</name>
+		<description>Imposed changing land use</description>
+    </numericalRequirement>
+    
+<!-- Treatment of Volcanic aerosol beyond 2005 (i.e. should assume no volcanic eruptions after 2005) may be able to be checked in software/data but am including here in case -->
+    <numericalRequirement xsi:type="BoundaryCondition">
+		<id xsi:type="Identifier">bc.057</id>
+		<name>1.1E.bc.NoVolc2005</name>
+		<description> No volcanic aerosol emissions beyond 2005 </description>
 	</numericalRequirement>
+	
 	<numericalRequirement xsi:type="BoundaryCondition">
-	  <description>Sea ice observations forcing (unless modelled) must precede start date of simulation </description>
-	  <id xsi:type="Identifier">1.1E.bc.seaice</id>
+		<id xsi:type="Identifier">bc.058</id>
+		<name>1.1E.bc.seaice</name>
+		<description>Sea ice observations forcing (unless modelled) must precede start date of simulation </description>
 	</numericalRequirement>
+	
 	<numericalRequirement xsi:type="BoundaryCondition">
-	  <description> For future dates, the RCP4.5 scenario should be used</description>
-	  <id></id>
-	</numericalRequirement>
+        <id xsi:type="Identifier">bc.025</id>
+        <name>1.1E.bc.wmg.conc</name>
+        <description>Imposed changing concentrations of RCP4.5 well mixed gases, including CO2</description>
+    </numericalRequirement>
+    
+    <numericalRequirement xsi:type="BoundaryCondition">
+        <id xsi:type="Identifier">bc.026</id>
+        <name>1.1E.bc.sls.conc</name>
+        <description>Imposed changing concentrations of RCP4.5 short lived gas species </description>
+    </numericalRequirement>
+    
+    <numericalRequirement xsi:type="BoundaryCondition">
+        <id xsi:type="Identifier">bc.027</id>
+        <name>1.1E.bc.aer.conc</name>
+        <description>Imposed changing concentrations of RCP4.5 aerosols</description>
+    </numericalRequirement>
+    
+    <numericalRequirement xsi:type="BoundaryCondition">
+        <id xsi:type="Identifier">bc.028</id>
+        <name>1.1E.bc.aer_pre.conc</name>
+        <description>Imposed changing concentrations of RCP4.5 aerosol precursors </description>
+    </numericalRequirement>  
+      
+    <numericalRequirement xsi:type="BoundaryCondition">
+        <id xsi:type="Identifier">bc.029</id>
+        <name>1.1E.bc.wmg.em</name>
+        <description>Imposed changing emissions of RCP4.5 well mixed gases, including CO2</description>
+    </numericalRequirement>
+    
+    <numericalRequirement xsi:type="BoundaryCondition">
+        <id xsi:type="Identifier">bc.030</id>
+        <name>1.1E.bc.sls.em</name>
+        <description>Imposed changing emissions of RCP4.5 short lived gas species</description>
+    </numericalRequirement>
+    
+    <numericalRequirement xsi:type="BoundaryCondition">
+        <id xsi:type="Identifier">bc.031</id>
+        <name>1.1E.bc.aer.em</name>
+        <description>Imposed changing emissions of RCP4.5 aerosols </description>
+    </numericalRequirement>
+    
+    <numericalRequirement xsi:type="BoundaryCondition">
+        <id xsi:type="Identifier">bc.032</id>
+        <name>1.1E.bc.aer_pre.em</name>
+        <description>Imposed changing emissions of RCP4.5 aerosol precursors</description>
+    </numericalRequirement>
+    
+    <numericalRequirement xsi:type="BoundaryCondition">
+        <id xsi:type="Identifier">bc.033</id>
+        <name>1.1E.bc.LandUse</name>
+        <description>Imposed changing RCP4.5 land use</description>
+    </numericalRequirement>
+    
+    <numericalRequirement xsi:type="BoundaryCondition">
+        <id xsi:type="Identifier">bc.034</id>
+        <name>1.1E.bc.aer_volc.conc</name>
+        <description>Imposed constant background volcanic aerosol may (or may not) be specified</description>
+    </numericalRequirement>
 	
 	<shortName>
 		CMIP5_NumReq_1.1E
@@ -83,12 +167,14 @@
     <longName> 
 		CMIP5 Tier 1 near-term decadal experiment 1.1E - 10 member ensemble 
 	</longName>
-     
-    <calendarType>
-		<realCalendar>
-			<range/>			
-		</realCalendar>
-	</calendarType>
+	
+     <calendar>
+		<daily-360>
+			<range>
+				<closedDateRange></closedDateRange>
+			</range>
+		</daily-360>
+	</calendar>
 	<requiredDuration xsi:type="ClosedDateRange">
 		<startDate> 1965-09-01T00:00:00Z</startDate>
 		<endDate> 2016-01-01T00:00:00Z </endDate>
@@ -123,9 +209,9 @@
 			</gmd:role>
 		</gmd:CI_ResponsibleParty>
 	</author>
+	<documentID xsi:type="Identifier">
+	</documentID>
 	<creationDate>
 		2009-06-23T15:00:00Z
 	</creationDate>
-	<documentID xsi:type="Identifier">
-	</documentID>
 </numericalExperiment>

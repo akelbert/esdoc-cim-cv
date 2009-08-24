@@ -13,7 +13,7 @@
 	-->
 
 	<rationale> To explore the degree to which future climate states depend on the initial climate state (from 'A Summary of the CMIP5 Experiment Design' by Karl Taylor et al. 2008)</rationale>
-	<Why/>
+	<why/>
 	
 	<!-- Boundary/Forcing Conditions -->
 	<numericalRequirement xsi:type="BoundaryCondition">
@@ -89,12 +89,15 @@
 		CMIP5 Tier 1 near-term decadal experiment 3.3 - AMIP (1979-2008)
 	</longName>
      
-    <calendarType>
-		<realCalendar>
-			<range/>			
-		</realCalendar>
-	</calendarType>
-	<requiredDuration xsi:type="ClosedDateRange">
+    <calendar>
+		<daily-360>
+			<range>
+				<closedDateRange></closedDateRange>
+			</range>
+		</daily-360>
+	</calendar>
+	
+  	<requiredDuration xsi:type="ClosedDateRange">
 		<startDate> 1979-09-01T00:00:00Z</startDate>
 		<endDate> 2009-01-01T00:00:00Z </endDate>
 	</requiredDuration>
@@ -128,9 +131,9 @@
 			</gmd:role>
 		</gmd:CI_ResponsibleParty>
 	</author>
+	<documentID xsi:type="Identifier">
+	</documentID>
 	<creationDate>
 		2009-06-23T15:00:00Z
 	</creationDate>
-	<documentID xsi:type="Identifier">
-	</documentID>
 </numericalExperiment>
