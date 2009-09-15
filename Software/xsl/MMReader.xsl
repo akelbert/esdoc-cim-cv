@@ -39,9 +39,9 @@ lower priority templates -->
   </xsl:template>
 
   <!-- match all textual "hook" nodes which contain node notes -->
-  <xsl:template match="hook" priority="5">
+  <!--<xsl:template match="hook" priority="5">-->
     <!-- skip these nodes, the text is picked up separately -->
-  </xsl:template>
+  <!--</xsl:template>-->
 
   <!-- match all component nodes (bold font) -->
   <!-- priority 4 overrides any lower (and default) priority template matches -->
@@ -49,8 +49,9 @@ lower priority templates -->
     <!-- The presence of a link indicates this is a reference. We allow references but ignore them -->
     <xsl:if test="not(@LINK)">
 
+<!--
       <xsl:choose>
-      <xsl:when test="hook/text"> <!-- provide any notes -->
+      <xsl:when test="hook/text">
         <component name="{@TEXT}" note="{hook/text}">
           <xsl:apply-templates/>
         </component>
@@ -61,6 +62,10 @@ lower priority templates -->
         </component>
       </xsl:otherwise>
       </xsl:choose>
+-->
+        <component name="{@TEXT}">
+          <xsl:apply-templates/>
+        </component>
 
     </xsl:if>
 
@@ -80,6 +85,7 @@ lower priority templates -->
       <xsl:call-template name="GetChoice"/>
     </xsl:variable>
 
+<!--
     <xsl:choose>
     <xsl:when test="hook/text">
 
@@ -98,7 +104,7 @@ lower priority templates -->
 
     </xsl:when>
     <xsl:otherwise>
-
+-->
       <xsl:choose>
       <xsl:when test="$choice">
         <parameter name="{@TEXT}" choice="{$choice}" >
@@ -111,10 +117,10 @@ lower priority templates -->
         </parameter>
       </xsl:otherwise>
       </xsl:choose>
-
+<!--
     </xsl:otherwise>
     </xsl:choose>
-
+-->
     </xsl:if>
 
   </xsl:template>
@@ -126,6 +132,7 @@ lower priority templates -->
     <!-- Extract the units from the Round Brackets -->
     <xsl:variable name="myUnits" select="substring-before(substring-after(@TEXT,'('),')')"/>
 
+<!--
     <xsl:choose>
     <xsl:when test="hook/text">
 
@@ -140,19 +147,23 @@ lower priority templates -->
 
     </xsl:when>
     <xsl:otherwise>
-
+-->
       <xsl:choose>
       <xsl:when test="$myUnits">
-        <value format="numerical" name="{$myName}" units="{$myUnits}"/>
+        <value format="numerical" name="{$myName}" units="{$myUnits}">
+          <xsl:apply-templates/>
+        </value>
       </xsl:when>
       <xsl:otherwise>
-        <value format="numerical" name="{$myName}"/>
+        <value format="numerical" name="{$myName}">
+          <xsl:apply-templates/>
+        </value>
       </xsl:otherwise>
       </xsl:choose>
-
+<!--
     </xsl:otherwise>
     </xsl:choose>
-
+-->
   </xsl:template>
 
   <!-- match all nodes which expect a string keyboard input (pencil icon) -->
@@ -160,29 +171,58 @@ lower priority templates -->
     <!-- Extract the name from the Square Brackets -->
     <xsl:variable name="myName" select="substring-before(substring-after(@TEXT,'['),']')"/>
 
+<!--
     <xsl:choose>
     <xsl:when test="hook/text">
       <value format="string" name="{$myName}" note="{hook/text}"/>
     </xsl:when>
     <xsl:otherwise>
-      <value format="string" name="{$myName}"/>
+-->
+      <value format="string" name="{$myName}">
+        <xsl:apply-templates/>
+      </value>
+<!--
     </xsl:otherwise>
     </xsl:choose>
+-->
 
   </xsl:template>
 
   <!-- match all nodes which provide vocabulary (button_ok,button_cancel,bookmark) -->
   <xsl:template match="node[icon[@BUILTIN='button_ok' or @BUILTIN='button_cancel' or @BUILTIN='bookmark']]" priority="1">
-
+<!--
     <xsl:choose>
     <xsl:when test="hook/text">
     <value name="{@TEXT}" note="{hook/text}"/>
     </xsl:when>
     <xsl:otherwise>
-    <value name="{@TEXT}"/>
+-->
+    <value name="{@TEXT}">
+      <xsl:apply-templates/>
+    </value>
+<!--
     </xsl:otherwise>
     </xsl:choose>
+-->
 
+  </xsl:template>
+
+  <xsl:template match="constraint" priority="1">
+    <constraint><xsl:value-of select="."/></constraint>
+  </xsl:template>
+
+  <xsl:template match="info" priority="1">
+    <info><xsl:value-of select="."/></info>
+  </xsl:template>
+
+  <xsl:template match="definition" priority="1">
+    <definition><xsl:value-of select="."/></definition>
+  </xsl:template>
+
+  <xsl:template match="hook/text[not(constraint or info or definition)]" priority="1">
+    <!-- skip old style notes in our output
+    <oldnote><xsl:value-of select="."/></oldnote>
+    -->
   </xsl:template>
 
 <!-- end of pattern matching -->
@@ -203,11 +243,17 @@ lower priority templates -->
       <!-- there is only one option which must be typed by the user -->
       <xsl:text>keyboard</xsl:text>
     </xsl:when>
+    <xsl:when test="node/icon[@BUILTIN='back']">
+      <!-- this is a coupling parameter -->
+      <xsl:text>couple</xsl:text>
+    </xsl:when>
     <xsl:when test="count(node)=1">
       <!-- there is only 1 node so we do not need XOR, OR or AND to be specified -->
+      <xsl:text>1NODE</xsl:text>
     </xsl:when>
     <xsl:when test="count(node)=0">
       <!-- there are no nodes. This should not really happen (it is an error in the checker) -->
+      <xsl:text>0NODES</xsl:text>
     </xsl:when>
     <xsl:otherwise>
       <xsl:message terminate="yes">
