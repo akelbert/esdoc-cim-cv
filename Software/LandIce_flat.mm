@@ -75,6 +75,10 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
+<node CREATED="1247738137658" ID="Freemind_Link_892634351" MODIFIED="1253115138573" STYLE="fork" TEXT="mpm: Ok to have snow treatment duplicated here?">
+<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="help"/>
+</node>
 </node>
 </node>
 <node COLOR="#000000" CREATED="1233140113119" ID="Freemind_Link_1346102588" MODIFIED="1247738671933" TEXT="LandIceSheet">
@@ -82,21 +86,25 @@
 <node COLOR="#996600" CREATED="1247228540986" ID="Freemind_Link_989078163" MODIFIED="1251985754846" TEXT="Surface">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="messagebox_warning"/>
+<node CREATED="1247738137658" ID="Freemind_Link_847700789" MODIFIED="1253114966747" STYLE="fork" TEXT="mpm: What kind of input is expected here?">
+<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="help"/>
+</node>
 </node>
 <node COLOR="#990099" CREATED="1247228545977" ID="Freemind_Link_1783289180" MODIFIED="1251985867736" TEXT="Dynamics">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[info] Dynamics deals with geometry changes. [/info]</text>
 </hook>
-<node COLOR="#996600" CREATED="1247228568530" ID="Freemind_Link_1025473179" MODIFIED="1251985768169" TEXT="CouplingMethod (with atmosphere)">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="messagebox_warning"/>
-</node>
 <node COLOR="#990099" CREATED="1247228584842" ID="Freemind_Link_1044406016" MODIFIED="1251985797122" TEXT="Model/Numerics">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1247234856917" ID="Freemind_Link_800209325" MODIFIED="1251985779221" TEXT="GridSize">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="messagebox_warning"/>
+<node CREATED="1247738137658" ID="Freemind_Link_913595748" MODIFIED="1253114897226" STYLE="fork" TEXT="Covered by/link to gridSpec?">
+<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="help"/>
+</node>
 </node>
 <node COLOR="#996600" CREATED="1247234863613" ID="Freemind_Link_514144065" MODIFIED="1247737950645" TEXT="Approximation">
 <font NAME="SansSerif" SIZE="14"/>
@@ -112,7 +120,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1247234928749" ID="Freemind_Link_763636627" MODIFIED="1252055882013" STYLE="fork" TEXT="Other">
+<node CREATED="1247234928749" ID="Freemind_Link_763636627" MODIFIED="1253114705010" STYLE="fork" TEXT="other">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
@@ -120,7 +128,15 @@
 <node COLOR="#996600" CREATED="1247235130878" ID="Freemind_Link_224178183" MODIFIED="1251985787341" TEXT="IceStreams">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="messagebox_warning"/>
+<node CREATED="1247738137658" ID="Freemind_Link_970646174" MODIFIED="1253114966747" STYLE="fork" TEXT="mpm: What kind of input is expected here?">
+<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="help"/>
 </node>
+</node>
+</node>
+<node COLOR="#996600" CREATED="1247228568530" ID="Freemind_Link_1025473179" MODIFIED="1253114690495" TEXT="CouplingMethod (with atmosphere)">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="back"/>
 </node>
 </node>
 <node COLOR="#990099" CREATED="1233672453356" ID="Freemind_Link_644422294" MODIFIED="1251985350627" TEXT="SnowTreatment">
@@ -178,6 +194,10 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
+<node CREATED="1247738137658" ID="Freemind_Link_508808775" MODIFIED="1253115138573" STYLE="fork" TEXT="mpm: Ok to have snow treatment duplicated here?">
+<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="help"/>
+</node>
 </node>
 </node>
 <node COLOR="#000000" CREATED="1233140117582" ID="Freemind_Link_755676416" MODIFIED="1247761870523" TEXT="IceShelves">
@@ -185,6 +205,10 @@
 <node COLOR="#996600" CREATED="1247228540986" ID="Freemind_Link_1761390604" MODIFIED="1251985941181" TEXT="Surface">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="messagebox_warning"/>
+<node CREATED="1247738137658" ID="Freemind_Link_84979715" MODIFIED="1253114973759" STYLE="fork" TEXT="mpm: What kind of input is expected here?">
+<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="help"/>
+</node>
 </node>
 <node COLOR="#996600" CREATED="1247228610794" ID="Freemind_Link_1527468335" MODIFIED="1247738065016" TEXT="Bottom">
 <font NAME="SansSerif" SIZE="14"/>
@@ -196,6 +220,10 @@
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
+<node CREATED="1247738137658" ID="Freemind_Link_721437580" MODIFIED="1253114990163" STYLE="fork" TEXT="mpm: Not sure about the meaning...">
+<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="help"/>
+</node>
 </node>
 <node COLOR="#990099" CREATED="1247228660170" ID="Freemind_Link_591851092" MODIFIED="1247738111325" TEXT="Dynamics">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
@@ -204,6 +232,10 @@
 <node COLOR="#996600" CREATED="1247234988150" ID="Freemind_Link_569129598" MODIFIED="1251985978043" TEXT="GridSize">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="messagebox_warning"/>
+<node CREATED="1247738137658" ID="Freemind_Link_1979718067" MODIFIED="1253115109269" STYLE="fork" TEXT="mpm: Covered by/link to gridSpec?">
+<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="help"/>
+</node>
 </node>
 <node COLOR="#996600" CREATED="1247235018253" ID="Freemind_Link_1157421607" MODIFIED="1247738360908" TEXT="Approximation">
 <font NAME="SansSerif" SIZE="14"/>
@@ -221,9 +253,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1247228568530" ID="Freemind_Link_879721196" MODIFIED="1252055830112" TEXT="CouplingMethod (with ocean)">
+<node COLOR="#996600" CREATED="1247228568530" ID="Freemind_Link_879721196" MODIFIED="1253114758830" TEXT="CouplingMethod (with ocean)">
 <font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="messagebox_warning"/>
+<icon BUILTIN="back"/>
 </node>
 </node>
 <node COLOR="#990099" CREATED="1233672453356" ID="Freemind_Link_297736349" MODIFIED="1251985350627" TEXT="SnowTreatment">
@@ -281,6 +313,10 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
+<node CREATED="1247738137658" ID="Freemind_Link_754312879" MODIFIED="1253115138573" STYLE="fork" TEXT="mpm: Ok to have snow treatment duplicated here?">
+<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="help"/>
+</node>
 </node>
 </node>
 <node COLOR="#996600" CREATED="1247228783195" ID="Freemind_Link_866012051" MODIFIED="1251986105784" TEXT="Coupling IceSheet-IceShelves">
@@ -322,6 +358,10 @@
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
+<node CREATED="1247738137658" ID="Freemind_Link_48807492" MODIFIED="1253115171497" STYLE="fork" TEXT="mpm: Ok to have land ice albedo added here?">
+<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="help"/>
+</node>
 </node>
 <node COLOR="#996600" CREATED="1241019098143" ID="Freemind_Link_16168954" MODIFIED="1251986307235" STYLE="bubble" TEXT="AlbedoFunctionOf">
 <font NAME="SansSerif" SIZE="14"/>
@@ -348,10 +388,10 @@
 <font ITALIC="true" NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233138750223" ID="Freemind_Link_833352170" MODIFIED="1245945496310" POSITION="left" STYLE="bubble" TEXT="LandIce">
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233138750223" FOLDED="true" ID="Freemind_Link_833352170" MODIFIED="1245945496310" POSITION="left" STYLE="bubble" TEXT="LandIce">
 <edge COLOR="#999999"/>
 <font BOLD="true" NAME="Arial" SIZE="16"/>
-<node COLOR="#000000" CREATED="1233140079676" FOLDED="true" ID="Freemind_Link_927009838" MODIFIED="1247737698465" TEXT="LandGlaciers">
+<node COLOR="#000000" CREATED="1233140079676" ID="Freemind_Link_927009838" MODIFIED="1247737698465" TEXT="LandGlaciers">
 <font BOLD="true" NAME="Arial" SIZE="14"/>
 <node COLOR="#996600" CREATED="1244816980268" ID="Freemind_Link_1877186457" MODIFIED="1246001113365" STYLE="bubble" TEXT="SnowTreatment">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1126,7 +1166,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233668186242" FOLDED="true" ID="Freemind_Link_1876467742" MODIFIED="1247763419588" TEXT="LandIceAlbedo">
+<node COLOR="#996600" CREATED="1233668186242" ID="Freemind_Link_1876467742" MODIFIED="1247763419588" TEXT="LandIceAlbedo">
 <font NAME="Arial" SIZE="14"/>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233673169895" ID="Freemind_Link_568577498" MODIFIED="1247763539442" STYLE="fork" TEXT="Prognostic">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1179,7 +1219,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1234216711628" ID="Freemind_Link_171465" MODIFIED="1246525408009" POSITION="left" STYLE="bubble" TEXT="ComponentDomain">
+<node COLOR="#0033ff" CREATED="1234216711628" FOLDED="true" ID="Freemind_Link_171465" MODIFIED="1246525408009" POSITION="left" STYLE="bubble" TEXT="ComponentDomain">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="messagebox_warning"/>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#990099" CREATED="1233750974551" ID="Freemind_Link_1436213409" MODIFIED="1237373705130" STYLE="bubble" TEXT="Space">
@@ -1193,7 +1233,7 @@
 <icon BUILTIN="help"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1233141186319" ID="Freemind_Link_1329790666" MODIFIED="1246525408019" POSITION="left" STYLE="bubble" TEXT="NumericalProperties">
+<node COLOR="#0033ff" CREATED="1233141186319" FOLDED="true" ID="Freemind_Link_1329790666" MODIFIED="1246525408019" POSITION="left" STYLE="bubble" TEXT="NumericalProperties">
 <edge WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="messagebox_warning"/>
