@@ -52,7 +52,8 @@ style = libxslt.parseStylesheetDoc(styledoc)
 doc = libxml2.parseFile(fpre.name)
 print "Start of errors"
 sys.stdout.flush()
-result = style.applyStylesheet(doc,{"Warning" : warn, "CheckConstraints" : "yes", "CompLen" : "25"})
+result = style.applyStylesheet(doc,{"Warning" : warn, "CheckConstraints" : "'yes'" })
+#result = style.applyStylesheet(doc,{"Warning" : warn, "CheckConstraints" : "yes", "CompLen" : "25"})
 print "End of errors"
 style.freeStylesheet()
 doc.freeDoc()

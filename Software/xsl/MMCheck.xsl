@@ -16,9 +16,10 @@ with the MMRead.xsl and MMConstraint.xsl stylesheets -->
 <!-- The default maximum number of characters allowed for a component name. This value can be changed on the command line -->
 <xsl:param name="CompLen" select="25"/>
 
+<xsl:param name="DEBUG" select="'no'"/>
+
 <!-- note: higher priority (higher value) templates are matched before
 any lower priority templates -->
-
   <!-- match the top level of the xml document -->
   <xsl:template match="/">
 
@@ -381,6 +382,15 @@ any lower priority templates -->
           <xsl:when test="local-name()='constraint'">
             <xsl:variable name="ConstraintText" select="text()"/>
 
+            <xsl:if test="$DEBUG='yes'">
+            <xsl:message terminate="no">
+            <xsl:text>Checking constraint text XXX</xsl:text>
+            <xsl:value-of select="$ConstraintText"/>
+            <xsl:text>XXX
+</xsl:text>
+            </xsl:message>
+            </xsl:if>
+
             <!-- Check for "Only required if " -->
             <xsl:variable name="AfterIf" select="normalize-space(substring-after($ConstraintText,'Only required if'))"/>
             <xsl:if test="not($AfterIf)">
@@ -431,7 +441,7 @@ any lower priority templates -->
             <!-- skip as these are incomplete -->
           </xsl:when>
           <xsl:when test="local-name()='info' or local-name()='definition'">
-            <!-- skip as we accespt these -->
+            <!-- skip as we accept these -->
           </xsl:when>
           <xsl:otherwise>
             <xsl:message terminate="no">
@@ -530,16 +540,16 @@ any lower priority templates -->
     <xsl:otherwise>
 
       <xsl:choose>
-      <xsl:when test="substring-after($LHS,&quot;'&quot;)=''">
+      <xsl:when test="substring-after($LHS,'&quot;')=''">
       <xsl:message terminate="no">
-        <xsl:text>*ERROR: expecting format &quot;'name&quot; but found &quot;</xsl:text>
+        <xsl:text>*ERROR: expecting format '&quot;name' but found '</xsl:text>
         <xsl:value-of select="$LHS"/>
-        <xsl:text>&quot;. </xsl:text>
+        <xsl:text>'. </xsl:text>
         <xsl:call-template name="ParameterAndAncestorComponents"/>
       </xsl:message>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:variable name="OtherParameterValue" select="substring-after($LHS,&quot;'&quot;)"/>
+        <xsl:variable name="OtherParameterValue" select="substring-after($LHS,'&quot;')"/>
 <!--
         <xsl:message terminate="no">
           <xsl:text>DEBUG: here is where we test param value &quot;</xsl:text>

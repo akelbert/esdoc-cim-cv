@@ -208,7 +208,7 @@
 <node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_150961143" MODIFIED="1253118774485" STYLE="bubble" TEXT="ConstantValue">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint] Only if &quot;Constant&quot; is selected for CoefficientType. [/constraint]</text>
+<text>[constraint]Only required if &quot;Constant&quot; is selected for &quot;CoefficientType&quot;.[/constraint]</text>
 </hook>
 <node COLOR="#000000" CREATED="1233245864615" ID="Freemind_Link_462417391" MODIFIED="1242080874656" STYLE="fork" TEXT="[Eddy viscosity coefficient for momentum](m2/s)">
 <font NAME="Arial" SIZE="14"/>
@@ -218,7 +218,7 @@
 <node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_1084589120" MODIFIED="1253118820614" TEXT="SpatialVariation">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint] Only if &quot;Space varying&quot; or &quot;Time+Space varying&quot; is selected for CoefficientType. [/constraint]</text>
+<text>[constraint]Only required if &quot;Space varying&quot; or &quot;Time+Space varying&quot; is selected for &quot;CoefficientType&quot;.[/constraint]</text>
 </hook>
 <node CREATED="1233246454929" ID="Freemind_Link_313048469" MODIFIED="1234026926973" STYLE="fork" TEXT="With depth">
 <font NAME="Arial" SIZE="14"/>
@@ -302,7 +302,7 @@
 <node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_1469089679" MODIFIED="1253118871244" STYLE="bubble" TEXT="ConstantValue">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint] Only if &quot;Constant&quot; is selected for CoefficientType. [/constraint]</text>
+<text>[constraint]Only required if &quot;Constant&quot; is selected for &quot;CoefficientType&quot;.[/constraint]</text>
 </hook>
 <node COLOR="#000000" CREATED="1233245864615" ID="Freemind_Link_1261795754" MODIFIED="1242080822303" STYLE="fork" TEXT="[Eddy viscosity coefficient for tracers](m2/s)">
 <font NAME="Arial" SIZE="14"/>
@@ -312,7 +312,7 @@
 <node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_523480559" MODIFIED="1253118903661" TEXT="SpatialVariation">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint] Only if &quot;Space varying&quot; is selected for CoefficientType. [/constraint]</text>
+<text>[constraint]Only if &quot;Space varying&quot; is selected for &quot;CoefficientType&quot;.[/constraint]</text>
 </hook>
 <node CREATED="1233246454929" ID="Freemind_Link_1925853677" MODIFIED="1234026926973" STYLE="fork" TEXT="With depth">
 <font NAME="Arial" SIZE="14"/>
@@ -351,7 +351,7 @@
 <node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_663153538" MODIFIED="1253118942380" STYLE="bubble" TEXT="GMvalue">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint] Only if &quot;GM scheme&quot; is selected for CoefficientType. [/constraint]</text>
+<text>[constraint]Only required if &quot;GM scheme&quot; is selected for &quot;CoefficientType&quot;.[/constraint]</text>
 </hook>
 <node COLOR="#000000" CREATED="1233245864615" ID="Freemind_Link_764105247" MODIFIED="1242081168202" STYLE="fork" TEXT="[Eddy induced velocity coefficient](m2/s)">
 <font NAME="Arial" SIZE="14"/>
@@ -443,7 +443,7 @@
 <node COLOR="#996600" CREATED="1244813969164" ID="Freemind_Link_863487200" MODIFIED="1253119044716" STYLE="bubble" TEXT="ClosureOrder">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint] Only if &quot;turbulent closure&quot; is selected for SchemeType. [/constraint]</text>
+<text>[constraint]Only required if &quot;turbulent closure&quot; is selected for &quot;SchemeType&quot;.[/constraint]</text>
 </hook>
 <node CREATED="1244813994134" ID="Freemind_Link_568079960" MODIFIED="1246262635442" STYLE="fork" TEXT="0">
 <font NAME="SansSerif" SIZE="14"/>
@@ -465,7 +465,7 @@
 <node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_397145003" MODIFIED="1253119075027" STYLE="bubble" TEXT="ConstantValue">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint] Only if &quot;constant values&quot; is selected for SchemeType. [/constraint]</text>
+<text>[constraint]Only required if &quot;constant values&quot; is selected for &quot;SchemeType&quot;.[/constraint]</text>
 </hook>
 <node CREATED="1233246454929" ID="Freemind_Link_1405813819" MODIFIED="1242082578488" STYLE="fork" TEXT="[mixing coefficient for tracers in the mixed layer](m2/s)">
 <font NAME="Arial" SIZE="14"/>
@@ -520,7 +520,7 @@
 <node COLOR="#996600" CREATED="1244813969164" ID="Freemind_Link_1500023018" MODIFIED="1253119090361" STYLE="bubble" TEXT="ClosureOrder">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint] Only if &quot;turbulent closure&quot; is selected for SchemeType. [/constraint]</text>
+<text>[constraint]Only if &quot;turbulent closure&quot; is selected for &quot;SchemeType&quot;.[/constraint]</text>
 </hook>
 <node CREATED="1244813994134" ID="Freemind_Link_710245874" MODIFIED="1246262635442" STYLE="fork" TEXT="0">
 <font NAME="SansSerif" SIZE="14"/>
@@ -542,7 +542,7 @@
 <node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_754942619" MODIFIED="1253119102124" STYLE="bubble" TEXT="ConstantValue">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint] Only if &quot;constant values&quot; is selected for SchemeType. [/constraint]</text>
+<text>[constraint]Only required if &quot;constant values&quot; is selected for &quot;SchemeType&quot;.[/constraint]</text>
 </hook>
 <node CREATED="1233246454929" ID="Freemind_Link_7649445" MODIFIED="1242814465410" STYLE="fork" TEXT="[mixing coefficient for momentum in the mixed layer](m2/s)">
 <font NAME="Arial" SIZE="14"/>
@@ -592,7 +592,7 @@
 <node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_824195997" MODIFIED="1253119113309" STYLE="bubble" TEXT="ConstantValue">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint] Only if &quot;constant values&quot; is selected for SchemeType. [/constraint]</text>
+<text>[constraint]Only required if &quot;constant values&quot; is selected for &quot;SchemeType&quot;.[/constraint]</text>
 </hook>
 <node CREATED="1233246454929" ID="Freemind_Link_547328350" MODIFIED="1242082744964" STYLE="fork" TEXT="[mixing coefficient for tracers in the ocean interior](m2/s)">
 <font NAME="Arial" SIZE="14"/>
@@ -613,7 +613,7 @@
 <node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_27035838" MODIFIED="1253119139267" STYLE="bubble" TEXT="BackgroundConstantValue">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint] Only if &quot;constant value&quot; is selected for BackgroundType. [/constraint]</text>
+<text>[constraint]Only required if &quot;constant value&quot; is selected for &quot;BackgroundType&quot;.[/constraint]</text>
 </hook>
 <node CREATED="1233246454929" ID="Freemind_Link_1999530615" MODIFIED="1242083082875" STYLE="fork" TEXT="[background mixing coefficient for tracers in the ocean interior](m2/s)">
 <font NAME="Arial" SIZE="14"/>
@@ -653,7 +653,7 @@
 <node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_54014088" MODIFIED="1253119170904" STYLE="bubble" TEXT="ConstantValue">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint] Only if &quot;constant values&quot; is selected for SchemeType. [/constraint]</text>
+<text>[constraint]Only required if &quot;constant values&quot; is selected for &quot;SchemeType&quot;.[/constraint]</text>
 </hook>
 <node CREATED="1233246454929" ID="Freemind_Link_1495831793" MODIFIED="1242083231575" STYLE="fork" TEXT="[mixing coefficient for momentum in the ocean interior](m2/s)">
 <font NAME="Arial" SIZE="14"/>
@@ -674,7 +674,7 @@
 <node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_1587429895" MODIFIED="1253119191964" STYLE="bubble" TEXT="BackgroundConstantValue">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint] Only if &quot;constant value&quot; is selected for BackgroundType. [/constraint]</text>
+<text>[constraint]Only required if &quot;constant value&quot; is selected for &quot;BackgroundType&quot;.[/constraint]</text>
 </hook>
 <node CREATED="1233246454929" ID="Freemind_Link_674616" MODIFIED="1242083275925" STYLE="fork" TEXT="[background mixing coefficient for momentum in the ocean interior](m2/s)">
 <font NAME="Arial" SIZE="14"/>
@@ -741,7 +741,7 @@
 <node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_130892143" MODIFIED="1253119248982" STYLE="bubble" TEXT="LateralMixingCoefficient">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint] Only if &quot;diffusive&quot; or &quot;advective+diffusive&quot; is selected for BoundaryLayerType. [/constraint]</text>
+<text>[constraint]Only required if &quot;diffusive&quot; or &quot;advective+diffusive&quot; is selected for &quot;BoundaryLayerType&quot;.[/constraint]</text>
 </hook>
 <node CREATED="1233246454929" ID="Freemind_Link_625461915" MODIFIED="1242083877758" STYLE="fork" TEXT="[lateral mixing coefficient in the bottom boundary layer](m2/s)">
 <font NAME="Arial" SIZE="14"/>
@@ -857,7 +857,7 @@
 <node COLOR="#996600" CREATED="1233754574439" ID="Freemind_Link_1469742639" MODIFIED="1253119314557" STYLE="bubble" TEXT="SecondDepth">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint] Only if &quot;2 extinction depths&quot; or &quot;3 extinction depths&quot; is selected for SchemeType. [/constraint]</text>
+<text>[constraint]Only required if &quot;2 extinction depths&quot; or &quot;3 extinction depths&quot; is selected for &quot;SchemeType&quot;.[/constraint]</text>
 </hook>
 <node CREATED="1233246285256" ID="Freemind_Link_8271408" MODIFIED="1242085560085" STYLE="fork" TEXT="[second exctinction depth](m)">
 <font NAME="Arial" SIZE="14"/>
@@ -867,7 +867,7 @@
 <node COLOR="#996600" CREATED="1233754574439" ID="Freemind_Link_1882211348" MODIFIED="1253119333994" STYLE="bubble" TEXT="ThirdDepth">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint] Only if &quot;3 extinction depths&quot; is selected for SchemeType. [/constraint]</text>
+<text>[constraint]Only required if &quot;3 extinction depths&quot; is selected for &quot;SchemeType&quot;.[/constraint]</text>
 </hook>
 <node CREATED="1233246285256" ID="Freemind_Link_879793726" MODIFIED="1242085571738" STYLE="fork" TEXT="[third exctinction depth](m)">
 <font NAME="Arial" SIZE="14"/>
@@ -888,7 +888,7 @@
 <node COLOR="#996600" CREATED="1237460635585" ID="Freemind_Link_1234449877" MODIFIED="1253119366364" TEXT="OceanColorSource">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint] Only if &quot;yes&quot; is selected for OceanColorDependant. [/constraint]</text>
+<text>[constraint]Only required if &quot;yes&quot; is selected for &quot;OceanColorDependant&quot;.[/constraint]</text>
 </hook>
 <node CREATED="1233754598439" ID="Freemind_Link_998518126" MODIFIED="1246542771392" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
