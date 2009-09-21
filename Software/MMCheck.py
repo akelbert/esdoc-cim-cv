@@ -50,8 +50,10 @@ print "checking mm xml from file %s" % fpre.name
 styledoc = libxml2.parseFile("xsl/MMCheck.xsl")
 style = libxslt.parseStylesheetDoc(styledoc)
 doc = libxml2.parseFile(fpre.name)
-result = style.applyStylesheet(doc,{"Warning" : warn})
-print result
+print "Start of errors"
+sys.stdout.flush()
+result = style.applyStylesheet(doc,{"Warning" : warn, "CheckConstraints" : "yes", "CompLen" : "25"})
+print "End of errors"
 style.freeStylesheet()
 doc.freeDoc()
 result.freeDoc()

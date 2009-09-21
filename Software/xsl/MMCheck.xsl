@@ -399,10 +399,10 @@ any lower priority templates -->
               </xsl:message>
             </xsl:if>
 
-            <xsl:variable name="OtherParameterName" select="normalize-space(substring-before(substring-after($AfterIf,&quot;is selected for '&quot;),&quot;'.&quot;))"/>
+            <xsl:variable name="OtherParameterName" select="normalize-space(substring-before(substring-after($AfterIf,'is selected for &quot;'),'&quot;.'))"/>
             <xsl:if test="not($OtherParameterName)">
               <xsl:message terminate="no">
-                <xsl:text>*ERROR: format error in constraint note. Expecting "... is selected for 'paramname'." but found "</xsl:text>
+                <xsl:text>*ERROR: format error in constraint note. Expecting "... is selected for &quot;paramname&quot;." but found "</xsl:text>
                 <xsl:value-of select="text()"/>
                 <xsl:text>"
 </xsl:text>
@@ -485,24 +485,24 @@ any lower priority templates -->
   <xsl:template name="CheckVarNames">
     <xsl:param name="VarString"/>
     <xsl:param name="OtherParameterName"/>
-    <xsl:variable name="LHS" select="normalize-space(substring-before($VarString,&quot;' or &quot;))"/>
-    <xsl:variable name="RHS" select="normalize-space(substring-after($VarString,&quot;' or &quot;))"/>
+    <xsl:variable name="LHS" select="normalize-space(substring-before($VarString,'&quot; or '))"/>
+    <xsl:variable name="RHS" select="normalize-space(substring-after($VarString,'&quot; or '))"/>
 
     <xsl:choose>
     <xsl:when test="$RHS='' and $LHS=''">
       <xsl:choose>
-      <!-- there is no "' or " in our string so assume it is a value with format "'text'" -->
-      <xsl:when test="substring-before(substring-after($VarString,&quot;'&quot;),&quot;'&quot;)=''">
+      <!-- there is no '" or ' in our string so assume it is a value with format '"text"' -->
+      <xsl:when test="substring-before(substring-after($VarString,'&quot;'),'&quot;')=''">
         <!-- there is no text within single quotes so flag an error -->
         <xsl:message terminate="no">
-          <xsl:text>*ERROR: expecting format &quot;'name' [ or 'name' ]*&quot; but found &quot;</xsl:text>
+          <xsl:text>*ERROR: expecting format &apos;&quot;name&quot; [ or &quot;name&quot; ]*&apos; but found &apos;</xsl:text>
           <xsl:value-of select="$VarString"/>
-          <xsl:text>&quot;. </xsl:text>
+          <xsl:text>&apos;. </xsl:text>
           <xsl:call-template name="ParameterAndAncestorComponents"/>
         </xsl:message>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:variable name="OtherParameterValue" select="substring-before(substring-after($VarString,&quot;'&quot;),&quot;'&quot;)"/>
+        <xsl:variable name="OtherParameterValue" select="substring-before(substring-after($VarString,'&quot;'),'&quot;')"/>
 <!--
         <xsl:message terminate="no">
           <xsl:text>DEBUG: here is where we test param value &quot;</xsl:text>
