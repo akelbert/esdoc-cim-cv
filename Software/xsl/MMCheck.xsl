@@ -248,8 +248,9 @@ any lower priority templates -->
         <xsl:message terminate="no">
         <xsl:text>*ERROR: Parameter '</xsl:text>
         <xsl:value-of select="@TEXT"/>
-        <xsl:text>' has more than one valid value but at least one of these is not marked as being OR, XOR or AND
+        <xsl:text>' has more than one valid value but at least one of these is not marked as being OR, XOR or AND.
 </xsl:text>
+        <xsl:call-template name="ParameterAndAncestorComponents"/>
         </xsl:message>
       </xsl:when>
       <!-- all icons must be the same -->
@@ -428,6 +429,9 @@ any lower priority templates -->
           </xsl:when>
           <xsl:when test="local-name()='incomplete'">
             <!-- skip as these are incomplete -->
+          </xsl:when>
+          <xsl:when test="local-name()='info' or local-name()='definition'">
+            <!-- skip as we accespt these -->
           </xsl:when>
           <xsl:otherwise>
             <xsl:message terminate="no">
