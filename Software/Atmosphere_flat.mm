@@ -123,40 +123,40 @@
 </hook>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1383653108" MODIFIED="1253105192169" STYLE="bubble" TEXT="SpectralTruncatureNumber">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1383653108" MODIFIED="1253534263435" STYLE="bubble" TEXT="SpectralTruncatureNumber">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint] Only if &quot;spectral&quot; is selected for SchemeType. [/constraint]</text>
+<text>[constraint]Only required if &quot;spectral&quot; is selected for &quot;SchemeType&quot;.[/constraint]</text>
 </hook>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1394493473" MODIFIED="1244564007398" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_202497585" MODIFIED="1253105250107" STYLE="bubble" TEXT="NumberOfZonalGridBoxes">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_202497585" MODIFIED="1253534280158" STYLE="bubble" TEXT="NumberOfZonalGridBoxes">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint] Only if &quot;fixed grid&quot; is selected for SchemeType. [/constraint]</text>
+<text>[constraint]Only required if &quot;fixed grid&quot; is selected for &quot;SchemeType&quot;.[/constraint]</text>
 </hook>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_38711694" MODIFIED="1244564007398" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_446160470" MODIFIED="1253105235443" STYLE="bubble" TEXT="NumberOfMeridionalGridBoxes">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_446160470" MODIFIED="1253534292591" STYLE="bubble" TEXT="NumberOfMeridionalGridBoxes">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint] Only if &quot;fixed grid&quot; is selected for SchemeType. [/constraint]</text>
+<text>[constraint]Only required if &quot;fixed grid&quot; is selected for &quot;SchemeType&quot;.[/constraint]</text>
 </hook>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_886740918" MODIFIED="1244564007398" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244107771670" ID="Freemind_Link_877829425" MODIFIED="1253105164416" STYLE="bubble" TEXT="Method">
+<node COLOR="#996600" CREATED="1244107771670" ID="Freemind_Link_877829425" MODIFIED="1253534307614" STYLE="bubble" TEXT="Method">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint] Only if &quot;fixed grid&quot; is selected for SchemeType. [/constraint]</text>
+<text>[constraint]Only required if &quot;fixed grid&quot; is selected for &quot;SchemeType&quot;.[/constraint]</text>
 </hook>
 <node CREATED="1244107800752" ID="Freemind_Link_121654269" MODIFIED="1253105394080" STYLE="fork" TEXT="finite emement">
 <font NAME="SansSerif" SIZE="14"/>
@@ -180,10 +180,10 @@
 <icon BUILTIN="help"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244108197508" ID="Freemind_Link_1536403106" MODIFIED="1253105314941" STYLE="bubble" TEXT="Order">
+<node COLOR="#996600" CREATED="1244108197508" ID="Freemind_Link_1536403106" MODIFIED="1253534336334" STYLE="bubble" TEXT="Order">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint] Only if &quot;finite differences&quot; or &quot;centered finite differences&quot; is selected for Method. [/constraint]</text>
+<text>[constraint]Only required if &quot;finite differences&quot; or &quot;centered finite differences&quot; is selected for &quot;Method&quot;.[/constraint]</text>
 </hook>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1665394420" MODIFIED="1244564007398" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
@@ -446,10 +446,10 @@
 <icon BUILTIN="help"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1242400681173" ID="Freemind_Link_23035538" MODIFIED="1253106072407" TEXT="LateralBoundaryCondition">
+<node COLOR="#996600" CREATED="1242400681173" ID="Freemind_Link_23035538" MODIFIED="1253534488356" TEXT="LateralBoundaryCondition">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint] Only if the model is a RCM. [/constraint]</text>
+<text>[info]Only if the model is a RCM.[/info]</text>
 </hook>
 <node COLOR="#000000" CREATED="1243603034779" ID="Freemind_Link_130361586" MODIFIED="1244104635492" STYLE="fork" TEXT="sponge layer">
 <font NAME="SansSerif" SIZE="14"/>
@@ -464,6 +464,11 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1244107125422" ID="Freemind_Link_437563261" MODIFIED="1253105994969" STYLE="fork" TEXT="Bryan: say something different...">
+<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="help"/>
+<icon BUILTIN="help"/>
+</node>
+<node CREATED="1244107125422" ID="Freemind_Link_532999082" MODIFIED="1253534537223" STYLE="fork" TEXT="mpm: attached note to become a [constraint]">
 <font ITALIC="true" NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="help"/>
 <icon BUILTIN="help"/>
@@ -693,10 +698,10 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1243602387803" ID="Freemind_Link_2396635" MODIFIED="1253106224992" STYLE="bubble" TEXT="ClosureOrder">
+<node COLOR="#996600" CREATED="1243602387803" ID="Freemind_Link_2396635" MODIFIED="1253534562167" STYLE="bubble" TEXT="ClosureOrder">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint] Only if &quot;Mellor-Yamada&quot; is selected for SchemeName. [/constraint]</text>
+<text>[constraint]Only required if &quot;Mellor-Yamada&quot; is selected for &quot;SchemeName&quot;.[/constraint]</text>
 </hook>
 <node CREATED="1243602395812" ID="Freemind_Link_1258223414" MODIFIED="1244623343496" STYLE="fork" TEXT="[N.x]">
 <font NAME="SansSerif" SIZE="14"/>
@@ -762,10 +767,10 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233141996872" ID="Freemind_Link_249057171" MODIFIED="1253106748824" TEXT="Method">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233141996872" ID="Freemind_Link_249057171" MODIFIED="1253534584771" TEXT="Method">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint] Only if &quot;Mass-flux&quot; is selected for SchemeType. [/constraint]</text>
+<text>[constraint]Only required if &quot;Mass-flux&quot; is selected for &quot;SchemeType&quot;.[/constraint]</text>
 </hook>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233142114760" ID="Freemind_Link_1964973647" MODIFIED="1244623898076" STYLE="fork" TEXT="Mass flux determined by CAPE">
 <font NAME="Arial" SIZE="14"/>
@@ -812,9 +817,6 @@
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233142117128" ID="Freemind_Link_262462503" MODIFIED="1253106458048" STYLE="fork" TEXT="other">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>Other: enter further convection keywords</text>
-</hook>
 </node>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233142117128" ID="Freemind_Link_293389759" MODIFIED="1253106471776" STYLE="fork" TEXT="mpm: Some of these choices belong to &quot;Cloud&quot; or &quot;Radiation&quot; components?">
 <font ITALIC="true" NAME="Arial" SIZE="14"/>
@@ -840,20 +842,20 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233141816416" ID="Freemind_Link_1153304110" MODIFIED="1253106807449" STYLE="bubble" TEXT="SchemeName">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233141816416" ID="Freemind_Link_1153304110" MODIFIED="1253534608390" STYLE="bubble" TEXT="SchemeName">
 <font NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint] Only if &quot;separated&quot; is selected for Method. [/constraint]</text>
+<text>[constraint]Only required if &quot;separated&quot; is selected for &quot;Method&quot;.[/constraint]</text>
 </hook>
 <node CREATED="1233671047851" ID="Freemind_Link_1092680590" MODIFIED="1253106553224" STYLE="fork" TEXT="other">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233142100081" ID="Freemind_Link_1064611450" MODIFIED="1253106827464" STYLE="bubble" TEXT="Scheme">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233142100081" ID="Freemind_Link_1064611450" MODIFIED="1253534620636" STYLE="bubble" TEXT="Scheme">
 <font NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint] Only if &quot;separated&quot; is selected for Method.[/constraint]</text>
+<text>[constraint]Only required if &quot;separated&quot; is selected for &quot;Method&quot;.[/constraint]</text>
 </hook>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233142114760" ID="Freemind_Link_1762197534" MODIFIED="1233932889620" STYLE="fork" TEXT="none">
 <font NAME="Arial" SIZE="14"/>
@@ -1123,9 +1125,6 @@
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233142017048" ID="Freemind_Link_1033686046" MODIFIED="1253107361976" STYLE="fork" TEXT="other">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>Other: enter the type of the propagation scheme and a description</text>
-</hook>
 </node>
 </node>
 <node COLOR="#996600" CREATED="1240325050308" ID="Freemind_Link_1168363659" MODIFIED="1244799289784" STYLE="bubble" TEXT="DissipationScheme">
