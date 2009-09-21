@@ -192,18 +192,18 @@
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1243422071515" FOLDED="true" ID="Freemind_Link_1203732598" MODIFIED="1250865983715" TEXT="EmissionAndConcentration">
+<node COLOR="#000000" CREATED="1243422071515" ID="Freemind_Link_1203732598" MODIFIED="1250865983715" TEXT="EmissionAndConcentration">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#990099" CREATED="1243422235015" FOLDED="true" ID="Freemind_Link_650081149" MODIFIED="1250676893562" TEXT="2D-Sources">
+<node COLOR="#990099" CREATED="1243422235015" ID="Freemind_Link_650081149" MODIFIED="1250676893562" TEXT="2D-Sources">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1243422242109" FOLDED="true" ID="Freemind_Link_1066446137" MODIFIED="1250169958244" TEXT="SpeciesEmitted">
+<node COLOR="#996600" CREATED="1243422242109" ID="Freemind_Link_1066446137" MODIFIED="1250169958244" TEXT="SpeciesEmitted">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1244070048872" ID="Freemind_Link_290595751" MODIFIED="1250167614773" STYLE="fork" TEXT="[user to provide a list of species]">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="pencil"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244467222650" FOLDED="true" ID="Freemind_Link_778669177" MODIFIED="1250604139512" TEXT="Method">
+<node COLOR="#996600" CREATED="1244467222650" ID="Freemind_Link_778669177" MODIFIED="1250604139512" TEXT="Method">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#000000" CREATED="1243422295125" ID="Freemind_Link_1168446283" MODIFIED="1250604111588" STYLE="fork" TEXT="Climatology">
 <font NAME="SansSerif" SIZE="14"/>
@@ -222,7 +222,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244467041993" FOLDED="true" ID="Freemind_Link_610093074" MODIFIED="1250604118873" TEXT="ClimatologyType">
+<node COLOR="#996600" CREATED="1244467041993" ID="Freemind_Link_610093074" MODIFIED="1250604118873" TEXT="ClimatologyType">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>Only if Climatology has been selected for Method.</text>
@@ -253,18 +253,18 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1243422238671" FOLDED="true" ID="Freemind_Link_85250288" MODIFIED="1250676893578" TEXT="3D-Sources">
+<node COLOR="#990099" CREATED="1243422238671" ID="Freemind_Link_85250288" MODIFIED="1250676893578" TEXT="3D-Sources">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#990099" CREATED="1243422252593" FOLDED="true" ID="Freemind_Link_786529567" MODIFIED="1250170209287" TEXT="Aircraft">
+<node COLOR="#990099" CREATED="1243422252593" ID="Freemind_Link_786529567" MODIFIED="1250170209287" TEXT="Aircraft">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1243422324468" FOLDED="true" ID="Freemind_Link_85322913" MODIFIED="1250170370419" TEXT="SpeciesEmitted">
+<node COLOR="#996600" CREATED="1243422324468" ID="Freemind_Link_85322913" MODIFIED="1250170370419" TEXT="SpeciesEmitted">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1244070048872" ID="Freemind_Link_1608558752" MODIFIED="1250167614773" STYLE="fork" TEXT="[user to provide a list of species]">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="pencil"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244467041993" FOLDED="true" ID="Freemind_Link_1708734731" MODIFIED="1250521631248" TEXT="Method">
+<node COLOR="#996600" CREATED="1244467041993" ID="Freemind_Link_1708734731" MODIFIED="1250521631248" TEXT="Method">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#000000" CREATED="1243422295125" ID="Freemind_Link_1636422108" MODIFIED="1250521587709" STYLE="fork" TEXT="Climatology">
 <font NAME="SansSerif" SIZE="14"/>
@@ -279,7 +279,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244467041993" FOLDED="true" ID="Freemind_Link_281365470" MODIFIED="1250603191734" TEXT="ClimatologyType">
+<node COLOR="#996600" CREATED="1244467041993" ID="Freemind_Link_281365470" MODIFIED="1250603191734" TEXT="ClimatologyType">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>Only if Climatology has been selected for Method.</text>
@@ -310,16 +310,16 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1243422257750" FOLDED="true" ID="Freemind_Link_1260368760" MODIFIED="1250170360661" TEXT="BiomassBurning">
+<node COLOR="#990099" CREATED="1243422257750" ID="Freemind_Link_1260368760" MODIFIED="1250170360661" TEXT="BiomassBurning">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1243422533921" FOLDED="true" ID="Freemind_Link_279665540" MODIFIED="1250587366925" TEXT="SpeciesEmitted">
+<node COLOR="#996600" CREATED="1243422533921" ID="Freemind_Link_279665540" MODIFIED="1250587366925" TEXT="SpeciesEmitted">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1244070048872" ID="Freemind_Link_803249032" MODIFIED="1250167614773" STYLE="fork" TEXT="[user to provide a list of species]">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="pencil"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244467222650" FOLDED="true" ID="Freemind_Link_1891984260" MODIFIED="1250604139512" TEXT="Method">
+<node COLOR="#996600" CREATED="1244467222650" ID="Freemind_Link_1891984260" MODIFIED="1250604139512" TEXT="Method">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#000000" CREATED="1243422295125" ID="Freemind_Link_830897610" MODIFIED="1250604111588" STYLE="fork" TEXT="Climatology">
 <font NAME="SansSerif" SIZE="14"/>
@@ -338,7 +338,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244467041993" FOLDED="true" ID="Freemind_Link_1864668171" MODIFIED="1250604118873" TEXT="ClimatologyType">
+<node COLOR="#996600" CREATED="1244467041993" ID="Freemind_Link_1864668171" MODIFIED="1250604118873" TEXT="ClimatologyType">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>Only if Climatology has been selected for Method.</text>
@@ -369,16 +369,16 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1243422272046" FOLDED="true" ID="Freemind_Link_1268604114" MODIFIED="1250170360677" TEXT="Lightning">
+<node COLOR="#990099" CREATED="1243422272046" ID="Freemind_Link_1268604114" MODIFIED="1250170360677" TEXT="Lightning">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1243422568500" FOLDED="true" ID="Freemind_Link_1908117934" MODIFIED="1250170763446" TEXT="SpeciesEmitted">
+<node COLOR="#996600" CREATED="1243422568500" ID="Freemind_Link_1908117934" MODIFIED="1250170763446" TEXT="SpeciesEmitted">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1244070048872" ID="Freemind_Link_431360650" MODIFIED="1250167614773" STYLE="fork" TEXT="[user to provide a list of species]">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="pencil"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244467222650" FOLDED="true" ID="Freemind_Link_1448065370" MODIFIED="1250604139512" TEXT="Method">
+<node COLOR="#996600" CREATED="1244467222650" ID="Freemind_Link_1448065370" MODIFIED="1250604139512" TEXT="Method">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#000000" CREATED="1243422295125" ID="Freemind_Link_1424962249" MODIFIED="1250604111588" STYLE="fork" TEXT="Climatology">
 <font NAME="SansSerif" SIZE="14"/>
@@ -397,7 +397,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244467041993" FOLDED="true" ID="Freemind_Link_775512246" MODIFIED="1250604118873" TEXT="ClimatologyType">
+<node COLOR="#996600" CREATED="1244467041993" ID="Freemind_Link_775512246" MODIFIED="1250604118873" TEXT="ClimatologyType">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>Only if Climatology has been selected for Method.</text>
@@ -428,16 +428,16 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1243422276578" FOLDED="true" ID="Freemind_Link_1901109105" MODIFIED="1250521678828" TEXT="Volcanic">
+<node COLOR="#990099" CREATED="1243422276578" ID="Freemind_Link_1901109105" MODIFIED="1250521678828" TEXT="Volcanic">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1243422568500" FOLDED="true" ID="Freemind_Link_1550859625" MODIFIED="1250170763446" TEXT="SpeciesEmitted">
+<node COLOR="#996600" CREATED="1243422568500" ID="Freemind_Link_1550859625" MODIFIED="1250170763446" TEXT="SpeciesEmitted">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1244070048872" ID="Freemind_Link_1081303879" MODIFIED="1250167614773" STYLE="fork" TEXT="[user to provide a list of species]">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="pencil"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244467041993" FOLDED="true" ID="Freemind_Link_912452292" MODIFIED="1250521631248" TEXT="Method">
+<node COLOR="#996600" CREATED="1244467041993" ID="Freemind_Link_912452292" MODIFIED="1250521631248" TEXT="Method">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#000000" CREATED="1243422295125" ID="Freemind_Link_1489506687" MODIFIED="1250521587709" STYLE="fork" TEXT="Climatology">
 <font NAME="SansSerif" SIZE="14"/>
@@ -452,7 +452,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244467041993" FOLDED="true" ID="Freemind_Link_922671931" MODIFIED="1250603191734" TEXT="ClimatologyType">
+<node COLOR="#996600" CREATED="1244467041993" ID="Freemind_Link_922671931" MODIFIED="1250603191734" TEXT="ClimatologyType">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>Only if Climatology has been selected for Method.</text>
@@ -483,9 +483,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1243422288031" FOLDED="true" ID="Freemind_Link_574354781" MODIFIED="1250604344574" TEXT="Other">
+<node COLOR="#990099" CREATED="1243422288031" ID="Freemind_Link_574354781" MODIFIED="1250604344574" TEXT="Other">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1243422242109" FOLDED="true" ID="Freemind_Link_1993634792" MODIFIED="1250169958244" TEXT="SpeciesEmitted">
+<node COLOR="#996600" CREATED="1243422242109" ID="Freemind_Link_1993634792" MODIFIED="1250169958244" TEXT="SpeciesEmitted">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1244070048872" ID="Freemind_Link_241413003" MODIFIED="1250167614773" STYLE="fork" TEXT="[user to provide a list of species]">
 <font NAME="SansSerif" SIZE="14"/>
@@ -494,16 +494,16 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1244068729399" FOLDED="true" ID="Freemind_Link_1309977899" MODIFIED="1250669865065" TEXT="Concentrations">
+<node COLOR="#990099" CREATED="1244068729399" ID="Freemind_Link_1309977899" MODIFIED="1250669865065" TEXT="Concentrations">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1244068742729" FOLDED="true" ID="Freemind_Link_1587180253" MODIFIED="1250170889876" TEXT="prescribed lower boundary">
+<node COLOR="#996600" CREATED="1244068742729" ID="Freemind_Link_1587180253" MODIFIED="1250170889876" TEXT="prescribed lower boundary">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1244070048872" ID="Freemind_Link_295268454" MODIFIED="1250167614773" STYLE="fork" TEXT="[user to provide a list of species]">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="pencil"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244068753954" FOLDED="true" ID="Freemind_Link_806629975" MODIFIED="1250170889907" TEXT="prescribed upper boundary">
+<node COLOR="#996600" CREATED="1244068753954" ID="Freemind_Link_806629975" MODIFIED="1250170889907" TEXT="prescribed upper boundary">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1244070048872" ID="Freemind_Link_1879255799" MODIFIED="1250167614773" STYLE="fork" TEXT="[user to provide a list of species]">
 <font NAME="SansSerif" SIZE="14"/>
