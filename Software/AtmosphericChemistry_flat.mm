@@ -213,10 +213,10 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244467041993" ID="Freemind_Link_610093074" MODIFIED="1253636497232" TEXT="ClimatologyType">
+<node COLOR="#996600" CREATED="1244467041993" ID="Freemind_Link_610093074" MODIFIED="1253697155172" TEXT="ClimatologyType">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint]Only required if &quot;climatology&quot; is selected for &quot;Method&quot;.[/constraint]</text>
+<text>[constraint]Only required if &quot;prescribed (climatology)&quot; is selected for &quot;Method&quot;.[/constraint]</text>
 </hook>
 <node COLOR="#111111" CREATED="1243422192375" ID="Freemind_Link_308628565" MODIFIED="1253636166536" STYLE="fork" TEXT="constant">
 <font NAME="SansSerif" SIZE="14"/>
@@ -270,10 +270,10 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244467041993" ID="Freemind_Link_281365470" MODIFIED="1253636528183" TEXT="ClimatologyType">
+<node COLOR="#996600" CREATED="1244467041993" ID="Freemind_Link_281365470" MODIFIED="1253698261185" TEXT="ClimatologyType">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint]Only required if &quot;climatology&quot; is selected for &quot;Method&quot;.[/constraint]</text>
+<text>[constraint]Only required if &quot;prescribed (climatology)&quot; is selected for &quot;Method&quot;.[/constraint]</text>
 </hook>
 <node COLOR="#111111" CREATED="1243422192375" ID="Freemind_Link_1440425721" MODIFIED="1253695070095" STYLE="fork" TEXT="constant">
 <font NAME="SansSerif" SIZE="14"/>
@@ -329,10 +329,10 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244467041993" ID="Freemind_Link_1864668171" MODIFIED="1253695002196" TEXT="ClimatologyType">
+<node COLOR="#996600" CREATED="1244467041993" ID="Freemind_Link_1864668171" MODIFIED="1253698272994" TEXT="ClimatologyType">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint]Only required if &quot;climatology&quot; is selected for &quot;Method&quot;.[/constraint]</text>
+<text>[constraint]Only required if &quot;prescribed (climatology)&quot; is selected for &quot;Method&quot;.[/constraint]</text>
 </hook>
 <node COLOR="#111111" CREATED="1243422192375" ID="Freemind_Link_1322364162" MODIFIED="1253695096318" STYLE="fork" TEXT="constant">
 <font NAME="SansSerif" SIZE="14"/>
@@ -388,10 +388,10 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244467041993" ID="Freemind_Link_775512246" MODIFIED="1253695007671" TEXT="ClimatologyType">
+<node COLOR="#996600" CREATED="1244467041993" ID="Freemind_Link_775512246" MODIFIED="1253698280311" TEXT="ClimatologyType">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint]Only required if &quot;climatology&quot; is selected for &quot;Method&quot;.[/constraint]</text>
+<text>[constraint]Only required if &quot;prescribed (climatology)&quot; is selected for &quot;Method&quot;.[/constraint]</text>
 </hook>
 <node COLOR="#111111" CREATED="1243422192375" ID="Freemind_Link_1247535511" MODIFIED="1253695150497" STYLE="fork" TEXT="constant">
 <font NAME="SansSerif" SIZE="14"/>
@@ -443,10 +443,10 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244467041993" ID="Freemind_Link_922671931" MODIFIED="1253695027218" TEXT="ClimatologyType">
+<node COLOR="#996600" CREATED="1244467041993" ID="Freemind_Link_922671931" MODIFIED="1253698285084" TEXT="ClimatologyType">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint]Only required if &quot;climatology&quot; is selected for &quot;Method&quot;.[/constraint]</text>
+<text>[constraint]Only required if &quot;prescribed (climatology)&quot; is selected for &quot;Method&quot;.[/constraint]</text>
 </hook>
 <node COLOR="#111111" CREATED="1243422192375" ID="Freemind_Link_1082789802" MODIFIED="1253695174732" STYLE="fork" TEXT="constant">
 <font NAME="SansSerif" SIZE="14"/>

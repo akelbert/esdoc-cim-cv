@@ -24,19 +24,19 @@
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1233674595314" ID="Freemind_Link_151187708" MODIFIED="1251985368887" STYLE="bubble" TEXT="Method">
 <font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1247764167545" ID="Freemind_Link_919149416" MODIFIED="1247764258446" STYLE="fork" TEXT="Same as Snow in LandSurface">
+<node CREATED="1247764167545" ID="Freemind_Link_919149416" MODIFIED="1253699625834" STYLE="fork" TEXT="same as Snow in LandSurface">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1247764167545" ID="Freemind_Link_1989456308" MODIFIED="1247764246707" STYLE="fork" TEXT="Different from Snow in LandSurface">
+<node CREATED="1247764167545" ID="Freemind_Link_1989456308" MODIFIED="1253699621146" STYLE="fork" TEXT="different from Snow in LandSurface">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244816980268" ID="Freemind_Link_286412016" MODIFIED="1253538944441" STYLE="bubble" TEXT="Properties">
+<node COLOR="#996600" CREATED="1244816980268" ID="Freemind_Link_286412016" MODIFIED="1253699393558" STYLE="bubble" TEXT="Properties">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint]Only required if &quot;different from snow in LandSurface&quot; is selected for &quot;Method&quot;.[/constraint]</text>
+<text>[constraint]Only required if &quot;different from Snow in LandSurface&quot; is selected for &quot;Method&quot;.[/constraint]</text>
 </hook>
 <node COLOR="#000000" CREATED="1233674595314" ID="Freemind_Link_438344018" MODIFIED="1253539043267" STYLE="fork" TEXT="prognostic snow albedo">
 <font NAME="SansSerif" SIZE="14"/>
@@ -134,9 +134,12 @@
 </node>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1247228568530" ID="Freemind_Link_1025473179" MODIFIED="1253114690495" TEXT="CouplingMethod (with atmosphere)">
+<node COLOR="#996600" CREATED="1247228568530" ID="Freemind_Link_1025473179" MODIFIED="1253699431411" TEXT="CouplingMethod (with atmosphere)">
+<font NAME="SansSerif" SIZE="14"/>
+<node CREATED="1253699422706" ID="_" MODIFIED="1253699440428" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="back"/>
+</node>
 </node>
 </node>
 <node COLOR="#990099" CREATED="1233672453356" ID="Freemind_Link_644422294" MODIFIED="1251985350627" TEXT="SnowTreatment">
@@ -152,10 +155,10 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244816980268" ID="Freemind_Link_1338550039" MODIFIED="1253538944441" STYLE="bubble" TEXT="Properties">
+<node COLOR="#996600" CREATED="1244816980268" ID="Freemind_Link_1338550039" MODIFIED="1253699514598" STYLE="bubble" TEXT="Properties">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint]Only required if &quot;different from snow in LandSurface&quot; is selected for &quot;Method&quot;.[/constraint]</text>
+<text>[constraint]Only required if &quot;different from Snow in LandSurface&quot; is selected for &quot;Method&quot;.[/constraint]</text>
 </hook>
 <node COLOR="#000000" CREATED="1233674595314" ID="Freemind_Link_68851555" MODIFIED="1253539043267" STYLE="fork" TEXT="prognostic snow albedo">
 <font NAME="SansSerif" SIZE="14"/>
@@ -253,9 +256,12 @@
 </node>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1247228568530" ID="Freemind_Link_879721196" MODIFIED="1253114758830" TEXT="CouplingMethod (with ocean)">
+<node COLOR="#996600" CREATED="1247228568530" ID="Freemind_Link_879721196" MODIFIED="1253699452393" TEXT="CouplingMethod (with ocean)">
+<font NAME="SansSerif" SIZE="14"/>
+<node CREATED="1253699422706" ID="Freemind_Link_691769013" MODIFIED="1253699440428" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="back"/>
+</node>
 </node>
 </node>
 <node COLOR="#990099" CREATED="1233672453356" ID="Freemind_Link_297736349" MODIFIED="1251985350627" TEXT="SnowTreatment">
@@ -271,10 +277,10 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244816980268" ID="Freemind_Link_1514208738" MODIFIED="1253538944441" STYLE="bubble" TEXT="Properties">
+<node COLOR="#996600" CREATED="1244816980268" ID="Freemind_Link_1514208738" MODIFIED="1253699523537" STYLE="bubble" TEXT="Properties">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint]Only required if &quot;different from snow in LandSurface&quot; is selected for &quot;Method&quot;.[/constraint]</text>
+<text>[constraint]Only required if &quot;different from Snow in LandSurface&quot; is selected for &quot;Method&quot;.[/constraint]</text>
 </hook>
 <node COLOR="#000000" CREATED="1233674595314" ID="Freemind_Link_1527888596" MODIFIED="1253539043267" STYLE="fork" TEXT="prognostic snow albedo">
 <font NAME="SansSerif" SIZE="14"/>
@@ -319,7 +325,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1247228783195" ID="Freemind_Link_866012051" MODIFIED="1251986105784" TEXT="Coupling IceSheet-IceShelves">
+<node COLOR="#996600" CREATED="1247228783195" ID="Freemind_Link_866012051" MODIFIED="1253699569066" TEXT="CouplingIceSheet-IceShelves">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1247228798707" ID="Freemind_Link_447276852" MODIFIED="1247738756914" STYLE="fork" TEXT="grounding line interactive">
 <font NAME="SansSerif" SIZE="14"/>
@@ -330,10 +336,10 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1247228851323" ID="Freemind_Link_805399726" MODIFIED="1251986172505" STYLE="bubble" TEXT="Model/Numerics">
+<node COLOR="#996600" CREATED="1247228851323" ID="Freemind_Link_805399726" MODIFIED="1253699304201" STYLE="bubble" TEXT="Model/Numerics">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint] Only if &quot;ground line interactive&quot; is selected for CouplingIceSheet-IceShelves. [/constraint]</text>
+<text>[constraint] Only required if &quot;grounding line interactive&quot; is selected for &quot;CouplingIceSheet-IceShelves&quot;.[/constraint]</text>
 </hook>
 <node CREATED="1247235077549" ID="Freemind_Link_1624878517" MODIFIED="1247738782553" STYLE="fork" TEXT="flux prescribed (Schoof)">
 <font NAME="SansSerif" SIZE="14"/>
@@ -388,7 +394,7 @@
 <font ITALIC="true" NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233138750223" ID="Freemind_Link_833352170" MODIFIED="1245945496310" POSITION="left" STYLE="bubble" TEXT="LandIce">
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233138750223" FOLDED="true" ID="Freemind_Link_833352170" MODIFIED="1245945496310" POSITION="left" STYLE="bubble" TEXT="LandIce">
 <edge COLOR="#999999"/>
 <font BOLD="true" NAME="Arial" SIZE="16"/>
 <node COLOR="#000000" CREATED="1233140079676" ID="Freemind_Link_927009838" MODIFIED="1247737698465" TEXT="LandGlaciers">

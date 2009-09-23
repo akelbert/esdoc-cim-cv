@@ -215,10 +215,10 @@
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_1084589120" MODIFIED="1253537274968" TEXT="SpatialVariation">
+<node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_1084589120" MODIFIED="1253698976133" TEXT="SpatialVariation">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint]Only required if &quot;space varying&quot; or &quot;time+Space varying&quot; is selected for &quot;CoefficientType&quot;.[/constraint]</text>
+<text>[constraint]Only required if &quot;space varying&quot; or &quot;time + space varying (Smagorinski)&quot; is selected for &quot;CoefficientType&quot;.[/constraint]</text>
 </hook>
 <node CREATED="1233246454929" ID="Freemind_Link_313048469" MODIFIED="1253534866305" STYLE="fork" TEXT="with depth">
 <font NAME="Arial" SIZE="14"/>
@@ -423,7 +423,7 @@
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1244814179643" ID="Freemind_Link_775377248" MODIFIED="1246541064773" STYLE="fork" TEXT="turbulent closure (Bulk Mixed layer)">
+<node CREATED="1244814179643" ID="Freemind_Link_775377248" MODIFIED="1253698769690" STYLE="fork" TEXT="turbulent closure (Bulk Mixed Layer)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
@@ -440,10 +440,10 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244813969164" ID="Freemind_Link_863487200" MODIFIED="1253537394082" STYLE="bubble" TEXT="ClosureOrder">
+<node COLOR="#996600" CREATED="1244813969164" ID="Freemind_Link_863487200" MODIFIED="1253698631888" STYLE="bubble" TEXT="ClosureOrder">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint]Only required if &quot;turbulent closure&quot; is selected for &quot;SchemeType&quot;.[/constraint]</text>
+<text>[constraint]Only required if &quot;turbulent closure (TKE)&quot; or &quot;turbulent closure (KPP)&quot; or &quot;turbulent closure (Mellor-Yamada)&quot; or &quot;turbulent closure (Bulk Mixed Layer)&quot; is selected for &quot;SchemeType&quot;.[/constraint]</text>
 </hook>
 <node CREATED="1244813994134" ID="Freemind_Link_568079960" MODIFIED="1246262635442" STYLE="fork" TEXT="0">
 <font NAME="SansSerif" SIZE="14"/>
@@ -500,7 +500,7 @@
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1244814179643" ID="Freemind_Link_1263494173" MODIFIED="1246541064773" STYLE="fork" TEXT="turbulent closure (Bulk Mixed layer)">
+<node CREATED="1244814179643" ID="Freemind_Link_1263494173" MODIFIED="1253699030858" STYLE="fork" TEXT="turbulent closure (Bulk Mixed Layer)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
@@ -517,10 +517,10 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244813969164" ID="Freemind_Link_1500023018" MODIFIED="1253537429837" STYLE="bubble" TEXT="ClosureOrder">
+<node COLOR="#996600" CREATED="1244813969164" ID="Freemind_Link_1500023018" MODIFIED="1253698843276" STYLE="bubble" TEXT="ClosureOrder">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint]Only required if &quot;turbulent closure&quot; is selected for &quot;SchemeType&quot;.[/constraint]</text>
+<text>[constraint]Only required if &quot;turbulent closure (TKE)&quot; or &quot;turbulent closure (KPP)&quot; or &quot;turbulent closure (Mellor-Yamada)&quot; or &quot;turbulent closure (Bulk Mixed Layer)&quot; is selected for &quot;SchemeType&quot;.[/constraint]</text>
 </hook>
 <node CREATED="1244813994134" ID="Freemind_Link_710245874" MODIFIED="1246262635442" STYLE="fork" TEXT="0">
 <font NAME="SansSerif" SIZE="14"/>
@@ -738,10 +738,10 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_130892143" MODIFIED="1253537594214" STYLE="bubble" TEXT="LateralMixingCoefficient">
+<node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_130892143" MODIFIED="1253698809767" STYLE="bubble" TEXT="LateralMixingCoefficient">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint]Only required if &quot;diffusive&quot; or &quot;advective+diffusive&quot; is selected for &quot;BoundaryLayerType&quot;.[/constraint]</text>
+<text>[constraint]Only required if &quot;diffusive&quot; or &quot;advective + diffusive&quot; is selected for &quot;BoundaryLayerType&quot;.[/constraint]</text>
 </hook>
 <node CREATED="1233246454929" ID="Freemind_Link_625461915" MODIFIED="1242083877758" STYLE="fork" TEXT="[lateral mixing coefficient in the bottom boundary layer](m2/s)">
 <font NAME="Arial" SIZE="14"/>
@@ -834,11 +834,11 @@
 <font BOLD="true" NAME="Arial" SIZE="14"/>
 <node COLOR="#996600" CREATED="1233878176257" ID="Freemind_Link_1169909143" MODIFIED="1242118728208" STYLE="bubble" TEXT="SchemeType">
 <font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1233141348258" ID="Freemind_Link_102779744" MODIFIED="1233916552312" STYLE="fork" TEXT=" 1 extinction depth">
+<node CREATED="1233141348258" ID="Freemind_Link_102779744" MODIFIED="1253698885380" STYLE="fork" TEXT="1 extinction depth">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1233141348258" ID="Freemind_Link_1384579441" MODIFIED="1233916552327" STYLE="fork" TEXT=" 2 extinction depths">
+<node CREATED="1233141348258" ID="Freemind_Link_1384579441" MODIFIED="1253698881379" STYLE="fork" TEXT="2 extinction depths">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>

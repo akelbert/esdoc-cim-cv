@@ -19,10 +19,10 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244818261466" ID="Freemind_Link_1236904194" MODIFIED="1253538303866" TEXT="TilingMethod">
+<node COLOR="#996600" CREATED="1244818261466" ID="Freemind_Link_1236904194" MODIFIED="1253699870029" TEXT="TilingMethod">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint]Only required if &quot;common to all LS subcomponents&quot; is selected for &quot;LandSurfaceTiling&quot;.[/constraint]</text>
+<text>[constraint]Only required if &quot;common to all LS subcomponents&quot; is selected for &quot;Tiling&quot;.[/constraint]</text>
 </hook>
 <node CREATED="1244818325771" ID="Freemind_Link_1762279460" MODIFIED="1245933613120" STYLE="fork" TEXT="dynamic">
 <font NAME="SansSerif" SIZE="14"/>
@@ -158,10 +158,10 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233671008937" ID="Freemind_Link_310597912" MODIFIED="1253538867829" TEXT="Properties">
+<node COLOR="#996600" CREATED="1233671008937" ID="Freemind_Link_310597912" MODIFIED="1253699939066" TEXT="Properties">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint]Only required if &quot;differenciated drainage and runoff&quot; is selected for &quot;Method&quot;.[/constraint]</text>
+<text>[constraint]Only required if &quot;differentiated drainage and runoff&quot; is selected for &quot;Method&quot;.[/constraint]</text>
 </hook>
 <node COLOR="#000000" CREATED="1233669219773" ID="Freemind_Link_748295060" MODIFIED="1246369986562" STYLE="fork" TEXT="deep drainage">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1151,7 +1151,7 @@
 <font ITALIC="true" NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233138687431" ID="Freemind_Link_196109949" MODIFIED="1233935481092" POSITION="left" STYLE="bubble" TEXT="LandSurface">
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233138687431" FOLDED="true" ID="Freemind_Link_196109949" MODIFIED="1233935481092" POSITION="left" STYLE="bubble" TEXT="LandSurface">
 <edge COLOR="#999999"/>
 <font BOLD="true" NAME="Arial" SIZE="16"/>
 <node CREATED="1244818516585" ID="Freemind_Link_1054450915" MODIFIED="1245945732686" STYLE="fork" TEXT="Balaji: Describe the main features of your model...">

@@ -56,11 +56,11 @@
 <font BOLD="true" NAME="SansSerif" SIZE="15"/>
 <node COLOR="#996600" CREATED="1236605251484" ID="Freemind_Link_1387880859" MODIFIED="1244811456187" TEXT="SchemeType">
 <font NAME="SansSerif" SIZE="15"/>
-<node CREATED="1236608542745" ID="Freemind_Link_1053015353" MODIFIED="1253541175344" STYLE="fork" TEXT="multi-layer on an irregular vertical  grid">
+<node CREATED="1236608542745" ID="Freemind_Link_1053015353" MODIFIED="1253699714941" STYLE="fork" TEXT="multi-layer on an irregular vertical grid">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1236608542745" ID="Freemind_Link_957223136" MODIFIED="1253541175344" STYLE="fork" TEXT="multi-layer on a regular vertical  grid">
+<node CREATED="1236608542745" ID="Freemind_Link_957223136" MODIFIED="1253699711564" STYLE="fork" TEXT="multi-layer on a regular vertical grid">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>

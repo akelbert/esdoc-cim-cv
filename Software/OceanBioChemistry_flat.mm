@@ -57,17 +57,26 @@
 </node>
 <node CREATED="1233140167006" ID="Freemind_Link_555399975" MODIFIED="1237479103320" TEXT="OceanBioBoundaryForcing">
 <font BOLD="true" NAME="Arial" SIZE="14"/>
-<node COLOR="#996600" CREATED="1236609182979" ID="Freemind_Link_1656211050" MODIFIED="1252942218346" TEXT="AtmosphericDeposition">
+<node COLOR="#996600" CREATED="1236609182979" ID="Freemind_Link_1656211050" MODIFIED="1253700056706" TEXT="AtmosphericDeposition">
+<font NAME="SansSerif" SIZE="14"/>
+<node CREATED="1253700025311" ID="Freemind_Link_78124969" MODIFIED="1253700032659" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="back"/>
 </node>
-<node COLOR="#996600" CREATED="1236609194652" ID="Freemind_Link_849569968" MODIFIED="1252942218362" TEXT="RiverInput">
+</node>
+<node COLOR="#996600" CREATED="1236609194652" ID="Freemind_Link_849569968" MODIFIED="1253700056722" TEXT="RiverInput">
+<font NAME="SansSerif" SIZE="14"/>
+<node CREATED="1253700025311" ID="Freemind_Link_411276494" MODIFIED="1253700032659" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="back"/>
 </node>
-<node COLOR="#996600" CREATED="1236609212876" ID="Freemind_Link_270259148" MODIFIED="1252942218346" TEXT="SedimentInteractions">
+</node>
+<node COLOR="#996600" CREATED="1236609212876" ID="Freemind_Link_270259148" MODIFIED="1253700056706" TEXT="SedimentInteractions">
+<font NAME="SansSerif" SIZE="14"/>
+<node CREATED="1253700025311" ID="Freemind_Link_289461282" MODIFIED="1253700032659" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="back"/>
+</node>
 </node>
 </node>
 <node CREATED="1236609296453" ID="Freemind_Link_1321812138" MODIFIED="1237479103856" TEXT="OceanBioGazExchange">
@@ -251,10 +260,10 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233246454929" ID="Freemind_Link_925569673" MODIFIED="1253540247589" STYLE="bubble" TEXT="ListOfSpecies">
+<node COLOR="#996600" CREATED="1233246454929" ID="Freemind_Link_925569673" MODIFIED="1253700115924" STYLE="bubble" TEXT="ListOfSpecies">
 <font NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint]Only required if &quot;List&quot; is selected for &quot;Type&quot;.[/constraint]</text>
+<text>[constraint]Only required if &quot;list&quot; is selected for &quot;Type&quot;.[/constraint]</text>
 </hook>
 <node CREATED="1236609658609" ID="Freemind_Link_119319107" MODIFIED="1253103347507" STYLE="fork" TEXT="microzooplancton">
 <font NAME="SansSerif" SIZE="14"/>
@@ -312,8 +321,8 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1236610396306" ID="Freemind_Link_839605626" MODIFIED="1253540267682" TEXT="Particules">
-<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#990099" CREATED="1236610396306" ID="Freemind_Link_839605626" MODIFIED="1253700083179" TEXT="Particules">
+<font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Export of carbon.[/definition]</text>
 </hook>
@@ -498,7 +507,7 @@
 <font ITALIC="true" NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233138714062" ID="Freemind_Link_26544352" MODIFIED="1245068330261" POSITION="left" STYLE="bubble" TEXT="OceanBiogeoChemistry">
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233138714062" FOLDED="true" ID="Freemind_Link_26544352" MODIFIED="1245068330261" POSITION="left" STYLE="bubble" TEXT="OceanBiogeoChemistry">
 <edge COLOR="#999999"/>
 <font BOLD="true" NAME="Arial" SIZE="16"/>
 <node CREATED="1237479137672" ID="Freemind_Link_1628477958" LINK="#Freemind_Link_171465" MODIFIED="1237479354594" TEXT="OceanBioDomain">
