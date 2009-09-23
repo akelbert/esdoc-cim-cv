@@ -614,10 +614,10 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244049962944" ID="Freemind_Link_764628178" MODIFIED="1253695762945" TEXT="WashOut/RainOut">
+<node COLOR="#996600" CREATED="1244049962944" ID="Freemind_Link_764628178" MODIFIED="1253696990124" TEXT="WashOut/RainOut">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Downward transport of soluble chmistry species in clouds.[/definition)&#xa;</text>
+<text>[definition]Downward transport of soluble chemistry species in clouds.[/definition]&#xa;</text>
 </hook>
 <node COLOR="#000000" CREATED="1244059256903" ID="Freemind_Link_270074369" MODIFIED="1250604924863" STYLE="fork" TEXT="in-cloud scavenging">
 <font NAME="SansSerif" SIZE="14"/>
@@ -819,10 +819,10 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244049962944" ID="Freemind_Link_639334655" MODIFIED="1253695247755" TEXT="WashOut/RainOut">
+<node COLOR="#996600" CREATED="1244049962944" ID="Freemind_Link_639334655" MODIFIED="1253697001699" TEXT="WashOut/RainOut">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Downward transport of soluble chmistry species in clouds.[/definition]&#xa;</text>
+<text>[definition]Downward transport of soluble chemistry species in clouds.[/definition]&#xa;</text>
 </hook>
 <node COLOR="#000000" CREATED="1244059256903" ID="Freemind_Link_69009569" MODIFIED="1250604924863" STYLE="fork" TEXT="in-cloud scavenging">
 <font NAME="SansSerif" SIZE="14"/>
