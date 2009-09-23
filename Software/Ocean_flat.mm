@@ -19,11 +19,11 @@
 </node>
 <node COLOR="#996600" CREATED="1233141992152" ID="Freemind_Link_1308725448" MODIFIED="1242117043417" STYLE="bubble" TEXT="SchemeType">
 <font NAME="Arial" SIZE="14"/>
-<node CREATED="1233753074656" ID="Freemind_Link_1943432535" MODIFIED="1242072915596" STYLE="fork" TEXT="Flux form">
+<node CREATED="1233753074656" ID="Freemind_Link_1943432535" MODIFIED="1253538033916" STYLE="fork" TEXT="Flux form">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1233753200561" ID="Freemind_Link_1237260340" MODIFIED="1242072915612" STYLE="fork" TEXT="Vector form">
+<node CREATED="1233753200561" ID="Freemind_Link_1237260340" MODIFIED="1253538037668" STYLE="fork" TEXT="Vector form">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
@@ -33,11 +33,11 @@
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1233914362646" ID="Freemind_Link_496327274" MODIFIED="1242812395485" TEXT="SchemeType">
 <font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1233753316666" ID="Freemind_Link_1476802064" MODIFIED="1242072864795" STYLE="fork" TEXT="Centred 2nd order">
+<node CREATED="1233753316666" ID="Freemind_Link_1476802064" MODIFIED="1253538029010" STYLE="fork" TEXT="Centred 2nd order">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1233753316666" ID="Freemind_Link_1266824267" MODIFIED="1242072885551" STYLE="fork" TEXT="Centred 4th order">
+<node CREATED="1233753316666" ID="Freemind_Link_1266824267" MODIFIED="1253538024868" STYLE="fork" TEXT="Centred 4th order">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
@@ -65,7 +65,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1233270123274" ID="Freemind_Link_724383996" MODIFIED="1243263670424" STYLE="fork" TEXT="Other">
+<node CREATED="1233270123274" ID="Freemind_Link_724383996" MODIFIED="1253538044602" STYLE="fork" TEXT="other">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
@@ -105,7 +105,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1233270123274" ID="Freemind_Link_1321691088" MODIFIED="1243263651470" STYLE="fork" TEXT="Other">
+<node CREATED="1233270123274" ID="Freemind_Link_1321691088" MODIFIED="1253538051255" STYLE="fork" TEXT="other">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
@@ -129,38 +129,38 @@
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1233141996872" ID="Freemind_Link_1727620717" MODIFIED="1233872826518" STYLE="bubble" TEXT="Direction">
 <font NAME="Arial" SIZE="14"/>
-<node CREATED="1233141348258" ID="Freemind_Link_59584860" MODIFIED="1233916192139" STYLE="fork" TEXT="Horizontal">
+<node CREATED="1233141348258" ID="Freemind_Link_59584860" MODIFIED="1253538079359" STYLE="fork" TEXT="horizontal">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1233141360010" ID="Freemind_Link_965216697" MODIFIED="1233916192139" STYLE="fork" TEXT="Isopycnal">
+<node CREATED="1233141360010" ID="Freemind_Link_965216697" MODIFIED="1253538083968" STYLE="fork" TEXT="isopycnal">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1233753610947" ID="Freemind_Link_1335346535" MODIFIED="1234040104060" STYLE="fork" TEXT="Isoneutral">
+<node CREATED="1233753610947" ID="Freemind_Link_1335346535" MODIFIED="1253538087611" STYLE="fork" TEXT="isoneutral">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1233141360010" ID="Freemind_Link_654296209" MODIFIED="1233916192139" STYLE="fork" TEXT="Geopotential">
+<node CREATED="1233141360010" ID="Freemind_Link_654296209" MODIFIED="1253538091207" STYLE="fork" TEXT="geopotential">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1233141360010" ID="Freemind_Link_1596330384" MODIFIED="1233916192139" STYLE="fork" TEXT="Iso-level">
+<node CREATED="1233141360010" ID="Freemind_Link_1596330384" MODIFIED="1253538094896" STYLE="fork" TEXT="iso-level">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1233270123274" ID="Freemind_Link_110019764" MODIFIED="1243263637297" STYLE="fork" TEXT="Other">
+<node CREATED="1233270123274" ID="Freemind_Link_110019764" MODIFIED="1253538101737" STYLE="fork" TEXT="other">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
 <node COLOR="#996600" CREATED="1233141996872" ID="Freemind_Link_1443027422" MODIFIED="1233872839395" STYLE="bubble" TEXT="Operator">
 <font NAME="Arial" SIZE="14"/>
-<node CREATED="1233141450859" ID="Freemind_Link_1513571669" MODIFIED="1233916192123" STYLE="fork" TEXT="Harmonic (second order)">
+<node CREATED="1233141450859" ID="Freemind_Link_1513571669" MODIFIED="1253538109279" STYLE="fork" TEXT="harmonic (second order)">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1233141462339" ID="Freemind_Link_809391686" MODIFIED="1233916192139" STYLE="fork" TEXT="Bi-harmonic (fourth order)">
+<node CREATED="1233141462339" ID="Freemind_Link_809391686" MODIFIED="1253538113374" STYLE="fork" TEXT="bi-harmonic (fourth order)">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
@@ -188,47 +188,47 @@
 <font BOLD="true" NAME="Arial" SIZE="14"/>
 <node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_52027852" MODIFIED="1242118640153" TEXT="CoefficientType">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#000000" CREATED="1233245843791" ID="Freemind_Link_361137282" MODIFIED="1233916192123" STYLE="fork" TEXT="Constant">
+<node COLOR="#000000" CREATED="1233245843791" ID="Freemind_Link_361137282" MODIFIED="1253534844418" STYLE="fork" TEXT="constant">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1233245849951" ID="Freemind_Link_1490096143" MODIFIED="1242812983527" STYLE="fork" TEXT="Space varying">
+<node CREATED="1233245849951" ID="Freemind_Link_1490096143" MODIFIED="1253534848154" STYLE="fork" TEXT="space varying">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1233245849951" ID="Freemind_Link_415996958" MODIFIED="1242077712747" STYLE="fork" TEXT="Time + Space varying (Smagorinski)">
+<node CREATED="1233245849951" ID="Freemind_Link_415996958" MODIFIED="1253534855197" STYLE="fork" TEXT="time + space varying (Smagorinski)">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1233270123274" ID="Freemind_Link_1147864459" MODIFIED="1243263637297" STYLE="fork" TEXT="Other">
+<node CREATED="1233270123274" ID="Freemind_Link_1147864459" MODIFIED="1253534860166" STYLE="fork" TEXT="other">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_150961143" MODIFIED="1253118774485" STYLE="bubble" TEXT="ConstantValue">
+<node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_150961143" MODIFIED="1253534838560" STYLE="bubble" TEXT="ConstantValue">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint]Only required if &quot;Constant&quot; is selected for &quot;CoefficientType&quot;.[/constraint]</text>
+<text>[constraint]Only required if &quot;constant&quot; is selected for &quot;CoefficientType&quot;.[/constraint]</text>
 </hook>
 <node COLOR="#000000" CREATED="1233245864615" ID="Freemind_Link_462417391" MODIFIED="1242080874656" STYLE="fork" TEXT="[Eddy viscosity coefficient for momentum](m2/s)">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_1084589120" MODIFIED="1253118820614" TEXT="SpatialVariation">
+<node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_1084589120" MODIFIED="1253537274968" TEXT="SpatialVariation">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint]Only required if &quot;Space varying&quot; or &quot;Time+Space varying&quot; is selected for &quot;CoefficientType&quot;.[/constraint]</text>
+<text>[constraint]Only required if &quot;space varying&quot; or &quot;time+Space varying&quot; is selected for &quot;CoefficientType&quot;.[/constraint]</text>
 </hook>
-<node CREATED="1233246454929" ID="Freemind_Link_313048469" MODIFIED="1234026926973" STYLE="fork" TEXT="With depth">
+<node CREATED="1233246454929" ID="Freemind_Link_313048469" MODIFIED="1253534866305" STYLE="fork" TEXT="with depth">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1233246454929" ID="Freemind_Link_1676129842" MODIFIED="1234026926989" STYLE="fork" TEXT="With latitude">
+<node CREATED="1233246454929" ID="Freemind_Link_1676129842" MODIFIED="1253534870337" STYLE="fork" TEXT="with latitude">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1233246454929" ID="Freemind_Link_124167459" MODIFIED="1234026926973" STYLE="fork" TEXT="With longitude">
+<node CREATED="1233246454929" ID="Freemind_Link_124167459" MODIFIED="1253534874417" STYLE="fork" TEXT="with longitude">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
@@ -246,42 +246,42 @@
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1233141996872" ID="Freemind_Link_1897920205" MODIFIED="1233873948626" STYLE="bubble" TEXT="Direction">
 <font NAME="Arial" SIZE="14"/>
-<node CREATED="1233141348258" ID="Freemind_Link_1490342646" MODIFIED="1233916192108" STYLE="fork" TEXT="Horizontal">
+<node CREATED="1233141348258" ID="Freemind_Link_1490342646" MODIFIED="1253538125457" STYLE="fork" TEXT="horizontal">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1233141360010" ID="Freemind_Link_1728993467" MODIFIED="1233916192108" STYLE="fork" TEXT="Isopycnal">
+<node CREATED="1233141360010" ID="Freemind_Link_1728993467" MODIFIED="1253538137976" STYLE="fork" TEXT="isopycnal">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1233141360010" ID="Freemind_Link_1054437786" MODIFIED="1233916192108" STYLE="fork" TEXT="Geopotential">
+<node CREATED="1233141360010" ID="Freemind_Link_1054437786" MODIFIED="1253538141517" STYLE="fork" TEXT="geopotential">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1233141360010" ID="Freemind_Link_586910567" MODIFIED="1233916192108" STYLE="fork" TEXT="Iso-level">
+<node CREATED="1233141360010" ID="Freemind_Link_586910567" MODIFIED="1253538145425" STYLE="fork" TEXT="iso-level">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1233753610947" ID="Freemind_Link_807230805" MODIFIED="1233916192108" STYLE="fork" TEXT="Isoneutral">
+<node CREATED="1233753610947" ID="Freemind_Link_807230805" MODIFIED="1253538150003" STYLE="fork" TEXT="isoneutral">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1233270123274" ID="Freemind_Link_631003334" MODIFIED="1243263637297" STYLE="fork" TEXT="Other">
+<node CREATED="1233270123274" ID="Freemind_Link_631003334" MODIFIED="1253538154301" STYLE="fork" TEXT="other">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
 <node COLOR="#996600" CREATED="1233141996872" ID="Freemind_Link_841186463" MODIFIED="1233873948657" STYLE="bubble" TEXT="Operator">
 <font NAME="Arial" SIZE="14"/>
-<node CREATED="1233141450859" ID="Freemind_Link_264955853" MODIFIED="1233916192092" STYLE="fork" TEXT="Harmonic (second order)">
+<node CREATED="1233141450859" ID="Freemind_Link_264955853" MODIFIED="1253538158412" STYLE="fork" TEXT="harmonic (second order)">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1233141462339" ID="Freemind_Link_655274229" MODIFIED="1233916192108" STYLE="fork" TEXT="Bi-harmonic (fourth order)">
+<node CREATED="1233141462339" ID="Freemind_Link_655274229" MODIFIED="1253538165299" STYLE="fork" TEXT="bi-harmonic (fourth order)">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1233270123274" ID="Freemind_Link_1334258791" MODIFIED="1243263637297" STYLE="fork" TEXT="Other">
+<node CREATED="1233270123274" ID="Freemind_Link_1334258791" MODIFIED="1253537957070" STYLE="fork" TEXT="other">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
@@ -290,39 +290,39 @@
 <font BOLD="true" NAME="Arial" SIZE="14"/>
 <node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_1431501845" MODIFIED="1242117463322" STYLE="bubble" TEXT="CoefficientType">
 <font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1233245843791" ID="Freemind_Link_1971300003" MODIFIED="1233916192076" STYLE="fork" TEXT="Constant">
+<node CREATED="1233245843791" ID="Freemind_Link_1971300003" MODIFIED="1253537293540" STYLE="fork" TEXT="constant">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1233245849951" ID="Freemind_Link_235683340" MODIFIED="1242813392593" STYLE="fork" TEXT="Space varying">
+<node CREATED="1233245849951" ID="Freemind_Link_235683340" MODIFIED="1253537297292" STYLE="fork" TEXT="space varying">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_1469089679" MODIFIED="1253118871244" STYLE="bubble" TEXT="ConstantValue">
+<node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_1469089679" MODIFIED="1253537315668" STYLE="bubble" TEXT="ConstantValue">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint]Only required if &quot;Constant&quot; is selected for &quot;CoefficientType&quot;.[/constraint]</text>
+<text>[constraint]Only required if &quot;constant&quot; is selected for &quot;CoefficientType&quot;.[/constraint]</text>
 </hook>
 <node COLOR="#000000" CREATED="1233245864615" ID="Freemind_Link_1261795754" MODIFIED="1242080822303" STYLE="fork" TEXT="[Eddy viscosity coefficient for tracers](m2/s)">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_523480559" MODIFIED="1253118903661" TEXT="SpatialVariation">
+<node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_523480559" MODIFIED="1253537333187" TEXT="SpatialVariation">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint]Only if &quot;Space varying&quot; is selected for &quot;CoefficientType&quot;.[/constraint]</text>
+<text>[constraint]Only required if &quot;space varying&quot; is selected for &quot;CoefficientType&quot;.[/constraint]</text>
 </hook>
-<node CREATED="1233246454929" ID="Freemind_Link_1925853677" MODIFIED="1234026926973" STYLE="fork" TEXT="With depth">
+<node CREATED="1233246454929" ID="Freemind_Link_1925853677" MODIFIED="1253537341073" STYLE="fork" TEXT="with depth">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1233246454929" ID="Freemind_Link_1185307637" MODIFIED="1234026926989" STYLE="fork" TEXT="With latitude">
+<node CREATED="1233246454929" ID="Freemind_Link_1185307637" MODIFIED="1253537351533" STYLE="fork" TEXT="with latitude">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1233246454929" ID="Freemind_Link_160966356" MODIFIED="1234026926973" STYLE="fork" TEXT="With longitude">
+<node CREATED="1233246454929" ID="Freemind_Link_160966356" MODIFIED="1253537355612" STYLE="fork" TEXT="with longitude">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
@@ -343,12 +343,12 @@
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1233270123274" ID="Freemind_Link_1561501259" MODIFIED="1243263637297" STYLE="fork" TEXT="Other">
+<node CREATED="1233270123274" ID="Freemind_Link_1561501259" MODIFIED="1253537963560" STYLE="fork" TEXT="other">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_663153538" MODIFIED="1253118942380" STYLE="bubble" TEXT="GMvalue">
+<node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_663153538" MODIFIED="1253537375237" STYLE="bubble" TEXT="GMvalue">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[constraint]Only required if &quot;GM scheme&quot; is selected for &quot;CoefficientType&quot;.[/constraint]</text>
@@ -440,7 +440,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244813969164" ID="Freemind_Link_863487200" MODIFIED="1253119044716" STYLE="bubble" TEXT="ClosureOrder">
+<node COLOR="#996600" CREATED="1244813969164" ID="Freemind_Link_863487200" MODIFIED="1253537394082" STYLE="bubble" TEXT="ClosureOrder">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[constraint]Only required if &quot;turbulent closure&quot; is selected for &quot;SchemeType&quot;.[/constraint]</text>
@@ -462,7 +462,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_397145003" MODIFIED="1253119075027" STYLE="bubble" TEXT="ConstantValue">
+<node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_397145003" MODIFIED="1253537409463" STYLE="bubble" TEXT="ConstantValue">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[constraint]Only required if &quot;constant values&quot; is selected for &quot;SchemeType&quot;.[/constraint]</text>
@@ -484,7 +484,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1237460635585" ID="Freemind_Link_1443010311" MODIFIED="1242814554026" TEXT="SchemeType">
 <font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1233246047504" ID="Freemind_Link_1660894580" MODIFIED="1233914274327" STYLE="fork" TEXT="Constant values">
+<node CREATED="1233246047504" ID="Freemind_Link_1660894580" MODIFIED="1253537543577" STYLE="fork" TEXT="constant values">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
@@ -512,15 +512,15 @@
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1233270123274" ID="Freemind_Link_636771698" MODIFIED="1243263637297" STYLE="fork" TEXT="Other">
+<node CREATED="1233270123274" ID="Freemind_Link_636771698" MODIFIED="1253537539014" STYLE="fork" TEXT="other">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244813969164" ID="Freemind_Link_1500023018" MODIFIED="1253119090361" STYLE="bubble" TEXT="ClosureOrder">
+<node COLOR="#996600" CREATED="1244813969164" ID="Freemind_Link_1500023018" MODIFIED="1253537429837" STYLE="bubble" TEXT="ClosureOrder">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint]Only if &quot;turbulent closure&quot; is selected for &quot;SchemeType&quot;.[/constraint]</text>
+<text>[constraint]Only required if &quot;turbulent closure&quot; is selected for &quot;SchemeType&quot;.[/constraint]</text>
 </hook>
 <node CREATED="1244813994134" ID="Freemind_Link_710245874" MODIFIED="1246262635442" STYLE="fork" TEXT="0">
 <font NAME="SansSerif" SIZE="14"/>
@@ -539,7 +539,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_754942619" MODIFIED="1253119102124" STYLE="bubble" TEXT="ConstantValue">
+<node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_754942619" MODIFIED="1253537445936" STYLE="bubble" TEXT="ConstantValue">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[constraint]Only required if &quot;constant values&quot; is selected for &quot;SchemeType&quot;.[/constraint]</text>
@@ -564,7 +564,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1237460635585" ID="Freemind_Link_1263310987" MODIFIED="1242814725425" TEXT="SchemeType">
 <font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1233246047504" ID="Freemind_Link_1009211014" MODIFIED="1233914274327" STYLE="fork" TEXT="Constant values">
+<node CREATED="1233246047504" ID="Freemind_Link_1009211014" MODIFIED="1253537505879" STYLE="fork" TEXT="constant values">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
@@ -584,12 +584,12 @@
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1233270123274" ID="Freemind_Link_230248677" MODIFIED="1243263637297" STYLE="fork" TEXT="Other">
+<node CREATED="1233270123274" ID="Freemind_Link_230248677" MODIFIED="1253537528538" STYLE="fork" TEXT="other">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_824195997" MODIFIED="1253119113309" STYLE="bubble" TEXT="ConstantValue">
+<node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_824195997" MODIFIED="1253537461224" STYLE="bubble" TEXT="ConstantValue">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[constraint]Only required if &quot;constant values&quot; is selected for &quot;SchemeType&quot;.[/constraint]</text>
@@ -601,16 +601,16 @@
 </node>
 <node COLOR="#996600" CREATED="1233332461227" ID="Freemind_Link_1162981823" MODIFIED="1242083064623" TEXT="BackgroundType">
 <font NAME="Arial" SIZE="14"/>
-<node CREATED="1233754178405" ID="Freemind_Link_111908429" MODIFIED="1233914773847" STYLE="fork" TEXT="Vertical profile">
+<node CREATED="1233754178405" ID="Freemind_Link_111908429" MODIFIED="1253537513944" STYLE="fork" TEXT="vertical profile">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1233754182598" ID="Freemind_Link_1105851218" MODIFIED="1233914773847" STYLE="fork" TEXT="Constant value">
+<node CREATED="1233754182598" ID="Freemind_Link_1105851218" MODIFIED="1253537518492" STYLE="fork" TEXT="constant value">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_27035838" MODIFIED="1253119139267" STYLE="bubble" TEXT="BackgroundConstantValue">
+<node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_27035838" MODIFIED="1253537475514" STYLE="bubble" TEXT="BackgroundConstantValue">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[constraint]Only required if &quot;constant value&quot; is selected for &quot;BackgroundType&quot;.[/constraint]</text>
@@ -625,7 +625,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1237460635585" ID="Freemind_Link_923159696" MODIFIED="1242814725425" TEXT="SchemeType">
 <font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1233246047504" ID="Freemind_Link_704522522" MODIFIED="1233914274327" STYLE="fork" TEXT="Constant values">
+<node CREATED="1233246047504" ID="Freemind_Link_704522522" MODIFIED="1253537510442" STYLE="fork" TEXT="constant values">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
@@ -645,12 +645,12 @@
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1233270123274" ID="Freemind_Link_647888443" MODIFIED="1243263637297" STYLE="fork" TEXT="Other">
+<node CREATED="1233270123274" ID="Freemind_Link_647888443" MODIFIED="1253537523788" STYLE="fork" TEXT="other">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_54014088" MODIFIED="1253119170904" STYLE="bubble" TEXT="ConstantValue">
+<node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_54014088" MODIFIED="1253537497588" STYLE="bubble" TEXT="ConstantValue">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[constraint]Only required if &quot;constant values&quot; is selected for &quot;SchemeType&quot;.[/constraint]</text>
@@ -662,16 +662,16 @@
 </node>
 <node COLOR="#996600" CREATED="1233332461227" ID="Freemind_Link_926445296" MODIFIED="1242083064623" TEXT="BackgroundType">
 <font NAME="Arial" SIZE="14"/>
-<node CREATED="1233754178405" ID="Freemind_Link_343790225" MODIFIED="1233914773847" STYLE="fork" TEXT="Vertical profile">
+<node CREATED="1233754178405" ID="Freemind_Link_343790225" MODIFIED="1253537874304" STYLE="fork" TEXT="vertical profile">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1233754182598" ID="Freemind_Link_243590053" MODIFIED="1233914773847" STYLE="fork" TEXT="Constant value">
+<node CREATED="1233754182598" ID="Freemind_Link_243590053" MODIFIED="1253537884530" STYLE="fork" TEXT="constant value">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_1587429895" MODIFIED="1253119191964" STYLE="bubble" TEXT="BackgroundConstantValue">
+<node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_1587429895" MODIFIED="1253537573965" STYLE="bubble" TEXT="BackgroundConstantValue">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[constraint]Only required if &quot;constant value&quot; is selected for &quot;BackgroundType&quot;.[/constraint]</text>
@@ -699,19 +699,19 @@
 <font BOLD="true" NAME="Arial" SIZE="14"/>
 <node COLOR="#996600" CREATED="1233876721494" ID="Freemind_Link_204814154" MODIFIED="1242814885271" TEXT="Method">
 <font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1233141348258" ID="Freemind_Link_1973563419" MODIFIED="1233914963496" STYLE="fork" TEXT="Non-penetrative convective adjustment">
+<node CREATED="1233141348258" ID="Freemind_Link_1973563419" MODIFIED="1253537893040" STYLE="fork" TEXT="non-penetrative convective adjustment">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1233141360010" ID="Freemind_Link_384199934" MODIFIED="1233914963512" STYLE="fork" TEXT="Enhanced vertical diffusion">
+<node CREATED="1233141360010" ID="Freemind_Link_384199934" MODIFIED="1253537897244" STYLE="fork" TEXT="enhanced vertical diffusion">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1233141360010" ID="Freemind_Link_1791627468" MODIFIED="1233914963496" STYLE="fork" TEXT="Included in the Turbulence Closure Scheme">
+<node CREATED="1233141360010" ID="Freemind_Link_1791627468" MODIFIED="1253537906581" STYLE="fork" TEXT="included in the Turbulence Closure Scheme">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1233270123274" ID="Freemind_Link_1417768499" MODIFIED="1243263637297" STYLE="fork" TEXT="Other">
+<node CREATED="1233270123274" ID="Freemind_Link_1417768499" MODIFIED="1253537910972" STYLE="fork" TEXT="other">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
@@ -738,7 +738,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_130892143" MODIFIED="1253119248982" STYLE="bubble" TEXT="LateralMixingCoefficient">
+<node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_130892143" MODIFIED="1253537594214" STYLE="bubble" TEXT="LateralMixingCoefficient">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[constraint]Only required if &quot;diffusive&quot; or &quot;advective+diffusive&quot; is selected for &quot;BoundaryLayerType&quot;.[/constraint]</text>
@@ -750,11 +750,11 @@
 </node>
 <node COLOR="#996600" CREATED="1233587494501" ID="Freemind_Link_1959833059" MODIFIED="1242815953022" TEXT="SillOverflow ">
 <font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1233587502261" ID="Freemind_Link_1033405550" MODIFIED="1233914963465" STYLE="fork" TEXT="Specific treatment">
+<node CREATED="1233587502261" ID="Freemind_Link_1033405550" MODIFIED="1253537916612" STYLE="fork" TEXT="specific treatment">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1233587515150" ID="Freemind_Link_1205192864" MODIFIED="1233914963465" STYLE="fork" TEXT="No specific treatment">
+<node CREATED="1233587515150" ID="Freemind_Link_1205192864" MODIFIED="1253537920769" STYLE="fork" TEXT="no specific treatment">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
@@ -784,7 +784,7 @@
 <icon BUILTIN="button_cancel"/>
 <icon BUILTIN="messagebox_warning"/>
 </node>
-<node CREATED="1233753810140" ID="Freemind_Link_338579556" MODIFIED="1233916552358" STYLE="fork" TEXT="None">
+<node CREATED="1233753810140" ID="Freemind_Link_338579556" MODIFIED="1253537927859" STYLE="fork" TEXT="none">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
@@ -854,7 +854,7 @@
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233754574439" ID="Freemind_Link_1469742639" MODIFIED="1253119314557" STYLE="bubble" TEXT="SecondDepth">
+<node COLOR="#996600" CREATED="1233754574439" ID="Freemind_Link_1469742639" MODIFIED="1253537634462" STYLE="bubble" TEXT="SecondDepth">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[constraint]Only required if &quot;2 extinction depths&quot; or &quot;3 extinction depths&quot; is selected for &quot;SchemeType&quot;.[/constraint]</text>
@@ -864,7 +864,7 @@
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233754574439" ID="Freemind_Link_1882211348" MODIFIED="1253119333994" STYLE="bubble" TEXT="ThirdDepth">
+<node COLOR="#996600" CREATED="1233754574439" ID="Freemind_Link_1882211348" MODIFIED="1253537652901" STYLE="bubble" TEXT="ThirdDepth">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[constraint]Only required if &quot;3 extinction depths&quot; is selected for &quot;SchemeType&quot;.[/constraint]</text>
@@ -885,7 +885,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1237460635585" ID="Freemind_Link_1234449877" MODIFIED="1253119366364" TEXT="OceanColorSource">
+<node COLOR="#996600" CREATED="1237460635585" ID="Freemind_Link_1234449877" MODIFIED="1253537668548" TEXT="OceanColorSource">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[constraint]Only required if &quot;yes&quot; is selected for &quot;OceanColorDependant&quot;.[/constraint]</text>
@@ -1021,10 +1021,10 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233329979500" ID="Freemind_Link_786667002" MODIFIED="1253119406441" TEXT="OceanFreeSurface">
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233329979500" ID="Freemind_Link_786667002" MODIFIED="1253537695084" TEXT="OceanFreeSurface">
 <font BOLD="true" NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[info] If no free surface, then ocean surface is rigid-liquid. [/info]</text>
+<text>[info]If no free surface, then ocean surface is rigid-liquid.[/info]</text>
 </hook>
 <node COLOR="#996600" CREATED="1233880197447" ID="Freemind_Link_1985618654" MODIFIED="1243264464658" STYLE="bubble" TEXT="Type">
 <font NAME="SansSerif" SIZE="14"/>

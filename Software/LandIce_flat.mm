@@ -33,44 +33,44 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244816980268" ID="Freemind_Link_1151015257" MODIFIED="1251985626287" STYLE="bubble" TEXT="Properties">
+<node COLOR="#996600" CREATED="1244816980268" ID="Freemind_Link_286412016" MODIFIED="1253538944441" STYLE="bubble" TEXT="Properties">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint] Only if &quot;Different from snow in LandSurface&quot; is selected for Method. [/constraint]</text>
+<text>[constraint]Only required if &quot;different from snow in LandSurface&quot; is selected for &quot;Method&quot;.[/constraint]</text>
 </hook>
-<node COLOR="#000000" CREATED="1233674595314" ID="Freemind_Link_694584035" MODIFIED="1251985692236" STYLE="fork" TEXT="PrognosticSnowAlbedo">
+<node COLOR="#000000" CREATED="1233674595314" ID="Freemind_Link_438344018" MODIFIED="1253539043267" STYLE="fork" TEXT="prognostic snow albedo">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node COLOR="#000000" CREATED="1233674393965" ID="Freemind_Link_684671721" MODIFIED="1251985692095" STYLE="fork" TEXT="PrognosticSnowDensity">
+<node COLOR="#000000" CREATED="1233674393965" ID="Freemind_Link_1485132359" MODIFIED="1253539049577" STYLE="fork" TEXT="prognostic snow density">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node COLOR="#000000" CREATED="1241078503222" ID="Freemind_Link_347468142" MODIFIED="1251985692142" STYLE="fork" TEXT="PrognosticSnowWaterEquivalent">
+<node COLOR="#000000" CREATED="1241078503222" ID="Freemind_Link_1967764473" MODIFIED="1253539059663" STYLE="fork" TEXT="prognostic snow water equivalent">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node COLOR="#000000" CREATED="1241078550560" ID="Freemind_Link_1760942691" MODIFIED="1251985692142" STYLE="fork" TEXT="PrognosticSnowHeatContent">
+<node COLOR="#000000" CREATED="1241078550560" ID="Freemind_Link_1309041760" MODIFIED="1253539130947" STYLE="fork" TEXT="prognostic snow heat content">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node COLOR="#000000" CREATED="1241078960980" ID="Freemind_Link_1662441323" MODIFIED="1251985692158" STYLE="fork" TEXT="PrognosticSnowTemperature">
+<node COLOR="#000000" CREATED="1241078960980" ID="Freemind_Link_1588334439" MODIFIED="1253539309512" STYLE="fork" TEXT="prognostic snow temperature">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node COLOR="#000000" CREATED="1241078982017" ID="Freemind_Link_245515732" MODIFIED="1251985692173" STYLE="fork" TEXT="PrognosticSnowLiquidWaterContent">
+<node COLOR="#000000" CREATED="1241078982017" ID="Freemind_Link_1308636598" MODIFIED="1253539321657" STYLE="fork" TEXT="prognostic snow liquid water content">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node COLOR="#000000" CREATED="1233674595314" ID="Freemind_Link_1393603920" MODIFIED="1251985692189" STYLE="fork" TEXT="SnowMelting">
+<node COLOR="#000000" CREATED="1233674595314" ID="Freemind_Link_815307715" MODIFIED="1253539000414" STYLE="fork" TEXT="snow melting">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node COLOR="#000000" CREATED="1233674595314" ID="Freemind_Link_502104584" MODIFIED="1251985692205" STYLE="fork" TEXT="SnowRefreezing">
+<node COLOR="#000000" CREATED="1233674595314" ID="Freemind_Link_611295361" MODIFIED="1253539008315" STYLE="fork" TEXT="snow refreezing">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node COLOR="#000000" CREATED="1233674595314" ID="Freemind_Link_1140242318" MODIFIED="1251985692220" STYLE="fork" TEXT="BlowingSnow">
+<node COLOR="#000000" CREATED="1233674595314" ID="Freemind_Link_1824889289" MODIFIED="1253539026419" STYLE="fork" TEXT="blowing snow">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
@@ -91,10 +91,10 @@
 <icon BUILTIN="help"/>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1247228545977" ID="Freemind_Link_1783289180" MODIFIED="1251985867736" TEXT="Dynamics">
+<node COLOR="#990099" CREATED="1247228545977" ID="Freemind_Link_1783289180" MODIFIED="1253538925456" TEXT="Dynamics">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[info] Dynamics deals with geometry changes. [/info]</text>
+<text>[info]Dynamics deals with geometry changes.[/info]</text>
 </hook>
 <node COLOR="#990099" CREATED="1247228584842" ID="Freemind_Link_1044406016" MODIFIED="1251985797122" TEXT="Model/Numerics">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
@@ -143,53 +143,53 @@
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1233674595314" ID="Freemind_Link_329650456" MODIFIED="1251985368887" STYLE="bubble" TEXT="Method">
 <font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1247764167545" ID="Freemind_Link_271354862" MODIFIED="1247764258446" STYLE="fork" TEXT="Same as Snow in LandSurface">
+<node CREATED="1247764167545" ID="Freemind_Link_271354862" MODIFIED="1253538950517" STYLE="fork" TEXT="same as Snow in LandSurface">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1247764167545" ID="Freemind_Link_1098655363" MODIFIED="1247764246707" STYLE="fork" TEXT="Different from Snow in LandSurface">
+<node CREATED="1247764167545" ID="Freemind_Link_1098655363" MODIFIED="1253538955330" STYLE="fork" TEXT="different from Snow in LandSurface">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244816980268" ID="Freemind_Link_1338550039" MODIFIED="1251985626287" STYLE="bubble" TEXT="Properties">
+<node COLOR="#996600" CREATED="1244816980268" ID="Freemind_Link_1338550039" MODIFIED="1253538944441" STYLE="bubble" TEXT="Properties">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint] Only if &quot;Different from snow in LandSurface&quot; is selected for Method. [/constraint]</text>
+<text>[constraint]Only required if &quot;different from snow in LandSurface&quot; is selected for &quot;Method&quot;.[/constraint]</text>
 </hook>
-<node COLOR="#000000" CREATED="1233674595314" ID="Freemind_Link_68851555" MODIFIED="1251985692236" STYLE="fork" TEXT="PrognosticSnowAlbedo">
+<node COLOR="#000000" CREATED="1233674595314" ID="Freemind_Link_68851555" MODIFIED="1253539043267" STYLE="fork" TEXT="prognostic snow albedo">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node COLOR="#000000" CREATED="1233674393965" ID="Freemind_Link_813156432" MODIFIED="1251985692095" STYLE="fork" TEXT="PrognosticSnowDensity">
+<node COLOR="#000000" CREATED="1233674393965" ID="Freemind_Link_813156432" MODIFIED="1253539049577" STYLE="fork" TEXT="prognostic snow density">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node COLOR="#000000" CREATED="1241078503222" ID="Freemind_Link_1519829614" MODIFIED="1251985692142" STYLE="fork" TEXT="PrognosticSnowWaterEquivalent">
+<node COLOR="#000000" CREATED="1241078503222" ID="Freemind_Link_1519829614" MODIFIED="1253539059663" STYLE="fork" TEXT="prognostic snow water equivalent">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node COLOR="#000000" CREATED="1241078550560" ID="Freemind_Link_258018258" MODIFIED="1251985692142" STYLE="fork" TEXT="PrognosticSnowHeatContent">
+<node COLOR="#000000" CREATED="1241078550560" ID="Freemind_Link_258018258" MODIFIED="1253539130947" STYLE="fork" TEXT="prognostic snow heat content">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node COLOR="#000000" CREATED="1241078960980" ID="Freemind_Link_577242875" MODIFIED="1251985692158" STYLE="fork" TEXT="PrognosticSnowTemperature">
+<node COLOR="#000000" CREATED="1241078960980" ID="Freemind_Link_577242875" MODIFIED="1253539309512" STYLE="fork" TEXT="prognostic snow temperature">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node COLOR="#000000" CREATED="1241078982017" ID="Freemind_Link_1892644607" MODIFIED="1251985692173" STYLE="fork" TEXT="PrognosticSnowLiquidWaterContent">
+<node COLOR="#000000" CREATED="1241078982017" ID="Freemind_Link_1892644607" MODIFIED="1253539321657" STYLE="fork" TEXT="prognostic snow liquid water content">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node COLOR="#000000" CREATED="1233674595314" ID="Freemind_Link_632692643" MODIFIED="1251985692189" STYLE="fork" TEXT="SnowMelting">
+<node COLOR="#000000" CREATED="1233674595314" ID="Freemind_Link_632692643" MODIFIED="1253539000414" STYLE="fork" TEXT="snow melting">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node COLOR="#000000" CREATED="1233674595314" ID="Freemind_Link_1990983524" MODIFIED="1251985692205" STYLE="fork" TEXT="SnowRefreezing">
+<node COLOR="#000000" CREATED="1233674595314" ID="Freemind_Link_1990983524" MODIFIED="1253539008315" STYLE="fork" TEXT="snow refreezing">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node COLOR="#000000" CREATED="1233674595314" ID="Freemind_Link_55325162" MODIFIED="1251985692220" STYLE="fork" TEXT="BlowingSnow">
+<node COLOR="#000000" CREATED="1233674595314" ID="Freemind_Link_55325162" MODIFIED="1253539026419" STYLE="fork" TEXT="blowing snow">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
@@ -262,53 +262,53 @@
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1233674595314" ID="Freemind_Link_164423952" MODIFIED="1251985368887" STYLE="bubble" TEXT="Method">
 <font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1247764167545" ID="Freemind_Link_311464813" MODIFIED="1247764258446" STYLE="fork" TEXT="Same as Snow in LandSurface">
+<node CREATED="1247764167545" ID="Freemind_Link_311464813" MODIFIED="1253540078655" STYLE="fork" TEXT="same as Snow in LandSurface">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1247764167545" ID="Freemind_Link_1085373514" MODIFIED="1247764246707" STYLE="fork" TEXT="Different from Snow in LandSurface">
+<node CREATED="1247764167545" ID="Freemind_Link_1085373514" MODIFIED="1253539379065" STYLE="fork" TEXT="different from Snow in LandSurface">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244816980268" ID="Freemind_Link_1580031752" MODIFIED="1251985626287" STYLE="bubble" TEXT="Properties">
+<node COLOR="#996600" CREATED="1244816980268" ID="Freemind_Link_1514208738" MODIFIED="1253538944441" STYLE="bubble" TEXT="Properties">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint] Only if &quot;Different from snow in LandSurface&quot; is selected for Method. [/constraint]</text>
+<text>[constraint]Only required if &quot;different from snow in LandSurface&quot; is selected for &quot;Method&quot;.[/constraint]</text>
 </hook>
-<node COLOR="#000000" CREATED="1233674595314" ID="Freemind_Link_3727375" MODIFIED="1251985692236" STYLE="fork" TEXT="PrognosticSnowAlbedo">
+<node COLOR="#000000" CREATED="1233674595314" ID="Freemind_Link_1527888596" MODIFIED="1253539043267" STYLE="fork" TEXT="prognostic snow albedo">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node COLOR="#000000" CREATED="1233674393965" ID="Freemind_Link_838685303" MODIFIED="1251985692095" STYLE="fork" TEXT="PrognosticSnowDensity">
+<node COLOR="#000000" CREATED="1233674393965" ID="Freemind_Link_1049789139" MODIFIED="1253539049577" STYLE="fork" TEXT="prognostic snow density">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node COLOR="#000000" CREATED="1241078503222" ID="Freemind_Link_1246210256" MODIFIED="1251985692142" STYLE="fork" TEXT="PrognosticSnowWaterEquivalent">
+<node COLOR="#000000" CREATED="1241078503222" ID="Freemind_Link_1310315886" MODIFIED="1253539059663" STYLE="fork" TEXT="prognostic snow water equivalent">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node COLOR="#000000" CREATED="1241078550560" ID="Freemind_Link_1119368173" MODIFIED="1251985692142" STYLE="fork" TEXT="PrognosticSnowHeatContent">
+<node COLOR="#000000" CREATED="1241078550560" ID="Freemind_Link_576141695" MODIFIED="1253539130947" STYLE="fork" TEXT="prognostic snow heat content">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node COLOR="#000000" CREATED="1241078960980" ID="Freemind_Link_1620611198" MODIFIED="1251985692158" STYLE="fork" TEXT="PrognosticSnowTemperature">
+<node COLOR="#000000" CREATED="1241078960980" ID="Freemind_Link_1163053987" MODIFIED="1253539309512" STYLE="fork" TEXT="prognostic snow temperature">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node COLOR="#000000" CREATED="1241078982017" ID="Freemind_Link_1030864535" MODIFIED="1251985692173" STYLE="fork" TEXT="PrognosticSnowLiquidWaterContent">
+<node COLOR="#000000" CREATED="1241078982017" ID="Freemind_Link_683085680" MODIFIED="1253539321657" STYLE="fork" TEXT="prognostic snow liquid water content">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node COLOR="#000000" CREATED="1233674595314" ID="Freemind_Link_1767376046" MODIFIED="1251985692189" STYLE="fork" TEXT="SnowMelting">
+<node COLOR="#000000" CREATED="1233674595314" ID="Freemind_Link_1021416236" MODIFIED="1253539000414" STYLE="fork" TEXT="snow melting">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node COLOR="#000000" CREATED="1233674595314" ID="Freemind_Link_1565163919" MODIFIED="1251985692205" STYLE="fork" TEXT="SnowRefreezing">
+<node COLOR="#000000" CREATED="1233674595314" ID="Freemind_Link_1482534128" MODIFIED="1253539008315" STYLE="fork" TEXT="snow refreezing">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node COLOR="#000000" CREATED="1233674595314" ID="Freemind_Link_1078223262" MODIFIED="1251985692220" STYLE="fork" TEXT="BlowingSnow">
+<node COLOR="#000000" CREATED="1233674595314" ID="Freemind_Link_1809255099" MODIFIED="1253539026419" STYLE="fork" TEXT="blowing snow">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
@@ -350,11 +350,11 @@
 </node>
 <node COLOR="#996600" CREATED="1233668186242" ID="Freemind_Link_1887745984" MODIFIED="1247763419588" TEXT="LandIceAlbedo">
 <font NAME="Arial" SIZE="14"/>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233673169895" ID="Freemind_Link_1832198821" MODIFIED="1247763539442" STYLE="fork" TEXT="Prognostic">
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233673169895" ID="Freemind_Link_1832198821" MODIFIED="1253540120059" STYLE="fork" TEXT="prognostic">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233673169895" ID="Freemind_Link_1015543708" MODIFIED="1233934397571" STYLE="fork" TEXT="Prescribed">
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233673169895" ID="Freemind_Link_1015543708" MODIFIED="1253540113723" STYLE="fork" TEXT="prescribed">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
@@ -363,20 +363,20 @@
 <icon BUILTIN="help"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1241019098143" ID="Freemind_Link_16168954" MODIFIED="1251986307235" STYLE="bubble" TEXT="AlbedoFunctionOf">
+<node COLOR="#996600" CREATED="1241019098143" ID="Freemind_Link_16168954" MODIFIED="1253540138093" STYLE="bubble" TEXT="AlbedoFunctionOf">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint] Only if &quot;Prognostic&quot; is selected for LandIceAlbedo. [/constraint]</text>
+<text>[constraint]Only required if &quot;prognostic&quot; is selected for &quot;LandIceAlbedo&quot;.[/constraint]</text>
 </hook>
-<node CREATED="1241019140864" ID="Freemind_Link_1194526347" MODIFIED="1247763563310" STYLE="fork" TEXT="Ice age">
+<node CREATED="1241019140864" ID="Freemind_Link_1194526347" MODIFIED="1253540108490" STYLE="fork" TEXT="ice age">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1241019127791" ID="Freemind_Link_740766345" MODIFIED="1247763569558" STYLE="fork" TEXT="Ice density">
+<node CREATED="1241019127791" ID="Freemind_Link_740766345" MODIFIED="1253540105050" STYLE="fork" TEXT="ice density">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1241019370994" ID="Freemind_Link_1187816517" MODIFIED="1251986260559" STYLE="fork" TEXT="Other">
+<node CREATED="1241019370994" ID="Freemind_Link_1187816517" MODIFIED="1253540100736" STYLE="fork" TEXT="other">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
@@ -388,7 +388,7 @@
 <font ITALIC="true" NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233138750223" FOLDED="true" ID="Freemind_Link_833352170" MODIFIED="1245945496310" POSITION="left" STYLE="bubble" TEXT="LandIce">
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233138750223" ID="Freemind_Link_833352170" MODIFIED="1245945496310" POSITION="left" STYLE="bubble" TEXT="LandIce">
 <edge COLOR="#999999"/>
 <font BOLD="true" NAME="Arial" SIZE="16"/>
 <node COLOR="#000000" CREATED="1233140079676" ID="Freemind_Link_927009838" MODIFIED="1247737698465" TEXT="LandGlaciers">

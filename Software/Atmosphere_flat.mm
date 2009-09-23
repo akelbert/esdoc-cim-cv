@@ -288,6 +288,10 @@
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
+<node CREATED="1244107896510" ID="Freemind_Link_896893505" MODIFIED="1253536313470" STYLE="fork" TEXT="Lagrangian">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233141360010" ID="Freemind_Link_580651099" MODIFIED="1233932890010" STYLE="fork" TEXT="Semi-lagrangian">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -302,10 +306,6 @@
 </node>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233270123274" ID="Freemind_Link_38898062" MODIFIED="1253105628938" STYLE="fork" TEXT="other">
 <font NAME="Arial" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node CREATED="1244107896510" ID="Freemind_Link_896893505" MODIFIED="1244120068879" STYLE="fork" TEXT="Lagrangian">
-<font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
@@ -447,10 +447,10 @@
 <icon BUILTIN="help"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1242400681173" ID="Freemind_Link_23035538" MODIFIED="1253534488356" TEXT="LateralBoundaryCondition">
+<node COLOR="#996600" CREATED="1242400681173" ID="Freemind_Link_23035538" MODIFIED="1253536702838" TEXT="LateralBoundaryCondition">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[info]Only if the model is a RCM.[/info]</text>
+<text>[incomplete]Only if the model is a RCM. To become a constraint.[/incomplete]</text>
 </hook>
 <node COLOR="#000000" CREATED="1243603034779" ID="Freemind_Link_130361586" MODIFIED="1244104635492" STYLE="fork" TEXT="sponge layer">
 <font NAME="SansSerif" SIZE="14"/>
@@ -465,11 +465,6 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1244107125422" ID="Freemind_Link_437563261" MODIFIED="1253105994969" STYLE="fork" TEXT="Bryan: say something different...">
-<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="help"/>
-<icon BUILTIN="help"/>
-</node>
-<node CREATED="1244107125422" ID="Freemind_Link_532999082" MODIFIED="1253534537223" STYLE="fork" TEXT="mpm: attached note to become a [constraint]">
 <font ITALIC="true" NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="help"/>
 <icon BUILTIN="help"/>
@@ -768,7 +763,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233141996872" FOLDED="true" ID="Freemind_Link_249057171" MODIFIED="1253547054115" TEXT="Method">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233141996872" ID="Freemind_Link_249057171" MODIFIED="1253534584771" TEXT="Method">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[constraint]Only required if &quot;Mass-flux&quot; is selected for &quot;SchemeType&quot;.[/constraint]</text>

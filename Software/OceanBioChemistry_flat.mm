@@ -27,11 +27,11 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1245070225830" ID="_" MODIFIED="1253104570774" STYLE="bubble" TEXT="SimilarityFor">
+<node COLOR="#996600" CREATED="1245070225830" ID="_" MODIFIED="1253540184097" STYLE="bubble" TEXT="SimilarityFor">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="messagebox_warning"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint] Only if &quot;online, same as Ocean Tracers&quot; is selected for Method. [/constraint]</text>
+<text>[constraint]Only required if &quot;online, same as Ocean Tracers&quot; is selected for &quot;Method&quot;.[/constraint]</text>
 </hook>
 <node CREATED="1233140145256" ID="Freemind_Link_159063789" LINK="#Freemind_Link_1123121019" MODIFIED="1253104318904" STYLE="fork" TEXT="OceanBioAdvection">
 <font NAME="Arial" SIZE="14"/>
@@ -99,10 +99,10 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1236609402695" ID="Freemind_Link_1101561283" MODIFIED="1253104720596" TEXT="SchemeName">
+<node COLOR="#996600" CREATED="1236609402695" ID="Freemind_Link_1101561283" MODIFIED="1253540197872" TEXT="SchemeName">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[info] Provide a Gaz Exchange Scheme for each of the selected Species. [/info]</text>
+<text>[info]Provide a Gaz Exchange Scheme for each of the selected Species.[/info]</text>
 </hook>
 <node CREATED="1236609412294" ID="Freemind_Link_1281369211" MODIFIED="1245068322649" STYLE="fork" TEXT="Liss &amp; Merlivat">
 <font NAME="SansSerif" SIZE="14"/>
@@ -116,7 +116,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1236609454175" ID="Freemind_Link_185485043" MODIFIED="1245069563914" STYLE="fork" TEXT="Other">
+<node CREATED="1236609454175" ID="Freemind_Link_185485043" MODIFIED="1253540366344" STYLE="fork" TEXT="other">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
@@ -154,10 +154,10 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1236610013445" ID="Freemind_Link_362193564" MODIFIED="1253104607184" STYLE="bubble" TEXT="NitrogenN">
+<node COLOR="#990099" CREATED="1236610013445" ID="Freemind_Link_362193564" MODIFIED="1253540214439" STYLE="bubble" TEXT="NitrogenN">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint] Only if &quot;Nitrogen N&quot; is selected for ListOfSpecies. [/constraint]</text>
+<text>[constraint]Only required if &quot;Nitrogen N&quot; is selected for &quot;ListOfSpecies&quot;.[/constraint]</text>
 </hook>
 <node COLOR="#996600" CREATED="1236609779554" ID="Freemind_Link_772028418" MODIFIED="1253104716025" STYLE="bubble" TEXT="NitrousSpecies">
 <font NAME="SansSerif" SIZE="14"/>
@@ -207,10 +207,10 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233246454929" ID="Freemind_Link_746798101" MODIFIED="1253103260084" STYLE="bubble" TEXT="ListOfSpecies">
+<node COLOR="#996600" CREATED="1233246454929" ID="Freemind_Link_746798101" MODIFIED="1253540231427" STYLE="bubble" TEXT="ListOfSpecies">
 <font NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint] Only if &quot;list&quot; is selected for Type. [/constraint]</text>
+<text>[constraint]Only required if &quot;list&quot; is selected for &quot;Type&quot;.[/constraint]</text>
 </hook>
 <node CREATED="1236609658609" ID="Freemind_Link_114474861" MODIFIED="1253103292290" STYLE="fork" TEXT="diatoms">
 <font NAME="SansSerif" SIZE="14"/>
@@ -251,10 +251,10 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233246454929" ID="Freemind_Link_925569673" MODIFIED="1253102678445" STYLE="bubble" TEXT="ListOfSpecies">
+<node COLOR="#996600" CREATED="1233246454929" ID="Freemind_Link_925569673" MODIFIED="1253540247589" STYLE="bubble" TEXT="ListOfSpecies">
 <font NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint] Only if &quot;List&quot; is selected for Type. [/constraint]</text>
+<text>[constraint]Only required if &quot;List&quot; is selected for &quot;Type&quot;.[/constraint]</text>
 </hook>
 <node CREATED="1236609658609" ID="Freemind_Link_119319107" MODIFIED="1253103347507" STYLE="fork" TEXT="microzooplancton">
 <font NAME="SansSerif" SIZE="14"/>
@@ -312,10 +312,10 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1236610396306" ID="Freemind_Link_839605626" MODIFIED="1253102710979" TEXT="Particules">
+<node COLOR="#990099" CREATED="1236610396306" ID="Freemind_Link_839605626" MODIFIED="1253540267682" TEXT="Particules">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition] Export of carbon. [/definition]</text>
+<text>[definition]Export of carbon.[/definition]</text>
 </hook>
 <node COLOR="#996600" CREATED="1236609779554" ID="Freemind_Link_1659819995" MODIFIED="1252942656090" TEXT="Method">
 <font NAME="SansSerif" SIZE="14"/>
@@ -336,10 +336,10 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1252419174134" ID="Freemind_Link_17636323" MODIFIED="1253102896837" STYLE="bubble" TEXT="TypesOfParticules">
+<node COLOR="#996600" CREATED="1252419174134" ID="Freemind_Link_17636323" MODIFIED="1253540282892" STYLE="bubble" TEXT="TypesOfParticules">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint] Only if &quot;prognostic&quot; is selected for Method. [/constraint]</text>
+<text>[constraint]Only required if &quot;prognostic&quot; is selected for &quot;Method&quot;.[/constraint]</text>
 </hook>
 <node CREATED="1252419244270" ID="Freemind_Link_1901686201" MODIFIED="1252940529826" STYLE="fork" TEXT="POC">
 <font NAME="SansSerif" SIZE="14"/>
@@ -358,10 +358,10 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1252419291325" ID="Freemind_Link_1891561696" MODIFIED="1253102909723" STYLE="bubble" TEXT="SizeSpectrum">
+<node COLOR="#996600" CREATED="1252419291325" ID="Freemind_Link_1891561696" MODIFIED="1253540296167" STYLE="bubble" TEXT="SizeSpectrum">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint] Only if &quot;prognostic&quot; is selected for Method. [/constraint]</text>
+<text>[constraint]Only required if &quot;prognostic&quot; is selected for &quot;Method&quot;.[/constraint]</text>
 </hook>
 <node CREATED="1252419296253" ID="Freemind_Link_442791986" MODIFIED="1252940529795" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
@@ -372,16 +372,16 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1252419187421" ID="Freemind_Link_1157458189" MODIFIED="1253102924090" STYLE="bubble" TEXT="SinkingSpeed">
+<node COLOR="#996600" CREATED="1252419187421" ID="Freemind_Link_1157458189" MODIFIED="1253540311377" STYLE="bubble" TEXT="SinkingSpeed">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint] Only if &quot;prognostic&quot; is selected for Method. [/constraint]</text>
+<text>[constraint]Only required if &quot;prognostic&quot; is selected for &quot;Method&quot;.[/constraint]</text>
 </hook>
-<node CREATED="1252419194949" ID="Freemind_Link_546381751" MODIFIED="1252940529779" STYLE="fork" TEXT="Function of particule size">
+<node CREATED="1252419194949" ID="Freemind_Link_546381751" MODIFIED="1253540317500" STYLE="fork" TEXT="function of particule size">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1252419206038" ID="Freemind_Link_703234409" MODIFIED="1252940529779" STYLE="fork" TEXT="Function of particule type (balast)">
+<node CREATED="1252419206038" ID="Freemind_Link_703234409" MODIFIED="1253540321159" STYLE="fork" TEXT="function of particule type (balast)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>

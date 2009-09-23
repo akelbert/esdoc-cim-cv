@@ -19,10 +19,10 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244818261466" ID="Freemind_Link_1236904194" MODIFIED="1252056372067" TEXT="TilingMethod">
+<node COLOR="#996600" CREATED="1244818261466" ID="Freemind_Link_1236904194" MODIFIED="1253538303866" TEXT="TilingMethod">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint] Only if &quot;common to all LS subcomponents&quot; is selected for LandSurfaceTiling. [/constraint]</text>
+<text>[constraint]Only required if &quot;common to all LS subcomponents&quot; is selected for &quot;LandSurfaceTiling&quot;.[/constraint]</text>
 </hook>
 <node CREATED="1244818325771" ID="Freemind_Link_1762279460" MODIFIED="1245933613120" STYLE="fork" TEXT="dynamic">
 <font NAME="SansSerif" SIZE="14"/>
@@ -149,19 +149,19 @@
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1233671008937" ID="Freemind_Link_708616682" MODIFIED="1246369704214" TEXT="Method">
 <font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1241017759232" ID="Freemind_Link_264966494" MODIFIED="1241598381652" STYLE="fork" TEXT="Bulk (undifferentiated drainage and runoff)">
+<node CREATED="1241017759232" ID="Freemind_Link_264966494" MODIFIED="1253538858540" STYLE="fork" TEXT="bulk (undifferentiated drainage and runoff)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1241017827073" ID="Freemind_Link_943197458" MODIFIED="1241598381667" STYLE="fork" TEXT="Differentiated drainage and runoff">
+<node CREATED="1241017827073" ID="Freemind_Link_943197458" MODIFIED="1253538863321" STYLE="fork" TEXT="differentiated drainage and runoff">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233671008937" ID="Freemind_Link_310597912" MODIFIED="1253118509394" TEXT="Properties">
+<node COLOR="#996600" CREATED="1233671008937" ID="Freemind_Link_310597912" MODIFIED="1253538867829" TEXT="Properties">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint] Only if &quot;Differenciated drainage and runoff&quot; is selected for Method. [/constraint]</text>
+<text>[constraint]Only required if &quot;differenciated drainage and runoff&quot; is selected for &quot;Method&quot;.[/constraint]</text>
 </hook>
 <node COLOR="#000000" CREATED="1233669219773" ID="Freemind_Link_748295060" MODIFIED="1246369986562" STYLE="fork" TEXT="deep drainage">
 <font NAME="SansSerif" SIZE="14"/>
@@ -427,7 +427,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1244817201429" ID="Freemind_Link_1600995139" MODIFIED="1245935227517" STYLE="fork" TEXT="Other">
+<node CREATED="1244817201429" ID="Freemind_Link_1600995139" MODIFIED="1253538528623" STYLE="fork" TEXT="other">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
@@ -562,10 +562,10 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1241080201056" ID="Freemind_Link_301433369" MODIFIED="1253116178126" STYLE="bubble" TEXT="SubsurfaceTiling">
+<node COLOR="#996600" CREATED="1241080201056" ID="Freemind_Link_301433369" MODIFIED="1253538349075" STYLE="bubble" TEXT="SubsurfaceTiling">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint] Only if &quot;yes&quot; is selected for SpecificTiling. [/constraint]</text>
+<text>[constraint]Only required if &quot;yes&quot; is selected for &quot;SpecificTiling&quot;.[/constraint]</text>
 </hook>
 <node CREATED="1233671954952" ID="Freemind_Link_1772477988" MODIFIED="1233918143847" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
@@ -648,10 +648,10 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1241019098143" ID="Freemind_Link_1990184179" MODIFIED="1253116232633" STYLE="bubble" TEXT="FunctionOf">
+<node COLOR="#996600" CREATED="1241019098143" ID="Freemind_Link_1990184179" MODIFIED="1253538369246" STYLE="bubble" TEXT="FunctionOf">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint] Only if &quot;prognostic&quot; is selected for Type. [/constraint]</text>
+<text>[constraint]Only required if &quot;prognostic&quot; is selected for &quot;Type&quot;.[/constraint]</text>
 </hook>
 <node CREATED="1241019127791" ID="Freemind_Link_1113519098" MODIFIED="1243330720694" STYLE="fork" TEXT="vegetation type">
 <font NAME="SansSerif" SIZE="14"/>
@@ -670,10 +670,10 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1241019164128" ID="Freemind_Link_305450935" MODIFIED="1253116367120" STYLE="bubble" TEXT="DistinctionOfDirect/DiffuseAlbedo">
+<node COLOR="#996600" CREATED="1241019164128" ID="Freemind_Link_305450935" MODIFIED="1253538404190" STYLE="bubble" TEXT="DistinctionOfDirect/DiffuseAlbedo">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint] Only if &quot;prognostic&quot; is selected for Type. [/constraint]</text>
+<text>[constraint]Only required if &quot;prognostic&quot; is selected for &quot;Type&quot;.[/constraint]</text>
 </hook>
 <node CREATED="1241019199088" ID="Freemind_Link_1666087866" MODIFIED="1243330720678" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
@@ -688,10 +688,10 @@
 <icon BUILTIN="help"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1241019204928" ID="Freemind_Link_1335262779" MODIFIED="1253116374873" STYLE="bubble" TEXT="NumberOfWavelenghBands">
+<node COLOR="#996600" CREATED="1241019204928" ID="Freemind_Link_1335262779" MODIFIED="1253538425094" STYLE="bubble" TEXT="NumberOfWavelenghBands">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint] Only if &quot;prognostic&quot; is selected for Type. [/constraint]</text>
+<text>[constraint]Only required if &quot;prognostic&quot; is selected for &quot;Type&quot;.[/constraint]</text>
 </hook>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233881613647" ID="Freemind_Link_271295517" MODIFIED="1246378274436" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
@@ -720,10 +720,10 @@
 <icon BUILTIN="help"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1241019098143" ID="Freemind_Link_1377532638" MODIFIED="1253116431618" STYLE="bubble" TEXT="FunctionOf">
+<node COLOR="#996600" CREATED="1241019098143" ID="Freemind_Link_1377532638" MODIFIED="1253538440850" STYLE="bubble" TEXT="FunctionOf">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint] Only if &quot;prognostic&quot; is selected for Type. [/constraint]&#xa;</text>
+<text>[constraint]Only required if &quot;prognostic&quot; is selected for &quot;Type&quot;.[/constraint]&#xa;</text>
 </hook>
 <node CREATED="1241019127791" ID="Freemind_Link_734375138" MODIFIED="1243330720631" STYLE="fork" TEXT="vegetation type">
 <font NAME="SansSerif" SIZE="14"/>
@@ -783,10 +783,10 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1241100901076" ID="Freemind_Link_1216602648" MODIFIED="1253116459574" STYLE="bubble" TEXT="MaintenanceRespiration">
+<node COLOR="#996600" CREATED="1241100901076" ID="Freemind_Link_1216602648" MODIFIED="1253538457214" STYLE="bubble" TEXT="MaintenanceRespiration">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint] Only if &quot;parametrized&quot; is selected for Method. [/constraint]</text>
+<text>[constraint]Only required if &quot;parametrized&quot; is selected for &quot;Method&quot;.[/constraint]</text>
 </hook>
 <node CREATED="1241100925881" ID="Freemind_Link_385552393" MODIFIED="1246438465516" STYLE="fork" TEXT="leaves + stems + roots">
 <font NAME="SansSerif" SIZE="14"/>
@@ -934,10 +934,10 @@
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233138756711" ID="Freemind_Link_1746291945" MODIFIED="1244816264483" STYLE="bubble" TEXT="RiverRouting">
 <edge COLOR="#999999"/>
 <font BOLD="true" NAME="Arial" SIZE="14"/>
-<node COLOR="#996600" CREATED="1241019648709" ID="Freemind_Link_1414315361" MODIFIED="1253116680187" TEXT="SpecificTiling">
+<node COLOR="#996600" CREATED="1241019648709" ID="Freemind_Link_1414315361" MODIFIED="1253538469928" TEXT="SpecificTiling">
 <font NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition] Tiling of basins. [/definition]</text>
+<text>[definition]Tiling of basins.[/definition]</text>
 </hook>
 <node CREATED="1241019654989" ID="Freemind_Link_1784513343" MODIFIED="1245943737836" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1040,10 +1040,10 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244815900775" ID="Freemind_Link_1101070833" MODIFIED="1253117009938" STYLE="bubble" TEXT="QuantitiesExchangedWithAtmosphere">
+<node COLOR="#996600" CREATED="1244815900775" ID="Freemind_Link_1101070833" MODIFIED="1253538485091" STYLE="bubble" TEXT="QuantitiesExchangedWithAtmosphere">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint] Only if &quot;yes&quot; is selected for InteractionWithAtmosphere. [/constraint]</text>
+<text>[constraint]Only required if &quot;yes&quot; is selected for &quot;InteractionWithAtmosphere&quot;.[/constraint]</text>
 </hook>
 <node CREATED="1244816165283" ID="Freemind_Link_1848273481" MODIFIED="1253119847267" STYLE="fork" TEXT="heat">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1121,10 +1121,10 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244815900775" ID="Freemind_Link_425112046" MODIFIED="1253117031887" STYLE="bubble" TEXT="QuantitiesExchangedWithRivers">
+<node COLOR="#996600" CREATED="1244815900775" ID="Freemind_Link_425112046" MODIFIED="1253538502470" STYLE="bubble" TEXT="QuantitiesExchangedWithRivers">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint] Only if &quot;yes&quot; is selected for CouplingWithRivers. [/constraint]</text>
+<text>[constraint]Only required if &quot;yes&quot; is selected for &quot;CouplingWithRivers&quot;.[/constraint]</text>
 </hook>
 <node CREATED="1244816165283" ID="Freemind_Link_693073279" MODIFIED="1253119847235" STYLE="fork" TEXT="heat">
 <font NAME="SansSerif" SIZE="14"/>
