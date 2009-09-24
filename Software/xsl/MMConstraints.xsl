@@ -4,15 +4,22 @@
 <xsl:strip-space elements="*"/>
 
 <!-- This stylesheet translates Metafor MindMap controlled vocabulary
-files into a structured xml representation (260409) -->
+files into a structured xml representation (260409) (230909) -->
 
 <!-- higher priority (higher value) templates are matched before any
 lower priority templates -->
 
   <!-- match the top level of the xml document -->
   <xsl:template match="/">
-    <schema xmlns="http://www.ascc.net/xml/schematron" format="Only required if &quot;x&quot; [or &quot;y&quot;] is selected for &quot;a&quot;">
-      <xsl:apply-templates/>
+    <schema xmlns="http://www.ascc.net/xml/schematron" xmlns:xs="tmp.none">
+
+      <xsl:variable name="Realm">
+        <xsl:value-of select="//node[font[@BOLD='true']]/@TEXT"/>
+      </xsl:variable>
+
+      <pattern name="CMIP5 CV constraints checks for realm {$Realm}">
+        <xsl:apply-templates/>
+      </pattern>
     </schema>
   </xsl:template>
 
@@ -58,7 +65,7 @@ lower priority templates -->
         <xsl:for-each select="ancestor::node[font[@BOLD='true']]">
           <xsl:value-of select = "@TEXT" />
           <xsl:if test = "not(position()=last())" >
-            <xsl:text >/</xsl:text>
+            <xsl:text>/</xsl:text>
           </xsl:if>
         </xsl:for-each>
         </xsl:variable>
@@ -75,19 +82,20 @@ lower priority templates -->
           <xsl:value-of select="hook/text"/>
         </xsl:variable>
 
-        <pattern name="CMIP5 validity check for parameter {$ParameterName} in component {$ComponentName} with constraint '{$ConstraintText}'">
-        <rule context="{$ComponentHierarchy}">
+        <rule context="/CIMRecord//modelComponent[shortName='{$ComponentName}']">
 
+<!--
         <debug info="constraint raw text">
         <xsl:value-of select="$ConstraintText"/>
         </debug>
-
+-->
         <xsl:variable name="AfterIf" select="normalize-space(substring-after($ConstraintText,'Only required if'))"/>
 
         <xsl:variable name="OtherParameterValueString" select="normalize-space(substring-before($AfterIf,' is selected for '))"/>
 
         <xsl:variable name="OtherParameterName" select="normalize-space(substring-before(substring-after($AfterIf,'is selected for &quot;'),'&quot;.'))"/>
 
+<!--
 <debug info="value of other parameter name">
 <xsl:value-of select="$OtherParameterName"/>
 </debug>
@@ -95,18 +103,25 @@ lower priority templates -->
 <debug info="value of other parameter value string">
 <xsl:value-of select="$OtherParameterValueString"/>
 </debug>
-
+-->
         <xsl:variable name="OtherParameterValues">
         <xsl:call-template name="OutputVarNames">
           <xsl:with-param name="VarString" select="$OtherParameterValueString"/>
         </xsl:call-template>
         </xsl:variable>
 
+        <assert test="(componentProperty[shortName='{$ParameterName}'] and componentProperty[shortName='{$OtherParameterName}' and value='{$OtherParameterValues}']) or (not(componentProperty[shortName='{$ParameterName}']) and (componentProperty[shortName='{$OtherParameterName}' and not(value='{$OtherParameterValues}'])))">
+        <xsl:text>Rule [</xsl:text><xsl:value-of select="$ConstraintText"/><xsl:text>] is not valid for component </xsl:text><xsl:value-of select="$ComponentHierarchy"/><xsl:text> and parameter </xsl:text><xsl:value-of select="$ParameterName"/>
+        </assert>
+<!--
         <report test="if {$ParameterName} exists then {$OtherParameterName} must have value {$OtherParameterValues}">Report text</report>
         <assert test="">Assert text</assert>
+-->
 
         </rule>
+<!--
         </pattern>
+-->
       </xsl:if>
 
     </xsl:if>
