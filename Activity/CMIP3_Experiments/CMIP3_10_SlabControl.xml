@@ -1,25 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<numericalExperiment documentVersion="1" control="false"
-    xmlns="http://www.metaforclimate.eu/cim/1.1"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.metaforclimate.eu/cim/1.1 C:\Users\clp73\Desktop\Metafor\subversion\CIM\branches\dev0p3\activity.xsd"
-    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd"
+<numericalExperiment documentVersion="2" control="false" 
+    xmlns="http://www.metaforclimate.eu/cim/1.1" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://www.metaforclimate.eu/cim/1.1 C:\Users\clp73\Desktop\Metafor\subversion\CIM1\branches\dev1.3\activity.xsd" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" 
+    xmlns:gmd="http://www.isotc211.org/2005/gmd" 
     xmlns:gco="http://www.isotc211.org/2005/gco">
 
-    <rationale>Atmosphere coupled to a nondynamic slab ocean.</rationale>
-    <Why>Control for the climate sensitivity experiment 11 (Instantaneous 2XCO2)
-    Must run for at least as long as experiment 11.</Why>
-
+    <rationale>Control for the climate sensitivity experiment 11 (Instantaneous 2XCO2)</rationale>
+    <shortName>10_SlabControl</shortName>
+    <longName>Experiment10_SlabOceanControl</longName>
+    <description>Atmosphere coupled to a nondynamic slab ocean. 
+        Must run for at least as long as experiment 11.</description> 
+    <!-- The startDate for this idealized experiment is set to the default time zero -->
+    <CalendarType>
+        <realCalendar>
+            <range/>
+        </realCalendar>
+    </CalendarType>
+    <requiredDuration xsi:type="OpenDateRange">
+        <startDate>0000-01-01T00:00:00Z</startDate>
+        <lengthYears>At least as long as experiment 11</lengthYears>
+    </requiredDuration>
     <!-- Initial Conditions -->
     <numericalRequirement xsi:type="InitialCondition">
         <id xsi:type="Identifier">ic.3006</id>
         <name xsi:type="Identifier">11.ic</name>
         <description> Initial conditions for the slab ocean experiment</description>
     </numericalRequirement>
-
-    <!-- The start date for this idealized experiment is specified as an offset from the control -->
-
     <!-- Boundary Conditions -->
     <numericalRequirement xsi:type="BoundaryCondition">
         <id xsi:type="Identifier">bc.3036</id>
@@ -42,17 +51,6 @@
         <description>Fixed land use.</description>
     </numericalRequirement>
 
-    <shortName>10_SlabControl</shortName>
-    <longName>Experiment1o_SlabOceanControl</longName>
-
-    <CalendarType>
-        <realCalendar>
-            <range>0000-0220</range>
-        </realCalendar>
-    </CalendarType>
-    <requiredDuration xsi:type="ClosedDateRange">
-        <lengthYears>Same as experiment 11</lengthYears>
-    </requiredDuration>
 
     <author>
         <gmd:CI_ResponsibleParty>
@@ -75,9 +73,7 @@
                 </gmd:CI_Contact>
             </gmd:contactInfo>
             <gmd:role>
-                <gmd:CI_RoleCode
-                    codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode"
-                    codeList="originator"/>
+                <gmd:CI_RoleCode codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeList="originator"/>
             </gmd:role>
         </gmd:CI_ResponsibleParty>
     </author>
