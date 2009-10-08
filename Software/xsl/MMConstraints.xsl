@@ -110,7 +110,7 @@ lower priority templates -->
         </xsl:call-template>
         </xsl:variable>
 
-        <assert test="(componentProperty[shortName='{$ParameterName}'] and componentProperty[shortName='{$OtherParameterName}' and value='{$OtherParameterValues}']) or (not(componentProperty[shortName='{$ParameterName}']) and (componentProperty[shortName='{$OtherParameterName}' and not(value='{$OtherParameterValues}'])))">
+        <assert test="(componentProperty[shortName='{$ParameterName}'] and componentProperty[shortName='{$OtherParameterName}' and value='{$OtherParameterValues}']) or (not(componentProperty[shortName='{$ParameterName}']) and (componentProperty[shortName='{$OtherParameterName}' and not(value='{$OtherParameterValues}')]))">
         <xsl:text>Rule [</xsl:text><xsl:value-of select="$ConstraintText"/><xsl:text>] is not valid for component </xsl:text><xsl:value-of select="$ComponentHierarchy"/><xsl:text> and parameter </xsl:text><xsl:value-of select="$ParameterName"/>
         </assert>
 <!--
