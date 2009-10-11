@@ -199,7 +199,7 @@ any lower priority templates -->
      <!-- The parent of a parametergroup node must be a component -->
      <xsl:if test="not(parent::node[font[@BOLD='true']])">
           <xsl:message terminate="no">
-            <xsl:text>*ERROR: Parameter '</xsl:text>
+            <xsl:text>*ERROR: ParameterGroup '</xsl:text>
             <xsl:value-of select="@TEXT"/>
             <xsl:text>' has a parent node '</xsl:text>
             <xsl:value-of select="parent::node/@TEXT"/>
@@ -220,13 +220,15 @@ any lower priority templates -->
      <xsl:variable name="Children" select="node[not(icon[@BUILTIN='messagebox_warning'] or font[@ITALIC='true'])]"/>
      <!-- A constraint node must only contain parameters -->
      <xsl:for-each select="$Children">
-       <xsl:if test="not(@COLOR='#0033ff')">
+       <xsl:if test="not(@COLOR='#996600')">
           <xsl:message terminate="no">
             <xsl:text>*ERROR: Constraint '</xsl:text>
             <xsl:value-of select="$NodeName"/>
             <xsl:text>' has child node '</xsl:text>
             <xsl:value-of select="@TEXT"/>
-            <xsl:text>' which is not a parameter node.
+            <xsl:text>' which is not a parameter node. Parent component is </xsl:text>
+            <xsl:call-template name="AncestorComponents"/>
+            <xsl:text>
 </xsl:text>
           </xsl:message>
        </xsl:if>
@@ -239,13 +241,100 @@ any lower priority templates -->
             <xsl:value-of select="@TEXT"/>
             <xsl:text>' has a parent node '</xsl:text>
             <xsl:value-of select="parent::node/@TEXT"/>
-            <xsl:text>' that is not a parameter group.
+            <xsl:text>' that is not a parameter group. Parent component is </xsl:text>
+            <xsl:call-template name="AncestorComponents"/>
+            <xsl:text>
 </xsl:text>
           </xsl:message>
      </xsl:if>
 
   <!-- a constraint node must conform to a certain format (warning message as it is valid to not conform) -->
-  <!-- TO BE ADDED -->
+    <xsl:if test="$CheckConstraints='yes'">
+
+      <xsl:variable name="ConstraintText" select="@TEXT"/>
+      <xsl:variable name="AfterIf" select="normalize-space(substring-after($ConstraintText,'if'))"/>
+
+      <xsl:choose>
+
+      <!-- Check for "if " -->
+      <xsl:when test="not($AfterIf)">
+        <xsl:message terminate="no">
+          <xsl:text>*WARNING: format error in constraint node '</xsl:text>
+          <xsl:value-of select="@TEXT"/>
+          <xsl:text>'. Expecting 'if ...'.</xsl:text>
+          <xsl:call-template name="ConstraintAndAncestorComponents"/>
+        </xsl:message>
+      </xsl:when>
+
+      <xsl:otherwise>
+
+        <!-- Next check for "... is ..." -->
+        <xsl:variable name="OtherParameterName" select="normalize-space(substring-before($AfterIf,' is '))"/>
+        <xsl:choose>
+
+        <xsl:when test="not($OtherParameterName)">
+          <xsl:message terminate="no">
+            <xsl:text>*WARNING: format error in constraint node. Expecting '... is ...'</xsl:text>
+            <xsl:call-template name="ConstraintAndAncestorComponents"/>
+          </xsl:message>
+        </xsl:when>
+
+        <xsl:otherwise>
+
+<!--
+          <xsl:variable name="OtherParameterValueString" select="normalize-space(substring-before(substring-after($AfterIf,'is &quot;'),'&quot;'))"/>
+-->
+          <xsl:variable name="OtherParameterValueString" select="normalize-space(substring-after($AfterIf,'is '))"/>
+
+          <xsl:choose>
+
+          <xsl:when test="not($OtherParameterValueString)">
+            <xsl:message terminate="no">
+              <xsl:text>*WARNING: format error in constraint node. Expecting "... is &quot;value&quot;" but found "</xsl:text>
+              <xsl:value-of select="text()"/>
+              <xsl:text>"
+</xsl:text>
+              <xsl:call-template name="ConstraintAndAncestorComponents"/>
+            </xsl:message>
+          </xsl:when>
+
+          <xsl:otherwise>
+
+            <!-- check that constraint parameter exists -->
+
+            <xsl:choose>
+
+            <xsl:when test="not(parent::node/node[@COLOR='#996600' and @TEXT=$OtherParameterName])">
+              <xsl:message terminate="no">
+                <xsl:text>*WARNING: Error in constraint node '</xsl:text>
+                <xsl:value-of select="@TEXT"/>
+                <xsl:text>'. The remote parameter &quot;</xsl:text>
+                <xsl:value-of select="$OtherParameterName"/>
+                <xsl:text>&quot; does not exist. Parent component is </xsl:text>
+                <xsl:call-template name="AncestorComponents"/>
+              </xsl:message>
+            </xsl:when>
+
+            <xsl:otherwise>
+
+              <!-- Make sure var names are valid -->
+              <xsl:call-template name="CheckVarNames">
+                <xsl:with-param name="VarString" select="$OtherParameterValueString"/>
+                <xsl:with-param name="OtherParameterName" select="$OtherParameterName"/>
+              </xsl:call-template>
+
+            </xsl:otherwise>
+            </xsl:choose>
+          </xsl:otherwise>
+          </xsl:choose>
+        </xsl:otherwise>
+        </xsl:choose>
+      </xsl:otherwise>
+      </xsl:choose>
+
+
+    </xsl:if>
+
 
     <xsl:apply-templates/>
 
@@ -271,14 +360,16 @@ any lower priority templates -->
        </xsl:if>
      </xsl:for-each>
 
-     <!-- The parent of a parameter node must be a parametergroup -->
-     <xsl:if test="not(parent::node[@COLOR='#990099'])">
+     <!-- The parent of a parameter node must be a parametergroup or a constraint -->
+     <xsl:if test="not(parent::node[@COLOR='#990099' or @COLOR='#0033ff'])">
           <xsl:message terminate="no">
             <xsl:text>*ERROR: Parameter '</xsl:text>
             <xsl:value-of select="@TEXT"/>
             <xsl:text>' has a parent node '</xsl:text>
             <xsl:value-of select="parent::node/@TEXT"/>
-            <xsl:text>' that is not a component.
+            <xsl:text>' that is not a parametergroupor constraint. The parent component is '</xsl:text>
+            <xsl:call-template name="AncestorComponents"/>
+            <xsl:text>'
 </xsl:text>
           </xsl:message>
      </xsl:if>
@@ -437,106 +528,27 @@ any lower priority templates -->
     </xsl:otherwise>
     </xsl:choose>
 
-    <xsl:if test="$CheckConstraints='yes'">
-      <!-- check that notes conform to the required syntax -->
-    <xsl:if test="hook/text">
-
-      <!-- at least one format like this [xxx]yyy[/xxx] -->
-<!--      <xsl:if test="count(hook/text[constraint or incomplete])=0"> -->
-      <xsl:if test="count(hook/text/*)=0">
-        <xsl:message terminate="no">
-          <xsl:text>*ERROR: note does not conform to the required [xxx]...[/xxx] format. </xsl:text>
-          <xsl:call-template name="ParameterAndAncestorComponents"/>
-        </xsl:message>
-      </xsl:if>
-
-      <!-- check validity of each [xxx]yyy[/xxx] -->
-      <xsl:for-each select="hook/text/*">
-        <xsl:choose>
-          <xsl:when test="local-name()='constraint'">
-            <xsl:variable name="ConstraintText" select="text()"/>
-
-            <xsl:if test="$DEBUG='yes'">
-            <xsl:message terminate="no">
-            <xsl:text>Checking constraint text XXX</xsl:text>
-            <xsl:value-of select="$ConstraintText"/>
-            <xsl:text>XXX
-</xsl:text>
-            </xsl:message>
-            </xsl:if>
-
-            <!-- Check for "Only required if " -->
-            <xsl:variable name="AfterIf" select="normalize-space(substring-after($ConstraintText,'Only required if'))"/>
-            <xsl:if test="not($AfterIf)">
-              <xsl:message terminate="no">
-                <xsl:text>*ERROR: format error in constraint note. Expecting 'Only required if ...'.</xsl:text>
-                <xsl:call-template name="ParameterAndAncestorComponents"/>
-              </xsl:message>
-            </xsl:if>
-
-            <!-- Check for " is selected for " -->
-            <xsl:variable name="OtherParameterValueString" select="normalize-space(substring-before($AfterIf,' is selected for '))"/>
-            <xsl:if test="not($OtherParameterValueString)">
-              <xsl:message terminate="no">
-                <xsl:text>*ERROR: format error in constraint note. Expecting '... is selected for ...'</xsl:text>
-                <xsl:call-template name="ParameterAndAncestorComponents"/>
-              </xsl:message>
-            </xsl:if>
-
-            <xsl:variable name="OtherParameterName" select="normalize-space(substring-before(substring-after($AfterIf,'is selected for &quot;'),'&quot;.'))"/>
-            <xsl:if test="not($OtherParameterName)">
-              <xsl:message terminate="no">
-                <xsl:text>*ERROR: format error in constraint note. Expecting "... is selected for &quot;paramname&quot;." but found "</xsl:text>
-                <xsl:value-of select="text()"/>
-                <xsl:text>"
-</xsl:text>
-                <xsl:call-template name="ParameterAndAncestorComponents"/>
-              </xsl:message>
-            </xsl:if>
-
-            <!-- check that constraint parameter exists -->
-            <xsl:if test="not(ancestor::node[font[@BOLD='true']]/node[@COLOR='#996600' and @TEXT=$OtherParameterName])">
-              <xsl:message terminate="no">
-                <xsl:text>*ERROR: Error in constraint note. The remote parameter &quot;</xsl:text>
-                <xsl:value-of select="$OtherParameterName"/>
-                <xsl:text>&quot; does not exist. </xsl:text>
-                <xsl:call-template name="ParameterAndAncestorComponents"/>
-              </xsl:message>
-            </xsl:if>
-
-            <!-- Make sure var names are valid -->
-            <xsl:call-template name="CheckVarNames">
-              <xsl:with-param name="VarString" select="$OtherParameterValueString"/>
-              <xsl:with-param name="OtherParameterName" select="$OtherParameterName"/>
-            </xsl:call-template>
-
-          </xsl:when>
-          <xsl:when test="local-name()='incomplete'">
-            <!-- skip as these are incomplete -->
-          </xsl:when>
-          <xsl:when test="local-name()='info' or local-name()='definition'">
-            <!-- skip as we accept these -->
-          </xsl:when>
-          <xsl:otherwise>
-            <xsl:message terminate="no">
-              <xsl:text>*ERROR: note has unsupported bracketted element '</xsl:text>
-              <xsl:value-of select="local-name()"/>
-              <xsl:text>'.</xsl:text>
-              <xsl:call-template name="ParameterAndAncestorComponents"/>
-            </xsl:message>
-          </xsl:otherwise>
-
-        </xsl:choose>
-
-      </xsl:for-each>
-
-    </xsl:if>
-
-    </xsl:if>
-
     <xsl:apply-templates/>
 
  </xsl:template>
+
+<xsl:template name="ConstraintAndAncestorComponents">
+  <xsl:text>Constraint name is '</xsl:text>
+  <xsl:choose>
+  <xsl:when test="@TEXT">
+    <xsl:value-of select="@TEXT"/>
+  </xsl:when>
+  <xsl:when test="ancestor::node[@COLOR='#996600']/@TEXT">
+  <xsl:value-of select="ancestor::node[@COLOR='#996600']/@TEXT"/>
+  </xsl:when>
+  <xsl:otherwise>
+    <xsl:text>?</xsl:text>
+  </xsl:otherwise>
+  </xsl:choose>
+  <xsl:text>' in component '</xsl:text>
+  <xsl:call-template name="AncestorComponents"/>
+  <xsl:text>'. Expected format is 'if PARAMETER is "VALUE1" [or "VALUE2"]*'.</xsl:text>
+</xsl:template>
 
 <xsl:template name="ParameterAndAncestorComponents">
   <xsl:text>Parameter name is '</xsl:text>
@@ -597,9 +609,9 @@ any lower priority templates -->
 </xsl:text>
         </xsl:message>
 -->
-        <xsl:if test="not(ancestor::node[font[@BOLD='true']]/node[@COLOR='#996600' and @TEXT=$OtherParameterName]/node[@TEXT=$OtherParameterValue])">
+        <xsl:if test="not(parent::node/node[@COLOR='#996600' and @TEXT=$OtherParameterName]/node[@TEXT=$OtherParameterValue])">
           <xsl:message terminate="no">
-            <xsl:text>*ERROR: Error in constraint note. The value &quot;</xsl:text>
+            <xsl:text>*WARNING: Error in constraint note. The value &quot;</xsl:text>
             <xsl:value-of select="$OtherParameterValue"/>
             <xsl:text>&quot; for remote parameter &quot;</xsl:text>
             <xsl:value-of select="$OtherParameterName"/>
@@ -634,9 +646,9 @@ any lower priority templates -->
 </xsl:text>
         </xsl:message>
 -->
-        <xsl:if test="not(ancestor::node[font[@BOLD='true']]/node[@COLOR='#996600' and @TEXT=$OtherParameterName]/node[@TEXT=$OtherParameterValue])">
+        <xsl:if test="not(parent::node/node[@COLOR='#996600' and @TEXT=$OtherParameterName]/node[@TEXT=$OtherParameterValue])">
           <xsl:message terminate="no">
-            <xsl:text>*ERROR: Error in constraint note. The value &quot;</xsl:text>
+            <xsl:text>*WARNING: Error in constraint note. The value &quot;</xsl:text>
             <xsl:value-of select="$OtherParameterValue"/>
             <xsl:text>&quot; for remote parameter &quot;</xsl:text>
             <xsl:value-of select="$OtherParameterName"/>
@@ -668,19 +680,23 @@ any lower priority templates -->
         <xsl:value-of select="@TEXT"/>
         <xsl:text>' has a parent node '</xsl:text>
         <xsl:value-of select="parent::node/@TEXT"/>
-        <xsl:text>' that is not a parameter.
+
+<xsl:text>
 </xsl:text>
       </xsl:message>
     </xsl:if>
 
+[not(icon[@BUILTIN='messagebox_warning'] or font[@ITALIC='true'])
     <!-- make sure I have no children -->
-    <xsl:if test="node">
+    <xsl:if test="node[not(icon[@BUILTIN='messagebox_warning'] or font[@ITALIC='true'])]">
       <xsl:message terminate="no">
         <xsl:text>*ERROR: Value '</xsl:text>
         <xsl:value-of select="@TEXT"/>
         <xsl:text>' in node '</xsl:text>
         <xsl:value-of select="parent::node/@TEXT"/>
-        <xsl:text>' has a child node.
+        <xsl:text>' has a child node. The parent component is '</xsl:text>
+        <xsl:call-template name="AncestorComponents"/>
+        <xsl:text>'
 </xsl:text>
       </xsl:message>
     </xsl:if>
