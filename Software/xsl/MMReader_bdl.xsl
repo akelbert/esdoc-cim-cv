@@ -67,6 +67,13 @@ lower priority templates -->
           <xsl:if test="not(hook/text/definition)">
             <definition status="missing"><xsl:text>Definition of component type </xsl:text><xsl:value-of select="@TEXT"/><xsl:text> required</xsl:text></definition>
           </xsl:if>
+          <xsl:variable name="DefaultParamGroup" select="concat(@TEXT,'_Attributes')"/>
+<!--
+          <xsl:if test="not(node[@COLOR='#990099' and @TEXT='{$DefaultParamGroup}'])">
+-->
+          <xsl:if test="not(node[@COLOR='#990099' and @TEXT=$DefaultParamGroup])">
+            <parametergroup name="{$DefaultParamGroup}"/>
+          </xsl:if>
           <xsl:apply-templates/>
         </component>
 
