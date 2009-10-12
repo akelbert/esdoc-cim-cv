@@ -304,7 +304,7 @@ any lower priority templates -->
 
             <xsl:choose>
 
-            <xsl:when test="not(parent::node/node[@COLOR='#996600' and @TEXT=$OtherParameterName])">
+            <xsl:when test="not(parent::node//node[@COLOR='#996600' and @TEXT=$OtherParameterName])">
               <xsl:message terminate="no">
                 <xsl:text>*WARNING: Error in constraint node '</xsl:text>
                 <xsl:value-of select="@TEXT"/>
@@ -609,7 +609,7 @@ any lower priority templates -->
 </xsl:text>
         </xsl:message>
 -->
-        <xsl:if test="not(parent::node/node[@COLOR='#996600' and @TEXT=$OtherParameterName]/node[@TEXT=$OtherParameterValue])">
+        <xsl:if test="not(parent::node//node[@COLOR='#996600' and @TEXT=$OtherParameterName]/node[@TEXT=$OtherParameterValue])">
           <xsl:message terminate="no">
             <xsl:text>*WARNING: Error in constraint note. The value &quot;</xsl:text>
             <xsl:value-of select="$OtherParameterValue"/>
@@ -646,7 +646,7 @@ any lower priority templates -->
 </xsl:text>
         </xsl:message>
 -->
-        <xsl:if test="not(parent::node/node[@COLOR='#996600' and @TEXT=$OtherParameterName]/node[@TEXT=$OtherParameterValue])">
+        <xsl:if test="not(parent::node//node[@COLOR='#996600' and @TEXT=$OtherParameterName]/node[@TEXT=$OtherParameterValue])">
           <xsl:message terminate="no">
             <xsl:text>*WARNING: Error in constraint note. The value &quot;</xsl:text>
             <xsl:value-of select="$OtherParameterValue"/>
@@ -686,7 +686,6 @@ any lower priority templates -->
       </xsl:message>
     </xsl:if>
 
-[not(icon[@BUILTIN='messagebox_warning'] or font[@ITALIC='true'])
     <!-- make sure I have no children -->
     <xsl:if test="node[not(icon[@BUILTIN='messagebox_warning'] or font[@ITALIC='true'])]">
       <xsl:message terminate="no">
