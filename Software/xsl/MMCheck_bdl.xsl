@@ -609,7 +609,7 @@ any lower priority templates -->
 </xsl:text>
         </xsl:message>
 -->
-        <xsl:if test="not(parent::node//node[@COLOR='#996600' and @TEXT=$OtherParameterName]/node[@TEXT=$OtherParameterValue])">
+        <xsl:if test="not(parent::node//node[@COLOR='#996600' and @TEXT=$OtherParameterName]/node[contains(@TEXT,$OtherParameterValue)])">
           <xsl:message terminate="no">
             <xsl:text>*WARNING: Error in constraint note. The value &quot;</xsl:text>
             <xsl:value-of select="$OtherParameterValue"/>
@@ -646,7 +646,7 @@ any lower priority templates -->
 </xsl:text>
         </xsl:message>
 -->
-        <xsl:if test="not(parent::node//node[@COLOR='#996600' and @TEXT=$OtherParameterName]/node[@TEXT=$OtherParameterValue])">
+        <xsl:if test="not(parent::node//node[@COLOR='#996600' and @TEXT=$OtherParameterName]/node[contains(@TEXT,$OtherParameterValue)])">
           <xsl:message terminate="no">
             <xsl:text>*WARNING: Error in constraint note. The value &quot;</xsl:text>
             <xsl:value-of select="$OtherParameterValue"/>

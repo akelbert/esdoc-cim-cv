@@ -1484,7 +1484,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1253713965343" ID="Freemind_Link_1953539152" MODIFIED="1254305245775" TEXT="if SchemeType is &quot;extinction depths&quot;">
+<node COLOR="#0033ff" CREATED="1253713965343" ID="Freemind_Link_1953539152" MODIFIED="1255464211214" TEXT="if SchemeType is &quot;extinction depth&quot;">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1233754574439" FOLDED="true" ID="Freemind_Link_128392278" MODIFIED="1242085469418" STYLE="bubble" TEXT="FirstDepth">
 <font NAME="SansSerif" SIZE="14"/>
