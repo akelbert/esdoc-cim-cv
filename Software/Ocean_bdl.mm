@@ -341,10 +341,11 @@
 </node>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233250004110" FOLDED="true" ID="Freemind_Link_1252154617" MODIFIED="1254228759486" STYLE="bubble" TEXT="VerticalExtent">
+<node COLOR="#996600" CREATED="1233250004110" ID="Freemind_Link_1252154617" MODIFIED="1254228759486" STYLE="bubble" TEXT="VerticalExtent">
 <font NAME="Arial" SIZE="14"/>
-<node COLOR="#000000" CREATED="1233250230686" ID="Freemind_Link_1910902026" MODIFIED="1255360668724" STYLE="fork" TEXT="[upper_level, lower_level](vertical coordinate units)">
+<node COLOR="#000000" CREATED="1233250230686" ID="Freemind_Link_1910902026" MODIFIED="1255554286205" STYLE="fork" TEXT="[upper_level, lower_level](vertical coordinate units)">
 <font NAME="Arial" SIZE="14"/>
+<icon BUILTIN="full-1"/>
 </node>
 </node>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" FOLDED="true" ID="Freemind_Link_995947235" MODIFIED="1253869095294" TEXT="NumberOfVerticalLevels">
@@ -379,21 +380,21 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233246454929" FOLDED="true" ID="Freemind_Link_865451856" MODIFIED="1253781645279" STYLE="bubble" TEXT="VerticalExtent">
+<node COLOR="#996600" CREATED="1233246454929" ID="Freemind_Link_865451856" MODIFIED="1253781645279" STYLE="bubble" TEXT="VerticalExtent">
 <font NAME="Arial" SIZE="14"/>
 <node CREATED="1244813158337" ID="Freemind_Link_1065746740" MODIFIED="1246548165775" STYLE="fork" TEXT="[min, max values](meters)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233246454929" FOLDED="true" ID="Freemind_Link_874621896" MODIFIED="1253781660777" STYLE="bubble" TEXT="MeridionalExtent">
+<node COLOR="#996600" CREATED="1233246454929" ID="Freemind_Link_874621896" MODIFIED="1253781660777" STYLE="bubble" TEXT="MeridionalExtent">
 <font NAME="Arial" SIZE="14"/>
 <node CREATED="1244813158337" ID="Freemind_Link_1947205514" MODIFIED="1246548188965" STYLE="fork" TEXT="[min, max values](degN)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233246454929" FOLDED="true" ID="Freemind_Link_1572165241" MODIFIED="1253781669224" STYLE="bubble" TEXT="ZonalExtent">
+<node COLOR="#996600" CREATED="1233246454929" ID="Freemind_Link_1572165241" MODIFIED="1253781669224" STYLE="bubble" TEXT="ZonalExtent">
 <font NAME="Arial" SIZE="14"/>
 <node CREATED="1244813158337" ID="Freemind_Link_1289918420" MODIFIED="1255360959960" STYLE="fork" TEXT="[min, max values](degE)">
 <font NAME="SansSerif" SIZE="14"/>
