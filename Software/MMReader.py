@@ -18,6 +18,9 @@ parser.add_option("-k", "--keep",
 parser.add_option("-f", "--flat",
                   action="store_true", dest="flat", default=False,
                   help="parse a flattened mindmap rather than a bundled one")
+parser.add_option("-c", "--coupling",
+                  action="store_true", dest="coupling", default=False,
+                  help="output coupling parameters")
 (options, args) = parser.parse_args()
 
 if len(args) != 1:
@@ -52,11 +55,16 @@ if options.preprocess:
 else:
   fpre=fin
 
+if (options.coupling):
+  couple="'yes'"
+else:
+  couple="'no'"
+
 print "translating mm xml from file %s" % fpre.name
 styledoc = libxml2.parseFile("xsl/"+XSLFileName)
 style = libxslt.parseStylesheetDoc(styledoc)
 doc = libxml2.parseFile(fpre.name)
-result = style.applyStylesheet(doc,{})
+result = style.applyStylesheet(doc,{"Couple" : couple})
 style.saveResultToFilename(foutname, result, 0)
 style.freeStylesheet()
 doc.freeDoc()

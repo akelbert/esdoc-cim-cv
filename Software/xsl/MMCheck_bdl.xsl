@@ -129,7 +129,13 @@ any lower priority templates -->
         </xsl:if>
       </xsl:for-each>
 
-      <!-- the length of the component name must be <= CompLen characters -->
+      <!-- A component name must only contain upper and/or lower case letters -->
+     <xsl:call-template name="CheckNameazAZ">
+       <xsl:with-param name="myName" select="$NodeName"/>
+       <xsl:with-param name="context" select="'Component'"/>
+     </xsl:call-template>
+
+<!-- the length of the component name must be <= CompLen characters -->
       <xsl:if test="string-length($NodeName)>$CompLen">
         <xsl:message terminate="no">
           <xsl:text>*ERROR: a component name must be at most </xsl:text>
@@ -208,7 +214,15 @@ any lower priority templates -->
           </xsl:message>
      </xsl:if>
 
-    <xsl:apply-templates/>
+     <xsl:if test="not(contains($NodeName,'_Attributes'))">
+       <!-- A parametergroup name must only contain upper and/or lower case letters -->
+       <xsl:call-template name="CheckNameazAZ">
+         <xsl:with-param name="myName" select="$NodeName"/>
+         <xsl:with-param name="context" select="'Parameter Group'"/>
+       </xsl:call-template>
+     </xsl:if>
+
+     <xsl:apply-templates/>
 
   </xsl:template>
 
@@ -374,6 +388,12 @@ any lower priority templates -->
           </xsl:message>
      </xsl:if>
 
+     <!-- A parameter name must only contain upper and/or lower case letters -->
+     <xsl:call-template name="CheckNameazAZ">
+       <xsl:with-param name="myName" select="$NodeName"/>
+       <xsl:with-param name="context" select="'Parameter'"/>
+     </xsl:call-template>
+
     <!-- Perform some checks on the values associated with this parameter -->
     <xsl:variable name="ValueChildren" select="node[not(icon[@BUILTIN='messagebox_warning'] or font[@ITALIC='true']) and @STYLE='fork']"/>
 
@@ -415,6 +435,15 @@ any lower priority templates -->
         <xsl:text>*ERROR: Parameter '</xsl:text>
         <xsl:value-of select="@TEXT"/>
         <xsl:text>' has more than one valid value but at least one of these is not marked as being OR, XOR or AND.
+</xsl:text>
+        <xsl:call-template name="ParameterAndAncestorComponents"/>
+        </xsl:message>
+      </xsl:when>
+      <xsl:when test="$ValueChildren[icon[@BUILTIN='bookmark']]">
+        <xsl:message terminate="no">
+        <xsl:text>*WARNING: Parameter '</xsl:text>
+        <xsl:value-of select="@TEXT"/>
+        <xsl:text>' uses AND but we have not yet agreed with Bryan on how to support it.
 </xsl:text>
         <xsl:call-template name="ParameterAndAncestorComponents"/>
         </xsl:message>
@@ -712,6 +741,38 @@ any lower priority templates -->
       </xsl:message>
     </xsl:if>
 
+  </xsl:template>
+
+  <xsl:template name="CheckNameazAZ">
+    <xsl:param name="myName"/>
+    <xsl:param name="context"/>
+    <xsl:variable name="myCheck" select="translate($myName,'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXZ','xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')"/>
+    <xsl:variable name="myReference">
+      <xsl:call-template name="makex">
+        <xsl:with-param name="NumberOfXs" select="string-length($myName)"/>
+      </xsl:call-template>
+    </xsl:variable>
+
+    <xsl:if test="$myCheck != $myReference">
+      <xsl:message terminate="no">
+         <xsl:text>*ERROR: </xsl:text><xsl:value-of select="$context"/><xsl:text> '</xsl:text>
+         <xsl:value-of select="@TEXT"/>
+         <xsl:text>' contains characters that are not part of the alphabet. The parent component is '</xsl:text>
+         <xsl:call-template name="AncestorComponents"/>
+         <xsl:text>'
+</xsl:text>
+      </xsl:message>
+    </xsl:if>
+  </xsl:template>
+
+  <xsl:template name="makex">
+    <xsl:param name="NumberOfXs"/>
+    <xsl:if test="$NumberOfXs>0">
+      <xsl:text>x</xsl:text>
+      <xsl:call-template name="makex">
+        <xsl:with-param name="NumberOfXs" select="$NumberOfXs - 1"/>
+      </xsl:call-template>
+    </xsl:if>
   </xsl:template>
 
 <!-- end of pattern matching -->

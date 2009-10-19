@@ -3,6 +3,8 @@
 <xsl:output method="xml" indent="yes" encoding="UTF-8"/>
 <xsl:strip-space elements="*"/>
 
+<xsl:param name="Couple" select="'no'"/>
+
 <!-- This stylesheet translates Metafor MindMap controlled vocabulary
 files into a structured xml representation (260409) -->
 
@@ -93,9 +95,13 @@ lower priority templates -->
   <!-- match all constraint nodes (colour blue) -->
   <xsl:template match="node[@COLOR='#0033ff']" priority="3">
 
+    <xsl:variable name="CountCoupleValues" select="count(node[@COLOR='#996600' and not(icon[@BUILTIN='messagebox_warning'] or font[@ITALIC='true'])]/node[not(icon[@BUILTIN='messagebox_warning'] or font[@ITALIC='true'])]/icon[@BUILTIN='back'])"/>
+    <xsl:variable name="CountValues" select="count(node[@COLOR='#996600' and not(icon[@BUILTIN='messagebox_warning'] or font[@ITALIC='true'])]/node[not(icon[@BUILTIN='messagebox_warning'] or font[@ITALIC='true'])])"/>
+    <xsl:if test="$Couple='yes' or $CountCoupleValues!=$CountValues"> <!-- ignore constraints which only contain couple parameters when we choose to ignore couple parameters -->
         <constraint name="{@TEXT}">
           <xsl:apply-templates/>
         </constraint>
+    </xsl:if>
 
   </xsl:template>
 
@@ -113,34 +119,16 @@ lower priority templates -->
       <xsl:call-template name="GetChoice"/>
     </xsl:variable>
 
-<!--
-    <xsl:choose>
-    <xsl:when test="hook/text">
-
       <xsl:choose>
       <xsl:when test="$choice">
-        <parameter name="{@TEXT}" choice="{$choice}" note="{hook/text}" >
-          <xsl:apply-templates/>
-        </parameter>
-      </xsl:when>
-      <xsl:otherwise>
-        <parameter name="{@TEXT}" note="{hook/text}" >
-          <xsl:apply-templates/>
-        </parameter>
-      </xsl:otherwise>
-      </xsl:choose>
-
-    </xsl:when>
-    <xsl:otherwise>
--->
-      <xsl:choose>
-      <xsl:when test="$choice">
-        <parameter name="{@TEXT}" choice="{$choice}" >
-          <xsl:if test="not(hook/text/definition)">
-            <definition status="missing"><xsl:text>Definition of property name </xsl:text><xsl:value-of select="@TEXT"/><xsl:text> required</xsl:text></definition>
-          </xsl:if>
-          <xsl:apply-templates/>
-        </parameter>
+        <xsl:if test="not($Couple='no' and $choice='couple')">
+          <parameter name="{@TEXT}" choice="{$choice}" >
+            <xsl:if test="not(hook/text/definition)">
+              <definition status="missing"><xsl:text>Definition of property name </xsl:text><xsl:value-of select="@TEXT"/><xsl:text> required</xsl:text></definition>
+            </xsl:if>
+            <xsl:apply-templates/>
+          </parameter>
+        </xsl:if>
       </xsl:when>
       <xsl:otherwise>
         <parameter name="{@TEXT}" >
@@ -285,13 +273,15 @@ lower priority templates -->
       <!-- there is only 1 node so we do not need XOR, OR or AND to be specified -->
       <xsl:text>1NODE</xsl:text>
     </xsl:when>
+<!--
     <xsl:when test="count(node)=0">
-      <!-- there are no nodes. This should not really happen (it is an error in the checker) -->
+        there are no nodes. This should not really happen (it is an error in the checker)
       <xsl:text>0NODES</xsl:text>
     </xsl:when>
+-->
     <xsl:otherwise>
       <xsl:message terminate="yes">
-        <xsl:text>Error: In general a parameter should have a child with a value that is declared as one of XOR, OR, AND, or KeyBoardEntry. The exception is when the parameter only has one child (or none!). This parameter breaks these rules.
+        <xsl:text>Error: In general a parameter should have a child with a value that is declared as one of XOR, OR, AND, or KeyBoardEntry. The exception is when the parameter only has one child. This parameter breaks these rules.
 </xsl:text>
         <xsl:text>Parameter is '</xsl:text>
       <xsl:value-of select="@TEXT"/>

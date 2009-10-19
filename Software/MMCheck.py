@@ -56,9 +56,9 @@ else:
   fpre=fin
 
 if (options.warning):
-  warn="yes"
+  warn="'yes'"
 else:
-  warn="no"
+  warn="'no'"
 
 print "checking mm xml from file %s" % fpre.name
 styledoc = libxml2.parseFile("xsl/"+XSLFileName)
