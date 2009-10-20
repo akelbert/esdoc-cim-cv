@@ -9,7 +9,7 @@
 <font BOLD="true" NAME="Arial" SIZE="18"/>
 <node COLOR="#000000" CREATED="1253796559148" ID="Freemind_Link_969659526" MODIFIED="1255696443660" TEXT="AtmosKeyProperties">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#990099" CREATED="1254486057572" ID="Freemind_Link_26535854" MODIFIED="1255696448956" TEXT="AtmosKeyProperties_Attributes">
+<node COLOR="#990099" CREATED="1254486057572" ID="Freemind_Link_26535854" MODIFIED="1256040774820" TEXT="Atmos_KeyProperties_Attributes">
 <font NAME="SansSerif" SIZE="14"/>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233140619821" ID="Freemind_Link_660949458" MODIFIED="1237385244953" STYLE="bubble" TEXT="ModelFamily">
 <font NAME="SansSerif" SIZE="14"/>
@@ -82,9 +82,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1253796609575" ID="Freemind_Link_1291132512" MODIFIED="1253868925395" TEXT="GeographicalConfiguration">
+<node COLOR="#000000" CREATED="1253796609575" ID="Freemind_Link_1291132512" MODIFIED="1256044421031" TEXT="SpaceConfiguration">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#990099" CREATED="1254486285604" ID="Freemind_Link_851070448" MODIFIED="1254486316926" TEXT="GeographicalConfiguration_Attributes">
+<node COLOR="#990099" CREATED="1254486285604" ID="Freemind_Link_851070448" MODIFIED="1256044425036" TEXT="SpaceConfiguration_Attributes">
 <font NAME="SansSerif" SIZE="14"/>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1901121636" MODIFIED="1254474473780" TEXT="Orography">
 <font NAME="SansSerif" SIZE="14"/>
@@ -127,32 +127,6 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1495057180" MODIFIED="1253869172428" TEXT="MeridionalExtent">
-<font NAME="SansSerif" SIZE="14"/>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1818474637" MODIFIED="1255613701807" STYLE="fork" TEXT="[lat_min](degN)">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="bookmark"/>
-<icon BUILTIN="full-1"/>
-</node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1343815199" MODIFIED="1255613701807" STYLE="fork" TEXT="[lat_max](degN)">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="bookmark"/>
-<icon BUILTIN="full-1"/>
-</node>
-</node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1139182434" MODIFIED="1253869182997" TEXT="ZonalExtent">
-<font NAME="SansSerif" SIZE="14"/>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_685548957" MODIFIED="1255613746813" STYLE="fork" TEXT="[lon_min](degE)">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="bookmark"/>
-<icon BUILTIN="full-1"/>
-</node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_375516510" MODIFIED="1255613739442" STYLE="fork" TEXT="[lon_max](degE)">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="bookmark"/>
-<icon BUILTIN="full-1"/>
-</node>
-</node>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1122584785" MODIFIED="1254225744167" TEXT="Resolution">
 <font NAME="SansSerif" SIZE="14"/>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1080083460" MODIFIED="1253869358154" STYLE="fork" TEXT="[horizontal resolution](degrees)">
@@ -181,6 +155,34 @@
 <node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1940916691" MODIFIED="1253869568028" STYLE="fork" TEXT="none">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1495057180" MODIFIED="1256038749923" TEXT="LatMin">
+<font NAME="SansSerif" SIZE="14"/>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1818474637" MODIFIED="1256038897152" STYLE="fork" TEXT="[lat_min](degN)">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-1"/>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1794846274" MODIFIED="1256038763785" TEXT="LatMax">
+<font NAME="SansSerif" SIZE="14"/>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1898394771" MODIFIED="1256038739823" STYLE="fork" TEXT="[lat_max](degN)">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-1"/>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_724485554" MODIFIED="1256038792045" TEXT="LonMin">
+<font NAME="SansSerif" SIZE="14"/>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1547393678" MODIFIED="1256038739794" STYLE="fork" TEXT="[lon_min](degE)">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-1"/>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1139182434" MODIFIED="1256038910004" TEXT="LonMax">
+<font NAME="SansSerif" SIZE="14"/>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_375516510" MODIFIED="1256038739807" STYLE="fork" TEXT="[lon_max](degE)">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-1"/>
 </node>
 </node>
 </node>
@@ -660,7 +662,7 @@
 <font BOLD="true" NAME="Arial" SIZE="14"/>
 <node COLOR="#990099" CREATED="1254474733213" ID="Freemind_Link_339973238" MODIFIED="1255523194580" TEXT="AtmosRadiation_Attributes">
 <font NAME="SansSerif" SIZE="14"/>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233677577835" ID="Freemind_Link_1274991364" MODIFIED="1255334759238" TEXT="TimeStep ">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233677577835" ID="Freemind_Link_1274991364" MODIFIED="1256043297229" TEXT="TimeStep">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#000000" CREATED="1233270123274" ID="Freemind_Link_449665119" MODIFIED="1253870990624" STYLE="fork" TEXT="[time step](time units)">
 <font NAME="Arial" SIZE="15"/>
@@ -853,7 +855,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1242399058639" ID="Freemind_Link_1253463125" MODIFIED="1255696410050" TEXT="AtmosCloudConvectionTurb">
+<node CREATED="1242399058639" ID="Freemind_Link_1253463125" MODIFIED="1256041144872" TEXT="Atmos_CloudConvectionTurb">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1233139103300" ID="Freemind_Link_337098503" MODIFIED="1254305385037" TEXT="BoundaryLayerTurbulence">
 <font NAME="Arial" SIZE="14"/>
@@ -1275,7 +1277,7 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233138801111" ID="Freemind_Link_744791386" MODIFIED="1255523212528" TEXT="AtmosOrographyAndWaves">
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233138801111" ID="Freemind_Link_744791386" MODIFIED="1256041104269" TEXT="Atmos_OrographyAndWaves">
 <font BOLD="true" NAME="Arial" SIZE="14"/>
 <node COLOR="#990099" CREATED="1254475342145" ID="Freemind_Link_91293977" MODIFIED="1255523244094" TEXT="AtmosOrographyAndWaves_Attributes">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1341,13 +1343,23 @@
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233142117128" ID="Freemind_Link_188423803" MODIFIED="1253107300761" STYLE="fork" TEXT="Non-Linear calculation">
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233142117128" ID="Freemind_Link_188423803" MODIFIED="1256041227877" STYLE="fork" TEXT="Non-Linear calculation">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
+<icon BUILTIN="messagebox_warning"/>
+<node COLOR="#000000" CREATED="1233142117128" ID="Freemind_Link_1506759588" MODIFIED="1256041336273" STYLE="fork" TEXT="mpm: Non-Linear calculation is not a Mechanism?">
+<font ITALIC="true" NAME="Arial" SIZE="14"/>
+<icon BUILTIN="messagebox_warning"/>
 </node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233142117128" ID="Freemind_Link_1835771447" MODIFIED="1253107248461" STYLE="fork" TEXT="more than two cardinal directions">
+</node>
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233142117128" ID="Freemind_Link_1835771447" MODIFIED="1256041227886" STYLE="fork" TEXT="more than two cardinal directions">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
+<icon BUILTIN="messagebox_warning"/>
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233142117128" ID="Freemind_Link_941667288" MODIFIED="1256041355686" STYLE="fork" TEXT="mpm: cardinal directions is not a Mechanism?">
+<font ITALIC="true" NAME="Arial" SIZE="14"/>
+<icon BUILTIN="messagebox_warning"/>
+</node>
 </node>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233142117128" ID="Freemind_Link_1634929596" MODIFIED="1240326486775" STYLE="fork" TEXT="Other">
 <font NAME="Arial" SIZE="14"/>
@@ -1450,13 +1462,23 @@
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233142117128" ID="Freemind_Link_652212315" MODIFIED="1253107376296" STYLE="fork" TEXT="Spatially dependent">
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233142117128" ID="Freemind_Link_652212315" MODIFIED="1256041257368" STYLE="fork" TEXT="Spatially dependent">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
+<icon BUILTIN="messagebox_warning"/>
+<node COLOR="#000000" CREATED="1233142117128" ID="Freemind_Link_589694368" MODIFIED="1256041387923" STYLE="fork" TEXT="mpm: Spatially dependant is not a Mechanism? What is it related to?">
+<font ITALIC="true" NAME="Arial" SIZE="14"/>
+<icon BUILTIN="messagebox_warning"/>
 </node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233142117128" ID="Freemind_Link_1752759965" MODIFIED="1253107379643" STYLE="fork" TEXT="Temporally dependent">
+</node>
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233142117128" ID="Freemind_Link_1752759965" MODIFIED="1256041257373" STYLE="fork" TEXT="Temporally dependent">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
+<icon BUILTIN="messagebox_warning"/>
+<node COLOR="#000000" CREATED="1233142117128" ID="Freemind_Link_386631460" MODIFIED="1256041401266" STYLE="fork" TEXT="mpm: Temporally dependant is not a Mechanism? What is it related to?">
+<font ITALIC="true" NAME="Arial" SIZE="14"/>
+<icon BUILTIN="messagebox_warning"/>
+</node>
 </node>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233142117128" ID="Freemind_Link_1050310155" MODIFIED="1253107395586" STYLE="fork" TEXT="other">
 <font NAME="Arial" SIZE="14"/>
@@ -3043,24 +3065,24 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233138801111" FOLDED="true" ID="Freemind_Link_698200375" MODIFIED="1242400590519" TEXT="OrographyAndWaves">
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233138801111" ID="Freemind_Link_698200375" MODIFIED="1242400590519" TEXT="OrographyAndWaves">
 <font BOLD="true" NAME="Arial" SIZE="14"/>
 <node CREATED="1243412812897" ID="Freemind_Link_542587947" MODIFIED="1243439884727" STYLE="fork" TEXT="F.Hourdin: Orographic phenomena that are not gravity wave were missing...">
 <font ITALIC="true" NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="flag"/>
 </node>
-<node COLOR="#990099" CREATED="1242400602835" FOLDED="true" ID="Freemind_Link_480571937" MODIFIED="1243412131341" TEXT="GravityWaves">
+<node COLOR="#990099" CREATED="1242400602835" ID="Freemind_Link_480571937" MODIFIED="1243412131341" TEXT="GravityWaves">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#990099" CREATED="1233142180009" FOLDED="true" ID="Freemind_Link_1633943891" MODIFIED="1243433885019" TEXT="Orographic">
+<node COLOR="#990099" CREATED="1233142180009" ID="Freemind_Link_1633943891" MODIFIED="1243433885019" TEXT="Orographic">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1233142114760" ID="Freemind_Link_1461625883" MODIFIED="1243434662126" STYLE="fork" TEXT="None">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1233142114760" FOLDED="true" ID="Freemind_Link_546911000" MODIFIED="1243434657640" STYLE="fork" TEXT="Specifications">
+<node CREATED="1233142114760" ID="Freemind_Link_546911000" MODIFIED="1243434657640" STYLE="fork" TEXT="Specifications">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
-<node COLOR="#996600" CREATED="1240324987830" FOLDED="true" ID="Freemind_Link_1400850271" MODIFIED="1240326418408" STYLE="bubble" TEXT="Source Mechanisms">
+<node COLOR="#996600" CREATED="1240324987830" ID="Freemind_Link_1400850271" MODIFIED="1240326418408" STYLE="bubble" TEXT="Source Mechanisms">
 <font NAME="Arial" SIZE="14"/>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233142117128" ID="Freemind_Link_1912322623" MODIFIED="1240325284433" STYLE="fork" TEXT="Linear Mountain Waves">
 <font NAME="Arial" SIZE="14"/>

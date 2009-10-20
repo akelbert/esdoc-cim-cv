@@ -6,9 +6,9 @@
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233138680751" ID="Freemind_Link_1161786097" MODIFIED="1233843333819" POSITION="right" STYLE="bubble" TEXT="Ocean">
 <edge COLOR="#999999"/>
 <font BOLD="true" NAME="Arial" SIZE="17"/>
-<node CREATED="1253796559148" ID="Freemind_Link_969659526" MODIFIED="1255696476311" TEXT="OceanKeyProperties">
+<node CREATED="1253796559148" ID="Freemind_Link_969659526" MODIFIED="1256040587316" TEXT="Ocean_KeyProperties">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#990099" CREATED="1255352711909" ID="Freemind_Link_1906682406" MODIFIED="1255696484930" TEXT="OceanKeyProperties_Attributes">
+<node COLOR="#990099" CREATED="1255352711909" ID="Freemind_Link_1906682406" MODIFIED="1256040601155" TEXT="Ocean_KeyProperties_Attributes">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1233140619821" ID="Freemind_Link_1325999493" MODIFIED="1233938843399" STYLE="bubble" TEXT="ModelFamily">
 <font NAME="SansSerif" SIZE="14"/>
@@ -100,7 +100,7 @@
 <font NAME="Arial" SIZE="14"/>
 <node COLOR="#996600" CREATED="1233330693116" ID="Freemind_Link_28789769" MODIFIED="1243264317598" TEXT="EquationOfState">
 <font NAME="Arial" SIZE="14"/>
-<node CREATED="1233246454929" ID="Freemind_Link_834498088" MODIFIED="1246544866645" STYLE="fork" TEXT="linear">
+<node CREATED="1233246454929" ID="Freemind_Link_834498088" MODIFIED="1255961060384" STYLE="fork" TEXT="linear">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
@@ -132,9 +132,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1253796609575" ID="Freemind_Link_1291132512" MODIFIED="1253868925395" TEXT="GeographicalConfiguration">
+<node COLOR="#000000" CREATED="1253796609575" ID="Freemind_Link_1291132512" MODIFIED="1256044452089" TEXT="SpaceConfiguration">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#990099" CREATED="1254486285604" ID="Freemind_Link_851070448" MODIFIED="1255359565944" TEXT="GeographicalConfiguration_Attributes">
+<node COLOR="#990099" CREATED="1254486285604" ID="Freemind_Link_851070448" MODIFIED="1256044446834" TEXT="SpaceConfiguration_Attributes">
 <font NAME="SansSerif" SIZE="14"/>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_62007617" MODIFIED="1255359565944" TEXT="Bathymetry">
 <font NAME="SansSerif" SIZE="14"/>
@@ -205,20 +205,6 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1495057180" MODIFIED="1253869172428" TEXT="MeridionalExtent">
-<font NAME="SansSerif" SIZE="14"/>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1818474637" MODIFIED="1253871619772" STYLE="fork" TEXT="[lat_min, lat_max](degN)">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="full-1"/>
-</node>
-</node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1139182434" MODIFIED="1253869182997" TEXT="ZonalExtent">
-<font NAME="SansSerif" SIZE="14"/>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_685548957" MODIFIED="1253871619756" STYLE="fork" TEXT="[lon_min, lon_max](degE)">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="full-1"/>
-</node>
-</node>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1122584785" MODIFIED="1254225738129" TEXT="Resolution">
 <font NAME="SansSerif" SIZE="14"/>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1080083460" MODIFIED="1253869358154" STYLE="fork" TEXT="[horizontal resolution](degrees)">
@@ -247,6 +233,34 @@
 <node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1940916691" MODIFIED="1253869568028" STYLE="fork" TEXT="none">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1495057180" MODIFIED="1256038749923" TEXT="LatMin">
+<font NAME="SansSerif" SIZE="14"/>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1818474637" MODIFIED="1256038897152" STYLE="fork" TEXT="[lat_min](degN)">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-1"/>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1794846274" MODIFIED="1256038763785" TEXT="LatMax">
+<font NAME="SansSerif" SIZE="14"/>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1898394771" MODIFIED="1256038739823" STYLE="fork" TEXT="[lat_max](degN)">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-1"/>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_724485554" MODIFIED="1256038792045" TEXT="LonMin">
+<font NAME="SansSerif" SIZE="14"/>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1547393678" MODIFIED="1256038739794" STYLE="fork" TEXT="[lon_min](degE)">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-1"/>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1139182434" MODIFIED="1256038910004" TEXT="LonMax">
+<font NAME="SansSerif" SIZE="14"/>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_375516510" MODIFIED="1256038739807" STYLE="fork" TEXT="[lon_max](degE)">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-1"/>
 </node>
 </node>
 </node>
@@ -341,13 +355,6 @@
 </node>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233250004110" ID="Freemind_Link_1252154617" MODIFIED="1254228759486" STYLE="bubble" TEXT="VerticalExtent">
-<font NAME="Arial" SIZE="14"/>
-<node COLOR="#000000" CREATED="1233250230686" ID="Freemind_Link_1910902026" MODIFIED="1255594827647" STYLE="fork" TEXT="[upper_level, lower_level](vertical coordinate units)">
-<font NAME="Arial" SIZE="14"/>
-<icon BUILTIN="full-1"/>
-</node>
-</node>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_995947235" MODIFIED="1253869095294" TEXT="NumberOfVerticalLevels">
 <font NAME="SansSerif" SIZE="14"/>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1130278950" MODIFIED="1253871659045" STYLE="fork" TEXT="[number of vertical levels]">
@@ -357,6 +364,20 @@
 <node CREATED="1244111643967" ID="Freemind_Link_1623247815" MODIFIED="1254227318001" STYLE="fork" TEXT="mpm: think about number of levels in upper 100m...">
 <font ITALIC="true" NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="messagebox_warning"/>
+</node>
+</node>
+<node COLOR="#996600" CREATED="1233250004110" ID="Freemind_Link_1252154617" MODIFIED="1256039752674" STYLE="bubble" TEXT="UpperLevel">
+<font NAME="Arial" SIZE="14"/>
+<node COLOR="#000000" CREATED="1233250230686" ID="Freemind_Link_1910902026" MODIFIED="1256039761396" STYLE="fork" TEXT="[upper_level](vertical coordinate units)">
+<font NAME="Arial" SIZE="14"/>
+<icon BUILTIN="full-1"/>
+</node>
+</node>
+<node COLOR="#996600" CREATED="1233250004110" ID="Freemind_Link_455921828" MODIFIED="1256039769693" STYLE="bubble" TEXT="LowerLevel">
+<font NAME="Arial" SIZE="14"/>
+<node COLOR="#000000" CREATED="1233250230686" ID="Freemind_Link_1042316649" MODIFIED="1256039775541" STYLE="fork" TEXT="[lower_level](vertical coordinate units)">
+<font NAME="Arial" SIZE="14"/>
+<icon BUILTIN="full-1"/>
 </node>
 </node>
 </node>
@@ -380,48 +401,90 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233246454929" ID="Freemind_Link_865451856" MODIFIED="1253781645279" STYLE="bubble" TEXT="VerticalExtent">
-<font NAME="Arial" SIZE="14"/>
-<node CREATED="1244813158337" ID="Freemind_Link_1065746740" MODIFIED="1246548165775" STYLE="fork" TEXT="[min, max values](meters)">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1716822428" MODIFIED="1256038749923" TEXT="LatMin">
+<font NAME="SansSerif" SIZE="14"/>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_352377605" MODIFIED="1256038897152" STYLE="fork" TEXT="[lat_min](degN)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233246454929" ID="Freemind_Link_874621896" MODIFIED="1253781660777" STYLE="bubble" TEXT="MeridionalExtent">
-<font NAME="Arial" SIZE="14"/>
-<node CREATED="1244813158337" ID="Freemind_Link_1947205514" MODIFIED="1246548188965" STYLE="fork" TEXT="[min, max values](degN)">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1580480236" MODIFIED="1256038763785" TEXT="LatMax">
+<font NAME="SansSerif" SIZE="14"/>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_397243017" MODIFIED="1256038739823" STYLE="fork" TEXT="[lat_max](degN)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233246454929" ID="Freemind_Link_1572165241" MODIFIED="1253781669224" STYLE="bubble" TEXT="ZonalExtent">
-<font NAME="Arial" SIZE="14"/>
-<node CREATED="1244813158337" ID="Freemind_Link_1289918420" MODIFIED="1255360959960" STYLE="fork" TEXT="[min, max values](degE)">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_362582805" MODIFIED="1256038792045" TEXT="LonMin">
 <font NAME="SansSerif" SIZE="14"/>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_634451689" MODIFIED="1256038739794" STYLE="fork" TEXT="[lon_min](degE)">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-1"/>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1160421954" MODIFIED="1256038910004" TEXT="LonMax">
+<font NAME="SansSerif" SIZE="14"/>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1290468622" MODIFIED="1256038739807" STYLE="fork" TEXT="[lon_max](degE)">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-1"/>
+</node>
+</node>
+<node COLOR="#996600" CREATED="1233250004110" ID="Freemind_Link_232319022" MODIFIED="1256039752674" STYLE="bubble" TEXT="UpperLevel">
+<font NAME="Arial" SIZE="14"/>
+<node COLOR="#000000" CREATED="1233250230686" ID="Freemind_Link_437757738" MODIFIED="1256039761396" STYLE="fork" TEXT="[upper_level](vertical coordinate units)">
+<font NAME="Arial" SIZE="14"/>
+<icon BUILTIN="full-1"/>
+</node>
+</node>
+<node COLOR="#996600" CREATED="1233250004110" ID="Freemind_Link_1737265691" MODIFIED="1256039769693" STYLE="bubble" TEXT="LowerLevel">
+<font NAME="Arial" SIZE="14"/>
+<node COLOR="#000000" CREATED="1233250230686" ID="Freemind_Link_1911375161" MODIFIED="1256039775541" STYLE="fork" TEXT="[lower_level](vertical coordinate units)">
+<font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
 </node>
 <node COLOR="#990099" CREATED="1233333993001" ID="Freemind_Link_1883344718" MODIFIED="1254305260727" TEXT="MomentumDamping">
 <font NAME="Arial" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233246454929" ID="Freemind_Link_1341850718" MODIFIED="1253781645279" STYLE="bubble" TEXT="VerticalExtent">
-<font NAME="Arial" SIZE="14"/>
-<node CREATED="1244813158337" ID="Freemind_Link_1038287721" MODIFIED="1246548165775" STYLE="fork" TEXT="[min, max values](meters)">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1524029616" MODIFIED="1256038749923" TEXT="LatMin">
+<font NAME="SansSerif" SIZE="14"/>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1908311440" MODIFIED="1256038897152" STYLE="fork" TEXT="[lat_min](degN)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233246454929" ID="Freemind_Link_1831845042" MODIFIED="1253781660777" STYLE="bubble" TEXT="MeridionalExtent">
-<font NAME="Arial" SIZE="14"/>
-<node CREATED="1244813158337" ID="Freemind_Link_1455261522" MODIFIED="1246548188965" STYLE="fork" TEXT="[min, max values](degN)">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1698348493" MODIFIED="1256038763785" TEXT="LatMax">
+<font NAME="SansSerif" SIZE="14"/>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_357735024" MODIFIED="1256038739823" STYLE="fork" TEXT="[lat_max](degN)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233246454929" ID="Freemind_Link_1539350211" MODIFIED="1253781669224" STYLE="bubble" TEXT="ZonalExtent">
-<font NAME="Arial" SIZE="14"/>
-<node CREATED="1244813158337" ID="Freemind_Link_1972453705" MODIFIED="1255360964952" STYLE="fork" TEXT="[min, max values](degE)">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_30048987" MODIFIED="1256038792045" TEXT="LonMin">
 <font NAME="SansSerif" SIZE="14"/>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1910578271" MODIFIED="1256038739794" STYLE="fork" TEXT="[lon_min](degE)">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-1"/>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1081935755" MODIFIED="1256038910004" TEXT="LonMax">
+<font NAME="SansSerif" SIZE="14"/>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1971514958" MODIFIED="1256038739807" STYLE="fork" TEXT="[lon_max](degE)">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-1"/>
+</node>
+</node>
+<node COLOR="#996600" CREATED="1233250004110" ID="Freemind_Link_640004420" MODIFIED="1256039752674" STYLE="bubble" TEXT="UpperLevel">
+<font NAME="Arial" SIZE="14"/>
+<node COLOR="#000000" CREATED="1233250230686" ID="Freemind_Link_1913825425" MODIFIED="1256039761396" STYLE="fork" TEXT="[upper_level](vertical coordinate units)">
+<font NAME="Arial" SIZE="14"/>
+<icon BUILTIN="full-1"/>
+</node>
+</node>
+<node COLOR="#996600" CREATED="1233250004110" ID="Freemind_Link_1955353848" MODIFIED="1256039769693" STYLE="bubble" TEXT="LowerLevel">
+<font NAME="Arial" SIZE="14"/>
+<node COLOR="#000000" CREATED="1233250230686" ID="Freemind_Link_1435700278" MODIFIED="1256039775541" STYLE="fork" TEXT="[lower_level](vertical coordinate units)">
+<font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
@@ -1304,9 +1367,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1253797749288" ID="Freemind_Link_447938745" MODIFIED="1254224814227" TEXT="OceanUpperLowerBoundaries">
+<node CREATED="1253797749288" ID="Freemind_Link_447938745" MODIFIED="1256043427452" TEXT="Ocean_UpAndLowBoundaries">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#990099" CREATED="1233329979500" ID="Freemind_Link_786667002" MODIFIED="1255362574866" TEXT="OceanFreeSurface">
+<node COLOR="#990099" CREATED="1233329979500" ID="Freemind_Link_786667002" MODIFIED="1256040718935" TEXT="FreeSurface">
 <font NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[info]If no free surface, then ocean surface is rigid-liquid.[/info]</text>
@@ -1339,7 +1402,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1233139487492" ID="Freemind_Link_942916441" MODIFIED="1255362574866" TEXT="OceanBottomBoundaryLayer">
+<node COLOR="#990099" CREATED="1233139487492" ID="Freemind_Link_942916441" MODIFIED="1256040724228" TEXT="BottomBoundaryLayer">
 <font NAME="Arial" SIZE="14"/>
 <node COLOR="#996600" CREATED="1233876932609" ID="Freemind_Link_588636220" MODIFIED="1255362593570" TEXT="Type">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1369,7 +1432,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233587494501" ID="Freemind_Link_1959833059" MODIFIED="1242815953022" TEXT="SillOverflow ">
+<node COLOR="#996600" CREATED="1233587494501" ID="Freemind_Link_1959833059" MODIFIED="1256043524443" TEXT="SillOverflow">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1233587502261" ID="Freemind_Link_1033405550" MODIFIED="1253537916612" STYLE="fork" TEXT="specific treatment">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1471,7 +1534,7 @@
 <font NAME="Arial" SIZE="14"/>
 <node COLOR="#996600" CREATED="1233878176257" ID="Freemind_Link_1169909143" MODIFIED="1242118728208" STYLE="bubble" TEXT="SchemeType">
 <font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1233141348258" ID="Freemind_Link_102779744" MODIFIED="1255363255141" STYLE="fork" TEXT="1 extinction depth">
+<node CREATED="1233141348258" ID="Freemind_Link_102779744" MODIFIED="1256040373237" STYLE="fork" TEXT="1 extinction depth">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
@@ -1488,31 +1551,31 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233754574439" ID="Freemind_Link_128392278" MODIFIED="1242085469418" STYLE="bubble" TEXT="FirstDepth">
+<node COLOR="#0033ff" CREATED="1256040108568" ID="Freemind_Link_1318420727" MODIFIED="1256040403655" TEXT="if SchemeType is &quot;extinction depth&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1233246285256" ID="Freemind_Link_928866214" MODIFIED="1242085555109" STYLE="fork" TEXT="[fisrt extinction depth](m)">
+<node COLOR="#996600" CREATED="1233754574439" ID="Freemind_Link_128392278" MODIFIED="1256039002935" STYLE="bubble" TEXT="FirstDepth">
+<font NAME="SansSerif" SIZE="14"/>
+<node CREATED="1233246285256" ID="Freemind_Link_928866214" MODIFIED="1255956398040" STYLE="fork" TEXT="[fisrt extinction depth](m)">
 <font NAME="Arial" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233754574439" ID="Freemind_Link_1469742639" MODIFIED="1253537634462" STYLE="bubble" TEXT="SecondDepth">
+<node COLOR="#996600" CREATED="1233754574439" ID="Freemind_Link_457905105" MODIFIED="1256039678867" STYLE="bubble" TEXT="SecondDepth">
 <font NAME="SansSerif" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint]Only required if &quot;2 extinction depths&quot; or &quot;3 extinction depths&quot; is selected for &quot;SchemeType&quot;.[/constraint]</text>
-</hook>
-<node CREATED="1233246285256" ID="Freemind_Link_8271408" MODIFIED="1255521059854" STYLE="fork" TEXT="[second extinction depth](m)">
+<node CREATED="1233246285256" ID="Freemind_Link_699227540" MODIFIED="1255956398071" STYLE="fork" TEXT="[second extinction depth](m)">
 <font NAME="Arial" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233754574439" ID="Freemind_Link_1882211348" MODIFIED="1253537652901" STYLE="bubble" TEXT="ThirdDepth">
+<node COLOR="#996600" CREATED="1233754574439" ID="Freemind_Link_708426187" MODIFIED="1256040256341" STYLE="bubble" TEXT="ThirdDepth">
 <font NAME="SansSerif" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint]Only required if &quot;3 extinction depths&quot; is selected for &quot;SchemeType&quot;.[/constraint]</text>
-</hook>
-<node CREATED="1233246285256" ID="Freemind_Link_879793726" MODIFIED="1255521074245" STYLE="fork" TEXT="[third extinction depth](m)">
+<node CREATED="1233246285256" ID="Freemind_Link_832628927" MODIFIED="1255956398056" STYLE="fork" TEXT="[third extinction depth](m)">
 <font NAME="Arial" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
 <icon BUILTIN="full-1"/>
+</node>
 </node>
 </node>
 <node COLOR="#996600" CREATED="1237460635585" ID="Freemind_Link_734715388" MODIFIED="1255521175294" TEXT="OceanColorDependent">
@@ -1540,47 +1603,8 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1233587156860" ID="Freemind_Link_1642332041" MODIFIED="1255362651602" TEXT="SurfaceSalinity">
+<node COLOR="#990099" CREATED="1233587156860" ID="Freemind_Link_649363320" MODIFIED="1255956320937" TEXT="SurfaceSalinity">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233754793048" ID="Freemind_Link_291560075" MODIFIED="1255523059960" TEXT="FluxType">
-<font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1233587187732" ID="Freemind_Link_1121099240" MODIFIED="1255363645928" STYLE="fork" TEXT="freshwater flux">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node CREATED="1233587192851" ID="Freemind_Link_1197302053" MODIFIED="1255363645928" STYLE="fork" TEXT="virtual salt flux">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node CREATED="1233270123274" ID="Freemind_Link_1232580008" MODIFIED="1255363645928" STYLE="fork" TEXT="other">
-<font NAME="Arial" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1253713965343" ID="Freemind_Link_367270296" MODIFIED="1255523073524" TEXT="if  FluxType is &quot;freshwater flux&quot;">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233754799168" ID="Freemind_Link_1796607510" MODIFIED="1255363659523" TEXT="FreshWaterFlux">
-<font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1233754598439" ID="Freemind_Link_1367651336" MODIFIED="1246542771392" STYLE="fork" TEXT="">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="back"/>
-</node>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1253713965343" ID="Freemind_Link_997184278" MODIFIED="1255523099381" TEXT="if  FluxType is &quot;virtual salt flux&quot;">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233754799168" ID="Freemind_Link_1395655806" MODIFIED="1255363694584" TEXT="VirtualSaltFlux">
-<font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1233754598439" ID="Freemind_Link_1441077343" MODIFIED="1246542771392" STYLE="fork" TEXT="">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="back"/>
-</node>
-</node>
-</node>
-</node>
-<node COLOR="#990099" CREATED="1233587156860" ID="Freemind_Link_649363320" MODIFIED="1255418776762" TEXT="SurfaceSalinity">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="messagebox_warning"/>
 <node COLOR="#996600" CREATED="1233754793048" ID="Freemind_Link_315520939" MODIFIED="1242085795825" TEXT="FromAtmosphere">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1233587187732" ID="Freemind_Link_328360327" MODIFIED="1246543385143" STYLE="fork" TEXT="freshwater flux">
@@ -1626,7 +1650,46 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node CREATED="1255418803664" ID="Freemind_Link_1209695506" MODIFIED="1255418898676" STYLE="fork" TEXT="mpm: original version without any required inputs to bulbble up in the questionnaire">
+</node>
+<node COLOR="#990099" CREATED="1233587156860" ID="Freemind_Link_1642332041" MODIFIED="1255956317552" TEXT="SurfaceSalinity">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="messagebox_warning"/>
+<node COLOR="#996600" CREATED="1233754793048" ID="Freemind_Link_291560075" MODIFIED="1255523059960" TEXT="FluxType">
+<font NAME="SansSerif" SIZE="14"/>
+<node CREATED="1233587187732" ID="Freemind_Link_1121099240" MODIFIED="1255363645928" STYLE="fork" TEXT="freshwater flux">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1233587192851" ID="Freemind_Link_1197302053" MODIFIED="1255363645928" STYLE="fork" TEXT="virtual salt flux">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1233270123274" ID="Freemind_Link_1232580008" MODIFIED="1255363645928" STYLE="fork" TEXT="other">
+<font NAME="Arial" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1253713965343" ID="Freemind_Link_367270296" MODIFIED="1255523073524" TEXT="if  FluxType is &quot;freshwater flux&quot;">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#996600" CREATED="1233754799168" ID="Freemind_Link_1796607510" MODIFIED="1255363659523" TEXT="FreshWaterFlux">
+<font NAME="SansSerif" SIZE="14"/>
+<node CREATED="1233754598439" ID="Freemind_Link_1367651336" MODIFIED="1246542771392" STYLE="fork" TEXT="">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="back"/>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1253713965343" ID="Freemind_Link_997184278" MODIFIED="1255523099381" TEXT="if  FluxType is &quot;virtual salt flux&quot;">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#996600" CREATED="1233754799168" ID="Freemind_Link_1395655806" MODIFIED="1255363694584" TEXT="VirtualSaltFlux">
+<font NAME="SansSerif" SIZE="14"/>
+<node CREATED="1233754598439" ID="Freemind_Link_1441077343" MODIFIED="1246542771392" STYLE="fork" TEXT="">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="back"/>
+</node>
+</node>
+</node>
+<node CREATED="1255418803664" ID="Freemind_Link_1209695506" MODIFIED="1255960431915" STYLE="fork" TEXT="mpm: version with required inputs to bulbble up in the questionnaire">
 <font ITALIC="true" NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="messagebox_warning"/>
 </node>
@@ -2313,7 +2376,7 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233139103300" FOLDED="true" ID="Freemind_Link_728094252" MODIFIED="1233932889589" TEXT="OceanVerticalPhysics">
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233139103300" ID="Freemind_Link_728094252" MODIFIED="1233932889589" TEXT="OceanVerticalPhysics">
 <font BOLD="true" NAME="Arial" SIZE="14"/>
 <node COLOR="#990099" CREATED="1233246062296" ID="Freemind_Link_1545493385" MODIFIED="1246262761062" TEXT="MixedLayer">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
@@ -2610,10 +2673,10 @@
 </node>
 </node>
 </node>
-<node CREATED="1233246081176" FOLDED="true" ID="Freemind_Link_1925685042" MODIFIED="1233914773894" STYLE="fork" TEXT="Turbulent Closure Scheme">
+<node CREATED="1233246081176" ID="Freemind_Link_1925685042" MODIFIED="1233914773894" STYLE="fork" TEXT="Turbulent Closure Scheme">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
-<node COLOR="#996600" CREATED="1234027199232" FOLDED="true" ID="Freemind_Link_546128698" MODIFIED="1234027226041" STYLE="bubble" TEXT="SubType">
+<node COLOR="#996600" CREATED="1234027199232" ID="Freemind_Link_546128698" MODIFIED="1234027226041" STYLE="bubble" TEXT="SubType">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1233332235378" ID="Freemind_Link_1800993778" MODIFIED="1233914773925" STYLE="fork" TEXT="TKE">
 <font NAME="Arial" SIZE="14"/>
