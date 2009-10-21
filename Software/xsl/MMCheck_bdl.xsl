@@ -425,6 +425,36 @@ any lower priority templates -->
         </xsl:if>
       </xsl:if>
 
+      <!-- if pencil or purple 1 then check for []() format -->
+      <xsl:if test="$ValueChildren[icon[@BUILTIN='full-1' or @BUILTIN='pencil']]">
+
+        <xsl:for-each select="$ValueChildren">
+          <xsl:if test="icon[@BUILTIN='full-1' or @BUILTIN='pencil'] and @TEXT!=''">
+
+            <xsl:variable name="LHS" select="substring-before(@TEXT,'[')"/>
+            <xsl:variable name="SquareBrackets" select="substring-before(substring-after(@TEXT,'['),']')"/>
+            <xsl:variable name="Middle" select="substring-before(substring-after(@TEXT,']'),'(')"/>
+            <xsl:variable name="RoundBrackets" select="substring-before(substring-after(@TEXT,'('),')')"/>
+            <xsl:variable name="RHS" select="substring-after(@TEXT,')')"/>
+
+            <xsl:if test="not($LHS='' and $Middle='' and $RHS='' and not($SquareBrackets='' and $RoundBrackets=''))">
+              <xsl:message terminate="no">
+              <xsl:text>*ERROR: value '</xsl:text>
+              <xsl:value-of select="$NodeName"/>
+              <xsl:text>' in component '</xsl:text>
+              <xsl:value-of select="$ComponentName"/>
+              <xsl:text>' with pencil or full-1 does not conform to format [](). Found '</xsl:text>
+              <xsl:value-of select="@TEXT"/>
+              <xsl:text>'
+</xsl:text>
+              </xsl:message>
+
+            </xsl:if>
+
+          </xsl:if>
+        </xsl:for-each>
+
+      </xsl:if>
     </xsl:when>
     <xsl:otherwise><!-- this parameter has multiple values -->
 
@@ -441,9 +471,9 @@ any lower priority templates -->
       </xsl:when>
       <xsl:when test="$ValueChildren[icon[@BUILTIN='bookmark']]">
         <xsl:message terminate="no">
-        <xsl:text>*WARNING: Parameter '</xsl:text>
+        <xsl:text>*ERROR: Parameter '</xsl:text>
         <xsl:value-of select="@TEXT"/>
-        <xsl:text>' uses AND but we have not yet agreed with Bryan on how to support it.
+        <xsl:text>' uses AND but the questionnaire does not support them.
 </xsl:text>
         <xsl:call-template name="ParameterAndAncestorComponents"/>
         </xsl:message>
@@ -523,11 +553,25 @@ any lower priority templates -->
 
       </xsl:if>
 
+      <!-- if pencil or purple 1 then check that only one value is specified -->
+      <xsl:if test="$ValueChildren[icon[@BUILTIN='full-1' or @BUILTIN='pencil']]">
+        <xsl:if test="count($ValueChildren)!=1">
+            <xsl:message terminate="no">
+            <xsl:text>*ERROR: Parameter '</xsl:text>
+            <xsl:value-of select="$NodeName"/>
+            <xsl:text>' in component '</xsl:text>
+            <xsl:value-of select="$ComponentName"/>
+            <xsl:text>' has a pencil or purple icon value, so can not have more than one value.
+</xsl:text>
+            </xsl:message>
+        </xsl:if>
+      </xsl:if>
+
       <!-- if pencil or purple 1 then check for []() format -->
       <xsl:if test="$ValueChildren[icon[@BUILTIN='full-1' or @BUILTIN='pencil']]">
 
         <xsl:for-each select="$ValueChildren">
-          <xsl:if test="icon[@BUILTIN='full-1' or @BUILTIN='pencil']">
+          <xsl:if test="icon[@BUILTIN='full-1' or @BUILTIN='pencil'] and @TEXT!=''">
 
             <xsl:variable name="LHS" select="substring-before(@TEXT,'[')"/>
             <xsl:variable name="SquareBrackets" select="substring-before(substring-after(@TEXT,'['),']')"/>
@@ -746,7 +790,7 @@ any lower priority templates -->
   <xsl:template name="CheckNameazAZ">
     <xsl:param name="myName"/>
     <xsl:param name="context"/>
-    <xsl:variable name="myCheck" select="translate($myName,'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXZ','xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')"/>
+    <xsl:variable name="myCheck" select="translate($myName,'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXZ-_','xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')"/>
     <xsl:variable name="myReference">
       <xsl:call-template name="makex">
         <xsl:with-param name="NumberOfXs" select="string-length($myName)"/>
