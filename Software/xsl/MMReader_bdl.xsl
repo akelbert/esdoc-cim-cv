@@ -51,30 +51,20 @@ lower priority templates -->
     <!-- The presence of a link indicates this is a reference. We allow references but ignore them -->
     <xsl:if test="not(@LINK)">
 
-<!--
-      <xsl:choose>
-      <xsl:when test="hook/text">
-        <component name="{@TEXT}" note="{hook/text}">
-          <xsl:apply-templates/>
-        </component>
-      </xsl:when>
-      <xsl:otherwise>
-        <component name="{@TEXT}">
-          <xsl:apply-templates/>
-        </component>
-      </xsl:otherwise>
-      </xsl:choose>
--->
-        <component name="{@TEXT}">
+        <xsl:variable name="myName">
+          <xsl:call-template name="string-replace">
+            <xsl:with-param name="from" select="'_'"/>
+            <xsl:with-param name="to" select="''"/> 
+            <xsl:with-param name="string" select="@TEXT"/>
+          </xsl:call-template>
+        </xsl:variable>
+
+        <component name="{$myName}">
           <xsl:if test="not(hook/text/definition)">
-            <definition status="missing"><xsl:text>Definition of component type </xsl:text><xsl:value-of select="@TEXT"/><xsl:text> required</xsl:text></definition>
+            <definition status="missing"><xsl:text>Definition of component type </xsl:text><xsl:value-of select="$myName"/><xsl:text> required</xsl:text></definition>
           </xsl:if>
-          <xsl:variable name="DefaultParamGroup" select="concat(@TEXT,'_Attributes')"/>
-<!--
-          <xsl:if test="not(node[@COLOR='#990099' and @TEXT='{$DefaultParamGroup}'])">
--->
-          <xsl:if test="not(node[@COLOR='#990099' and @TEXT=$DefaultParamGroup])">
-            <parametergroup name="{$DefaultParamGroup}"/>
+          <xsl:if test="not(node[@COLOR='#990099' and @TEXT=concat($myName,'_Attributes')])">
+            <parametergroup name="{concat($myName,'Attributes')}"/>
           </xsl:if>
           <xsl:apply-templates/>
         </component>
@@ -86,7 +76,15 @@ lower priority templates -->
   <!-- match all parameter bundle nodes (colour purple) -->
   <xsl:template match="node[@COLOR='#990099']" priority="3">
 
-        <parametergroup name="{@TEXT}">
+        <xsl:variable name="myName">
+          <xsl:call-template name="string-replace">
+            <xsl:with-param name="from" select="'_'"/>
+            <xsl:with-param name="to" select="''"/> 
+            <xsl:with-param name="string" select="@TEXT"/>
+          </xsl:call-template>
+        </xsl:variable>
+
+        <parametergroup name="{$myName}">
           <xsl:apply-templates/>
         </parametergroup>
 
@@ -293,5 +291,25 @@ lower priority templates -->
     </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
+
+<xsl:template name="string-replace" >
+  <xsl:param name="string"/>
+  <xsl:param name="from"/>
+  <xsl:param name="to"/>
+  <xsl:choose>
+    <xsl:when test="contains($string,$from)">
+      <xsl:value-of select="substring-before($string,$from)"/>
+      <xsl:value-of select="$to"/>
+      <xsl:call-template name="string-replace">
+      <xsl:with-param name="string" select="substring-after($string,$from)"/>
+      <xsl:with-param name="from" select="$from"/>
+      <xsl:with-param name="to" select="$to"/>
+      </xsl:call-template>
+    </xsl:when>
+    <xsl:otherwise>
+      <xsl:value-of select="$string"/>
+    </xsl:otherwise>
+  </xsl:choose>
+</xsl:template>
 
 </xsl:stylesheet>

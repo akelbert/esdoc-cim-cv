@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet
-    xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"
-    xmlns="http://dataportal.ucar.edu/schemas/cmip5.owl#"
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"
+    xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:owl="http://www.w3.org/2002/07/owl#"
     xmlns:esg="http://dataportal.ucar.edu/schemas/esg.owl#"
-    xmlns:daml="http://www.daml.org/2001/03/daml+oil#"
-    xmlns:dc="http://purl.org/dc/elements/1.1/">
-
+    xmlns="http://dataportal.ucar.edu/schemas/metafor.owl#">
 <xsl:output method="xml" indent="yes" encoding="UTF-8"/>
 <xsl:strip-space elements="*"/>
 
 <xsl:param name="Separator" select="''"/>
+<xsl:param name="NSQualifier" select="''"/>
 
 <xsl:template match="/">
 <rdf:RDF xml:base="http://dataportal.ucar.edu/schemas/cmip5.owl">
@@ -84,9 +82,9 @@
     </owl:ObjectProperty> 
 
     <xsl:for-each select="value[not(normalize-space(translate(@name,'OTHER','other'))='other')]">
-      <!-- RF adding esg namespace directly below is a hack - but it works -->
-      <xsl:element name="esg:{$AttributeString}">
-        <!-- hack again for rdf namespace -->
+      <!-- RF adding any required namespace directly below is a hack - but it works -->
+      <xsl:element name="{$NSQualifier}{$AttributeString}">
+        <!-- RF hack again for rdf namespace -->
         <xsl:attribute name="rdf:about"><!--<xsl:text>http://dataportal.ucar.edu/schemas/esg.owl#</xsl:text>--><xsl:text>#</xsl:text><xsl:value-of select="$AttributeString"/><xsl:text>_</xsl:text><xsl:value-of select="translate(@name,' ','_')"/></xsl:attribute>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><xsl:value-of select="@name"/></rdfs:label>
       </xsl:element>

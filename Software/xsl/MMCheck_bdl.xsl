@@ -445,7 +445,9 @@ any lower priority templates -->
               <xsl:value-of select="$ComponentName"/>
               <xsl:text>' with pencil or full-1 does not conform to format [](). Found '</xsl:text>
               <xsl:value-of select="@TEXT"/>
-              <xsl:text>'
+              <xsl:text>'. Component hierarchy is </xsl:text>
+              <xsl:call-template name="AncestorComponents"/>
+              <xsl:text>
 </xsl:text>
               </xsl:message>
 
@@ -587,10 +589,11 @@ any lower priority templates -->
               <xsl:value-of select="$ComponentName"/>
               <xsl:text>' with pencil or full-1 does not conform to format [](). Found '</xsl:text>
               <xsl:value-of select="@TEXT"/>
-              <xsl:text>'
+              <xsl:text>'. Component hierarchy is </xsl:text>
+              <xsl:call-template name="AncestorComponents"/>
+              <xsl:text>
 </xsl:text>
               </xsl:message>
-
             </xsl:if>
 
           </xsl:if>
@@ -790,7 +793,7 @@ any lower priority templates -->
   <xsl:template name="CheckNameazAZ">
     <xsl:param name="myName"/>
     <xsl:param name="context"/>
-    <xsl:variable name="myCheck" select="translate($myName,'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXZ-_','xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')"/>
+    <xsl:variable name="myCheck" select="translate($myName,'0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXZ-_','xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')"/>
     <xsl:variable name="myReference">
       <xsl:call-template name="makex">
         <xsl:with-param name="NumberOfXs" select="string-length($myName)"/>
@@ -801,10 +804,15 @@ any lower priority templates -->
       <xsl:message terminate="no">
          <xsl:text>*ERROR: </xsl:text><xsl:value-of select="$context"/><xsl:text> '</xsl:text>
          <xsl:value-of select="@TEXT"/>
-         <xsl:text>' contains characters that are not part of the alphabet. The parent component is '</xsl:text>
+         <xsl:text>' contains characters that are not 0-9, A-Z, a-z, '_' or '-'. The parent component is '</xsl:text>
          <xsl:call-template name="AncestorComponents"/>
          <xsl:text>'
 </xsl:text>
+         <xsl:text>DEBUG:myCheck=</xsl:text><xsl:value-of select="$myCheck"/><xsl:text>
+</xsl:text>
+         <xsl:text>DEBUG:myReference=</xsl:text><xsl:value-of select="$myReference"/><xsl:text>
+</xsl:text>
+         
       </xsl:message>
     </xsl:if>
   </xsl:template>
