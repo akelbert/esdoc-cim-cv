@@ -512,11 +512,11 @@
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1243422238671" FOLDED="true" ID="Freemind_Link_85250288" MODIFIED="1256199546033" TEXT="3D-Sources">
+<node COLOR="#000000" CREATED="1243422238671" ID="Freemind_Link_85250288" MODIFIED="1256199546033" TEXT="3D-Sources">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#990099" CREATED="1243422252593" FOLDED="true" ID="Freemind_Link_786529567" MODIFIED="1256199523795" TEXT="Aircraft">
+<node COLOR="#990099" CREATED="1243422252593" ID="Freemind_Link_786529567" MODIFIED="1256199523795" TEXT="Aircraft">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1243422324468" FOLDED="true" ID="Freemind_Link_85322913" MODIFIED="1250170370419" TEXT="SpeciesEmitted">
+<node COLOR="#996600" CREATED="1243422324468" ID="Freemind_Link_85322913" MODIFIED="1250170370419" TEXT="SpeciesEmitted">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1244070048872" ID="Freemind_Link_84517240" MODIFIED="1256285318496" STYLE="fork" TEXT="[list of 3D species emitted by aircrafts]">
 <font NAME="SansSerif" SIZE="14"/>
@@ -572,14 +572,10 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1243422257750" FOLDED="true" ID="Freemind_Link_1260368760" MODIFIED="1256199527394" TEXT="BiomassBurning">
+<node COLOR="#990099" CREATED="1243422257750" ID="Freemind_Link_1260368760" MODIFIED="1256199527394" TEXT="BiomassBurning">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1243422533921" FOLDED="true" ID="Freemind_Link_279665540" MODIFIED="1250587366925" TEXT="SpeciesEmitted">
+<node COLOR="#996600" CREATED="1243422533921" ID="Freemind_Link_279665540" MODIFIED="1250587366925" TEXT="SpeciesEmitted">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1244070048872" ID="Freemind_Link_803249032" MODIFIED="1250167614773" STYLE="fork" TEXT="[user to provide a list of species]">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="pencil"/>
-</node>
 <node COLOR="#111111" CREATED="1244070048872" ID="Freemind_Link_1338078889" MODIFIED="1256199663397" STYLE="fork" TEXT="[list of species emitted by biomass burning]">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="pencil"/>
@@ -638,9 +634,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1243422272046" FOLDED="true" ID="Freemind_Link_1268604114" MODIFIED="1256199535894" TEXT="Lightning">
+<node COLOR="#990099" CREATED="1243422272046" ID="Freemind_Link_1268604114" MODIFIED="1256199535894" TEXT="Lightning">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1243422568500" FOLDED="true" ID="Freemind_Link_1908117934" MODIFIED="1250170763446" TEXT="SpeciesEmitted">
+<node COLOR="#996600" CREATED="1243422568500" ID="Freemind_Link_1908117934" MODIFIED="1250170763446" TEXT="SpeciesEmitted">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1244070048872" ID="Freemind_Link_488887927" MODIFIED="1256285323652" STYLE="fork" TEXT="[list of 3D species emitted by lightnings]">
 <font NAME="SansSerif" SIZE="14"/>
@@ -700,9 +696,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1243422276578" FOLDED="true" ID="Freemind_Link_1901109105" MODIFIED="1256199551310" TEXT="Volcanic">
+<node COLOR="#990099" CREATED="1243422276578" ID="Freemind_Link_1901109105" MODIFIED="1256199551310" TEXT="Volcanic">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1243422568500" FOLDED="true" ID="Freemind_Link_1550859625" MODIFIED="1250170763446" TEXT="SpeciesEmitted">
+<node COLOR="#996600" CREATED="1243422568500" ID="Freemind_Link_1550859625" MODIFIED="1250170763446" TEXT="SpeciesEmitted">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1244070048872" ID="Freemind_Link_257526119" MODIFIED="1256285329260" STYLE="fork" TEXT="[list of 3D species emitted by volcanoes]">
 <font NAME="SansSerif" SIZE="14"/>
@@ -759,11 +755,11 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1244068729399" FOLDED="true" ID="Freemind_Link_1309977899" MODIFIED="1256199786544" TEXT="Concentrations">
+<node COLOR="#990099" CREATED="1244068729399" ID="Freemind_Link_1309977899" MODIFIED="1256199786544" TEXT="Concentrations">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1244068742729" FOLDED="true" ID="Freemind_Link_1587180253" MODIFIED="1256200324033" TEXT="PrescribedLowerBoundary">
+<node COLOR="#996600" CREATED="1244068742729" ID="Freemind_Link_1587180253" MODIFIED="1256200324033" TEXT="PrescribedLowerBoundary">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1244070048872" ID="Freemind_Link_295268454" MODIFIED="1256200396895" STYLE="fork" TEXT="list of species prescribedat the lower boundary]">
+<node COLOR="#111111" CREATED="1244070048872" ID="Freemind_Link_295268454" MODIFIED="1256297273770" STYLE="fork" TEXT="[list of species prescribed at the lower boundary]">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="pencil"/>
 </node>

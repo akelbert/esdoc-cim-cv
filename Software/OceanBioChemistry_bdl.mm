@@ -9,9 +9,9 @@
 <font BOLD="true" NAME="Arial" SIZE="16"/>
 <node CREATED="1256254598897" ID="Freemind_Link_1206301233" MODIFIED="1256254633647" TEXT="KeyProperties_">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#000000" CREATED="1236610297849" FOLDED="true" ID="Freemind_Link_1511614965" MODIFIED="1256255570061" TEXT="TimeSteppingFramework">
+<node COLOR="#000000" CREATED="1236610297849" ID="Freemind_Link_1511614965" MODIFIED="1256255570061" TEXT="TimeSteppingFramework">
 <font BOLD="true" NAME="Arial" SIZE="14"/>
-<node COLOR="#990099" CREATED="1252419938135" FOLDED="true" ID="Freemind_Link_1819255384" MODIFIED="1256255859946" TEXT="PassiveTracersTransport">
+<node COLOR="#990099" CREATED="1252419938135" ID="Freemind_Link_1819255384" MODIFIED="1256255859946" TEXT="PassiveTracersTransport">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1244813200289" FOLDED="true" ID="Freemind_Link_1751281621" MODIFIED="1256255605052" STYLE="bubble" TEXT="Method">
 <font NAME="SansSerif" SIZE="14"/>
@@ -24,20 +24,20 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1256254863068" FOLDED="true" ID="Freemind_Link_453839557" MODIFIED="1256255624319" TEXT="if Method is &quot;specific time step&quot;">
+<node COLOR="#0033ff" CREATED="1256254863068" ID="Freemind_Link_453839557" MODIFIED="1256255624319" TEXT="if Method is &quot;specific time step&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1256254990298" FOLDED="true" ID="Freemind_Link_827573471" MODIFIED="1256255959242" TEXT="TimeStep">
+<node COLOR="#996600" CREATED="1256254990298" ID="Freemind_Link_827573471" MODIFIED="1256255959242" TEXT="TimeStep">
 <font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1256255021042" ID="Freemind_Link_376825979" MODIFIED="1256255158736" STYLE="fork" TEXT="passive tracers transport [time step](user units)">
+<node CREATED="1256255021042" ID="Freemind_Link_376825979" MODIFIED="1256296589827" STYLE="fork" TEXT="[passive tracers transport time step](user units)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1252419959208" FOLDED="true" ID="Freemind_Link_1414581463" MODIFIED="1256255859976" TEXT="Biology">
+<node COLOR="#990099" CREATED="1252419959208" ID="Freemind_Link_1414581463" MODIFIED="1256255859976" TEXT="Biology">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1244813200289" FOLDED="true" ID="Freemind_Link_1199991327" MODIFIED="1256255605052" STYLE="bubble" TEXT="Method">
+<node COLOR="#996600" CREATED="1244813200289" ID="Freemind_Link_1199991327" MODIFIED="1256255605052" STYLE="bubble" TEXT="Method">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1236610305992" ID="Freemind_Link_945097906" MODIFIED="1253103500753" STYLE="fork" TEXT="use ocean transport time step">
 <font NAME="SansSerif" SIZE="14"/>
@@ -48,9 +48,9 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1256254863068" FOLDED="true" ID="Freemind_Link_924587471" MODIFIED="1256255824313" TEXT="if Method is &quot;specific time step&quot;">
+<node COLOR="#0033ff" CREATED="1256254863068" ID="Freemind_Link_924587471" MODIFIED="1256255824313" TEXT="if Method is &quot;specific time step&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1256254990298" FOLDED="true" ID="Freemind_Link_449584025" MODIFIED="1256255968216" TEXT="TimeStep">
+<node COLOR="#996600" CREATED="1256254990298" ID="Freemind_Link_449584025" MODIFIED="1256255968216" TEXT="TimeStep">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1256255021042" ID="Freemind_Link_1664852992" MODIFIED="1256255167561" STYLE="fork" TEXT="[biological time step](user units)">
 <font NAME="SansSerif" SIZE="14"/>
