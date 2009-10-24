@@ -4,7 +4,7 @@
 <edge WIDTH="2"/>
 <font ITALIC="true" NAME="Arial" SIZE="15"/>
 <hook NAME="accessories/plugins/CreationModificationPlugin_new.properties"/>
-<node COLOR="#000000" CREATED="1243415250546" ID="Freemind_Link_1289853867" MODIFIED="1256250881236" POSITION="right" STYLE="bubble" TEXT="AtmosChemAndAerosol">
+<node COLOR="#000000" CREATED="1243415250546" ID="Freemind_Link_1289853867" MODIFIED="1256418125197" POSITION="right" STYLE="bubble" TEXT="AtmosChemAndAerosols">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>AtmosphericChemistryAndAerosols is a temporarily a level-1 component.&#xa;Waiting for Bryan to decide with Karl whether Aerosols is the 8th realm or not.</text>
