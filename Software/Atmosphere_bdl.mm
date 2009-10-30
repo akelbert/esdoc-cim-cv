@@ -79,8 +79,78 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+<node COLOR="#996600" CREATED="1256808650636" ID="Freemind_Link_907728733" MODIFIED="1256926070064" TEXT="VolcanoesImplementation">
+<font NAME="SansSerif" SIZE="14"/>
+<node CREATED="1256808658741" ID="Freemind_Link_1790026191" MODIFIED="1256926042354" STYLE="fork" TEXT="none">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
 </node>
-<node COLOR="#000000" CREATED="1256303464288" ID="Freemind_Link_875811821" MODIFIED="1256810166349" TEXT="TopOfAtmos_Insolation">
+<node CREATED="1256808661475" ID="Freemind_Link_593500369" MODIFIED="1256926042349" STYLE="fork" TEXT="via high frequency solar contant anomaly">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1256808694604" ID="Freemind_Link_1476056922" MODIFIED="1256926042320" STYLE="fork" TEXT="via stratospheric aerosols optical thickness">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1256926089931" ID="Freemind_Link_226267521" MODIFIED="1256926138065" TEXT="if VolcanoesImplementation is &quot;via stratospheric aerosols optical thickness&quot;">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#996600" CREATED="1256808766684" ID="Freemind_Link_1609677580" MODIFIED="1256926228898" TEXT="VolcanoesImplementationMethod">
+<font NAME="SansSerif" SIZE="14"/>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_847665173" MODIFIED="1256808271480" STYLE="fork" TEXT="">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="pencil"/>
+</node>
+</node>
+<node COLOR="#996600" CREATED="1256808784284" ID="Freemind_Link_414212782" MODIFIED="1256926252297" TEXT="VolcanoesForcingFields">
+<font NAME="SansSerif" SIZE="14"/>
+<node CREATED="1256808788500" ID="Freemind_Link_1381574927" MODIFIED="1256926316729" STYLE="fork" TEXT="Gao et al. (2008-9)">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1256808800123" ID="Freemind_Link_1024872946" MODIFIED="1256926322639" STYLE="fork" TEXT="Crowley (date?)">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="messagebox_warning"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1256808986069" ID="Freemind_Link_989878720" MODIFIED="1256926042243" STYLE="fork" TEXT="other">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+</node>
+</node>
+<node CREATED="1256809079292" ID="Freemind_Link_894255056" MODIFIED="1256809624580" TEXT="if not atmos chemistry model then specify">
+<font ITALIC="true" NAME="Arial" SIZE="14"/>
+<icon BUILTIN="messagebox_warning"/>
+<node CREATED="1256809093989" ID="Freemind_Link_49220353" MODIFIED="1256926391127" TEXT="GHG">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node CREATED="1256809097301" ID="Freemind_Link_115834150" MODIFIED="1256926391150" TEXT="tropospheric aerosols">
+<font NAME="SansSerif" SIZE="14"/>
+<node CREATED="1256809110444" ID="Freemind_Link_978628982" MODIFIED="1256926391100" STYLE="fork" TEXT="black carbon">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node CREATED="1256809116709" ID="Freemind_Link_434611716" MODIFIED="1256926417426" STYLE="fork" TEXT="etc...">
+<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node CREATED="1256809175898" ID="Freemind_Link_1748058665" MODIFIED="1256926397079" STYLE="fork" TEXT="cf Experiment 3.2_historical protocol">
+<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
+</node>
+<node CREATED="1256809175898" ID="Freemind_Link_1431480401" MODIFIED="1256926538772" STYLE="fork" TEXT="mpm: Aerosols and GHG already in Radiation">
+<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="messagebox_warning"/>
+<icon BUILTIN="messagebox_warning"/>
+</node>
+<node CREATED="1256809175898" ID="Freemind_Link_512378817" MODIFIED="1256926534604" STYLE="fork" TEXT="mpm: Belongs to Activity.">
+<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="messagebox_warning"/>
+<icon BUILTIN="messagebox_warning"/>
+</node>
+</node>
+</node>
+<node COLOR="#000000" CREATED="1256303464288" ID="Freemind_Link_875811821" MODIFIED="1256924075933" TEXT="TopOfAtmos_Insolation">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1256650840766" ID="Freemind_Link_818741463" MODIFIED="1256812889692" TEXT="TopOfAtmosInsolationAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
@@ -97,12 +167,12 @@
 </node>
 <node COLOR="#0033ff" CREATED="1256650877395" ID="Freemind_Link_1298646489" MODIFIED="1256650934600" TEXT="if SolarConstant is &quot;fixed&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1256301624095" ID="Freemind_Link_1559906714" MODIFIED="1256808231163" TEXT="SolarConstantValue">
+<node COLOR="#996600" CREATED="1256301624095" ID="Freemind_Link_1559906714" MODIFIED="1256923878977" TEXT="SolarConstantValue">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Value of the solar constant.[/definition]</text>
+<text>[definition]Value of the solar constant.(W.m-2)[/definition]</text>
 </hook>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1666593065" MODIFIED="1256808285341" STYLE="fork" TEXT="(W.m-2)">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1666593065" MODIFIED="1256895956555" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
@@ -121,6 +191,17 @@
 </node>
 </node>
 </node>
+<node COLOR="#996600" CREATED="1256808827517" ID="Freemind_Link_1376847681" MODIFIED="1256925976580" TEXT="ImpactOnOzone">
+<font NAME="SansSerif" SIZE="14"/>
+<node CREATED="1256808973381" ID="Freemind_Link_553993813" MODIFIED="1256925957730" STYLE="fork" TEXT="yes">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1256808975628" ID="Freemind_Link_1146439043" MODIFIED="1256925957746" STYLE="fork" TEXT="no">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+</node>
 </node>
 <node COLOR="#990099" CREATED="1256303473254" ID="Freemind_Link_1618611036" MODIFIED="1256650832872" TEXT="OrbitalParameters">
 <font NAME="SansSerif" SIZE="14"/>
@@ -136,7 +217,7 @@
 </node>
 <node COLOR="#0033ff" CREATED="1256650877395" ID="Freemind_Link_1148218974" MODIFIED="1256651099007" TEXT="if Date is &quot;fixed&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1256301624095" ID="Freemind_Link_1034934256" MODIFIED="1256808895518" TEXT="DateValue">
+<node COLOR="#996600" CREATED="1256301624095" ID="Freemind_Link_1034934256" MODIFIED="1256923885757" TEXT="DateValue">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Reference year for orbital parameters.[/definition]</text>
@@ -185,7 +266,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1253796609575" ID="Freemind_Link_1291132512" MODIFIED="1256814507946" TEXT="AtmosSpaceConfiguration_">
+<node COLOR="#000000" CREATED="1253796609575" FOLDED="true" ID="Freemind_Link_1291132512" MODIFIED="1256814507946" TEXT="AtmosSpaceConfiguration_">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1254486285604" ID="Freemind_Link_851070448" MODIFIED="1256678935741" TEXT="Orography_">
 <font NAME="SansSerif" SIZE="14"/>
@@ -280,26 +361,32 @@
 </node>
 <node COLOR="#990099" CREATED="1256810474090" ID="Freemind_Link_785383413" MODIFIED="1256814555692" TEXT="Resolution_">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1256740460367" ID="Freemind_Link_1489121474" MODIFIED="1256810253194" TEXT="MeanZonalResolution">
-<font NAME="SansSerif" SIZE="14"/>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_540590316" MODIFIED="1256809212806" STYLE="fork" TEXT="(degrees)">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="full-1"/>
-</node>
-</node>
-<node COLOR="#996600" CREATED="1256740460367" ID="Freemind_Link_1080699653" MODIFIED="1256810344134" TEXT="MeanMeridionalResolution">
-<font NAME="SansSerif" SIZE="14"/>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_744352136" MODIFIED="1256809219975" STYLE="fork" TEXT="(degrees)">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="full-1"/>
-</node>
-</node>
-<node COLOR="#996600" CREATED="1256740460367" ID="Freemind_Link_488745278" MODIFIED="1256809255948" TEXT="EquatorMeridionalRefinement">
+<node COLOR="#996600" CREATED="1256740460367" ID="Freemind_Link_1489121474" MODIFIED="1256923907814" TEXT="MeanZonalResolution">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Resolution at equator.[/definition]</text>
+<text>[definition]Mean zonal resolution.(degrees)[/definition]</text>
 </hook>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_739965915" MODIFIED="1256809219975" STYLE="fork" TEXT="(degrees)">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_540590316" MODIFIED="1256896050249" STYLE="fork" TEXT="">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-1"/>
+</node>
+</node>
+<node COLOR="#996600" CREATED="1256740460367" ID="Freemind_Link_1080699653" MODIFIED="1256923914084" TEXT="MeanMeridionalResolution">
+<font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Mean meridional resolution.(degrees)[/definition]</text>
+</hook>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_744352136" MODIFIED="1256896144325" STYLE="fork" TEXT="">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-1"/>
+</node>
+</node>
+<node COLOR="#996600" CREATED="1256740460367" ID="Freemind_Link_488745278" MODIFIED="1256923922664" TEXT="EquatorMeridionalRefinement">
+<font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Resolution at equator.(degrees)[/definition]</text>
+</hook>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_739965915" MODIFIED="1256896147547" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
@@ -312,32 +399,44 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1256810490649" ID="Freemind_Link_1568104395" MODIFIED="1256810555982" TEXT="Extent_">
+<node COLOR="#990099" CREATED="1256810490649" ID="Freemind_Link_1568104395" MODIFIED="1256898328331" TEXT="HorizontalExtent_">
 <font NAME="SansSerif" SIZE="14"/>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1495057180" MODIFIED="1256038749923" TEXT="LatMin">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1495057180" MODIFIED="1256923929824" TEXT="LatMin">
 <font NAME="SansSerif" SIZE="14"/>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1818474637" MODIFIED="1256810562557" STYLE="fork" TEXT="(degN)">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="full-1"/>
-</node>
-</node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1794846274" MODIFIED="1256038763785" TEXT="LatMax">
-<font NAME="SansSerif" SIZE="14"/>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1898394771" MODIFIED="1256810567978" STYLE="fork" TEXT="(degN)">
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Southern boundary of the geographical domain.(degN)[/definition]</text>
+</hook>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_33609826" MODIFIED="1256896147547" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_724485554" MODIFIED="1256038792045" TEXT="LonMin">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1794846274" MODIFIED="1256923936064" TEXT="LatMax">
 <font NAME="SansSerif" SIZE="14"/>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1547393678" MODIFIED="1256810573055" STYLE="fork" TEXT="(degE)">
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Northern boundary of the geographical domain.(degN)[/definition]</text>
+</hook>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1336489654" MODIFIED="1256896147547" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1139182434" MODIFIED="1256038910004" TEXT="LonMax">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_724485554" MODIFIED="1256923943164" TEXT="LonMin">
 <font NAME="SansSerif" SIZE="14"/>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_375516510" MODIFIED="1256810577977" STYLE="fork" TEXT="(degE)">
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Eastern boundary of the geographical domain.(degE)[/definition]</text>
+</hook>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1297746569" MODIFIED="1256896147547" STYLE="fork" TEXT="">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-1"/>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1139182434" MODIFIED="1256923948464" TEXT="LonMax">
+<font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Western boundary of the geographical domain.(degE)[/definition]</text>
+</hook>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_94731513" MODIFIED="1256896147547" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
@@ -390,20 +489,20 @@
 <icon BUILTIN="messagebox_warning"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1379456164" MODIFIED="1256812286929" TEXT="TopModelLevel">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1379456164" MODIFIED="1256923958694" TEXT="TopModelLevel">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Level at top of the model.[/definition]&#xa;</text>
+<text>[definition]Level at top of the atmospheric model.(hPa)[/definition]&#xa;</text>
 </hook>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_182343156" MODIFIED="1256812292849" STYLE="fork" TEXT="(hPa)">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_182343156" MODIFIED="1256896514777" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1307287703" MODIFIED="1256812308043" TEXT="NumberOfVerticalLevels">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1307287703" MODIFIED="1256899160395" TEXT="NumberOfVerticalLevels">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Total number of vertical levels.[/definition]</text>
+<text>[definition]Total number of atmospheric vertical levels.[/definition]</text>
 </hook>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_147995969" MODIFIED="1256812322078" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
@@ -611,12 +710,12 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1253870854444" ID="Freemind_Link_1853887404" MODIFIED="1256812781334" TEXT="TimeStep">
+<node COLOR="#996600" CREATED="1253870854444" ID="Freemind_Link_1853887404" MODIFIED="1256925125843" TEXT="TimeStep">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Time step of the model.[/definition]</text>
+<text>[definition]Time step of the atmospheric model.(seconds)[/definition]</text>
 </hook>
-<node COLOR="#000000" CREATED="1233270123274" ID="Freemind_Link_857353586" MODIFIED="1256812730150" STYLE="fork" TEXT="(seconds)">
+<node COLOR="#000000" CREATED="1233270123274" ID="Freemind_Link_857353586" MODIFIED="1256896552957" STYLE="fork" TEXT="">
 <font NAME="Arial" SIZE="15"/>
 <icon BUILTIN="full-1"/>
 </node>
@@ -719,7 +818,7 @@
 </node>
 <node COLOR="#000000" CREATED="1233141996872" ID="Freemind_Link_1144449933" MODIFIED="1256685201037" TEXT="Atmos_Advection">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#990099" CREATED="1243601885374" ID="Freemind_Link_1334292817" MODIFIED="1256812957450" TEXT="AdvectionOf_Tracers">
+<node COLOR="#990099" CREATED="1243601885374" ID="Freemind_Link_1334292817" MODIFIED="1256925076108" TEXT="Tracers">
 <font NAME="SansSerif" SIZE="14"/>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233141816416" ID="Freemind_Link_1694965924" MODIFIED="1244619527120" TEXT="SchemeName">
 <edge WIDTH="thin"/>
@@ -780,7 +879,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1243601892037" ID="Freemind_Link_232268089" MODIFIED="1256812965742" TEXT="AdvectionOf_Momentum">
+<node COLOR="#990099" CREATED="1243601892037" ID="Freemind_Link_232268089" MODIFIED="1256925080593" TEXT="Momentum">
 <font NAME="SansSerif" SIZE="14"/>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233141816416" ID="Freemind_Link_955697229" MODIFIED="1244619574068" TEXT="SchemeName">
 <edge WIDTH="thin"/>
@@ -843,12 +942,12 @@
 <font BOLD="true" NAME="Arial" SIZE="14"/>
 <node COLOR="#990099" CREATED="1254474733213" ID="Freemind_Link_339973238" MODIFIED="1256814425952" TEXT="AtmosRadiationAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233677577835" ID="Freemind_Link_1274991364" MODIFIED="1256813122475" TEXT="Radiation_TimeStep">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233677577835" ID="Freemind_Link_1274991364" MODIFIED="1256923983214" TEXT="Radiation_TimeStep">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Time step of the radiation scheme.[/definition]</text>
+<text>[definition]Time step of the radiation scheme.(seconds)[/definition]</text>
 </hook>
-<node COLOR="#000000" CREATED="1233270123274" ID="Freemind_Link_449665119" MODIFIED="1256813034678" STYLE="fork" TEXT="(seconds)">
+<node COLOR="#000000" CREATED="1233270123274" ID="Freemind_Link_449665119" MODIFIED="1256896542568" STYLE="fork" TEXT="">
 <font NAME="Arial" SIZE="15"/>
 <icon BUILTIN="full-1"/>
 </node>
@@ -1654,49 +1753,55 @@
 </node>
 </node>
 </node>
-<node CREATED="1242815104070" ID="Freemind_Link_188906600" MODIFIED="1256815811552" POSITION="left" STYLE="bubble" TEXT="CV version">
-<font ITALIC="true" NAME="SansSerif" SIZE="15"/>
-<node CREATED="1242815129537" ID="Freemind_Link_93957810" MODIFIED="1256817251807" STYLE="fork" TEXT="vX.x (corresponding to rXXX of Atmosphere_bdl.mm OR corrresponding to current revision)">
-<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
+<node COLOR="#000000" CREATED="1242815104070" ID="Freemind_Link_188906600" MODIFIED="1256925260876" POSITION="left" STYLE="bubble" TEXT="CV version">
+<font NAME="SansSerif" SIZE="15"/>
+<node CREATED="1242815129537" ID="Freemind_Link_1895918984" MODIFIED="1256925532703" STYLE="fork" TEXT="vX.x (incremented by this revision or not?)">
+<font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node CREATED="1242815104070" ID="Freemind_Link_1493926227" MODIFIED="1256815901127" POSITION="left" STYLE="bubble" TEXT="DEF version">
-<font ITALIC="true" NAME="SansSerif" SIZE="15"/>
-<node CREATED="1242815129537" ID="Freemind_Link_1119342713" MODIFIED="1256817280877" STYLE="fork" TEXT="vX.x (corresponding to rXXX of Atmosphere_bdl.mm OR corresponding to current revision)">
-<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
+<node COLOR="#000000" CREATED="1242815104070" ID="Freemind_Link_1493926227" MODIFIED="1256925260984" POSITION="left" STYLE="bubble" TEXT="DEF version">
+<font NAME="SansSerif" SIZE="15"/>
+<node CREATED="1242815129537" ID="Freemind_Link_1393380601" MODIFIED="1256925532703" STYLE="fork" TEXT="vX.x (incremented by this revision or not?)">
+<font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node CREATED="1242815104070" ID="Freemind_Link_218480523" MODIFIED="1256816095878" POSITION="left" STYLE="bubble" TEXT="starting version">
-<font ITALIC="true" NAME="SansSerif" SIZE="15"/>
-<node CREATED="1242815129537" ID="Freemind_Link_277246312" MODIFIED="1256817449200" STYLE="fork" TEXT="start from rXXX of Atmosphere_flat.mm">
-<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
+<node COLOR="#000000" CREATED="1242815104070" ID="Freemind_Link_218480523" MODIFIED="1256925260958" POSITION="left" STYLE="bubble" TEXT="starting version">
+<font NAME="SansSerif" SIZE="15"/>
+<node CREATED="1242815129537" ID="Freemind_Link_277246312" MODIFIED="1256925277161" STYLE="fork" TEXT="start from rXXX of Atmosphere_flat.mm">
+<font NAME="SansSerif" SIZE="14"/>
 </node>
-<node CREATED="1242815129537" ID="Freemind_Link_940810515" MODIFIED="1256817551817" STYLE="fork" TEXT="Atmosphere_flat based on r557 (mariepierre, 2009-06-09) of Atmosphere.mm">
-<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-<node CREATED="1242815104070" ID="Freemind_Link_169443819" MODIFIED="1256817523370" POSITION="left" STYLE="bubble" TEXT="new scientific input">
-<font ITALIC="true" NAME="SansSerif" SIZE="15"/>
-<node CREATED="1242815129537" ID="Freemind_Link_1268182199" MODIFIED="1256817487568" STYLE="fork" TEXT="Masa and Olivier Marti (IPSL) for Paleo: 26/10/2009">
-<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
+<node CREATED="1242815129537" ID="Freemind_Link_940810515" MODIFIED="1256925277171" STYLE="fork" TEXT="Atmosphere_flat based on r557 (mariepierre, 2009-06-09) of Atmosphere.mm">
+<font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node CREATED="1242815104070" ID="Freemind_Link_72730991" MODIFIED="1256817366411" POSITION="left" STYLE="bubble" TEXT="list of scientific contributors">
-<font ITALIC="true" NAME="SansSerif" SIZE="15"/>
-<node CREATED="1233226561929" ID="Freemind_Link_172256697" MODIFIED="1256817406518" STYLE="fork" TEXT="Michel D&#xe9;qu&#xe9; (CNRM, Meteo France): 28/01/2009">
-<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
+<node COLOR="#000000" CREATED="1242815104070" ID="Freemind_Link_169443819" MODIFIED="1256925260942" POSITION="left" STYLE="bubble" TEXT="new scientific input">
+<font NAME="SansSerif" SIZE="15"/>
+<node CREATED="1242815129537" ID="Freemind_Link_1268182199" MODIFIED="1256925319832" STYLE="fork" TEXT="Masa XXX and Olivier Marti (IPSL) for Paleo: 26/10/2009">
+<font NAME="SansSerif" SIZE="14"/>
 </node>
-<node CREATED="1243345175709" ID="Freemind_Link_269865712" MODIFIED="1256817406550" STYLE="fork" TEXT="Fred&#xe9;ric Hourdin (IPSL): 15/05/02009">
-<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
+<node CREATED="1242815129537" ID="Freemind_Link_1253442223" MODIFIED="1256926701751" STYLE="fork" TEXT="Myriam XXX (IPSL) for Paleo: 29/10/2009">
+<font NAME="SansSerif" SIZE="14"/>
 </node>
-<node CREATED="1243345175709" ID="Freemind_Link_1774685735" MODIFIED="1256817406550" STYLE="fork" TEXT="Bruce Wyman/Balaji (GFDL): 29/05/02009">
-<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
 </node>
-<node CREATED="1243345175709" ID="Freemind_Link_1301147253" MODIFIED="1256817406534" STYLE="fork" TEXT="ESG-DynCore/Bryan: 04/06/02009">
-<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
+<node COLOR="#000000" CREATED="1242815104070" ID="Freemind_Link_72730991" MODIFIED="1256925260893" POSITION="left" STYLE="bubble" TEXT="list of scientific contributors">
+<font NAME="SansSerif" SIZE="15"/>
+<node CREATED="1233226561929" ID="Freemind_Link_172256697" MODIFIED="1256925277106" STYLE="fork" TEXT="Michel D&#xe9;qu&#xe9; (CNRM, Meteo France): 28/01/2009">
+<font NAME="SansSerif" SIZE="14"/>
 </node>
-<node CREATED="1242815129537" ID="Freemind_Link_1010785246" MODIFIED="1256817487568" STYLE="fork" TEXT="Masa and Olivier Marti (IPSL) for Paleo: 26/10/2009">
-<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
+<node CREATED="1243345175709" ID="Freemind_Link_269865712" MODIFIED="1256925277146" STYLE="fork" TEXT="Fred&#xe9;ric Hourdin (IPSL): 15/05/02009">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node CREATED="1243345175709" ID="Freemind_Link_1774685735" MODIFIED="1256925861651" STYLE="fork" TEXT="Bruce Wyman / Balaji (GFDL): 29/05/02009">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node CREATED="1243345175709" ID="Freemind_Link_1301147253" MODIFIED="1256925866609" STYLE="fork" TEXT="ESG-DynCore  /Bryan: 04/06/02009">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node CREATED="1242815129537" ID="Freemind_Link_1010785246" MODIFIED="1256925314297" STYLE="fork" TEXT="Masa XXX and Olivier Marti (IPSL) for Paleo: 26/10/2009">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node CREATED="1242815129537" ID="Freemind_Link_23169860" MODIFIED="1256926697099" STYLE="fork" TEXT="Myriam XXX (IPSL) for Paleo: 29/10/2009">
+<font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
 </node>
