@@ -5,6 +5,7 @@ import sys
 import libxml2
 import libxslt
 import os
+from subprocess import *
 
 usage = "usage: %prog [options] mindmap_[flat,bdl].mm"
 version = "1.0"
@@ -43,6 +44,26 @@ except IOError, (errno, strerror):
   print "I/O error(%s) for file %s: %s" % (errno, args[0], strerror)
   sys.exit(1)
 
+#determine the svn info of the mindmap file
+mmurl=""
+mmrevision=""
+mmlcrevision=""
+svninforaw = Popen(["svn", "info" ,args[0]], stdout=PIPE).communicate()[0]
+svninfo=svninforaw.split("\n")
+for line in svninfo:
+  if re.match("^Revision:",line):
+    print line
+    revsplit=line.split(": ")
+    mmrevision=revsplit[1]
+  if re.match("^Last Changed Rev:",line):
+    print line
+    lcrevsplit=line.split(": ")
+    mmlcrevision=lcrevsplit[1]
+  if re.match("^URL:",line):
+    print line
+    urlsplit=line.split(": ")
+    mmurl=urlsplit[1]
+
 if options.preprocess:
   fpre = open(args[0]+'.pre', 'w')
   print "preprocessing mm xml from %s to %s" % (fin.name,fpre.name)
@@ -64,7 +85,7 @@ print "translating mm xml from file %s" % fpre.name
 styledoc = libxml2.parseFile("xsl/"+XSLFileName)
 style = libxslt.parseStylesheetDoc(styledoc)
 doc = libxml2.parseFile(fpre.name)
-result = style.applyStylesheet(doc,{"Couple" : couple})
+result = style.applyStylesheet(doc,{"Couple" : couple, "Revision" : mmrevision, "URL" : "'"+mmurl+"'", "LCRevision" : mmlcrevision})
 style.saveResultToFilename(foutname, result, 0)
 style.freeStylesheet()
 doc.freeDoc()

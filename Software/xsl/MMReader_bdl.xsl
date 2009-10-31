@@ -5,6 +5,10 @@
 
 <xsl:param name="Couple" select="'no'"/>
 
+<xsl:param name="Revision" select="''"/>
+<xsl:param name="URL" select="''"/>
+<xsl:param name="LCRevision" select="''"/>
+
 <!-- This stylesheet translates Metafor MindMap controlled vocabulary
 files into a structured xml representation (260409) -->
 
@@ -13,10 +17,7 @@ lower priority templates -->
 
   <!-- match the top level of the xml document -->
   <xsl:template match="/">
-    <xsl:variable name="MMVersion">
-      <xsl:call-template name="GetMMVersion"/>
-    </xsl:variable>
-    <vocab mmversion="{$MMVersion}" defnversion="">
+    <vocab mmrevision="{$Revision}" mmurl="{$URL}" mmlcrevision="{$LCRevision}">
       <xsl:apply-templates/>
     </vocab>
   </xsl:template>
