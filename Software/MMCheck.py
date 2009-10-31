@@ -9,8 +9,8 @@ import os
 usage = "usage: %prog [options] mindmap_[flat,bdl].mm"
 version = "1.0"
 parser = OptionParser(usage)
-parser.add_option("-p", "--preprocess",
-                  action="store_true", dest="preprocess", default=True,
+parser.add_option("-n", "--nopreprocess",
+                  action="store_false", dest="preprocess", default=True,
                   help="preprocess mindmaps to turn '[]' to '<>'")
 parser.add_option("-k", "--keep",
                   action="store_true", dest="keep", default=False,

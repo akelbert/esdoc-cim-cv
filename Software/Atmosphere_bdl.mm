@@ -625,7 +625,7 @@
 <node COLOR="#996600" CREATED="1256741031632" ID="Freemind_Link_185155548" MODIFIED="1256812542545" TEXT="HeatTreatmentAtTop">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Description of any specific treatment of heat at top of the model.[definition]</text>
+<text>[definition]Description of any specific treatment of heat at top of the model.[/definition]</text>
 </hook>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1236739678" MODIFIED="1256808908645" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
@@ -645,7 +645,7 @@
 <node COLOR="#996600" CREATED="1242400681173" ID="Freemind_Link_23035538" MODIFIED="1256812769072" TEXT="LateralBoundaryCondition">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[defintion]Type of lateral boundary condition (only if the model is a RCM).[definition]</text>
+<text>[definition]Type of lateral boundary condition (only if the model is a RCM).[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1243603034779" ID="Freemind_Link_130361586" MODIFIED="1244104635492" STYLE="fork" TEXT="sponge layer">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1422,7 +1422,7 @@
 <node COLOR="#996600" CREATED="1233142548831" ID="Freemind_Link_172320802" MODIFIED="1256813534293" TEXT="SchemeName">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[defintion]Commonly used name of the large scale precipitation parametrization scheme.[/definition]</text>
+<text>[definition]Commonly used name of the large scale precipitation parametrization scheme.[/definition]</text>
 </hook>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233270123274" ID="Freemind_Link_1537009927" MODIFIED="1256813437050" STYLE="fork" TEXT="">
 <font NAME="Arial" SIZE="14"/>
@@ -1462,7 +1462,7 @@
 <node COLOR="#996600" CREATED="1233142548831" ID="Freemind_Link_1319605519" MODIFIED="1256813520300" TEXT="SchemeName">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[defintion]Commonly used ame of the microphysics parametrization scheme.[/definition]</text>
+<text>[definition]Commonly used ame of the microphysics parametrization scheme.[/definition]</text>
 </hook>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233270123274" ID="Freemind_Link_22934234" MODIFIED="1256813487711" STYLE="fork" TEXT="">
 <font NAME="Arial" SIZE="14"/>
@@ -1472,7 +1472,7 @@
 <node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233142100081" ID="Freemind_Link_495080761" MODIFIED="1256813741276" TEXT="Processes">
 <font NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[defintion]Description of microphysics processes are taken into account.[/definition]&#xa;[info]Details for their relathionships can be provided in free-text box below.[/definition]</text>
+<text>[definition]Description of microphysics processes are taken into account.[/definition][info]Details for their relathionships can be provided in free-text box below.[/info]</text>
 </hook>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233142114760" ID="Freemind_Link_793100447" MODIFIED="1253107102765" STYLE="fork" TEXT="mixed phase">
 <font NAME="Arial" SIZE="14"/>

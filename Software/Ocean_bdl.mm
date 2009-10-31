@@ -144,7 +144,7 @@
 <node COLOR="#996600" CREATED="1256897482873" ID="Freemind_Link_1871219386" MODIFIED="1256897907817" TEXT="RiverMouthMixing">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Distribution of freshwater fluxes form rivers into ocean.[definition]</text>
+<text>[definition]Distribution of freshwater fluxes form rivers into ocean.[/definition]</text>
 </hook>
 <node CREATED="1256897505244" ID="Freemind_Link_1683352212" MODIFIED="1256897900002" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
@@ -154,7 +154,7 @@
 <node COLOR="#996600" CREATED="1256897515953" ID="Freemind_Link_271742760" MODIFIED="1256897907849" TEXT="IsolatedSeasMixing">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Mixing of isolated sea water with ocean.[definition]</text>
+<text>[definition]Mixing of isolated sea water with ocean.[/definition]</text>
 </hook>
 <node CREATED="1256897583743" ID="Freemind_Link_921642167" MODIFIED="1256897922310" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
