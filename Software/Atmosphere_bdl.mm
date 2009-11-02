@@ -152,9 +152,9 @@
 </node>
 <node COLOR="#000000" CREATED="1256303464288" ID="Freemind_Link_875811821" MODIFIED="1256924075933" TEXT="TopOfAtmos_Insolation">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#990099" CREATED="1256650840766" FOLDED="true" ID="Freemind_Link_818741463" MODIFIED="1256812889692" TEXT="TopOfAtmosInsolationAttributes_">
+<node COLOR="#990099" CREATED="1256650840766" ID="Freemind_Link_818741463" MODIFIED="1256812889692" TEXT="TopOfAtmosInsolationAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1256301624095" FOLDED="true" ID="Freemind_Link_1796823176" MODIFIED="1256650914920" TEXT="SolarConstantType">
+<node COLOR="#996600" CREATED="1256301624095" ID="Freemind_Link_1796823176" MODIFIED="1256650914920" TEXT="SolarConstantType">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1256303673072" ID="Freemind_Link_1664975811" MODIFIED="1256650954621" STYLE="fork" TEXT="fixed">
 <font NAME="SansSerif" SIZE="14"/>
@@ -165,9 +165,9 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1256650877395" FOLDED="true" ID="Freemind_Link_1298646489" MODIFIED="1256650934600" TEXT="if SolarConstant is &quot;fixed&quot;">
+<node COLOR="#0033ff" CREATED="1256650877395" ID="Freemind_Link_1298646489" MODIFIED="1257165053648" TEXT="if SolarConstantType is &quot;fixed&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1256301624095" FOLDED="true" ID="Freemind_Link_1559906714" MODIFIED="1257038098491" TEXT="SolarConstantValue">
+<node COLOR="#996600" CREATED="1256301624095" ID="Freemind_Link_1559906714" MODIFIED="1257038098491" TEXT="SolarConstantValue">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Value of the solar constant.[/definition]</text>
@@ -178,9 +178,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1256650877395" FOLDED="true" ID="Freemind_Link_476546787" MODIFIED="1256651063806" TEXT="if SolarConstant is &quot;transient&quot;">
+<node COLOR="#0033ff" CREATED="1256650877395" ID="Freemind_Link_476546787" MODIFIED="1257165057821" TEXT="if SolarConstantType is &quot;transient&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1256301624095" FOLDED="true" ID="Freemind_Link_757904901" MODIFIED="1256808259727" TEXT="SolarConstant">
+<node COLOR="#996600" CREATED="1256301624095" ID="Freemind_Link_757904901" MODIFIED="1256808259727" TEXT="SolarConstant">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Description of the solar constant.[/definition]</text>
@@ -191,7 +191,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1256808827517" FOLDED="true" ID="Freemind_Link_1376847681" MODIFIED="1256925976580" TEXT="ImpactOnOzone">
+<node COLOR="#996600" CREATED="1256808827517" ID="Freemind_Link_1376847681" MODIFIED="1256925976580" TEXT="ImpactOnOzone">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1256808973381" ID="Freemind_Link_553993813" MODIFIED="1256925957730" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
@@ -203,9 +203,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1256303473254" FOLDED="true" ID="Freemind_Link_1618611036" MODIFIED="1256650832872" TEXT="OrbitalParameters">
+<node COLOR="#990099" CREATED="1256303473254" ID="Freemind_Link_1618611036" MODIFIED="1256650832872" TEXT="OrbitalParameters">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1256303496702" FOLDED="true" ID="Freemind_Link_1795736406" MODIFIED="1256651190280" TEXT="DateType">
+<node COLOR="#996600" CREATED="1256303496702" ID="Freemind_Link_1795736406" MODIFIED="1256651190280" TEXT="DateType">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1256303673072" ID="Freemind_Link_1299862639" MODIFIED="1256651367448" STYLE="fork" TEXT="fixed">
 <font NAME="SansSerif" SIZE="14"/>
@@ -215,9 +215,10 @@
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node COLOR="#0033ff" CREATED="1256650877395" FOLDED="true" ID="Freemind_Link_1148218974" MODIFIED="1256651099007" TEXT="if Date is &quot;fixed&quot;">
+</node>
+<node COLOR="#0033ff" CREATED="1256650877395" ID="Freemind_Link_1148218974" MODIFIED="1257165151039" TEXT="if DateType is &quot;fixed&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1256301624095" FOLDED="true" ID="Freemind_Link_1034934256" MODIFIED="1256923885757" TEXT="DateValue">
+<node COLOR="#996600" CREATED="1256301624095" ID="Freemind_Link_1034934256" MODIFIED="1256923885757" TEXT="DateValue">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Reference year for orbital parameters.[/definition]</text>
@@ -228,7 +229,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1256650877395" FOLDED="true" ID="Freemind_Link_1500544276" MODIFIED="1256651063806" TEXT="if SolarConstant is &quot;transient&quot;">
+<node COLOR="#0033ff" CREATED="1256650877395" ID="Freemind_Link_1500544276" MODIFIED="1257165178510" TEXT="if DateType is &quot;transient&quot;">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1256301624095" FOLDED="true" ID="Freemind_Link_784272836" MODIFIED="1256808938051" TEXT="TransientMethod">
 <font NAME="SansSerif" SIZE="14"/>
@@ -241,8 +242,7 @@
 </node>
 </node>
 </node>
-</node>
-<node COLOR="#996600" CREATED="1256303502302" FOLDED="true" ID="Freemind_Link_461428822" MODIFIED="1256808989843" TEXT="ComputationMethod">
+<node COLOR="#996600" CREATED="1256303502302" ID="Freemind_Link_461428822" MODIFIED="1256808989843" TEXT="ComputationMethod">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Method for computing orbirtal parameters.[/definition]</text>
@@ -1110,16 +1110,22 @@
 </node>
 <node COLOR="#990099" CREATED="1242400941405" ID="Freemind_Link_764951102" MODIFIED="1254474994693" TEXT="CloudRadiativeProperties">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1242401106393" FOLDED="true" ID="Freemind_Link_352816554" MODIFIED="1243356693316" TEXT="ice">
+<node COLOR="#996600" CREATED="1242401106393" ID="Freemind_Link_352816554" MODIFIED="1257165864364" TEXT="ice">
 <font NAME="SansSerif" SIZE="14"/>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_774023993" MODIFIED="1256655805355" STYLE="fork" TEXT="[description of ice radiative properties]">
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Description of ice radiative properties.[/definition]</text>
+</hook>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_774023993" MODIFIED="1257165840715" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="pencil"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1242401112251" FOLDED="true" ID="Freemind_Link_1292740572" MODIFIED="1243356693347" TEXT="liquid">
+<node COLOR="#996600" CREATED="1242401112251" ID="Freemind_Link_1292740572" MODIFIED="1257165894215" TEXT="liquid">
 <font NAME="SansSerif" SIZE="14"/>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_958112510" MODIFIED="1256655814473" STYLE="fork" TEXT="[description of liquid water radiative properties]">
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Description of liquid water radiative properties.[/definition]</text>
+</hook>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_958112510" MODIFIED="1257165875199" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="pencil"/>
 </node>

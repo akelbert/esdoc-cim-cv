@@ -297,7 +297,7 @@
 </node>
 <node COLOR="#000000" CREATED="1233751003143" ID="Freemind_Link_305402916" MODIFIED="1256898279542" STYLE="bubble" TEXT="OceanHorizontalDomain_">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#990099" CREATED="1256810468669" FOLDED="true" ID="Freemind_Link_957671028" MODIFIED="1256814745833" TEXT="Grid_">
+<node COLOR="#990099" CREATED="1256810468669" ID="Freemind_Link_957671028" MODIFIED="1256814745833" TEXT="Grid_">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1233587048843" FOLDED="true" ID="Freemind_Link_1178935152" MODIFIED="1256257599376" STYLE="bubble" TEXT="GridType">
 <font NAME="SansSerif" SIZE="14"/>
@@ -318,7 +318,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1253871284739" FOLDED="true" ID="Freemind_Link_1055809870" MODIFIED="1255423342248" TEXT="HorizontalDiscretization">
+<node COLOR="#996600" CREATED="1253871284739" ID="Freemind_Link_1055809870" MODIFIED="1255423342248" TEXT="HorizontalDiscretization">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#000000" CREATED="1233751025519" ID="Freemind_Link_929753603" MODIFIED="1255360088825" STYLE="fork" TEXT="finite differences">
 <font NAME="SansSerif" SIZE="14"/>
@@ -337,6 +337,24 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1255359633399" ID="Freemind_Link_305411266" MODIFIED="1255423410560" TEXT="if HorizontalDiscretization is &quot;finite differences&quot;">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#996600" CREATED="1254225995108" ID="Freemind_Link_1314101764" MODIFIED="1256257654435" TEXT="GridName">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#000000" CREATED="1233751025519" ID="Freemind_Link_1477857623" MODIFIED="1254228158793" STYLE="fork" TEXT="Arakawa B-grid">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node COLOR="#000000" CREATED="1233751025519" ID="Freemind_Link_1357617664" MODIFIED="1254228164763" STYLE="fork" TEXT="Arakawa C-Grid">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node COLOR="#000000" CREATED="1233751025519" ID="Freemind_Link_273475768" MODIFIED="1254228170745" STYLE="fork" TEXT="Arakawa E-Grid">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+</node>
+</node>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" FOLDED="true" ID="Freemind_Link_1475026673" MODIFIED="1256743029153" TEXT="NorthPoleSingularityTreatment">
 <font NAME="SansSerif" SIZE="14"/>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1661762733" MODIFIED="1253869568028" STYLE="fork" TEXT="filter">
@@ -352,24 +370,6 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1940916691" MODIFIED="1253869568028" STYLE="fork" TEXT="none">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1255359633399" FOLDED="true" ID="Freemind_Link_305411266" MODIFIED="1255423410560" TEXT="if HorizontalDiscretization is &quot;finite differences&quot;">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1254225995108" FOLDED="true" ID="Freemind_Link_1314101764" MODIFIED="1256257654435" TEXT="GridName">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#000000" CREATED="1233751025519" ID="Freemind_Link_1477857623" MODIFIED="1254228158793" STYLE="fork" TEXT="Arakawa B-grid">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node COLOR="#000000" CREATED="1233751025519" ID="Freemind_Link_1357617664" MODIFIED="1254228164763" STYLE="fork" TEXT="Arakawa C-Grid">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node COLOR="#000000" CREATED="1233751025519" ID="Freemind_Link_273475768" MODIFIED="1254228170745" STYLE="fork" TEXT="Arakawa E-Grid">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
@@ -1156,7 +1156,7 @@
 </node>
 <node COLOR="#990099" CREATED="1233245834351" ID="Freemind_Link_459859742" MODIFIED="1256922537795" STYLE="bubble" TEXT="EddyViscosityCoefficient">
 <font NAME="Arial" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233871287685" FOLDED="true" ID="Freemind_Link_1431501845" MODIFIED="1256922547744" STYLE="bubble" TEXT="Coefficient_Type">
+<node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_1431501845" MODIFIED="1256922547744" STYLE="bubble" TEXT="Coefficient_Type">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1233245843791" ID="Freemind_Link_1971300003" MODIFIED="1253537293540" STYLE="fork" TEXT="constant">
 <font NAME="Arial" SIZE="14"/>
@@ -1167,7 +1167,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1253713965343" FOLDED="true" ID="Freemind_Link_1398800540" MODIFIED="1253723602857" TEXT="if CoefficientType is &quot;constant&quot;">
+<node COLOR="#0033ff" CREATED="1253713965343" ID="Freemind_Link_1398800540" MODIFIED="1257165556654" TEXT="if CoefficientType is &quot;constant&quot;">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1233871287685" FOLDED="true" ID="Freemind_Link_528193691" MODIFIED="1257037780740" STYLE="bubble" TEXT="ConstantValue">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1180,7 +1180,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1253713965343" FOLDED="true" ID="Freemind_Link_883124100" MODIFIED="1253723726034" TEXT="if CoefficientType is &quot;space varying&quot;">
+<node COLOR="#0033ff" CREATED="1253713965343" ID="Freemind_Link_883124100" MODIFIED="1253723726034" TEXT="if CoefficientType is &quot;space varying&quot;">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1233871287685" FOLDED="true" ID="Freemind_Link_717178037" MODIFIED="1256922512706" TEXT="SpatialVariation">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1222,7 +1222,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1253713965343" FOLDED="true" ID="Freemind_Link_8391147" MODIFIED="1253723783926" TEXT="if CoefficientType is &quot;GM scheme&quot;">
+<node COLOR="#0033ff" CREATED="1253713965343" ID="Freemind_Link_8391147" MODIFIED="1253723783926" TEXT="if CoefficientType is &quot;GM scheme&quot;">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1233871287685" FOLDED="true" ID="Freemind_Link_663153538" MODIFIED="1256743338559" STYLE="bubble" TEXT="GMvalue">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1236,7 +1236,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1253713965343" FOLDED="true" ID="Freemind_Link_1499232059" MODIFIED="1256917492227" TEXT="if GMvalue is &quot;constant&quot;">
+<node COLOR="#0033ff" CREATED="1253713965343" ID="Freemind_Link_1499232059" MODIFIED="1256917492227" TEXT="if GMvalue is &quot;constant&quot;">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1233871287685" FOLDED="true" ID="Freemind_Link_44175873" MODIFIED="1257037809320" STYLE="bubble" TEXT="ConstantValue">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1760,9 +1760,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1233335434999" ID="Freemind_Link_1679557339" MODIFIED="1256744064666" TEXT="OceanBoundaryForcing_Tracers">
+<node COLOR="#000000" CREATED="1233335434999" ID="Freemind_Link_1679557339" MODIFIED="1257165715361" TEXT="OceanBoundForcing_Tracers">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#990099" CREATED="1255418915766" ID="Freemind_Link_44972487" MODIFIED="1256923443221" TEXT="OceanBoundaryForcingTracers_Attributes">
+<node COLOR="#990099" CREATED="1255418915766" ID="Freemind_Link_44972487" MODIFIED="1257165759868" TEXT="OceanBoundForcingTracers_Attributes">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1233335331423" FOLDED="true" ID="Freemind_Link_1931729648" MODIFIED="1255363864710" TEXT="GeothermalHeating">
 <font NAME="Arial" SIZE="14"/>
