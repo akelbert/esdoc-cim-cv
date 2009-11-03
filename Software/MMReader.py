@@ -65,10 +65,15 @@ for line in svninfo:
     urlsplit=line.split(": ")
     mmurl=urlsplit[1]
 
+transrevision=""
 transurl=""
 svninforaw = Popen(["svn", "info" ,sys.argv[0]], stdout=PIPE).communicate()[0]
 svninfo=svninforaw.split("\n")
 for line in svninfo:
+  if re.match("^Revision:",line):
+    print line
+    revsplit=line.split(": ")
+    transrevision=revsplit[1]
   if re.match("^URL:",line):
     print line
     urlsplit=line.split(": ")
@@ -95,7 +100,7 @@ print "translating mm xml from file %s" % fpre.name
 styledoc = libxml2.parseFile("xsl/"+XSLFileName)
 style = libxslt.parseStylesheetDoc(styledoc)
 doc = libxml2.parseFile(fpre.name)
-result = style.applyStylesheet(doc,{"Couple" : couple, "Revision" : revision, "URL" : "'"+mmurl+"'", "LCRevision" : mmlcrevision, "TranslatorURL" : "'"+transurl+"'", "Date" : "'"+str(datetime.datetime.now())+"'"})
+result = style.applyStylesheet(doc,{"Couple" : couple, "Revision" : revision, "URL" : "'"+mmurl+"'", "LCRevision" : mmlcrevision, "TranslatorRevision" : transrevision, "TranslatorURL" : "'"+transurl+"'", "Date" : "'"+str(datetime.datetime.now())+"'"})
 style.saveResultToFilename(foutname, result, 0)
 style.freeStylesheet()
 doc.freeDoc()
