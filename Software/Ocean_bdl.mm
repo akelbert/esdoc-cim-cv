@@ -175,7 +175,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1254486285604" ID="Freemind_Link_851070448" MODIFIED="1256679195194" TEXT="Bathymetry_">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1256679216121" FOLDED="true" ID="Freemind_Link_1958840067" MODIFIED="1256679333091" TEXT="BathymetryType">
+<node COLOR="#996600" CREATED="1256679216121" ID="Freemind_Link_1958840067" MODIFIED="1256679333091" TEXT="BathymetryType">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1256300298076" ID="Freemind_Link_811522339" MODIFIED="1256679555689" STYLE="fork" TEXT="fixed">
 <font NAME="SansSerif" SIZE="14"/>
@@ -186,9 +186,9 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1256650877395" FOLDED="true" ID="Freemind_Link_1298646489" MODIFIED="1256679327934" TEXT="if BathymetryType is &quot;fixed&quot;">
+<node COLOR="#0033ff" CREATED="1256650877395" ID="Freemind_Link_1298646489" MODIFIED="1256679327934" TEXT="if BathymetryType is &quot;fixed&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1256679216121" FOLDED="true" ID="Freemind_Link_1438931584" MODIFIED="1256742600669" TEXT="BathymetryConfiguration">
+<node COLOR="#996600" CREATED="1256679216121" ID="Freemind_Link_1438931584" MODIFIED="1256742600669" TEXT="BathymetryConfiguration">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1256300118204" ID="Freemind_Link_1271820262" MODIFIED="1256679164939" STYLE="fork" TEXT="present-day">
 <font NAME="SansSerif" SIZE="14"/>
@@ -216,9 +216,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1256300271501" FOLDED="true" ID="Freemind_Link_335709508" MODIFIED="1256680103609" TEXT="if BathymetryDate is not &quot;present-day&quot;">
+<node COLOR="#0033ff" CREATED="1256300271501" ID="Freemind_Link_335709508" MODIFIED="1257237391323" TEXT="if BathymetryType is not &quot;present-day&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1256300771737" FOLDED="true" ID="Freemind_Link_232594092" MODIFIED="1256896970647" TEXT="BathymetryAdjustment">
+<node COLOR="#996600" CREATED="1256300771737" ID="Freemind_Link_232594092" MODIFIED="1256896970647" TEXT="BathymetryAdjustment">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Bathymetry adjsutement performed relatively to present-day.[/definition]</text>
@@ -233,9 +233,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1256300271501" FOLDED="true" ID="Freemind_Link_1364696447" MODIFIED="1256897279262" TEXT="if BathymetryDate is not &quot;present-day&quot;">
+<node COLOR="#0033ff" CREATED="1256300271501" ID="Freemind_Link_1364696447" MODIFIED="1257237395308" TEXT="if BathymetryType is not &quot;present-day&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1256300804080" FOLDED="true" ID="Freemind_Link_134569950" MODIFIED="1256897014023" TEXT="CoastalAdjustment">
+<node COLOR="#996600" CREATED="1256300804080" ID="Freemind_Link_134569950" MODIFIED="1256897014023" TEXT="CoastalAdjustment">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Characteritics of the coastal adjustment.[/definition]</text>
@@ -245,7 +245,7 @@
 <icon BUILTIN="pencil"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1256300732353" FOLDED="true" ID="Freemind_Link_276939548" MODIFIED="1256680422073" TEXT="StraitsClosed">
+<node COLOR="#996600" CREATED="1256300732353" ID="Freemind_Link_276939548" MODIFIED="1256680422073" TEXT="StraitsClosed">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1256300755440" ID="Freemind_Link_691996608" MODIFIED="1256679164893" STYLE="fork" TEXT="Bering">
 <font NAME="SansSerif" SIZE="14"/>
@@ -269,7 +269,7 @@
 <icon BUILTIN="messagebox_warning"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1256300991082" FOLDED="true" ID="Freemind_Link_110607522" MODIFIED="1256680422079" TEXT="InlandSeasChanges">
+<node COLOR="#996600" CREATED="1256300991082" ID="Freemind_Link_110607522" MODIFIED="1256680422079" TEXT="InlandSeasChanges">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1256301001938" ID="Freemind_Link_1478420002" MODIFIED="1256679164874" STYLE="fork" TEXT="Hudson bay">
 <font NAME="SansSerif" SIZE="14"/>
@@ -281,9 +281,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1256650877395" FOLDED="true" ID="Freemind_Link_1929582108" MODIFIED="1256680181446" TEXT="if BathymetryType is &quot;transient&quot;">
+<node COLOR="#0033ff" CREATED="1256650877395" ID="Freemind_Link_1929582108" MODIFIED="1256680181446" TEXT="if BathymetryType is &quot;transient&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1256679216121" FOLDED="true" ID="Freemind_Link_481814143" MODIFIED="1256898123144" TEXT="BathymetryTransientChanges">
+<node COLOR="#996600" CREATED="1256679216121" ID="Freemind_Link_481814143" MODIFIED="1256898123144" TEXT="BathymetryTransientChanges">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Characteritics of transient changes in bathymetry.[/definition]</text>
@@ -299,7 +299,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1256810468669" ID="Freemind_Link_957671028" MODIFIED="1256814745833" TEXT="Grid_">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233587048843" FOLDED="true" ID="Freemind_Link_1178935152" MODIFIED="1256257599376" STYLE="bubble" TEXT="GridType">
+<node COLOR="#996600" CREATED="1233587048843" ID="Freemind_Link_1178935152" MODIFIED="1256257599376" STYLE="bubble" TEXT="GridType">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#000000" CREATED="1233330560635" ID="Freemind_Link_962162263" MODIFIED="1254228731110" STYLE="fork" TEXT="latitude-longitude rectangular">
 <font NAME="Arial" SIZE="15"/>
@@ -355,7 +355,7 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" FOLDED="true" ID="Freemind_Link_1475026673" MODIFIED="1256743029153" TEXT="NorthPoleSingularityTreatment">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1475026673" MODIFIED="1256743029153" TEXT="NorthPoleSingularityTreatment">
 <font NAME="SansSerif" SIZE="14"/>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1661762733" MODIFIED="1253869568028" STYLE="fork" TEXT="filter">
 <font NAME="SansSerif" SIZE="14"/>
@@ -375,9 +375,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1233752067356" FOLDED="true" ID="Freemind_Link_1122584785" MODIFIED="1256898467951" TEXT="Resolution_">
+<node COLOR="#990099" CREATED="1233752067356" ID="Freemind_Link_1122584785" MODIFIED="1256898467951" TEXT="Resolution_">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1256740460367" FOLDED="true" ID="Freemind_Link_1489121474" MODIFIED="1257037292370" TEXT="MeanZonalResolution">
+<node COLOR="#996600" CREATED="1256740460367" ID="Freemind_Link_1489121474" MODIFIED="1257037292370" TEXT="MeanZonalResolution">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Mean zonal resolution.[/definition]</text>
@@ -387,7 +387,7 @@
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1256740460367" FOLDED="true" ID="Freemind_Link_1080699653" MODIFIED="1257037308493" TEXT="MeanMeridionalResolution">
+<node COLOR="#996600" CREATED="1256740460367" ID="Freemind_Link_1080699653" MODIFIED="1257037308493" TEXT="MeanMeridionalResolution">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Mean meridional resolution.[/definition]</text>
@@ -397,7 +397,7 @@
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1256740460367" FOLDED="true" ID="Freemind_Link_488745278" MODIFIED="1257037316917" TEXT="EquatorMeridionalRefinement">
+<node COLOR="#996600" CREATED="1256740460367" ID="Freemind_Link_488745278" MODIFIED="1257037316917" TEXT="EquatorMeridionalRefinement">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Resolution at equator.[/definition]</text>
@@ -407,7 +407,7 @@
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1256740460367" FOLDED="true" ID="Freemind_Link_439662523" MODIFIED="1256810659097" TEXT="OtherHorizontalRefinement">
+<node COLOR="#996600" CREATED="1256740460367" ID="Freemind_Link_439662523" MODIFIED="1256810659097" TEXT="OtherHorizontalRefinement">
 <font NAME="SansSerif" SIZE="14"/>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1221569672" MODIFIED="1256808908645" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
@@ -415,9 +415,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1256810490649" FOLDED="true" ID="Freemind_Link_1568104395" MODIFIED="1256898340023" TEXT="HorizontalExtent_">
+<node COLOR="#990099" CREATED="1256810490649" ID="Freemind_Link_1568104395" MODIFIED="1256898340023" TEXT="HorizontalExtent_">
 <font NAME="SansSerif" SIZE="14"/>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" FOLDED="true" ID="Freemind_Link_131962856" MODIFIED="1257037341994" TEXT="LatMin">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_131962856" MODIFIED="1257037341994" TEXT="LatMin">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Southern boundary of the geographical domain.[/definition]</text>
@@ -427,7 +427,7 @@
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" FOLDED="true" ID="Freemind_Link_978370769" MODIFIED="1257037362586" TEXT="LatMax">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_978370769" MODIFIED="1257037362586" TEXT="LatMax">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Northern boundary of the geographical domain.[/definition]</text>
@@ -437,7 +437,7 @@
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" FOLDED="true" ID="Freemind_Link_823341833" MODIFIED="1257037370152" TEXT="LonMin">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_823341833" MODIFIED="1257037370152" TEXT="LonMin">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Eastern boundary of the geographical domain.[/definition]</text>
@@ -447,7 +447,7 @@
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" FOLDED="true" ID="Freemind_Link_600779154" MODIFIED="1257038222528" TEXT="LonMax">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_600779154" MODIFIED="1257038222528" TEXT="LonMax">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Western boundary of the geographical domain.[/definition]</text>
@@ -461,7 +461,7 @@
 </node>
 <node COLOR="#990099" CREATED="1233751003143" ID="Freemind_Link_142866659" MODIFIED="1254305260713" STYLE="bubble" TEXT="VerticalDomain">
 <font NAME="SansSerif" SIZE="14"/>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233751003143" FOLDED="true" ID="Freemind_Link_1376312766" MODIFIED="1237372650354" STYLE="bubble" TEXT="VerticalCoordinateSystem">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233751003143" ID="Freemind_Link_1376312766" MODIFIED="1237372650354" STYLE="bubble" TEXT="VerticalCoordinateSystem">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#000000" CREATED="1233330582860" ID="Freemind_Link_1227766503" MODIFIED="1254226141475" STYLE="fork" TEXT="Z-coordinate">
 <font NAME="Arial" SIZE="15"/>
@@ -508,9 +508,9 @@
 <icon BUILTIN="messagebox_warning"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1255360198907" FOLDED="true" ID="Freemind_Link_1843926824" MODIFIED="1255505676314" TEXT="if VerticalCoordinateSystem is &quot;Z-coordinate&quot; or &quot;Z*-coordinate&quot;">
+<node COLOR="#0033ff" CREATED="1255360198907" ID="Freemind_Link_1843926824" MODIFIED="1255505676314" TEXT="if VerticalCoordinateSystem is &quot;Z-coordinate&quot; or &quot;Z*-coordinate&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1254225995108" FOLDED="true" ID="Freemind_Link_304065467" MODIFIED="1254226130797" TEXT="PartialSteps">
+<node COLOR="#996600" CREATED="1254225995108" ID="Freemind_Link_304065467" MODIFIED="1254226130797" TEXT="PartialSteps">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1254226011363" ID="Freemind_Link_1603622033" MODIFIED="1254226036113" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
@@ -522,9 +522,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1255360198907" FOLDED="true" ID="Freemind_Link_83715157" MODIFIED="1255360251338" TEXT="if VerticalCoordinateSystem is &quot;S-coordinate&quot;">
+<node COLOR="#0033ff" CREATED="1255360198907" ID="Freemind_Link_83715157" MODIFIED="1255360251338" TEXT="if VerticalCoordinateSystem is &quot;S-coordinate&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233270123274" FOLDED="true" ID="Freemind_Link_107539316" MODIFIED="1254226658129" STYLE="bubble" TEXT="ReferencePressure">
+<node COLOR="#996600" CREATED="1233270123274" ID="Freemind_Link_107539316" MODIFIED="1254226658129" STYLE="bubble" TEXT="ReferencePressure">
 <font NAME="Arial" SIZE="15"/>
 <node COLOR="#000000" CREATED="1233755964790" ID="Freemind_Link_425207178" MODIFIED="1233937842698" STYLE="fork" TEXT="Sigma0">
 <font NAME="SansSerif" SIZE="14"/>
@@ -544,7 +544,7 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" FOLDED="true" ID="Freemind_Link_995947235" MODIFIED="1256899112924" TEXT="NumberOfVerticalLevels">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_995947235" MODIFIED="1256899112924" TEXT="NumberOfVerticalLevels">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Total number of ocean vertical levels.[/definition]</text>
@@ -554,7 +554,7 @@
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" FOLDED="true" ID="Freemind_Link_1700087151" MODIFIED="1256899064595" TEXT="NumberOfLevelsInUpper100m">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1700087151" MODIFIED="1256899064595" TEXT="NumberOfLevelsInUpper100m">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Number of vertical levels in the ocean upper 100 meters.[/definition]</text>
@@ -564,7 +564,7 @@
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233250004110" FOLDED="true" ID="Freemind_Link_1252154617" MODIFIED="1257037427621" STYLE="bubble" TEXT="UpperLevel">
+<node COLOR="#996600" CREATED="1233250004110" ID="Freemind_Link_1252154617" MODIFIED="1257037427621" STYLE="bubble" TEXT="UpperLevel">
 <font NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Upper ocean level.[/definition]</text>
@@ -574,7 +574,7 @@
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233250004110" FOLDED="true" ID="Freemind_Link_455921828" MODIFIED="1257037441482" STYLE="bubble" TEXT="LowerLevel">
+<node COLOR="#996600" CREATED="1233250004110" ID="Freemind_Link_455921828" MODIFIED="1257037441482" STYLE="bubble" TEXT="LowerLevel">
 <font NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Lower ocean level.[/definition]</text>
@@ -1629,7 +1629,7 @@
 <node COLOR="#990099" CREATED="1233329979500" ID="Freemind_Link_786667002" MODIFIED="1256040718935" TEXT="FreeSurface">
 <font NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[info]if no free surface, then ocean surface is rigid-liquid.[/info]</text>
+<text>[info]If no free surface, then ocean surface is rigid-liquid.[/info]</text>
 </hook>
 <node COLOR="#996600" CREATED="1233880197447" ID="Freemind_Link_1985618654" MODIFIED="1243264464658" STYLE="bubble" TEXT="Type">
 <font NAME="SansSerif" SIZE="14"/>
