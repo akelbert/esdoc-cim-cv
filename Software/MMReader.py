@@ -6,6 +6,7 @@ import libxml2
 import libxslt
 import os
 from subprocess import *
+import datetime
 
 usage = "usage: %prog [options] mindmap_[flat,bdl].mm"
 version = "1.0"
@@ -46,7 +47,7 @@ except IOError, (errno, strerror):
 
 #determine the svn info of the mindmap file
 mmurl=""
-mmrevision=""
+revision=""
 mmlcrevision=""
 svninforaw = Popen(["svn", "info" ,args[0]], stdout=PIPE).communicate()[0]
 svninfo=svninforaw.split("\n")
@@ -54,7 +55,7 @@ for line in svninfo:
   if re.match("^Revision:",line):
     print line
     revsplit=line.split(": ")
-    mmrevision=revsplit[1]
+    revision=revsplit[1]
   if re.match("^Last Changed Rev:",line):
     print line
     lcrevsplit=line.split(": ")
@@ -63,6 +64,15 @@ for line in svninfo:
     print line
     urlsplit=line.split(": ")
     mmurl=urlsplit[1]
+
+transurl=""
+svninforaw = Popen(["svn", "info" ,sys.argv[0]], stdout=PIPE).communicate()[0]
+svninfo=svninforaw.split("\n")
+for line in svninfo:
+  if re.match("^URL:",line):
+    print line
+    urlsplit=line.split(": ")
+    transurl=urlsplit[1]
 
 if options.preprocess:
   fpre = open(args[0]+'.pre', 'w')
@@ -85,7 +95,7 @@ print "translating mm xml from file %s" % fpre.name
 styledoc = libxml2.parseFile("xsl/"+XSLFileName)
 style = libxslt.parseStylesheetDoc(styledoc)
 doc = libxml2.parseFile(fpre.name)
-result = style.applyStylesheet(doc,{"Couple" : couple, "Revision" : mmrevision, "URL" : "'"+mmurl+"'", "LCRevision" : mmlcrevision})
+result = style.applyStylesheet(doc,{"Couple" : couple, "Revision" : revision, "URL" : "'"+mmurl+"'", "LCRevision" : mmlcrevision, "TranslatorURL" : "'"+transurl+"'", "Date" : "'"+str(datetime.datetime.now())+"'"})
 style.saveResultToFilename(foutname, result, 0)
 style.freeStylesheet()
 doc.freeDoc()
