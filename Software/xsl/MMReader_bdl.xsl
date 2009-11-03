@@ -84,7 +84,7 @@ lower priority templates -->
           </xsl:for-each>
           </xsl:variable>
           <xsl:if test="$match=''">
-            <parametergroup name="{concat($myName,'Attributes')}"/>
+            <parametergroup name="General Attributes"/>
           </xsl:if>
           <xsl:apply-templates/>
         </component>
@@ -96,7 +96,7 @@ lower priority templates -->
   <!-- match all parameter bundle nodes (colour purple) -->
   <xsl:template match="node[@COLOR='#990099']" priority="3">
 
-        <xsl:variable name="myName">
+        <xsl:variable name="myNameNoUnderscore">
           <xsl:call-template name="string-replace">
             <xsl:with-param name="from" select="'_'"/>
             <xsl:with-param name="to" select="''"/> 
@@ -104,7 +104,26 @@ lower priority templates -->
           </xsl:call-template>
         </xsl:variable>
 
-        <parametergroup name="{$myName}">
+        <xsl:variable name="parentComponentName">
+          <xsl:call-template name="string-replace">
+            <xsl:with-param name="from" select="'_'"/>
+            <xsl:with-param name="to" select="''"/> 
+            <xsl:with-param name="string" select="parent::node/@TEXT"/>
+          </xsl:call-template>
+        </xsl:variable>
+
+        <xsl:variable name="myParamName">
+        <xsl:choose>
+          <xsl:when test="concat($parentComponentName,'Attributes')=$myNameNoUnderscore">
+            <xsl:value-of select="'General Attributes'"/>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:value-of select="$myNameNoUnderscore"/>
+          </xsl:otherwise>
+        </xsl:choose>
+        </xsl:variable>
+
+        <parametergroup name="{$myParamName}">
           <xsl:apply-templates/>
         </parametergroup>
 

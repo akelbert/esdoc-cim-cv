@@ -11,6 +11,8 @@
 </definitions>
 </xsl:template>
 
+<xsl:template match="definition"/> <!-- skip over definition elements -->
+
 <xsl:template match="parameter">
 
 <xsl:variable name="Component">
@@ -24,8 +26,8 @@
 
 <xsl:variable name="Definition">
   <xsl:choose>
-  <xsl:when test="@definition">
-    <xsl:value-of select="@definition"/>
+  <xsl:when test="definition[@status='provided']">
+    <xsl:value-of select="definition"/>
   </xsl:when>
   <xsl:otherwise>
     <xsl:text>[TBA]</xsl:text>
