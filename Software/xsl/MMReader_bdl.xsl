@@ -168,7 +168,7 @@ lower priority templates -->
 
       <xsl:choose>
       <!-- this test is always true as "" is a valid string. Change to test for null string if we don't want and empty units attribute -->
-      <xsl:when test="$myUnits">
+      <xsl:when test="$myUnits!=''">
         <value format="numerical" units="{$myUnits}">
           <xsl:apply-templates/>
         </value>
