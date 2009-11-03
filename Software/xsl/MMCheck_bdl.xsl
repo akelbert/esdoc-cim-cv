@@ -136,7 +136,17 @@ any lower priority templates -->
      </xsl:call-template>
 
 <!-- the length of the component name must be <= CompLen characters -->
-      <xsl:if test="string-length($NodeName)>$CompLen">
+
+      <!-- remove any underscores before checking the length of the component name -->
+      <xsl:variable name="myName">
+        <xsl:call-template name="string-replace">
+          <xsl:with-param name="from" select="'_'"/>
+          <xsl:with-param name="to" select="''"/> 
+          <xsl:with-param name="string" select="$NodeName"/>
+        </xsl:call-template>
+      </xsl:variable>
+
+      <xsl:if test="string-length($myName)>$CompLen">
         <xsl:message terminate="no">
           <xsl:text>*ERROR: a component name must be at most </xsl:text>
           <xsl:value-of select="$CompLen"/>
@@ -144,7 +154,9 @@ any lower priority templates -->
           <xsl:value-of select="$NodeName"/>
           <xsl:text>' in '</xsl:text>
           <xsl:call-template name="AncestorComponents"/>
-          <xsl:text>'.</xsl:text>
+          <xsl:text>' which is </xsl:text>
+          <xsl:value-of select="string-length($myName)"/>
+          <xsl:text> characters long (without underscores).</xsl:text>
         </xsl:message>
       </xsl:if>
 
@@ -282,13 +294,30 @@ any lower priority templates -->
 
       <xsl:otherwise>
 
-        <!-- Next check for "... is ..." -->
-        <xsl:variable name="OtherParameterName" select="normalize-space(substring-before($AfterIf,' is '))"/>
+        <!-- Next check for "... is|has [not]* ..." -->
+        <xsl:variable name="separatorType">
+          <xsl:call-template name="getSeparatorType">
+          <xsl:with-param name="string" select="$AfterIf"/>
+          </xsl:call-template>
+        </xsl:variable>
+
+<!--
+        <xsl:message terminate="no">
+        <xsl:text>*DEBUG* constraint separator type is '</xsl:text>
+        <xsl:value-of select="$separatorType"/>
+        <xsl:text>'. Full string is '</xsl:text>
+        <xsl:value-of select="$AfterIf"/>
+        <xsl:text>'.
+</xsl:text>
+        </xsl:message>
+-->
+
+        <xsl:variable name="OtherParameterName" select="normalize-space(substring-before($AfterIf,$separatorType))"/>
         <xsl:choose>
 
         <xsl:when test="not($OtherParameterName)">
           <xsl:message terminate="no">
-            <xsl:text>*WARNING: format error in constraint node. Expecting '... is ...'</xsl:text>
+            <xsl:text>*WARNING: format error in constraint node. Expecting '... is|has [not]* ...'</xsl:text>
             <xsl:call-template name="ConstraintAndAncestorComponents"/>
           </xsl:message>
         </xsl:when>
@@ -315,10 +344,37 @@ any lower priority templates -->
           <xsl:otherwise>
 
             <!-- check that constraint parameter exists -->
+            <xsl:variable name="match">
+            <xsl:for-each select="parent::node//node[@COLOR='#996600']">
+
+              <xsl:variable name="myName">
+                <xsl:call-template name="string-replace">
+                  <xsl:with-param name="from" select="'_'"/>
+                   <xsl:with-param name="to" select="''"/> 
+                   <xsl:with-param name="string" select="@TEXT"/>
+                </xsl:call-template>
+              </xsl:variable>
+
+              <xsl:if test="$myName=$OtherParameterName">
+                <xsl:text>Match!</xsl:text>
+<!--
+                <xsl:message terminate="no">
+                  <xsl:text>Found a match for param '</xsl:text>
+                  <xsl:value-of select="$OtherParameterName"/>
+                  <xsl:text>' which is '</xsl:text>
+                  <xsl:value-of select="@TEXT"/>
+                  <xsl:text>'.
+</xsl:text>
+                </xsl:message>
+-->
+              </xsl:if>
+
+            </xsl:for-each>
+            </xsl:variable>
 
             <xsl:choose>
 
-            <xsl:when test="not(parent::node//node[@COLOR='#996600' and @TEXT=$OtherParameterName])">
+            <xsl:when test="$match=''">
               <xsl:message terminate="no">
                 <xsl:text>*WARNING: Error in constraint node '</xsl:text>
                 <xsl:value-of select="@TEXT"/>
@@ -326,6 +382,15 @@ any lower priority templates -->
                 <xsl:value-of select="$OtherParameterName"/>
                 <xsl:text>&quot; does not exist. Parent component is </xsl:text>
                 <xsl:call-template name="AncestorComponents"/>
+                <xsl:text>. Contenders are </xsl:text>
+                <xsl:for-each select="parent::node//node[@COLOR='#996600']">
+                  <xsl:value-of select="@TEXT"/>
+                  <xsl:if test="position()!=last()">
+                    <xsl:value-of select="', '"/>
+                  </xsl:if>
+                </xsl:for-each>
+                <xsl:text>.
+</xsl:text>
               </xsl:message>
             </xsl:when>
 
@@ -425,7 +490,27 @@ any lower priority templates -->
         </xsl:if>
       </xsl:if>
 
+      <!-- if pencil then we now do not expect any text as there should not be any units for a string -->
+      <xsl:if test="$ValueChildren[icon[@BUILTIN='pencil']]">
+        <xsl:for-each select="$ValueChildren">
+          <xsl:if test="icon[@BUILTIN='pencil'] and @TEXT!=''">
+              <xsl:message terminate="no">
+              <xsl:text>*ERROR: value '</xsl:text>
+              <xsl:value-of select="$NodeName"/>
+              <xsl:text>' in component '</xsl:text>
+              <xsl:value-of select="$ComponentName"/>
+              <xsl:text>' with pencil icon (string) should not have any units defined i.e. there should be no text. Found '</xsl:text>
+              <xsl:value-of select="@TEXT"/>
+              <xsl:text>'. Component hierarchy is </xsl:text>
+              <xsl:call-template name="AncestorComponents"/>
+              <xsl:text>
+</xsl:text>
+              </xsl:message>
+          </xsl:if>
+        </xsl:for-each>
+      </xsl:if>
       <!-- if pencil or purple 1 then check for []() format -->
+      <!-- no longer required - hooray
       <xsl:if test="$ValueChildren[icon[@BUILTIN='full-1' or @BUILTIN='pencil']]">
 
         <xsl:for-each select="$ValueChildren">
@@ -457,6 +542,7 @@ any lower priority templates -->
         </xsl:for-each>
 
       </xsl:if>
+      -->
     </xsl:when>
     <xsl:otherwise><!-- this parameter has multiple values -->
 
@@ -570,6 +656,7 @@ any lower priority templates -->
       </xsl:if>
 
       <!-- if pencil or purple 1 then check for []() format -->
+      <!-- no longer required
       <xsl:if test="$ValueChildren[icon[@BUILTIN='full-1' or @BUILTIN='pencil']]">
 
         <xsl:for-each select="$ValueChildren">
@@ -600,6 +687,7 @@ any lower priority templates -->
         </xsl:for-each>
 
       </xsl:if>
+      -->
 
     </xsl:otherwise>
     </xsl:choose>
@@ -675,19 +763,28 @@ any lower priority templates -->
       </xsl:when>
       <xsl:otherwise>
         <xsl:variable name="OtherParameterValue" select="substring-before(substring-after($VarString,'&quot;'),'&quot;')"/>
-<!--
-        <xsl:message terminate="no">
-          <xsl:text>DEBUG: here is where we test param value &quot;</xsl:text>
-          <xsl:value-of select="$OtherParameterValue"/>
-          <xsl:text>&quot; for param &quot;</xsl:text>
-          <xsl:value-of select="$OtherParameterName"/>
-          <xsl:text>&quot;
-</xsl:text>
-        </xsl:message>
--->
-        <xsl:if test="not(parent::node//node[@COLOR='#996600' and @TEXT=$OtherParameterName]/node[contains(@TEXT,$OtherParameterValue)])">
+
+        <xsl:variable name="match">
+        <xsl:for-each select="parent::node//node[@COLOR='#996600']">
+
+          <xsl:variable name="myName">
+            <xsl:call-template name="string-replace">
+              <xsl:with-param name="from" select="'_'"/>
+               <xsl:with-param name="to" select="''"/> 
+               <xsl:with-param name="string" select="@TEXT"/>
+            </xsl:call-template>
+          </xsl:variable>
+
+          <xsl:if test="$myName=$OtherParameterName and node[contains(@TEXT,$OtherParameterValue)]">
+            <xsl:text>Match!</xsl:text>
+          </xsl:if>
+
+        </xsl:for-each>
+        </xsl:variable>
+
+        <xsl:if test="match=''">
           <xsl:message terminate="no">
-            <xsl:text>*WARNING: Error in constraint note. The value &quot;</xsl:text>
+            <xsl:text>*WARNING: Error in constraint node. The value &quot;</xsl:text>
             <xsl:value-of select="$OtherParameterValue"/>
             <xsl:text>&quot; for remote parameter &quot;</xsl:text>
             <xsl:value-of select="$OtherParameterName"/>
@@ -722,9 +819,27 @@ any lower priority templates -->
 </xsl:text>
         </xsl:message>
 -->
-        <xsl:if test="not(parent::node//node[@COLOR='#996600' and @TEXT=$OtherParameterName]/node[contains(@TEXT,$OtherParameterValue)])">
+        <xsl:variable name="match">
+        <xsl:for-each select="parent::node//node[@COLOR='#996600']">
+
+          <xsl:variable name="myName">
+            <xsl:call-template name="string-replace">
+              <xsl:with-param name="from" select="'_'"/>
+               <xsl:with-param name="to" select="''"/> 
+               <xsl:with-param name="string" select="@TEXT"/>
+            </xsl:call-template>
+          </xsl:variable>
+
+          <xsl:if test="$myName=$OtherParameterName and node[contains(@TEXT,$OtherParameterValue)]">
+            <xsl:text>Match!</xsl:text>
+          </xsl:if>
+
+        </xsl:for-each>
+        </xsl:variable>
+
+        <xsl:if test="$match=''">
           <xsl:message terminate="no">
-            <xsl:text>*WARNING: Error in constraint note. The value &quot;</xsl:text>
+            <xsl:text>*WARNING: Error in constraint node. The value &quot;</xsl:text>
             <xsl:value-of select="$OtherParameterValue"/>
             <xsl:text>&quot; for remote parameter &quot;</xsl:text>
             <xsl:value-of select="$OtherParameterName"/>
@@ -826,6 +941,47 @@ any lower priority templates -->
       </xsl:call-template>
     </xsl:if>
   </xsl:template>
+
+<xsl:template name="string-replace" >
+  <xsl:param name="string"/>
+  <xsl:param name="from"/>
+  <xsl:param name="to"/>
+  <xsl:choose>
+    <xsl:when test="contains($string,$from)">
+      <xsl:value-of select="substring-before($string,$from)"/>
+      <xsl:value-of select="$to"/>
+      <xsl:call-template name="string-replace">
+      <xsl:with-param name="string" select="substring-after($string,$from)"/>
+      <xsl:with-param name="from" select="$from"/>
+      <xsl:with-param name="to" select="$to"/>
+      </xsl:call-template>
+    </xsl:when>
+    <xsl:otherwise>
+      <xsl:value-of select="$string"/>
+    </xsl:otherwise>
+  </xsl:choose>
+</xsl:template>
+
+<xsl:template name="getSeparatorType">
+  <xsl:param name="string"/>
+
+  <xsl:choose>
+    <xsl:when test="normalize-space(substring-before($string,' is not '))">
+      <xsl:value-of select="' is not '"/>
+    </xsl:when>
+    <xsl:when test="normalize-space(substring-before($string,' is '))">
+      <xsl:value-of select="' is '"/>
+    </xsl:when>
+    <xsl:when test="normalize-space(substring-before($string,' has not '))">
+      <xsl:value-of select="' has not '"/>
+    </xsl:when>
+    <xsl:when test="normalize-space(substring-before($string,' has '))">
+      <xsl:value-of select="' has '"/>
+    </xsl:when>
+    <xsl:otherwise/> <!-- do nothing -->
+  </xsl:choose>
+
+</xsl:template>
 
 <!-- end of pattern matching -->
 

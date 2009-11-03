@@ -118,10 +118,18 @@ lower priority templates -->
       <xsl:call-template name="GetChoice"/>
     </xsl:variable>
 
+      <xsl:variable name="myName">
+        <xsl:call-template name="string-replace">
+          <xsl:with-param name="from" select="'_'"/>
+          <xsl:with-param name="to" select="''"/> 
+          <xsl:with-param name="string" select="@TEXT"/>
+        </xsl:call-template>
+      </xsl:variable>
+
       <xsl:choose>
       <xsl:when test="$choice">
         <xsl:if test="not($Couple='no' and $choice='couple')">
-          <parameter name="{@TEXT}" choice="{$choice}" >
+          <parameter name="{$myName}" choice="{$choice}" >
             <xsl:if test="not(hook/text/definition)">
               <definition status="missing"><xsl:text>Definition of property name </xsl:text><xsl:value-of select="@TEXT"/><xsl:text> required</xsl:text></definition>
             </xsl:if>
@@ -130,7 +138,7 @@ lower priority templates -->
         </xsl:if>
       </xsl:when>
       <xsl:otherwise>
-        <parameter name="{@TEXT}" >
+        <parameter name="{$myName}" >
           <xsl:if test="not(hook/text/definition)">
             <definition status="missing"><xsl:text>Definition of property name </xsl:text><xsl:value-of select="@TEXT"/><xsl:text> required</xsl:text></definition>
           </xsl:if>
@@ -149,34 +157,24 @@ lower priority templates -->
   <!-- match all nodes which expect a numerical keyboard input (full-1 icon) -->
   <xsl:template match="node[icon[@BUILTIN='full-1']]" priority="2">
     <!-- Extract the name from the Square Brackets -->
+    <!-- we no longer use this formatting
     <xsl:variable name="myName" select="substring-before(substring-after(@TEXT,'['),']')"/>
+    -->
     <!-- Extract the units from the Round Brackets -->
+    <!-- we no longer use this formatting
     <xsl:variable name="myUnits" select="substring-before(substring-after(@TEXT,'('),')')"/>
-
-<!--
-    <xsl:choose>
-    <xsl:when test="hook/text">
+    -->
+    <xsl:variable name="myUnits" select="@TEXT"/>
 
       <xsl:choose>
+      <!-- this test is always true as "" is a valid string. Change to test for null string if we don't want and empty units attribute -->
       <xsl:when test="$myUnits">
-        <value format="numerical" name="{$myName}" units="{$myUnits}" note="{hook/text}"/>
-      </xsl:when>
-      <xsl:otherwise>
-        <value format="numerical" name="{$myName}" note="{hook/text}"/>
-      </xsl:otherwise>
-      </xsl:choose>
-
-    </xsl:when>
-    <xsl:otherwise>
--->
-      <xsl:choose>
-      <xsl:when test="$myUnits">
-        <value format="numerical" name="{$myName}" units="{$myUnits}">
+        <value format="numerical" units="{$myUnits}">
           <xsl:apply-templates/>
         </value>
       </xsl:when>
       <xsl:otherwise>
-        <value format="numerical" name="{$myName}">
+        <value format="numerical">
           <xsl:apply-templates/>
         </value>
       </xsl:otherwise>
@@ -190,22 +188,13 @@ lower priority templates -->
   <!-- match all nodes which expect a string keyboard input (pencil icon) -->
   <xsl:template match="node[icon[@BUILTIN='pencil']]" priority="2">
     <!-- Extract the name from the Square Brackets -->
+    <!-- now we do not have the square brackets format
     <xsl:variable name="myName" select="substring-before(substring-after(@TEXT,'['),']')"/>
+    -->
 
-<!--
-    <xsl:choose>
-    <xsl:when test="hook/text">
-      <value format="string" name="{$myName}" note="{hook/text}"/>
-    </xsl:when>
-    <xsl:otherwise>
--->
-      <value format="string" name="{$myName}">
+      <value format="string">
         <xsl:apply-templates/>
       </value>
-<!--
-    </xsl:otherwise>
-    </xsl:choose>
--->
 
   </xsl:template>
 

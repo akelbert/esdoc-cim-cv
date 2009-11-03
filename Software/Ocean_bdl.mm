@@ -216,7 +216,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1256300271501" FOLDED="true" ID="Freemind_Link_335709508" MODIFIED="1256680103609" TEXT="If BathymetryDate is not &quot;present-day&quot;">
+<node COLOR="#0033ff" CREATED="1256300271501" FOLDED="true" ID="Freemind_Link_335709508" MODIFIED="1256680103609" TEXT="if BathymetryDate is not &quot;present-day&quot;">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1256300771737" FOLDED="true" ID="Freemind_Link_232594092" MODIFIED="1256896970647" TEXT="BathymetryAdjustment">
 <font NAME="SansSerif" SIZE="14"/>
@@ -233,7 +233,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1256300271501" FOLDED="true" ID="Freemind_Link_1364696447" MODIFIED="1256897279262" TEXT="If BathymetryDate is not &quot;present-day&quot;">
+<node COLOR="#0033ff" CREATED="1256300271501" FOLDED="true" ID="Freemind_Link_1364696447" MODIFIED="1256897279262" TEXT="if BathymetryDate is not &quot;present-day&quot;">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1256300804080" FOLDED="true" ID="Freemind_Link_134569950" MODIFIED="1256897014023" TEXT="CoastalAdjustment">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1629,7 +1629,7 @@
 <node COLOR="#990099" CREATED="1233329979500" ID="Freemind_Link_786667002" MODIFIED="1256040718935" TEXT="FreeSurface">
 <font NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[info]If no free surface, then ocean surface is rigid-liquid.[/info]</text>
+<text>[info]if no free surface, then ocean surface is rigid-liquid.[/info]</text>
 </hook>
 <node COLOR="#996600" CREATED="1233880197447" ID="Freemind_Link_1985618654" MODIFIED="1243264464658" STYLE="bubble" TEXT="Type">
 <font NAME="SansSerif" SIZE="14"/>
