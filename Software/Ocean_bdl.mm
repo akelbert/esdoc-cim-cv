@@ -295,7 +295,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1233751003143" ID="Freemind_Link_305402916" MODIFIED="1257245731086" STYLE="bubble" TEXT="Ocean_HorizontalDomain">
+<node COLOR="#000000" CREATED="1233751003143" ID="Freemind_Link_305402916" MODIFIED="1257336720754" STYLE="bubble" TEXT="Ocean_Horizontal.Domain">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1256810468669" ID="Freemind_Link_957671028" MODIFIED="1256814745833" TEXT="Grid_">
 <font NAME="SansSerif" SIZE="14"/>
@@ -459,7 +459,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1233751003143" ID="Freemind_Link_142866659" MODIFIED="1257245831962" STYLE="bubble" TEXT="VerticalDomain">
+<node COLOR="#990099" CREATED="1233751003143" ID="Freemind_Link_142866659" MODIFIED="1257336604925" STYLE="bubble" TEXT="Vertical.Domain">
 <font NAME="SansSerif" SIZE="14"/>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233751003143" FOLDED="true" ID="Freemind_Link_1376312766" MODIFIED="1257245836603" STYLE="bubble" TEXT="Vertical_CoordinateSystem">
 <font NAME="SansSerif" SIZE="14"/>
@@ -544,7 +544,7 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_995947235" MODIFIED="1257245893879" TEXT="NumberOfLevels">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_995947235" MODIFIED="1257329324915" TEXT="NumberOfLevels">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Total number of ocean vertical levels.[/definition]</text>
@@ -554,7 +554,7 @@
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1700087151" MODIFIED="1256899064595" TEXT="NumberOfLevelsInUpper100m">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1700087151" MODIFIED="1257329312427" TEXT="NumberOfLevelsInUpper100m">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Number of vertical levels in the ocean upper 100 meters.[/definition]</text>
@@ -564,20 +564,20 @@
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233250004110" ID="Freemind_Link_1252154617" MODIFIED="1257037427621" STYLE="bubble" TEXT="UpperLevel">
+<node COLOR="#996600" CREATED="1233250004110" ID="Freemind_Link_1252154617" MODIFIED="1257329270343" STYLE="bubble" TEXT="UpperLevel">
 <font NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Upper ocean level.[/definition]</text>
+<text>[definition]Upper level in the ocean.[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1233250230686" ID="Freemind_Link_1910902026" MODIFIED="1257037434758" STYLE="fork" TEXT="meters">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233250004110" ID="Freemind_Link_455921828" MODIFIED="1257037441482" STYLE="bubble" TEXT="LowerLevel">
+<node COLOR="#996600" CREATED="1233250004110" ID="Freemind_Link_455921828" MODIFIED="1257329280449" STYLE="bubble" TEXT="LowerLevel">
 <font NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Lower ocean level.[/definition]</text>
+<text>[definition]Lower level in the ocean.[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1233250230686" ID="Freemind_Link_690806304" MODIFIED="1257037434758" STYLE="fork" TEXT="meters">
 <font NAME="Arial" SIZE="14"/>

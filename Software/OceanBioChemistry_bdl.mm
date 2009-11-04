@@ -24,7 +24,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1257238168276" ID="Freemind_Link_747016512" MODIFIED="1257238251495" TEXT="if  Method is &quot;specific time step&quot;">
+<node COLOR="#0033ff" CREATED="1257238168276" ID="Freemind_Link_747016512" MODIFIED="1257329639419" TEXT="if Method is &quot;specific time step&quot;">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1256254990298" ID="Freemind_Link_827573471" MODIFIED="1257238128949" TEXT="TimeStep">
 <font NAME="SansSerif" SIZE="14"/>
@@ -51,7 +51,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1257238168276" ID="Freemind_Link_1176596366" MODIFIED="1257238251495" TEXT="if  Method is &quot;specific time step&quot;">
+<node COLOR="#0033ff" CREATED="1257238168276" ID="Freemind_Link_1176596366" MODIFIED="1257329635978" TEXT="if Method is &quot;specific time step&quot;">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1256254990298" ID="Freemind_Link_449584025" MODIFIED="1257238382839" TEXT="TimeStep">
 <font NAME="SansSerif" SIZE="14"/>
@@ -66,11 +66,11 @@
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1253796609575" ID="Freemind_Link_1291132512" MODIFIED="1257243529643" TEXT="OceanBioSpaceConfig_">
+<node COLOR="#000000" CREATED="1253796609575" ID="Freemind_Link_1291132512" MODIFIED="1257328932328" TEXT="OceanBioSpaceConfig_">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#990099" CREATED="1233751003143" ID="Freemind_Link_1067696709" MODIFIED="1257238893029" STYLE="bubble" TEXT="HorizontalDomain">
+<node COLOR="#990099" CREATED="1233751003143" ID="Freemind_Link_1067696709" MODIFIED="1257334995697" STYLE="bubble" TEXT="Horizontal.Domain">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1257238915649" ID="Freemind_Link_62478766" MODIFIED="1257243546881" TEXT="GridConfiguration">
+<node COLOR="#996600" CREATED="1257238915649" ID="Freemind_Link_62478766" MODIFIED="1257334760213" TEXT="GridConfiguration">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1241016231102" ID="Freemind_Link_1356030046" MODIFIED="1256744305379" STYLE="fork" TEXT="same as Ocean">
 <font NAME="SansSerif" SIZE="14"/>
@@ -81,12 +81,22 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1257238168276" ID="Freemind_Link_1143551240" MODIFIED="1257243553269" TEXT="if  GridConfiguration is &quot;different from Ocean&quot;">
+<node COLOR="#0033ff" CREATED="1257238168276" ID="Freemind_Link_1143551240" MODIFIED="1257334795772" TEXT="if GridConfiguration is &quot;different from Ocean&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1256254990298" ID="Freemind_Link_437978356" MODIFIED="1257289362560" TEXT="GridCharacterictics">
+<node COLOR="#996600" CREATED="1256740460367" ID="Freemind_Link_1489121474" MODIFIED="1257330418675" TEXT="MeanResolution">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Description of the of the horizontal grid characteristics (including resolution).[/definition]</text>
+<text>[definition]Mean horizontal resolution of the ocean biogeochemistry model.[/definition]</text>
+</hook>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_540590316" MODIFIED="1257038155267" STYLE="fork" TEXT="degrees">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-1"/>
+</node>
+</node>
+<node COLOR="#996600" CREATED="1256254990298" ID="Freemind_Link_437978356" MODIFIED="1257334771609" TEXT="GridCharacteristrics">
+<font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Description of the of the horizontal grid used for ocean biogeochemistry.[/definition]</text>
 </hook>
 <node CREATED="1256255021042" ID="Freemind_Link_1717188073" MODIFIED="1257238682406" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
@@ -95,9 +105,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1233751003143" ID="Freemind_Link_142866659" MODIFIED="1257239482857" STYLE="bubble" TEXT="VerticalDomain">
+<node COLOR="#990099" CREATED="1233751003143" ID="Freemind_Link_142866659" MODIFIED="1257335087251" STYLE="bubble" TEXT="Vertical.Domain">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1257238915649" ID="Freemind_Link_1264044554" MODIFIED="1257245994748" TEXT="GridConfiguration">
+<node COLOR="#996600" CREATED="1257238915649" ID="Freemind_Link_1264044554" MODIFIED="1257334802435" TEXT="GridConfiguration">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1241016231102" ID="Freemind_Link_365961628" MODIFIED="1256744305379" STYLE="fork" TEXT="same as Ocean">
 <font NAME="SansSerif" SIZE="14"/>
@@ -108,12 +118,22 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1257238168276" ID="Freemind_Link_766400880" MODIFIED="1257246003242" TEXT="if  GridConfiguration is &quot;different form Ocean&quot;">
+<node COLOR="#0033ff" CREATED="1257238168276" ID="Freemind_Link_766400880" MODIFIED="1257334713970" TEXT="if VerticalConfiguration is &quot;different form Ocean&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1256254990298" ID="Freemind_Link_1974159564" MODIFIED="1257289401135" TEXT="GridCharacterisitics">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_995947235" MODIFIED="1257330398477" TEXT="NumberOfLevels">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Description of the vertical grid characteristics (including the number of levels).[/definition]</text>
+<text>[definition]Total number of vertical levels in ocean biogeochemistry model.[/definition]</text>
+</hook>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_569217197" MODIFIED="1256812397215" STYLE="fork" TEXT="">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-1"/>
+</node>
+</node>
+<node COLOR="#996600" CREATED="1256254990298" ID="Freemind_Link_1974159564" MODIFIED="1257334782823" TEXT="GridCharacteristics">
+<font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Description of the vertical grid used for ocean biogeochemistry.[/definition]</text>
 </hook>
 <node CREATED="1256255021042" ID="Freemind_Link_1578704852" MODIFIED="1257238682406" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
@@ -788,7 +808,7 @@
 </node>
 <node COLOR="#000000" CREATED="1242815104070" ID="Freemind_Link_218480523" MODIFIED="1256925260958" POSITION="left" STYLE="bubble" TEXT="starting version">
 <font NAME="SansSerif" SIZE="15"/>
-<node CREATED="1242815129537" ID="Freemind_Link_277246312" MODIFIED="1256925436980" STYLE="fork" TEXT="start from rXXX of Ocean_flat.mm">
+<node CREATED="1242815129537" ID="Freemind_Link_277246312" MODIFIED="1257328317708" STYLE="fork" TEXT="start from rXXX of OceanBiogeoChemistry_flat.mm">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 <node CREATED="1242815129537" ID="Freemind_Link_93957810" MODIFIED="1257241709919" STYLE="fork" TEXT="Ocean_flat.mm based on r888 (mariepierre, 2009-09-16) of OceanBioGeoChemistry.mm">
