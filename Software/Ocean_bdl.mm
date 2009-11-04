@@ -138,10 +138,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1256897468560" ID="Freemind_Link_722102065" MODIFIED="1256898065596" TEXT="Non-OceanWater">
+<node COLOR="#990099" CREATED="1256897468560" ID="Freemind_Link_722102065" MODIFIED="1257350550796" TEXT="Non-OceanicWater">
 <font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="messagebox_warning"/>
-<node COLOR="#996600" CREATED="1256897482873" FOLDED="true" ID="Freemind_Link_1871219386" MODIFIED="1257037250094" TEXT="RiverMouthMixing">
+<node COLOR="#996600" CREATED="1256897482873" ID="Freemind_Link_1871219386" MODIFIED="1257037250094" TEXT="RiverMouthMixing">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Distribution of freshwater fluxes form rivers into ocean.[/definition]</text>
@@ -151,7 +150,7 @@
 <icon BUILTIN="pencil"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1256897515953" FOLDED="true" ID="Freemind_Link_271742760" MODIFIED="1257037231140" TEXT="IsolatedSeasMixing">
+<node COLOR="#996600" CREATED="1256897515953" ID="Freemind_Link_271742760" MODIFIED="1257037231140" TEXT="IsolatedSeasMixing">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Mixing of isolated sea water with ocean.[/definition]</text>
@@ -165,9 +164,8 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node CREATED="1256897878349" ID="Freemind_Link_220485542" MODIFIED="1256898078832" STYLE="fork" TEXT="mpm: form CMIP3-Q. Or &quot;FreshAndSeaWater&quot;">
+<node CREATED="1256897878349" ID="Freemind_Link_220485542" MODIFIED="1257350427527" STYLE="fork" TEXT="mpm: from CMIP3-Q. Or &quot;FreshAndSeaWater&quot;">
 <font ITALIC="true" NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="messagebox_warning"/>
 <icon BUILTIN="messagebox_warning"/>
 </node>
 </node>
