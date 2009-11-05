@@ -118,8 +118,9 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1257238168276" ID="Freemind_Link_766400880" MODIFIED="1257334713970" TEXT="if VerticalConfiguration is &quot;different form Ocean&quot;">
+<node COLOR="#0033ff" CREATED="1257238168276" ID="Freemind_Link_766400880" MODIFIED="1257426022764" TEXT="if GridConfiguration is &quot;different from Ocean&quot;">
 <font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-3"/>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_995947235" MODIFIED="1257330398477" TEXT="NumberOfLevels">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
