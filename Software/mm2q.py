@@ -32,12 +32,12 @@ if options.flat:
   if not(args[0].endswith("_flat.mm")):
      parser.error("expecting input file with name mindmap_flat.mm. Do not use the -f option is you want to parse a mindmap_bdl.mm file.")
   foutname=args[0].replace("_flat.mm",".xml")
-  XSLFileName="MMReader_flat.xsl"
+  XSLFileName="mm2q_flat.xsl"
 else:
   if not(args[0].endswith("_bdl.mm")):
      parser.error("expecting input file with name mindmap_bdl.mm. Use the -f option is you want to parse a mindmap_flat.mm file.")
   foutname=args[0].replace("_bdl.mm",".xml")
-  XSLFileName="MMReader_bdl.xsl"
+  XSLFileName="mm2q_bdl.xsl"
 
 try:
   fin = open(args[0], 'r')

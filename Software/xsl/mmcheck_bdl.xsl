@@ -18,7 +18,7 @@ with the MMRead.xsl and MMConstraint.xsl stylesheets -->
 
 <xsl:param name="DEBUG" select="'no'"/>
 
-<xsl:include href="MMUtils.xsl"/>
+<xsl:include href="utils.xsl"/>
 
 <!-- note: higher priority (higher value) templates are matched before
 any lower priority templates -->

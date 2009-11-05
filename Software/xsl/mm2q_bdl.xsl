@@ -18,7 +18,7 @@ files into a structured xml representation (260409) -->
 <!-- higher priority (higher value) templates are matched before any
 lower priority templates -->
 
-<xsl:include href="MMUtils.xsl"/>
+<xsl:include href="utils.xsl"/>
 
   <!-- match the top level of the xml document -->
   <xsl:template match="/">
