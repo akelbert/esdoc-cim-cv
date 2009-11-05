@@ -6,9 +6,9 @@
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233138687431" ID="Freemind_Link_202444751" MODIFIED="1233935481092" POSITION="right" STYLE="bubble" TEXT="LandSurface">
 <edge COLOR="#999999"/>
 <font BOLD="true" NAME="Arial" SIZE="16"/>
-<node COLOR="#000000" CREATED="1253796559148" ID="Freemind_Link_969659526" MODIFIED="1257328120406" TEXT="LandSurfaceKeyProperties_">
+<node COLOR="#000000" CREATED="1253796559148" FOLDED="true" ID="Freemind_Link_969659526" MODIFIED="1257328120406" TEXT="LandSurfaceKeyProperties_">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#990099" CREATED="1254486057572" ID="Freemind_Link_26535854" MODIFIED="1257330680947" TEXT="LandSurfaceKeyPropertiesAttributes_">
+<node COLOR="#990099" CREATED="1254486057572" FOLDED="true" ID="Freemind_Link_26535854" MODIFIED="1257330680947" TEXT="LandSurfaceKeyPropertiesAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1233141022285" ID="Freemind_Link_599221753" MODIFIED="1257260184732" STYLE="bubble" TEXT="BasicApproximations">
 <font NAME="Arial" SIZE="14"/>
@@ -141,7 +141,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1256302801265" ID="Freemind_Link_1170747936" MODIFIED="1256745410016" TEXT="ConservationOfProperties">
+<node COLOR="#990099" CREATED="1256302801265" FOLDED="true" ID="Freemind_Link_1170747936" MODIFIED="1256745410016" TEXT="ConservationOfProperties">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1256302813200" ID="Freemind_Link_852560391" MODIFIED="1257242944308" TEXT="WaterTreatment">
 <font NAME="SansSerif" SIZE="14"/>
@@ -255,7 +255,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1233751261777" ID="Freemind_Link_1153520910" MODIFIED="1255440450989" STYLE="bubble" TEXT="TimeSteppingFramework">
+<node COLOR="#990099" CREATED="1233751261777" FOLDED="true" ID="Freemind_Link_1153520910" MODIFIED="1255440450989" STYLE="bubble" TEXT="TimeSteppingFramework">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1253870854444" ID="Freemind_Link_1713086568" MODIFIED="1256255375717" TEXT="Method">
 <font NAME="SansSerif" SIZE="14"/>
@@ -280,33 +280,45 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233667756023" ID="Freemind_Link_1463732347" MODIFIED="1256226512931" TEXT="LandSurface_Soil">
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233667756023" FOLDED="true" ID="Freemind_Link_1463732347" MODIFIED="1256226512931" TEXT="LandSurface_Soil">
 <font BOLD="true" NAME="Arial" SIZE="14"/>
 <node COLOR="#990099" CREATED="1233671585981" ID="Freemind_Link_1643577384" MODIFIED="1256686033921" TEXT="SoilMap">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233671632399" ID="Freemind_Link_1421024692" MODIFIED="1241598157963" STYLE="bubble" TEXT="Texture">
+<node COLOR="#996600" CREATED="1233671632399" ID="Freemind_Link_1421024692" MODIFIED="1257415928007" STYLE="bubble" TEXT="Texture">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Description of the relative clay, sand and silt proportions of the soil[/definition] </text>
+</hook>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233881613647" ID="Freemind_Link_1521880114" MODIFIED="1257289999860" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="pencil"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1241017334955" ID="Freemind_Link_532597642" MODIFIED="1241598158010" TEXT="Structure">
+<node COLOR="#996600" CREATED="1241017334955" ID="Freemind_Link_532597642" MODIFIED="1257416097648" TEXT="Structure">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Description of the aggregate characteristics of the soil particles[/definition]</text>
+</hook>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233881613647" ID="Freemind_Link_1094489511" MODIFIED="1257289999860" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="pencil"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1241017365027" ID="Freemind_Link_1043161615" MODIFIED="1241598157995" TEXT="Albedo">
+<node COLOR="#996600" CREATED="1241017365027" ID="Freemind_Link_1043161615" MODIFIED="1257415750866" TEXT="Albedo">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Ratio of reflected to incoming solar radiation on a land surface[/definition]</text>
+</hook>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233881613647" ID="Freemind_Link_807518727" MODIFIED="1257289999860" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="pencil"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1241017388676" ID="Freemind_Link_1991852679" MODIFIED="1246002074469" TEXT="WaterTable">
+<node COLOR="#996600" CREATED="1241017388676" ID="Freemind_Link_1991852679" MODIFIED="1257416608476" TEXT="WaterTable">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Description of the level of water saturation within the soil layer[/definition]</text>
+</hook>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233881613647" ID="Freemind_Link_924918362" MODIFIED="1257289999860" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="pencil"/>
@@ -486,7 +498,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1233139697461" ID="Freemind_Link_661444200" MODIFIED="1256226592764" TEXT="LandSurface_Snow">
+<node COLOR="#000000" CREATED="1233139697461" FOLDED="true" ID="Freemind_Link_661444200" MODIFIED="1256226592764" TEXT="LandSurface_Snow">
 <font BOLD="true" NAME="Arial" SIZE="14"/>
 <node COLOR="#990099" CREATED="1255525202122" ID="Freemind_Link_129653115" MODIFIED="1257289105922" TEXT="LandSurfaceSnowAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
@@ -512,8 +524,11 @@
 </node>
 <node COLOR="#990099" CREATED="1246374184726" ID="Freemind_Link_647984090" MODIFIED="1255533758365" TEXT="SchemeMethod">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233671008937" ID="Freemind_Link_1589095641" MODIFIED="1255529091067" TEXT="SnowAlbedo">
+<node COLOR="#996600" CREATED="1233671008937" ID="Freemind_Link_1589095641" MODIFIED="1257416993226" TEXT="SnowAlbedo">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Description of the treatment of the ratio of reflected to incoming solar radiation on a snow surface[/definition]</text>
+</hook>
 <node CREATED="1241078652826" ID="Freemind_Link_1191302597" MODIFIED="1246373797924" STYLE="fork" TEXT="prognostic">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -527,8 +542,11 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233671008937" ID="Freemind_Link_458323360" MODIFIED="1255529088930" TEXT="SnowDensity">
+<node COLOR="#996600" CREATED="1233671008937" ID="Freemind_Link_458323360" MODIFIED="1257417048257" TEXT="SnowDensity">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Description of the treatment of snow density[/definition] </text>
+</hook>
 <node COLOR="#000000" CREATED="1233674393965" ID="Freemind_Link_214703472" MODIFIED="1246373782463" STYLE="fork" TEXT="prognostic">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -538,8 +556,11 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233671008937" ID="Freemind_Link_861605979" MODIFIED="1246373760932" TEXT="SnowWaterEquivalent">
+<node COLOR="#996600" CREATED="1233671008937" ID="Freemind_Link_861605979" MODIFIED="1257417229101" TEXT="SnowWaterEquivalent">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Description of the treatment of the &apos;snow water equivalent&apos;[/definition]</text>
+</hook>
 <node COLOR="#000000" CREATED="1233674393965" ID="Freemind_Link_1053652257" MODIFIED="1246373782463" STYLE="fork" TEXT="prognostic">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -549,8 +570,11 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233671008937" ID="Freemind_Link_1373324922" MODIFIED="1246373861704" TEXT="SnowHeatContent">
+<node COLOR="#996600" CREATED="1233671008937" ID="Freemind_Link_1373324922" MODIFIED="1257418436101" TEXT="SnowHeatContent">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Description of the treatment of the heat content of snow[/definition] </text>
+</hook>
 <node COLOR="#000000" CREATED="1233674393965" ID="Freemind_Link_1846368212" MODIFIED="1246373782463" STYLE="fork" TEXT="prognostic">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -560,8 +584,11 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233671008937" ID="Freemind_Link_566669551" MODIFIED="1246373874654" TEXT="SnowTemperature">
+<node COLOR="#996600" CREATED="1233671008937" ID="Freemind_Link_566669551" MODIFIED="1257418473491" TEXT="SnowTemperature">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Description of the treatment of snow temperature[/definition]</text>
+</hook>
 <node COLOR="#000000" CREATED="1233674393965" ID="Freemind_Link_248953629" MODIFIED="1246373782463" STYLE="fork" TEXT="prognostic">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -597,8 +624,11 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233671008937" ID="Freemind_Link_210050937" MODIFIED="1255525186265" TEXT="Processes">
+<node COLOR="#996600" CREATED="1233671008937" ID="Freemind_Link_210050937" MODIFIED="1257417455945" TEXT="Processes">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Implemented snow-related processes[/definition] </text>
+</hook>
 <node COLOR="#000000" CREATED="1241078982017" ID="Freemind_Link_149464460" MODIFIED="1246373168713" STYLE="fork" TEXT="snow interception">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
@@ -665,8 +695,11 @@
 </node>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233670504152" ID="Freemind_Link_354408444" MODIFIED="1246374479545" TEXT="Interception">
+<node COLOR="#996600" CREATED="1233670504152" ID="Freemind_Link_354408444" MODIFIED="1257418736507" TEXT="Interception">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Vegetation interception of rainwater represented?[/definition]</text>
+</hook>
 <node CREATED="1233671954952" ID="Freemind_Link_551031187" MODIFIED="1233918143847" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -676,8 +709,11 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244817513545" ID="Freemind_Link_1085118886" MODIFIED="1255526803431" STYLE="bubble" TEXT="BiomeTypes">
+<node COLOR="#996600" CREATED="1244817513545" ID="Freemind_Link_1085118886" MODIFIED="1257418622570" STYLE="bubble" TEXT="BiomeTypes">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Names of biomes represented[/definition]</text>
+</hook>
 <node CREATED="1244817529300" ID="Freemind_Link_1287846202" MODIFIED="1245939497214" STYLE="fork" TEXT="Evergreen needleleaf forest">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
@@ -738,8 +774,11 @@
 </node>
 <node COLOR="#990099" CREATED="1246375108452" ID="Freemind_Link_543638131" MODIFIED="1255533768185" TEXT="SchemeMethod">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233671971075" ID="Freemind_Link_1545059713" MODIFIED="1255611361010" TEXT="Phenology">
+<node COLOR="#996600" CREATED="1233671971075" ID="Freemind_Link_1545059713" MODIFIED="1257418821476" TEXT="Phenology">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Description of the treatment of vegetation phenology[/definition]</text>
+</hook>
 <node CREATED="1233671984670" ID="Freemind_Link_270927467" MODIFIED="1255611379457" STYLE="fork" TEXT="prognostic">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -819,7 +858,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1233670504152" ID="Freemind_Link_583779121" MODIFIED="1257289030386" TEXT="LandSurface_EnergyBalance">
+<node COLOR="#000000" CREATED="1233670504152" FOLDED="true" ID="Freemind_Link_583779121" MODIFIED="1257289030386" TEXT="LandSurface_EnergyBalance">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1255533983077" ID="Freemind_Link_585196796" MODIFIED="1257289090123" TEXT="LandSurfaceEnergyBalanceAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
@@ -898,7 +937,7 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233668186242" ID="Freemind_Link_1876467742" MODIFIED="1256226632701" TEXT="LandSurface_Albedo">
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233668186242" FOLDED="true" ID="Freemind_Link_1876467742" MODIFIED="1256226632701" TEXT="LandSurface_Albedo">
 <font BOLD="true" NAME="Arial" SIZE="14"/>
 <node COLOR="#990099" CREATED="1255609354662" ID="Freemind_Link_1012325497" MODIFIED="1257289006859" TEXT="LandSurfaceAlbedoAttributes">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1013,7 +1052,7 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233667814312" ID="Freemind_Link_1787670227" MODIFIED="1256226641003" TEXT="LandSurface_CarbonCycle">
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233667814312" FOLDED="true" ID="Freemind_Link_1787670227" MODIFIED="1256226641003" TEXT="LandSurface_CarbonCycle">
 <font BOLD="true" NAME="Arial" SIZE="14"/>
 <node COLOR="#000000" CREATED="1233673218185" ID="Freemind_Link_566997376" MODIFIED="1257336458240" STYLE="bubble" TEXT="Vegetation.CarbonCycle">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
@@ -1202,7 +1241,7 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233138756711" ID="Freemind_Link_1746291945" MODIFIED="1256226654488" STYLE="bubble" TEXT="RiverRouting">
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233138756711" FOLDED="true" ID="Freemind_Link_1746291945" MODIFIED="1256226654488" STYLE="bubble" TEXT="RiverRouting">
 <edge COLOR="#999999"/>
 <font BOLD="true" NAME="Arial" SIZE="14"/>
 <node COLOR="#990099" CREATED="1255609707926" ID="Freemind_Link_1331714036" MODIFIED="1257289074193" TEXT="RiverRoutingAttributes_">
@@ -1348,7 +1387,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1244815741882" ID="Freemind_Link_959482800" MODIFIED="1256226667056" STYLE="bubble" TEXT="LandSurface_Lakes">
+<node CREATED="1244815741882" FOLDED="true" ID="Freemind_Link_959482800" MODIFIED="1256226667056" STYLE="bubble" TEXT="LandSurface_Lakes">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1255610459136" ID="Freemind_Link_854253023" MODIFIED="1257289077993" TEXT="LandSurfaceLakesAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
