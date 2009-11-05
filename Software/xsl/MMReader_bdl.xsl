@@ -18,6 +18,8 @@ files into a structured xml representation (260409) -->
 <!-- higher priority (higher value) templates are matched before any
 lower priority templates -->
 
+<xsl:include href="MMUtils.xsl"/>
+
   <!-- match the top level of the xml document -->
   <xsl:template match="/">
     <xsl:comment><xsl:text> Metafor software vocabulary input document for questionnaire. </xsl:text></xsl:comment>
@@ -58,9 +60,7 @@ lower priority templates -->
     <xsl:if test="not(@LINK)">
 
         <xsl:variable name="myName">
-          <xsl:call-template name="string-replace">
-            <xsl:with-param name="from" select="'_'"/>
-            <xsl:with-param name="to" select="''"/> 
+          <xsl:call-template name="normaliseName">
             <xsl:with-param name="string" select="@TEXT"/>
           </xsl:call-template>
         </xsl:variable>
@@ -72,9 +72,7 @@ lower priority templates -->
           <xsl:variable name="match">
           <xsl:for-each select="node[@COLOR='#990099']">
             <xsl:variable name="localName">
-              <xsl:call-template name="string-replace">
-                <xsl:with-param name="from" select="'_'"/>
-                <xsl:with-param name="to" select="''"/> 
+              <xsl:call-template name="normaliseName">
                 <xsl:with-param name="string" select="@TEXT"/>
               </xsl:call-template>
             </xsl:variable>
@@ -97,17 +95,13 @@ lower priority templates -->
   <xsl:template match="node[@COLOR='#990099']" priority="3">
 
         <xsl:variable name="myNameNoUnderscore">
-          <xsl:call-template name="string-replace">
-            <xsl:with-param name="from" select="'_'"/>
-            <xsl:with-param name="to" select="''"/> 
+          <xsl:call-template name="normaliseName">
             <xsl:with-param name="string" select="@TEXT"/>
           </xsl:call-template>
         </xsl:variable>
 
         <xsl:variable name="parentComponentName">
-          <xsl:call-template name="string-replace">
-            <xsl:with-param name="from" select="'_'"/>
-            <xsl:with-param name="to" select="''"/> 
+          <xsl:call-template name="normaliseName">
             <xsl:with-param name="string" select="parent::node/@TEXT"/>
           </xsl:call-template>
         </xsl:variable>
@@ -157,9 +151,7 @@ lower priority templates -->
     </xsl:variable>
 
       <xsl:variable name="myName">
-        <xsl:call-template name="string-replace">
-          <xsl:with-param name="from" select="'_'"/>
-          <xsl:with-param name="to" select="''"/> 
+        <xsl:call-template name="normaliseName">
           <xsl:with-param name="string" select="@TEXT"/>
         </xsl:call-template>
       </xsl:variable>
@@ -319,25 +311,5 @@ lower priority templates -->
     </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
-
-<xsl:template name="string-replace" >
-  <xsl:param name="string"/>
-  <xsl:param name="from"/>
-  <xsl:param name="to"/>
-  <xsl:choose>
-    <xsl:when test="contains($string,$from)">
-      <xsl:value-of select="substring-before($string,$from)"/>
-      <xsl:value-of select="$to"/>
-      <xsl:call-template name="string-replace">
-      <xsl:with-param name="string" select="substring-after($string,$from)"/>
-      <xsl:with-param name="from" select="$from"/>
-      <xsl:with-param name="to" select="$to"/>
-      </xsl:call-template>
-    </xsl:when>
-    <xsl:otherwise>
-      <xsl:value-of select="$string"/>
-    </xsl:otherwise>
-  </xsl:choose>
-</xsl:template>
 
 </xsl:stylesheet>

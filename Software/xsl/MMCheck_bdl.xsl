@@ -18,6 +18,8 @@ with the MMRead.xsl and MMConstraint.xsl stylesheets -->
 
 <xsl:param name="DEBUG" select="'no'"/>
 
+<xsl:include href="MMUtils.xsl"/>
+
 <!-- note: higher priority (higher value) templates are matched before
 any lower priority templates -->
   <!-- match the top level of the xml document -->
@@ -135,13 +137,16 @@ any lower priority templates -->
        <xsl:with-param name="context" select="'Component'"/>
      </xsl:call-template>
 
+     <xsl:call-template name="CheckNameUnderscoreDot">
+       <xsl:with-param name="myName" select="$NodeName"/>
+       <xsl:with-param name="context" select="'Component'"/>
+     </xsl:call-template>
+
 <!-- the length of the component name must be <= CompLen characters -->
 
       <!-- remove any underscores before checking the length of the component name -->
       <xsl:variable name="myName">
-        <xsl:call-template name="string-replace">
-          <xsl:with-param name="from" select="'_'"/>
-          <xsl:with-param name="to" select="''"/> 
+        <xsl:call-template name="normaliseName">
           <xsl:with-param name="string" select="$NodeName"/>
         </xsl:call-template>
       </xsl:variable>
@@ -278,12 +283,14 @@ any lower priority templates -->
     <xsl:if test="$CheckConstraints='yes'">
 
       <xsl:variable name="ConstraintText" select="@TEXT"/>
+
       <xsl:variable name="AfterIf" select="normalize-space(substring-after($ConstraintText,'if'))"/>
+      <xsl:variable name="BeforeIf" select="normalize-space(substring-before($ConstraintText,'if'))"/>
 
       <xsl:choose>
 
       <!-- Check for "if " -->
-      <xsl:when test="not($AfterIf)">
+      <xsl:when test="not($AfterIf) or $BeforeIf">
         <xsl:message terminate="no">
           <xsl:text>*WARNING: format error in constraint node '</xsl:text>
           <xsl:value-of select="@TEXT"/>
@@ -295,22 +302,13 @@ any lower priority templates -->
       <xsl:otherwise>
 
         <!-- Next check for "... is|has [not]* ..." -->
+
+        <!-- which separator type is it? -->
         <xsl:variable name="separatorType">
           <xsl:call-template name="getSeparatorType">
           <xsl:with-param name="string" select="$AfterIf"/>
           </xsl:call-template>
         </xsl:variable>
-
-<!--
-        <xsl:message terminate="no">
-        <xsl:text>*DEBUG* constraint separator type is '</xsl:text>
-        <xsl:value-of select="$separatorType"/>
-        <xsl:text>'. Full string is '</xsl:text>
-        <xsl:value-of select="$AfterIf"/>
-        <xsl:text>'.
-</xsl:text>
-        </xsl:message>
--->
 
         <xsl:variable name="OtherParameterName" select="normalize-space(substring-before($AfterIf,$separatorType))"/>
         <xsl:choose>
@@ -324,16 +322,13 @@ any lower priority templates -->
 
         <xsl:otherwise>
 
-<!--
-          <xsl:variable name="OtherParameterValueString" select="normalize-space(substring-before(substring-after($AfterIf,'is &quot;'),'&quot;'))"/>
--->
-          <xsl:variable name="OtherParameterValueString" select="normalize-space(substring-after($AfterIf,'is '))"/>
+          <xsl:variable name="OtherParameterValueString" select="normalize-space(substring-after($AfterIf,$separatorType))"/>
 
           <xsl:choose>
 
           <xsl:when test="not($OtherParameterValueString)">
             <xsl:message terminate="no">
-              <xsl:text>*WARNING: format error in constraint node. Expecting "... is &quot;value&quot;" but found "</xsl:text>
+              <xsl:text>*WARNING: format error in constraint node. Expecting "... is|has [not]* &quot;value&quot;" but found "</xsl:text>
               <xsl:value-of select="text()"/>
               <xsl:text>"
 </xsl:text>
@@ -348,25 +343,13 @@ any lower priority templates -->
             <xsl:for-each select="parent::node//node[@COLOR='#996600']">
 
               <xsl:variable name="myName">
-                <xsl:call-template name="string-replace">
-                  <xsl:with-param name="from" select="'_'"/>
-                   <xsl:with-param name="to" select="''"/> 
+                <xsl:call-template name="normaliseName">
                    <xsl:with-param name="string" select="@TEXT"/>
                 </xsl:call-template>
               </xsl:variable>
 
               <xsl:if test="$myName=$OtherParameterName">
                 <xsl:text>Match!</xsl:text>
-<!--
-                <xsl:message terminate="no">
-                  <xsl:text>Found a match for param '</xsl:text>
-                  <xsl:value-of select="$OtherParameterName"/>
-                  <xsl:text>' which is '</xsl:text>
-                  <xsl:value-of select="@TEXT"/>
-                  <xsl:text>'.
-</xsl:text>
-                </xsl:message>
--->
               </xsl:if>
 
             </xsl:for-each>
@@ -413,7 +396,6 @@ any lower priority templates -->
 
 
     </xsl:if>
-
 
     <xsl:apply-templates/>
 
@@ -768,9 +750,7 @@ any lower priority templates -->
         <xsl:for-each select="parent::node//node[@COLOR='#996600']">
 
           <xsl:variable name="myName">
-            <xsl:call-template name="string-replace">
-              <xsl:with-param name="from" select="'_'"/>
-               <xsl:with-param name="to" select="''"/> 
+            <xsl:call-template name="normaliseName">
                <xsl:with-param name="string" select="@TEXT"/>
             </xsl:call-template>
           </xsl:variable>
@@ -823,9 +803,7 @@ any lower priority templates -->
         <xsl:for-each select="parent::node//node[@COLOR='#996600']">
 
           <xsl:variable name="myName">
-            <xsl:call-template name="string-replace">
-              <xsl:with-param name="from" select="'_'"/>
-               <xsl:with-param name="to" select="''"/> 
+            <xsl:call-template name="normaliseName">
                <xsl:with-param name="string" select="@TEXT"/>
             </xsl:call-template>
           </xsl:variable>
@@ -905,10 +883,55 @@ any lower priority templates -->
 
   </xsl:template>
 
+  <xsl:template name="CheckNameUnderscoreDot">
+    <xsl:param name="myName"/>
+    <xsl:param name="context"/>
+
+    <xsl:variable name="NumberOfDots" select="string-length($myName) - string-length(translate($myName, '.', ''))"/>
+    <xsl:variable name="NumberOfUnderbars" select="string-length($myName) - string-length(translate($myName, '_', ''))"/>
+
+    <!-- 0 or 1 . in the string -->
+    <xsl:if test="$NumberOfDots &gt; 1">
+      <xsl:message terminate="no">
+         <xsl:text>*ERROR: </xsl:text><xsl:value-of select="$context"/><xsl:text> '</xsl:text>
+         <xsl:value-of select="@TEXT"/>
+         <xsl:text>' has more than one '.' in it.</xsl:text>
+         <xsl:call-template name="AncestorComponents"/>
+         <xsl:text>'
+</xsl:text>
+      </xsl:message>
+    </xsl:if>
+    <!-- 0 or 1 _ in the string -->
+    <xsl:if test="$NumberOfUnderbars &gt; 1">
+      <xsl:message terminate="no">
+         <xsl:text>*ERROR: </xsl:text><xsl:value-of select="$context"/><xsl:text> '</xsl:text>
+         <xsl:value-of select="@TEXT"/>
+         <xsl:text>' has more than one '_' in it.</xsl:text>
+         <xsl:call-template name="AncestorComponents"/>
+         <xsl:text>'
+</xsl:text>
+      </xsl:message>
+    </xsl:if>
+    <!-- if _ and . then _ before . in string -->
+    <xsl:if test="$NumberOfDots = 1 and $NumberOfUnderbars = 1">
+      <xsl:if test="string-length(substring-before($myName,'_')) &gt; string-length(substring-before($myName,'.'))">
+      <xsl:message terminate="no">
+         <xsl:text>*ERROR: </xsl:text><xsl:value-of select="$context"/><xsl:text> '</xsl:text>
+         <xsl:value-of select="@TEXT"/>
+         <xsl:text>' has the '.' before the '_' in the string.</xsl:text>
+         <xsl:call-template name="AncestorComponents"/>
+         <xsl:text>'
+</xsl:text>
+      </xsl:message>
+      </xsl:if>
+    </xsl:if>
+
+  </xsl:template>
+
   <xsl:template name="CheckNameazAZ">
     <xsl:param name="myName"/>
     <xsl:param name="context"/>
-    <xsl:variable name="myCheck" select="translate($myName,'0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXZ-_','xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')"/>
+    <xsl:variable name="myCheck" select="translate($myName,'0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXZ-_.','xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')"/>
     <xsl:variable name="myReference">
       <xsl:call-template name="makex">
         <xsl:with-param name="NumberOfXs" select="string-length($myName)"/>
@@ -919,14 +942,16 @@ any lower priority templates -->
       <xsl:message terminate="no">
          <xsl:text>*ERROR: </xsl:text><xsl:value-of select="$context"/><xsl:text> '</xsl:text>
          <xsl:value-of select="@TEXT"/>
-         <xsl:text>' contains characters that are not 0-9, A-Z, a-z, '_' or '-'. The parent component is '</xsl:text>
+         <xsl:text>' contains characters that are not 0-9, A-Z, a-z, '_', '.' or '-'. The parent component is '</xsl:text>
          <xsl:call-template name="AncestorComponents"/>
          <xsl:text>'
 </xsl:text>
+<!--
          <xsl:text>DEBUG:myCheck=</xsl:text><xsl:value-of select="$myCheck"/><xsl:text>
 </xsl:text>
          <xsl:text>DEBUG:myReference=</xsl:text><xsl:value-of select="$myReference"/><xsl:text>
 </xsl:text>
+-->
          
       </xsl:message>
     </xsl:if>
@@ -941,26 +966,6 @@ any lower priority templates -->
       </xsl:call-template>
     </xsl:if>
   </xsl:template>
-
-<xsl:template name="string-replace" >
-  <xsl:param name="string"/>
-  <xsl:param name="from"/>
-  <xsl:param name="to"/>
-  <xsl:choose>
-    <xsl:when test="contains($string,$from)">
-      <xsl:value-of select="substring-before($string,$from)"/>
-      <xsl:value-of select="$to"/>
-      <xsl:call-template name="string-replace">
-      <xsl:with-param name="string" select="substring-after($string,$from)"/>
-      <xsl:with-param name="from" select="$from"/>
-      <xsl:with-param name="to" select="$to"/>
-      </xsl:call-template>
-    </xsl:when>
-    <xsl:otherwise>
-      <xsl:value-of select="$string"/>
-    </xsl:otherwise>
-  </xsl:choose>
-</xsl:template>
 
 <xsl:template name="getSeparatorType">
   <xsl:param name="string"/>
