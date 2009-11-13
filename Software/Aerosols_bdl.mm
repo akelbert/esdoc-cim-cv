@@ -1133,7 +1133,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1243416507171" ID="Freemind_Link_209851307" MODIFIED="1258104556065" STYLE="bubble" TEXT="If SchemeType has &quot;modal&quot;">
+<node COLOR="#0033ff" CREATED="1243416507171" ID="Freemind_Link_209851307" MODIFIED="1258104556065" STYLE="bubble" TEXT="if SchemeType has &quot;modal&quot;">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1243416439718" ID="Freemind_Link_958177818" MODIFIED="1257946665177" TEXT="Framework">
 <font NAME="SansSerif" SIZE="14"/>
