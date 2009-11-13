@@ -404,7 +404,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1243422071515" FOLDED="true" ID="Freemind_Link_1203732598" MODIFIED="1258104864633" TEXT="Aerosol_EmissionAndConc">
+<node COLOR="#000000" CREATED="1243422071515" ID="Freemind_Link_1203732598" MODIFIED="1258104864633" TEXT="Aerosol_EmissionAndConc">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#000000" CREATED="1243422235015" ID="Freemind_Link_650081149" MODIFIED="1257938101519" TEXT="2D-Sources">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
@@ -470,7 +470,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1243422252593" ID="Freemind_Link_1795240332" MODIFIED="1258103748859" TEXT="BareSoil">
+<node COLOR="#990099" CREATED="1243422252593" ID="Freemind_Link_1795240332" MODIFIED="1258118761332" TEXT="BareGround">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1243422324468" ID="Freemind_Link_1340095942" MODIFIED="1257346754447" TEXT="SpeciesEmitted">
 <font NAME="SansSerif" SIZE="14"/>
@@ -928,40 +928,6 @@
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1258104783957" ID="Freemind_Link_1993128244" MODIFIED="1258104812365" TEXT="AerosolModelAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1243416569234" ID="Freemind_Link_467369962" MODIFIED="1257942651234" TEXT="GasPhasePrecursors">
-<font NAME="SansSerif" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]List of aerosols precursors.[/definition]</text>
-</hook>
-<node COLOR="#000000" CREATED="1243417981218" ID="Freemind_Link_998144154" MODIFIED="1257930570685" STYLE="fork" TEXT="DMS">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node COLOR="#000000" CREATED="1243417981218" ID="Freemind_Link_27173363" MODIFIED="1257930581730" STYLE="fork" TEXT="SO2">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node COLOR="#000000" CREATED="1243417981218" ID="Freemind_Link_1104148565" MODIFIED="1257930585856" STYLE="fork" TEXT="Ammonia">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node COLOR="#000000" CREATED="1243417981218" ID="Freemind_Link_600157574" MODIFIED="1257930590144" STYLE="fork" TEXT="Iodene">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node COLOR="#000000" CREATED="1243417981218" ID="Freemind_Link_1148470964" MODIFIED="1257947207011" STYLE="fork" TEXT="Terpene">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node COLOR="#000000" CREATED="1243417981218" ID="Freemind_Link_489535262" MODIFIED="1257947213411" STYLE="fork" TEXT="Isoprene">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node CREATED="1250609482065" ID="Freemind_Link_485531253" MODIFIED="1257347683531" STYLE="fork" TEXT="other">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-</node>
 <node COLOR="#996600" CREATED="1243416464546" ID="Freemind_Link_1427659294" MODIFIED="1250181382869" TEXT="Processes">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#000000" CREATED="1243417981218" ID="Freemind_Link_267955665" MODIFIED="1257347751385" STYLE="fork" TEXT="dry deposition">
@@ -1039,6 +1005,40 @@
 <icon BUILTIN="button_ok"/>
 </node>
 <node COLOR="#000000" CREATED="1244070978516" ID="Freemind_Link_1467372173" MODIFIED="1250606969492" STYLE="fork" TEXT="Clouds">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+</node>
+<node COLOR="#996600" CREATED="1243416569234" ID="Freemind_Link_467369962" MODIFIED="1257942651234" TEXT="GasPhasePrecursors">
+<font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]List of aerosols precursors.[/definition]</text>
+</hook>
+<node COLOR="#000000" CREATED="1243417981218" ID="Freemind_Link_998144154" MODIFIED="1257930570685" STYLE="fork" TEXT="DMS">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node COLOR="#000000" CREATED="1243417981218" ID="Freemind_Link_27173363" MODIFIED="1257930581730" STYLE="fork" TEXT="SO2">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node COLOR="#000000" CREATED="1243417981218" ID="Freemind_Link_1104148565" MODIFIED="1257930585856" STYLE="fork" TEXT="Ammonia">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node COLOR="#000000" CREATED="1243417981218" ID="Freemind_Link_600157574" MODIFIED="1257930590144" STYLE="fork" TEXT="Iodene">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node COLOR="#000000" CREATED="1243417981218" ID="Freemind_Link_1148470964" MODIFIED="1257947207011" STYLE="fork" TEXT="Terpene">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node COLOR="#000000" CREATED="1243417981218" ID="Freemind_Link_489535262" MODIFIED="1257947213411" STYLE="fork" TEXT="Isoprene">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1250609482065" ID="Freemind_Link_485531253" MODIFIED="1257347683531" STYLE="fork" TEXT="other">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
