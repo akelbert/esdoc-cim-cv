@@ -1142,7 +1142,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1244062026857" FOLDED="true" ID="Freemind_Link_1658904618" MODIFIED="1257783664553" TEXT="Atm_GasPhaseChemistry">
+<node COLOR="#000000" CREATED="1244062026857" ID="Freemind_Link_1658904618" MODIFIED="1257783664553" TEXT="Atm_GasPhaseChemistry">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1258105576222" ID="_" MODIFIED="1258105604395" TEXT="AtmGasPhaseChemistryAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1298,12 +1298,15 @@
 </node>
 <node COLOR="#000000" CREATED="1244057714894" ID="Freemind_Link_47709925" MODIFIED="1257783679397" TEXT="Atm_HeterogeneousChemistry">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#000000" CREATED="1244069441485" ID="Freemind_Link_1820070223" MODIFIED="1257347074066" TEXT="Stratospheric.HeterChem">
+<node COLOR="#000000" CREATED="1244069441485" FOLDED="true" ID="Freemind_Link_1820070223" MODIFIED="1257347074066" TEXT="Stratospheric.HeterChem">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1244058101228" ID="Freemind_Link_61219831" MODIFIED="1256200475577" TEXT="Species">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1244063735330" ID="Freemind_Link_1274278688" MODIFIED="1250177585537" TEXT="GasPhase">
+<node COLOR="#996600" CREATED="1244063735330" ID="Freemind_Link_1274278688" MODIFIED="1258990554403" TEXT="GasPhase">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Which gas phase species are included in the stratospheric heterogeneous chemistry scheme?[/definition]</text>
+</hook>
 <node COLOR="#111111" CREATED="1244063822635" ID="Freemind_Link_1006717839" MODIFIED="1250167714129" STYLE="fork" TEXT="Cly">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
@@ -1321,8 +1324,11 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244063743933" ID="Freemind_Link_561874729" MODIFIED="1256200506996" TEXT="Aerosol-PSC">
+<node COLOR="#996600" CREATED="1244063743933" ID="Freemind_Link_561874729" MODIFIED="1258990579176" TEXT="Aerosol-PSC">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Which aerosol species are included in the stratospheric heterogeneous chemistry scheme?[/definition]</text>
+</hook>
 <node COLOR="#111111" CREATED="1244058162497" ID="Freemind_Link_467345864" MODIFIED="1250167714114" STYLE="fork" TEXT="Ice">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
@@ -1347,8 +1353,11 @@
 </node>
 <node COLOR="#990099" CREATED="1243421967109" ID="Freemind_Link_840670510" MODIFIED="1256200475537" TEXT="Processes">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1244069718439" ID="Freemind_Link_433279967" MODIFIED="1250606683880" TEXT="Sedimentation">
+<node COLOR="#996600" CREATED="1244069718439" ID="Freemind_Link_433279967" MODIFIED="1258990781458" TEXT="Sedimentation">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Is sedimentation included in the stratospheric heterogeneous chemistry scheme?  Sedimentation is the vertical settling of particles. [/definition]</text>
+</hook>
 <node COLOR="#111111" CREATED="1244467519029" ID="Freemind_Link_1664722456" MODIFIED="1250167714082" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -1358,10 +1367,10 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244069953392" ID="Freemind_Link_1499725962" MODIFIED="1253695222858" TEXT="Coagulation">
+<node COLOR="#996600" CREATED="1244069953392" ID="Freemind_Link_1499725962" MODIFIED="1258991289053" TEXT="Coagulation">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[info]Implies link/coupling with aerosol scheme.[/info]</text>
+<text>[definition]Is coagulation included in the stratospheric heterogeneous chemistry scheme?  Coagulation is a process by which aerosol particles grow. [/definition]&#xa;[info]Implies link/coupling with aerosol scheme.[/info]</text>
 </hook>
 <node COLOR="#111111" CREATED="1244467542616" ID="Freemind_Link_904056364" MODIFIED="1250167714051" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1375,22 +1384,31 @@
 </node>
 <node COLOR="#990099" CREATED="1243421955578" ID="Freemind_Link_414974984" MODIFIED="1256200475469" TEXT="NumOfReactionsAndSpecies">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1243421950156" ID="Freemind_Link_114942711" MODIFIED="1250177568343" TEXT="NumberOfReactions">
+<node COLOR="#996600" CREATED="1243421950156" ID="Freemind_Link_114942711" MODIFIED="1258991348283" TEXT="NumberOfReactions">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Enter the number of reactions in the stratospheric heterogeneous chemistry scheme.[/definition]</text>
+</hook>
 <node CREATED="1250169579304" ID="Freemind_Link_798477784" MODIFIED="1250604655568" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1243422663812" ID="Freemind_Link_969923922" MODIFIED="1250606773939" TEXT="NumberOfAdvectedSpecies">
+<node COLOR="#996600" CREATED="1243422663812" ID="Freemind_Link_969923922" MODIFIED="1258991383803" TEXT="NumberOfAdvectedSpecies">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Enter the number of advected species in the stratospheric heterogeneous chemistry scheme.[/definition]</text>
+</hook>
 <node CREATED="1250169579304" ID="Freemind_Link_795037769" MODIFIED="1250604655568" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1243422663812" ID="Freemind_Link_1355626859" MODIFIED="1250606778236" TEXT="NumberOfSteadyStateSpecies">
+<node COLOR="#996600" CREATED="1243422663812" ID="Freemind_Link_1355626859" MODIFIED="1258991404831" TEXT="NumberOfSteadyStateSpecies">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Enter the number of steady state species in the stratospheric heterogeneous chemistry scheme.[/definition]</text>
+</hook>
 <node CREATED="1250169579304" ID="Freemind_Link_146022616" MODIFIED="1250604655568" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
