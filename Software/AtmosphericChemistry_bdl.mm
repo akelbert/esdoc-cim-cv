@@ -4,7 +4,7 @@
 <edge WIDTH="2"/>
 <font ITALIC="true" NAME="Arial" SIZE="15"/>
 <hook NAME="accessories/plugins/CreationModificationPlugin_new.properties"/>
-<node COLOR="#000000" CREATED="1243415250546" ID="Freemind_Link_1289853867" MODIFIED="1257775585752" POSITION="right" STYLE="bubble" TEXT="AtmosphericChemistry">
+<node COLOR="#000000" CREATED="1243415250546" ID="Freemind_Link_1289853867" MODIFIED="1258989959256" POSITION="right" STYLE="bubble" TEXT="AtmosphericChemistry">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node COLOR="#000000" CREATED="1253796559148" ID="Freemind_Link_969659526" MODIFIED="1257775576119" TEXT="AtmChemKeyProperties_">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
@@ -479,7 +479,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1243421900109" ID="Freemind_Link_1833059964" MODIFIED="1257775613528" TEXT="AtmChem_Transport">
+<node COLOR="#000000" CREATED="1243421900109" FOLDED="true" ID="Freemind_Link_1833059964" MODIFIED="1257775613528" TEXT="AtmChem_Transport">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1256285080292" ID="Freemind_Link_330267481" MODIFIED="1257775617654" TEXT="AtmChemTransportAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
@@ -574,7 +574,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1243422071515" ID="Freemind_Link_1203732598" MODIFIED="1257938802035" TEXT="AtmChem_EmissionAndConc">
+<node COLOR="#000000" CREATED="1243422071515" FOLDED="true" ID="Freemind_Link_1203732598" MODIFIED="1257938802035" TEXT="AtmChem_EmissionAndConc">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#000000" CREATED="1243422235015" ID="Freemind_Link_198420355" MODIFIED="1257938101519" TEXT="2D-Sources">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
@@ -1142,12 +1142,15 @@
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1244062026857" ID="Freemind_Link_1658904618" MODIFIED="1257783664553" TEXT="Atm_GasPhaseChemistry">
+<node COLOR="#000000" CREATED="1244062026857" FOLDED="true" ID="Freemind_Link_1658904618" MODIFIED="1257783664553" TEXT="Atm_GasPhaseChemistry">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1258105576222" ID="_" MODIFIED="1258105604395" TEXT="AtmGasPhaseChemistryAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1243421960140" ID="Freemind_Link_1586399056" MODIFIED="1258105615734" TEXT="Species">
+<node COLOR="#996600" CREATED="1243421960140" ID="Freemind_Link_1586399056" MODIFIED="1258987614932" TEXT="Species">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Which species are included in the gas phase chemistry scheme?[/definition]</text>
+</hook>
 <node COLOR="#111111" CREATED="1243422025640" ID="Freemind_Link_806402109" MODIFIED="1250167615428" STYLE="fork" TEXT="HOx">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
@@ -1192,8 +1195,11 @@
 </node>
 <node COLOR="#990099" CREATED="1243421967109" ID="Freemind_Link_1856848959" MODIFIED="1256200444621" TEXT="Processes">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1243422075515" ID="Freemind_Link_1525698741" MODIFIED="1250171015105" TEXT="DryDeposition">
+<node COLOR="#996600" CREATED="1243422075515" ID="Freemind_Link_1525698741" MODIFIED="1258990121759" TEXT="DryDeposition">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Is dry deposition prescribed or interactive?  Dry deposition describes the dry processes by which gaseous species deposit themselves on solid surfaces thus decreasing their concentration in the air.[/definition]</text>
+</hook>
 <node COLOR="#111111" CREATED="1243422111046" ID="Freemind_Link_629893309" MODIFIED="1253695188148" STYLE="fork" TEXT="prescribed">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -1203,8 +1209,11 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1243422079562" ID="Freemind_Link_1815102915" MODIFIED="1250171019574" TEXT="WetDeposition">
+<node COLOR="#996600" CREATED="1243422079562" ID="Freemind_Link_1815102915" MODIFIED="1258990175594" TEXT="WetDeposition">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Is wet deposition included?  Wet deposition describes the moist processes by which gaseous species deposit themselves on solid surfaces thus decreasing their concentration in the air.[/definition]</text>
+</hook>
 <node COLOR="#111111" CREATED="1244467432064" ID="Freemind_Link_964595177" MODIFIED="1250167614742" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -1214,8 +1223,11 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244068541318" ID="Freemind_Link_339660491" MODIFIED="1250171022047" TEXT="Oxidation">
+<node COLOR="#996600" CREATED="1244068541318" ID="Freemind_Link_339660491" MODIFIED="1258990047629" TEXT="Oxidation">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Is oxidation included? Oxidation describes the loss of electrons or an increase in oxidation state by a molecule. [/definition]</text>
+</hook>
 <node COLOR="#111111" CREATED="1244467439958" ID="Freemind_Link_1895355301" MODIFIED="1250167614726" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -1242,29 +1254,41 @@
 </node>
 <node COLOR="#990099" CREATED="1243421950156" ID="Freemind_Link_1148089485" MODIFIED="1256200759012" TEXT="NumOfReactionsAndSpecies">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1243422663812" ID="Freemind_Link_418531539" MODIFIED="1250604819064" TEXT="NumberOfBimolecularReactions">
+<node COLOR="#996600" CREATED="1243422663812" ID="Freemind_Link_418531539" MODIFIED="1258990279278" TEXT="NumberOfBimolecularReactions">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Enter the number of bi-molecular reactions in the gas phase chemistry scheme.[/definition]</text>
+</hook>
 <node CREATED="1250169579304" ID="Freemind_Link_1603669206" MODIFIED="1250604655568" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1243422663812" ID="Freemind_Link_459989577" MODIFIED="1250604825904" TEXT="NumberOfTermolecularReactions">
+<node COLOR="#996600" CREATED="1243422663812" ID="Freemind_Link_459989577" MODIFIED="1258990309682" TEXT="NumberOfTermolecularReactions">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Enter the number of ter-molecular reactions in the gas phase chemistry scheme.[/definition]</text>
+</hook>
 <node CREATED="1250169579304" ID="Freemind_Link_504678623" MODIFIED="1250604655568" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1243422663812" ID="Freemind_Link_1775179408" MODIFIED="1250604830530" TEXT="NumberOfAdvectedSpecies">
+<node COLOR="#996600" CREATED="1243422663812" ID="Freemind_Link_1775179408" MODIFIED="1258990334673" TEXT="NumberOfAdvectedSpecies">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Enter the number of advected species in the gas phase chemistry scheme.[/definition]</text>
+</hook>
 <node CREATED="1250169579304" ID="Freemind_Link_1945310536" MODIFIED="1250604655568" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1243422663812" ID="Freemind_Link_206533849" MODIFIED="1250604834921" TEXT="NumberOfSteadyStateSpecies">
+<node COLOR="#996600" CREATED="1243422663812" ID="Freemind_Link_206533849" MODIFIED="1258990351396" TEXT="NumberOfSteadyStateSpecies">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Enter the number of steady state species in the gas phase chemistry scheme.[/definition]</text>
+</hook>
 <node CREATED="1250169579304" ID="Freemind_Link_1947590912" MODIFIED="1250604655568" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
