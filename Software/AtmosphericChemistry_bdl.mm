@@ -10,10 +10,10 @@
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1254486057572" ID="Freemind_Link_26535854" MODIFIED="1257775566525" TEXT="AtmChemKeyPropertiesAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1243421913562" ID="Freemind_Link_879113611" MODIFIED="1258983951897" TEXT="ChemSchemeScope">
+<node COLOR="#996600" CREATED="1243421913562" ID="Freemind_Link_879113611" MODIFIED="1259071869729" TEXT="ChemSchemeScope">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Atmospheric domain covered by the atmospheric chemistry scheme.[/definition]</text>
+<text>[definition]Which atmospheric domains are covered by the atmospheric chemistry scheme.[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1243422645484" ID="Freemind_Link_1190317719" MODIFIED="1257333960910" STYLE="fork" TEXT="troposphere">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1142,7 +1142,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1244062026857" ID="Freemind_Link_1658904618" MODIFIED="1257783664553" TEXT="Atm_GasPhaseChemistry">
+<node COLOR="#000000" CREATED="1244062026857" FOLDED="true" ID="Freemind_Link_1658904618" MODIFIED="1257783664553" TEXT="Atm_GasPhaseChemistry">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1258105576222" ID="_" MODIFIED="1258105604395" TEXT="AtmGasPhaseChemistryAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1298,7 +1298,7 @@
 </node>
 <node COLOR="#000000" CREATED="1244057714894" ID="Freemind_Link_47709925" MODIFIED="1257783679397" TEXT="Atm_HeterogeneousChemistry">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#000000" CREATED="1244069441485" FOLDED="true" ID="Freemind_Link_1820070223" MODIFIED="1257347074066" TEXT="Stratospheric.HeterChem">
+<node COLOR="#000000" CREATED="1244069441485" ID="Freemind_Link_1820070223" MODIFIED="1257347074066" TEXT="Stratospheric.HeterChem">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1244058101228" ID="Freemind_Link_61219831" MODIFIED="1256200475577" TEXT="Species">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1559,10 +1559,10 @@
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1243422093890" ID="Freemind_Link_690400866" MODIFIED="1256200821217" TEXT="Photolysis">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1250608849938" ID="Freemind_Link_125663643" MODIFIED="1253695307378" TEXT="Method">
+<node COLOR="#996600" CREATED="1250608849938" ID="Freemind_Link_125663643" MODIFIED="1259071999127" TEXT="Method">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[info]Offline: does the look up table take clouds into account with respect to effective photolysis rate for photodissociation?[/info]</text>
+<text>[definition]Is the photolysis scheme online or offline? If it is offline, does the look up table take clouds into account with respect to effective photolysis rate for photodissociation?[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1243422121875" ID="Freemind_Link_221094950" MODIFIED="1256200880764" STYLE="fork" TEXT="offline (clearsky)">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1579,10 +1579,10 @@
 </node>
 <node COLOR="#0033ff" CREATED="1256200829443" ID="Freemind_Link_237675487" MODIFIED="1257347227810" TEXT="if Method is &quot;online&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1243422121875" ID="Freemind_Link_1047443208" MODIFIED="1257347223582" TEXT="Processes">
+<node COLOR="#996600" CREATED="1243422121875" ID="Freemind_Link_1047443208" MODIFIED="1259071975445" TEXT="Processes">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[constraint]Only required if &quot;online&quot; is selected for &quot;Photolysis&quot;.[/constraint]</text>
+<text>[definition]Which processes are included in the photolysis scheme?[/definition]&#xa;[constraint]Only required if &quot;online&quot; is selected for &quot;Photolysis&quot;.[/constraint]</text>
 </hook>
 <node COLOR="#111111" CREATED="1244070709690" ID="Freemind_Link_1823260407" MODIFIED="1256200912835" STYLE="fork" TEXT="scattering">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1600,10 +1600,17 @@
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-</node>
-</node>
-<node COLOR="#996600" CREATED="1239094899251" ID="Freemind_Link_454827706" MODIFIED="1250608655297" TEXT="ReactionsData">
+<node COLOR="#111111" CREATED="1244467490644" ID="Freemind_Link_1941474267" MODIFIED="1250167714098" STYLE="fork" TEXT="other">
 <font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+</node>
+</node>
+<node COLOR="#996600" CREATED="1239094899251" ID="Freemind_Link_454827706" MODIFIED="1259072201776" TEXT="ReactionData">
+<font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]What reaction information is taken into account by the photolysis scheme?[/definition]</text>
+</hook>
 <node COLOR="#000000" CREATED="1239095123501" ID="Freemind_Link_24979302" MODIFIED="1250608665226" STYLE="fork" TEXT="updated reaction absorption cross sections">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
@@ -1612,19 +1619,29 @@
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
+<node COLOR="#111111" CREATED="1244467490644" ID="Freemind_Link_1535665372" MODIFIED="1250167714098" STYLE="fork" TEXT="other">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
 </node>
 </node>
 <node COLOR="#990099" CREATED="1243421955578" ID="Freemind_Link_1345394609" MODIFIED="1256200821167" TEXT="NumOfReactionsAndSpecies">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1243421950156" ID="Freemind_Link_1854432849" MODIFIED="1250177568343" TEXT="NumberOfReactions">
+<node COLOR="#996600" CREATED="1243421950156" ID="Freemind_Link_1854432849" MODIFIED="1259072326429" TEXT="NumberOfReactions">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Enter the number of reactions in the photo-chemistry scheme.[/definition]</text>
+</hook>
 <node CREATED="1250169579304" ID="Freemind_Link_1857371438" MODIFIED="1250604655568" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1243421955578" ID="Freemind_Link_1066338150" MODIFIED="1250183457232" TEXT="NumberOfSpecies">
+<node COLOR="#996600" CREATED="1243421955578" ID="Freemind_Link_1066338150" MODIFIED="1259072350407" TEXT="NumberOfSpecies">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Enter the number of species in the photo-chemistry scheme.[/definition]</text>
+</hook>
 <node CREATED="1250169579304" ID="Freemind_Link_983980680" MODIFIED="1250604655568" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
