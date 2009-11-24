@@ -8,7 +8,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node COLOR="#000000" CREATED="1253796559148" ID="Freemind_Link_969659526" MODIFIED="1257775576119" TEXT="AtmChemKeyProperties_">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#990099" CREATED="1254486057572" ID="Freemind_Link_26535854" MODIFIED="1257775566525" TEXT="AtmChemKeyPropertiesAttributes_">
+<node COLOR="#990099" CREATED="1254486057572" FOLDED="true" ID="Freemind_Link_26535854" MODIFIED="1257775566525" TEXT="AtmChemKeyPropertiesAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1243421913562" ID="Freemind_Link_879113611" MODIFIED="1259073083609" TEXT="ChemSchemeScope">
 <font NAME="SansSerif" SIZE="14"/>
@@ -228,7 +228,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1233751261777" ID="Freemind_Link_1153520910" MODIFIED="1257779770368" STYLE="bubble" TEXT="TimeSteppingFramework">
+<node COLOR="#990099" CREATED="1233751261777" FOLDED="true" ID="Freemind_Link_1153520910" MODIFIED="1257779770368" STYLE="bubble" TEXT="TimeSteppingFramework">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1239098125683" ID="Freemind_Link_1971524831" MODIFIED="1259073298234" STYLE="bubble" TEXT="Method">
 <font NAME="SansSerif" SIZE="14"/>
@@ -457,7 +457,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1239099014334" ID="Freemind_Link_1376668304" MODIFIED="1257346330546" STYLE="bubble" TEXT="MeteorologicalForcings">
+<node COLOR="#990099" CREATED="1239099014334" FOLDED="true" ID="Freemind_Link_1376668304" MODIFIED="1257346330546" STYLE="bubble" TEXT="MeteorologicalForcings">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1239099027851" ID="Freemind_Link_1135732469" MODIFIED="1257346351150" STYLE="bubble" TEXT="3D-Variables">
 <font NAME="SansSerif" SIZE="14"/>
@@ -590,9 +590,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1243422071515" FOLDED="true" ID="Freemind_Link_1203732598" MODIFIED="1257938802035" TEXT="AtmChem_EmissionAndConc">
+<node COLOR="#000000" CREATED="1243422071515" ID="Freemind_Link_1203732598" MODIFIED="1257938802035" TEXT="AtmChem_EmissionAndConc">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#000000" CREATED="1243422235015" ID="Freemind_Link_198420355" MODIFIED="1257938101519" TEXT="2D-Sources">
+<node COLOR="#000000" CREATED="1243422235015" FOLDED="true" ID="Freemind_Link_198420355" MODIFIED="1259077662641" TEXT="AtmChem_2D-Sources">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1243422252593" ID="Freemind_Link_625857925" MODIFIED="1257938053376" TEXT="Vegetation">
 <font NAME="SansSerif" SIZE="14"/>
@@ -867,7 +867,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1243422238671" ID="Freemind_Link_85250288" MODIFIED="1256199546033" TEXT="3D-Sources">
+<node COLOR="#000000" CREATED="1243422238671" ID="Freemind_Link_85250288" MODIFIED="1259077681098" TEXT="AtmChem_3D-Sources">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1243422252593" ID="Freemind_Link_786529567" MODIFIED="1256199523795" TEXT="Aircraft">
 <font NAME="SansSerif" SIZE="14"/>
