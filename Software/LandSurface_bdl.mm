@@ -6,7 +6,7 @@
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233138687431" ID="Freemind_Link_202444751" MODIFIED="1233935481092" POSITION="right" STYLE="bubble" TEXT="LandSurface">
 <edge COLOR="#999999"/>
 <font BOLD="true" NAME="Arial" SIZE="16"/>
-<node COLOR="#000000" CREATED="1253796559148" FOLDED="true" ID="Freemind_Link_969659526" MODIFIED="1257328120406" TEXT="LandSurfaceKeyProperties_">
+<node COLOR="#000000" CREATED="1253796559148" FOLDED="true" ID="Freemind_Link_969659526" MODIFIED="1259073061656" TEXT="LandSurfaceKeyProperties_">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1254486057572" FOLDED="true" ID="Freemind_Link_26535854" MODIFIED="1257330680947" TEXT="LandSurfaceKeyPropertiesAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
@@ -46,8 +46,11 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1241016256943" ID="Freemind_Link_294918042" MODIFIED="1255424211065" TEXT="CouplingWithAtmosphere">
+<node COLOR="#996600" CREATED="1241016256943" ID="Freemind_Link_294918042" MODIFIED="1259062988625" TEXT="CouplingWithAtmosphere">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Specify the treatment of land surface coupling with the Atmosphere model component [/definition]</text>
+</hook>
 <node CREATED="1241016314385" ID="Freemind_Link_1812932230" MODIFIED="1243343298099" STYLE="fork" TEXT="implicit">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -69,8 +72,11 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233587234324" ID="Freemind_Link_1238843736" MODIFIED="1256745382994" TEXT="ListOfPrognosticVariables">
+<node COLOR="#996600" CREATED="1233587234324" ID="Freemind_Link_1238843736" MODIFIED="1259063476046" TEXT="ListOfPrognosticVariables">
 <font NAME="Arial" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Specify which prognostic variables are included in the land surface scheme[/definition]</text>
+</hook>
 <node COLOR="#000000" CREATED="1233671008937" ID="Freemind_Link_1271360924" MODIFIED="1255441651574" STYLE="fork" TEXT="soil temperature">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
@@ -141,10 +147,13 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1256302801265" FOLDED="true" ID="Freemind_Link_1170747936" MODIFIED="1256745410016" TEXT="ConservationOfProperties">
+<node COLOR="#990099" CREATED="1256302801265" FOLDED="true" ID="Freemind_Link_1170747936" MODIFIED="1259063904265" TEXT="ConservationOfProperties">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1256302813200" ID="Freemind_Link_852560391" MODIFIED="1257242944308" TEXT="WaterTreatment">
+<node COLOR="#996600" CREATED="1256302813200" ID="Freemind_Link_852560391" MODIFIED="1259063862406" TEXT="WaterTreatment">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Specify the treatment of water to ocean[/definition]</text>
+</hook>
 <node CREATED="1256302886096" ID="Freemind_Link_442204536" MODIFIED="1256681420235" STYLE="fork" TEXT="All water sent to ocean (Instantly)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -173,8 +182,11 @@
 </node>
 <node COLOR="#0033ff" CREATED="1256681454911" ID="Freemind_Link_17443111" MODIFIED="1257242959689" TEXT="if WaterTreatment is &quot;Storage&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1256681489506" ID="Freemind_Link_145769693" MODIFIED="1256681775382" TEXT="WaterStorageMethod">
+<node COLOR="#996600" CREATED="1256681489506" ID="Freemind_Link_145769693" MODIFIED="1259063964187" TEXT="WaterStorageMethod">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Give further details of the water storage method[/definition]</text>
+</hook>
 <node CREATED="1256302841712" ID="Freemind_Link_1869393551" MODIFIED="1256681814963" STYLE="fork" TEXT="snow as infinite reservoir">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
@@ -190,12 +202,15 @@
 <icon BUILTIN="messagebox_warning"/>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1253796609575" ID="Freemind_Link_1291132512" MODIFIED="1257328104281" TEXT="LandSurfaceSpaceConfig_">
+<node COLOR="#000000" CREATED="1253796609575" FOLDED="true" ID="Freemind_Link_1291132512" MODIFIED="1259064091718" TEXT="LandSurfaceSpaceConfig_">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1233751003143" ID="Freemind_Link_305402916" MODIFIED="1257336170276" STYLE="bubble" TEXT="Horizontal.Domain">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1244818261466" ID="Freemind_Link_251998270" MODIFIED="1246368002506" TEXT="Tiling">
+<node COLOR="#996600" CREATED="1244818261466" ID="Freemind_Link_251998270" MODIFIED="1259064078609" TEXT="Tiling">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Is land surface tiling common to all land surface subcomponents?[/definition]</text>
+</hook>
 <node CREATED="1244818272753" ID="Freemind_Link_1639682198" MODIFIED="1245933605578" STYLE="fork" TEXT="common to all LS subcomponents">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -207,8 +222,11 @@
 </node>
 <node COLOR="#0033ff" CREATED="1255423797658" ID="Freemind_Link_1261616065" MODIFIED="1255438970127" TEXT="if Tiling is &quot;common to all LS subcomponents&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1244818261466" ID="Freemind_Link_1236904194" MODIFIED="1253699870029" TEXT="TilingMethod">
+<node COLOR="#996600" CREATED="1244818261466" ID="Freemind_Link_1236904194" MODIFIED="1259064135921" TEXT="TilingMethod">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Describe the method of tiling used[/definition]</text>
+</hook>
 <node CREATED="1244818325771" ID="Freemind_Link_1762279460" MODIFIED="1245933613120" STYLE="fork" TEXT="dynamic">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -219,8 +237,11 @@
 </node>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1257238915649" ID="Freemind_Link_62478766" MODIFIED="1257260235048" TEXT="GridConfig">
+<node COLOR="#996600" CREATED="1257238915649" ID="Freemind_Link_62478766" MODIFIED="1259069466187" TEXT="GridConfig">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Is the grid used the same as that of the atmosphere?[/definition]</text>
+</hook>
 <node CREATED="1241016231102" ID="Freemind_Link_369571002" MODIFIED="1257243151335" STYLE="fork" TEXT="same as Atmosphere">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -255,10 +276,13 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1233751261777" FOLDED="true" ID="Freemind_Link_1153520910" MODIFIED="1255440450989" STYLE="bubble" TEXT="TimeSteppingFramework">
+<node COLOR="#990099" CREATED="1233751261777" ID="Freemind_Link_1153520910" MODIFIED="1255440450989" STYLE="bubble" TEXT="TimeSteppingFramework">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1253870854444" ID="Freemind_Link_1713086568" MODIFIED="1256255375717" TEXT="Method">
+<node COLOR="#996600" CREATED="1253870854444" FOLDED="true" ID="Freemind_Link_1713086568" MODIFIED="1259069984156" TEXT="Method">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Is the time stepping framework used the same as that used in the atmosphere model component?[/definition]</text>
+</hook>
 <node CREATED="1241016231102" ID="Freemind_Link_1926509417" MODIFIED="1257289552077" STYLE="fork" TEXT="use Atmosphere time step">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -270,8 +294,11 @@
 </node>
 <node COLOR="#0033ff" CREATED="1257289874444" ID="Freemind_Link_1371926739" MODIFIED="1257289902211" TEXT="if Method is &quot;specific time step&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1253870854444" ID="Freemind_Link_558777249" MODIFIED="1257289963232" TEXT="TimeStep">
+<node COLOR="#996600" CREATED="1253870854444" ID="Freemind_Link_558777249" MODIFIED="1259070135359" TEXT="TimeStep">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Enter the length of timestep in seconds[/definition]</text>
+</hook>
 <node COLOR="#000000" CREATED="1233270123274" ID="Freemind_Link_857353586" MODIFIED="1257289977239" STYLE="fork" TEXT="seconds">
 <font NAME="Arial" SIZE="15"/>
 <icon BUILTIN="full-1"/>
@@ -280,7 +307,7 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233667756023" FOLDED="true" ID="Freemind_Link_1463732347" MODIFIED="1256226512931" TEXT="LandSurface_Soil">
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233667756023" FOLDED="true" ID="Freemind_Link_1463732347" MODIFIED="1259071895437" TEXT="LandSurface_Soil">
 <font BOLD="true" NAME="Arial" SIZE="14"/>
 <node COLOR="#990099" CREATED="1233671585981" ID="Freemind_Link_1643577384" MODIFIED="1256686033921" TEXT="SoilMap">
 <font NAME="SansSerif" SIZE="14"/>
@@ -325,12 +352,15 @@
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1233668397177" ID="Freemind_Link_1958920027" MODIFIED="1257328156254" TEXT="LandSurfSoil_Hydrology">
+<node COLOR="#000000" CREATED="1233668397177" FOLDED="true" ID="Freemind_Link_1958920027" MODIFIED="1257328156254" TEXT="LandSurfSoil_Hydrology">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1255524973818" ID="Freemind_Link_1941274359" MODIFIED="1257289125543" TEXT="SoilHydrologyAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233669059468" ID="Freemind_Link_1072397625" MODIFIED="1246455597862" TEXT="SpecificTiling">
+<node COLOR="#996600" CREATED="1233669059468" ID="Freemind_Link_1072397625" MODIFIED="1259061145828" TEXT="SpecificTiling">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Does the model use a tiling scheme within soil hydrology?[/definition]</text>
+</hook>
 <node CREATED="1241021817565" ID="Freemind_Link_30394104" MODIFIED="1241598448482" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -340,15 +370,21 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233668516790" ID="Freemind_Link_1676758533" MODIFIED="1233932889324" TEXT="NumberOfGroundWaterLayers">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233668516790" ID="Freemind_Link_1676758533" MODIFIED="1259060471203" TEXT="NumberOfGroundWaterLayers">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Enter the number of ground water levels used in the land surface scheme/model[/definition]</text>
+</hook>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233881613647" ID="Freemind_Link_262904477" MODIFIED="1246370592264" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233668537999" ID="Freemind_Link_1038436047" MODIFIED="1246368859531" TEXT="WaterStorageMethod">
+<node COLOR="#996600" CREATED="1233668537999" ID="Freemind_Link_1038436047" MODIFIED="1259060539468" TEXT="WaterStorageMethod">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Describe the method by which water is stored in the land surface scheme/model[/definition]</text>
+</hook>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233669756304" ID="Freemind_Link_1469122356" MODIFIED="1233932889308" STYLE="fork" TEXT="Bucket">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -373,22 +409,31 @@
 </node>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#990099" CREATED="1233668493554" ID="Freemind_Link_677258902" MODIFIED="1255523558352" TEXT="SoilMoistureFreezing">
 <font NAME="SansSerif" SIZE="14"/>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233670963767" ID="Freemind_Link_836788425" MODIFIED="1233932889043" STYLE="bubble" TEXT="NumberOfGroundIceLayers">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233670963767" ID="Freemind_Link_836788425" MODIFIED="1259060784078" STYLE="bubble" TEXT="NumberOfGroundIceLayers">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]How many ground ice layers are included in the land surface scheme[/definition]</text>
+</hook>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233881613647" ID="Freemind_Link_1557479879" MODIFIED="1246370592264" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233671081064" ID="Freemind_Link_852906192" MODIFIED="1233932889027" STYLE="bubble" TEXT="IceStorageMethod">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233671081064" ID="Freemind_Link_852906192" MODIFIED="1259060838437" STYLE="bubble" TEXT="IceStorageMethod">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Describe the method of ice storage[/definition]</text>
+</hook>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233881613647" ID="Freemind_Link_1077946825" MODIFIED="1257290065086" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="pencil"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233671008937" ID="Freemind_Link_1683915050" MODIFIED="1246370313510" TEXT="Permafrost">
+<node COLOR="#996600" CREATED="1233671008937" ID="Freemind_Link_1683915050" MODIFIED="1259060901093" TEXT="Permafrost">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Describe the treatment of permafrost within the land surface scheme[/definition]</text>
+</hook>
 <node COLOR="#000000" CREATED="1241017398188" ID="Freemind_Link_1157139410" MODIFIED="1246370683268" STYLE="fork" TEXT="specific treatment">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
@@ -401,8 +446,11 @@
 </node>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#990099" CREATED="1233669059468" ID="Freemind_Link_1683774388" MODIFIED="1255525022848" TEXT="Runoff-Drainage">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233671008937" ID="Freemind_Link_708616682" MODIFIED="1246369704214" TEXT="Method">
+<node COLOR="#996600" CREATED="1233671008937" ID="Freemind_Link_708616682" MODIFIED="1259060977046" TEXT="Method">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Specify the treatment of runoff[/definition]</text>
+</hook>
 <node CREATED="1241017759232" ID="Freemind_Link_264966494" MODIFIED="1253538858540" STYLE="fork" TEXT="bulk (undifferentiated drainage and runoff)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -414,8 +462,11 @@
 </node>
 <node COLOR="#0033ff" CREATED="1255528720988" ID="Freemind_Link_1145483275" MODIFIED="1255528808216" TEXT="if Method is &quot;differentiated drainage and runoff&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233671008937" ID="Freemind_Link_310597912" MODIFIED="1255524936058" TEXT="Processes">
+<node COLOR="#996600" CREATED="1233671008937" ID="Freemind_Link_310597912" MODIFIED="1259061088671" TEXT="Processes">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Specify processes treated within the runoff and drainage scheme[/definition]</text>
+</hook>
 <node COLOR="#000000" CREATED="1233669219773" ID="Freemind_Link_748295060" MODIFIED="1246369986562" STYLE="fork" TEXT="deep drainage">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
@@ -444,12 +495,15 @@
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1233668467167" ID="Freemind_Link_1690668644" MODIFIED="1257328164200" TEXT="LandSurfSoil_HeatTreatment">
+<node COLOR="#000000" CREATED="1233668467167" FOLDED="true" ID="Freemind_Link_1690668644" MODIFIED="1257328164200" TEXT="LandSurfSoil_HeatTreatment">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1255525202122" ID="Freemind_Link_1976189591" MODIFIED="1257289118223" TEXT="SoilHeatTreatmentAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233669059468" ID="Freemind_Link_1366881578" MODIFIED="1246455604805" TEXT="SpecificTiling">
+<node COLOR="#996600" CREATED="1233669059468" ID="Freemind_Link_1366881578" MODIFIED="1259061168078" TEXT="SpecificTiling">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Is tiling used in the treatment of soil heat? [/definition]</text>
+</hook>
 <node CREATED="1241021817565" ID="Freemind_Link_1935322728" MODIFIED="1241598448482" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -459,8 +513,11 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233670511633" ID="Freemind_Link_1017876451" MODIFIED="1243332851398" TEXT="NumberOfGroundHeatLayers">
+<node COLOR="#996600" CREATED="1233670511633" ID="Freemind_Link_1017876451" MODIFIED="1259061275125" TEXT="NumberOfGroundHeatLayers">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]How many layers are used in ground heat treatment?[/definition]</text>
+</hook>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233881613647" ID="Freemind_Link_1101605747" MODIFIED="1246370592264" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
@@ -469,8 +526,11 @@
 </node>
 <node COLOR="#990099" CREATED="1255530293355" ID="Freemind_Link_645140987" MODIFIED="1255530326677" TEXT="Method">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233670536694" ID="Freemind_Link_181230458" MODIFIED="1255530317855" TEXT="HeatStorage">
+<node COLOR="#996600" CREATED="1233670536694" ID="Freemind_Link_181230458" MODIFIED="1259061314890" TEXT="HeatStorage">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Specify the method of heat storage[/definition]</text>
+</hook>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233670582457" ID="Freemind_Link_806025810" MODIFIED="1233932889074" STYLE="fork" TEXT="Force-Restore">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -484,8 +544,11 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233671008937" ID="Freemind_Link_455811500" MODIFIED="1255525176975" TEXT="Processes">
+<node COLOR="#996600" CREATED="1233671008937" ID="Freemind_Link_455811500" MODIFIED="1259061373656" TEXT="Processes">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Describe processes included in the treatment of soil heat[/definition]</text>
+</hook>
 <node COLOR="#000000" CREATED="1233669219773" ID="Freemind_Link_240024363" MODIFIED="1246370819853" STYLE="fork" TEXT="soil moisture freeze-thaw">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
@@ -502,8 +565,11 @@
 <font BOLD="true" NAME="Arial" SIZE="14"/>
 <node COLOR="#990099" CREATED="1255525202122" ID="Freemind_Link_129653115" MODIFIED="1257289105922" TEXT="LandSurfaceSnowAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233669059468" ID="Freemind_Link_718398192" MODIFIED="1246455613615" TEXT="SpecificTiling">
+<node COLOR="#996600" CREATED="1233669059468" ID="Freemind_Link_718398192" MODIFIED="1259062239828" TEXT="SpecificTiling">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Is tiling used in the land surface snow scheme?[/definition]</text>
+</hook>
 <node CREATED="1241021817565" ID="Freemind_Link_80676102" MODIFIED="1241598448482" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -513,9 +579,12 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233672493362" ID="Freemind_Link_417797983" MODIFIED="1233883985572" TEXT="NumberOfSnowLayers">
+<node COLOR="#996600" CREATED="1233672493362" ID="Freemind_Link_417797983" MODIFIED="1259062273343" TEXT="NumberOfSnowLayers">
 <edge COLOR="#808080" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]How many snow layers are included in the model?[/definition]</text>
+</hook>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233881613647" ID="Freemind_Link_1876700916" MODIFIED="1246370592264" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
@@ -598,8 +667,11 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233671008937" ID="Freemind_Link_532103347" MODIFIED="1246373924771" TEXT="SnowLiquidWaterContent">
+<node COLOR="#996600" CREATED="1233671008937" ID="Freemind_Link_532103347" MODIFIED="1259062328156" TEXT="SnowLiquidWaterContent">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Description of the treatment of the snow liquid water treatment[/definition]</text>
+</hook>
 <node COLOR="#000000" CREATED="1233674393965" ID="Freemind_Link_1753173235" MODIFIED="1246373782463" STYLE="fork" TEXT="prognostic">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -609,8 +681,11 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233671008937" ID="Freemind_Link_403481699" MODIFIED="1246373686044" TEXT="SnowCoverFractions">
+<node COLOR="#996600" CREATED="1233671008937" ID="Freemind_Link_403481699" MODIFIED="1259062535703" TEXT="SnowCoverFractions">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Specify cover fractions used in the surface snow scheme[/definition] </text>
+</hook>
 <node COLOR="#000000" CREATED="1241078982017" ID="Freemind_Link_1862199623" MODIFIED="1246373490599" STYLE="fork" TEXT="ground snow fraction">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
@@ -652,12 +727,15 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233139703477" ID="Freemind_Link_875431467" MODIFIED="1256226605197" TEXT="LandSurface_Vegetation">
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233139703477" FOLDED="true" ID="Freemind_Link_875431467" MODIFIED="1256226605197" TEXT="LandSurface_Vegetation">
 <font BOLD="true" NAME="Arial" SIZE="14"/>
 <node COLOR="#990099" CREATED="1255526755516" ID="Freemind_Link_545498352" MODIFIED="1257289098615" TEXT="LandSurfaceVegetationAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233669059468" ID="Freemind_Link_159863297" MODIFIED="1246455623259" TEXT="SpecificTiling">
+<node COLOR="#996600" CREATED="1233669059468" ID="Freemind_Link_159863297" MODIFIED="1259062588953" TEXT="SpecificTiling">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Is tiling used in the surface vegetation scheme?[/definition]</text>
+</hook>
 <node CREATED="1241021817565" ID="Freemind_Link_1417647692" MODIFIED="1241598448482" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -667,8 +745,11 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1256302553151" ID="Freemind_Link_309130059" MODIFIED="1256683086490" TEXT="Vegetation_Type">
+<node COLOR="#996600" CREATED="1256302553151" ID="Freemind_Link_309130059" MODIFIED="1259062642406" TEXT="Vegetation_Type">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Describe the treatment of vegetation type[/definition]</text>
+</hook>
 <node CREATED="1256302557350" ID="Freemind_Link_149203411" MODIFIED="1256682828894" STYLE="fork" TEXT="prescribed vegetation">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -772,7 +853,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1246375108452" ID="Freemind_Link_543638131" MODIFIED="1255533768185" TEXT="SchemeMethod">
+<node COLOR="#990099" CREATED="1246375108452" FOLDED="true" ID="Freemind_Link_543638131" MODIFIED="1255533768185" TEXT="SchemeMethod">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1233671971075" ID="Freemind_Link_1545059713" MODIFIED="1257418821476" TEXT="Phenology">
 <font NAME="SansSerif" SIZE="14"/>
@@ -792,8 +873,11 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233671971075" ID="Freemind_Link_1213046100" MODIFIED="1246374571665" TEXT="LAI">
+<node COLOR="#996600" CREATED="1233671971075" ID="Freemind_Link_1213046100" MODIFIED="1259062711171" TEXT="LAI">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Describe the treatment of the leaf area index[/definition]</text>
+</hook>
 <node COLOR="#000000" CREATED="1233671984670" ID="Freemind_Link_62583929" MODIFIED="1256683410868" STYLE="fork" TEXT="prescribed">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -807,8 +891,11 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233671971075" ID="Freemind_Link_1209303163" MODIFIED="1246374581662" TEXT="Biomass">
+<node COLOR="#996600" CREATED="1233671971075" ID="Freemind_Link_1209303163" MODIFIED="1259062750609" TEXT="Biomass">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Describe the treatment of vegetation biomass[/definition]</text>
+</hook>
 <node COLOR="#000000" CREATED="1233671984670" ID="Freemind_Link_1049572862" MODIFIED="1246374937098" STYLE="fork" TEXT="prognostic">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -818,8 +905,11 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233671971075" ID="Freemind_Link_1191746332" MODIFIED="1246375507741" TEXT="BioGeography">
+<node COLOR="#996600" CREATED="1233671971075" ID="Freemind_Link_1191746332" MODIFIED="1259062819015" TEXT="BioGeography">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]describe the treatment of vegetation biogeography[/definition]</text>
+</hook>
 <node COLOR="#000000" CREATED="1233671984670" ID="Freemind_Link_1844530600" MODIFIED="1246374967141" STYLE="fork" TEXT="prognostic">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -829,8 +919,11 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1241102001936" ID="Freemind_Link_501198710" MODIFIED="1255533947712" TEXT="StomatalResistanceFunctionOf">
+<node COLOR="#996600" CREATED="1241102001936" ID="Freemind_Link_501198710" MODIFIED="1259062862968" TEXT="StomatalResistanceFunctionOf">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Specify the dependancies on vegetation stomatal resistance[/definition]</text>
+</hook>
 <node CREATED="1244817166499" ID="Freemind_Link_256561834" MODIFIED="1255533921837" STYLE="fork" TEXT="light">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
@@ -862,8 +955,11 @@
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1255533983077" ID="Freemind_Link_585196796" MODIFIED="1257289090123" TEXT="LandSurfaceEnergyBalanceAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233669059468" ID="Freemind_Link_302931015" MODIFIED="1246455633611" TEXT="SpecificTiling">
+<node COLOR="#996600" CREATED="1233669059468" ID="Freemind_Link_302931015" MODIFIED="1259070245453" TEXT="SpecificTiling">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Is tiling used in the surface energy balance scheme?[/definition]</text>
+</hook>
 <node CREATED="1241021817565" ID="Freemind_Link_620111432" MODIFIED="1241598448482" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -875,8 +971,11 @@
 </node>
 <node COLOR="#0033ff" CREATED="1255528565690" ID="Freemind_Link_1940771126" MODIFIED="1255528585292" TEXT="if SpecificTiling is &quot;yes&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1241080201056" ID="Freemind_Link_301433369" MODIFIED="1253538349075" STYLE="bubble" TEXT="SubsurfaceTiling">
+<node COLOR="#996600" CREATED="1241080201056" ID="Freemind_Link_301433369" MODIFIED="1259070284890" STYLE="bubble" TEXT="SubsurfaceTiling">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Is sub-surface tiling employed?[/definition]</text>
+</hook>
 <node CREATED="1233671954952" ID="Freemind_Link_1772477988" MODIFIED="1233918143847" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -887,8 +986,11 @@
 </node>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1241018889253" ID="Freemind_Link_736491072" MODIFIED="1253116197689" TEXT="NumberOfSurfaceTemperatures">
+<node COLOR="#996600" CREATED="1241018889253" ID="Freemind_Link_736491072" MODIFIED="1259070321078" TEXT="NumberOfSurfaceTemperatures">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Enter the number of surface temperatures used[/definition]</text>
+</hook>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233881613647" ID="Freemind_Link_1652883937" MODIFIED="1246376563863" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
@@ -901,8 +1003,11 @@
 </node>
 <node COLOR="#990099" CREATED="1255534026851" ID="Freemind_Link_1372449902" MODIFIED="1255534040353" TEXT="SchemeMethod">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1241019005054" ID="Freemind_Link_240039998" MODIFIED="1243343577690" TEXT="TypeOfEvaporationFormulation">
+<node COLOR="#996600" CREATED="1241019005054" ID="Freemind_Link_240039998" MODIFIED="1259070460140" TEXT="TypeOfEvaporationFormulation">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Specify the formulation method for land surface evaporation[/definition]</text>
+</hook>
 <node CREATED="1241019020374" ID="Freemind_Link_760049088" MODIFIED="1241600864654" STYLE="fork" TEXT="alpha">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -924,8 +1029,11 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233671008937" ID="Freemind_Link_420141295" MODIFIED="1255526905772" TEXT="Processes">
+<node COLOR="#996600" CREATED="1233671008937" ID="Freemind_Link_420141295" MODIFIED="1259070499859" TEXT="Processes">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Describe whih processes are included in the energy balance scheme[/definition]</text>
+</hook>
 <node COLOR="#000000" CREATED="1233669219773" ID="Freemind_Link_107003181" MODIFIED="1246376728774" STYLE="fork" TEXT="transpiration">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
@@ -939,10 +1047,13 @@
 </node>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233668186242" FOLDED="true" ID="Freemind_Link_1876467742" MODIFIED="1256226632701" TEXT="LandSurface_Albedo">
 <font BOLD="true" NAME="Arial" SIZE="14"/>
-<node COLOR="#990099" CREATED="1255609354662" ID="Freemind_Link_1012325497" MODIFIED="1257289006859" TEXT="LandSurfaceAlbedoAttributes">
+<node COLOR="#990099" CREATED="1255609354662" FOLDED="true" ID="Freemind_Link_1012325497" MODIFIED="1257289006859" TEXT="LandSurfaceAlbedoAttributes">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233669059468" ID="Freemind_Link_1428746617" MODIFIED="1255526942744" TEXT="SpecificTiling">
+<node COLOR="#996600" CREATED="1233669059468" ID="Freemind_Link_1428746617" MODIFIED="1259071836187" TEXT="SpecificTiling">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Is tiling used in the surface albedo calcualtions?[/definition]</text>
+</hook>
 <node CREATED="1241021817565" ID="Freemind_Link_961030759" MODIFIED="1241598448482" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -953,10 +1064,13 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1233672808950" ID="Freemind_Link_168357994" MODIFIED="1255526950108" TEXT="SnowFreeAlbedo">
+<node COLOR="#990099" CREATED="1233672808950" FOLDED="true" ID="Freemind_Link_168357994" MODIFIED="1255526950108" TEXT="SnowFreeAlbedo">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1246377424028" ID="Freemind_Link_1946418959" MODIFIED="1246377433509" TEXT="Type">
+<node COLOR="#996600" CREATED="1246377424028" ID="Freemind_Link_1946418959" MODIFIED="1259071881296" TEXT="Type">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Describe the treatment of snow-free land albedo[/definition]</text>
+</hook>
 <node CREATED="1233672920849" ID="Freemind_Link_1111178021" MODIFIED="1246377529869" STYLE="fork" TEXT="prognostic">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -968,8 +1082,11 @@
 </node>
 <node COLOR="#0033ff" CREATED="1255534125077" ID="Freemind_Link_216328157" MODIFIED="1255534139101" TEXT="if Type is &quot;prognostic&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1241019098143" ID="Freemind_Link_1990184179" MODIFIED="1253538369246" STYLE="bubble" TEXT="FunctionOf">
+<node COLOR="#996600" CREATED="1241019098143" ID="Freemind_Link_1990184179" MODIFIED="1259071985375" STYLE="bubble" TEXT="FunctionOf">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Describe the dependancies on snow free albedo calculations[/definition]</text>
+</hook>
 <node CREATED="1241019127791" ID="Freemind_Link_1113519098" MODIFIED="1243330720694" STYLE="fork" TEXT="vegetation type">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
@@ -987,8 +1104,11 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1241019164128" ID="Freemind_Link_305450935" MODIFIED="1255534235110" STYLE="bubble" TEXT="Direct-Diffuse">
+<node COLOR="#996600" CREATED="1241019164128" ID="Freemind_Link_305450935" MODIFIED="1259072046484" STYLE="bubble" TEXT="Direct-Diffuse">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Is there a distinction between direct and diffuse albedo?[/definition]</text>
+</hook>
 <node CREATED="1241019199088" ID="Freemind_Link_1666087866" MODIFIED="1255534270990" STYLE="fork" TEXT="distinction between direct and diffuse albedo">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -998,8 +1118,11 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1241019204928" ID="Freemind_Link_1335262779" MODIFIED="1253538425094" STYLE="bubble" TEXT="NumberOfWavelenghBands">
+<node COLOR="#996600" CREATED="1241019204928" ID="Freemind_Link_1335262779" MODIFIED="1259072086859" STYLE="bubble" TEXT="NumberOfWavelenghBands">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Enter the number of wavelength bands used[/definition]</text>
+</hook>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233881613647" ID="Freemind_Link_271295517" MODIFIED="1246378274436" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
@@ -1009,8 +1132,11 @@
 </node>
 <node COLOR="#990099" CREATED="1233672808950" ID="Freemind_Link_452463833" MODIFIED="1255526950108" TEXT="SnowAlbedo">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1246377424028" ID="Freemind_Link_702776518" MODIFIED="1253116246454" TEXT="Type">
+<node COLOR="#996600" CREATED="1246377424028" ID="Freemind_Link_702776518" MODIFIED="1259072149234" TEXT="Type">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Describe the treatment of snow-covered land albedo[/definition]</text>
+</hook>
 <node CREATED="1233672920849" ID="Freemind_Link_288131854" MODIFIED="1246377529869" STYLE="fork" TEXT="prognostic">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -1022,8 +1148,11 @@
 </node>
 <node COLOR="#0033ff" CREATED="1255534346229" ID="Freemind_Link_1035691587" MODIFIED="1255534366259" TEXT="if Type is &quot;prognostic&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1241019098143" ID="Freemind_Link_1377532638" MODIFIED="1253538440850" STYLE="bubble" TEXT="FunctionOf">
+<node COLOR="#996600" CREATED="1241019098143" ID="Freemind_Link_1377532638" MODIFIED="1259072192859" STYLE="bubble" TEXT="FunctionOf">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Describe dependancies on snow albedo calculations[/definition]</text>
+</hook>
 <node CREATED="1241019127791" ID="Freemind_Link_734375138" MODIFIED="1243330720631" STYLE="fork" TEXT="vegetation type">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
@@ -1054,29 +1183,38 @@
 </node>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233667814312" FOLDED="true" ID="Freemind_Link_1787670227" MODIFIED="1256226641003" TEXT="LandSurface_CarbonCycle">
 <font BOLD="true" NAME="Arial" SIZE="14"/>
-<node COLOR="#000000" CREATED="1233673218185" ID="Freemind_Link_566997376" MODIFIED="1257336458240" STYLE="bubble" TEXT="Vegetation.CarbonCycle">
+<node COLOR="#000000" CREATED="1233673218185" FOLDED="true" ID="Freemind_Link_566997376" MODIFIED="1257336458240" STYLE="bubble" TEXT="Vegetation.CarbonCycle">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#990099" CREATED="1255608462521" ID="Freemind_Link_456234213" MODIFIED="1257336505720" TEXT="VegetationCarbonCycleAttributes_">
+<node COLOR="#990099" CREATED="1255608462521" FOLDED="true" ID="Freemind_Link_456234213" MODIFIED="1257336505720" TEXT="VegetationCarbonCycleAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1243333236796" ID="Freemind_Link_1283656432" MODIFIED="1243342996005" STYLE="bubble" TEXT="NumberOfCarbonPools">
+<node COLOR="#996600" CREATED="1243333236796" ID="Freemind_Link_1283656432" MODIFIED="1259072500546" STYLE="bubble" TEXT="NumberOfCarbonPools">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Enter the number of carbon pools used[/definition]</text>
+</hook>
 <node CREATED="1241100941629" ID="Freemind_Link_1382942509" MODIFIED="1253116560652" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1243333236796" ID="Freemind_Link_1373400243" MODIFIED="1253116569793" STYLE="bubble" TEXT="ListOfCarbonPools">
+<node COLOR="#996600" CREATED="1243333236796" ID="Freemind_Link_1373400243" MODIFIED="1259072546328" STYLE="bubble" TEXT="ListOfCarbonPools">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]List the carbon pools used within the model carbon cycle[/definition]</text>
+</hook>
 <node CREATED="1241100941629" ID="Freemind_Link_1828542750" MODIFIED="1257290292572" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="pencil"/>
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1241100901076" ID="Freemind_Link_989474133" MODIFIED="1255526986261" STYLE="bubble" TEXT="Photosynthesis">
+<node COLOR="#990099" CREATED="1241100901076" FOLDED="true" ID="Freemind_Link_989474133" MODIFIED="1255526986261" STYLE="bubble" TEXT="Photosynthesis">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1241100901076" ID="Freemind_Link_1649314002" MODIFIED="1246443072550" STYLE="bubble" TEXT="Method">
+<node COLOR="#996600" CREATED="1241100901076" ID="Freemind_Link_1649314002" MODIFIED="1259072710187" STYLE="bubble" TEXT="Method">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Describe the method used for photosynthesis[/definition]</text>
+</hook>
 <node CREATED="1241100906326" ID="Freemind_Link_1162921977" MODIFIED="1246436070662" STYLE="fork" TEXT="biochemical approach">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -1091,10 +1229,13 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1246440977029" ID="Freemind_Link_1559173952" MODIFIED="1255526986276" TEXT="AutotrophicRespiration">
+<node COLOR="#990099" CREATED="1246440977029" FOLDED="true" ID="Freemind_Link_1559173952" MODIFIED="1255526986276" TEXT="AutotrophicRespiration">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1241100901076" ID="Freemind_Link_1642653975" MODIFIED="1246443072550" STYLE="bubble" TEXT="Method">
+<node COLOR="#996600" CREATED="1241100901076" ID="Freemind_Link_1642653975" MODIFIED="1259072756093" STYLE="bubble" TEXT="Method">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Describe the treatment of autotrophic respiration[/definition]</text>
+</hook>
 <node CREATED="1241100925881" ID="Freemind_Link_1411964709" MODIFIED="1246442700095" STYLE="fork" TEXT="parametrized">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -1134,10 +1275,13 @@
 <icon BUILTIN="messagebox_warning"/>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1246440977029" ID="Freemind_Link_1214726074" MODIFIED="1255526986261" TEXT="Allocation">
+<node COLOR="#990099" CREATED="1246440977029" FOLDED="true" ID="Freemind_Link_1214726074" MODIFIED="1255526986261" TEXT="Allocation">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1241100901076" ID="Freemind_Link_1233701961" MODIFIED="1246441906737" STYLE="bubble" TEXT="AllocationBins">
+<node COLOR="#996600" CREATED="1241100901076" ID="Freemind_Link_1233701961" MODIFIED="1259072835546" STYLE="bubble" TEXT="AllocationBins">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Specify the allocation of vegetation carbon bins[/definition]</text>
+</hook>
 <node CREATED="1241100925881" ID="Freemind_Link_1268595854" MODIFIED="1246438449148" STYLE="fork" TEXT="leaves + stems + roots">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -1155,8 +1299,11 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1241100901076" ID="Freemind_Link_87801012" MODIFIED="1246441906744" STYLE="bubble" TEXT="AllocationFractions">
+<node COLOR="#996600" CREATED="1241100901076" ID="Freemind_Link_87801012" MODIFIED="1259072905093" STYLE="bubble" TEXT="AllocationFractions">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Describe how the fractions of allocation are calculated[/definition]</text>
+</hook>
 <node CREATED="1241100925881" ID="Freemind_Link_1774367839" MODIFIED="1246438664232" STYLE="fork" TEXT="fixed">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -1181,8 +1328,11 @@
 </node>
 <node COLOR="#990099" CREATED="1246440977029" ID="Freemind_Link_1230188976" MODIFIED="1255526986261" TEXT="Phenology">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1241100901076" ID="Freemind_Link_1303164835" MODIFIED="1246443044008" STYLE="bubble" TEXT="Method">
+<node COLOR="#996600" CREATED="1241100901076" ID="Freemind_Link_1303164835" MODIFIED="1259072952578" STYLE="bubble" TEXT="Method">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Describe the treatment of vegetation carbon cycle phenology[/definition]</text>
+</hook>
 <node CREATED="1241100925881" ID="Freemind_Link_986818797" MODIFIED="1246442928285" STYLE="fork" TEXT="implicit (seasonal evolution of LAI)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -1202,10 +1352,13 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1233673223731" ID="Freemind_Link_483054035" MODIFIED="1256686358633" STYLE="bubble" TEXT="Soil">
+<node COLOR="#990099" CREATED="1233673223731" FOLDED="true" ID="Freemind_Link_483054035" MODIFIED="1256686358633" STYLE="bubble" TEXT="Soil">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1241100901076" ID="Freemind_Link_135209160" MODIFIED="1243343613586" STYLE="bubble" TEXT="Method">
+<node COLOR="#996600" CREATED="1241100901076" ID="Freemind_Link_135209160" MODIFIED="1259073024015" STYLE="bubble" TEXT="Method">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Describe the methods used within the soil carbon cycle scheme[/definition]</text>
+</hook>
 <node CREATED="1241100941629" ID="Freemind_Link_132085330" MODIFIED="1243333468768" STYLE="fork" TEXT="heterotrophic respiration">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
@@ -1215,15 +1368,21 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1243333236796" ID="Freemind_Link_831041887" MODIFIED="1243342996005" STYLE="bubble" TEXT="NumberOfCarbonPools">
+<node COLOR="#996600" CREATED="1243333236796" ID="Freemind_Link_831041887" MODIFIED="1259073057265" STYLE="bubble" TEXT="NumberOfCarbonPools">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]How many soil carbon cycle pools are used?[/definition]</text>
+</hook>
 <node CREATED="1241100941629" ID="Freemind_Link_1080196797" MODIFIED="1246434628428" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1243333236796" ID="Freemind_Link_868168950" MODIFIED="1253116651701" STYLE="bubble" TEXT="ListOfCarbonPools">
+<node COLOR="#996600" CREATED="1243333236796" ID="Freemind_Link_868168950" MODIFIED="1259073217703" STYLE="bubble" TEXT="ListOfCarbonPools">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]List the names of the soil carbon pools used[/definition]</text>
+</hook>
 <node CREATED="1241100941629" ID="Freemind_Link_1083116718" MODIFIED="1257290312281" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="pencil"/>
@@ -1232,8 +1391,11 @@
 </node>
 <node COLOR="#990099" CREATED="1233675265395" ID="Freemind_Link_295350414" MODIFIED="1256686363823" STYLE="bubble" TEXT="Permafrost" VSHIFT="14">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1243333236796" ID="Freemind_Link_799394095" MODIFIED="1253116651701" STYLE="bubble" TEXT="ListOfGases">
+<node COLOR="#996600" CREATED="1243333236796" ID="Freemind_Link_799394095" MODIFIED="1259073266578" STYLE="bubble" TEXT="ListOfGases">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Which gases are included in permafrost?[/definition]</text>
+</hook>
 <node CREATED="1241100941629" ID="Freemind_Link_1440341304" MODIFIED="1257290317116" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="pencil"/>
@@ -1244,7 +1406,7 @@
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233138756711" FOLDED="true" ID="Freemind_Link_1746291945" MODIFIED="1256226654488" STYLE="bubble" TEXT="RiverRouting">
 <edge COLOR="#999999"/>
 <font BOLD="true" NAME="Arial" SIZE="14"/>
-<node COLOR="#990099" CREATED="1255609707926" ID="Freemind_Link_1331714036" MODIFIED="1257289074193" TEXT="RiverRoutingAttributes_">
+<node COLOR="#990099" CREATED="1255609707926" FOLDED="true" ID="Freemind_Link_1331714036" MODIFIED="1257289074193" TEXT="RiverRoutingAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1241019648709" ID="Freemind_Link_1414315361" MODIFIED="1253538469928" TEXT="SpecificTiling">
 <font NAME="Arial" SIZE="14"/>
@@ -1260,8 +1422,11 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233668980321" HGAP="21" ID="Freemind_Link_153703604" MODIFIED="1255609517409" TEXT="Resolution" VSHIFT="2">
+<node COLOR="#996600" CREATED="1233668980321" HGAP="21" ID="Freemind_Link_153703604" MODIFIED="1259073352156" TEXT="Resolution" VSHIFT="2">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Is the resolution independant of the land surface resolution?[/definition]</text>
+</hook>
 <node CREATED="1241019789510" ID="Freemind_Link_1849005607" MODIFIED="1246457085101" STYLE="fork" TEXT="inherited from Land Surface">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -1271,15 +1436,21 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1241019661909" ID="Freemind_Link_744341778" MODIFIED="1245943927974" TEXT="NumberOfReservoirs">
+<node COLOR="#996600" CREATED="1241019661909" ID="Freemind_Link_744341778" MODIFIED="1259073392796" TEXT="NumberOfReservoirs">
 <font NAME="Arial" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Enter the number of reservoirs[/definition]</text>
+</hook>
 <node CREATED="1241100941629" ID="Freemind_Link_1196683716" MODIFIED="1246434628428" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233673605034" ID="Freemind_Link_417564901" MODIFIED="1255611491442" TEXT="ListOfPrognosticVariables">
+<node COLOR="#996600" CREATED="1233673605034" ID="Freemind_Link_417564901" MODIFIED="1259073444343" TEXT="ListOfPrognosticVariables">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Specify the prognostic variables within the river routing scheme[/definition]</text>
+</hook>
 <node CREATED="1244816165283" ID="Freemind_Link_123765045" MODIFIED="1245943692680" STYLE="fork" TEXT="heat">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
@@ -1308,8 +1479,11 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244816115177" ID="Freemind_Link_1955268432" MODIFIED="1255609813904" TEXT="CouplingWithAtmosphere">
+<node COLOR="#996600" CREATED="1244816115177" ID="Freemind_Link_1955268432" MODIFIED="1259073495390" TEXT="CouplingWithAtmosphere">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Is river routing coupled to the atmosphere model component?[/definition]</text>
+</hook>
 <node CREATED="1244815894043" ID="Freemind_Link_1401771965" MODIFIED="1245944109445" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -1319,8 +1493,11 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1256302329693" ID="Freemind_Link_1297676413" MODIFIED="1256682620088" TEXT="DrainageMap">
+<node COLOR="#996600" CREATED="1256302329693" ID="Freemind_Link_1297676413" MODIFIED="1259073545140" TEXT="DrainageMap">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]What type of drainage map is being used?[/definition]</text>
+</hook>
 <node CREATED="1256302352717" ID="Freemind_Link_852293217" MODIFIED="1256682601802" STYLE="fork" TEXT="present-day">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -1332,8 +1509,11 @@
 </node>
 <node COLOR="#0033ff" CREATED="1255609554396" ID="Freemind_Link_1706375648" MODIFIED="1255609806190" TEXT="if CouplingWithAtmosphere is &quot;yes&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1244815900775" ID="Freemind_Link_1101070833" MODIFIED="1253538485091" STYLE="bubble" TEXT="QuantitiesExchangedWithAtmosphere">
+<node COLOR="#996600" CREATED="1244815900775" ID="Freemind_Link_1101070833" MODIFIED="1259073599843" STYLE="bubble" TEXT="QuantitiesExchangedWithAtmosphere">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Which quantities are exchanged between river routing and the atmosphere model components?[/definition]</text>
+</hook>
 <node CREATED="1244816165283" ID="Freemind_Link_1848273481" MODIFIED="1253119847267" STYLE="fork" TEXT="heat">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
@@ -1355,8 +1535,11 @@
 </node>
 <node COLOR="#990099" CREATED="1241019787102" ID="Freemind_Link_445823389" MODIFIED="1255527039769" TEXT="OceanicDischarge">
 <font NAME="Arial" SIZE="14"/>
-<node COLOR="#996600" CREATED="1241020043287" ID="Freemind_Link_1492754708" MODIFIED="1246525133926" TEXT="Type">
+<node COLOR="#996600" CREATED="1241020043287" ID="Freemind_Link_1492754708" MODIFIED="1259073664468" TEXT="Type">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Specify how rivers are discharged to the ocean[/definition]</text>
+</hook>
 <node CREATED="1241020034649" ID="Freemind_Link_871928845" MODIFIED="1246456341835" STYLE="fork" TEXT="direct (large rivers)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -1366,8 +1549,11 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244816475240" ID="Freemind_Link_1380454262" MODIFIED="1246456392303" TEXT="QuantitiesTransported">
+<node COLOR="#996600" CREATED="1244816475240" ID="Freemind_Link_1380454262" MODIFIED="1259073739781" TEXT="QuantitiesTransported">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Which quantities are exchanged from river-routing to the ocean model component?[/definition]</text>
+</hook>
 <node CREATED="1244816165283" ID="Freemind_Link_1185166910" MODIFIED="1253119847282" STYLE="fork" TEXT="heat">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
@@ -1389,10 +1575,13 @@
 </node>
 <node CREATED="1244815741882" FOLDED="true" ID="Freemind_Link_959482800" MODIFIED="1256226667056" STYLE="bubble" TEXT="LandSurface_Lakes">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#990099" CREATED="1255610459136" ID="Freemind_Link_854253023" MODIFIED="1257289077993" TEXT="LandSurfaceLakesAttributes_">
+<node COLOR="#990099" CREATED="1255610459136" FOLDED="true" ID="Freemind_Link_854253023" MODIFIED="1257289077993" TEXT="LandSurfaceLakesAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1244816115177" ID="Freemind_Link_905063260" MODIFIED="1253118381115" STYLE="bubble" TEXT="CouplingWithRivers">
+<node COLOR="#996600" CREATED="1244816115177" ID="Freemind_Link_905063260" MODIFIED="1259073799000" STYLE="bubble" TEXT="CouplingWithRivers">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Are lakes coupled to the river routing model component?[/definition]</text>
+</hook>
 <node CREATED="1244815894043" ID="Freemind_Link_421002760" MODIFIED="1245944612140" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -1404,8 +1593,11 @@
 </node>
 <node COLOR="#0033ff" CREATED="1255609554396" ID="Freemind_Link_1935947006" MODIFIED="1255609837889" TEXT="if CouplingWithRivers is &quot;yes&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1244815900775" ID="Freemind_Link_425112046" MODIFIED="1253538502470" STYLE="bubble" TEXT="QuantitiesExchangedWithRivers">
+<node COLOR="#996600" CREATED="1244815900775" ID="Freemind_Link_425112046" MODIFIED="1259073841031" STYLE="bubble" TEXT="QuantitiesExchangedWithRivers">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Which quantities are exchanged between the lakes and rivers[/definition]</text>
+</hook>
 <node CREATED="1244816165283" ID="Freemind_Link_693073279" MODIFIED="1253119847235" STYLE="fork" TEXT="heat">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
@@ -1427,8 +1619,11 @@
 </node>
 <node COLOR="#990099" CREATED="1255610354421" ID="Freemind_Link_1051129737" MODIFIED="1255610629441" TEXT="SchemeMethod">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1244815873628" ID="Freemind_Link_933406493" MODIFIED="1245944780289" STYLE="bubble" TEXT="IceTreatment">
+<node COLOR="#996600" CREATED="1244815873628" ID="Freemind_Link_933406493" MODIFIED="1259073880781" STYLE="bubble" TEXT="IceTreatment">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Is lake ice included?[/definition]</text>
+</hook>
 <node CREATED="1244815894043" ID="Freemind_Link_1334233160" MODIFIED="1245944612235" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -1438,8 +1633,11 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244815873628" ID="Freemind_Link_527531266" MODIFIED="1255610784113" STYLE="bubble" TEXT="LakesAlbedo">
+<node COLOR="#996600" CREATED="1244815873628" ID="Freemind_Link_527531266" MODIFIED="1259073913921" STYLE="bubble" TEXT="LakesAlbedo">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Describe the treatment of lake albedo[/definition]</text>
+</hook>
 <node CREATED="1244815894043" ID="Freemind_Link_1775269898" MODIFIED="1255610678922" STYLE="fork" TEXT="prognostic">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -1449,8 +1647,11 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244815873628" ID="Freemind_Link_1907179631" MODIFIED="1246001354081" STYLE="bubble" TEXT="LakesDynamics">
+<node COLOR="#996600" CREATED="1244815873628" ID="Freemind_Link_1907179631" MODIFIED="1259073997187" STYLE="bubble" TEXT="LakesDynamics">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Which dynamics of lakes are treated? horizontal, vertical, etc. [/definition]</text>
+</hook>
 <node CREATED="1244815894043" ID="Freemind_Link_1605543711" MODIFIED="1246458080783" STYLE="fork" TEXT="vertical">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -1468,8 +1669,11 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244815873628" ID="Freemind_Link_1094346637" MODIFIED="1245944802529" STYLE="bubble" TEXT="DynamicLakesExtent">
+<node COLOR="#996600" CREATED="1244815873628" ID="Freemind_Link_1094346637" MODIFIED="1259074038671" STYLE="bubble" TEXT="DynamicLakesExtent">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]|Is a dynamic lake extent scheme included?[/definition]</text>
+</hook>
 <node CREATED="1244815894043" ID="Freemind_Link_1882574927" MODIFIED="1245944612174" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
