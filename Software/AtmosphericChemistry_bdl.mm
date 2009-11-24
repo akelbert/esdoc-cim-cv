@@ -10,10 +10,10 @@
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1254486057572" ID="Freemind_Link_26535854" MODIFIED="1257775566525" TEXT="AtmChemKeyPropertiesAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1243421913562" ID="Freemind_Link_879113611" MODIFIED="1259071869729" TEXT="ChemSchemeScope">
+<node COLOR="#996600" CREATED="1243421913562" ID="Freemind_Link_879113611" MODIFIED="1259073083609" TEXT="ChemSchemeScope">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Which atmospheric domains are covered by the atmospheric chemistry scheme.[/definition]</text>
+<text>[definition]Which atmospheric domains are covered by the atmospheric chemistry scheme?[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1243422645484" ID="Freemind_Link_1190317719" MODIFIED="1257333960910" STYLE="fork" TEXT="troposphere">
 <font NAME="SansSerif" SIZE="14"/>
@@ -36,18 +36,21 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233141022285" ID="Freemind_Link_599221753" MODIFIED="1257334015488" STYLE="bubble" TEXT="BasicApproximations">
+<node COLOR="#996600" CREATED="1233141022285" ID="Freemind_Link_599221753" MODIFIED="1259073118555" STYLE="bubble" TEXT="BasicApproximations">
 <font NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Decription of the basic approximations made in the AtmosphericChemistry and Aerosols model.[/definition]</text>
+<text>[definition]Decribe the basic approximations made in the Atmospheric Chemistry and Aerosols models.[/definition]</text>
 </hook>
 <node CREATED="1255438025821" ID="Freemind_Link_1737511187" MODIFIED="1257333990921" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="pencil"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233587234324" ID="Freemind_Link_1846065429" MODIFIED="1257950061189" TEXT="ListOfPrognosticVariables">
+<node COLOR="#996600" CREATED="1233587234324" ID="Freemind_Link_1846065429" MODIFIED="1259073065135" TEXT="ListOfPrognosticVariables">
 <font NAME="Arial" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]What prognostic variables are used by the atmospheric chemistry model?[/definition]</text>
+</hook>
 <node COLOR="#000000" CREATED="1243422645484" ID="Freemind_Link_996127862" MODIFIED="1256116967218" STYLE="fork" TEXT="3D mixing ratio for gas">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
@@ -61,10 +64,10 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1239099334126" ID="Freemind_Link_215406295" MODIFIED="1257950211904" STYLE="bubble" TEXT="NumberOfTracers">
+<node COLOR="#996600" CREATED="1239099334126" ID="Freemind_Link_215406295" MODIFIED="1259072472000" STYLE="bubble" TEXT="NumberOfTracers">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Number of tracers.[/definition]</text>
+<text>[definition]Enter the number of tracers in the atmospheric chemistry model.[definition]</text>
 </hook>
 <node CREATED="1233246454929" HGAP="25" ID="Freemind_Link_242578772" MODIFIED="1256117066669" STYLE="fork" TEXT="" VSHIFT="5">
 <font NAME="Arial" SIZE="14"/>
@@ -227,8 +230,11 @@
 </node>
 <node COLOR="#990099" CREATED="1233751261777" ID="Freemind_Link_1153520910" MODIFIED="1257779770368" STYLE="bubble" TEXT="TimeSteppingFramework">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1239098125683" ID="Freemind_Link_1971524831" MODIFIED="1256255301579" STYLE="bubble" TEXT="Method">
+<node COLOR="#996600" CREATED="1239098125683" ID="Freemind_Link_1971524831" MODIFIED="1259073298234" STYLE="bubble" TEXT="Method">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Are the atmospheric chemistry parameterisation schemes called sequentially (operator splitting)?[/definition]</text>
+</hook>
 <node CREATED="1239098471806" ID="Freemind_Link_965357301" MODIFIED="1239189250804" STYLE="fork" TEXT="operator splitting">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -321,7 +327,7 @@
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1239098820387" ID="Freemind_Link_1843057851" MODIFIED="1257339334594" STYLE="bubble" TEXT="GazPhaseChemistry">
+<node COLOR="#996600" CREATED="1239098820387" ID="Freemind_Link_1843057851" MODIFIED="1259073186789" STYLE="bubble" TEXT="GasPhaseChemistry">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Call order for gas phase chemistry scheme.[/definition]</text>
@@ -337,6 +343,16 @@
 <text>[definition]Call order for heterogeneous chemistry scheme.[/definition]</text>
 </hook>
 <node CREATED="1233246454929" HGAP="25" ID="Freemind_Link_1989788335" MODIFIED="1257339227337" STYLE="fork" TEXT="" VSHIFT="5">
+<font NAME="Arial" SIZE="14"/>
+<icon BUILTIN="full-1"/>
+</node>
+</node>
+<node COLOR="#996600" CREATED="1239098820387" ID="Freemind_Link_1248163760" MODIFIED="1259073344612" STYLE="bubble" TEXT="PhotoChemistry">
+<font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Call order for photo chemistry scheme.[/definition]</text>
+</hook>
+<node CREATED="1233246454929" HGAP="25" ID="Freemind_Link_481869719" MODIFIED="1257339227337" STYLE="fork" TEXT="" VSHIFT="5">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
@@ -1298,7 +1314,7 @@
 </node>
 <node COLOR="#000000" CREATED="1244057714894" ID="Freemind_Link_47709925" MODIFIED="1257783679397" TEXT="Atm_HeterogeneousChemistry">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#000000" CREATED="1244069441485" ID="Freemind_Link_1820070223" MODIFIED="1257347074066" TEXT="Stratospheric.HeterChem">
+<node COLOR="#000000" CREATED="1244069441485" FOLDED="true" ID="Freemind_Link_1820070223" MODIFIED="1257347074066" TEXT="Stratospheric.HeterChem">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1244058101228" ID="Freemind_Link_61219831" MODIFIED="1256200475577" TEXT="Species">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1555,7 +1571,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1244062831575" ID="Freemind_Link_1028391829" MODIFIED="1256225241180" TEXT="PhotoChemistry">
+<node COLOR="#000000" CREATED="1244062831575" FOLDED="true" ID="Freemind_Link_1028391829" MODIFIED="1256225241180" TEXT="PhotoChemistry">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1243422093890" ID="Freemind_Link_690400866" MODIFIED="1256200821217" TEXT="Photolysis">
 <font NAME="SansSerif" SIZE="14"/>
