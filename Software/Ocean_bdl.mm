@@ -10,8 +10,11 @@
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1255352711909" ID="Freemind_Link_1906682406" MODIFIED="1256896698747" TEXT="OceanKeyPropertiesAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233140619821" FOLDED="true" ID="Freemind_Link_1325999493" MODIFIED="1233938843399" STYLE="bubble" TEXT="ModelFamily">
+<node COLOR="#996600" CREATED="1233140619821" ID="Freemind_Link_1325999493" MODIFIED="1258638078140" STYLE="bubble" TEXT="ModelFamily">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Type of oceanic model.[/definition]</text>
+</hook>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233140643598" ID="Freemind_Link_503184076" MODIFIED="1237385512766" STYLE="fork" TEXT="OGCM">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -20,11 +23,11 @@
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node COLOR="#000000" CREATED="1233140662726" ID="Freemind_Link_1979122212" MODIFIED="1254228403783" STYLE="fork" TEXT="1D (Ocean Mixed Layer)">
+<node COLOR="#000000" CREATED="1233140662726" ID="Freemind_Link_1979122212" MODIFIED="1258638199867" STYLE="fork" TEXT="1D (ocean mixed layer)">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233141283578" ID="Freemind_Link_917041471" MODIFIED="1237384029224" STYLE="fork" TEXT="ShallowWater">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233141283578" ID="Freemind_Link_917041471" MODIFIED="1258638181700" STYLE="fork" TEXT="shallow-water">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
@@ -32,7 +35,7 @@
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node COLOR="#000000" CREATED="1233141307402" ID="Freemind_Link_174577812" MODIFIED="1233938856105" STYLE="fork" TEXT="Slab">
+<node COLOR="#000000" CREATED="1233141307402" ID="Freemind_Link_174577812" MODIFIED="1258638057251" STYLE="fork" TEXT="slab">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
@@ -41,13 +44,16 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233141022285" FOLDED="true" ID="Freemind_Link_599221753" MODIFIED="1244564171502" STYLE="bubble" TEXT="BasicApproximations">
+<node COLOR="#996600" CREATED="1233141022285" ID="Freemind_Link_599221753" MODIFIED="1258638093303" STYLE="bubble" TEXT="BasicApproximations">
 <font NAME="Arial" SIZE="14"/>
-<node COLOR="#000000" CREATED="1233141036845" ID="Freemind_Link_1066350301" MODIFIED="1253105818642" STYLE="fork" TEXT="Primitive Equations">
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Basic fluid dynamics approximations made in the atmospheric model.[/definition]</text>
+</hook>
+<node COLOR="#000000" CREATED="1233141036845" ID="Freemind_Link_1066350301" MODIFIED="1258638210170" STYLE="fork" TEXT="primitive equations">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node COLOR="#000000" CREATED="1233141059277" ID="Freemind_Link_356047771" MODIFIED="1253105380266" STYLE="fork" TEXT="Non-Hydrostatic">
+<node COLOR="#000000" CREATED="1233141059277" ID="Freemind_Link_356047771" MODIFIED="1258638246589" STYLE="fork" TEXT="non-hydrostatic">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
@@ -60,8 +66,11 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233587234324" FOLDED="true" ID="Freemind_Link_507186487" MODIFIED="1255529877873" TEXT="ListOfPrognosticVariables">
+<node COLOR="#996600" CREATED="1233587234324" ID="Freemind_Link_507186487" MODIFIED="1258638291657" TEXT="ListOfPrognosticVariables">
 <font NAME="Arial" SIZE="15"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]List of the prognostic variables of the model.[/definition]</text>
+</hook>
 <node CREATED="1244815418205" ID="Freemind_Link_319503875" MODIFIED="1246261990315" STYLE="fork" TEXT="potential temperature">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
@@ -98,8 +107,11 @@
 </node>
 <node COLOR="#990099" CREATED="1233329896856" ID="Freemind_Link_1267304035" MODIFIED="1255609633295" TEXT="SeaWater">
 <font NAME="Arial" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233330693116" FOLDED="true" ID="Freemind_Link_28789769" MODIFIED="1243264317598" TEXT="EquationOfState">
+<node COLOR="#996600" CREATED="1233330693116" ID="Freemind_Link_28789769" MODIFIED="1258638575858" TEXT="EquationOfState">
 <font NAME="Arial" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Formulation for equation of state of sea water.[/definition]</text>
+</hook>
 <node CREATED="1233246454929" ID="Freemind_Link_834498088" MODIFIED="1255961060384" STYLE="fork" TEXT="linear">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -117,7 +129,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233330056626" FOLDED="true" ID="Freemind_Link_1930267986" MODIFIED="1257037185853" TEXT="FreezingPoint">
+<node COLOR="#996600" CREATED="1233330056626" ID="Freemind_Link_1930267986" MODIFIED="1257037185853" TEXT="FreezingPoint">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Freezing temperature of sea water.[/definition]</text>
@@ -127,7 +139,7 @@
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233330046298" FOLDED="true" ID="Freemind_Link_736481834" MODIFIED="1257037204612" TEXT="SpecificHeat">
+<node COLOR="#996600" CREATED="1233330046298" ID="Freemind_Link_736481834" MODIFIED="1257037204612" TEXT="SpecificHeat">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Specific heat of sea water.[/definition]</text>
@@ -140,10 +152,10 @@
 </node>
 <node COLOR="#990099" CREATED="1256897468560" ID="Freemind_Link_722102065" MODIFIED="1257350550796" TEXT="Non-OceanicWater">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1256897482873" ID="Freemind_Link_1871219386" MODIFIED="1257037250094" TEXT="RiverMouthMixing">
+<node COLOR="#996600" CREATED="1256897482873" ID="Freemind_Link_1871219386" MODIFIED="1258638603423" TEXT="RiverMouthMixing">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Distribution of freshwater fluxes form rivers into ocean.[/definition]</text>
+<text>[definition]Distribution of freshwater fluxes from rivers into ocean.[/definition]</text>
 </hook>
 <node CREATED="1256897505244" ID="Freemind_Link_1683352212" MODIFIED="1256897900002" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
@@ -171,10 +183,13 @@
 </node>
 <node COLOR="#000000" CREATED="1253796609575" ID="Freemind_Link_1291132512" MODIFIED="1257243573666" TEXT="OceanSpaceConfiguration_">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#990099" CREATED="1254486285604" ID="Freemind_Link_851070448" MODIFIED="1256679195194" TEXT="Bathymetry_">
+<node COLOR="#990099" CREATED="1254486285604" ID="Freemind_Link_851070448" MODIFIED="1258638829132" TEXT="Bathymetry">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1256679216121" FOLDED="true" ID="Freemind_Link_1958840067" MODIFIED="1256679333091" TEXT="BathymetryType">
+<node COLOR="#996600" CREATED="1256679216121" ID="Freemind_Link_1958840067" MODIFIED="1258640234941" TEXT="Bathymetry_Type">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Time adaptation of the bathymetry.[/definition]</text>
+</hook>
 <node CREATED="1256300298076" ID="Freemind_Link_811522339" MODIFIED="1256679555689" STYLE="fork" TEXT="fixed">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -184,9 +199,9 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1256650877395" FOLDED="true" ID="Freemind_Link_1298646489" MODIFIED="1256679327934" TEXT="if BathymetryType is &quot;fixed&quot;">
+<node COLOR="#0033ff" CREATED="1256650877395" ID="Freemind_Link_1298646489" MODIFIED="1258640243357" TEXT="if BathymetryType is &quot;fixed&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1256679216121" FOLDED="true" ID="Freemind_Link_1438931584" MODIFIED="1256742600669" TEXT="BathymetryConfiguration">
+<node COLOR="#996600" CREATED="1256679216121" ID="Freemind_Link_1438931584" MODIFIED="1258639985528" TEXT="ReferenceDate">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1256300118204" ID="Freemind_Link_1271820262" MODIFIED="1256679164939" STYLE="fork" TEXT="present-day">
 <font NAME="SansSerif" SIZE="14"/>
@@ -214,9 +229,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1256300271501" FOLDED="true" ID="Freemind_Link_335709508" MODIFIED="1257237391323" TEXT="if BathymetryType is not &quot;present-day&quot;">
+<node COLOR="#0033ff" CREATED="1256300271501" ID="Freemind_Link_335709508" MODIFIED="1258640153485" TEXT="if ReferenceDate is not &quot;present-day&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1256300771737" FOLDED="true" ID="Freemind_Link_232594092" MODIFIED="1256896970647" TEXT="BathymetryAdjustment">
+<node COLOR="#996600" CREATED="1256300771737" ID="Freemind_Link_232594092" MODIFIED="1258638871679" TEXT="Bathymetry_Adjustment">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Bathymetry adjsutement performed relatively to present-day.[/definition]</text>
@@ -231,9 +246,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1256300271501" FOLDED="true" ID="Freemind_Link_1364696447" MODIFIED="1257237395308" TEXT="if BathymetryType is not &quot;present-day&quot;">
+<node COLOR="#0033ff" CREATED="1256300271501" ID="Freemind_Link_1364696447" MODIFIED="1258640169998" TEXT="if ReferenceDate is not &quot;present-day&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1256300804080" FOLDED="true" ID="Freemind_Link_134569950" MODIFIED="1256897014023" TEXT="CoastalAdjustment">
+<node COLOR="#996600" CREATED="1256300804080" ID="Freemind_Link_134569950" MODIFIED="1256897014023" TEXT="CoastalAdjustment">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Characteritics of the coastal adjustment.[/definition]</text>
@@ -243,8 +258,11 @@
 <icon BUILTIN="pencil"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1256300732353" FOLDED="true" ID="Freemind_Link_276939548" MODIFIED="1256680422073" TEXT="StraitsClosed">
+<node COLOR="#996600" CREATED="1256300732353" ID="Freemind_Link_276939548" MODIFIED="1258639273005" TEXT="StraitsClosed">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]List of closed straits.[/definition]</text>
+</hook>
 <node CREATED="1256300755440" ID="Freemind_Link_691996608" MODIFIED="1256679164893" STYLE="fork" TEXT="Bering">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
@@ -267,8 +285,11 @@
 <icon BUILTIN="messagebox_warning"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1256300991082" FOLDED="true" ID="Freemind_Link_110607522" MODIFIED="1256680422079" TEXT="InlandSeasChanges">
+<node COLOR="#996600" CREATED="1256300991082" ID="Freemind_Link_110607522" MODIFIED="1258639609840" TEXT="InlandSeasChanges">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Geographical changes for inland seas when compared to present-day.[/definition]</text>
+</hook>
 <node CREATED="1256301001938" ID="Freemind_Link_1478420002" MODIFIED="1256679164874" STYLE="fork" TEXT="Hudson bay">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
@@ -279,9 +300,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1256650877395" FOLDED="true" ID="Freemind_Link_1929582108" MODIFIED="1256680181446" TEXT="if BathymetryType is &quot;transient&quot;">
+<node COLOR="#0033ff" CREATED="1256650877395" ID="Freemind_Link_1929582108" MODIFIED="1256680181446" TEXT="if BathymetryType is &quot;transient&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1256679216121" FOLDED="true" ID="Freemind_Link_481814143" MODIFIED="1256898123144" TEXT="BathymetryTransientChanges">
+<node COLOR="#996600" CREATED="1256679216121" ID="Freemind_Link_481814143" MODIFIED="1258638884401" TEXT="Bathymetry_TransientChanges">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Characteritics of transient changes in bathymetry.[/definition]</text>
@@ -297,8 +318,11 @@
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1256810468669" ID="Freemind_Link_957671028" MODIFIED="1256814745833" TEXT="Grid_">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233587048843" ID="Freemind_Link_1178935152" MODIFIED="1257245724604" STYLE="bubble" TEXT="GridType">
+<node COLOR="#996600" CREATED="1233587048843" ID="Freemind_Link_1178935152" MODIFIED="1258647089410" STYLE="bubble" TEXT="GridType">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Geometry type of the horizontal grid.[/definition]</text>
+</hook>
 <node COLOR="#000000" CREATED="1233330560635" ID="Freemind_Link_962162263" MODIFIED="1254228731110" STYLE="fork" TEXT="latitude-longitude rectangular">
 <font NAME="Arial" SIZE="15"/>
 <icon BUILTIN="button_cancel"/>
@@ -316,8 +340,11 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1253871284739" ID="Freemind_Link_1055809870" MODIFIED="1257245735617" TEXT="Horizontal_Discretization">
+<node COLOR="#996600" CREATED="1253871284739" ID="Freemind_Link_1055809870" MODIFIED="1258642155130" TEXT="Horizontal_Discretization">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Numerical method used by the horizontal discretization scheme.[/definition]</text>
+</hook>
 <node COLOR="#000000" CREATED="1233751025519" ID="Freemind_Link_929753603" MODIFIED="1255360088825" STYLE="fork" TEXT="finite differences">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -337,24 +364,30 @@
 </node>
 <node COLOR="#0033ff" CREATED="1255359633399" ID="Freemind_Link_305411266" MODIFIED="1255423410560" TEXT="if HorizontalDiscretization is &quot;finite differences&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1254225995108" ID="Freemind_Link_1314101764" MODIFIED="1257245744268" TEXT="GridName">
+<node COLOR="#996600" CREATED="1254225995108" ID="Freemind_Link_1314101764" MODIFIED="1258715028862" TEXT="GridName">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Type of grid used to map the different type of variables(vector, scalar, etc.) for derivative calculation s(???).[/definition]</text>
+</hook>
 <node COLOR="#000000" CREATED="1233751025519" ID="Freemind_Link_1477857623" MODIFIED="1254228158793" STYLE="fork" TEXT="Arakawa B-grid">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node COLOR="#000000" CREATED="1233751025519" ID="Freemind_Link_1357617664" MODIFIED="1254228164763" STYLE="fork" TEXT="Arakawa C-Grid">
+<node COLOR="#000000" CREATED="1233751025519" ID="Freemind_Link_1357617664" MODIFIED="1258642208568" STYLE="fork" TEXT="Arakawa C-grid">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node COLOR="#000000" CREATED="1233751025519" ID="Freemind_Link_273475768" MODIFIED="1254228170745" STYLE="fork" TEXT="Arakawa E-Grid">
+<node COLOR="#000000" CREATED="1233751025519" ID="Freemind_Link_273475768" MODIFIED="1258642215752" STYLE="fork" TEXT="Arakawa E-grid">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1475026673" MODIFIED="1256743029153" TEXT="NorthPoleSingularityTreatment">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1475026673" MODIFIED="1258714745675" TEXT="NorthPoleSingularityTreatment">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Method used to deal with north pole singularities.[/definition]</text>
+</hook>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1661762733" MODIFIED="1253869568028" STYLE="fork" TEXT="filter">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -405,8 +438,11 @@
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1256740460367" ID="Freemind_Link_439662523" MODIFIED="1257245785514" TEXT="SpecialRefinement">
+<node COLOR="#996600" CREATED="1256740460367" ID="Freemind_Link_439662523" MODIFIED="1258714794066" TEXT="SpecialRefinement">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Description of any other special gid refinement (location, resolution).[/definition]</text>
+</hook>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1221569672" MODIFIED="1256808908645" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="pencil"/>
@@ -435,20 +471,20 @@
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_823341833" MODIFIED="1257037370152" TEXT="LonMin">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_823341833" MODIFIED="1258715056006" TEXT="LonMin">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Eastern boundary of the geographical domain.[/definition]</text>
+<text>[definition]Western boundary of the geographical domain.[/definition]</text>
 </hook>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1297746569" MODIFIED="1257037384464" STYLE="fork" TEXT="degE">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_600779154" MODIFIED="1257038222528" TEXT="LonMax">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_600779154" MODIFIED="1258715064008" TEXT="LonMax">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Western boundary of the geographical domain.[/definition]</text>
+<text>[definition]Eastern boundary of the geographical domain.[/definition]</text>
 </hook>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1730088724" MODIFIED="1257037384464" STYLE="fork" TEXT="degE">
 <font NAME="SansSerif" SIZE="14"/>
@@ -459,8 +495,11 @@
 </node>
 <node COLOR="#990099" CREATED="1233751003143" ID="Freemind_Link_142866659" MODIFIED="1257336604925" STYLE="bubble" TEXT="Vertical.Domain">
 <font NAME="SansSerif" SIZE="14"/>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233751003143" FOLDED="true" ID="Freemind_Link_1376312766" MODIFIED="1257245836603" STYLE="bubble" TEXT="Vertical_CoordinateSystem">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233751003143" ID="Freemind_Link_1376312766" MODIFIED="1258715083150" STYLE="bubble" TEXT="Vertical_CoordinateSystem">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]vertical coordinate system.[/definition]</text>
+</hook>
 <node COLOR="#000000" CREATED="1233330582860" ID="Freemind_Link_1227766503" MODIFIED="1254226141475" STYLE="fork" TEXT="Z-coordinate">
 <font NAME="Arial" SIZE="15"/>
 <icon BUILTIN="button_cancel"/>
@@ -506,11 +545,15 @@
 <icon BUILTIN="messagebox_warning"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1255360198907" FOLDED="true" ID="Freemind_Link_1843926824" MODIFIED="1255505676314" TEXT="if VerticalCoordinateSystem is &quot;Z-coordinate&quot; or &quot;Z*-coordinate&quot;">
+<node COLOR="#0033ff" CREATED="1255360198907" ID="Freemind_Link_1843926824" MODIFIED="1255505676314" TEXT="if VerticalCoordinateSystem is &quot;Z-coordinate&quot; or &quot;Z*-coordinate&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1254225995108" FOLDED="true" ID="Freemind_Link_304065467" MODIFIED="1254226130797" TEXT="PartialSteps">
+<node COLOR="#996600" CREATED="1254225995108" ID="Freemind_Link_304065467" MODIFIED="1258730995705" TEXT="PartialSteps">
+<cloud/>
 <font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1254226011363" ID="Freemind_Link_1603622033" MODIFIED="1254226036113" STYLE="fork" TEXT="yes">
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition].[/definition]</text>
+</hook>
+<node COLOR="#000000" CREATED="1254226011363" ID="Freemind_Link_1603622033" MODIFIED="1258728796317" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
@@ -520,10 +563,13 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1255360198907" FOLDED="true" ID="Freemind_Link_83715157" MODIFIED="1255360251338" TEXT="if VerticalCoordinateSystem is &quot;S-coordinate&quot;">
+<node COLOR="#0033ff" CREATED="1255360198907" ID="Freemind_Link_83715157" MODIFIED="1255360251338" TEXT="if VerticalCoordinateSystem is &quot;S-coordinate&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233270123274" FOLDED="true" ID="Freemind_Link_107539316" MODIFIED="1254226658129" STYLE="bubble" TEXT="ReferencePressure">
+<node COLOR="#996600" CREATED="1233270123274" ID="Freemind_Link_107539316" MODIFIED="1258731108914" STYLE="bubble" TEXT="ReferencePressure">
 <font NAME="Arial" SIZE="15"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Reference pression for S-coordinate.[/definition]</text>
+</hook>
 <node COLOR="#000000" CREATED="1233755964790" ID="Freemind_Link_425207178" MODIFIED="1233937842698" STYLE="fork" TEXT="Sigma0">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -542,40 +588,40 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_995947235" MODIFIED="1257329324915" TEXT="NumberOfLevels">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_995947235" MODIFIED="1258731026843" TEXT="NumberOfLevels">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Total number of ocean vertical levels.[/definition]</text>
+<text>[definition]Total number of vertical levels.[/definition]</text>
 </hook>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_569217197" MODIFIED="1256812397215" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1700087151" MODIFIED="1257329312427" TEXT="NumberOfLevelsInUpper100m">
-<font NAME="SansSerif" SIZE="14"/>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1700087151" MODIFIED="1258731030946" TEXT="NumberOfLevelsInUpper100m">
+<font NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Number of vertical levels in the ocean upper 100 meters.[/definition]</text>
+<text>[definition]Number of vertical levels in the upper 100 meters.[/definition]</text>
 </hook>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1111637724" MODIFIED="1256812397215" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233250004110" ID="Freemind_Link_1252154617" MODIFIED="1257329270343" STYLE="bubble" TEXT="UpperLevel">
+<node COLOR="#996600" CREATED="1233250004110" ID="Freemind_Link_1252154617" MODIFIED="1258731039619" STYLE="bubble" TEXT="UpperLevel">
 <font NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Upper level in the ocean.[/definition]</text>
+<text>[definition]Upper level.[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1233250230686" ID="Freemind_Link_1910902026" MODIFIED="1257037434758" STYLE="fork" TEXT="meters">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233250004110" ID="Freemind_Link_455921828" MODIFIED="1257329280449" STYLE="bubble" TEXT="LowerLevel">
+<node COLOR="#996600" CREATED="1233250004110" ID="Freemind_Link_455921828" MODIFIED="1258731049042" STYLE="bubble" TEXT="LowerLevel">
 <font NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Lower level in the ocean.[/definition]</text>
+<text>[definition]Lower level.[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1233250230686" ID="Freemind_Link_690806304" MODIFIED="1257037434758" STYLE="fork" TEXT="meters">
 <font NAME="Arial" SIZE="14"/>
@@ -586,10 +632,13 @@
 </node>
 <node CREATED="1254225441012" ID="Freemind_Link_1282063900" MODIFIED="1256899287964" TEXT="OceanNudging_">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#990099" CREATED="1233333993001" FOLDED="true" ID="Freemind_Link_1055710189" MODIFIED="1254305260721" TEXT="TracersDamping">
+<node COLOR="#990099" CREATED="1233333993001" ID="Freemind_Link_1055710189" MODIFIED="1254305260721" TEXT="TracersDamping">
 <font NAME="Arial" SIZE="14"/>
-<node COLOR="#996600" CREATED="1244813200289" FOLDED="true" ID="Freemind_Link_915274174" MODIFIED="1246548350145" STYLE="bubble" TEXT="AppliedTo">
+<node COLOR="#996600" CREATED="1244813200289" ID="Freemind_Link_915274174" MODIFIED="1258731222373" STYLE="bubble" TEXT="AppliedTo">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]List of tracers to which the damping apply.[/definition]</text>
+</hook>
 <node CREATED="1244813208481" ID="Freemind_Link_536093164" MODIFIED="1246548330915" STYLE="fork" TEXT="temperature">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
@@ -603,7 +652,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" FOLDED="true" ID="Freemind_Link_1138022622" MODIFIED="1257037459476" TEXT="LatMin">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1138022622" MODIFIED="1257037459476" TEXT="LatMin">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Southern boundary of the tracers damping zone.[/definition]</text>
@@ -613,7 +662,7 @@
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" FOLDED="true" ID="Freemind_Link_1197426489" MODIFIED="1257037493530" TEXT="LatMax">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1197426489" MODIFIED="1257037493530" TEXT="LatMax">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Northern boundary of the tracers damping zone.[/definition]</text>
@@ -623,27 +672,27 @@
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" FOLDED="true" ID="Freemind_Link_995361996" MODIFIED="1257037499083" TEXT="LonMin">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_995361996" MODIFIED="1258731269282" TEXT="LonMin">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Eastern boundary of the tracers damping zone.[/definition]</text>
+<text>[definition]Western boundary of the tracers damping zone.[/definition]</text>
 </hook>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1459869855" MODIFIED="1257037482976" STYLE="fork" TEXT="degE">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" FOLDED="true" ID="Freemind_Link_54185639" MODIFIED="1257037503857" TEXT="LonMax">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_54185639" MODIFIED="1258731275725" TEXT="LonMax">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Western boundary of the tracers damping zone.[/definition]</text>
+<text>[definition]Eastern boundary of the tracers damping zone.[/definition]</text>
 </hook>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_208151038" MODIFIED="1257037487165" STYLE="fork" TEXT="degE">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233250004110" FOLDED="true" ID="Freemind_Link_232319022" MODIFIED="1257037511532" STYLE="bubble" TEXT="UpperLevel">
+<node COLOR="#996600" CREATED="1233250004110" ID="Freemind_Link_232319022" MODIFIED="1257037511532" STYLE="bubble" TEXT="UpperLevel">
 <font NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Upper level of the tracers damping zone.[/definition]</text>
@@ -653,7 +702,7 @@
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233250004110" FOLDED="true" ID="Freemind_Link_1737265691" MODIFIED="1257037524956" STYLE="bubble" TEXT="LowerLevel">
+<node COLOR="#996600" CREATED="1233250004110" ID="Freemind_Link_1737265691" MODIFIED="1257037524956" STYLE="bubble" TEXT="LowerLevel">
 <font NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Lower level of the tracers damping zone.[/definition]</text>
@@ -664,9 +713,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1233333993001" FOLDED="true" ID="Freemind_Link_1883344718" MODIFIED="1254305260727" TEXT="MomentumDamping">
+<node COLOR="#990099" CREATED="1233333993001" ID="Freemind_Link_1883344718" MODIFIED="1254305260727" TEXT="MomentumDamping">
 <font NAME="Arial" SIZE="14"/>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" FOLDED="true" ID="Freemind_Link_904872654" MODIFIED="1257037614608" TEXT="LatMin">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_904872654" MODIFIED="1257037614608" TEXT="LatMin">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Southern boundary of the momentum damping zone.[/definition]</text>
@@ -676,7 +725,7 @@
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" FOLDED="true" ID="Freemind_Link_1958392000" MODIFIED="1257037609335" TEXT="LatMax">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1958392000" MODIFIED="1257037609335" TEXT="LatMax">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Northern boundary of the momentum damping zone.[/definition]</text>
@@ -686,27 +735,27 @@
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" FOLDED="true" ID="Freemind_Link_1888362183" MODIFIED="1257037603969" TEXT="LonMin">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1888362183" MODIFIED="1258731286208" TEXT="LonMin">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Eastern boundary of the momentum damping zone.[/definition]</text>
+<text>[definition]Western boundary of the momentum damping zone.[/definition]</text>
 </hook>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_672712873" MODIFIED="1257037482976" STYLE="fork" TEXT="degE">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" FOLDED="true" ID="Freemind_Link_412297702" MODIFIED="1257037599726" TEXT="LonMax">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_412297702" MODIFIED="1258731290670" TEXT="LonMax">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Western boundary of the momentum damping zone.[/definition]</text>
+<text>[definition]Eastern boundary of the momentum damping zone.[/definition]</text>
 </hook>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_538052490" MODIFIED="1257037482976" STYLE="fork" TEXT="degE">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233250004110" FOLDED="true" ID="Freemind_Link_448874578" MODIFIED="1257037587247" STYLE="bubble" TEXT="UpperLevel">
+<node COLOR="#996600" CREATED="1233250004110" ID="Freemind_Link_448874578" MODIFIED="1257037587247" STYLE="bubble" TEXT="UpperLevel">
 <font NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Upper level of the momentum damping zone.[/definition]</text>
@@ -716,7 +765,7 @@
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233250004110" FOLDED="true" ID="Freemind_Link_1707625142" MODIFIED="1257037580367" STYLE="bubble" TEXT="LowerLevel">
+<node COLOR="#996600" CREATED="1233250004110" ID="Freemind_Link_1707625142" MODIFIED="1257037580367" STYLE="bubble" TEXT="LowerLevel">
 <font NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Lower level of the momentum damping zone.[/definition]</text>
@@ -730,8 +779,11 @@
 </node>
 <node COLOR="#990099" CREATED="1233751261777" ID="Freemind_Link_1211028866" MODIFIED="1255359299902" STYLE="bubble" TEXT="TimeSteppingFramework">
 <font NAME="SansSerif" SIZE="15"/>
-<node COLOR="#996600" CREATED="1244812707143" FOLDED="true" ID="Freemind_Link_44510121" MODIFIED="1256256926691" TEXT="Tracers">
+<node COLOR="#996600" CREATED="1244812707143" ID="Freemind_Link_44510121" MODIFIED="1259053528340" TEXT="Tracers">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Time stepping scheme for tracers.[/definition]</text>
+</hook>
 <node COLOR="#000000" CREATED="1233751272649" ID="Freemind_Link_172929167" MODIFIED="1254227693822" STYLE="fork" TEXT="Leap-frog + Asselin filter">
 <font NAME="SansSerif" SIZE="15"/>
 <icon BUILTIN="button_cancel"/>
@@ -744,7 +796,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node COLOR="#000000" CREATED="1233752607783" FOLDED="true" ID="Freemind_Link_831993079" MODIFIED="1256899271716" STYLE="fork" TEXT="AM3-LF (ROMS)">
+<node COLOR="#000000" CREATED="1233752607783" ID="Freemind_Link_831993079" MODIFIED="1256899271716" STYLE="fork" TEXT="AM3-LF (ROMS)">
 <font NAME="SansSerif" SIZE="13"/>
 <icon BUILTIN="messagebox_warning"/>
 <icon BUILTIN="button_cancel"/>
@@ -762,8 +814,11 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244812736559" FOLDED="true" ID="Freemind_Link_1763722321" MODIFIED="1246265677474" TEXT="BarotropicSolver">
+<node COLOR="#996600" CREATED="1244812736559" ID="Freemind_Link_1763722321" MODIFIED="1259053532700" TEXT="BarotropicSolver">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Time stepping scheme for barotropic solver.[/definition]</text>
+</hook>
 <node COLOR="#000000" CREATED="1233751272649" ID="Freemind_Link_596540307" MODIFIED="1254227680624" STYLE="fork" TEXT="Leap-frog + Asselin filter">
 <font NAME="SansSerif" SIZE="15"/>
 <icon BUILTIN="button_cancel"/>
@@ -789,8 +844,11 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244812755592" FOLDED="true" ID="Freemind_Link_328206222" MODIFIED="1246265684248" TEXT="BaroclinicMomentum">
+<node COLOR="#996600" CREATED="1244812755592" ID="Freemind_Link_328206222" MODIFIED="1259053536218" TEXT="BaroclinicMomentum">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Time stepping scheme for baroclinic momentum.[/definition]</text>
+</hook>
 <node COLOR="#000000" CREATED="1233751272649" ID="Freemind_Link_1586295348" MODIFIED="1254227680624" STYLE="fork" TEXT="Leap-frog + Asselin filter">
 <font NAME="SansSerif" SIZE="15"/>
 <icon BUILTIN="button_cancel"/>
@@ -816,10 +874,10 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1253870854444" FOLDED="true" ID="Freemind_Link_1853887404" MODIFIED="1257037643328" TEXT="TimeStep">
+<node COLOR="#996600" CREATED="1253870854444" ID="Freemind_Link_1853887404" MODIFIED="1258731680927" TEXT="TimeStep">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Time step of the ocean model.[/definition]</text>
+<text>[definition]Time step of the model.[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1233270123274" ID="Freemind_Link_857353586" MODIFIED="1257037649809" STYLE="fork" TEXT="seconds">
 <font NAME="Arial" SIZE="15"/>
@@ -832,18 +890,21 @@
 <font BOLD="true" NAME="Arial" SIZE="14"/>
 <node COLOR="#990099" CREATED="1233333764840" ID="Freemind_Link_381163598" MODIFIED="1256922160060" TEXT="Momentum">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233141992152" FOLDED="true" ID="Freemind_Link_394277166" MODIFIED="1257038447909" STYLE="bubble" TEXT="SchemeName">
+<node COLOR="#996600" CREATED="1233141992152" ID="Freemind_Link_394277166" MODIFIED="1258731725387" STYLE="bubble" TEXT="SchemeName">
 <font NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Commonly used name of the advection scheme.[/definition]</text>
+<text>[definition]Commonly used name for momentum advection scheme.[/definition]</text>
 </hook>
 <node CREATED="1233753200561" ID="Freemind_Link_140742625" MODIFIED="1257037658740" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="pencil"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233141992152" FOLDED="true" ID="Freemind_Link_1308725448" MODIFIED="1242117043417" STYLE="bubble" TEXT="SchemeType">
+<node COLOR="#996600" CREATED="1233141992152" ID="Freemind_Link_1308725448" MODIFIED="1258731759582" STYLE="bubble" TEXT="SchemeType">
 <font NAME="Arial" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Type of numerical scheme used for advection of momentum.[/definition]</text>
+</hook>
 <node CREATED="1233753074656" ID="Freemind_Link_1943432535" MODIFIED="1253538033916" STYLE="fork" TEXT="Flux form">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -856,8 +917,11 @@
 </node>
 <node COLOR="#990099" CREATED="1233333739794" ID="Freemind_Link_1123121019" MODIFIED="1256922163562" TEXT="LateralTracers">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233914362646" FOLDED="true" ID="Freemind_Link_496327274" MODIFIED="1242812395485" TEXT="SchemeType">
+<node COLOR="#996600" CREATED="1233914362646" ID="Freemind_Link_496327274" MODIFIED="1258731800859" TEXT="SchemeType">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Type of numerical scheme used for lateral advection of tracers.[/definition]</text>
+</hook>
 <node CREATED="1233753316666" ID="Freemind_Link_1476802064" MODIFIED="1253538029010" STYLE="fork" TEXT="Centred 2nd order">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -895,7 +959,8 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244815339520" FOLDED="true" ID="Freemind_Link_1327893840" MODIFIED="1246262129988" TEXT="MonotonicFluxLimiter">
+<node COLOR="#996600" CREATED="1244815339520" ID="Freemind_Link_1327893840" MODIFIED="1259053605814" TEXT="MonotonicFluxLimiter">
+<cloud/>
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1244815352020" ID="Freemind_Link_696043704" MODIFIED="1246262111509" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
@@ -909,8 +974,11 @@
 </node>
 <node COLOR="#990099" CREATED="1233333739794" ID="Freemind_Link_1298069449" MODIFIED="1256922166927" TEXT="VerticalTracers">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233871287685" FOLDED="true" ID="Freemind_Link_234704952" MODIFIED="1242117259118" TEXT="SchemeType">
+<node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_234704952" MODIFIED="1258731827629" TEXT="SchemeType">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Type of numerical scheme used for vertical advection of tracers.[/definition]</text>
+</hook>
 <node CREATED="1233753316666" ID="Freemind_Link_1670571331" MODIFIED="1242072864795" STYLE="fork" TEXT="Centred 2nd order">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -935,7 +1003,8 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244815339520" FOLDED="true" ID="Freemind_Link_1011682951" MODIFIED="1246262129988" TEXT="MonotonicFluxLimiter">
+<node COLOR="#996600" CREATED="1244815339520" ID="Freemind_Link_1011682951" MODIFIED="1259053630445" TEXT="MonotonicFluxLimiter">
+<cloud/>
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1244815352020" ID="Freemind_Link_1576545725" MODIFIED="1246262111509" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
@@ -952,10 +1021,13 @@
 <font BOLD="true" NAME="Arial" SIZE="14"/>
 <node COLOR="#000000" CREATED="1233331528175" ID="Freemind_Link_236153178" MODIFIED="1256916001421" TEXT="OceanLateralPhys_Momentum">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#990099" CREATED="1253798338110" FOLDED="true" ID="_" MODIFIED="1255362020339" TEXT="Operator">
+<node COLOR="#990099" CREATED="1253798338110" ID="_" MODIFIED="1255362020339" TEXT="Operator">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233141996872" FOLDED="true" ID="Freemind_Link_1727620717" MODIFIED="1233872826518" STYLE="bubble" TEXT="Direction">
+<node COLOR="#996600" CREATED="1233141996872" ID="Freemind_Link_1727620717" MODIFIED="1259055831251" STYLE="bubble" TEXT="Direction">
 <font NAME="Arial" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Type of iso-surface on which lateral diffusion of momentum is formulated.[/definition]</text>
+</hook>
 <node CREATED="1233141348258" ID="Freemind_Link_59584860" MODIFIED="1253538079359" STYLE="fork" TEXT="horizontal">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -981,8 +1053,11 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233141996872" FOLDED="true" ID="Freemind_Link_1443027422" MODIFIED="1253798374824" STYLE="bubble" TEXT="Order">
+<node COLOR="#996600" CREATED="1233141996872" ID="Freemind_Link_1443027422" MODIFIED="1259055817695" STYLE="bubble" TEXT="Order">
 <font NAME="Arial" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Order of the diffusion operator used to model the lateral diffusion of momentum.[/definition]</text>
+</hook>
 <node CREATED="1233141450859" ID="Freemind_Link_1513571669" MODIFIED="1253538109279" STYLE="fork" TEXT="harmonic (second order)">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -991,13 +1066,16 @@
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1233270123274" ID="Freemind_Link_1594469701" MODIFIED="1243263637297" STYLE="fork" TEXT="Other">
+<node CREATED="1233270123274" ID="Freemind_Link_1594469701" MODIFIED="1259055228703" STYLE="fork" TEXT="other">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244815102314" FOLDED="true" ID="Freemind_Link_1444669973" MODIFIED="1246538528545" STYLE="bubble" TEXT="Discretization">
+<node COLOR="#996600" CREATED="1244815102314" ID="Freemind_Link_1444669973" MODIFIED="1259055809630" STYLE="bubble" TEXT="Discretization">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Discretization method applied for the lateral diffusion operator of momentum.[/definition]</text>
+</hook>
 <node CREATED="1244815111761" ID="Freemind_Link_1956152961" MODIFIED="1246262273702" STYLE="fork" TEXT="second order">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -1012,10 +1090,13 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1233245834351" FOLDED="true" ID="Freemind_Link_1713607070" MODIFIED="1256917117437" STYLE="bubble" TEXT="EddyViscosityCoefficient">
+<node COLOR="#990099" CREATED="1233245834351" ID="Freemind_Link_1713607070" MODIFIED="1256917117437" STYLE="bubble" TEXT="EddyViscosityCoefficient">
 <font NAME="Arial" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233871287685" FOLDED="true" ID="Freemind_Link_52027852" MODIFIED="1256917137998" TEXT="Coefficient_Type">
+<node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_52027852" MODIFIED="1259068514848" TEXT="Coefficient_Type">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Property of the eddy viscosity coefficient for momentum.[/definition]</text>
+</hook>
 <node COLOR="#000000" CREATED="1233245843791" ID="Freemind_Link_361137282" MODIFIED="1253534844418" STYLE="fork" TEXT="constant">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -1033,12 +1114,12 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1253713965343" FOLDED="true" ID="Freemind_Link_1148800952" MODIFIED="1253723602857" TEXT="if CoefficientType is &quot;constant&quot;">
+<node COLOR="#0033ff" CREATED="1253713965343" ID="Freemind_Link_1148800952" MODIFIED="1253723602857" TEXT="if CoefficientType is &quot;constant&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233871287685" FOLDED="true" ID="Freemind_Link_150961143" MODIFIED="1257037727973" STYLE="bubble" TEXT="Coefficient_Value">
+<node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_150961143" MODIFIED="1259056186477" STYLE="bubble" TEXT="Coefficient_Value">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Eddy viscosity coefficient for momentum.[/definition]</text>
+<text>[definition]Constant value of the eddy viscosity coefficient for momentum.[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1233245864615" ID="Freemind_Link_462417391" MODIFIED="1257037751186" STYLE="fork" TEXT="m2/s">
 <font NAME="Arial" SIZE="14"/>
@@ -1046,28 +1127,31 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1253713965343" FOLDED="true" ID="Freemind_Link_1731926410" MODIFIED="1255362213866" TEXT="if CoefficientType is &quot;space varying&quot; or &quot;time + space varying&quot;">
+<node COLOR="#0033ff" CREATED="1253713965343" ID="Freemind_Link_1731926410" MODIFIED="1255362213866" TEXT="if CoefficientType is &quot;space varying&quot; or &quot;time + space varying&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233871287685" FOLDED="true" ID="Freemind_Link_1084589120" MODIFIED="1256917199766" TEXT="SpatialVariation">
+<node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_1084589120" MODIFIED="1259056822083" TEXT="SpatialVariation">
 <font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1233246454929" ID="Freemind_Link_313048469" MODIFIED="1253534866305" STYLE="fork" TEXT="with depth">
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Directions along which the eddy viscosity coefficient for momentum is varying.[/definition]</text>
+</hook>
+<node CREATED="1233246454929" ID="Freemind_Link_313048469" MODIFIED="1259056837768" STYLE="fork" TEXT="depth">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1233246454929" ID="Freemind_Link_1676129842" MODIFIED="1253534870337" STYLE="fork" TEXT="with latitude">
+<node CREATED="1233246454929" ID="Freemind_Link_1676129842" MODIFIED="1259056842846" STYLE="fork" TEXT="latitude">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1233246454929" ID="Freemind_Link_124167459" MODIFIED="1253534874417" STYLE="fork" TEXT="with longitude">
+<node CREATED="1233246454929" ID="Freemind_Link_124167459" MODIFIED="1259056849343" STYLE="fork" TEXT="longitude">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233332461227" FOLDED="true" ID="Freemind_Link_1717546516" MODIFIED="1257037770819" STYLE="bubble" TEXT="MinimalBackgroundValue">
+<node COLOR="#996600" CREATED="1233332461227" ID="Freemind_Link_1717546516" MODIFIED="1259055756934" STYLE="bubble" TEXT="MinimalBackgroundValue">
 <font NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Minimal background Eddy viscosity coefficient for momentum.[/definition]</text>
+<text>[definition]Minimal background value of eddy viscosity coefficient for momentum.[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1233245864615" ID="Freemind_Link_1391564121" MODIFIED="1257037751186" STYLE="fork" TEXT="m2/s">
 <font NAME="Arial" SIZE="14"/>
@@ -1078,9 +1162,10 @@
 </node>
 <node COLOR="#000000" CREATED="1233331540535" ID="Freemind_Link_531784001" MODIFIED="1256916141556" TEXT="OceanLateralPhys_Tracers">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#990099" CREATED="1255362116460" FOLDED="true" ID="Freemind_Link_1044558789" MODIFIED="1256916080981" TEXT="OceanLateralPhysTracersAttributes_">
+<node COLOR="#990099" CREATED="1255362116460" ID="Freemind_Link_1044558789" MODIFIED="1256916080981" TEXT="OceanLateralPhysTracersAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1244815007259" FOLDED="true" ID="Freemind_Link_1927022668" MODIFIED="1246262568202" STYLE="bubble" TEXT="MesoscaleClosure">
+<node COLOR="#996600" CREATED="1244815007259" ID="Freemind_Link_1927022668" MODIFIED="1259055847271" STYLE="bubble" TEXT="MesoscaleClosure">
+<cloud/>
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1244814624714" ID="Freemind_Link_396054916" MODIFIED="1246262551311" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1092,10 +1177,16 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1253798338110" FOLDED="true" ID="Freemind_Link_1909106135" MODIFIED="1255362020339" TEXT="Operator">
+<node COLOR="#990099" CREATED="1253798338110" ID="Freemind_Link_1909106135" MODIFIED="1259066605426" TEXT="Operator">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233141996872" FOLDED="true" ID="Freemind_Link_756215669" MODIFIED="1233872826518" STYLE="bubble" TEXT="Direction">
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Diffusion operator for parametrization of geostrophic eddies (first part: mixing of tracers along iso-surfaces) (???).[/definition]</text>
+</hook>
+<node COLOR="#996600" CREATED="1233141996872" ID="Freemind_Link_756215669" MODIFIED="1259055875195" STYLE="bubble" TEXT="Direction">
 <font NAME="Arial" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Type of iso-surface on which lateral diffusion of tracers is formulated.[/definition]</text>
+</hook>
 <node CREATED="1233141348258" ID="Freemind_Link_1148271963" MODIFIED="1253538079359" STYLE="fork" TEXT="horizontal">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -1121,8 +1212,11 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233141996872" FOLDED="true" ID="Freemind_Link_537387508" MODIFIED="1253798374824" STYLE="bubble" TEXT="Order">
+<node COLOR="#996600" CREATED="1233141996872" ID="Freemind_Link_537387508" MODIFIED="1259055893509" STYLE="bubble" TEXT="Order">
 <font NAME="Arial" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Order of the diffusion operator used to model the lateral diffusion of tracers.[/definition]</text>
+</hook>
 <node CREATED="1233141450859" ID="Freemind_Link_1872804436" MODIFIED="1253538109279" STYLE="fork" TEXT="harmonic (second order)">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -1131,13 +1225,16 @@
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1233270123274" ID="Freemind_Link_1517072992" MODIFIED="1243263637297" STYLE="fork" TEXT="Other">
+<node CREATED="1233270123274" ID="Freemind_Link_1517072992" MODIFIED="1259066970084" STYLE="fork" TEXT="other">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244815102314" FOLDED="true" ID="Freemind_Link_162349218" MODIFIED="1246538528545" STYLE="bubble" TEXT="Discretization">
+<node COLOR="#996600" CREATED="1244815102314" ID="Freemind_Link_162349218" MODIFIED="1259055915566" STYLE="bubble" TEXT="Discretization">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Discretization method applied for the lateral diffusion operator of tracers.[/definition]</text>
+</hook>
 <node CREATED="1244815111761" ID="Freemind_Link_440561863" MODIFIED="1246262273702" STYLE="fork" TEXT="second order">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -1152,10 +1249,16 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1233245834351" FOLDED="true" ID="Freemind_Link_459859742" MODIFIED="1256922537795" STYLE="bubble" TEXT="EddyViscosityCoefficient">
+<node COLOR="#990099" CREATED="1233245834351" ID="Freemind_Link_459859742" MODIFIED="1259070610254" STYLE="bubble" TEXT="EddyViscosityCoefficient">
 <font NAME="Arial" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233871287685" FOLDED="true" ID="Freemind_Link_1431501845" MODIFIED="1256922547744" STYLE="bubble" TEXT="Coefficient_Type">
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Mixing of tracers along iso-surfaces (???).[/definition]</text>
+</hook>
+<node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_1431501845" MODIFIED="1259070463380" STYLE="bubble" TEXT="Coefficient_Type">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Property of the eddy viscosity coefficient for tracers.[/definition]</text>
+</hook>
 <node CREATED="1233245843791" ID="Freemind_Link_1971300003" MODIFIED="1253537293540" STYLE="fork" TEXT="constant">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -1165,12 +1268,12 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1253713965343" FOLDED="true" ID="Freemind_Link_1398800540" MODIFIED="1257165556654" TEXT="if CoefficientType is &quot;constant&quot;">
+<node COLOR="#0033ff" CREATED="1253713965343" ID="Freemind_Link_1398800540" MODIFIED="1257165556654" TEXT="if CoefficientType is &quot;constant&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233871287685" FOLDED="true" ID="Freemind_Link_528193691" MODIFIED="1257037780740" STYLE="bubble" TEXT="ConstantValue">
+<node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_528193691" MODIFIED="1259070480072" STYLE="bubble" TEXT="Coefficient_Value">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Eddy viscosity coefficient for tracers.[/definition]</text>
+<text>[definition]Value of the eddy viscosity coefficient for tracers.[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1233245864615" ID="Freemind_Link_45716581" MODIFIED="1257037751186" STYLE="fork" TEXT="m2/s">
 <font NAME="Arial" SIZE="14"/>
@@ -1178,28 +1281,31 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1253713965343" FOLDED="true" ID="Freemind_Link_883124100" MODIFIED="1253723726034" TEXT="if CoefficientType is &quot;space varying&quot;">
+<node COLOR="#0033ff" CREATED="1253713965343" ID="Freemind_Link_883124100" MODIFIED="1253723726034" TEXT="if CoefficientType is &quot;space varying&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233871287685" FOLDED="true" ID="Freemind_Link_717178037" MODIFIED="1256922512706" TEXT="SpatialVariation">
+<node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_717178037" MODIFIED="1259056274895" TEXT="SpatialVariation">
 <font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1233246454929" ID="Freemind_Link_925774952" MODIFIED="1253534866305" STYLE="fork" TEXT="with depth">
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Directions along which the eddy viscosity coefficient for tracers is varying.[/definition]</text>
+</hook>
+<node CREATED="1233246454929" ID="Freemind_Link_925774952" MODIFIED="1259056893810" STYLE="fork" TEXT="depth">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1233246454929" ID="Freemind_Link_800233739" MODIFIED="1253534870337" STYLE="fork" TEXT="with latitude">
+<node CREATED="1233246454929" ID="Freemind_Link_800233739" MODIFIED="1259056898560" STYLE="fork" TEXT="latitude">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1233246454929" ID="Freemind_Link_1686392006" MODIFIED="1253534874417" STYLE="fork" TEXT="with longitude">
+<node CREATED="1233246454929" ID="Freemind_Link_1686392006" MODIFIED="1259056905229" STYLE="fork" TEXT="longitude">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233332461227" FOLDED="true" ID="Freemind_Link_360521088" MODIFIED="1257037797340" STYLE="bubble" TEXT="BackgroundValue">
+<node COLOR="#996600" CREATED="1233332461227" ID="Freemind_Link_360521088" MODIFIED="1259056230655" STYLE="bubble" TEXT="BackgroundValue">
 <font NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Background Eddy viscosity coefficient for tracers.[/definition]</text>
+<text>[definition]Background value of eddy viscosity coefficient for tracers.[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1233245864615" ID="Freemind_Link_321856045" MODIFIED="1257037751186" STYLE="fork" TEXT="m2/s">
 <font NAME="Arial" SIZE="14"/>
@@ -1207,23 +1313,35 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1233331939265" FOLDED="true" ID="Freemind_Link_582474887" MODIFIED="1255362020339" STYLE="bubble" TEXT="Eddy-inducedVelocity">
+<node COLOR="#990099" CREATED="1233331939265" ID="Freemind_Link_582474887" MODIFIED="1259070664526" STYLE="bubble" TEXT="Eddy-inducedVelocity">
 <font NAME="Arial" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233753810140" FOLDED="true" ID="Freemind_Link_285068725" MODIFIED="1242117470475" STYLE="bubble" TEXT="CoefficientType">
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Adiabatic re-arrangement of tracers through an advective flux (???).[/definition]</text>
+</hook>
+<node COLOR="#996600" CREATED="1233753810140" ID="Freemind_Link_285068725" MODIFIED="1259070804396" STYLE="bubble" TEXT="SchemeType">
 <font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1233245983568" ID="Freemind_Link_952414299" MODIFIED="1233916192014" STYLE="fork" TEXT="GM scheme">
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Scheme used to parametrise eddy fluxes as eddy-induced velocity (adiabatic).[/definition]</text>
+</hook>
+<node CREATED="1233245983568" ID="Freemind_Link_952414299" MODIFIED="1259070077390" STYLE="fork" TEXT="GM scheme">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Gent-Mc Williams scheme for ocean eddy parametrization (adiabatic, mesoscale eddies).[/definition]</text>
+</hook>
 </node>
 <node CREATED="1233270123274" ID="Freemind_Link_1561501259" MODIFIED="1253537963560" STYLE="fork" TEXT="other">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1253713965343" FOLDED="true" ID="Freemind_Link_8391147" MODIFIED="1253723783926" TEXT="if CoefficientType is &quot;GM scheme&quot;">
+<node COLOR="#0033ff" CREATED="1253713965343" ID="Freemind_Link_8391147" MODIFIED="1259070329892" TEXT="if SchemeType is &quot;GM scheme&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233871287685" FOLDED="true" ID="Freemind_Link_663153538" MODIFIED="1256743338559" STYLE="bubble" TEXT="GMvalue">
+<node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_663153538" MODIFIED="1259070829091" STYLE="bubble" TEXT="CoefficientType">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Property of the coefficient for eddy-induced velocity.[/definition]</text>
+</hook>
 <node CREATED="1256743329428" ID="Freemind_Link_1402030972" MODIFIED="1256916767054" STYLE="fork" TEXT="constant">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -1234,12 +1352,12 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1253713965343" FOLDED="true" ID="Freemind_Link_1499232059" MODIFIED="1256917492227" TEXT="if GMvalue is &quot;constant&quot;">
+<node COLOR="#0033ff" CREATED="1253713965343" ID="Freemind_Link_1499232059" MODIFIED="1259070352620" TEXT="if CoefficientType is &quot;constant&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233871287685" FOLDED="true" ID="Freemind_Link_44175873" MODIFIED="1257037809320" STYLE="bubble" TEXT="ConstantValue">
+<node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_44175873" MODIFIED="1259070849386" STYLE="bubble" TEXT="CoefficientValue">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Eddy induced velocity coefficient.[/definition]</text>
+<text>[definition]Value of the oefficient for eddy-induced velocity.[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1233245864615" ID="Freemind_Link_1927130733" MODIFIED="1257037751186" STYLE="fork" TEXT="m2/s">
 <font NAME="Arial" SIZE="14"/>
@@ -1247,8 +1365,11 @@
 </node>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244814584407" FOLDED="true" ID="Freemind_Link_393855141" MODIFIED="1253798421366" STYLE="bubble" TEXT="TracersFlux">
+<node COLOR="#996600" CREATED="1244814584407" ID="Freemind_Link_393855141" MODIFIED="1259071221041" STYLE="bubble" TEXT="FluxType">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Formulation used for eddy-induced fluxes (???).[/definition]</text>
+</hook>
 <node COLOR="#000000" CREATED="1244814584407" ID="Freemind_Link_1945585121" MODIFIED="1246540717777" STYLE="fork" TEXT="advective flux">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -1258,7 +1379,8 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244814584407" FOLDED="true" ID="Freemind_Link_1837744613" MODIFIED="1246539067459" STYLE="bubble" TEXT="AddedDiffusivity">
+<node COLOR="#996600" CREATED="1244814584407" ID="Freemind_Link_1837744613" MODIFIED="1259071230276" STYLE="bubble" TEXT="AddedDiffusivity">
+<cloud/>
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1244814624714" ID="Freemind_Link_543356970" MODIFIED="1246262498564" STYLE="fork" TEXT="constant">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1280,8 +1402,11 @@
 <font BOLD="true" NAME="Arial" SIZE="14"/>
 <node COLOR="#990099" CREATED="1255362404701" ID="Freemind_Link_1617854006" MODIFIED="1257240623082" TEXT="OceanVerticalPhysicsAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233876721494" FOLDED="true" ID="Freemind_Link_204814154" MODIFIED="1255362539025" TEXT="Convection">
+<node COLOR="#996600" CREATED="1233876721494" ID="Freemind_Link_204814154" MODIFIED="1259071422406" TEXT="Convection">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Properties of ocean convection scheme.[/definition]</text>
+</hook>
 <node CREATED="1233141348258" ID="Freemind_Link_1973563419" MODIFIED="1253537893040" STYLE="fork" TEXT="non-penetrative convective adjustment">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -1299,8 +1424,11 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233754237814" FOLDED="true" ID="Freemind_Link_797047223" MODIFIED="1243246864466" TEXT="Tide-inducedMixing">
+<node COLOR="#996600" CREATED="1233754237814" ID="Freemind_Link_797047223" MODIFIED="1259072594230" TEXT="Tide-inducedMixing">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Impact of tides on the ocean vertical mixing.[/definition]</text>
+</hook>
 <node CREATED="1233141992152" ID="Freemind_Link_7412656" MODIFIED="1246541816491" STYLE="fork" TEXT="baroclinic tides">
 <font NAME="Arial" SIZE="15"/>
 <icon BUILTIN="button_ok"/>
@@ -1315,8 +1443,11 @@
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1237460441632" ID="Freemind_Link_1163028242" MODIFIED="1255362164157" TEXT="Tracers">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1237460635585" ID="Freemind_Link_981057354" MODIFIED="1242814554026" TEXT="SchemeType">
+<node COLOR="#996600" CREATED="1237460635585" ID="Freemind_Link_981057354" MODIFIED="1259072971453" TEXT="SchemeType">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Type of scheme used for parametrization of tracers vertical mixing in the ocean mixed layer.[/definition]</text>
+</hook>
 <node CREATED="1233246047504" ID="Freemind_Link_1270332863" MODIFIED="1253119061556" STYLE="fork" TEXT="constant values">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -1325,9 +1456,12 @@
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1233246081176" ID="Freemind_Link_729500558" MODIFIED="1246541032698" STYLE="fork" TEXT="turbulent closure (KPP)">
+<node CREATED="1233246081176" ID="Freemind_Link_729500558" MODIFIED="1259071740677" STYLE="fork" TEXT="turbulent closure (KPP)">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Nonlocal K-profile parametrization scheme.[/definition]</text>
+</hook>
 </node>
 <node CREATED="1233246081176" ID="Freemind_Link_524466092" MODIFIED="1246541043036" STYLE="fork" TEXT="turbulent closure (Mellor-Yamada)">
 <font NAME="Arial" SIZE="14"/>
@@ -1352,8 +1486,11 @@
 </node>
 <node COLOR="#0033ff" CREATED="1253713965343" ID="Freemind_Link_1254765206" MODIFIED="1253723940940" TEXT="if SchemeType is &quot;turbulent closure&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1244813969164" FOLDED="true" ID="Freemind_Link_863487200" MODIFIED="1253698631888" STYLE="bubble" TEXT="ClosureOrder">
+<node COLOR="#996600" CREATED="1244813969164" ID="Freemind_Link_863487200" MODIFIED="1259072793239" STYLE="bubble" TEXT="ClosureOrder">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Closure order of the turbulent closure scheme used for tracers vertical mixing.[/definition]</text>
+</hook>
 <node CREATED="1244813994134" ID="Freemind_Link_568079960" MODIFIED="1246262635442" STYLE="fork" TEXT="0">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -1372,12 +1509,12 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1253713965343" FOLDED="true" ID="Freemind_Link_853931024" MODIFIED="1253723899288" TEXT="if SchemeType is &quot;constant values&quot;">
+<node COLOR="#0033ff" CREATED="1253713965343" ID="Freemind_Link_853931024" MODIFIED="1253723899288" TEXT="if SchemeType is &quot;constant values&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233871287685" FOLDED="true" ID="Freemind_Link_397145003" MODIFIED="1257037852454" STYLE="bubble" TEXT="ConstantValue">
+<node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_397145003" MODIFIED="1259072849602" STYLE="bubble" TEXT="MixingCoefficient">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Mixing coefficient for tracers in the mixed layer.[/definition]</text>
+<text>[definition]Value of the vertical mixing coefficient for tracers in the mixed layer.[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1233245864615" ID="Freemind_Link_697942850" MODIFIED="1257037751186" STYLE="fork" TEXT="m2/s">
 <font NAME="Arial" SIZE="14"/>
@@ -1385,10 +1522,10 @@
 </node>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233332461227" FOLDED="true" ID="Freemind_Link_1198663475" MODIFIED="1257037857961" TEXT="BackgroundValue">
+<node COLOR="#996600" CREATED="1233332461227" ID="Freemind_Link_1198663475" MODIFIED="1259073578175" TEXT="BackgroundCoefficient">
 <font NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Background mixing coefficient for tracers in the mixed layer.[/definition]</text>
+<text>[definition]Value of the background mixing coefficient for tracers in the mixed layer.[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1233245864615" ID="Freemind_Link_717242218" MODIFIED="1257037751186" STYLE="fork" TEXT="m2/s">
 <font NAME="Arial" SIZE="14"/>
@@ -1396,10 +1533,13 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1237460450615" FOLDED="true" ID="Freemind_Link_1368900976" MODIFIED="1255362164172" TEXT="Momentum">
+<node COLOR="#990099" CREATED="1237460450615" ID="Freemind_Link_1368900976" MODIFIED="1255362164172" TEXT="Momentum">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1237460635585" FOLDED="true" ID="Freemind_Link_1443010311" MODIFIED="1256743616281" TEXT="SchemeType">
+<node COLOR="#996600" CREATED="1237460635585" ID="Freemind_Link_1443010311" MODIFIED="1259072989222" TEXT="SchemeType">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Type of scheme used for parametrization of momentum vertical mixing in the ocean mixed layer.[/definition]</text>
+</hook>
 <node CREATED="1233246047504" ID="Freemind_Link_1660894580" MODIFIED="1253537543577" STYLE="fork" TEXT="constant values">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -1433,10 +1573,13 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1253713965343" FOLDED="true" ID="Freemind_Link_963815897" MODIFIED="1255505702295" TEXT="if SchemeType is &quot;turbulent closure&quot;">
+<node COLOR="#0033ff" CREATED="1253713965343" ID="Freemind_Link_963815897" MODIFIED="1255505702295" TEXT="if SchemeType is &quot;turbulent closure&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1244813969164" FOLDED="true" ID="Freemind_Link_1500023018" MODIFIED="1256922294678" STYLE="bubble" TEXT="ClosureOrder">
+<node COLOR="#996600" CREATED="1244813969164" ID="Freemind_Link_1500023018" MODIFIED="1259072823752" STYLE="bubble" TEXT="ClosureOrder">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Closure order of the turbulent closure scheme used for momentum vertical mixing.[/definition]</text>
+</hook>
 <node CREATED="1244813994134" ID="Freemind_Link_710245874" MODIFIED="1246262635442" STYLE="fork" TEXT="0">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -1455,12 +1598,12 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1253713965343" FOLDED="true" ID="Freemind_Link_598981968" MODIFIED="1257037882601" TEXT="if SchemeType is &quot;constant values&quot;">
+<node COLOR="#0033ff" CREATED="1253713965343" ID="Freemind_Link_598981968" MODIFIED="1257037882601" TEXT="if SchemeType is &quot;constant values&quot;">
 <font NAME="Arial" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233871287685" FOLDED="true" ID="Freemind_Link_754942619" MODIFIED="1257037881697" STYLE="bubble" TEXT="ConstantValue">
+<node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_754942619" MODIFIED="1259072882315" STYLE="bubble" TEXT="MixingCoefficient">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Mixing coefficient for momentum in the mixed layer.[/definition]</text>
+<text>[definition]Value of the vertical mixing coefficient for momentum in the mixed layer.[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1233245864615" ID="Freemind_Link_1085763722" MODIFIED="1257037751186" STYLE="fork" TEXT="m2/s">
 <font NAME="Arial" SIZE="14"/>
@@ -1468,10 +1611,10 @@
 </node>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233332461227" FOLDED="true" ID="Freemind_Link_748309711" MODIFIED="1257037893911" TEXT="BackgroundValue">
+<node COLOR="#996600" CREATED="1233332461227" ID="Freemind_Link_748309711" MODIFIED="1259073598362" TEXT="BackgroundValue">
 <font NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Background mixing coefficient for momentum in the mixed layer.[/definition]</text>
+<text>[definition]Value of the background vertical mixing coefficient for momentum in the mixed layer.[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1233245864615" ID="Freemind_Link_1987549706" MODIFIED="1257037751186" STYLE="fork" TEXT="m2/s">
 <font NAME="Arial" SIZE="14"/>
@@ -1482,10 +1625,13 @@
 </node>
 <node COLOR="#000000" CREATED="1233246069744" ID="Freemind_Link_1880376878" MODIFIED="1256743684835" TEXT="Ocean_InteriorMixing">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#990099" CREATED="1237460441632" FOLDED="true" ID="Freemind_Link_1032629079" MODIFIED="1255362164157" TEXT="Tracers">
+<node COLOR="#990099" CREATED="1237460441632" ID="Freemind_Link_1032629079" MODIFIED="1255362164157" TEXT="Tracers">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1237460635585" FOLDED="true" ID="Freemind_Link_1263310987" MODIFIED="1242814725425" TEXT="SchemeType">
+<node COLOR="#996600" CREATED="1237460635585" ID="Freemind_Link_1263310987" MODIFIED="1259073700074" TEXT="SchemeType">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Type of scheme used for parametrization of tracers vertical mixing in the ocean interior.[/definition]</text>
+</hook>
 <node CREATED="1233246047504" ID="Freemind_Link_1009211014" MODIFIED="1253537505879" STYLE="fork" TEXT="constant values">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -1513,12 +1659,12 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1253713965343" FOLDED="true" ID="Freemind_Link_1695581393" MODIFIED="1253723899288" TEXT="if SchemeType is &quot;constant values&quot;">
+<node COLOR="#0033ff" CREATED="1253713965343" ID="Freemind_Link_1695581393" MODIFIED="1253723899288" TEXT="if SchemeType is &quot;constant values&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233871287685" FOLDED="true" ID="Freemind_Link_824195997" MODIFIED="1257037907499" STYLE="bubble" TEXT="ConstantValue">
+<node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_824195997" MODIFIED="1259073300894" STYLE="bubble" TEXT="Mixing_Coefficient">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Mixing coefficient for tracers in the ocean interior.[/definition]</text>
+<text>[definition]Value of the vertical mixing coefficient for tracers in the ocean interior.[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1233245864615" ID="Freemind_Link_148811114" MODIFIED="1257037751186" STYLE="fork" TEXT="m2/s">
 <font NAME="Arial" SIZE="14"/>
@@ -1526,8 +1672,11 @@
 </node>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233332461227" FOLDED="true" ID="Freemind_Link_1162981823" MODIFIED="1242083064623" TEXT="BackgroundType">
+<node COLOR="#996600" CREATED="1233332461227" ID="Freemind_Link_1162981823" MODIFIED="1259073508085" TEXT="BackgroundType">
 <font NAME="Arial" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Type of tracers background mixing coefficient used in the ocean interior.[/definition]</text>
+</hook>
 <node CREATED="1233754178405" ID="Freemind_Link_111908429" MODIFIED="1253537513944" STYLE="fork" TEXT="vertical profile">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -1537,12 +1686,12 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1253713965343" FOLDED="true" ID="Freemind_Link_369216934" MODIFIED="1253780013262" TEXT="if BackgroundType is &quot;constant value&quot;">
+<node COLOR="#0033ff" CREATED="1253713965343" ID="Freemind_Link_369216934" MODIFIED="1253780013262" TEXT="if BackgroundType is &quot;constant value&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233871287685" FOLDED="true" ID="Freemind_Link_27035838" MODIFIED="1257037918653" STYLE="bubble" TEXT="BackgroundConstantValue">
+<node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_27035838" MODIFIED="1259073638095" STYLE="bubble" TEXT="BackgroundCoefficient">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Background mixing coefficient for tracers in the ocean interior.[/definition]</text>
+<text>[definition]Value of the background mixing coefficient for tracers in the ocean interior.[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1233245864615" ID="Freemind_Link_624944104" MODIFIED="1257037751186" STYLE="fork" TEXT="m2/s">
 <font NAME="Arial" SIZE="14"/>
@@ -1551,10 +1700,13 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1237460450615" FOLDED="true" ID="Freemind_Link_1753826959" MODIFIED="1255362164157" TEXT="Momentum">
+<node COLOR="#990099" CREATED="1237460450615" ID="Freemind_Link_1753826959" MODIFIED="1255362164157" TEXT="Momentum">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1237460635585" FOLDED="true" ID="Freemind_Link_923159696" MODIFIED="1242814725425" TEXT="SchemeType">
+<node COLOR="#996600" CREATED="1237460635585" ID="Freemind_Link_923159696" MODIFIED="1259073687063" TEXT="SchemeType">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Type of scheme used for parametrization of momentum vertical mixing in the ocean interior.[/definition]</text>
+</hook>
 <node CREATED="1233246047504" ID="Freemind_Link_704522522" MODIFIED="1253537510442" STYLE="fork" TEXT="constant values">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -1582,12 +1734,12 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1253713965343" FOLDED="true" ID="Freemind_Link_1678921750" MODIFIED="1253723899288" TEXT="if SchemeType is &quot;constant values&quot;">
+<node COLOR="#0033ff" CREATED="1253713965343" ID="Freemind_Link_1678921750" MODIFIED="1253723899288" TEXT="if SchemeType is &quot;constant values&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233871287685" FOLDED="true" ID="Freemind_Link_54014088" MODIFIED="1257037928855" STYLE="bubble" TEXT="ConstantValue">
+<node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_54014088" MODIFIED="1259073460536" STYLE="bubble" TEXT="Mixing_Coefficient">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Mixing coefficient for momentum in the ocean interior.[/definition]</text>
+<text>[definition]Value of the vertical mixing coefficient for momentum in the ocean interior.[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1233245864615" ID="Freemind_Link_1192583381" MODIFIED="1257037751186" STYLE="fork" TEXT="m2/s">
 <font NAME="Arial" SIZE="14"/>
@@ -1595,8 +1747,11 @@
 </node>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233332461227" FOLDED="true" ID="Freemind_Link_926445296" MODIFIED="1242083064623" TEXT="BackgroundType">
+<node COLOR="#996600" CREATED="1233332461227" ID="Freemind_Link_926445296" MODIFIED="1259073501267" TEXT="BackgroundType">
 <font NAME="Arial" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Type of momentum background mixing coefficient used in the ocean interior.[/definition]</text>
+</hook>
 <node CREATED="1233754178405" ID="Freemind_Link_343790225" MODIFIED="1253537874304" STYLE="fork" TEXT="vertical profile">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -1606,12 +1761,12 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1253713965343" FOLDED="true" ID="Freemind_Link_447075540" MODIFIED="1253780008246" TEXT="if BackgroundType is &quot;constant value&quot;">
+<node COLOR="#0033ff" CREATED="1253713965343" ID="Freemind_Link_447075540" MODIFIED="1253780008246" TEXT="if BackgroundType is &quot;constant value&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233871287685" FOLDED="true" ID="Freemind_Link_1587429895" MODIFIED="1257037944034" STYLE="bubble" TEXT="BackgroundConstantValue">
+<node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_1587429895" MODIFIED="1259073787644" STYLE="bubble" TEXT="BackgroundCoefficient">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Background mixing coefficient for momentum in the ocean interior.[/definition]</text>
+<text>[definition]Value of the background mixing coefficient for momentum in the ocean interior.[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1233245864615" ID="Freemind_Link_840883389" MODIFIED="1257037751186" STYLE="fork" TEXT="m2/s">
 <font NAME="Arial" SIZE="14"/>
@@ -1624,13 +1779,16 @@
 </node>
 <node CREATED="1253797749288" ID="Freemind_Link_447938745" MODIFIED="1256743827599" TEXT="OceanUpAndLowBoundaries_">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#990099" CREATED="1233329979500" ID="Freemind_Link_786667002" MODIFIED="1256040718935" TEXT="FreeSurface">
+<node COLOR="#990099" CREATED="1233329979500" ID="Freemind_Link_786667002" MODIFIED="1259073816796" TEXT="FreeSurface">
 <font NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[info]If no free surface, then ocean surface is rigid-liquid.[/info]</text>
 </hook>
-<node COLOR="#996600" CREATED="1233880197447" ID="Freemind_Link_1985618654" MODIFIED="1243264464658" STYLE="bubble" TEXT="Type">
+<node COLOR="#996600" CREATED="1233880197447" ID="Freemind_Link_1985618654" MODIFIED="1259073928683" STYLE="bubble" TEXT="Type">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Numerical formulation for the ocean free surface.[/definition]</text>
+</hook>
 <node CREATED="1233245277943" ID="Freemind_Link_524633888" MODIFIED="1246544877090" STYLE="fork" TEXT="linear implicit">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -1659,8 +1817,11 @@
 </node>
 <node COLOR="#990099" CREATED="1233139487492" ID="Freemind_Link_942916441" MODIFIED="1256040724228" TEXT="BottomBoundaryLayer">
 <font NAME="Arial" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233876932609" FOLDED="true" ID="Freemind_Link_588636220" MODIFIED="1255362593570" TEXT="Type">
+<node COLOR="#996600" CREATED="1233876932609" ID="Freemind_Link_588636220" MODIFIED="1259165969581" TEXT="Type">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Type of ocean bottom boundary layer.[/definition]</text>
+</hook>
 <node CREATED="1233141992152" ID="Freemind_Link_90665189" MODIFIED="1253780319779" STYLE="fork" TEXT="diffusive">
 <font NAME="Arial" SIZE="15"/>
 <icon BUILTIN="button_ok"/>
@@ -1674,12 +1835,12 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1253713965343" FOLDED="true" ID="Freemind_Link_1744716945" MODIFIED="1255362599248" TEXT="if Type is &quot;diffusive&quot;">
+<node COLOR="#0033ff" CREATED="1253713965343" ID="Freemind_Link_1744716945" MODIFIED="1255362599248" TEXT="if Type is &quot;diffusive&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233871287685" FOLDED="true" ID="Freemind_Link_130892143" MODIFIED="1257037964534" STYLE="bubble" TEXT="LateralMixingCoefficient">
+<node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_130892143" MODIFIED="1259076708927" STYLE="bubble" TEXT="LateralMixingCoefficient">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Lateral mixing coefficient in the bottom boundary layer.[/definition]</text>
+<text>[definition]Value of the lateral mixing coefficient in the bottom boundary layer.[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1233245864615" ID="Freemind_Link_1366206020" MODIFIED="1257037751186" STYLE="fork" TEXT="m2/s">
 <font NAME="Arial" SIZE="14"/>
@@ -1687,8 +1848,11 @@
 </node>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233587494501" FOLDED="true" ID="Freemind_Link_1959833059" MODIFIED="1256043524443" TEXT="SillOverflow">
+<node COLOR="#996600" CREATED="1233587494501" ID="Freemind_Link_1959833059" MODIFIED="1259160656498" TEXT="SillOverflow">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Parametrization of sill overflows.[/definition]</text>
+</hook>
 <node CREATED="1233587502261" ID="Freemind_Link_1033405550" MODIFIED="1253537916612" STYLE="fork" TEXT="specific treatment">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -1704,8 +1868,11 @@
 <font BOLD="true" NAME="Arial" SIZE="14"/>
 <node COLOR="#990099" CREATED="1233335440743" ID="Freemind_Link_1956977750" MODIFIED="1255363438697" TEXT="Momentum">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233332569323" FOLDED="true" ID="Freemind_Link_637862031" MODIFIED="1242084324682" TEXT="BottomFriction">
-<font NAME="Arial" SIZE="14"/>
+<node COLOR="#996600" CREATED="1233332569323" ID="Freemind_Link_637862031" MODIFIED="1259163661424" TEXT="BottomFriction">
+<font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Numerical scheme used to formulate the effect bottom friction on momentum.[/definition]</text>
+</hook>
 <node CREATED="1233332580852" ID="Freemind_Link_1582065820" MODIFIED="1246542357034" STYLE="fork" TEXT="linear">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -1727,8 +1894,11 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233754449966" FOLDED="true" ID="Freemind_Link_32676596" MODIFIED="1242084884410" TEXT="LateralFriction">
+<node COLOR="#996600" CREATED="1233754449966" ID="Freemind_Link_32676596" MODIFIED="1259163669089" TEXT="LateralFriction">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Numerical scheme used to formulate the effect of lateral friction on momentum.[/definition]</text>
+</hook>
 <node CREATED="1233753810140" ID="Freemind_Link_1776331632" MODIFIED="1246542386483" STYLE="fork" TEXT="none">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -1746,8 +1916,11 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233754842073" FOLDED="true" ID="Freemind_Link_275946215" MODIFIED="1242084896071" TEXT="SurfaceFluxCorrection">
+<node COLOR="#996600" CREATED="1233754842073" ID="Freemind_Link_275946215" MODIFIED="1259164135534" TEXT="SurfaceFluxCorrection">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Is there any correction applied to surface fluxes of momentum?[/definition]</text>
+</hook>
 <node CREATED="1233753810140" ID="Freemind_Link_1417159414" MODIFIED="1246542403043" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -1760,10 +1933,13 @@
 </node>
 <node COLOR="#000000" CREATED="1233335434999" ID="Freemind_Link_1679557339" MODIFIED="1257165715361" TEXT="OceanBoundForcing_Tracers">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#990099" CREATED="1255418915766" FOLDED="true" ID="Freemind_Link_44972487" MODIFIED="1257240640765" TEXT="OceanBoundForcingTracersAttributes_">
+<node COLOR="#990099" CREATED="1255418915766" ID="Freemind_Link_44972487" MODIFIED="1257240640765" TEXT="OceanBoundForcingTracersAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233335331423" FOLDED="true" ID="Freemind_Link_1931729648" MODIFIED="1255363864710" TEXT="GeothermalHeating">
+<node COLOR="#996600" CREATED="1233335331423" ID="Freemind_Link_1931729648" MODIFIED="1259163863453" TEXT="GeothermalHeating">
 <font NAME="Arial" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Characteristics of the geothermal forcing at ocean bottom.[/definition]</text>
+</hook>
 <node CREATED="1233246089248" ID="Freemind_Link_772418523" MODIFIED="1246543121010" STYLE="fork" TEXT="spatial varying">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -1773,8 +1949,11 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233754842073" FOLDED="true" ID="Freemind_Link_813952404" MODIFIED="1255363429571" TEXT="SurfaceFluxCorrections">
+<node COLOR="#996600" CREATED="1233754842073" ID="Freemind_Link_813952404" MODIFIED="1259164159553" TEXT="SurfaceFluxCorrections">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Is there any correction applied to surface fluxes of heat and/or salt?[/definition]</text>
+</hook>
 <node CREATED="1233753810140" ID="Freemind_Link_909466842" MODIFIED="1255362908425" STYLE="fork" TEXT="temperature">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
@@ -1789,10 +1968,13 @@
 <icon BUILTIN="messagebox_warning"/>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1233139413774" FOLDED="true" ID="Freemind_Link_1484919451" MODIFIED="1255362651586" TEXT="SunlightPenetration">
+<node COLOR="#990099" CREATED="1233139413774" ID="Freemind_Link_1484919451" MODIFIED="1255362651586" TEXT="SunlightPenetration">
 <font NAME="Arial" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233878176257" FOLDED="true" ID="Freemind_Link_1169909143" MODIFIED="1242118728208" STYLE="bubble" TEXT="SchemeType">
+<node COLOR="#996600" CREATED="1233878176257" ID="Freemind_Link_1169909143" MODIFIED="1259164252580" STYLE="bubble" TEXT="SchemeType">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Type of physical scheme used to formulate sunlight penetration into ocean.[/definition]</text>
+</hook>
 <node CREATED="1233141348258" ID="Freemind_Link_102779744" MODIFIED="1256040373237" STYLE="fork" TEXT="1 extinction depth">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -1810,9 +1992,9 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1256040108568" FOLDED="true" ID="Freemind_Link_1318420727" MODIFIED="1256040403655" TEXT="if SchemeType is &quot;extinction depth&quot;">
+<node COLOR="#0033ff" CREATED="1256040108568" ID="Freemind_Link_1318420727" MODIFIED="1256040403655" TEXT="if SchemeType is &quot;extinction depth&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233754574439" FOLDED="true" ID="Freemind_Link_128392278" MODIFIED="1257037977700" STYLE="bubble" TEXT="FirstDepth">
+<node COLOR="#996600" CREATED="1233754574439" ID="Freemind_Link_128392278" MODIFIED="1257037977700" STYLE="bubble" TEXT="FirstDepth">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Fisrt extinction depth of the ocean sunlight penetration scheme.[/definition]</text>
@@ -1822,7 +2004,7 @@
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233754574439" FOLDED="true" ID="Freemind_Link_457905105" MODIFIED="1257037988051" STYLE="bubble" TEXT="SecondDepth">
+<node COLOR="#996600" CREATED="1233754574439" ID="Freemind_Link_457905105" MODIFIED="1257037988051" STYLE="bubble" TEXT="SecondDepth">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Second extinction depth of the ocean sunlight penetration scheme.[/definition]</text>
@@ -1832,7 +2014,7 @@
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233754574439" FOLDED="true" ID="Freemind_Link_708426187" MODIFIED="1257038004953" STYLE="bubble" TEXT="ThirdDepth">
+<node COLOR="#996600" CREATED="1233754574439" ID="Freemind_Link_708426187" MODIFIED="1257038004953" STYLE="bubble" TEXT="ThirdDepth">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Third extinction depth of the ocean sunlight penetration scheme.[/definition]</text>
@@ -1843,8 +2025,11 @@
 </node>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1237460635585" FOLDED="true" ID="Freemind_Link_734715388" MODIFIED="1255521175294" TEXT="OceanColorDependent">
+<node COLOR="#996600" CREATED="1237460635585" ID="Freemind_Link_734715388" MODIFIED="1259164842024" TEXT="OceanColorDependent">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Is sunlight penetration dependant of ocean color? (i.e. Is interaction of incident light with substances particules present in ocean water taken into account?).[/definition]</text>
+</hook>
 <node CREATED="1233753810140" ID="Freemind_Link_120849321" MODIFIED="1246542522298" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -1854,10 +2039,12 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1253713965343" FOLDED="true" ID="Freemind_Link_1051167645" MODIFIED="1255521181541" TEXT="if  OceanColorDependent is &quot;yes&quot;">
+<node COLOR="#0033ff" CREATED="1253713965343" ID="Freemind_Link_1051167645" MODIFIED="1259163213125" TEXT="if  OceanColorDependent is &quot;yes&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1237460635585" FOLDED="true" ID="Freemind_Link_1234449877" MODIFIED="1255363364636" TEXT="OceanColor">
+<icon BUILTIN="messagebox_warning"/>
+<node COLOR="#996600" CREATED="1237460635585" ID="Freemind_Link_1234449877" MODIFIED="1259163209470" TEXT="OceanColor">
 <font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="messagebox_warning"/>
 <node CREATED="1233754598439" ID="Freemind_Link_998518126" MODIFIED="1246542771392" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="back"/>
@@ -1865,10 +2052,13 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1233587156860" FOLDED="true" ID="Freemind_Link_649363320" MODIFIED="1255956320937" TEXT="SurfaceSalinity">
+<node COLOR="#990099" CREATED="1233587156860" ID="Freemind_Link_649363320" MODIFIED="1255956320937" TEXT="SurfaceSalinity">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233754793048" FOLDED="true" ID="Freemind_Link_315520939" MODIFIED="1242085795825" TEXT="FromAtmosphere">
+<node COLOR="#996600" CREATED="1233754793048" ID="Freemind_Link_315520939" MODIFIED="1259165363149" TEXT="FromAtmosphere">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Way to formulate the impact of precipitation/evaporation on sea surface salinity.[/definition]</text>
+</hook>
 <node CREATED="1233587187732" ID="Freemind_Link_328360327" MODIFIED="1246543385143" STYLE="fork" TEXT="freshwater flux">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -1882,8 +2072,11 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233754799168" FOLDED="true" ID="Freemind_Link_892926822" MODIFIED="1255363069502" TEXT="FromSeaIce">
+<node COLOR="#996600" CREATED="1233754799168" ID="Freemind_Link_892926822" MODIFIED="1259165325810" TEXT="FromSeaIce">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Way to formulate the impact of sea-ice formation/melting on sea surface salinity.[/definition]</text>
+</hook>
 <node CREATED="1233587187732" ID="Freemind_Link_509711605" MODIFIED="1246543385138" STYLE="fork" TEXT="freshwater flux">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -1897,8 +2090,11 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233754799168" FOLDED="true" ID="Freemind_Link_786842475" MODIFIED="1242085804498" TEXT="FromRiver">
+<node COLOR="#996600" CREATED="1233754799168" ID="Freemind_Link_786842475" MODIFIED="1259165392375" TEXT="FromRiver">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Way to formulate the impact of river discharge on sea surface salinity.[/definition]</text>
+</hook>
 <node CREATED="1233587187732" ID="Freemind_Link_1019399345" MODIFIED="1246543385132" STYLE="fork" TEXT="freshwater flux">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
