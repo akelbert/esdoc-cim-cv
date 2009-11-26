@@ -35,7 +35,7 @@
   </xsl:choose>
 </xsl:variable>
 
-<tuple component="{$Component}" parameter="{@name}" definition="{$Definition}"/>
+<tuple component="{$Component}" parametergroup="{parent::parametergroup[1]/@name}" parameter="{@name}" definition="{$Definition}"/>
 
 </xsl:template>
 
