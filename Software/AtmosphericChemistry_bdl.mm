@@ -457,10 +457,12 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1239099014334" ID="Freemind_Link_1376668304" MODIFIED="1259232999997" STYLE="bubble" TEXT=".">
+<node COLOR="#990099" CREATED="1239099014334" ID="Freemind_Link_1376668304" MODIFIED="1259253055452" STYLE="bubble" TEXT="MeteorologicalForcings">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1239099027851" ID="Freemind_Link_1135732469" MODIFIED="1259237353542" STYLE="bubble" TEXT="3D-Variables">
+<icon BUILTIN="messagebox_warning"/>
+<node COLOR="#996600" CREATED="1239099027851" FOLDED="true" ID="Freemind_Link_1135732469" MODIFIED="1259253002577" STYLE="bubble" TEXT="3D-Variables">
 <font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="messagebox_warning"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]3-Dimensional forcing variables e.g. U, V, W, T, Q, P, convective mass flux[/definition]</text>
 </hook>
@@ -469,8 +471,9 @@
 <icon BUILTIN="pencil"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1239099108199" ID="Freemind_Link_521810339" MODIFIED="1259248376364" STYLE="bubble" TEXT="2D-Variables">
+<node COLOR="#996600" CREATED="1239099108199" ID="Freemind_Link_521810339" MODIFIED="1259253007554" STYLE="bubble" TEXT="2D-Variables">
 <font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="messagebox_warning"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]2-Dimensional forcing variables e.g. land-sea mask[/definition]</text>
 </hook>
@@ -479,8 +482,9 @@
 <icon BUILTIN="pencil"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1239099148353" ID="Freemind_Link_182221243" MODIFIED="1258987387034" STYLE="bubble" TEXT="Frequency">
+<node COLOR="#996600" CREATED="1239099148353" ID="Freemind_Link_182221243" MODIFIED="1259253018058" STYLE="bubble" TEXT="Frequency">
 <font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="messagebox_warning"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Frequency with which meteorological forcings are applied[/definition]</text>
 </hook>
@@ -596,10 +600,10 @@
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1243422252593" ID="Freemind_Link_625857925" MODIFIED="1257938053376" TEXT="Vegetation">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1243422324468" ID="Freemind_Link_1623680666" MODIFIED="1258019300622" TEXT="SpeciesEmitted">
+<node COLOR="#996600" CREATED="1243422324468" ID="Freemind_Link_1623680666" MODIFIED="1259253156351" TEXT="SpeciesEmitted">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]list of gaseous species emitted by the vegetation.[/definition]</text>
+<text>[definition]List of gaseous species emitted by the vegetation.[/definition]</text>
 </hook>
 <node COLOR="#111111" CREATED="1244070048872" ID="Freemind_Link_76447788" MODIFIED="1257346662492" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
