@@ -13,8 +13,11 @@
 <font BOLD="true" NAME="Arial" SIZE="14"/>
 <node COLOR="#990099" CREATED="1252419938135" ID="Freemind_Link_1819255384" MODIFIED="1257238335407" TEXT="PassiveTracers">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1244813200289" ID="Freemind_Link_1751281621" MODIFIED="1256255605052" STYLE="bubble" TEXT="Method">
+<node COLOR="#996600" CREATED="1244813200289" ID="Freemind_Link_1751281621" MODIFIED="1259228933307" STYLE="bubble" TEXT="Method">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Time stepping method for passive tracers.[/definition]</text>
+</hook>
 <node CREATED="1236610305992" ID="Freemind_Link_972496211" MODIFIED="1257289585332" STYLE="fork" TEXT="use Ocean transport time step">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -26,10 +29,10 @@
 </node>
 <node COLOR="#0033ff" CREATED="1257238168276" ID="Freemind_Link_747016512" MODIFIED="1257329639419" TEXT="if Method is &quot;specific time step&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1256254990298" ID="Freemind_Link_827573471" MODIFIED="1257238128949" TEXT="TimeStep">
+<node COLOR="#996600" CREATED="1256254990298" ID="Freemind_Link_827573471" MODIFIED="1259228958189" TEXT="TimeStep">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Passive tracers transport time step.[/definition]</text>
+<text>[definition]Time step for ocean passive tracers parametrization scheme.[/definition]</text>
 </hook>
 <node CREATED="1256255021042" ID="Freemind_Link_376825979" MODIFIED="1257238149689" STYLE="fork" TEXT="seconds">
 <font NAME="SansSerif" SIZE="14"/>
@@ -40,8 +43,11 @@
 </node>
 <node COLOR="#990099" CREATED="1252419959208" ID="Freemind_Link_1414581463" MODIFIED="1256255859976" TEXT="Biology">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1244813200289" ID="Freemind_Link_1199991327" MODIFIED="1256255605052" STYLE="bubble" TEXT="Method">
+<node COLOR="#996600" CREATED="1244813200289" ID="Freemind_Link_1199991327" MODIFIED="1259228904197" STYLE="bubble" TEXT="Method">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Time stepping method for ocean biology.[/definition]</text>
+</hook>
 <node CREATED="1236610305992" ID="Freemind_Link_945097906" MODIFIED="1253103500753" STYLE="fork" TEXT="use ocean transport time step">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -53,10 +59,10 @@
 </node>
 <node COLOR="#0033ff" CREATED="1257238168276" ID="Freemind_Link_1176596366" MODIFIED="1257329635978" TEXT="if Method is &quot;specific time step&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1256254990298" ID="Freemind_Link_449584025" MODIFIED="1257238382839" TEXT="TimeStep">
+<node COLOR="#996600" CREATED="1256254990298" ID="Freemind_Link_449584025" MODIFIED="1259228966114" TEXT="TimeStep">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Biological time step.[/definition]</text>
+<text>[definition]Time step for ocean biology parametrization scheme.[/definition]</text>
 </hook>
 <node CREATED="1256255021042" ID="Freemind_Link_1664852992" MODIFIED="1257238356927" STYLE="fork" TEXT="seconds">
 <font NAME="SansSerif" SIZE="14"/>
@@ -70,8 +76,11 @@
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1233751003143" ID="Freemind_Link_1067696709" MODIFIED="1257334995697" STYLE="bubble" TEXT="Horizontal.Domain">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1257238915649" ID="Freemind_Link_62478766" MODIFIED="1257334760213" TEXT="GridConfiguration">
+<node COLOR="#996600" CREATED="1257238915649" ID="Freemind_Link_62478766" MODIFIED="1259229959412" TEXT="GridConfiguration">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Configuration of the horizontal grid used for ocean biogeochemistry (same as Ocean or different?).[/definition]</text>
+</hook>
 <node CREATED="1241016231102" ID="Freemind_Link_1356030046" MODIFIED="1256744305379" STYLE="fork" TEXT="same as Ocean">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -107,8 +116,11 @@
 </node>
 <node COLOR="#990099" CREATED="1233751003143" ID="Freemind_Link_142866659" MODIFIED="1257335087251" STYLE="bubble" TEXT="Vertical.Domain">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1257238915649" ID="Freemind_Link_1264044554" MODIFIED="1257334802435" TEXT="GridConfiguration">
+<node COLOR="#996600" CREATED="1257238915649" ID="Freemind_Link_1264044554" MODIFIED="1259229984638" TEXT="GridConfiguration">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Configuration of the vertical grid used for ocean biogeochemistry (same as Ocean or different?).[/definition]</text>
+</hook>
 <node CREATED="1241016231102" ID="Freemind_Link_365961628" MODIFIED="1256744305379" STYLE="fork" TEXT="same as Ocean">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -118,9 +130,8 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1257238168276" ID="Freemind_Link_766400880" MODIFIED="1257426022764" TEXT="if GridConfiguration is &quot;different from Ocean&quot;">
+<node COLOR="#0033ff" CREATED="1257238168276" ID="Freemind_Link_766400880" MODIFIED="1259230011048" TEXT="if GridConfiguration is &quot;different from Ocean&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="full-3"/>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_995947235" MODIFIED="1257330398477" TEXT="NumberOfLevels">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
@@ -146,10 +157,10 @@
 </node>
 <node COLOR="#990099" CREATED="1233333993001" ID="Freemind_Link_1940440780" MODIFIED="1257241127571" TEXT="BioGeo_TracersDamping">
 <font NAME="Arial" SIZE="14"/>
-<node COLOR="#996600" CREATED="1244813200289" ID="Freemind_Link_915274174" MODIFIED="1257241191390" STYLE="bubble" TEXT="AppliedTo">
+<node COLOR="#996600" CREATED="1244813200289" ID="Freemind_Link_915274174" MODIFIED="1259230075422" STYLE="bubble" TEXT="ListOfTracers">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]List of tracers to which damping is applied.[/definition]</text>
+<text>[definition]List of tracers to which a damping is applied.[/definition]</text>
 </hook>
 <node CREATED="1256744393923" ID="Freemind_Link_720581957" MODIFIED="1257239924992" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
@@ -176,20 +187,20 @@
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_995361996" MODIFIED="1257037499083" TEXT="LonMin">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_995361996" MODIFIED="1259230097340" TEXT="LonMin">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Eastern boundary of the tracers damping zone.[/definition]</text>
+<text>[definition]Western boundary of the tracers damping zone.[/definition]</text>
 </hook>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1459869855" MODIFIED="1257037482976" STYLE="fork" TEXT="degE">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_54185639" MODIFIED="1257037503857" TEXT="LonMax">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_54185639" MODIFIED="1259230104516" TEXT="LonMax">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Western boundary of the tracers damping zone.[/definition]</text>
+<text>[definition]Eastern boundary of the tracers damping zone.[/definition]</text>
 </hook>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_208151038" MODIFIED="1257037487165" STYLE="fork" TEXT="degE">
 <font NAME="SansSerif" SIZE="14"/>
@@ -219,8 +230,11 @@
 </node>
 <node COLOR="#990099" CREATED="1236609069866" ID="Freemind_Link_441868071" MODIFIED="1256285608523" TEXT="Transport">
 <font NAME="Arial" SIZE="14"/>
-<node COLOR="#996600" CREATED="1236609194652" ID="Freemind_Link_902553472" MODIFIED="1256744490070" TEXT="MethodType">
+<node COLOR="#996600" CREATED="1236609194652" ID="Freemind_Link_902553472" MODIFIED="1259231053581" TEXT="Method">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Method for transport for ocean biogeochemistry.[/definition]</text>
+</hook>
 <node CREATED="1236610470035" ID="Freemind_Link_601999934" MODIFIED="1253102972787" STYLE="fork" TEXT="offline">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -234,12 +248,12 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1253798995626" ID="_" MODIFIED="1256744503546" TEXT="if MethodType is &quot;different from Ocean Tracers&quot;">
+<node COLOR="#0033ff" CREATED="1253798995626" ID="_" MODIFIED="1259230208045" TEXT="if Method is &quot;different from Ocean Tracers&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1256253145229" ID="Freemind_Link_312519405" MODIFIED="1257240316293" TEXT="Method">
+<node COLOR="#996600" CREATED="1256253145229" ID="Freemind_Link_312519405" MODIFIED="1259231039556" TEXT="MethodCharacteristics">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Description of the specificities of the transport method (compared to Ocean tracers one).[/definition]</text>
+<text>[definition]Description of the specificities of the ocean biogeochemistry transport method (compared to Ocean tracers one).[/definition]</text>
 </hook>
 <node CREATED="1256253704366" ID="Freemind_Link_1370710195" MODIFIED="1257240294141" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
@@ -253,8 +267,11 @@
 <font BOLD="true" NAME="Arial" SIZE="14"/>
 <node COLOR="#990099" CREATED="1256256656176" ID="Freemind_Link_1196239018" MODIFIED="1257240818051" TEXT="OceanBioBoundaryForcingAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1236609182979" ID="Freemind_Link_1656211050" MODIFIED="1253700056706" TEXT="AtmosphericDeposition">
+<node COLOR="#996600" CREATED="1236609182979" ID="Freemind_Link_1656211050" MODIFIED="1259231735277" TEXT="AtmosphericDeposition">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]How deposition of biogeochemical matter from atmosphere is provided to ocean biogeochemistry model.[/definition]</text>
+</hook>
 <node CREATED="1236609262933" ID="Freemind_Link_1343545776" MODIFIED="1256252113595" STYLE="fork" TEXT="from AtmosphericChemistry model">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -264,8 +281,11 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1236609194652" ID="Freemind_Link_849569968" MODIFIED="1253700056722" TEXT="RiverInput">
+<node COLOR="#996600" CREATED="1236609194652" ID="Freemind_Link_849569968" MODIFIED="1259231596203" TEXT="RiverInput">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]How biogeochemical substances and particules present in rivers are provided to ocean biogeochemistry model.[/definition]</text>
+</hook>
 <node CREATED="1236609538584" ID="Freemind_Link_1436777899" MODIFIED="1256252104693" STYLE="fork" TEXT="from LandSurface model">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -275,8 +295,11 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1236609212876" ID="Freemind_Link_270259148" MODIFIED="1253700056706" TEXT="SedimentInteractions">
+<node COLOR="#996600" CREATED="1236609212876" ID="Freemind_Link_270259148" MODIFIED="1259231507517" TEXT="SedimentInteractions">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]How the sediments materials are provided to ocean biogeochemistry model.[/definition]</text>
+</hook>
 <node CREATED="1236609245093" ID="Freemind_Link_21102060" MODIFIED="1256252109424" STYLE="fork" TEXT="from Sediment model">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -290,10 +313,13 @@
 </node>
 <node CREATED="1236609296453" ID="Freemind_Link_1321812138" MODIFIED="1256254070312" TEXT="OceanBio_GazExchange">
 <font BOLD="true" NAME="Arial" SIZE="14"/>
-<node COLOR="#990099" CREATED="1236609454175" ID="Freemind_Link_1152416620" MODIFIED="1256254010256" STYLE="bubble" TEXT="CO2">
+<node COLOR="#990099" CREATED="1236609454175" ID="Freemind_Link_1152416620" MODIFIED="1259231939418" STYLE="bubble" TEXT="CO2">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1236609454175" ID="Freemind_Link_844962567" MODIFIED="1256253964945" STYLE="bubble" TEXT="Present">
+<node COLOR="#996600" CREATED="1236609454175" ID="Freemind_Link_844962567" MODIFIED="1259246900155" STYLE="bubble" TEXT="Present">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Is exchange of carbon dioxide taken into account in the air-sea interaction processes?[/definition]</text>
+</hook>
 <node CREATED="1236610470035" ID="Freemind_Link_1925237810" MODIFIED="1256253980449" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -305,8 +331,11 @@
 </node>
 <node COLOR="#0033ff" CREATED="1256253866538" ID="Freemind_Link_1119530561" MODIFIED="1256253902981" TEXT="if Present is &quot;yes&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1236609310789" ID="Freemind_Link_1837561293" MODIFIED="1256253856978" TEXT="SchemeType">
+<node COLOR="#996600" CREATED="1236609310789" ID="Freemind_Link_1837561293" MODIFIED="1259248389347" TEXT="SchemeType">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Scheme used for formulation of CO2 transfer velocity.[/definition]&#xa;</text>
+</hook>
 <node CREATED="1236609412294" ID="Freemind_Link_1281369211" MODIFIED="1245068322649" STYLE="fork" TEXT="Liss &amp; Merlivat">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -328,8 +357,11 @@
 </node>
 <node COLOR="#990099" CREATED="1236609454175" ID="Freemind_Link_104698132" MODIFIED="1256254010283" STYLE="bubble" TEXT="O2">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1236609454175" ID="Freemind_Link_320852289" MODIFIED="1256253964945" STYLE="bubble" TEXT="Present">
+<node COLOR="#996600" CREATED="1236609454175" ID="Freemind_Link_320852289" MODIFIED="1259246904227" STYLE="bubble" TEXT="Present">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Is exchange of oxygen taken into account in the air-sea interaction processes?[/definition]</text>
+</hook>
 <node CREATED="1236610470035" ID="Freemind_Link_1910025676" MODIFIED="1256253980449" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -341,8 +373,11 @@
 </node>
 <node COLOR="#0033ff" CREATED="1256253866538" ID="Freemind_Link_632634062" MODIFIED="1256253902981" TEXT="if Present is &quot;yes&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1236609310789" ID="Freemind_Link_1904257742" MODIFIED="1256253856978" TEXT="SchemeType">
+<node COLOR="#996600" CREATED="1236609310789" ID="Freemind_Link_1904257742" MODIFIED="1259248379597" TEXT="SchemeType">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Scheme used for formulation of O2 transfer velocity.[/definition]</text>
+</hook>
 <node CREATED="1236609412294" ID="Freemind_Link_635050810" MODIFIED="1245068322649" STYLE="fork" TEXT="Liss &amp; Merlivat">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -364,8 +399,11 @@
 </node>
 <node COLOR="#990099" CREATED="1236609454175" ID="Freemind_Link_1470145129" MODIFIED="1256254010281" STYLE="bubble" TEXT="DMS">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1236609454175" ID="Freemind_Link_1937176002" MODIFIED="1256253964945" STYLE="bubble" TEXT="Present">
+<node COLOR="#996600" CREATED="1236609454175" ID="Freemind_Link_1937176002" MODIFIED="1259246908267" STYLE="bubble" TEXT="Present">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Is exchange of dimethyl sulfid taken into account in the air-sea interaction processes?[/definition]</text>
+</hook>
 <node CREATED="1236610470035" ID="Freemind_Link_1396508225" MODIFIED="1256253980449" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -377,8 +415,11 @@
 </node>
 <node COLOR="#0033ff" CREATED="1256253866538" ID="Freemind_Link_725575356" MODIFIED="1256253902981" TEXT="if Present is &quot;yes&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1236609310789" ID="Freemind_Link_1068620517" MODIFIED="1256253856978" TEXT="SchemeType">
+<node COLOR="#996600" CREATED="1236609310789" ID="Freemind_Link_1068620517" MODIFIED="1259248369441" TEXT="SchemeType">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Scheme used for formulation of DMS transfer velocity.[/definition]</text>
+</hook>
 <node CREATED="1236609412294" ID="Freemind_Link_1292937123" MODIFIED="1245068322649" STYLE="fork" TEXT="Liss &amp; Merlivat">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -400,8 +441,11 @@
 </node>
 <node COLOR="#990099" CREATED="1236609454175" ID="Freemind_Link_1507049049" MODIFIED="1256254010279" STYLE="bubble" TEXT="N2">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1236609454175" ID="Freemind_Link_1731512817" MODIFIED="1256253964945" STYLE="bubble" TEXT="Present">
+<node COLOR="#996600" CREATED="1236609454175" ID="Freemind_Link_1731512817" MODIFIED="1259246913384" STYLE="bubble" TEXT="Present">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Is exchange of nitrogen taken into account in the air-sea interaction processes?[/definition]</text>
+</hook>
 <node CREATED="1236610470035" ID="Freemind_Link_9601771" MODIFIED="1256253980449" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -413,8 +457,11 @@
 </node>
 <node COLOR="#0033ff" CREATED="1256253866538" ID="Freemind_Link_1750589035" MODIFIED="1256253902981" TEXT="if Present is &quot;yes&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1236609310789" ID="Freemind_Link_343173565" MODIFIED="1256253856978" TEXT="SchemeType">
+<node COLOR="#996600" CREATED="1236609310789" ID="Freemind_Link_343173565" MODIFIED="1259248460467" TEXT="SchemeType">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Scheme used for formulation of N2 transfer velocity.[/definition]</text>
+</hook>
 <node CREATED="1236609412294" ID="Freemind_Link_1712447080" MODIFIED="1245068322649" STYLE="fork" TEXT="Liss &amp; Merlivat">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -434,10 +481,13 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1236609454175" ID="Freemind_Link_1664294172" MODIFIED="1256254010278" STYLE="bubble" TEXT="N2">
+<node COLOR="#990099" CREATED="1236609454175" ID="Freemind_Link_1664294172" MODIFIED="1259231878188" STYLE="bubble" TEXT="N2O">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1236609454175" ID="Freemind_Link_758014385" MODIFIED="1256253964945" STYLE="bubble" TEXT="Present">
+<node COLOR="#996600" CREATED="1236609454175" ID="Freemind_Link_758014385" MODIFIED="1259246919889" STYLE="bubble" TEXT="Present">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Is exchange of nitrogen oxide taken into account in the air-sea interaction processes?[/definition]</text>
+</hook>
 <node CREATED="1236610470035" ID="Freemind_Link_166878950" MODIFIED="1256253980449" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -449,8 +499,11 @@
 </node>
 <node COLOR="#0033ff" CREATED="1256253866538" ID="Freemind_Link_1479132648" MODIFIED="1256253902981" TEXT="if Present is &quot;yes&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1236609310789" ID="Freemind_Link_1004011677" MODIFIED="1256253856978" TEXT="SchemeType">
+<node COLOR="#996600" CREATED="1236609310789" ID="Freemind_Link_1004011677" MODIFIED="1259248464227" TEXT="SchemeType">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Scheme used for formulation of N2O transfer velocity.[/definition]</text>
+</hook>
 <node CREATED="1236609412294" ID="Freemind_Link_318955748" MODIFIED="1245068322649" STYLE="fork" TEXT="Liss &amp; Merlivat">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -472,8 +525,11 @@
 </node>
 <node COLOR="#990099" CREATED="1236609454175" ID="Freemind_Link_1058671234" MODIFIED="1256254010276" STYLE="bubble" TEXT="CO">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1236609454175" ID="Freemind_Link_1393840460" MODIFIED="1256253964945" STYLE="bubble" TEXT="Present">
+<node COLOR="#996600" CREATED="1236609454175" ID="Freemind_Link_1393840460" MODIFIED="1259246959966" STYLE="bubble" TEXT="Present">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Is exchange of carbon oxide taken into account in the air-sea interaction processes?[/definition]</text>
+</hook>
 <node CREATED="1236610470035" ID="Freemind_Link_56464343" MODIFIED="1256253980449" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -485,8 +541,11 @@
 </node>
 <node COLOR="#0033ff" CREATED="1256253866538" ID="Freemind_Link_808233122" MODIFIED="1256253902981" TEXT="if Present is &quot;yes&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1236609310789" ID="Freemind_Link_1994109804" MODIFIED="1256253856978" TEXT="SchemeType">
+<node COLOR="#996600" CREATED="1236609310789" ID="Freemind_Link_1994109804" MODIFIED="1259248341346" TEXT="SchemeType">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Scheme used for formulation of CO transfer velocity.[/definition]</text>
+</hook>
 <node CREATED="1236609412294" ID="Freemind_Link_1753784631" MODIFIED="1245068322649" STYLE="fork" TEXT="Liss &amp; Merlivat">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -511,8 +570,11 @@
 <font BOLD="true" NAME="Arial" SIZE="14"/>
 <node COLOR="#990099" CREATED="1256256453080" ID="Freemind_Link_1286423404" MODIFIED="1257240786133" TEXT="OceanBioTracersAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1236610544371" ID="Freemind_Link_1841952744" MODIFIED="1252940584176" TEXT="SulfurCycle">
+<node COLOR="#996600" CREATED="1236610544371" ID="Freemind_Link_1841952744" MODIFIED="1259248482011" TEXT="SulfurCycle">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Is sulfur cycle included in ocean biogeochemistry model?[/definition]</text>
+</hook>
 <node CREATED="1236609798282" ID="Freemind_Link_806189674" MODIFIED="1253103466051" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -525,21 +587,24 @@
 </node>
 <node COLOR="#990099" CREATED="1236609616738" ID="Freemind_Link_577317245" MODIFIED="1256252229612" TEXT="Nutrients">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233246454929" ID="Freemind_Link_823895992" MODIFIED="1245072813522" STYLE="bubble" TEXT="ListOfSpecies">
+<node COLOR="#996600" CREATED="1233246454929" ID="Freemind_Link_823895992" MODIFIED="1259248753482" STYLE="bubble" TEXT="ListOfSpecies">
 <font NAME="Arial" SIZE="14"/>
-<node CREATED="1236610013445" ID="Freemind_Link_571006165" MODIFIED="1245068322555" STYLE="fork" TEXT="Nitrogen N">
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]List of species (gazeous, organic or mineral) that act as as nutriments.[/definition]</text>
+</hook>
+<node CREATED="1236610013445" ID="Freemind_Link_571006165" MODIFIED="1259247374856" STYLE="fork" TEXT="Nitrogen (N)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1236610033613" ID="Freemind_Link_1469897134" MODIFIED="1245068322524" STYLE="fork" TEXT="Phosphorus P">
+<node CREATED="1236610033613" ID="Freemind_Link_1469897134" MODIFIED="1259247380854" STYLE="fork" TEXT="Phosphorus (P)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1236610047421" ID="Freemind_Link_624055122" MODIFIED="1245068322524" STYLE="fork" TEXT="Silicium Si">
+<node CREATED="1236610047421" ID="Freemind_Link_624055122" MODIFIED="1259247386275" STYLE="fork" TEXT="Silicium (Si)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1236609933004" ID="Freemind_Link_512528665" MODIFIED="1245068322524" STYLE="fork" TEXT="Iron Fe">
+<node CREATED="1236609933004" ID="Freemind_Link_512528665" MODIFIED="1259247391275" STYLE="fork" TEXT="Iron (Fe)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
@@ -550,8 +615,11 @@
 </node>
 <node COLOR="#0033ff" CREATED="1236610013445" ID="Freemind_Link_362193564" MODIFIED="1256252257500" STYLE="bubble" TEXT="if ListOfSpecies has &quot;Nitrogen N&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1236609779554" ID="Freemind_Link_772028418" MODIFIED="1253104716025" STYLE="bubble" TEXT="NitrousSpecies">
+<node COLOR="#996600" CREATED="1236609779554" ID="Freemind_Link_772028418" MODIFIED="1259248884647" STYLE="bubble" TEXT="NitrousSpecies">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]List of nutriments derived from nitrogen.[/definition]</text>
+</hook>
 <node CREATED="1236609879739" ID="Freemind_Link_1569825663" MODIFIED="1253103698897" STYLE="fork" TEXT="Nitrates (NO3)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
@@ -561,8 +629,11 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1236609779554" ID="Freemind_Link_1023576836" MODIFIED="1253104716041" STYLE="bubble" TEXT="Processes">
+<node COLOR="#996600" CREATED="1236609779554" ID="Freemind_Link_1023576836" MODIFIED="1259249115558" STYLE="bubble" TEXT="Processes">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]List of chemical processes involving nitrogen.[/definition]</text>
+</hook>
 <node CREATED="1236609965613" ID="Freemind_Link_1853290188" MODIFIED="1253103275154" STYLE="fork" TEXT="denitrification">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
@@ -578,7 +649,8 @@
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1256256501044" ID="Freemind_Link_917125428" MODIFIED="1257240799932" TEXT="OceanBioTracersEcosystemAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1236609779554" ID="Freemind_Link_1919102301" MODIFIED="1245069340406" TEXT="UpperTrophicLevels">
+<node COLOR="#996600" CREATED="1236609779554" ID="Freemind_Link_1919102301" MODIFIED="1259249141236" TEXT="UpperTrophicLevels">
+<cloud/>
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1236609798282" ID="Freemind_Link_1575197756" MODIFIED="1253103360260" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
@@ -592,8 +664,11 @@
 </node>
 <node COLOR="#990099" CREATED="1236609630224" ID="Freemind_Link_1462334004" MODIFIED="1256252219349" TEXT="Phytoplancton">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233246454929" ID="Freemind_Link_106669385" MODIFIED="1245072744718" STYLE="bubble" TEXT="Type">
+<node COLOR="#996600" CREATED="1233246454929" ID="Freemind_Link_106669385" MODIFIED="1259251192549" STYLE="bubble" TEXT="Type">
 <font NAME="Arial" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Approach used to represent the phytoplancton in the ocean biogeochemistry model.[/definition]</text>
+</hook>
 <node CREATED="1236609645057" ID="Freemind_Link_1525971091" MODIFIED="1245068322617" STYLE="fork" TEXT="none">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -609,8 +684,11 @@
 </node>
 <node COLOR="#0033ff" CREATED="1256253866538" ID="Freemind_Link_1759993483" MODIFIED="1256256329905" TEXT="if Type is &quot;list&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233246454929" ID="Freemind_Link_746798101" MODIFIED="1253540231427" STYLE="bubble" TEXT="ListOfSpecies">
+<node COLOR="#996600" CREATED="1233246454929" ID="Freemind_Link_746798101" MODIFIED="1259250933324" STYLE="bubble" TEXT="ListOfSpecies">
 <font NAME="Arial" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]List of the different types of phytoplancton taken into account in the model.[/definition]</text>
+</hook>
 <node CREATED="1236609658609" ID="Freemind_Link_114474861" MODIFIED="1253103292290" STYLE="fork" TEXT="diatoms">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
@@ -636,8 +714,11 @@
 </node>
 <node COLOR="#990099" CREATED="1236609636353" ID="Freemind_Link_1361070834" MODIFIED="1256252219314" TEXT="Zooplancton">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233246454929" ID="Freemind_Link_241652644" MODIFIED="1245072744718" STYLE="bubble" TEXT="Type">
+<node COLOR="#996600" CREATED="1233246454929" ID="Freemind_Link_241652644" MODIFIED="1259251211909" STYLE="bubble" TEXT="Type">
 <font NAME="Arial" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Approach used to represent the zooplancton in the biogeochemistry model.[/definition]</text>
+</hook>
 <node CREATED="1236609645057" ID="Freemind_Link_251400781" MODIFIED="1245068322617" STYLE="fork" TEXT="none">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -653,8 +734,11 @@
 </node>
 <node COLOR="#0033ff" CREATED="1256253866538" ID="Freemind_Link_1188485379" MODIFIED="1256256364366" TEXT="if Type is &quot;list&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233246454929" ID="Freemind_Link_925569673" MODIFIED="1253700115924" STYLE="bubble" TEXT="ListOfSpecies">
+<node COLOR="#996600" CREATED="1233246454929" ID="Freemind_Link_925569673" MODIFIED="1259251085268" STYLE="bubble" TEXT="ListOfSpecies">
 <font NAME="Arial" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]List of the different types of zooplancton taken into account in the model.[/definition]</text>
+</hook>
 <node CREATED="1236609658609" ID="Freemind_Link_119319107" MODIFIED="1253103347507" STYLE="fork" TEXT="microzooplancton">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
@@ -673,8 +757,11 @@
 </node>
 <node COLOR="#990099" CREATED="1236609622705" ID="Freemind_Link_1982825676" MODIFIED="1256252219457" TEXT="DisolvedOrganicMatter">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1236609779554" ID="Freemind_Link_1361498658" MODIFIED="1252939645509" TEXT="Lability">
+<node COLOR="#996600" CREATED="1236609779554" ID="Freemind_Link_1361498658" MODIFIED="1259251686305" TEXT="Lability">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Is the lability of dissolved organic matter taken into account in the ocean biogeochemistry model?[/definition]</text>
+</hook>
 <node CREATED="1236609798282" ID="Freemind_Link_261354589" MODIFIED="1253103408768" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -684,8 +771,11 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1236609779554" ID="Freemind_Link_511152836" MODIFIED="1252940414113" TEXT="BacteriaRepresentation">
+<node COLOR="#996600" CREATED="1236609779554" ID="Freemind_Link_511152836" MODIFIED="1259256332962" TEXT="BacteriaRepresentation">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Are bacteria taken into account in the ocean biogeochemistry model?[/definition]</text>
+</hook>
 <node CREATED="1236609798282" ID="Freemind_Link_674685606" MODIFIED="1253103417519" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -696,22 +786,21 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1236610396306" ID="Freemind_Link_839605626" MODIFIED="1256252219392" TEXT="Particules">
+<node COLOR="#990099" CREATED="1236610396306" ID="Freemind_Link_839605626" MODIFIED="1259254233925" TEXT="Particules">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Export of carbon.[/definition]</text>
+<text>[info]Upper ocean export of particulate matter (carbon, silica, etc.).[/info]</text>
 </hook>
-<node COLOR="#996600" CREATED="1236609779554" ID="Freemind_Link_1659819995" MODIFIED="1252942656090" TEXT="Method">
+<node COLOR="#996600" CREATED="1236609779554" ID="Freemind_Link_1659819995" MODIFIED="1259256350746" TEXT="Method">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]How the particulate carbon are represented in oceanbiogeochemistry model.[/definition]</text>
+</hook>
 <node CREATED="1252419126437" ID="Freemind_Link_586658802" MODIFIED="1253102936453" STYLE="fork" TEXT="diagnostic">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1252419156102" ID="Freemind_Link_976339112" MODIFIED="1253102940081" STYLE="fork" TEXT="diagnostic (Martin profile)">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node CREATED="1252419166941" ID="Freemind_Link_445414373" MODIFIED="1253103728303" STYLE="fork" TEXT="diagnostic (other)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
@@ -722,27 +811,45 @@
 </node>
 <node COLOR="#0033ff" CREATED="1256253866538" ID="Freemind_Link_1752256188" MODIFIED="1256256408005" TEXT="if Method is &quot;prognostic&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1252419174134" ID="Freemind_Link_17636323" MODIFIED="1253540282892" STYLE="bubble" TEXT="TypesOfParticules">
+<node COLOR="#996600" CREATED="1252419174134" ID="Freemind_Link_17636323" MODIFIED="1259256477013" STYLE="bubble" TEXT="TypesOfParticules">
 <font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1252419244270" ID="Freemind_Link_1901686201" MODIFIED="1252940529826" STYLE="fork" TEXT="POC">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node CREATED="1252419446118" ID="Freemind_Link_1424030448" MODIFIED="1252942794743" STYLE="fork" TEXT="PIC Calcite">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node CREATED="1252419453246" ID="Freemind_Link_871132515" MODIFIED="1252942800148" STYLE="fork" TEXT="PIC Aragonite">
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Type of particulate matter taken into account in the ocean biogeochemistry model.[/definition]</text>
+</hook>
+<node CREATED="1252419244270" ID="Freemind_Link_1901686201" MODIFIED="1259256562485" STYLE="fork" TEXT="POC">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Particulate Organic Carbon.[/definition]</text>
+</hook>
 </node>
-<node CREATED="1252419258998" ID="Freemind_Link_1301138543" MODIFIED="1252940529795" STYLE="fork" TEXT="BSi">
+<node CREATED="1252419446118" ID="Freemind_Link_1424030448" MODIFIED="1259256566884" STYLE="fork" TEXT="PIC (calcite)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Particulate Inorganic Carbon (calcite).[/definition]</text>
+</hook>
 </node>
-</node>
-<node COLOR="#996600" CREATED="1252419291325" ID="Freemind_Link_1891561696" MODIFIED="1253540296167" STYLE="bubble" TEXT="SizeSpectrum">
+<node CREATED="1252419453246" ID="Freemind_Link_871132515" MODIFIED="1259256571299" STYLE="fork" TEXT="PIC (aragonite)">
 <font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Particulate Inorganic Carbon (aragonite).[/definition]</text>
+</hook>
+</node>
+<node CREATED="1252419258998" ID="Freemind_Link_1301138543" MODIFIED="1259253856436" STYLE="fork" TEXT="BSi">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Biogenic Silica.[/definition]</text>
+</hook>
+</node>
+</node>
+<node COLOR="#996600" CREATED="1252419291325" ID="Freemind_Link_1891561696" MODIFIED="1259254629416" STYLE="bubble" TEXT="SizeSpectrum">
+<font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Is a particule size spectrum used to represent distribution of particules in the water volume?[/definition]</text>
+</hook>
 <node CREATED="1252419296253" ID="Freemind_Link_442791986" MODIFIED="1252940529795" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -752,8 +859,11 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1252419187421" ID="Freemind_Link_1157458189" MODIFIED="1253540311377" STYLE="bubble" TEXT="SinkingSpeed">
+<node COLOR="#996600" CREATED="1252419187421" ID="Freemind_Link_1157458189" MODIFIED="1259256368374" STYLE="bubble" TEXT="SinkingSpeed">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Method for calculation of particule sinking speed.[/definition]</text>
+</hook>
 <node CREATED="1252419194949" ID="Freemind_Link_546381751" MODIFIED="1253540317500" STYLE="fork" TEXT="function of particule size">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
@@ -770,7 +880,8 @@
 <font BOLD="true" NAME="Arial" SIZE="14"/>
 <node COLOR="#990099" CREATED="1236610238383" ID="Freemind_Link_607535501" MODIFIED="1256252208310" TEXT="CarbonChemistry">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1252419570622" ID="Freemind_Link_1794269249" MODIFIED="1252940673034" TEXT="pH-scale">
+<node COLOR="#996600" CREATED="1252419570622" ID="Freemind_Link_1794269249" MODIFIED="1259255274874" TEXT="pH-scale">
+<cloud/>
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1252419643183" ID="Freemind_Link_172187547" MODIFIED="1253103479841" STYLE="fork" TEXT="sea water">
 <font NAME="SansSerif" SIZE="14"/>
@@ -785,11 +896,12 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1252419591695" ID="Freemind_Link_1488845223" MODIFIED="1256251962952" TEXT="ChemicalConstantsForCarbonateChemistry">
+<node COLOR="#996600" CREATED="1252419591695" ID="Freemind_Link_1488845223" MODIFIED="1259255270615" TEXT="ChemicalConstantsForCarbonateChemistry">
+<cloud/>
 <font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1256251943285" ID="Freemind_Link_591259990" MODIFIED="1256251951554" STYLE="fork" TEXT="">
+<node CREATED="1256251943285" ID="Freemind_Link_591259990" MODIFIED="1259255260850" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="full-1"/>
+<icon BUILTIN="pencil"/>
 </node>
 </node>
 </node>
