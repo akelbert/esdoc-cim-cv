@@ -4,12 +4,12 @@
 <edge WIDTH="2"/>
 <font ITALIC="true" NAME="Arial" SIZE="15"/>
 <hook NAME="accessories/plugins/CreationModificationPlugin_new.properties"/>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233138695774" ID="Freemind_Link_1341666843" MODIFIED="1236851518291" POSITION="right" STYLE="bubble" TEXT="SeaIce">
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233138695774" ID="Freemind_Link_1341666843" MODIFIED="1259589586734" POSITION="right" STYLE="bubble" TEXT="SeaIce">
 <edge COLOR="#999999"/>
 <font BOLD="true" NAME="Arial" SIZE="16"/>
-<node COLOR="#000000" CREATED="1255700755104" ID="Freemind_Link_1837222931" MODIFIED="1256746345500" TEXT="SeaIceKeyProperties_">
+<node COLOR="#000000" CREATED="1255700755104" FOLDED="true" ID="Freemind_Link_1837222931" MODIFIED="1256746345500" TEXT="SeaIceKeyProperties_">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#990099" CREATED="1255352711909" ID="Freemind_Link_1906682406" MODIFIED="1257328666659" TEXT="SeaIceKeyPropertiesAttributes_">
+<node COLOR="#990099" CREATED="1255352711909" FOLDED="true" ID="Freemind_Link_1906682406" MODIFIED="1257328666659" TEXT="SeaIceKeyPropertiesAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1233141022285" ID="Freemind_Link_599221753" MODIFIED="1257330291942" STYLE="bubble" TEXT="BasicApproximations">
 <font NAME="Arial" SIZE="14"/>
@@ -32,10 +32,13 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1243443048739" ID="_" MODIFIED="1255964855395" TEXT="SeaIceRepresentation">
+<node COLOR="#990099" CREATED="1243443048739" FOLDED="true" ID="_" MODIFIED="1255964855395" TEXT="SeaIceRepresentation">
 <font NAME="Arial" SIZE="14"/>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1087338148" MODIFIED="1255963911355" TEXT="SchemeType">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1087338148" MODIFIED="1259587315781" TEXT="SchemeType">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Type of scheme used to represent sea ice[/definition]</text>
+</hook>
 <node CREATED="1243443108378" ID="Freemind_Link_23019424" MODIFIED="1255962756050" STYLE="fork" TEXT="2-levels">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -76,12 +79,15 @@
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1253796609575" ID="Freemind_Link_1291132512" MODIFIED="1256746434572" TEXT="SeaIceSpaceConfiguration_">
+<node COLOR="#000000" CREATED="1253796609575" FOLDED="true" ID="Freemind_Link_1291132512" MODIFIED="1256746434572" TEXT="SeaIceSpaceConfiguration_">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1233751003143" ID="Freemind_Link_305402916" MODIFIED="1257336067800" STYLE="bubble" TEXT="Horizontal.Domain">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1255438538998" ID="Freemind_Link_38895976" MODIFIED="1256746410210" TEXT="GridConfig">
+<node COLOR="#996600" CREATED="1255438538998" ID="Freemind_Link_38895976" MODIFIED="1259587346140" TEXT="GridConfig">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition][/definition]</text>
+</hook>
 <node CREATED="1241016231102" ID="Freemind_Link_1356030046" MODIFIED="1257328842499" STYLE="fork" TEXT="same as Ocean">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -122,8 +128,11 @@
 </node>
 <node COLOR="#990099" CREATED="1233751261777" ID="Freemind_Link_1153520910" MODIFIED="1255440450989" STYLE="bubble" TEXT="TimeSteppingFramework">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1253870854444" ID="Freemind_Link_1713086568" MODIFIED="1256255337331" TEXT="Method">
+<node COLOR="#996600" CREATED="1253870854444" ID="Freemind_Link_1713086568" MODIFIED="1259587522562" TEXT="Method">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Specify what timestep sea-ice operates on[/definition]</text>
+</hook>
 <node CREATED="1241016231102" ID="Freemind_Link_1926509417" MODIFIED="1257329818832" STYLE="fork" TEXT="use Ocean time step">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -152,12 +161,15 @@
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1233139909012" ID="Freemind_Link_1270957302" MODIFIED="1256226394999" TEXT="SeaIce_Thermodynamics">
+<node COLOR="#000000" CREATED="1233139909012" FOLDED="true" ID="Freemind_Link_1270957302" MODIFIED="1256226394999" TEXT="SeaIce_Thermodynamics">
 <font BOLD="true" NAME="Arial" SIZE="14"/>
-<node COLOR="#990099" CREATED="1255700774580" ID="Freemind_Link_873947577" MODIFIED="1257330172714" TEXT="SeaIceThermodynamicsAttributes_">
+<node COLOR="#990099" CREATED="1255700774580" FOLDED="true" ID="Freemind_Link_873947577" MODIFIED="1257330172714" TEXT="SeaIceThermodynamicsAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1236605223412" ID="Freemind_Link_352526559" MODIFIED="1245677934532" TEXT="WaterPonds">
+<node COLOR="#996600" CREATED="1236605223412" ID="Freemind_Link_352526559" MODIFIED="1259587634593" TEXT="WaterPonds">
 <font NAME="SansSerif" SIZE="15"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definitions]Are melt-water ponds included in the sea-ice scheme?[/definitions]</text>
+</hook>
 <node CREATED="1233671047851" ID="Freemind_Link_310277531" MODIFIED="1233917930626" STYLE="fork" TEXT="yes ">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -188,10 +200,13 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1236605126621" ID="Freemind_Link_1416608042" MODIFIED="1255700813175" TEXT="Snow">
+<node COLOR="#990099" CREATED="1236605126621" FOLDED="true" ID="Freemind_Link_1416608042" MODIFIED="1255700813175" TEXT="Snow">
 <font NAME="SansSerif" SIZE="15"/>
-<node COLOR="#996600" CREATED="1236605251484" ID="Freemind_Link_1733341135" MODIFIED="1255701326102" TEXT="HeatDiffusion">
+<node COLOR="#996600" CREATED="1236605251484" ID="Freemind_Link_1733341135" MODIFIED="1259587981250" TEXT="HeatDiffusion">
 <font NAME="SansSerif" SIZE="15"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Specify single layer or multi-layer treatment of snow thermodynamics on sea ice [/definition]</text>
+</hook>
 <node CREATED="1236608542745" ID="Freemind_Link_1937182471" MODIFIED="1236767984141" STYLE="fork" TEXT="multi-layer">
 <font NAME="SansSerif" SIZE="15"/>
 <icon BUILTIN="button_cancel"/>
@@ -201,8 +216,11 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1236605156558" ID="Freemind_Link_663309832" MODIFIED="1255701026216" TEXT="SchemeType">
+<node COLOR="#996600" CREATED="1236605156558" ID="Freemind_Link_663309832" MODIFIED="1259588463921" TEXT="SchemeType">
 <font NAME="SansSerif" SIZE="15"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Specify which processes are included in the snow thermodynamics scheme [/definition]</text>
+</hook>
 <node CREATED="1233671047851" ID="Freemind_Link_1717801950" MODIFIED="1255701029968" STYLE="fork" TEXT="snow-aging">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
@@ -215,8 +233,11 @@
 </node>
 <node COLOR="#990099" CREATED="1236605136457" ID="Freemind_Link_1585959921" MODIFIED="1255960643420" TEXT="Ice">
 <font NAME="SansSerif" SIZE="15"/>
-<node COLOR="#996600" CREATED="1236605251484" ID="Freemind_Link_1387880859" MODIFIED="1255701320259" TEXT="VerticalHeatDiffusion">
+<node COLOR="#996600" CREATED="1236605251484" ID="Freemind_Link_1387880859" MODIFIED="1259588719531" TEXT="VerticalHeatDiffusion">
 <font NAME="SansSerif" SIZE="15"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Describe the treatment of vertical heat diffusion within sea ice[/definition]</text>
+</hook>
 <node CREATED="1236608542745" ID="Freemind_Link_1053015353" MODIFIED="1253699714941" STYLE="fork" TEXT="multi-layer on an irregular vertical grid">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -230,10 +251,13 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1255701044320" ID="Freemind_Link_658319846" MODIFIED="1255701342443" TEXT="if VerticalHeatDiffusion is &quot;multi-layer&quot;">
+<node COLOR="#0033ff" CREATED="1255701044320" FOLDED="true" ID="Freemind_Link_658319846" MODIFIED="1255701342443" TEXT="if VerticalHeatDiffusion is &quot;multi-layer&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1236605156558" ID="Freemind_Link_114635179" MODIFIED="1253541254358" TEXT="NumberOfLayers">
+<node COLOR="#996600" CREATED="1236605156558" ID="Freemind_Link_114635179" MODIFIED="1259588769281" TEXT="NumberOfLayers">
 <font NAME="SansSerif" SIZE="15"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Number of layers used in the multi-layer heat diffusion scheme[/definition]</text>
+</hook>
 <node CREATED="1236608775512" ID="Freemind_Link_1196722025" MODIFIED="1253541189556" STYLE="fork" TEXT="2 layers (Semtner &apos;76 type)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -244,8 +268,11 @@
 </node>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1236608912668" ID="Freemind_Link_1070090960" MODIFIED="1245052510933" TEXT="OceanToIceBasalHeatFlux">
+<node COLOR="#996600" CREATED="1236608912668" FOLDED="true" ID="Freemind_Link_1070090960" MODIFIED="1259588865109" TEXT="OceanToIceBasalHeatFlux">
 <font NAME="SansSerif" SIZE="15"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Specify how the flux of heat from the ocean to the basal ice is calculated[/definition]</text>
+</hook>
 <node CREATED="1236608955248" ID="Freemind_Link_339191819" MODIFIED="1253541189556" STYLE="fork" TEXT="prescribed">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -259,8 +286,11 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1236609041258" ID="Freemind_Link_1372235270" MODIFIED="1245052468509" TEXT="BrineInclusions">
+<node COLOR="#996600" CREATED="1236609041258" ID="Freemind_Link_1372235270" MODIFIED="1259589086234" TEXT="BrineInclusions">
 <font NAME="SansSerif" SIZE="15"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definitions]Specify if, and using which method, sea-ice brine inclusions are modelled[/definitions]</text>
+</hook>
 <node CREATED="1233674800219" ID="Freemind_Link_861414824" MODIFIED="1253623630553" STYLE="fork" TEXT="none">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -278,8 +308,11 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1236609078839" ID="Freemind_Link_280213436" MODIFIED="1255701109301" TEXT="Processes">
+<node COLOR="#996600" CREATED="1236609078839" ID="Freemind_Link_280213436" MODIFIED="1259589166703" TEXT="Processes">
 <font NAME="SansSerif" SIZE="15"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definitions]Specify which model processes are included in the thermodynamics of sea-ice[/definitions]</text>
+</hook>
 <node COLOR="#000000" CREATED="1236609078839" ID="Freemind_Link_96844380" MODIFIED="1253541200195" STYLE="fork" TEXT="Sea ice lateral melting">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
@@ -293,8 +326,11 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1236605562782" ID="Freemind_Link_657583951" MODIFIED="1245053048943" TEXT="TransportInThicknessSpace">
+<node COLOR="#996600" CREATED="1236605562782" ID="Freemind_Link_657583951" MODIFIED="1259589498031" TEXT="TransportInThicknessSpace">
 <font NAME="SansSerif" SIZE="15"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[defintion]Specify method of calculating sea ice thickness[/definition]</text>
+</hook>
 <node CREATED="1233671047851" ID="Freemind_Link_734239294" MODIFIED="1255964001632" STYLE="fork" TEXT="eulerian">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -314,8 +350,11 @@
 <font BOLD="true" NAME="Arial" SIZE="14"/>
 <node COLOR="#990099" CREATED="1255960902543" ID="Freemind_Link_1206624519" MODIFIED="1257330238444" TEXT="SeaIceDynamicsAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233139939699" ID="Freemind_Link_263716412" MODIFIED="1245056387348" STYLE="bubble" TEXT="Rheology">
+<node COLOR="#996600" CREATED="1233139939699" ID="Freemind_Link_263716412" MODIFIED="1259589620984" STYLE="bubble" TEXT="Rheology">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Scheme used to model sea ice rheology[/definition]</text>
+</hook>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233142017048" ID="Freemind_Link_1656081253" MODIFIED="1236610074992" STYLE="fork" TEXT="free-drift">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -341,8 +380,11 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233139932284" ID="Freemind_Link_1094327539" MODIFIED="1245056387364" STYLE="bubble" TEXT="Advection">
+<node COLOR="#996600" CREATED="1233139932284" ID="Freemind_Link_1094327539" MODIFIED="1259589922140" STYLE="bubble" TEXT="Advection">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Specify which advection scheme is used for sea ice[/definition]</text>
+</hook>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233669756304" ID="Freemind_Link_538332634" MODIFIED="1236610291801" STYLE="fork" TEXT="incremental remapping (semi-lagrangian)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -356,8 +398,11 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1236612095724" ID="Freemind_Link_579878843" MODIFIED="1256259170216" STYLE="bubble" TEXT="HorizontalDiscretizationGrid">
+<node COLOR="#996600" CREATED="1236612095724" ID="Freemind_Link_579878843" MODIFIED="1259589778453" STYLE="bubble" TEXT="HorizontalDiscretizationGrid">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Specify on which horizontal grid sea-ice is modelled [/definition]</text>
+</hook>
 <node CREATED="1236612117961" ID="Freemind_Link_700847911" MODIFIED="1236768025362" STYLE="fork" TEXT="Ocean grid">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -374,8 +419,11 @@
 </node>
 <node COLOR="#990099" CREATED="1233139939699" ID="Freemind_Link_1053412191" MODIFIED="1255960875345" STYLE="bubble" TEXT="Redistribution">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233139939699" ID="Freemind_Link_305064555" MODIFIED="1245059590041" STYLE="bubble" TEXT="Type">
+<node COLOR="#996600" CREATED="1233139939699" ID="Freemind_Link_305064555" MODIFIED="1259590013625" STYLE="bubble" TEXT="Type">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Specify the process by which sea-ice redistribution is modelled[/definition]</text>
+</hook>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233669756304" ID="Freemind_Link_1629044101" MODIFIED="1236610409215" STYLE="fork" TEXT="rafting">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
