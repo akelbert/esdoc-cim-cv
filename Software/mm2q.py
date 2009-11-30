@@ -36,7 +36,7 @@ if options.flat:
 else:
   if not(args[0].endswith("_bdl.mm")):
      parser.error("expecting input file with name mindmap_bdl.mm. Use the -f option is you want to parse a mindmap_flat.mm file.")
-  foutname=args[0].replace("_bdl.mm",".xml")
+  foutname=args[0].replace(".mm",".xml")
   XSLFileName="mm2q_bdl.xsl"
 
 try:
