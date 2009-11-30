@@ -1638,10 +1638,6 @@
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Method for taking into account overlapping of cloud layers.[/definition]</text>
 </hook>
-<node CREATED="1256741586431" ID="Freemind_Link_492023016" MODIFIED="1256813343373" STYLE="fork" TEXT="other">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
 <node CREATED="1256741580365" ID="Freemind_Link_394203112" MODIFIED="1256813343358" STYLE="fork" TEXT="random">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -1650,11 +1646,15 @@
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
+<node CREATED="1256741586431" ID="Freemind_Link_492023016" MODIFIED="1256813343373" STYLE="fork" TEXT="other">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233142100081" ID="Freemind_Link_1668172960" MODIFIED="1258453598350" TEXT="Processes">
+</node>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233142100081" ID="Freemind_Link_1668172960" MODIFIED="1259588611516" TEXT="Processes">
 <font NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Description of the cloudy processes (e.g. entrainment, detrainment, bulk cloud, etc.).[/definition]</text>
+<text>[definition]Cloud processes included in the cloud scheme (e.g. entrainment, detrainment, bulk cloud, etc.).[/definition]</text>
 </hook>
 <node CREATED="1256741695946" ID="Freemind_Link_1356442702" MODIFIED="1256813367429" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1664,10 +1664,10 @@
 </node>
 <node COLOR="#990099" CREATED="1242399316765" ID="Freemind_Link_398816266" MODIFIED="1255339378132" TEXT="SubGridScaleWaterDistribution">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1242399294597" ID="Freemind_Link_774479283" MODIFIED="1258474732652" TEXT="Type">
+<node COLOR="#996600" CREATED="1242399294597" ID="Freemind_Link_774479283" MODIFIED="1259589005645" TEXT="Type">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Type of approach for cloud water content and fractional cloud covers (???).[/definition]&#xa;[info]A famous prognostic scheme for stratiform and convective clouds is Tidke 1993.[/info]</text>
+<text>[definition]Approach used for cloud water content and fractional cloud cover.[/definition]&#xa;[info]A famous prognostic scheme for stratiform and convective clouds is Tidke 1993.[/info]</text>
 </hook>
 <node CREATED="1242399773976" ID="Freemind_Link_492882120" MODIFIED="1253106886572" STYLE="fork" TEXT="prognostic">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1678,36 +1678,40 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1242399940288" ID="Freemind_Link_1280469257" MODIFIED="1258475164507" STYLE="bubble" TEXT="FunctionName">
+<node COLOR="#996600" CREATED="1242399940288" ID="Freemind_Link_1280469257" MODIFIED="1259589021011" STYLE="bubble" TEXT="FunctionName">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Commonly used name of the probability density function (PDF) representing distribution of water vapor within a grid box (???).[/definition]&#xa;[info]FDF= filtered density function = PDF of a subgrid (i.e. filtered) fluctuations. Here FDF for a moisture variable.[/info]</text>
+<text>[definition]Commonly used name of the probability density function (PDF) representing distribution of water vapor within a grid box.[/definition]&#xa;[info]FDF= filtered density function = PDF of a subgrid (i.e. filtered) fluctuations. Here FDF for a moisture variable.[/info]</text>
 </hook>
 <node CREATED="1233246454929" ID="Freemind_Link_1158144350" MODIFIED="1244732843067" STYLE="fork" TEXT="">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="pencil"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1242399940288" ID="Freemind_Link_633885362" MODIFIED="1258475680882" STYLE="bubble" TEXT="FunctionOrder">
+<node COLOR="#996600" CREATED="1242399940288" ID="Freemind_Link_633885362" MODIFIED="1259589306362" STYLE="bubble" TEXT="FunctionOrder">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Order of the function (PDF) used to represent subgrid scale water vapor distribution (???).[/definition]</text>
+<text>[definition]Order of the function (PDF) used to represent subgrid scale water vapor distribution.[/definition]</text>
 </hook>
 <node CREATED="1233246454929" ID="Freemind_Link_831271539" MODIFIED="1244732879929" STYLE="fork" TEXT="">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1242399395966" ID="Freemind_Link_97333883" MODIFIED="1258473608329" STYLE="bubble" TEXT="CouplingWithConvection">
+<node COLOR="#996600" CREATED="1242399395966" ID="Freemind_Link_97333883" MODIFIED="1259589209463" STYLE="bubble" TEXT="CouplingWithConvection">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Cloud formation estimated in connection with convection (large-scale ascents, boundary layer turbulence, convective updrafts, etc.).[/definition]</text>
+<text>[definition]Cloud formation coupled with convection. [/definition][info] (large-scale ascents, boundary layer turbulence, convective updrafts, etc.).[/info]</text>
 </hook>
 <node CREATED="1242399480978" ID="Freemind_Link_482211163" MODIFIED="1255524736019" STYLE="fork" TEXT="coupled with deep">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1242399492452" ID="Freemind_Link_1426883804" MODIFIED="1255524741315" STYLE="fork" TEXT="coupled with shallow">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1242399492452" ID="Freemind_Link_1436397979" MODIFIED="1259588759613" STYLE="fork" TEXT="coupled with deep and shallow">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
@@ -1718,35 +1722,35 @@
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1233138805927" ID="Freemind_Link_359508694" MODIFIED="1259576766640" TEXT="Cloud Simulator">
+<node COLOR="#000000" CREATED="1233138805927" ID="Freemind_Link_359508694" MODIFIED="1259589783696" TEXT="CloudSimulator">
 <edge STYLE="bezier"/>
 <font BOLD="true" NAME="Arial" SIZE="14"/>
 <node COLOR="#990099" CREATED="1254475153290" ID="Freemind_Link_1007419547" MODIFIED="1259576821171" TEXT="COSPAttributes">
 <font NAME="SansSerif" SIZE="14"/>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233142100081" ID="Freemind_Link_379457172" MODIFIED="1259576882968" TEXT="NumGridpoints">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233142100081" ID="Freemind_Link_379457172" MODIFIED="1259589337936" TEXT="NumGridpoints">
 <font NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Number of gridpoints used[/definition]</text>
+<text>[definition]Number of gridpoints used. [/definition]</text>
 </hook>
 <node CREATED="1233246454929" ID="Freemind_Link_317933300" MODIFIED="1244732879929" STYLE="fork" TEXT="">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233142100081" ID="Freemind_Link_359074274" MODIFIED="1259576934750" TEXT="NumColumns">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233142100081" ID="Freemind_Link_359074274" MODIFIED="1259589347983" TEXT="NumColumns">
 <font NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Number of subcolumns used[/definition]</text>
+<text>[definition]Number of subcolumns used. [/definition]</text>
 </hook>
 <node CREATED="1233246454929" ID="Freemind_Link_1808400904" MODIFIED="1244732879929" STYLE="fork" TEXT="">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233142100081" ID="Freemind_Link_1693201935" MODIFIED="1259576963656" TEXT="NumLevels">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233142100081" ID="Freemind_Link_1693201935" MODIFIED="1259589343055" TEXT="NumLevels">
 <font NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Number of model levels used[/definition]</text>
+<text>[definition]Number of model levels used. [/definition]</text>
 </hook>
 <node CREATED="1233246454929" ID="Freemind_Link_1101388700" MODIFIED="1244732879929" STYLE="fork" TEXT="">
 <font NAME="Arial" SIZE="14"/>
@@ -1756,17 +1760,17 @@
 </node>
 <node COLOR="#990099" CREATED="1242399316765" HGAP="24" ID="Freemind_Link_877338211" MODIFIED="1259577032968" TEXT="InputsRadar" VSHIFT="12">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1242399940288" ID="Freemind_Link_58929199" MODIFIED="1259577058437" STYLE="bubble" TEXT="RadarFreq">
+<node COLOR="#996600" CREATED="1242399940288" ID="Freemind_Link_58929199" MODIFIED="1259589363350" STYLE="bubble" TEXT="RadarFreq">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]CloudSat radar frequency (in GHz)[/definition]</text>
+<text>[definition]CloudSat radar frequency (in GHz). [/definition]</text>
 </hook>
 <node CREATED="1233246454929" ID="Freemind_Link_1708080944" MODIFIED="1244732879929" STYLE="fork" TEXT="">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1242399294597" ID="Freemind_Link_883151249" MODIFIED="1259577189890" TEXT="SurfaceRadar">
+<node COLOR="#996600" CREATED="1242399294597" ID="Freemind_Link_883151249" MODIFIED="1259589385997" TEXT="RadarType">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Type of radar - surface or spaceborne?[/definition]&#xa;</text>
@@ -1811,10 +1815,10 @@
 </node>
 <node COLOR="#990099" CREATED="1242399316765" HGAP="24" ID="Freemind_Link_1021563512" MODIFIED="1259577388687" TEXT="InputsLidar" VSHIFT="12">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1242399294597" ID="Freemind_Link_551738164" MODIFIED="1259577471000" TEXT="LidarIceType">
+<node COLOR="#996600" CREATED="1242399294597" ID="Freemind_Link_551738164" MODIFIED="1259589420372" TEXT="LidarIceType">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Ice particle shape in lidar calculations[/definition]&#xa;</text>
+<text>[definition]Ice particle shape in lidar calculations.[/definition]&#xa;</text>
 </hook>
 <node CREATED="1242399773976" ID="Freemind_Link_1698337739" MODIFIED="1259577434250" STYLE="fork" TEXT="Ice Spheres">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1825,10 +1829,10 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1242399294597" ID="Freemind_Link_1718269237" MODIFIED="1259577546328" TEXT="Overlap">
+<node COLOR="#996600" CREATED="1242399294597" ID="Freemind_Link_1718269237" MODIFIED="1259589432643" TEXT="Overlap">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Overlap type[/definition]&#xa;</text>
+<text>[definition]Overlap type.[/definition]&#xa;</text>
 </hook>
 <node CREATED="1242399773976" ID="Freemind_Link_633475224" MODIFIED="1259577503468" STYLE="fork" TEXT="Max">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1842,14 +1846,18 @@
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
+<node CREATED="1242399782236" ID="Freemind_Link_704054104" MODIFIED="1259589448901" STYLE="fork" TEXT="Other">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
 </node>
 </node>
 <node COLOR="#990099" CREATED="1242399316765" HGAP="24" ID="Freemind_Link_1000667363" MODIFIED="1259577639671" TEXT="ISSCP" VSHIFT="12">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1242399294597" ID="Freemind_Link_135780205" MODIFIED="1259577897812" TEXT="ISSCP_TopHeight">
+<node COLOR="#996600" CREATED="1242399294597" ID="Freemind_Link_135780205" MODIFIED="1259589502333" TEXT="ISSCP_TopHeight">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]How is cloud top height managed? e.g. adjusted using both a computed infrared brightness temperature and visible optical depth to adjust cloud top pressure [/definition]&#xa;</text>
+<text>[definition]Cloud top height management. e.g. adjusted using both a computed infrared brightness temperature and visible optical depth to adjust cloud top pressure. [/definition]&#xa;</text>
 </hook>
 <node CREATED="1242399773976" ID="Freemind_Link_1990654177" MODIFIED="1259577780359" STYLE="fork" TEXT="NoAdjustment">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1864,10 +1872,10 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1242399294597" ID="Freemind_Link_279872687" MODIFIED="1259578083109" TEXT="ISSCP_TopHeightDirection">
+<node COLOR="#996600" CREATED="1242399294597" ID="Freemind_Link_279872687" MODIFIED="1259589674123" TEXT="ISSCP_TopHeightDirection">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Direction for finding atmosphere pressure level with interpolated temperature equal to the radiance determined cloud-top pressure[/definition]&#xa;</text>
+<text>[definition]&#xa;Direction for finding the radiance determined cloud-top pressure.  &#xa;Atmosphere pressure level with interpolated temperature equal to the radiance determined cloud-top pressure.[/definition]&#xa;</text>
 </hook>
 <node CREATED="1242399773976" ID="Freemind_Link_1315057180" MODIFIED="1259578013046" STYLE="fork" TEXT="lowest altitude level ">
 <font NAME="SansSerif" SIZE="14"/>
