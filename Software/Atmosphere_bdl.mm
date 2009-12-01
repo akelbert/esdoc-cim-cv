@@ -1645,6 +1645,33 @@
 <edge STYLE="bezier"/>
 <node TEXT="COSP.Attributes" ID="Freemind_Link_1007419547" CREATED="1254475153290" MODIFIED="1259671693429" COLOR="#990099">
 <font NAME="SansSerif" SIZE="14"/>
+<node TEXT="COSP_RunConfiguration" ID="ID_1636498403" CREATED="1233142100081" MODIFIED="1259686052127" COLOR="#996600" BACKGROUND_COLOR="#ffffff">
+<font NAME="Arial" SIZE="14"/>
+<richcontent TYPE="NOTE">
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p align="left">
+      [definition]Method used to run the CFMIP Observational Siimulator Package.[/definition]
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="inline" ID="ID_118241588" CREATED="1233142114760" MODIFIED="1259685603292" BACKGROUND_COLOR="#ffffff" STYLE="fork">
+<font NAME="Arial" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node TEXT="offline" ID="ID_1729066808" CREATED="1233142114760" MODIFIED="1259685615873" BACKGROUND_COLOR="#ffffff" STYLE="fork">
+<font NAME="Arial" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node TEXT="none" ID="ID_156725632" CREATED="1233142114760" MODIFIED="1259685597232" BACKGROUND_COLOR="#ffffff" STYLE="fork">
+<font NAME="Arial" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+</node>
 <node TEXT="NumberOfGridPoints" ID="Freemind_Link_379457172" CREATED="1233142100081" MODIFIED="1259664369314" COLOR="#996600" BACKGROUND_COLOR="#ffffff">
 <font NAME="Arial" SIZE="14"/>
 <richcontent TYPE="NOTE">
