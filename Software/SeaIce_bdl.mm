@@ -7,9 +7,9 @@
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233138695774" ID="Freemind_Link_1341666843" MODIFIED="1259589586734" POSITION="right" STYLE="bubble" TEXT="SeaIce">
 <edge COLOR="#999999"/>
 <font BOLD="true" NAME="Arial" SIZE="16"/>
-<node COLOR="#000000" CREATED="1255700755104" FOLDED="true" ID="Freemind_Link_1837222931" MODIFIED="1256746345500" TEXT="SeaIceKeyProperties_">
+<node COLOR="#000000" CREATED="1255700755104" ID="Freemind_Link_1837222931" MODIFIED="1256746345500" TEXT="SeaIceKeyProperties_">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#990099" CREATED="1255352711909" FOLDED="true" ID="Freemind_Link_1906682406" MODIFIED="1257328666659" TEXT="SeaIceKeyPropertiesAttributes_">
+<node COLOR="#990099" CREATED="1255352711909" ID="Freemind_Link_1906682406" MODIFIED="1257328666659" TEXT="SeaIceKeyPropertiesAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1233141022285" ID="Freemind_Link_599221753" MODIFIED="1257330291942" STYLE="bubble" TEXT="BasicApproximations">
 <font NAME="Arial" SIZE="14"/>
@@ -32,7 +32,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1243443048739" FOLDED="true" ID="_" MODIFIED="1255964855395" TEXT="SeaIceRepresentation">
+<node COLOR="#990099" CREATED="1243443048739" ID="_" MODIFIED="1255964855395" TEXT="SeaIceRepresentation">
 <font NAME="Arial" SIZE="14"/>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1087338148" MODIFIED="1259587315781" TEXT="SchemeType">
 <font NAME="SansSerif" SIZE="14"/>
@@ -79,7 +79,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1253796609575" FOLDED="true" ID="Freemind_Link_1291132512" MODIFIED="1256746434572" TEXT="SeaIceSpaceConfiguration_">
+<node COLOR="#000000" CREATED="1253796609575" ID="Freemind_Link_1291132512" MODIFIED="1256746434572" TEXT="SeaIceSpaceConfiguration_">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1233751003143" ID="Freemind_Link_305402916" MODIFIED="1257336067800" STYLE="bubble" TEXT="Horizontal.Domain">
 <font NAME="SansSerif" SIZE="14"/>
@@ -161,9 +161,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1233139909012" FOLDED="true" ID="Freemind_Link_1270957302" MODIFIED="1256226394999" TEXT="SeaIce_Thermodynamics">
+<node COLOR="#000000" CREATED="1233139909012" ID="Freemind_Link_1270957302" MODIFIED="1256226394999" TEXT="SeaIce_Thermodynamics">
 <font BOLD="true" NAME="Arial" SIZE="14"/>
-<node COLOR="#990099" CREATED="1255700774580" FOLDED="true" ID="Freemind_Link_873947577" MODIFIED="1257330172714" TEXT="SeaIceThermodynamicsAttributes_">
+<node COLOR="#990099" CREATED="1255700774580" ID="Freemind_Link_873947577" MODIFIED="1257330172714" TEXT="SeaIceThermodynamicsAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1236605223412" ID="Freemind_Link_352526559" MODIFIED="1259587634593" TEXT="WaterPonds">
 <font NAME="SansSerif" SIZE="15"/>
@@ -200,7 +200,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1236605126621" FOLDED="true" ID="Freemind_Link_1416608042" MODIFIED="1255700813175" TEXT="Snow">
+<node COLOR="#990099" CREATED="1236605126621" ID="Freemind_Link_1416608042" MODIFIED="1255700813175" TEXT="Snow">
 <font NAME="SansSerif" SIZE="15"/>
 <node COLOR="#996600" CREATED="1236605251484" ID="Freemind_Link_1733341135" MODIFIED="1259587981250" TEXT="HeatDiffusion">
 <font NAME="SansSerif" SIZE="15"/>
@@ -251,7 +251,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1255701044320" FOLDED="true" ID="Freemind_Link_658319846" MODIFIED="1255701342443" TEXT="if VerticalHeatDiffusion is &quot;multi-layer&quot;">
+<node COLOR="#0033ff" CREATED="1255701044320" ID="Freemind_Link_658319846" MODIFIED="1255701342443" TEXT="if VerticalHeatDiffusion is &quot;multi-layer&quot;">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1236605156558" ID="Freemind_Link_114635179" MODIFIED="1259588769281" TEXT="NumberOfLayers">
 <font NAME="SansSerif" SIZE="15"/>
@@ -268,7 +268,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1236608912668" FOLDED="true" ID="Freemind_Link_1070090960" MODIFIED="1259588865109" TEXT="OceanToIceBasalHeatFlux">
+<node COLOR="#996600" CREATED="1236608912668" ID="Freemind_Link_1070090960" MODIFIED="1259588865109" TEXT="OceanToIceBasalHeatFlux">
 <font NAME="SansSerif" SIZE="15"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Specify how the flux of heat from the ocean to the basal ice is calculated[/definition]</text>
@@ -326,10 +326,10 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1236605562782" ID="Freemind_Link_657583951" MODIFIED="1259589498031" TEXT="TransportInThicknessSpace">
+<node COLOR="#996600" CREATED="1236605562782" ID="Freemind_Link_657583951" MODIFIED="1259691454744" TEXT="TransportInThicknessSpace">
 <font NAME="SansSerif" SIZE="15"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[defintion]Specify method of calculating sea ice thickness[/definition]</text>
+<text>[definition]Specify method of calculating sea ice thickness[/definition]</text>
 </hook>
 <node CREATED="1233671047851" ID="Freemind_Link_734239294" MODIFIED="1255964001632" STYLE="fork" TEXT="eulerian">
 <font NAME="SansSerif" SIZE="14"/>
