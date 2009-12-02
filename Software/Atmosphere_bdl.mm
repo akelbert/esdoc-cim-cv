@@ -1778,12 +1778,12 @@
 </node>
 <node COLOR="#990099" CREATED="1242399316765" HGAP="24" ID="Freemind_Link_877338211" MODIFIED="1259577032968" TEXT="InputsRadar" VSHIFT="12">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1242399940288" ID="Freemind_Link_58929199" MODIFIED="1259691518751" STYLE="bubble" TEXT="RadarFrequency">
+<node COLOR="#996600" CREATED="1242399940288" ID="Freemind_Link_58929199" MODIFIED="1259748987323" STYLE="bubble" TEXT="RadarFrequency">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]CloudSat radar frequency (in GHz). [/definition]</text>
+<text>[definition]CloudSat radar frequency.[/definition]</text>
 </hook>
-<node CREATED="1233246454929" ID="Freemind_Link_1708080944" MODIFIED="1244732879929" STYLE="fork" TEXT="">
+<node CREATED="1233246454929" ID="Freemind_Link_1708080944" MODIFIED="1259748993446" STYLE="fork" TEXT="GHz">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
@@ -1838,11 +1838,11 @@
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Ice particle shape in lidar calculations.[/definition]&#xa;</text>
 </hook>
-<node CREATED="1242399773976" ID="Freemind_Link_1698337739" MODIFIED="1259577434250" STYLE="fork" TEXT="Ice Spheres">
+<node CREATED="1242399773976" ID="Freemind_Link_1698337739" MODIFIED="1259748945421" STYLE="fork" TEXT="Ice spheres">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1242399782236" ID="Freemind_Link_1991008836" MODIFIED="1259577444390" STYLE="fork" TEXT="Ice Non-spherical">
+<node CREATED="1242399782236" ID="Freemind_Link_1991008836" MODIFIED="1259748937676" STYLE="fork" TEXT="Ice non-spherical">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
@@ -1852,19 +1852,19 @@
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Overlap type.[/definition]&#xa;</text>
 </hook>
-<node CREATED="1242399773976" ID="Freemind_Link_633475224" MODIFIED="1259577503468" STYLE="fork" TEXT="Max">
+<node CREATED="1242399773976" ID="Freemind_Link_633475224" MODIFIED="1259748932707" STYLE="fork" TEXT="max">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1242399782236" ID="Freemind_Link_1149376881" MODIFIED="1259577518765" STYLE="fork" TEXT="Random">
+<node CREATED="1242399782236" ID="Freemind_Link_1149376881" MODIFIED="1259748927816" STYLE="fork" TEXT="random">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1242399782236" ID="Freemind_Link_1364249323" MODIFIED="1259577537843" STYLE="fork" TEXT="Max/Random">
+<node CREATED="1242399782236" ID="Freemind_Link_1364249323" MODIFIED="1259748922458" STYLE="fork" TEXT="max / random">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1242399782236" ID="Freemind_Link_704054104" MODIFIED="1259589448901" STYLE="fork" TEXT="Other">
+<node CREATED="1242399782236" ID="Freemind_Link_704054104" MODIFIED="1259748913917" STYLE="fork" TEXT="other">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
@@ -1877,15 +1877,15 @@
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Cloud top height management. e.g. adjusted using both a computed infrared brightness temperature and visible optical depth to adjust cloud top pressure. [/definition]&#xa;</text>
 </hook>
-<node CREATED="1242399773976" ID="Freemind_Link_1990654177" MODIFIED="1259577780359" STYLE="fork" TEXT="NoAdjustment">
+<node CREATED="1242399773976" ID="Freemind_Link_1990654177" MODIFIED="1259749008476" STYLE="fork" TEXT="no adjustment">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1242399782236" ID="Freemind_Link_1893288052" MODIFIED="1259577844796" STYLE="fork" TEXT="IR Brightness">
+<node CREATED="1242399782236" ID="Freemind_Link_1893288052" MODIFIED="1259748889122" STYLE="fork" TEXT="IR brightness">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1242399782236" ID="Freemind_Link_1245760774" MODIFIED="1259577830203" STYLE="fork" TEXT="IR Brightness and Visible optical depth">
+<node CREATED="1242399782236" ID="Freemind_Link_1245760774" MODIFIED="1259748901446" STYLE="fork" TEXT="IR brightness and visible optical depth">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
