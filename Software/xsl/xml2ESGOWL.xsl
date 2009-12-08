@@ -28,32 +28,83 @@
 
 <xsl:template match="parameter">
 
-<xsl:variable name="myName" select="translate(normalize-space(@name),' ','_')"/>
+<xsl:variable name="myName">
+  <xsl:call-template name="processName">
+    <xsl:with-param name="name" select="@name"/>
+  </xsl:call-template>
+</xsl:variable>
+
+<xsl:variable name="mySplitName">
+  <xsl:call-template name="splitName">
+    <xsl:with-param name="name" select="$myName"/>
+    <xsl:with-param name="level" select="'1'"/> <!-- so we can ignore spaces for the first capital -->
+  </xsl:call-template>
+</xsl:variable>
 
 <xsl:variable name="AttributeString">
   <xsl:for-each select="ancestor::component">
-    <xsl:if test="not(@name='KeyProperties')"> <!-- skip KeyProperties component -->
-      <xsl:value-of select = "@name" />
+    <xsl:if test="position()!=1"> <!-- skip the realm component as the realm name is encoded at the next level -->
+      <xsl:if test="not(@name='KeyProperties')"> <!-- skip KeyProperties component -->
+        <xsl:variable name="tmpName">
+          <xsl:call-template name="processName">
+            <xsl:with-param name="name" select="@name"/>
+          </xsl:call-template>
+        </xsl:variable>
+        <xsl:value-of select = "$tmpName" />
+      </xsl:if>
     </xsl:if>
   </xsl:for-each>
-  <xsl:if test="not(ancestor::parametergroup[1]/@name=concat(ancestor::component[1]/@name,'_Attributes'))">
-    <xsl:value-of select="ancestor::parametergroup[1]/@name"/>
+  <!-- skip General Attributes parameter group definition -->
+  <xsl:if test="not(ancestor::parametergroup[1]/@name='General Attributes')">
+    <xsl:variable name="tmpName">
+      <xsl:call-template name="processName">
+        <xsl:with-param name="name" select="ancestor::parametergroup[1]/@name"/>
+      </xsl:call-template>
+    </xsl:variable>
+    <xsl:value-of select="$tmpName"/>
   </xsl:if>
   <xsl:value-of select="$myName"/>
 </xsl:variable>
 
 <xsl:variable name="AttributeStringSpaces">
   <xsl:for-each select="ancestor::component">
+    <xsl:if test="position()!=1"> <!-- skip the realm component as the realm name is encoded at the next level -->
     <xsl:if test="not(@name='KeyProperties')"> <!-- skip KeyProperties component -->
-      <xsl:value-of select = "@name" />
+
+      <xsl:variable name="tmpName">
+        <xsl:call-template name="processName">
+          <xsl:with-param name="name" select="@name"/>
+        </xsl:call-template>
+      </xsl:variable>
+
+      <xsl:variable name="tmpSplitName">
+        <xsl:call-template name="splitName">
+          <xsl:with-param name="name" select="$tmpName"/>
+          <xsl:with-param name="skipSpace" select="'true'"/> <!-- so we can ignore spaces for the first capital -->
+        </xsl:call-template>
+      </xsl:variable>
+      <xsl:value-of select="$tmpSplitName"/>
+
       <xsl:value-of select="' '"/>
     </xsl:if>
+    </xsl:if>
   </xsl:for-each>
-  <xsl:if test="not(ancestor::parametergroup[1]/@name=concat(ancestor::component[1]/@name,'_Attributes'))">
-    <xsl:value-of select="ancestor::parametergroup[1]/@name"/>
+  <xsl:if test="not(ancestor::parametergroup[1]/@name='General Attributes')">
+    <xsl:variable name="tmpName">
+      <xsl:call-template name="processName">
+        <xsl:with-param name="name" select="ancestor::parametergroup[1]/@name"/>
+      </xsl:call-template>
+    </xsl:variable>
+    <xsl:variable name="tmpSplitName">
+      <xsl:call-template name="splitName">
+        <xsl:with-param name="name" select="$tmpName"/>
+        <xsl:with-param name="skipSpace" select="'true'"/> <!-- so we can ignore spaces for the first capital -->
+      </xsl:call-template>
+    </xsl:variable>
+    <xsl:value-of select="$tmpSplitName"/>
     <xsl:value-of select="' '"/>
   </xsl:if>
-  <xsl:value-of select="$myName"/>
+  <xsl:value-of select="$mySplitName"/>
 </xsl:variable>
 
 <xsl:variable name="RDFProperty" select="concat('has',$AttributeString)"/>
@@ -76,7 +127,7 @@
 
     <owl:ObjectProperty rdf:ID="{$RDFProperty}">
       <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><xsl:value-of select="$AttributeStringSpaces"/></rdfs:label>
-      <rdfs:domain rdf:resource="#ModelComponent"/>
+      <rdfs:domain rdf:resource="http://dataportal.ucar.edu/schemas/esg.owl#ModelComponent"/>
       <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><xsl:value-of select="$Definition"/></rdfs:comment>
       <rdfs:range rdf:resource="#{$AttributeString}"/>
     </owl:ObjectProperty> 
@@ -85,7 +136,7 @@
       <!-- RF adding any required namespace directly below is a hack - but it works -->
       <xsl:element name="{$NSQualifier}{$AttributeString}">
         <!-- RF hack again for rdf namespace -->
-        <xsl:attribute name="rdf:about"><!--<xsl:text>http://dataportal.ucar.edu/schemas/esg.owl#</xsl:text>--><xsl:text>#</xsl:text><xsl:value-of select="$AttributeString"/><xsl:text>_</xsl:text><xsl:value-of select="translate(@name,' ','_')"/></xsl:attribute>
+        <xsl:attribute name="rdf:ID"><!--<xsl:text>http://dataportal.ucar.edu/schemas/esg.owl#</xsl:text>--><xsl:text>#</xsl:text><xsl:value-of select="$AttributeString"/><xsl:text>_</xsl:text><xsl:value-of select="translate(@name,' ','_')"/></xsl:attribute>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><xsl:value-of select="@name"/></rdfs:label>
       </xsl:element>
     </xsl:for-each>
@@ -128,6 +179,82 @@
     </xsl:message>
 </xsl:otherwise>
 </xsl:choose>
+
+</xsl:template>
+
+<xsl:template name="splitName">
+  <xsl:param name="name"/>
+  <xsl:param name="skipSpace"/>
+  <xsl:if test="string-length($name)&gt;=1">
+    <xsl:variable name="char" select="substring($name,1,1)"/>
+    <xsl:if test="$skipSpace='false' and translate($char,'abcdefghijklmnopqrstuvwxyz-/','ABCDEFGHIJKLMNOPQRSTUVWXYZXX')=$char"> <!-- this char is upper case -->
+      <xsl:text> </xsl:text>
+    </xsl:if>
+    <xsl:value-of select="$char"/>
+    <xsl:variable name="skipNextSpace">
+    <xsl:choose>
+      <xsl:when test="$char='-' or $char='/'">
+        <xsl:text>true</xsl:text>
+      </xsl:when>
+      <xsl:when test="string-length($name)&gt;1 and translate(substring($name,1,2),'abcdefghijklmnopqrstuvwxyz-/','ABCDEFGHIJKLMNOPQRSTUVWXYZXX')=substring($name,1,2)"> <!-- if this and next are both upper case then skip space next time -->
+        <xsl:text>true</xsl:text>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:text>false</xsl:text>
+      </xsl:otherwise>
+    </xsl:choose>
+    </xsl:variable>
+    <xsl:call-template name="splitName">
+      <xsl:with-param name="name" select="substring($name,2)"/>
+      <xsl:with-param name="skipSpace" select="$skipNextSpace"/>
+    </xsl:call-template>
+  </xsl:if>
+
+</xsl:template>
+
+<xsl:template name="processName">
+  <xsl:param name="name"/>
+
+  <!-- just in case some white space has crept in. This should not pass the validation tests if it has -->
+  <xsl:variable name="normName" select="normalize-space($name)"/>
+
+<!-- remove anything before "_" and anything after "." as Marie-Pierre has used this convention in the mindmaps
+ to remove redundancy in the name hierarchy -->
+<xsl:variable name="NumberOfDots" select="string-length($normName) - string-length(translate($normName, '.', ''))"/>
+<xsl:variable name="NumberOfUnderbars" select="string-length($normName) - string-length(translate($normName, '_', ''))"/>
+
+<xsl:variable name="myName">
+  <xsl:choose>
+    <xsl:when test="$NumberOfDots = 0 and $NumberOfUnderbars = 0">
+    <xsl:value-of select="$normName"/>
+    </xsl:when>
+    <xsl:when test="$NumberOfDots = 1 and $NumberOfUnderbars = 1">
+    <xsl:value-of select="substring-before(substring-after($normName,'_'),'.')"/>
+    </xsl:when>
+    <xsl:when test="$NumberOfDots = 1 and $NumberOfUnderbars = 0">
+    <xsl:value-of select="substring-before($normName,'.')"/>
+    </xsl:when>
+    <xsl:when test="$NumberOfDots = 0 and $NumberOfUnderbars = 1">
+    <xsl:value-of select="substring-after($normName,'_')"/>
+    </xsl:when>
+    <xsl:otherwise>
+      <xsl:message terminate="yes">
+        <xsl:text>Error in removal of any "_" and "." text in parameter name for </xsl:text>
+        <xsl:value-of select="@name"/>
+        <xsl:text>. Are you sure you have generated this xml from a valid mm file?</xsl:text>
+      </xsl:message>
+    </xsl:otherwise>
+  </xsl:choose>
+</xsl:variable>
+
+<xsl:if test="$myName=''">
+  <xsl:message terminate="yes">
+    <xsl:text>Error in removal of any "_" and "." text in parameter name for </xsl:text>
+    <xsl:value-of select="@name"/>
+  </xsl:message>
+</xsl:if>
+
+<xsl:value-of select="$myName"/>
 
 </xsl:template>
 
