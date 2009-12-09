@@ -60,19 +60,25 @@ lower priority templates -->
     <xsl:if test="not(@LINK)">
 
         <xsl:variable name="myName">
-          <xsl:call-template name="normaliseName">
+          <xsl:call-template name="normaliseName4Q">
             <xsl:with-param name="string" select="@TEXT"/>
           </xsl:call-template>
         </xsl:variable>
 
-        <component name="{$myName}">
+        <xsl:variable name="esgName">
+          <xsl:call-template name="normaliseName4ESG">
+            <xsl:with-param name="string" select="@TEXT"/>
+          </xsl:call-template>
+        </xsl:variable>
+
+        <component name="{$myName}" rawName="{@TEXT}" esgName="{$esgName}">
           <xsl:if test="not(hook/text/definition)">
             <definition status="missing"><xsl:text>Definition of component type </xsl:text><xsl:value-of select="$myName"/><xsl:text> required</xsl:text></definition>
           </xsl:if>
           <xsl:variable name="match">
           <xsl:for-each select="node[@COLOR='#990099']">
             <xsl:variable name="localName">
-              <xsl:call-template name="normaliseName">
+              <xsl:call-template name="normaliseName4Q">
                 <xsl:with-param name="string" select="@TEXT"/>
               </xsl:call-template>
             </xsl:variable>
@@ -82,7 +88,7 @@ lower priority templates -->
           </xsl:for-each>
           </xsl:variable>
           <xsl:if test="$match=''">
-            <parametergroup name="General Attributes"/>
+            <parametergroup name="General Attributes" rawName="" esgName=""/>
           </xsl:if>
           <xsl:apply-templates/>
         </component>
@@ -95,13 +101,13 @@ lower priority templates -->
   <xsl:template match="node[@COLOR='#990099']" priority="3">
 
         <xsl:variable name="myNameNoUnderscore">
-          <xsl:call-template name="normaliseName">
+          <xsl:call-template name="normaliseName4Q">
             <xsl:with-param name="string" select="@TEXT"/>
           </xsl:call-template>
         </xsl:variable>
 
         <xsl:variable name="parentComponentName">
-          <xsl:call-template name="normaliseName">
+          <xsl:call-template name="normaliseName4Q">
             <xsl:with-param name="string" select="parent::node/@TEXT"/>
           </xsl:call-template>
         </xsl:variable>
@@ -117,7 +123,13 @@ lower priority templates -->
         </xsl:choose>
         </xsl:variable>
 
-        <parametergroup name="{$myParamName}">
+        <xsl:variable name="esgName">
+          <xsl:call-template name="normaliseName4ESG">
+            <xsl:with-param name="string" select="@TEXT"/>
+          </xsl:call-template>
+        </xsl:variable>
+
+        <parametergroup name="{$myParamName}" rawName="{@TEXT}" esgName="{$esgName}">
           <xsl:apply-templates/>
         </parametergroup>
 
@@ -151,7 +163,13 @@ lower priority templates -->
     </xsl:variable>
 
       <xsl:variable name="myName">
-        <xsl:call-template name="normaliseName">
+        <xsl:call-template name="normaliseName4Q">
+          <xsl:with-param name="string" select="@TEXT"/>
+        </xsl:call-template>
+      </xsl:variable>
+
+      <xsl:variable name="esgName">
+        <xsl:call-template name="normaliseName4ESG">
           <xsl:with-param name="string" select="@TEXT"/>
         </xsl:call-template>
       </xsl:variable>
@@ -159,7 +177,7 @@ lower priority templates -->
       <xsl:choose>
       <xsl:when test="$choice">
         <xsl:if test="not($Couple='no' and $choice='couple')">
-          <parameter name="{$myName}" choice="{$choice}" >
+          <parameter name="{$myName}" rawName="{@TEXT}" esgName="{$esgName}" choice="{$choice}" >
             <xsl:if test="not(hook/text/definition)">
               <definition status="missing"><xsl:text>Definition of property name </xsl:text><xsl:value-of select="$myName"/><xsl:text> required</xsl:text></definition>
             </xsl:if>
@@ -168,7 +186,7 @@ lower priority templates -->
         </xsl:if>
       </xsl:when>
       <xsl:otherwise>
-        <parameter name="{$myName}" >
+        <parameter name="{$myName}" rawName="{@TEXT}" esgName="{$esgName}">
           <xsl:if test="not(hook/text/definition)">
             <definition status="missing"><xsl:text>Definition of property name </xsl:text><xsl:value-of select="$myName"/><xsl:text> required</xsl:text></definition>
           </xsl:if>

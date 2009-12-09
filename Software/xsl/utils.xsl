@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
 
-<xsl:template name="normaliseName">
+<xsl:template name="normaliseName4Q">
 <xsl:param name="string"/>
 
   <xsl:variable name="tmpstring">
@@ -38,6 +38,31 @@
       <xsl:value-of select="$string"/>
     </xsl:otherwise>
   </xsl:choose>
+</xsl:template>
+
+<xsl:template name="normaliseName4ESG">
+<xsl:param name="string"/>
+
+<xsl:variable name="tmpString">
+  <xsl:choose>
+    <xsl:when test="contains($string,'.')">
+      <xsl:value-of select="substring-before($string,'.')"/>
+    </xsl:when>
+    <xsl:otherwise>
+      <xsl:value-of select="$string"/>
+    </xsl:otherwise>
+  </xsl:choose>
+</xsl:variable>
+
+<xsl:choose>
+  <xsl:when test="contains($tmpString,'_')">
+    <xsl:value-of select="substring-after($tmpString,'_')"/>
+  </xsl:when>
+  <xsl:otherwise>
+    <xsl:value-of select="$tmpString"/>
+  </xsl:otherwise>
+</xsl:choose>
+
 </xsl:template>
 
 </xsl:stylesheet>
