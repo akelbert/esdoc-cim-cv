@@ -81,8 +81,13 @@
       <xsl:for-each select="value[not(normalize-space(translate(@name,'OTHER','other'))='other')]">
         <!-- RF adding namespace directly below is a hack - but it works -->
         <xsl:element name="{$NSQualifier}{$AttributeString}">
-          <!-- RF hack again for rdf namespace -->
-          <xsl:attribute name="rdf:ID"><!--<xsl:text>http://dataportal.ucar.edu/schemas/esg.owl#</xsl:text>--><xsl:text>#</xsl:text><xsl:value-of select="$AttributeString"/><xsl:text>_</xsl:text><xsl:value-of select="translate(@name,' ','_')"/></xsl:attribute>
+          <!-- generate a valid rdfID based on our Attribute string and parameter name -->
+          <xsl:variable name="rdfAttrValID">
+          <xsl:call-template name="rdfAttrValIDgen">
+            <xsl:with-param name="name" select="@name"/>
+          </xsl:call-template>
+          </xsl:variable>
+          <xsl:attribute name="rdf:ID"><!--<xsl:text>http://dataportal.ucar.edu/schemas/esg.owl#</xsl:text>--><xsl:value-of select="$AttributeString"/><xsl:text>_</xsl:text><xsl:value-of select="$rdfAttrValID"/></xsl:attribute>
           <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><xsl:value-of select="@name"/></rdfs:label>
         </xsl:element>
       </xsl:for-each>
@@ -161,6 +166,76 @@
     </xsl:call-template>
   </xsl:if>
 
+</xsl:template>
+
+<!-- the purpose of this template is to make sure we create a name that is limited to characters that are valid in an xml element definition -->
+<xsl:template name="rdfAttrValIDgen">
+  <xsl:param name="name"/>
+  <!-- translate any characters that we dont like the look of to '_' -->
+  <xsl:if test="string-length($name)>0">
+    <xsl:variable name="myChar" select="substring($name,1,1)"/>
+    <xsl:choose>
+      <xsl:when test="contains('.-0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ',$myChar)">
+        <xsl:value-of select="substring($name,1,1)"/>
+      </xsl:when>
+      <xsl:when test="$myChar='_'">
+        <xsl:text>_UND_</xsl:text>
+      </xsl:when>
+      <xsl:when test="$myChar=' '">
+        <xsl:text>__</xsl:text>
+      </xsl:when>
+      <xsl:when test="$myChar=')'">
+        <xsl:text>_RB_</xsl:text>
+      </xsl:when>
+      <xsl:when test="$myChar='('">
+        <xsl:text>_LB_</xsl:text>
+      </xsl:when>
+      <xsl:when test="$myChar=&quot;'&quot;">
+        <xsl:text>_APOS_</xsl:text>
+      </xsl:when>
+      <xsl:when test="$myChar='>'">
+        <xsl:text>_GT_</xsl:text>
+      </xsl:when>
+      <xsl:when test="$myChar='/'">
+        <xsl:text>_SLASH_</xsl:text>
+      </xsl:when>
+      <xsl:when test="$myChar='+'">
+        <xsl:text>_PLUS_</xsl:text>
+      </xsl:when>
+      <xsl:when test="$myChar=','">
+        <xsl:text>_COMMA_</xsl:text>
+      </xsl:when>
+      <xsl:when test="$myChar='*'">
+        <xsl:text>_STAR_</xsl:text>
+      </xsl:when>
+      <xsl:when test="$myChar='&amp;'">
+        <xsl:text>_AND_</xsl:text>
+      </xsl:when>
+      <xsl:otherwise> <!-- unknown dodgy char : abort -->
+        <xsl:message terminate="yes">
+          <xsl:text>Error: char </xsl:text><xsl:value-of select="$myChar"/><xsl:text> has no valid mapping.
+</xsl:text>
+        </xsl:message>
+      </xsl:otherwise>
+    </xsl:choose>
+    <xsl:call-template name="rdfAttrValIDgen">
+       <xsl:with-param name="name" select="substring($name,2)"/>
+    </xsl:call-template>
+  </xsl:if>
+<!--
+  <xsl:variable name="myCheck" select="translate($name,&quot;&gt;,&apos;&amp;/() +-_.0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;,'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')"/>
+  <xsl:value-of select="translate($name,&quot;,&apos;&amp;/() &quot;,'__+_____')"/>
+-->
+</xsl:template>
+
+<xsl:template name="makex">
+  <xsl:param name="NumberOfXs"/>
+  <xsl:if test="$NumberOfXs>0">
+    <xsl:text>x</xsl:text>
+    <xsl:call-template name="makex">
+      <xsl:with-param name="NumberOfXs" select="$NumberOfXs - 1"/>
+    </xsl:call-template>
+  </xsl:if>
 </xsl:template>
 
 </xsl:stylesheet>
