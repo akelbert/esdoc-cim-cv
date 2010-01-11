@@ -168,27 +168,24 @@
 
 </xsl:template>
 
-<!-- the purpose of this template is to make sure we create a name that is limited to characters that are valid in an xml element definition -->
+<!-- the purpose of this template is to make sure we create a name that is limited to characters that are valid in an xml element definition. The translation is defined in metafor ticket 519 -->
 <xsl:template name="rdfAttrValIDgen">
   <xsl:param name="name"/>
   <!-- translate any characters that we dont like the look of to '_' -->
   <xsl:if test="string-length($name)>0">
     <xsl:variable name="myChar" select="substring($name,1,1)"/>
     <xsl:choose>
-      <xsl:when test="contains('.-0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ',$myChar)">
+      <xsl:when test="contains('.-_0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ',$myChar)">
         <xsl:value-of select="substring($name,1,1)"/>
       </xsl:when>
-      <xsl:when test="$myChar='_'">
-        <xsl:text>_UND_</xsl:text>
-      </xsl:when>
       <xsl:when test="$myChar=' '">
-        <xsl:text>__</xsl:text>
+        <xsl:text>_</xsl:text>
       </xsl:when>
       <xsl:when test="$myChar=')'">
-        <xsl:text>_RB_</xsl:text>
+        <xsl:text>_RPAREN_</xsl:text>
       </xsl:when>
       <xsl:when test="$myChar='('">
-        <xsl:text>_LB_</xsl:text>
+        <xsl:text>_LPAREN_</xsl:text>
       </xsl:when>
       <xsl:when test="$myChar=&quot;'&quot;">
         <xsl:text>_APOS_</xsl:text>
@@ -211,7 +208,7 @@
       <xsl:when test="$myChar='&amp;'">
         <xsl:text>_AND_</xsl:text>
       </xsl:when>
-      <xsl:otherwise> <!-- unknown dodgy char : abort -->
+      <xsl:otherwise> <!-- unknown char : abort -->
         <xsl:message terminate="yes">
           <xsl:text>Error: char </xsl:text><xsl:value-of select="$myChar"/><xsl:text> has no valid mapping.
 </xsl:text>

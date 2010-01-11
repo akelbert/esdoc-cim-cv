@@ -146,7 +146,7 @@ any lower priority templates -->
 
       <!-- remove any underscores before checking the length of the component name -->
       <xsl:variable name="myName">
-        <xsl:call-template name="normaliseName">
+        <xsl:call-template name="normaliseName4Q">
           <xsl:with-param name="string" select="$NodeName"/>
         </xsl:call-template>
       </xsl:variable>
@@ -343,7 +343,7 @@ any lower priority templates -->
             <xsl:for-each select="parent::node//node[@COLOR='#996600']">
 
               <xsl:variable name="myName">
-                <xsl:call-template name="normaliseName">
+                <xsl:call-template name="normaliseName4Q">
                    <xsl:with-param name="string" select="@TEXT"/>
                 </xsl:call-template>
               </xsl:variable>
@@ -750,7 +750,7 @@ any lower priority templates -->
         <xsl:for-each select="parent::node//node[@COLOR='#996600']">
 
           <xsl:variable name="myName">
-            <xsl:call-template name="normaliseName">
+            <xsl:call-template name="normaliseName4Q">
                <xsl:with-param name="string" select="@TEXT"/>
             </xsl:call-template>
           </xsl:variable>
@@ -803,7 +803,7 @@ any lower priority templates -->
         <xsl:for-each select="parent::node//node[@COLOR='#996600']">
 
           <xsl:variable name="myName">
-            <xsl:call-template name="normaliseName">
+            <xsl:call-template name="normaliseName4Q">
                <xsl:with-param name="string" select="@TEXT"/>
             </xsl:call-template>
           </xsl:variable>
