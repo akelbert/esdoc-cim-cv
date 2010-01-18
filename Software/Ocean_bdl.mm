@@ -129,24 +129,84 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233330056626" ID="Freemind_Link_1930267986" MODIFIED="1257037185853" TEXT="FreezingPoint">
+<node COLOR="#996600" CREATED="1233330056626" ID="Freemind_Link_1930267986" MODIFIED="1263574090612" TEXT="FreezingPoint">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Freezing temperature of sea water.[/definition]</text>
+<text>[definition]Hypothesis on sea water freezing point.[/definition]</text>
 </hook>
-<node CREATED="1233246454929" ID="Freemind_Link_753919230" MODIFIED="1257037193926" STYLE="fork" TEXT="degC">
+<node CREATED="1262856636067" ID="Freemind_Link_202453125" MODIFIED="1263573709979" STYLE="fork" TEXT="fixed">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1262856617960" ID="Freemind_Link_713667687" MODIFIED="1263573709995" STYLE="fork" TEXT="varying">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1256300271501" ID="Freemind_Link_1722497118" MODIFIED="1262856914361" TEXT="if FreezingPoint is &quot;fixed&quot;">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#996600" CREATED="1233330056626" ID="Freemind_Link_1528395022" MODIFIED="1263574289246" TEXT="FreezingPointValue">
+<font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Sea water freezing temperature.[/definition]</text>
+</hook>
+<node CREATED="1233246454929" ID="Freemind_Link_1096789349" MODIFIED="1257037193926" STYLE="fork" TEXT="degC">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233330046298" ID="Freemind_Link_736481834" MODIFIED="1257037204612" TEXT="SpecificHeat">
+</node>
+<node COLOR="#0033ff" CREATED="1256300271501" ID="Freemind_Link_1591954131" MODIFIED="1262856917520" TEXT="if FreezingPoint is &quot;varying&quot;">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#996600" CREATED="1233330056626" ID="Freemind_Link_297098283" MODIFIED="1263574277609" TEXT="FreezingPointComputation">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Specific heat of sea water.[/definition]</text>
+<text>[definition]Method used to compute the sea water freezing temperature.[/definition]</text>
+</hook>
+<node CREATED="1256897505244" ID="Freemind_Link_1789976572" MODIFIED="1256897900002" STYLE="fork" TEXT="">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="pencil"/>
+</node>
+</node>
+</node>
+<node COLOR="#996600" CREATED="1233330046298" ID="Freemind_Link_736481834" MODIFIED="1263574210997" TEXT="SpecificHeat">
+<font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Hypothesis on sea water specific heat.[/definition]</text>
+</hook>
+<node CREATED="1262856636067" ID="Freemind_Link_334424669" MODIFIED="1263574119284" STYLE="fork" TEXT="fixed">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1262856617960" ID="Freemind_Link_401677736" MODIFIED="1263574119284" STYLE="fork" TEXT="varying">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1256300271501" ID="Freemind_Link_517612828" MODIFIED="1262856971196" TEXT="if SpecificHeat is &quot;fixed&quot;">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#996600" CREATED="1233330056626" ID="Freemind_Link_1921280105" MODIFIED="1263574258873" TEXT="SpecificHeatValue">
+<font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Value of the sea water specific heat.[/definition]</text>
 </hook>
 <node CREATED="1233246454929" ID="Freemind_Link_1073986252" MODIFIED="1257037214167" STYLE="fork" TEXT="J.kg-1.K-1">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="full-1"/>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1256300271501" ID="Freemind_Link_636464231" MODIFIED="1262856978575" TEXT="if SpecificHeat is &quot;varying&quot;">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#996600" CREATED="1233330056626" ID="Freemind_Link_874714332" MODIFIED="1263574231012" TEXT="SpecificHeatComputation">
+<font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Method used to compute the sea water specific heat.[/definition]</text>
+</hook>
+<node CREATED="1256897505244" ID="Freemind_Link_1336308048" MODIFIED="1256897900002" STYLE="fork" TEXT="">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="pencil"/>
+</node>
 </node>
 </node>
 </node>
@@ -185,10 +245,10 @@
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1254486285604" ID="Freemind_Link_851070448" MODIFIED="1258638829132" TEXT="Bathymetry">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1256679216121" ID="Freemind_Link_1958840067" MODIFIED="1258640234941" TEXT="Bathymetry_Type">
+<node COLOR="#996600" CREATED="1256679216121" ID="Freemind_Link_1958840067" MODIFIED="1263574929902" TEXT="Bathymetry_Type">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Time adaptation of the bathymetry.[/definition]</text>
+<text>[definition]Time evolution of the bathymetry - either fixed to reference date below or evolving at paleo timescales.[/definition]</text>
 </hook>
 <node CREATED="1256300298076" ID="Freemind_Link_811522339" MODIFIED="1256679555689" STYLE="fork" TEXT="fixed">
 <font NAME="SansSerif" SIZE="14"/>
@@ -199,10 +259,11 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1256650877395" ID="Freemind_Link_1298646489" MODIFIED="1258640243357" TEXT="if BathymetryType is &quot;fixed&quot;">
+<node COLOR="#996600" CREATED="1256679216121" ID="Freemind_Link_1438931584" MODIFIED="1263575270177" TEXT="ReferenceDate">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1256679216121" ID="Freemind_Link_1438931584" MODIFIED="1258639985528" TEXT="ReferenceDate">
-<font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Time period for which fixed bathymetry is defined.[/definition]</text>
+</hook>
 <node CREATED="1256300118204" ID="Freemind_Link_1271820262" MODIFIED="1256679164939" STYLE="fork" TEXT="present-day">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -228,13 +289,12 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-</node>
 <node COLOR="#0033ff" CREATED="1256300271501" ID="Freemind_Link_335709508" MODIFIED="1258640153485" TEXT="if ReferenceDate is not &quot;present-day&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1256300771737" ID="Freemind_Link_232594092" MODIFIED="1258638871679" TEXT="Bathymetry_Adjustment">
+<node COLOR="#996600" CREATED="1256300771737" ID="Freemind_Link_232594092" MODIFIED="1263574989432" TEXT="Bathymetry_Adjustment">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Bathymetry adjsutement performed relatively to present-day.[/definition]</text>
+<text>[definition]Bathymetry adjustment performed relatively to present-day.[/definition]</text>
 </hook>
 <node CREATED="1256300818745" ID="Freemind_Link_792002355" MODIFIED="1256742666669" STYLE="fork" TEXT="coastal only (none at depth)">
 <font NAME="SansSerif" SIZE="14"/>
@@ -364,10 +424,10 @@
 </node>
 <node COLOR="#0033ff" CREATED="1255359633399" ID="Freemind_Link_305411266" MODIFIED="1255423410560" TEXT="if HorizontalDiscretization is &quot;finite differences&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1254225995108" ID="Freemind_Link_1314101764" MODIFIED="1258715028862" TEXT="GridName">
+<node COLOR="#996600" CREATED="1254225995108" ID="Freemind_Link_1314101764" MODIFIED="1263575059242" TEXT="GridName">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Type of grid used to map the different type of variables(vector, scalar, etc.) for derivative calculation s(???).[/definition]</text>
+<text>[definition]Grid configuration name.[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1233751025519" ID="Freemind_Link_1477857623" MODIFIED="1254228158793" STYLE="fork" TEXT="Arakawa B-grid">
 <font NAME="SansSerif" SIZE="14"/>
@@ -428,10 +488,10 @@
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1256740460367" ID="Freemind_Link_488745278" MODIFIED="1257037316917" TEXT="EquatorMeridionalRefinement">
+<node COLOR="#996600" CREATED="1256740460367" ID="Freemind_Link_488745278" MODIFIED="1263575318225" TEXT="EquatorMeridionalRefinement">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Resolution at equator.[/definition]</text>
+<text>[definition]Meridional resolution near equator.[/definition]</text>
 </hook>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1008558374" MODIFIED="1257037302814" STYLE="fork" TEXT="degrees">
 <font NAME="SansSerif" SIZE="14"/>
@@ -547,11 +607,10 @@
 </node>
 <node COLOR="#0033ff" CREATED="1255360198907" ID="Freemind_Link_1843926824" MODIFIED="1255505676314" TEXT="if VerticalCoordinateSystem is &quot;Z-coordinate&quot; or &quot;Z*-coordinate&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1254225995108" ID="Freemind_Link_304065467" MODIFIED="1258730995705" TEXT="PartialSteps">
-<cloud/>
+<node COLOR="#996600" CREATED="1254225995108" ID="Freemind_Link_304065467" MODIFIED="1263575376117" TEXT="PartialSteps">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition].[/definition]</text>
+<text>[definition]Does the model use partial steps at bottom or not.[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1254226011363" ID="Freemind_Link_1603622033" MODIFIED="1258728796317" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
@@ -959,9 +1018,11 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244815339520" ID="Freemind_Link_1327893840" MODIFIED="1259053605814" TEXT="MonotonicFluxLimiter">
-<cloud/>
+<node COLOR="#996600" CREATED="1244815339520" ID="Freemind_Link_1327893840" MODIFIED="1263811115899" TEXT="MonotonicFluxLimiter">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Use of monotonic flux limiter for numerical stability in the lateral tracers scheme.[/definition]</text>
+</hook>
 <node CREATED="1244815352020" ID="Freemind_Link_696043704" MODIFIED="1246262111509" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -1003,9 +1064,11 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244815339520" ID="Freemind_Link_1011682951" MODIFIED="1259053630445" TEXT="MonotonicFluxLimiter">
-<cloud/>
+<node COLOR="#996600" CREATED="1244815339520" ID="Freemind_Link_1011682951" MODIFIED="1263811122030" TEXT="MonotonicFluxLimiter">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Use of monotonic flux limiter for numerical stability in the vertical tracers scheme.[/definition]</text>
+</hook>
 <node CREATED="1244815352020" ID="Freemind_Link_1576545725" MODIFIED="1246262111509" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -1164,9 +1227,11 @@
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1255362116460" ID="Freemind_Link_1044558789" MODIFIED="1256916080981" TEXT="OceanLateralPhysTracersAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1244815007259" ID="Freemind_Link_1927022668" MODIFIED="1259055847271" STYLE="bubble" TEXT="MesoscaleClosure">
-<cloud/>
+<node COLOR="#996600" CREATED="1244815007259" ID="Freemind_Link_1927022668" MODIFIED="1263811575896" STYLE="bubble" TEXT="MesoscaleClosure">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Tracers lateral scheme has a mesoscale closure implemented.[/definition]</text>
+</hook>
 <node CREATED="1244814624714" ID="Freemind_Link_396054916" MODIFIED="1246262551311" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -1379,9 +1444,11 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244814584407" ID="Freemind_Link_1837744613" MODIFIED="1259071230276" STYLE="bubble" TEXT="AddedDiffusivity">
-<cloud/>
+<node COLOR="#996600" CREATED="1244814584407" ID="Freemind_Link_1837744613" MODIFIED="1263575704435" STYLE="bubble" TEXT="AddedDiffusivity">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Background added diffusivity for EIV scheme.[/definition]</text>
+</hook>
 <node CREATED="1244814624714" ID="Freemind_Link_543356970" MODIFIED="1246262498564" STYLE="fork" TEXT="constant">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -2135,7 +2202,10 @@
 </node>
 <node COLOR="#000000" CREATED="1242815104070" ID="Freemind_Link_169443819" MODIFIED="1256925260942" POSITION="left" STYLE="bubble" TEXT="new scientific input">
 <font NAME="SansSerif" SIZE="15"/>
-<node CREATED="1242815129537" ID="Freemind_Link_1208820539" MODIFIED="1257241820203" STYLE="fork" TEXT="Myriam XXX (IPSL) for Paleo: 29/10/2009">
+<node CREATED="1242815129537" ID="Freemind_Link_1208820539" MODIFIED="1262857217975" STYLE="fork" TEXT="Myriam Khodry (IPSL) for Paleo: 29/10/2009">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node CREATED="1262857087097" ID="Freemind_Link_1068066648" MODIFIED="1262857234584" TEXT="Eric Guilyardi (IPSL/LOCEAN) varying freezing point and Cp: 7/1/2010">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
@@ -2153,10 +2223,10 @@
 <node CREATED="1244812135069" ID="Freemind_Link_1644437528" MODIFIED="1256925846104" STYLE="fork" TEXT="Steve Griffies / Balaji (GFDL): 12/06/2009">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
-<node CREATED="1242815129537" ID="Freemind_Link_928879336" MODIFIED="1256925319832" STYLE="fork" TEXT="Masa XXX and Olivier Marti (IPSL) for Paleo: 26/10/2009">
+<node CREATED="1242815129537" ID="Freemind_Link_928879336" MODIFIED="1262857207298" STYLE="fork" TEXT="Masa Kageyama and Olivier Marti (IPSL/LSCE) for Paleo: 26/10/2009">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
-<node CREATED="1242815129537" ID="Freemind_Link_906905690" MODIFIED="1257241820203" STYLE="fork" TEXT="Myriam XXX (IPSL) for Paleo: 29/10/2009">
+<node CREATED="1242815129537" ID="Freemind_Link_906905690" MODIFIED="1262857201294" STYLE="fork" TEXT="Myriam Khodry (IPSL) for Paleo: 29/10/2009">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
