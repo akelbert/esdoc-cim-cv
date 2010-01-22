@@ -85,7 +85,7 @@
 <node COLOR="#996600" CREATED="1244069277380" ID="Freemind_Link_573401481" MODIFIED="1259233220594" STYLE="bubble" TEXT="FamilyApproach">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Are aerosol calculations generalised into families of species?[/definition]&#x9;&#xa;[info]Moved here from time stepping framework [/info]</text>
+<text>[definition]Are aerosol calculations generalised into families of species?[/definition][info]Moved here from time stepping framework [/info]</text>
 </hook>
 <node CREATED="1233937791616" ID="Freemind_Link_389978081" MODIFIED="1233937816630" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
@@ -207,7 +207,7 @@
 <node COLOR="#996600" CREATED="1239098686632" ID="Freemind_Link_1104938804" MODIFIED="1257346158725" STYLE="bubble" TEXT="AdvectionTimeStep">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Time step for aerosols advection.[/definition]&#xa;[info]f.e. 1h in MOCAGE.[/info]</text>
+<text>[definition]Time step for aerosols advection.[/definition][info]f.e. 1h in MOCAGE.[/info]</text>
 </hook>
 <node CREATED="1233246454929" HGAP="25" ID="Freemind_Link_1671659484" MODIFIED="1257339123072" STYLE="fork" TEXT="seconds" VSHIFT="5">
 <font NAME="Arial" SIZE="14"/>
@@ -221,7 +221,7 @@
 <node COLOR="#996600" CREATED="1239098755171" ID="Freemind_Link_63221085" MODIFIED="1257346202800" STYLE="bubble" TEXT="PhysicalTimeStep">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Time step for aerosols physics.[/definition]&#xa;[info]f.e. 1/4 h in MOCAGE.[/info]</text>
+<text>[definition]Time step for aerosols physics.[/definition][info]f.e. 1/4 h in MOCAGE.[/info]</text>
 </hook>
 <node CREATED="1233246454929" HGAP="25" ID="Freemind_Link_1500331669" MODIFIED="1257339173829" STYLE="fork" TEXT="seconds" VSHIFT="5">
 <font NAME="Arial" SIZE="14"/>
@@ -287,7 +287,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="messagebox_warning"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Are aerosol calculations generalised into families of species?[/definition]&#x9;</text>
+<text>[definition]Are aerosol calculations generalised into families of species?[/definition]</text>
 </hook>
 <node CREATED="1233937791616" ID="Freemind_Link_1219461032" MODIFIED="1233937816630" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
@@ -409,7 +409,7 @@
 <node COLOR="#996600" CREATED="1244049628488" ID="Freemind_Link_773190523" MODIFIED="1259237627609" TEXT="Convection">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Convective Transport:&#xa;i) &quot;convective fluxes connected to tracers&quot;: Do tracers &quot;see&quot; convection?&#xa;ii) &quot;vertical velocities connected to tracers&quot;: Are the mass flux vertical velocities connected with tracers in the atmos chemistry scheme?&#xa;[/definition]&#xa;</text>
+<text>[definition]Convective Transport:&#xa;i) &quot;convective fluxes connected to tracers&quot;: Do tracers &quot;see&quot; convection?&#xa;ii) &quot;vertical velocities connected to tracers&quot;: Are the mass flux vertical velocities connected with tracers in the atmos chemistry scheme?&#xa;[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1244049677745" ID="Freemind_Link_624468838" MODIFIED="1256142853017" STYLE="fork" TEXT="convective fluxes connected to tracers">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1093,7 +1093,7 @@
 <node COLOR="#996600" CREATED="1243416472375" ID="Freemind_Link_109296805" MODIFIED="1259248400376" TEXT="CouplingWith">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Other model components coupled to the Aerosol model.[/definition]&#xa;This is covered more completely by the coupling archetecture in the questionnaire</text>
+<text>[definition]Other model components coupled to the Aerosol model. This is covered more completely by the coupling archictecture in the questionnaire[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1243418119093" ID="Freemind_Link_1007507510" MODIFIED="1250181345089" STYLE="fork" TEXT="Radiation">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1257,7 +1257,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Aerosols classified in terms of size bins/modes.[/definition]&#xa;Microphysical scheme resolves the composition rather than the type.&#xa;Can have a mixture of aerosol components in a single bin/mode - so can have dust and sulphate in a single mode.</text>
+<text>[definition]Aerosols classified in terms of size bins/modes.&#xa;Microphysical scheme resolves the composition rather than the type.&#xa;Can have a mixture of aerosol components in a single bin/mode - so can have dust and sulphate in a single mode.[/definition]</text>
 </hook>
 </node>
 </node>
@@ -1342,7 +1342,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Aerosols classified in terms of size bins/modes.[/definition]&#xa;Microphysical scheme resolves the composition rather than the type.&#xa;Can have a mixture of aerosol components in a single bin/mode - so can have dust and sulphate in a single mode.</text>
+<text>[definition]Aerosols classified in terms of size bins/modes.&#xa;Microphysical scheme resolves the composition rather than the type.&#xa;Can have a mixture of aerosol components in a single bin/mode - so can have dust and sulphate in a single mode.[/definition]</text>
 </hook>
 </node>
 </node>
@@ -1437,7 +1437,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Aerosols classified in terms of size bins/modes.[/definition]&#xa;Microphysical scheme resolves the composition rather than the type.&#xa;Can have a mixture of aerosol components in a single bin/mode - so can have dust and sulphate in a single mode.</text>
+<text>[definition]Aerosols classified in terms of size bins/modes.&#xa;Microphysical scheme resolves the composition rather than the type.&#xa;Can have a mixture of aerosol components in a single bin/mode - so can have dust and sulphate in a single mode.[/definition]</text>
 </hook>
 </node>
 </node>
