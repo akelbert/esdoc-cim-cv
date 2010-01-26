@@ -6,9 +6,9 @@
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233138687431" ID="Freemind_Link_202444751" MODIFIED="1233935481092" POSITION="right" STYLE="bubble" TEXT="LandSurface">
 <edge COLOR="#999999"/>
 <font BOLD="true" NAME="Arial" SIZE="16"/>
-<node COLOR="#000000" CREATED="1253796559148" FOLDED="true" ID="Freemind_Link_969659526" MODIFIED="1259073061656" TEXT="LandSurfaceKeyProperties_">
+<node COLOR="#000000" CREATED="1253796559148" ID="Freemind_Link_969659526" MODIFIED="1259073061656" TEXT="LandSurfaceKeyProperties_">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#990099" CREATED="1254486057572" FOLDED="true" ID="Freemind_Link_26535854" MODIFIED="1257330680947" TEXT="LandSurfaceKeyPropertiesAttributes_">
+<node COLOR="#990099" CREATED="1254486057572" ID="Freemind_Link_26535854" MODIFIED="1257330680947" TEXT="LandSurfaceKeyPropertiesAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1233141022285" ID="Freemind_Link_599221753" MODIFIED="1257260184732" STYLE="bubble" TEXT="BasicApproximations">
 <font NAME="Arial" SIZE="14"/>
@@ -20,7 +20,7 @@
 <icon BUILTIN="pencil"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1241016541090" ID="Freemind_Link_67217590" MODIFIED="1257242599306" TEXT="Genealogy">
+<node COLOR="#996600" CREATED="1241016541090" FOLDED="true" ID="Freemind_Link_67217590" MODIFIED="1257242599306" TEXT="Genealogy">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]History of parent models.[/definition]</text>
@@ -46,7 +46,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1241016256943" ID="Freemind_Link_294918042" MODIFIED="1259062988625" TEXT="CouplingWithAtmosphere">
+<node COLOR="#996600" CREATED="1241016256943" FOLDED="true" ID="Freemind_Link_294918042" MODIFIED="1259062988625" TEXT="CouplingWithAtmosphere">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Specify the treatment of land surface coupling with the Atmosphere model component [/definition]</text>
@@ -64,12 +64,35 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233587234324" ID="Freemind_Link_1829699314" MODIFIED="1255527987632" TEXT="ListOfPrognosticVariables">
-<font NAME="Arial" SIZE="14"/>
-<icon BUILTIN="messagebox_warning"/>
-<node COLOR="#338800" CREATED="1253871314332" ID="Freemind_Link_1026753107" MODIFIED="1255611001538" STYLE="fork" TEXT="To fill-in this part, please go to each LS subcomponent pages.">
-<edge WIDTH="thin"/>
+<node COLOR="#996600" CREATED="1256302553151" ID="Freemind_Link_1358447852" MODIFIED="1264509406320" TEXT="LandCoverTypes">
 <font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="ksmiletris"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Types of land cover defined in the land surface model.[/definition]</text>
+</hook>
+<node CREATED="1256302557350" ID="Freemind_Link_523009000" MODIFIED="1264501999456" STYLE="fork" TEXT="bare soil">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1256302578999" ID="Freemind_Link_1617844713" MODIFIED="1264501999456" STYLE="fork" TEXT="urban">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1256302578999" ID="Freemind_Link_1072166677" MODIFIED="1264501999456" STYLE="fork" TEXT="lake">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1256302578999" ID="Freemind_Link_299751879" MODIFIED="1264501999456" STYLE="fork" TEXT="ice">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1256302578999" ID="Freemind_Link_1512591649" MODIFIED="1264501999456" STYLE="fork" TEXT="vegetated">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1256302578999" ID="Freemind_Link_341486467" MODIFIED="1264501999456" STYLE="fork" TEXT="other">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
 </node>
 </node>
 <node COLOR="#996600" CREATED="1233587234324" ID="Freemind_Link_1238843736" MODIFIED="1259063476046" TEXT="ListOfPrognosticVariables">
@@ -276,9 +299,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1233751261777" ID="Freemind_Link_1153520910" MODIFIED="1255440450989" STYLE="bubble" TEXT="TimeSteppingFramework">
+<node COLOR="#990099" CREATED="1233751261777" FOLDED="true" ID="Freemind_Link_1153520910" MODIFIED="1255440450989" STYLE="bubble" TEXT="TimeSteppingFramework">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1253870854444" FOLDED="true" ID="Freemind_Link_1713086568" MODIFIED="1259069984156" TEXT="Method">
+<node COLOR="#996600" CREATED="1253870854444" ID="Freemind_Link_1713086568" MODIFIED="1259069984156" TEXT="Method">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Is the time stepping framework used the same as that used in the atmosphere model component?[/definition]</text>
@@ -352,7 +375,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1233668397177" FOLDED="true" ID="Freemind_Link_1958920027" MODIFIED="1257328156254" TEXT="LandSurfSoil_Hydrology">
+<node COLOR="#000000" CREATED="1233668397177" ID="Freemind_Link_1958920027" MODIFIED="1257328156254" TEXT="LandSurfSoil_Hydrology">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1255524973818" ID="Freemind_Link_1941274359" MODIFIED="1257289125543" TEXT="SoilHydrologyAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
@@ -495,7 +518,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1233668467167" FOLDED="true" ID="Freemind_Link_1690668644" MODIFIED="1257328164200" TEXT="LandSurfSoil_HeatTreatment">
+<node COLOR="#000000" CREATED="1233668467167" ID="Freemind_Link_1690668644" MODIFIED="1257328164200" TEXT="LandSurfSoil_HeatTreatment">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1255525202122" ID="Freemind_Link_1976189591" MODIFIED="1257289118223" TEXT="SoilHeatTreatmentAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
@@ -596,7 +619,7 @@
 <node COLOR="#996600" CREATED="1233671008937" ID="Freemind_Link_1589095641" MODIFIED="1257416993226" TEXT="SnowAlbedo">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Description of the treatment of the ratio of reflected to incoming solar radiation on a snow surface[/definition]</text>
+<text>[definition]List of biome types of the classification used.[/definition]</text>
 </hook>
 <node CREATED="1241078652826" ID="Freemind_Link_1191302597" MODIFIED="1246373797924" STYLE="fork" TEXT="prognostic">
 <font NAME="SansSerif" SIZE="14"/>
@@ -727,7 +750,7 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233139703477" FOLDED="true" ID="Freemind_Link_875431467" MODIFIED="1256226605197" TEXT="LandSurface_Vegetation">
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233139703477" ID="Freemind_Link_875431467" MODIFIED="1264508428684" TEXT="LandSurface_Vegetation">
 <font BOLD="true" NAME="Arial" SIZE="14"/>
 <node COLOR="#990099" CREATED="1255526755516" ID="Freemind_Link_545498352" MODIFIED="1257289098615" TEXT="LandSurfaceVegetationAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
@@ -745,16 +768,18 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1256302553151" ID="Freemind_Link_309130059" MODIFIED="1259062642406" TEXT="Vegetation_Type">
+<node COLOR="#996600" CREATED="1256302553151" ID="Freemind_Link_598405655" MODIFIED="1264504693381" TEXT="Vegetation_Type">
 <font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="messagebox_warning"/>
+<icon BUILTIN="clanbomber"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Describe the treatment of vegetation type[/definition]</text>
 </hook>
-<node CREATED="1256302557350" ID="Freemind_Link_149203411" MODIFIED="1256682828894" STYLE="fork" TEXT="prescribed vegetation">
+<node CREATED="1256302557350" ID="Freemind_Link_1067706874" MODIFIED="1256682828894" STYLE="fork" TEXT="prescribed vegetation">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1256302578999" ID="Freemind_Link_159738058" MODIFIED="1256682838458" STYLE="fork" TEXT="dynamic vegetation">
+<node CREATED="1256302578999" ID="Freemind_Link_796972228" MODIFIED="1256682838458" STYLE="fork" TEXT="dynamic vegetation">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 <node CREATED="1256302619126" ID="Freemind_Link_1350935151" MODIFIED="1256682888945" TEXT="eg: CV to find out">
@@ -763,14 +788,181 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1256682894733" ID="Freemind_Link_1140416008" MODIFIED="1256682922431" TEXT="if VegetationType is &quot;prescribed&quot;">
+<node COLOR="#0033ff" CREATED="1256682894733" ID="Freemind_Link_1140416008" MODIFIED="1264504481517" TEXT="if VegetationType is &quot;prescribed&quot;">
 <font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="messagebox_warning"/>
+<icon BUILTIN="clanbomber"/>
 <node COLOR="#996600" CREATED="1256682928542" ID="Freemind_Link_1621236727" MODIFIED="1257290201782" TEXT="VegetationMap">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Name and reference for the vegetation map used.[/definition]</text>
 </hook>
 <node CREATED="1256302567726" ID="Freemind_Link_1579990578" MODIFIED="1257290138756" STYLE="fork" TEXT="">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="pencil"/>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1256682894733" ID="Freemind_Link_407092323" MODIFIED="1264504481517" TEXT="if VegetationType is &quot;dynamical&quot;">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="messagebox_warning"/>
+<icon BUILTIN="clanbomber"/>
+<node COLOR="#996600" CREATED="1256682928542" ID="Freemind_Link_1365312792" MODIFIED="1264440069682" TEXT="VegetationCharateristics">
+<font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Main Spatio-temporal features of the vegetation cover.[/definition]</text>
+</hook>
+<node CREATED="1256302567726" ID="Freemind_Link_1862408707" MODIFIED="1257290138756" STYLE="fork" TEXT="">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="pencil"/>
+</node>
+</node>
+</node>
+<node COLOR="#996600" CREATED="1256302553151" ID="Freemind_Link_241105238" MODIFIED="1264509013262" TEXT="VegetationClasses">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="ksmiletris"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Vegetation classification used.[/definition]</text>
+</hook>
+<node CREATED="1256302557350" ID="Freemind_Link_208187165" MODIFIED="1264501408181" STYLE="fork" TEXT="vegetation types">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1256302578999" ID="Freemind_Link_1086775694" MODIFIED="1264501598782" STYLE="fork" TEXT="biomes">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1256682894733" ID="Freemind_Link_54973668" MODIFIED="1264504473405" TEXT="if VegetationClasses is &quot;biomes&quot;">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="ksmiletris"/>
+<node COLOR="#996600" CREATED="1244817513545" ID="Freemind_Link_781961989" MODIFIED="1264509057208" STYLE="bubble" TEXT="BiomeTypes">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="ksmiletris"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]List of biome types in the classification.[/definition]</text>
+</hook>
+<node CREATED="1244817529300" ID="Freemind_Link_1229935641" MODIFIED="1264504725306" STYLE="fork" TEXT="evergreen needleleaf forest">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1244817529300" ID="Freemind_Link_1793001355" MODIFIED="1264504730197" STYLE="fork" TEXT="evergreen broadleaf forest">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1244817529300" ID="Freemind_Link_1678764423" MODIFIED="1255611403348" STYLE="fork" TEXT="deciduous needleleaf forest">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1244817529300" ID="Freemind_Link_385535544" MODIFIED="1245940064830" STYLE="fork" TEXT="deciduous  broadleaf forest">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1244817529300" ID="Freemind_Link_599289929" MODIFIED="1264504734588" STYLE="fork" TEXT="mixed forest">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1244817529300" ID="Freemind_Link_1872843063" MODIFIED="1264504738090" STYLE="fork" TEXT="woodland">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1244817529300" ID="Freemind_Link_645739847" MODIFIED="1264504742747" STYLE="fork" TEXT="wooded grassland">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1244817529300" ID="Freemind_Link_1701388498" MODIFIED="1264504747544" STYLE="fork" TEXT="closed shrubland">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1244817529300" ID="Freemind_Link_1882559949" MODIFIED="1264504750469" STYLE="fork" TEXT="open shrubland">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1244817529300" ID="Freemind_Link_1741061638" MODIFIED="1264504754361" STYLE="fork" TEXT="grassland">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1244817529300" ID="Freemind_Link_1489555678" MODIFIED="1264504759314" STYLE="fork" TEXT="cropland">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1244817529300" ID="Freemind_Link_907464832" MODIFIED="1264504763315" STYLE="fork" TEXT="wetlands">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1244817529300" ID="Freemind_Link_1142618082" MODIFIED="1255528149069" STYLE="fork" TEXT="other">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1245942259704" ID="Freemind_Link_1530275639" MODIFIED="1255526808751" STYLE="fork" TEXT="mpm: inspired from CORINE land cover classes...">
+<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="messagebox_warning"/>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1256682894733" ID="Freemind_Link_1932198269" MODIFIED="1264504473405" TEXT="if VegetationClasses is &quot;vegetation types&quot;">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="ksmiletris"/>
+<node COLOR="#996600" CREATED="1244817513545" ID="Freemind_Link_1085118886" MODIFIED="1264509050921" STYLE="bubble" TEXT="VegetationTypes">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="ksmiletris"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]List of vegetation types in the classification.[/definition]</text>
+</hook>
+<node CREATED="1244817529300" ID="Freemind_Link_1577808115" MODIFIED="1264501805654" STYLE="fork" TEXT="broadleaf tree">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1244817529300" ID="Freemind_Link_1297970833" MODIFIED="1264501816464" STYLE="fork" TEXT="needleleaf tree">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1244817529300" ID="Freemind_Link_455477111" MODIFIED="1264501831487" STYLE="fork" TEXT="C3 grass">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1244817529300" ID="Freemind_Link_472216387" MODIFIED="1264501839481" STYLE="fork" TEXT="C4 grass">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1244817529300" ID="Freemind_Link_1315353559" MODIFIED="1264501845105" STYLE="fork" TEXT="vegetated">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1244817529300" ID="Freemind_Link_1996954743" MODIFIED="1255528149069" STYLE="fork" TEXT="other">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+</node>
+</node>
+<node COLOR="#996600" CREATED="1256302553151" ID="Freemind_Link_309130059" MODIFIED="1264509206032" TEXT="VegetationTimeVariation">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="ksmiletris"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]How the vegetation fractions in each tile are varying with time.[/definition]</text>
+</hook>
+<node CREATED="1256302557350" ID="Freemind_Link_149203411" MODIFIED="1264502449032" STYLE="fork" TEXT="fixed (not varying)">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1256302557350" ID="Freemind_Link_1914622966" MODIFIED="1264502419181" STYLE="fork" TEXT="prescribed (varying from files)">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1256302578999" ID="Freemind_Link_159738058" MODIFIED="1264502431997" STYLE="fork" TEXT="dynamical (varying from simulation)">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1256682894733" ID="Freemind_Link_1422702867" MODIFIED="1264504498583" TEXT="if VegetationTimeVariation is &quot;fixed&quot; or &quot;prescribed&quot;">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="ksmiletris"/>
+<node COLOR="#996600" CREATED="1256682928542" ID="Freemind_Link_1193670874" MODIFIED="1264509288244" TEXT="VegetationMap">
+<font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Characteristics of the vegetation map used (common name and reference, if possible).[/definition]</text>
+</hook>
+<node CREATED="1256302567726" ID="Freemind_Link_1920130723" MODIFIED="1257290138756" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="pencil"/>
 </node>
@@ -790,70 +982,8 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244817513545" ID="Freemind_Link_1085118886" MODIFIED="1257418622570" STYLE="bubble" TEXT="BiomeTypes">
-<font NAME="SansSerif" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Names of biomes represented[/definition]</text>
-</hook>
-<node CREATED="1244817529300" ID="Freemind_Link_1287846202" MODIFIED="1245939497214" STYLE="fork" TEXT="Evergreen needleleaf forest">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1244817529300" ID="Freemind_Link_1577808115" MODIFIED="1245939548491" STYLE="fork" TEXT="Evergreen broadleaf forest">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node CREATED="1244817529300" ID="Freemind_Link_1297970833" MODIFIED="1255611403348" STYLE="fork" TEXT="deciduous needleleaf forest">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node CREATED="1244817529300" ID="Freemind_Link_888361841" MODIFIED="1245940064830" STYLE="fork" TEXT="deciduous  broadleaf forest">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node CREATED="1244817529300" ID="Freemind_Link_455477111" MODIFIED="1245940075039" STYLE="fork" TEXT="Mixed forest">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node CREATED="1244817529300" ID="Freemind_Link_472216387" MODIFIED="1245940083864" STYLE="fork" TEXT="Woodland">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node CREATED="1244817529300" ID="Freemind_Link_1315353559" MODIFIED="1245940096827" STYLE="fork" TEXT="Wooded grassland">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node CREATED="1244817529300" ID="Freemind_Link_390903213" MODIFIED="1245940118460" STYLE="fork" TEXT="Closed shrubland">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node CREATED="1244817529300" ID="Freemind_Link_1560216050" MODIFIED="1245940133595" STYLE="fork" TEXT="Open shrubland">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node CREATED="1244817529300" ID="Freemind_Link_948268005" MODIFIED="1245940154501" STYLE="fork" TEXT="Grassland">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node CREATED="1244817529300" ID="Freemind_Link_356749550" MODIFIED="1245940186151" STYLE="fork" TEXT="Cropland">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node CREATED="1244817529300" ID="Freemind_Link_1609106877" MODIFIED="1245940198428" STYLE="fork" TEXT="Wetlands">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node CREATED="1244817529300" ID="Freemind_Link_1996954743" MODIFIED="1255528149069" STYLE="fork" TEXT="other">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node CREATED="1245942259704" ID="Freemind_Link_1201984171" MODIFIED="1255526808751" STYLE="fork" TEXT="mpm: inspired from CORINE land cover classes...">
-<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="messagebox_warning"/>
-</node>
-</node>
-</node>
-<node COLOR="#990099" CREATED="1246375108452" FOLDED="true" ID="Freemind_Link_543638131" MODIFIED="1255533768185" TEXT="SchemeMethod">
+<node COLOR="#990099" CREATED="1246375108452" ID="Freemind_Link_543638131" MODIFIED="1255533768185" TEXT="SchemeMethod">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1233671971075" ID="Freemind_Link_1545059713" MODIFIED="1257418821476" TEXT="Phenology">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1024,7 +1154,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1241019041159" ID="Freemind_Link_1748923709" MODIFIED="1241600975445" STYLE="fork" TEXT="Other">
+<node CREATED="1241019041159" ID="Freemind_Link_1748923709" MODIFIED="1264440164708" STYLE="fork" TEXT="other">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>

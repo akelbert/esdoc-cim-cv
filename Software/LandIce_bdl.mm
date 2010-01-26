@@ -7,7 +7,7 @@
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233138750223" ID="Freemind_Link_1365872418" MODIFIED="1256685761483" POSITION="right" STYLE="bubble" TEXT="LandIce">
 <edge COLOR="#999999"/>
 <font BOLD="true" NAME="Arial" SIZE="16"/>
-<node CREATED="1256246460197" FOLDED="true" ID="Freemind_Link_1866858245" MODIFIED="1259583356125" TEXT="LandIceKeyProperties_">
+<node CREATED="1256246460197" ID="Freemind_Link_1866858245" MODIFIED="1259583356125" TEXT="LandIceKeyProperties_">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1256249630445" ID="Freemind_Link_1822873806" MODIFIED="1257331015812" TEXT="LandIceKeyPropertiesAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
@@ -15,6 +15,22 @@
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="messagebox_warning"/>
 <node COLOR="#338800" CREATED="1253871314332" ID="Freemind_Link_662019962" MODIFIED="1257331466880" STYLE="fork" TEXT="To fill-in this part, please go to the Model-Numerics part of each LandIce sub-components">
+<edge WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#996600" CREATED="1233751261777" ID="Freemind_Link_1153520910" MODIFIED="1264502760587" STYLE="bubble" TEXT="TimeSteppingFramework">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="messagebox_warning"/>
+<node COLOR="#338800" CREATED="1253871314332" ID="Freemind_Link_1386433205" MODIFIED="1257331466880" STYLE="fork" TEXT="To fill-in this part, please go to the Model-Numerics part of each LandIce sub-components">
+<edge WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#996600" CREATED="1233751261777" ID="Freemind_Link_967191283" MODIFIED="1264502760603" STYLE="bubble" TEXT="ListOfPrognosticVariables">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="messagebox_warning"/>
+<node COLOR="#338800" CREATED="1253871314332" ID="Freemind_Link_453290184" MODIFIED="1264442550186" STYLE="fork" TEXT="To fill-in this part, please go to the SnowTreatment  part of each LandIce sub-component">
 <edge WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
@@ -107,7 +123,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1233140079676" FOLDED="true" ID="Freemind_Link_1605446502" MODIFIED="1256744719733" TEXT="LandIce_Glaciers">
+<node COLOR="#000000" CREATED="1233140079676" ID="Freemind_Link_1605446502" MODIFIED="1256744719733" TEXT="LandIce_Glaciers">
 <font BOLD="true" NAME="Arial" SIZE="14"/>
 <node COLOR="#990099" CREATED="1256249630445" ID="Freemind_Link_1377307689" MODIFIED="1257331247670" TEXT="LandIceGlaciersAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
@@ -227,7 +243,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1233140113119" FOLDED="true" ID="Freemind_Link_1346102588" MODIFIED="1256251327092" TEXT="Land_IceSheet">
+<node COLOR="#000000" CREATED="1233140113119" ID="Freemind_Link_1346102588" MODIFIED="1256251327092" TEXT="Land_IceSheet">
 <font BOLD="true" NAME="Arial" SIZE="14"/>
 <node COLOR="#990099" CREATED="1256230690992" ID="Freemind_Link_311297643" MODIFIED="1257331259298" TEXT="LandIceSheetAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
@@ -282,8 +298,37 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1247228584842" ID="Freemind_Link_1044406016" MODIFIED="1256250161265" TEXT="Model-Numerics">
+<node COLOR="#990099" CREATED="1247228584842" ID="Freemind_Link_1044406016" MODIFIED="1264523194015" TEXT="Model-Numerics">
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#996600" CREATED="1253870854444" ID="Freemind_Link_1713086568" MODIFIED="1264523234848" TEXT="TimeSteppingMethod">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="ksmiletris"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Time stepping framework for land ice sheet scheme (same as that of land surface model or different?).[/definition]</text>
+</hook>
+<node CREATED="1241016231102" ID="Freemind_Link_1926509417" MODIFIED="1264440404722" STYLE="fork" TEXT="use LandSurface time step">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1241016236735" ID="Freemind_Link_1065066455" MODIFIED="1257289568991" STYLE="fork" TEXT="specific time step">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1257289874444" ID="Freemind_Link_1371926739" MODIFIED="1264523257327" TEXT="if TimeSteppingMethod is &quot;specific time step&quot;">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="ksmiletris"/>
+<node COLOR="#996600" CREATED="1253870854444" ID="Freemind_Link_558777249" MODIFIED="1264440462332" TEXT="TimeStep">
+<font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Timestep of the land ice sheet scheme.[/definition]</text>
+</hook>
+<node COLOR="#000000" CREATED="1233270123274" ID="Freemind_Link_857353586" MODIFIED="1257289977239" STYLE="fork" TEXT="seconds">
+<font NAME="Arial" SIZE="15"/>
+<icon BUILTIN="full-1"/>
+</node>
+</node>
+</node>
 <node COLOR="#996600" CREATED="1257238915649" ID="Freemind_Link_1291656339" MODIFIED="1259583558906" TEXT="GridConfig">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
@@ -293,12 +338,12 @@
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1241016236735" ID="Freemind_Link_1996761881" MODIFIED="1257331637891" STYLE="fork" TEXT="different from LandSurface">
+<node CREATED="1241016236735" ID="Freemind_Link_1996761881" MODIFIED="1264440752945" STYLE="fork" TEXT="specific">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1257238168276" ID="Freemind_Link_1143551240" MODIFIED="1257331648399" TEXT="if  GridConfig is &quot;different from LandSurface&quot;">
+<node COLOR="#0033ff" CREATED="1257238168276" ID="Freemind_Link_1143551240" MODIFIED="1264440771049" TEXT="if  GridConfig is &quot;specific&quot;">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1256740460367" ID="Freemind_Link_1489121474" MODIFIED="1257332297463" TEXT="MeanResolution">
 <font NAME="SansSerif" SIZE="14"/>
@@ -388,8 +433,10 @@
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244816980268" ID="Freemind_Link_951136697" MODIFIED="1259584410656" STYLE="bubble" TEXT="Properties">
+<node COLOR="#996600" CREATED="1244816980268" ID="Freemind_Link_951136697" MODIFIED="1264502796031" STYLE="bubble" TEXT="Properties">
 <font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="messagebox_warning"/>
+<icon BUILTIN="clanbomber"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Description of processes affecting snow on ice sheets[/definition]</text>
 </hook>
@@ -430,10 +477,60 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
+<node COLOR="#996600" CREATED="1244816980268" ID="Freemind_Link_773240082" MODIFIED="1264502800523" STYLE="bubble" TEXT="ListOfPrognosticVariables">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="ksmiletris"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Prognostic snow variables of the ice sheet scheme.[/definition]</text>
+</hook>
+<node COLOR="#000000" CREATED="1233674595314" ID="Freemind_Link_1869092506" MODIFIED="1264441988956" STYLE="fork" TEXT="snow albedo">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node COLOR="#000000" CREATED="1233674393965" ID="Freemind_Link_1301751161" MODIFIED="1264441992875" STYLE="fork" TEXT="snow density">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node COLOR="#000000" CREATED="1241078503222" ID="Freemind_Link_868130479" MODIFIED="1264442000170" STYLE="fork" TEXT="snow water equivalent">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node COLOR="#000000" CREATED="1241078550560" ID="Freemind_Link_1784251402" MODIFIED="1264442004010" STYLE="fork" TEXT="snow heat content">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node COLOR="#000000" CREATED="1241078960980" ID="Freemind_Link_5908158" MODIFIED="1264442007195" STYLE="fork" TEXT="snow temperature">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node COLOR="#000000" CREATED="1241078982017" ID="Freemind_Link_1651876868" MODIFIED="1264442011785" STYLE="fork" TEXT="snow liquid water content">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+</node>
+<node COLOR="#996600" CREATED="1244816980268" ID="Freemind_Link_1734406234" MODIFIED="1264523774085" STYLE="bubble" TEXT="Processes">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="ksmiletris"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Describe the properties of snow in the model&apos;s ice sheet scheme[/definition]</text>
+</hook>
+<node COLOR="#000000" CREATED="1233674595314" ID="Freemind_Link_1947754101" MODIFIED="1253539000414" STYLE="fork" TEXT="snow melting">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node COLOR="#000000" CREATED="1233674595314" ID="Freemind_Link_1888821307" MODIFIED="1253539008315" STYLE="fork" TEXT="snow refreezing">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node COLOR="#000000" CREATED="1233674595314" ID="Freemind_Link_1105575626" MODIFIED="1253539026419" STYLE="fork" TEXT="blowing snow">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1233140117582" FOLDED="true" ID="Freemind_Link_755676416" MODIFIED="1256745184925" TEXT="Land_IceShelves">
+</node>
+</node>
+<node COLOR="#000000" CREATED="1233140117582" ID="Freemind_Link_755676416" MODIFIED="1256745184925" TEXT="Land_IceShelves">
 <font BOLD="true" NAME="Arial" SIZE="14"/>
 <node COLOR="#990099" CREATED="1256230690992" FOLDED="true" ID="Freemind_Link_107019229" MODIFIED="1256230720390" TEXT="IceShelves_Attributes">
 <font NAME="SansSerif" SIZE="14"/>
@@ -480,9 +577,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1247228660170" FOLDED="true" ID="Freemind_Link_591851092" MODIFIED="1256745194165" TEXT="LandIceShelves_Dynamics">
+<node COLOR="#000000" CREATED="1247228660170" ID="Freemind_Link_591851092" MODIFIED="1256745194165" TEXT="LandIceShelves_Dynamics">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#990099" CREATED="1256249630445" FOLDED="true" ID="Freemind_Link_1817547019" MODIFIED="1257332204480" TEXT="LandIceShelvesDynamicsAttributes_">
+<node COLOR="#990099" CREATED="1256249630445" ID="Freemind_Link_1817547019" MODIFIED="1257332204480" TEXT="LandIceShelvesDynamicsAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1247228568530" ID="Freemind_Link_879721196" MODIFIED="1257332504499" TEXT="CouplingWithOcean">
 <font NAME="SansSerif" SIZE="14"/>
@@ -497,10 +594,43 @@
 </node>
 <node COLOR="#990099" CREATED="1247228699627" ID="Freemind_Link_1762314208" MODIFIED="1256250144051" TEXT="Model-Numerics">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1257238915649" ID="Freemind_Link_212494961" MODIFIED="1259584669937" TEXT="GridConfig">
+<node COLOR="#996600" CREATED="1253870854444" ID="Freemind_Link_815428737" MODIFIED="1264523284424" TEXT="TimeSteppingMethod">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="ksmiletris"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Time stepping framework for land ice shelves scheme (same as that of land surface or ocean model or different?).[/definition]</text>
+</hook>
+<node CREATED="1241016231102" ID="Freemind_Link_1405927361" MODIFIED="1264440645071" STYLE="fork" TEXT="use Ocean time step">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1241016231102" ID="Freemind_Link_1343454364" MODIFIED="1264440404722" STYLE="fork" TEXT="use LandSurface time step">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1241016236735" ID="Freemind_Link_1230141618" MODIFIED="1257289568991" STYLE="fork" TEXT="specific time step">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1257289874444" ID="Freemind_Link_1078937592" MODIFIED="1264523314103" TEXT="if TimeSteppingMethod is &quot;specific time step&quot;">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="ksmiletris"/>
+<node COLOR="#996600" CREATED="1253870854444" ID="Freemind_Link_11335539" MODIFIED="1264440614916" TEXT="TimeStep">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Description of the grid on which ice shelves are modelled[/definition]</text>
+<text>[definition]Timestep of the land ice shelves scheme.[/definition]</text>
+</hook>
+<node COLOR="#000000" CREATED="1233270123274" ID="Freemind_Link_1031269073" MODIFIED="1257289977239" STYLE="fork" TEXT="seconds">
+<font NAME="Arial" SIZE="15"/>
+<icon BUILTIN="full-1"/>
+</node>
+</node>
+</node>
+<node COLOR="#996600" CREATED="1257238915649" ID="Freemind_Link_212494961" MODIFIED="1264442402001" TEXT="GridConfig">
+<font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>Properties</text>
 </hook>
 <node CREATED="1241016231102" ID="Freemind_Link_1889472435" MODIFIED="1257332230477" STYLE="fork" TEXT="same as Ocean">
 <font NAME="SansSerif" SIZE="14"/>
@@ -587,8 +717,10 @@
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244816980268" ID="Freemind_Link_1803301455" MODIFIED="1259584912671" STYLE="bubble" TEXT="Properties">
+<node COLOR="#996600" CREATED="1244816980268" ID="Freemind_Link_1803301455" MODIFIED="1264502828978" STYLE="bubble" TEXT="Properties">
 <font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="messagebox_warning"/>
+<icon BUILTIN="clanbomber"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Describe the properties of the model&apos;s ice shelf scheme[/definition]</text>
 </hook>
@@ -625,6 +757,56 @@
 <icon BUILTIN="button_ok"/>
 </node>
 <node COLOR="#000000" CREATED="1233674595314" ID="Freemind_Link_1608514810" MODIFIED="1253539026419" STYLE="fork" TEXT="blowing snow">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+</node>
+<node COLOR="#996600" CREATED="1244816980268" ID="Freemind_Link_748723231" MODIFIED="1264502835764" STYLE="bubble" TEXT="ListOfPrognosticVariables">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="ksmiletris"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Prognostic snow variables of the ice shelf scheme.[/definition]</text>
+</hook>
+<node COLOR="#000000" CREATED="1233674595314" ID="Freemind_Link_906245868" MODIFIED="1264441988956" STYLE="fork" TEXT="snow albedo">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node COLOR="#000000" CREATED="1233674393965" ID="Freemind_Link_1501160977" MODIFIED="1264441992875" STYLE="fork" TEXT="snow density">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node COLOR="#000000" CREATED="1241078503222" ID="Freemind_Link_1536115257" MODIFIED="1264442000170" STYLE="fork" TEXT="snow water equivalent">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node COLOR="#000000" CREATED="1241078550560" ID="Freemind_Link_559273038" MODIFIED="1264442004010" STYLE="fork" TEXT="snow heat content">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node COLOR="#000000" CREATED="1241078960980" ID="Freemind_Link_949445296" MODIFIED="1264442007195" STYLE="fork" TEXT="snow temperature">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node COLOR="#000000" CREATED="1241078982017" ID="Freemind_Link_1929787297" MODIFIED="1264442011785" STYLE="fork" TEXT="snow liquid water content">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+</node>
+<node COLOR="#996600" CREATED="1244816980268" ID="Freemind_Link_912621648" MODIFIED="1264523762377" STYLE="bubble" TEXT="Processes">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="ksmiletris"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Describe the properties of snow in the model&apos;s ice shelf scheme[/definition]</text>
+</hook>
+<node COLOR="#000000" CREATED="1233674595314" ID="Freemind_Link_1303221581" MODIFIED="1253539000414" STYLE="fork" TEXT="snow melting">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node COLOR="#000000" CREATED="1233674595314" ID="Freemind_Link_391418363" MODIFIED="1253539008315" STYLE="fork" TEXT="snow refreezing">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node COLOR="#000000" CREATED="1233674595314" ID="Freemind_Link_1364581100" MODIFIED="1253539026419" STYLE="fork" TEXT="blowing snow">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>

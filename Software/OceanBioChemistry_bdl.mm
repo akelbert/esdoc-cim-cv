@@ -9,6 +9,31 @@
 <font BOLD="true" NAME="Arial" SIZE="16"/>
 <node CREATED="1256254598897" ID="Freemind_Link_1206301233" MODIFIED="1256744119810" TEXT="OceanBioKeyProperties_">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
+<node COLOR="#990099" CREATED="1254486057572" ID="Freemind_Link_26535854" MODIFIED="1264499206442" TEXT="OceanBioKeyPropertiesAttributes_">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#996600" CREATED="1233141022285" ID="Freemind_Link_599221753" MODIFIED="1264502947039" STYLE="bubble" TEXT="BasicApproximations">
+<font NAME="Arial" SIZE="14"/>
+<icon BUILTIN="ksmiletris"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Description of the basic approximations made in the biogeo chemistry model.[/definition]</text>
+</hook>
+<node CREATED="1255438025821" ID="Freemind_Link_1737511187" MODIFIED="1257333990921" STYLE="fork" TEXT="">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="pencil"/>
+</node>
+</node>
+<node COLOR="#996600" CREATED="1233587234324" ID="Freemind_Link_1829699314" MODIFIED="1264502947039" TEXT="ListOfPrognosticVariables">
+<font NAME="Arial" SIZE="14"/>
+<icon BUILTIN="ksmiletris"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Prognostic variables of the ocean biogeo chemistry model.[/definition]</text>
+</hook>
+<node CREATED="1255438025821" ID="Freemind_Link_923599598" MODIFIED="1257333990921" STYLE="fork" TEXT="">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="pencil"/>
+</node>
+</node>
+</node>
 <node COLOR="#000000" CREATED="1236610297849" ID="Freemind_Link_1511614965" MODIFIED="1257241483742" TEXT="OceanBio_TimeStepFramework">
 <font BOLD="true" NAME="Arial" SIZE="14"/>
 <node COLOR="#990099" CREATED="1252419938135" ID="Freemind_Link_1819255384" MODIFIED="1257238335407" TEXT="PassiveTracers">
@@ -311,7 +336,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1236609296453" ID="Freemind_Link_1321812138" MODIFIED="1256254070312" TEXT="OceanBio_GazExchange">
+<node CREATED="1236609296453" ID="Freemind_Link_1321812138" MODIFIED="1264434743981" TEXT="OceanBio_GasExchange">
 <font BOLD="true" NAME="Arial" SIZE="14"/>
 <node COLOR="#990099" CREATED="1236609454175" ID="Freemind_Link_1152416620" MODIFIED="1259231939418" STYLE="bubble" TEXT="CO2">
 <font NAME="SansSerif" SIZE="14"/>
@@ -878,7 +903,7 @@
 </node>
 <node CREATED="1236610217295" ID="Freemind_Link_1342196618" MODIFIED="1256254809821" TEXT="OceanBioChemistry_">
 <font BOLD="true" NAME="Arial" SIZE="14"/>
-<node COLOR="#990099" CREATED="1236610238383" ID="Freemind_Link_607535501" MODIFIED="1256252208310" TEXT="CarbonChemistry">
+<node COLOR="#990099" CREATED="1236610238383" ID="Freemind_Link_607535501" MODIFIED="1264497072697" TEXT="CarbonChemistry">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1252419570622" ID="Freemind_Link_1794269249" MODIFIED="1259255274874" TEXT="pH-scale">
 <cloud/>
@@ -896,7 +921,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1252419591695" ID="Freemind_Link_1488845223" MODIFIED="1259255270615" TEXT="ChemicalConstantsForCarbonateChemistry">
+<node COLOR="#996600" CREATED="1252419591695" ID="Freemind_Link_1488845223" MODIFIED="1264496947187" TEXT="CarbonChem_Constants">
 <cloud/>
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1256251943285" ID="Freemind_Link_591259990" MODIFIED="1259255260850" STYLE="fork" TEXT="">
