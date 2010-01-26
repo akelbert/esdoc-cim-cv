@@ -13,6 +13,9 @@
 <xsl:param name="Separator" select="''"/>
 <xsl:param name="NSQualifier" select="''"/>
 
+<!-- include template splitName -->
+<xsl:include href="utils.xsl"/>
+
 <xsl:template match="/">
 <rdf:RDF xml:base="http://dataportal.ucar.edu/schemas/cmip5.owl">
   <owl:Ontology rdf:about="">
@@ -135,36 +138,6 @@
     </xsl:otherwise>
 
   </xsl:choose>
-
-</xsl:template>
-
-<xsl:template name="splitName">
-  <xsl:param name="name"/>
-  <xsl:param name="skipSpace"/>
-  <xsl:if test="string-length($name)&gt;=1">
-    <xsl:variable name="char" select="substring($name,1,1)"/>
-    <xsl:if test="$skipSpace='false' and translate($char,'abcdefghijklmnopqrstuvwxyz-/','ABCDEFGHIJKLMNOPQRSTUVWXYZXX')=$char"> <!-- this char is upper case -->
-      <xsl:text> </xsl:text>
-    </xsl:if>
-    <xsl:value-of select="$char"/>
-    <xsl:variable name="skipNextSpace">
-    <xsl:choose>
-      <xsl:when test="$char='-' or $char='/'">
-        <xsl:text>true</xsl:text>
-      </xsl:when>
-      <xsl:when test="string-length($name)&gt;1 and translate(substring($name,1,2),'abcdefghijklmnopqrstuvwxyz-/','ABCDEFGHIJKLMNOPQRSTUVWXYZXX')=substring($name,1,2)"> <!-- if this and next are both upper case then skip space next time -->
-        <xsl:text>true</xsl:text>
-      </xsl:when>
-      <xsl:otherwise>
-        <xsl:text>false</xsl:text>
-      </xsl:otherwise>
-    </xsl:choose>
-    </xsl:variable>
-    <xsl:call-template name="splitName">
-      <xsl:with-param name="name" select="substring($name,2)"/>
-      <xsl:with-param name="skipSpace" select="$skipNextSpace"/>
-    </xsl:call-template>
-  </xsl:if>
 
 </xsl:template>
 

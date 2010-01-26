@@ -18,6 +18,7 @@ files into a structured xml representation (260409) -->
 <!-- higher priority (higher value) templates are matched before any
 lower priority templates -->
 
+<!-- include templates normaliseName4Q, normaliseNameWithSpaces4Q and normaliseName4ESG -->
 <xsl:include href="utils.xsl"/>
 
   <!-- match the top level of the xml document -->
@@ -60,7 +61,7 @@ lower priority templates -->
     <xsl:if test="not(@LINK)">
 
         <xsl:variable name="myName">
-          <xsl:call-template name="normaliseName4Q">
+          <xsl:call-template name="normaliseNameWithSpaces4Q">
             <xsl:with-param name="string" select="@TEXT"/>
           </xsl:call-template>
         </xsl:variable>
