@@ -51,15 +51,11 @@
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]What prognostic variables are used by the aerosol model?[/definition]</text>
 </hook>
-<node COLOR="#000000" CREATED="1243422645484" ID="Freemind_Link_922836964" MODIFIED="1257954546361" STYLE="fork" TEXT="3D mass/volume mixing ratio for gas species">
+<node COLOR="#000000" CREATED="1243422645484" ID="Freemind_Link_684217498" MODIFIED="1264505686488" STYLE="fork" TEXT="3D mass mixing ratio for aerosols">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node COLOR="#000000" CREATED="1243422645484" ID="Freemind_Link_684217498" MODIFIED="1257954550908" STYLE="fork" TEXT="3D mass/volume mixing ratio for aerosols">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node COLOR="#000000" CREATED="1243422645484" ID="Freemind_Link_693258101" MODIFIED="1257954556672" STYLE="fork" TEXT="3D number concentration for gas species">
+<node COLOR="#000000" CREATED="1243422645484" ID="Freemind_Link_1051810369" MODIFIED="1264505678320" STYLE="fork" TEXT="3D volume mixing ratio for aerosols">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>

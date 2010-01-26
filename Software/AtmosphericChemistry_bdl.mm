@@ -51,19 +51,15 @@
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]What prognostic variables are used by the atmospheric chemistry model?[/definition]</text>
 </hook>
-<node COLOR="#000000" CREATED="1243422645484" ID="Freemind_Link_996127862" MODIFIED="1256116967218" STYLE="fork" TEXT="3D mixing ratio for gas">
+<node COLOR="#000000" CREATED="1243422645484" ID="Freemind_Link_996127862" MODIFIED="1264505791798" STYLE="fork" TEXT="3D mass mixing ratio for gas">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node COLOR="#000000" CREATED="1243422645484" ID="Freemind_Link_684217498" MODIFIED="1257950028674" STYLE="fork" TEXT="3D mixing ratio for aerosol">
+<node COLOR="#000000" CREATED="1243422645484" ID="Freemind_Link_1652157800" MODIFIED="1264505801130" STYLE="fork" TEXT="3D volume mixing ratio for gas">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
 <node COLOR="#000000" CREATED="1243422645484" ID="Freemind_Link_693258101" MODIFIED="1257954556672" STYLE="fork" TEXT="3D number concentration for gas species">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node COLOR="#000000" CREATED="1243422645484" ID="Freemind_Link_1665391865" MODIFIED="1257954561766" STYLE="fork" TEXT="3D number concentration for aerosols">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
