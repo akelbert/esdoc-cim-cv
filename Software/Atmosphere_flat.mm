@@ -7,7 +7,7 @@
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233138667215" ID="_" MODIFIED="1236848504074" POSITION="right" STYLE="bubble" TEXT="Atmosphere">
 <edge COLOR="#999999" STYLE="bezier" WIDTH="2"/>
 <font BOLD="true" NAME="Arial" SIZE="18"/>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233138776960" ID="Freemind_Link_1994420078" MODIFIED="1242398919418" TEXT="DynamicalCore">
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233138776960" FOLDED="true" ID="Freemind_Link_1994420078" MODIFIED="1242398919418" TEXT="DynamicalCore">
 <font BOLD="true" NAME="Arial" SIZE="14"/>
 <node COLOR="#996600" CREATED="1233141022285" ID="Freemind_Link_599221753" MODIFIED="1244564171502" STYLE="bubble" TEXT="BasicApproximations">
 <font NAME="Arial" SIZE="14"/>
@@ -488,7 +488,7 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233138793223" ID="Freemind_Link_581230624" MODIFIED="1242401102688" TEXT="Radiation">
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233138793223" FOLDED="true" ID="Freemind_Link_581230624" MODIFIED="1242401102688" TEXT="Radiation">
 <font BOLD="true" NAME="Arial" SIZE="14"/>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#990099" CREATED="1233138867142" ID="Freemind_Link_1498154611" MODIFIED="1233932889838" TEXT="Longwave">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
@@ -814,10 +814,13 @@
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233142117128" ID="Freemind_Link_293389759" MODIFIED="1253106471776" STYLE="fork" TEXT="mpm: Some of these choices belong to &quot;Cloud&quot; or &quot;Radiation&quot; components?">
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233142117128" ID="Freemind_Link_293389759" MODIFIED="1255963509246" STYLE="fork" TEXT="mpm: Some of these choices belong to &quot;Cloud&quot; or &quot;Radiation&quot; components?">
 <font ITALIC="true" NAME="Arial" SIZE="14"/>
 <icon BUILTIN="help"/>
 <icon BUILTIN="help"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>We should remove the warning triangles from the deep convective properties.&#xa;These are processes that are modelled by the UK Unified Model convection scheme.</text>
+</hook>
 </node>
 </node>
 </node>
