@@ -61,7 +61,7 @@ lower priority templates -->
     <xsl:if test="not(@LINK)">
 
         <xsl:variable name="myName">
-          <xsl:call-template name="normaliseNameWithSpaces4Q">
+          <xsl:call-template name="normaliseName4Q">
             <xsl:with-param name="string" select="@TEXT"/>
           </xsl:call-template>
         </xsl:variable>
