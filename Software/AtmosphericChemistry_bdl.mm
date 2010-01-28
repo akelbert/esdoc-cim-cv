@@ -887,10 +887,10 @@
 <icon BUILTIN="pencil"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244467041993" ID="Freemind_Link_1708734731" MODIFIED="1258986839453" TEXT="Method">
+<node COLOR="#996600" CREATED="1244467041993" ID="Freemind_Link_1708734731" MODIFIED="1264680180982" TEXT="Method">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Method used to define gaseous species emitted by bare aircraft.[/definition]</text>
+<text>[definition]Method used to define gaseous species emitted by aircraft.[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1243422295125" ID="Freemind_Link_1986768966" MODIFIED="1253695989543" STYLE="fork" TEXT="prescribed (climatology)">
 <font NAME="SansSerif" SIZE="14"/>
