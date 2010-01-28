@@ -51,17 +51,15 @@
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]What prognostic variables are used by the atmospheric chemistry model?[/definition]</text>
 </hook>
-<node COLOR="#000000" CREATED="1243422645484" ID="Freemind_Link_996127862" MODIFIED="1264505791798" STYLE="fork" TEXT="3D mass mixing ratio for gas">
+<node COLOR="#000000" CREATED="1243422645484" ID="Freemind_Link_996127862" MODIFIED="1264503619999" STYLE="fork" TEXT="3D mass/mixing ratio for gas">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node COLOR="#000000" CREATED="1243422645484" ID="Freemind_Link_1652157800" MODIFIED="1264505801130" STYLE="fork" TEXT="3D volume mixing ratio for gas">
+<node COLOR="#000000" CREATED="1243422645484" ID="Freemind_Link_684217498" MODIFIED="1264504424015" STYLE="fork" TEXT="3D mass/mixing ratio for aerosol">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
-</node>
-<node COLOR="#000000" CREATED="1243422645484" ID="Freemind_Link_693258101" MODIFIED="1257954556672" STYLE="fork" TEXT="3D number concentration for gas species">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
+<icon BUILTIN="clanbomber"/>
+<icon BUILTIN="messagebox_warning"/>
 </node>
 <node COLOR="#000000" CREATED="1243422645484" ID="Freemind_Link_27078511" MODIFIED="1256121486400" STYLE="fork" TEXT="other">
 <font NAME="SansSerif" SIZE="14"/>
@@ -598,7 +596,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1243422071515" FOLDED="true" ID="Freemind_Link_1203732598" MODIFIED="1257938802035" TEXT="AtmChem_EmissionAndConc">
+<node COLOR="#000000" CREATED="1243422071515" ID="Freemind_Link_1203732598" MODIFIED="1257938802035" TEXT="AtmChem_EmissionAndConc">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#000000" CREATED="1243422235015" ID="Freemind_Link_198420355" MODIFIED="1259249820169" TEXT="AtmChem_2D-Sources">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
@@ -1166,7 +1164,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1244062026857" ID="Freemind_Link_1658904618" MODIFIED="1257783664553" TEXT="Atm_GasPhaseChemistry">
+<node COLOR="#000000" CREATED="1244062026857" ID="Freemind_Link_1658904618" MODIFIED="1264511750715" TEXT="AtmChem_GasPhaseChemistry">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1258105576222" ID="_" MODIFIED="1258105604395" TEXT="AtmGasPhaseChemistryAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1203,7 +1201,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node COLOR="#111111" CREATED="1243422046265" ID="Freemind_Link_1157666894" MODIFIED="1250167615412" STYLE="fork" TEXT="ISOPRENE">
+<node COLOR="#111111" CREATED="1243422046265" ID="Freemind_Link_1157666894" MODIFIED="1264600246989" STYLE="fork" TEXT="isoprene">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
@@ -1320,13 +1318,13 @@
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1244057714894" ID="Freemind_Link_47709925" MODIFIED="1257783679397" TEXT="Atm_HeterogeneousChemistry">
+<node COLOR="#000000" CREATED="1244057714894" ID="Freemind_Link_47709925" MODIFIED="1264667835696" TEXT="AtmChem_HeterogenChemistry">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#000000" CREATED="1244069441485" ID="Freemind_Link_1820070223" MODIFIED="1257347074066" TEXT="Stratospheric.HeterChem">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1244058101228" ID="Freemind_Link_61219831" MODIFIED="1256200475577" TEXT="Species">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1244063735330" ID="Freemind_Link_1274278688" MODIFIED="1259248235529" TEXT="GasPhase">
+<node COLOR="#996600" CREATED="1244063735330" ID="Freemind_Link_1274278688" MODIFIED="1264602176920" TEXT="GasPhase">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Gas phase species included in the stratospheric heterogeneous chemistry scheme.[/definition]</text>
@@ -1348,28 +1346,33 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244063743933" ID="Freemind_Link_561874729" MODIFIED="1259248215158" TEXT="Aerosol-PSC">
+<node COLOR="#996600" CREATED="1244063743933" ID="Freemind_Link_561874729" MODIFIED="1264667324219" TEXT="Aerosol">
 <font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="ksmiletris"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Aerosol species included in the stratospheric heterogeneous chemistry scheme.[/definition]</text>
 </hook>
-<node COLOR="#111111" CREATED="1244058162497" ID="Freemind_Link_467345864" MODIFIED="1250167714114" STYLE="fork" TEXT="Ice">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_1406944166" MODIFIED="1264514522899" STYLE="fork" TEXT="sulphate">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node COLOR="#111111" CREATED="1244058158854" ID="Freemind_Link_627805598" MODIFIED="1250167714114" STYLE="fork" TEXT="NAT">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_670574332" MODIFIED="1264603220039" STYLE="fork" TEXT="polar stratospheric ice">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node COLOR="#111111" CREATED="1244058153823" ID="Freemind_Link_911822294" MODIFIED="1250167714114" STYLE="fork" TEXT="STS">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_1820640090" MODIFIED="1264599299570" STYLE="fork" TEXT="NAT (nitric acid trihydrate)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node COLOR="#111111" CREATED="1244063803705" ID="Freemind_Link_589277367" MODIFIED="1250167714114" STYLE="fork" TEXT="Sulphate">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_716839503" MODIFIED="1264599299570" STYLE="fork" TEXT="NAD (nitric acid dihydrate)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node COLOR="#111111" CREATED="1244467490644" ID="Freemind_Link_141658971" MODIFIED="1250167714098" STYLE="fork" TEXT="other">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_1709145948" MODIFIED="1264599299570" STYLE="fork" TEXT="STS (supercooled ternary solution aerosol particule)">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_72156411" MODIFIED="1264599316278" STYLE="fork" TEXT="other">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
@@ -1444,7 +1447,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1244058101228" ID="Freemind_Link_104726676" MODIFIED="1256200484095" TEXT="Species">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1244063735330" ID="Freemind_Link_663231646" MODIFIED="1259070209486" TEXT="GasPhase">
+<node COLOR="#996600" CREATED="1244063735330" ID="Freemind_Link_663231646" MODIFIED="1264602162435" TEXT="GasPhase">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]List of gas phase species involved in tropospheric heterogeneous chemistry processes.[/definition]</text>
@@ -1454,32 +1457,45 @@
 <icon BUILTIN="pencil"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244063743933" ID="Freemind_Link_1843933572" MODIFIED="1259248141172" TEXT="Aerosols">
+<node COLOR="#996600" CREATED="1244063743933" ID="Freemind_Link_1843933572" MODIFIED="1264667324188" TEXT="Aerosol">
 <font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="ksmiletris"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Aerosol species included in the tropospheric heterogeneous chemistry scheme.[/definition]</text>
 </hook>
-<node COLOR="#111111" CREATED="1244063803705" ID="Freemind_Link_1467560821" MODIFIED="1257347120348" STYLE="fork" TEXT="sulphate">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_869579204" MODIFIED="1264514522899" STYLE="fork" TEXT="sulphate">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node COLOR="#111111" CREATED="1244069609566" ID="Freemind_Link_156744774" MODIFIED="1250167713989" STYLE="fork" TEXT="dust">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_129744965" MODIFIED="1264599299586" STYLE="fork" TEXT="nitrate">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node COLOR="#111111" CREATED="1244069613536" ID="Freemind_Link_128088534" MODIFIED="1250167713989" STYLE="fork" TEXT="sea salt">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_473209664" MODIFIED="1264599299586" STYLE="fork" TEXT="sea salt">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node COLOR="#111111" CREATED="1244069616431" ID="Freemind_Link_231108136" MODIFIED="1250167713973" STYLE="fork" TEXT="organic">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_1343855225" MODIFIED="1264599299570" STYLE="fork" TEXT="dust">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node COLOR="#111111" CREATED="1244070190731" ID="Freemind_Link_999723612" MODIFIED="1250167713973" STYLE="fork" TEXT="nitrate">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_828283586" MODIFIED="1264599299570" STYLE="fork" TEXT="ice">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node COLOR="#111111" CREATED="1244070161240" ID="Freemind_Link_743486716" MODIFIED="1250167713973" STYLE="fork" TEXT="other">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_1292952900" MODIFIED="1264599299570" STYLE="fork" TEXT="organic">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_1516280528" MODIFIED="1264599372430" STYLE="fork" TEXT="BC (black carbon / soot)">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_1160744635" MODIFIED="1264599299570" STYLE="fork" TEXT="SOA (secondary organic aerosols)">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_616478048" MODIFIED="1264599299570" STYLE="fork" TEXT="POM (particulate organic matter)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
@@ -1529,7 +1545,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244069953392" ID="Freemind_Link_1053135572" MODIFIED="1259248058863" TEXT="coagulation">
+<node COLOR="#996600" CREATED="1244069953392" ID="Freemind_Link_1053135572" MODIFIED="1264503107149" TEXT="Coagulation">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Is coagulation included in the stratospheric heterogeneous chemistry scheme?  &#xa;Coagulation is a process by which aerosol particles grow. [/definition]&#xa;[info]Implies link/coupling with aerosol scheme.[/info]</text>
@@ -1579,7 +1595,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1244062831575" ID="Freemind_Link_1028391829" MODIFIED="1256225241180" TEXT="PhotoChemistry">
+<node COLOR="#000000" CREATED="1244062831575" ID="Freemind_Link_1028391829" MODIFIED="1264511768047" TEXT="AtmChem_PhotoChemistry">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1243422093890" ID="Freemind_Link_690400866" MODIFIED="1256200821217" TEXT="Photolysis">
 <font NAME="SansSerif" SIZE="14"/>

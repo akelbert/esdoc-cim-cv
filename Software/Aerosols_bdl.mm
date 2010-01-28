@@ -51,13 +51,21 @@
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]What prognostic variables are used by the aerosol model?[/definition]</text>
 </hook>
-<node COLOR="#000000" CREATED="1243422645484" ID="Freemind_Link_684217498" MODIFIED="1264505686488" STYLE="fork" TEXT="3D mass mixing ratio for aerosols">
+<node COLOR="#000000" CREATED="1243422645484" ID="Freemind_Link_922836964" MODIFIED="1264504447119" STYLE="fork" TEXT="3D mass/volume mixing ratio for gas species">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+<icon BUILTIN="clanbomber"/>
+<icon BUILTIN="messagebox_warning"/>
+</node>
+<node COLOR="#000000" CREATED="1243422645484" ID="Freemind_Link_684217498" MODIFIED="1257954550908" STYLE="fork" TEXT="3D mass/volume mixing ratio for aerosols">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node COLOR="#000000" CREATED="1243422645484" ID="Freemind_Link_1051810369" MODIFIED="1264505678320" STYLE="fork" TEXT="3D volume mixing ratio for aerosols">
+<node COLOR="#000000" CREATED="1243422645484" ID="Freemind_Link_693258101" MODIFIED="1264504447119" STYLE="fork" TEXT="3D number concentration for gas species">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
+<icon BUILTIN="clanbomber"/>
+<icon BUILTIN="messagebox_warning"/>
 </node>
 <node COLOR="#000000" CREATED="1243422645484" ID="Freemind_Link_1665391865" MODIFIED="1257954561766" STYLE="fork" TEXT="3D number concentration for aerosols">
 <font NAME="SansSerif" SIZE="14"/>
@@ -97,8 +105,11 @@
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1233751003143" ID="Freemind_Link_305402916" MODIFIED="1257336090082" STYLE="bubble" TEXT="Horizontal.Domain">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1255438538998" ID="Freemind_Link_38895976" MODIFIED="1256258799099" TEXT="GridConfig">
+<node COLOR="#996600" CREATED="1255438538998" ID="Freemind_Link_38895976" MODIFIED="1264413983080" TEXT="GridConfig">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Configuration of the horizontal grid used for aerosols (same as that of the atmosphere or atmospheric chemistry model or different?).[/definition]</text>
+</hook>
 <node CREATED="1241016231102" ID="Freemind_Link_1356030046" MODIFIED="1257334089650" STYLE="fork" TEXT="same as Atmosphere">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -114,20 +125,20 @@
 </node>
 <node COLOR="#0033ff" CREATED="1255423797658" ID="Freemind_Link_713709720" MODIFIED="1257779879842" TEXT="if GridConfig is &quot;specific&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1256740460367" ID="Freemind_Link_1489121474" MODIFIED="1257334285881" TEXT="MeanResolution">
+<node COLOR="#996600" CREATED="1256740460367" ID="Freemind_Link_1489121474" MODIFIED="1264414796667" TEXT="MeanResolution">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Mean horizontal resolution of the atmospheric chemistry and aerosols model.[/definition]</text>
+<text>[definition]Mean horizontal resolution of the aerosols model.[/definition]</text>
 </hook>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_540590316" MODIFIED="1257038155267" STYLE="fork" TEXT="degrees">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1256254990298" ID="Freemind_Link_437978356" MODIFIED="1257334342699" TEXT="GridCharacteristics">
+<node COLOR="#996600" CREATED="1256254990298" ID="Freemind_Link_437978356" MODIFIED="1264414802892" TEXT="GridCharacteristics">
 <font NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Description of the horizontal grid used for atmospheric chemistry and aerosols.[/definition]</text>
+<text>[definition]Description of the horizontal grid used for aerosols.[/definition]</text>
 </hook>
 <node CREATED="1256255021042" ID="Freemind_Link_1717188073" MODIFIED="1257238682406" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
@@ -138,8 +149,11 @@
 </node>
 <node COLOR="#990099" CREATED="1233751003143" ID="Freemind_Link_142866659" MODIFIED="1257336094405" STYLE="bubble" TEXT="Vertical.Domain">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1257238915649" ID="Freemind_Link_1264044554" MODIFIED="1257780192012" TEXT="GridConfiguration">
+<node COLOR="#996600" CREATED="1257238915649" ID="Freemind_Link_1264044554" MODIFIED="1264414137349" TEXT="GridConfiguration">
 <font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Configuration of the vertical grid used for aerosols (same as that of the atmosphere or atmospheric chemistry model or different?).[/definition]</text>
+</hook>
 <node CREATED="1241016231102" ID="Freemind_Link_365961628" MODIFIED="1257336981016" STYLE="fork" TEXT="same as Atmosphere">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -155,20 +169,20 @@
 </node>
 <node COLOR="#0033ff" CREATED="1257238168276" ID="Freemind_Link_766400880" MODIFIED="1257780192012" TEXT="if GridConfiguration is &quot;specific&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1256254990298" ID="Freemind_Link_1974159564" MODIFIED="1257337075557" TEXT="GridCharacteristics">
+<node COLOR="#996600" CREATED="1256254990298" ID="Freemind_Link_1974159564" MODIFIED="1264414087632" TEXT="GridCharacteristics">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Description of the vertical grid used for atmospheric chemistry and aerosols.[/definition]</text>
+<text>[definition]Description of the vertical grid used for aerosols.[/definition]</text>
 </hook>
 <node CREATED="1256255021042" ID="Freemind_Link_1578704852" MODIFIED="1257238682406" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="pencil"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1424452534" MODIFIED="1257337091994" TEXT="NumberOfLevels">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1424452534" MODIFIED="1264414099129" TEXT="NumberOfLevels">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Total number of vertical levels in atmospheric chemistry and aerosols model.[/definition]</text>
+<text>[definition]Total number of vertical levels in the aerosols model.[/definition]</text>
 </hook>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_569217197" MODIFIED="1256812397215" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
@@ -180,10 +194,10 @@
 </node>
 <node COLOR="#990099" CREATED="1233751261777" ID="Freemind_Link_1153520910" MODIFIED="1257937810461" STYLE="bubble" TEXT="AerosolTimeStepFramework">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1239098125683" ID="Freemind_Link_1205781947" MODIFIED="1259240758747" STYLE="bubble" TEXT="Method">
+<node COLOR="#996600" CREATED="1239098125683" ID="Freemind_Link_1205781947" MODIFIED="1264412761265" STYLE="bubble" TEXT="Method">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Mathematical method deployed to solve the evolution of a given variable.&#xa;If &quot;operator splitting&quot; all the processes are decoupled, the time evolution is calculated sequentially and the tendencies &quot;cumulated&quot;. &#xa;If &quot;integrated&quot; all the processes having an impact on the time evolution are taken into account and solved simultaneously. &#xa;[/definition]</text>
+<text>[definition]Mathematical method deployed to solve the evolution of a given variable.&#xa;If &quot;operator splitting&quot; all the processes are decoupled, the time evolution is calculated sequentially and the tendencies &quot;cumulated&quot;. &#xa;If &quot;integrated&quot; all the processes having an impact on the time evolution are taken into account and solved simultaneously. &#xa;[/definition]&#xa;[definition]Is the time stepping framework used the same as that used in the atmosphere or in the atmospheric chemistry model?[/definition]</text>
 </hook>
 <node CREATED="1239098471806" ID="Freemind_Link_475403810" MODIFIED="1257780231145" STYLE="fork" TEXT="uses AtmosphericChemistry time stepping">
 <font NAME="SansSerif" SIZE="14"/>
@@ -279,7 +293,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244069277380" FOLDED="true" ID="Freemind_Link_1631384836" MODIFIED="1259233130602" STYLE="bubble" TEXT="FamilyApproach">
+<node COLOR="#996600" CREATED="1244069277380" ID="Freemind_Link_1631384836" MODIFIED="1259233130602" STYLE="bubble" TEXT="FamilyApproach">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="messagebox_warning"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
@@ -449,7 +463,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1243422071515" ID="Freemind_Link_1203732598" MODIFIED="1258104864633" TEXT="Aerosol_EmissionAndConc">
+<node COLOR="#000000" CREATED="1243422071515" FOLDED="true" ID="Freemind_Link_1203732598" MODIFIED="1258104864633" TEXT="Aerosol_EmissionAndConc">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#000000" CREATED="1243422235015" ID="Freemind_Link_650081149" MODIFIED="1259249870310" TEXT="Aerosol_2D-Sources">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
@@ -726,9 +740,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1243422238671" FOLDED="true" ID="Freemind_Link_85250288" MODIFIED="1259249884844" TEXT="Aerosol_3D-Sources">
+<node COLOR="#000000" CREATED="1243422238671" ID="Freemind_Link_85250288" MODIFIED="1259249884844" TEXT="Aerosol_3D-Sources">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#990099" CREATED="1243422252593" FOLDED="true" ID="Freemind_Link_786529567" MODIFIED="1256199523795" TEXT="Aircraft">
+<node COLOR="#990099" CREATED="1243422252593" ID="Freemind_Link_786529567" MODIFIED="1256199523795" TEXT="Aircraft">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1243422324468" ID="Freemind_Link_85322913" MODIFIED="1259247181961" TEXT="SpeciesEmitted">
 <font NAME="SansSerif" SIZE="14"/>
@@ -792,7 +806,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1243422257750" FOLDED="true" ID="Freemind_Link_1260368760" MODIFIED="1256199527394" TEXT="BiomassBurning">
+<node COLOR="#990099" CREATED="1243422257750" ID="Freemind_Link_1260368760" MODIFIED="1256199527394" TEXT="BiomassBurning">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1243422533921" ID="Freemind_Link_279665540" MODIFIED="1259247309262" TEXT="SpeciesEmitted">
 <font NAME="SansSerif" SIZE="14"/>
@@ -995,7 +1009,7 @@
 </node>
 <node COLOR="#990099" CREATED="1244068729399" ID="Freemind_Link_1309977899" MODIFIED="1256199786544" TEXT="Concentrations">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1244068742729" FOLDED="true" ID="Freemind_Link_1587180253" MODIFIED="1257346917012" TEXT="PrescribedLowerBoundary">
+<node COLOR="#996600" CREATED="1244068742729" ID="Freemind_Link_1587180253" MODIFIED="1257346917012" TEXT="PrescribedLowerBoundary">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]List of species prescribed at the lower boundary.[/definition]</text>
@@ -1005,7 +1019,7 @@
 <icon BUILTIN="pencil"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244068753954" FOLDED="true" ID="Freemind_Link_806629975" MODIFIED="1259247497491" TEXT="PrescribedUpperBoundary">
+<node COLOR="#996600" CREATED="1244068753954" ID="Freemind_Link_806629975" MODIFIED="1259247497491" TEXT="PrescribedUpperBoundary">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]List of species prescribed at the upper boundary.[/definition]</text>
@@ -1019,7 +1033,7 @@
 </node>
 <node COLOR="#000000" CREATED="1256200944012" ID="Freemind_Link_1650611385" MODIFIED="1257936984896" TEXT="Aerosol_Model">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#990099" CREATED="1258104783957" FOLDED="true" ID="Freemind_Link_1993128244" MODIFIED="1258104812365" TEXT="AerosolModelAttributes_">
+<node COLOR="#990099" CREATED="1258104783957" ID="Freemind_Link_1993128244" MODIFIED="1258104812365" TEXT="AerosolModelAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1243416464546" ID="Freemind_Link_1427659294" MODIFIED="1259247679196" TEXT="Processes">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1121,19 +1135,19 @@
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node COLOR="#000000" CREATED="1243417981218" ID="Freemind_Link_1104148565" MODIFIED="1257930585856" STYLE="fork" TEXT="Ammonia">
+<node COLOR="#000000" CREATED="1243417981218" ID="Freemind_Link_1104148565" MODIFIED="1264668317596" STYLE="fork" TEXT="ammonia">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node COLOR="#000000" CREATED="1243417981218" ID="Freemind_Link_600157574" MODIFIED="1257930590144" STYLE="fork" TEXT="Iodene">
+<node COLOR="#000000" CREATED="1243417981218" ID="Freemind_Link_600157574" MODIFIED="1264668312768" STYLE="fork" TEXT="iodene">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node COLOR="#000000" CREATED="1243417981218" ID="Freemind_Link_1148470964" MODIFIED="1257947207011" STYLE="fork" TEXT="Terpene">
+<node COLOR="#000000" CREATED="1243417981218" ID="Freemind_Link_1148470964" MODIFIED="1264668309266" STYLE="fork" TEXT="terpene">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node COLOR="#000000" CREATED="1243417981218" ID="Freemind_Link_489535262" MODIFIED="1257947213411" STYLE="fork" TEXT="Isoprene">
+<node COLOR="#000000" CREATED="1243417981218" ID="Freemind_Link_489535262" MODIFIED="1264668322955" STYLE="fork" TEXT="isoprene">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
@@ -1148,10 +1162,10 @@
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[info]Specify scheme type, framework, quantification method and species.&#xa;e.g.&#xa; - Some species may be covered by the Modal scheme&#xa; - Other species may be covered by the Bin Scheme&#xa;We expect that the aerosol model will use more than one scheme type.&#xa;We expect that the aerosol model will not use all of the scheme types.&#xa;Microphysical framework requires a number conc and mixed aerosol - expect this info will be entered by users under conformance section so is not asked for here.[/info]&#xa;</text>
 </hook>
-<node COLOR="#996600" CREATED="1258103965122" ID="Freemind_Link_1892176765" MODIFIED="1259251921663" TEXT="Scheme_Type">
+<node COLOR="#996600" CREATED="1258103965122" ID="Freemind_Link_1892176765" MODIFIED="1264417346602" TEXT="Scheme_Type">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[description]Specify the type of Aerosol scheme.&#xa; - The Bulk schemes will have a single moment framework.&#xa; - Some species may be covered by the Modal scheme.&#xa; - Other species may be covered by the Bin Scheme.&#xa;We expect that the aerosol model may use more than one scheme type.&#xa;We expect that the aerosol model will not necessarilly use all of the scheme types.&#xa;[/description]</text>
+<text>[definition]Type(s) of aerosol scheme used by the aerosols model (potentially multiple: some &#xa;species may be covered by one type of aerosol scheme and other species covered by another type).[/definition]&#xa;[info]&#xa; - The Bulk schemes will have a single moment framework.&#xa; - Some species may be covered by the Modal scheme.&#xa; - Other species may be covered by the Bin Scheme.&#xa;We expect that the aerosol model may use more than one scheme type.&#xa;We expect that the aerosol model will not necessarilly use all of the scheme types.&#xa;[/info]</text>
 </hook>
 <node CREATED="1250609432457" ID="Freemind_Link_1852044529" MODIFIED="1259250429766" STYLE="fork" TEXT="bulk">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1172,64 +1186,65 @@
 </node>
 <node COLOR="#0033ff" CREATED="1243422276578" ID="Freemind_Link_855060944" MODIFIED="1258104522220" TEXT="if SchemeType has &quot;bulk&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1243416555250" ID="Freemind_Link_913648905" MODIFIED="1259250505654" STYLE="bubble" TEXT="Species">
+<node COLOR="#996600" CREATED="1243416555250" ID="Freemind_Link_913648905" MODIFIED="1264668336386" STYLE="bubble" TEXT="Species">
 <font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="ksmiletris"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]List of species covered by the bulk scheme.[/definition]</text>
 </hook>
-<node CREATED="1250609432457" ID="Freemind_Link_1096905072" MODIFIED="1257347705910" STYLE="fork" TEXT="sulphates">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_1557724130" MODIFIED="1264514522899" STYLE="fork" TEXT="sulphate">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1250609444360" ID="Freemind_Link_1544657765" MODIFIED="1257347709220" STYLE="fork" TEXT="dust">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_542986636" MODIFIED="1264599299586" STYLE="fork" TEXT="nitrate">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1250609452160" ID="Freemind_Link_85657905" MODIFIED="1257347719631" STYLE="fork" TEXT="black carbon">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_390125280" MODIFIED="1264599299586" STYLE="fork" TEXT="sea salt">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1250609470178" ID="Freemind_Link_243478859" MODIFIED="1257347723411" STYLE="fork" TEXT="nitrates">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_67542247" MODIFIED="1264599299570" STYLE="fork" TEXT="dust">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1250609479390" ID="Freemind_Link_1070873665" MODIFIED="1250670073036" STYLE="fork" TEXT="POM">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_1489213324" MODIFIED="1264599299570" STYLE="fork" TEXT="ice">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1250609449859" ID="Freemind_Link_633728495" MODIFIED="1250670073005" STYLE="fork" TEXT="SOA">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_691492305" MODIFIED="1264599299570" STYLE="fork" TEXT="organic">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1250609452160" ID="Freemind_Link_1254514690" MODIFIED="1257347730112" STYLE="fork" TEXT="sea salt">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_1656752225" MODIFIED="1264599372430" STYLE="fork" TEXT="BC (black carbon / soot)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1250609626881" ID="Freemind_Link_358624757" MODIFIED="1250670072990" STYLE="fork" TEXT="PSC">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_1376485310" MODIFIED="1264599299570" STYLE="fork" TEXT="SOA (secondary organic aerosols)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1250609626881" ID="Freemind_Link_1660264534" MODIFIED="1256553158306" STYLE="fork" TEXT="STS">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_691040737" MODIFIED="1264599299570" STYLE="fork" TEXT="POM (particulate organic matter)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1250609626881" ID="Freemind_Link_1908710414" MODIFIED="1256553176693" STYLE="fork" TEXT="NAT">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_130580172" MODIFIED="1264603247268" STYLE="fork" TEXT="polar stratospheric ice">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1250609626881" ID="Freemind_Link_688559542" MODIFIED="1257347735426" STYLE="fork" TEXT="ice">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_1809164181" MODIFIED="1264599299570" STYLE="fork" TEXT="NAT (nitric acid trihydrate)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1250609626881" ID="Freemind_Link_1347395685" MODIFIED="1257347742029" STYLE="fork" TEXT="organic">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_324785596" MODIFIED="1264599299570" STYLE="fork" TEXT="NAD (nitric acid dihydrate)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1250609482065" ID="Freemind_Link_1862138977" MODIFIED="1257954818274" STYLE="fork" TEXT="biomass">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_1558682665" MODIFIED="1264599299570" STYLE="fork" TEXT="STS (supercooled ternary solution aerosol particule)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1250609482065" ID="Freemind_Link_480510244" MODIFIED="1257347683531" STYLE="fork" TEXT="other">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_986750841" MODIFIED="1264599316278" STYLE="fork" TEXT="other">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
@@ -1257,64 +1272,65 @@
 </hook>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1243416555250" ID="Freemind_Link_1373597469" MODIFIED="1259250543581" TEXT="Species">
+<node COLOR="#996600" CREATED="1243416555250" ID="Freemind_Link_1373597469" MODIFIED="1264668341316" TEXT="Species">
 <font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="ksmiletris"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]List of species covered by the modal scheme.[/definition]</text>
 </hook>
-<node CREATED="1250609432457" ID="Freemind_Link_1324466309" MODIFIED="1257347705910" STYLE="fork" TEXT="sulphates">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_1035857085" MODIFIED="1264514522899" STYLE="fork" TEXT="sulphate">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1250609444360" ID="Freemind_Link_646580902" MODIFIED="1257347709220" STYLE="fork" TEXT="dust">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_588562422" MODIFIED="1264599299586" STYLE="fork" TEXT="nitrate">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1250609452160" ID="Freemind_Link_1707760567" MODIFIED="1257347719631" STYLE="fork" TEXT="black carbon">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_576742001" MODIFIED="1264599299586" STYLE="fork" TEXT="sea salt">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1250609470178" ID="Freemind_Link_1288570574" MODIFIED="1257347723411" STYLE="fork" TEXT="nitrates">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_748844948" MODIFIED="1264599299570" STYLE="fork" TEXT="dust">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1250609479390" ID="Freemind_Link_1108132113" MODIFIED="1250670073036" STYLE="fork" TEXT="POM">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_137654573" MODIFIED="1264599299570" STYLE="fork" TEXT="ice">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1250609449859" ID="Freemind_Link_1129254430" MODIFIED="1250670073005" STYLE="fork" TEXT="SOA">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_877034068" MODIFIED="1264599299570" STYLE="fork" TEXT="organic">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1250609452160" ID="Freemind_Link_648282933" MODIFIED="1257347730112" STYLE="fork" TEXT="sea salt">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_1314259865" MODIFIED="1264599372430" STYLE="fork" TEXT="BC (black carbon / soot)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1250609626881" ID="Freemind_Link_1033195409" MODIFIED="1250670072990" STYLE="fork" TEXT="PSC">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_1575202980" MODIFIED="1264599299570" STYLE="fork" TEXT="SOA (secondary organic aerosols)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1250609626881" ID="Freemind_Link_1259714253" MODIFIED="1256553158306" STYLE="fork" TEXT="STS">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_1316593989" MODIFIED="1264599299570" STYLE="fork" TEXT="POM (particulate organic matter)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1250609626881" ID="Freemind_Link_1566495262" MODIFIED="1256553176693" STYLE="fork" TEXT="NAT">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_357665889" MODIFIED="1264603247268" STYLE="fork" TEXT="polar stratospheric ice">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1250609626881" ID="Freemind_Link_1394174947" MODIFIED="1257347735426" STYLE="fork" TEXT="ice">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_350330625" MODIFIED="1264599299570" STYLE="fork" TEXT="NAT (nitric acid trihydrate)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1250609626881" ID="Freemind_Link_1269082368" MODIFIED="1257347742029" STYLE="fork" TEXT="organic">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_305616100" MODIFIED="1264599299570" STYLE="fork" TEXT="NAD (nitric acid dihydrate)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1250609482065" ID="Freemind_Link_1462992492" MODIFIED="1257954836378" STYLE="fork" TEXT="biomass">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_459960228" MODIFIED="1264599299570" STYLE="fork" TEXT="STS (supercooled ternary solution aerosol particule)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1250609482065" ID="Freemind_Link_359638195" MODIFIED="1257347683531" STYLE="fork" TEXT="other">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_1742113381" MODIFIED="1264599316278" STYLE="fork" TEXT="other">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
@@ -1342,64 +1358,65 @@
 </hook>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1243416555250" ID="Freemind_Link_181851195" MODIFIED="1259250822133" TEXT="Species">
+<node COLOR="#996600" CREATED="1243416555250" ID="Freemind_Link_181851195" MODIFIED="1264668346698" TEXT="Species">
 <font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="ksmiletris"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]List of species covered by the bin scheme.[/definition]</text>
 </hook>
-<node CREATED="1250609432457" ID="Freemind_Link_1045885477" MODIFIED="1257347705910" STYLE="fork" TEXT="sulphates">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_1157364001" MODIFIED="1264514522899" STYLE="fork" TEXT="sulphate">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1250609444360" ID="Freemind_Link_450190700" MODIFIED="1257347709220" STYLE="fork" TEXT="dust">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_1694680265" MODIFIED="1264599299586" STYLE="fork" TEXT="nitrate">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1250609452160" ID="Freemind_Link_914696510" MODIFIED="1257347719631" STYLE="fork" TEXT="black carbon">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_334412513" MODIFIED="1264599299586" STYLE="fork" TEXT="sea salt">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1250609470178" ID="Freemind_Link_830520160" MODIFIED="1257347723411" STYLE="fork" TEXT="nitrates">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_1863345838" MODIFIED="1264599299570" STYLE="fork" TEXT="dust">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1250609479390" ID="Freemind_Link_1269277549" MODIFIED="1250670073036" STYLE="fork" TEXT="POM">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_947191822" MODIFIED="1264599299570" STYLE="fork" TEXT="ice">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1250609449859" ID="Freemind_Link_1592599219" MODIFIED="1250670073005" STYLE="fork" TEXT="SOA">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_1757876760" MODIFIED="1264599299570" STYLE="fork" TEXT="organic">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1250609452160" ID="Freemind_Link_1457467140" MODIFIED="1257347730112" STYLE="fork" TEXT="sea salt">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_326124096" MODIFIED="1264599372430" STYLE="fork" TEXT="BC (black carbon / soot)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1250609626881" ID="Freemind_Link_182154296" MODIFIED="1250670072990" STYLE="fork" TEXT="PSC">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_775013771" MODIFIED="1264599299570" STYLE="fork" TEXT="SOA (secondary organic aerosols)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1250609626881" ID="Freemind_Link_27520391" MODIFIED="1256553158306" STYLE="fork" TEXT="STS">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_1317616485" MODIFIED="1264599299570" STYLE="fork" TEXT="POM (particulate organic matter)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1250609626881" ID="Freemind_Link_1744151287" MODIFIED="1256553176693" STYLE="fork" TEXT="NAT">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_1656056925" MODIFIED="1264603247268" STYLE="fork" TEXT="polar stratospheric ice">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1250609626881" ID="Freemind_Link_255460493" MODIFIED="1257347735426" STYLE="fork" TEXT="ice">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_556765713" MODIFIED="1264599299570" STYLE="fork" TEXT="NAT (nitric acid trihydrate)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1250609626881" ID="Freemind_Link_1841730747" MODIFIED="1257347742029" STYLE="fork" TEXT="organic">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_335260099" MODIFIED="1264599299570" STYLE="fork" TEXT="NAD (nitric acid dihydrate)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1250609482065" ID="Freemind_Link_373576505" MODIFIED="1257954849661" STYLE="fork" TEXT="biomass">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_1620448116" MODIFIED="1264599299570" STYLE="fork" TEXT="STS (supercooled ternary solution aerosol particule)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1250609482065" ID="Freemind_Link_412981499" MODIFIED="1257347683531" STYLE="fork" TEXT="other">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_1315230356" MODIFIED="1264599316278" STYLE="fork" TEXT="other">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
@@ -1437,64 +1454,65 @@
 </hook>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1243416555250" ID="Freemind_Link_1522388265" MODIFIED="1259251112937" TEXT="Species">
+<node COLOR="#996600" CREATED="1243416555250" ID="Freemind_Link_1522388265" MODIFIED="1264668351300" TEXT="Species">
 <font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="ksmiletris"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]List of species covered by the scheme.[/definition]</text>
 </hook>
-<node CREATED="1250609432457" ID="Freemind_Link_676714031" MODIFIED="1257347705910" STYLE="fork" TEXT="sulphates">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_1406944166" MODIFIED="1264514522899" STYLE="fork" TEXT="sulphate">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1250609444360" ID="Freemind_Link_570960303" MODIFIED="1257347709220" STYLE="fork" TEXT="dust">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_129744965" MODIFIED="1264599299586" STYLE="fork" TEXT="nitrate">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1250609452160" ID="Freemind_Link_1097313126" MODIFIED="1257347719631" STYLE="fork" TEXT="black carbon">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_473209664" MODIFIED="1264599299586" STYLE="fork" TEXT="sea salt">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1250609470178" ID="Freemind_Link_1785272033" MODIFIED="1257347723411" STYLE="fork" TEXT="nitrates">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_1343855225" MODIFIED="1264599299570" STYLE="fork" TEXT="dust">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1250609479390" ID="Freemind_Link_1238314083" MODIFIED="1250670073036" STYLE="fork" TEXT="POM">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_828283586" MODIFIED="1264599299570" STYLE="fork" TEXT="ice">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1250609449859" ID="Freemind_Link_113675132" MODIFIED="1250670073005" STYLE="fork" TEXT="SOA">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_1292952900" MODIFIED="1264599299570" STYLE="fork" TEXT="organic">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1250609452160" ID="Freemind_Link_1999467300" MODIFIED="1257347730112" STYLE="fork" TEXT="sea salt">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_1516280528" MODIFIED="1264599372430" STYLE="fork" TEXT="BC (black carbon / soot)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1250609626881" ID="Freemind_Link_1964192128" MODIFIED="1250670072990" STYLE="fork" TEXT="PSC">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_1160744635" MODIFIED="1264599299570" STYLE="fork" TEXT="SOA (secondary organic aerosols)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1250609626881" ID="Freemind_Link_977731187" MODIFIED="1256553158306" STYLE="fork" TEXT="STS">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_616478048" MODIFIED="1264599299570" STYLE="fork" TEXT="POM (particulate organic matter)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1250609626881" ID="Freemind_Link_1797207447" MODIFIED="1256553176693" STYLE="fork" TEXT="NAT">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_670574332" MODIFIED="1264603247268" STYLE="fork" TEXT="polar stratospheric ice">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1250609626881" ID="Freemind_Link_417975816" MODIFIED="1257347735426" STYLE="fork" TEXT="ice">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_1820640090" MODIFIED="1264599299570" STYLE="fork" TEXT="NAT (nitric acid trihydrate)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1250609626881" ID="Freemind_Link_1804989498" MODIFIED="1257347742029" STYLE="fork" TEXT="organic">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_716839503" MODIFIED="1264599299570" STYLE="fork" TEXT="NAD (nitric acid dihydrate)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1250609482065" ID="Freemind_Link_1893205944" MODIFIED="1257954875409" STYLE="fork" TEXT="biomass">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_1709145948" MODIFIED="1264599299570" STYLE="fork" TEXT="STS (supercooled ternary solution aerosol particule)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1250609482065" ID="Freemind_Link_1261852275" MODIFIED="1257347683531" STYLE="fork" TEXT="other">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_72156411" MODIFIED="1264599316278" STYLE="fork" TEXT="other">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>

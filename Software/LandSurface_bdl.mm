@@ -818,7 +818,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1256302553151" ID="Freemind_Link_241105238" MODIFIED="1264509013262" TEXT="VegetationClasses">
+<node COLOR="#996600" CREATED="1256302553151" ID="Freemind_Link_241105238" MODIFIED="1264603273000" TEXT="VegetationRepresentation">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="ksmiletris"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
@@ -828,12 +828,12 @@
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1256302578999" ID="Freemind_Link_1086775694" MODIFIED="1264501598782" STYLE="fork" TEXT="biomes">
+<node CREATED="1256302578999" ID="Freemind_Link_1086775694" MODIFIED="1264603287087" STYLE="fork" TEXT="biome types">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1256682894733" ID="Freemind_Link_54973668" MODIFIED="1264504473405" TEXT="if VegetationClasses is &quot;biomes&quot;">
+<node COLOR="#0033ff" CREATED="1256682894733" ID="Freemind_Link_54973668" MODIFIED="1264603295238" TEXT="if VegetationRepresentation is &quot;biome types&quot;">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="ksmiletris"/>
 <node COLOR="#996600" CREATED="1244817513545" ID="Freemind_Link_781961989" MODIFIED="1264509057208" STYLE="bubble" TEXT="BiomeTypes">
@@ -900,7 +900,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1256682894733" ID="Freemind_Link_1932198269" MODIFIED="1264504473405" TEXT="if VegetationClasses is &quot;vegetation types&quot;">
+<node COLOR="#0033ff" CREATED="1256682894733" ID="Freemind_Link_1932198269" MODIFIED="1264667718267" TEXT="if VegetationRepresentation is &quot;vegetation types&quot;">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="ksmiletris"/>
 <node COLOR="#996600" CREATED="1244817513545" ID="Freemind_Link_1085118886" MODIFIED="1264509050921" STYLE="bubble" TEXT="VegetationTypes">

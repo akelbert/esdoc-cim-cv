@@ -1056,7 +1056,7 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233138793223" FOLDED="true" ID="Freemind_Link_581230624" MODIFIED="1256685262003" TEXT="Atmos_Radiation">
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233138793223" ID="Freemind_Link_581230624" MODIFIED="1256685262003" TEXT="Atmos_Radiation">
 <font BOLD="true" NAME="Arial" SIZE="14"/>
 <node COLOR="#990099" CREATED="1254474733213" ID="Freemind_Link_339973238" MODIFIED="1256814425952" TEXT="AtmosRadiationAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1070,64 +1070,73 @@
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233141878328" ID="Freemind_Link_896455675" MODIFIED="1258363713327" TEXT="AerosolTypes">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233141878328" ID="Freemind_Link_896455675" MODIFIED="1264600087003" TEXT="AerosolTypes">
 <font NAME="Arial" SIZE="14"/>
+<icon BUILTIN="ksmiletris"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Aerosols whose radiative effect is taken into account.[/definition]</text>
+<text>[definition]Types of aerosols whose radiative effect is taken into account in the atmospheric model.[/definition]</text>
 </hook>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233141910000" ID="Freemind_Link_466407906" MODIFIED="1233932889745" STYLE="fork" TEXT="Continental">
-<font NAME="Arial" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233869708422" ID="Freemind_Link_917137442" MODIFIED="1233932889745" STYLE="fork" TEXT="Urban">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_1406944166" MODIFIED="1264514522899" STYLE="fork" TEXT="sulphate">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233141926336" ID="Freemind_Link_1065783075" MODIFIED="1233932889729" STYLE="fork" TEXT="Oceanic">
-<font NAME="Arial" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233869783778" ID="Freemind_Link_1295773533" MODIFIED="1233932889729" STYLE="fork" TEXT="Desertic">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_129744965" MODIFIED="1264599299586" STYLE="fork" TEXT="nitrate">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233869783778" ID="Freemind_Link_1188989457" MODIFIED="1240486092423" STYLE="fork" TEXT="Sulphate">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_473209664" MODIFIED="1264599299586" STYLE="fork" TEXT="sea salt">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233869783778" ID="Freemind_Link_486477317" MODIFIED="1240486101612" STYLE="fork" TEXT="Sea Salt">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_1343855225" MODIFIED="1264599299570" STYLE="fork" TEXT="dust">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233869783778" ID="Freemind_Link_1846295867" MODIFIED="1240486106370" STYLE="fork" TEXT="Soot">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_828283586" MODIFIED="1264599299570" STYLE="fork" TEXT="ice">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233869783778" ID="Freemind_Link_881728922" MODIFIED="1240486113218" STYLE="fork" TEXT="Biomass">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_1292952900" MODIFIED="1264599299570" STYLE="fork" TEXT="organic">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233869783778" ID="Freemind_Link_1740164759" MODIFIED="1240486171188" STYLE="fork" TEXT="Soil Dust">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_1516280528" MODIFIED="1264599372430" STYLE="fork" TEXT="BC (black carbon / soot)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233869783778" ID="Freemind_Link_900541307" MODIFIED="1240486173060" STYLE="fork" TEXT="NAT">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_1160744635" MODIFIED="1264599299570" STYLE="fork" TEXT="SOA (secondary organic aerosols)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233869783778" ID="Freemind_Link_1481783158" MODIFIED="1240486161235" STYLE="fork" TEXT="Polar Stratospheric Ice">
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_616478048" MODIFIED="1264599299570" STYLE="fork" TEXT="POM (particulate organic matter)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233270123274" ID="Freemind_Link_1419227788" MODIFIED="1255699678215" STYLE="fork" TEXT="other">
-<font NAME="Arial" SIZE="14"/>
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_670574332" MODIFIED="1264603247268" STYLE="fork" TEXT="polar stratospheric ice">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_1820640090" MODIFIED="1264599299570" STYLE="fork" TEXT="NAT (nitric acid trihydrate)">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_716839503" MODIFIED="1264599299570" STYLE="fork" TEXT="NAD (nitric acid dihydrate)">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_1709145948" MODIFIED="1264599299570" STYLE="fork" TEXT="STS (supercooled ternary solution aerosol particule)">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node COLOR="#000000" CREATED="1233869783778" ID="Freemind_Link_72156411" MODIFIED="1264599316278" STYLE="fork" TEXT="other">
+<font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233141942864" ID="Freemind_Link_801407375" MODIFIED="1258363357148" TEXT="GHG-Types">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233141942864" ID="Freemind_Link_801407375" MODIFIED="1264600115411" TEXT="GHG-Types">
 <font NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]GHG whose radiative effect is taken into account.[/definition]</text>
+<text>[definition]GHG whose radiative effect is taken into account in the atmospheric model.[/definition]</text>
 </hook>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233141956240" ID="Freemind_Link_158692884" MODIFIED="1233932889792" STYLE="fork" TEXT="CO2">
 <font NAME="Arial" SIZE="14"/>
@@ -1489,7 +1498,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1233139089011" FOLDED="true" ID="Freemind_Link_1449818111" MODIFIED="1254305857752" TEXT="MidLevelConvection">
+<node COLOR="#990099" CREATED="1233139089011" ID="Freemind_Link_1449818111" MODIFIED="1264600154996" TEXT="OtherConvection">
 <font NAME="SansSerif" SIZE="14"/>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233141816416" ID="Freemind_Link_356773749" MODIFIED="1258452335222" TEXT="SchemeName">
 <font NAME="Arial" SIZE="14"/>
