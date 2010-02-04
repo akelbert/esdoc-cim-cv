@@ -6,7 +6,7 @@
 <hook NAME="accessories/plugins/CreationModificationPlugin_new.properties"/>
 <node COLOR="#000000" CREATED="1243415250546" ID="Freemind_Link_1289853867" MODIFIED="1257777448269" POSITION="right" STYLE="bubble" TEXT="Aerosols">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node COLOR="#000000" CREATED="1253796559148" ID="Freemind_Link_969659526" MODIFIED="1257777734149" TEXT="AerosolKeyProperties_">
+<node COLOR="#000000" CREATED="1253796559148" FOLDED="true" ID="Freemind_Link_969659526" MODIFIED="1257777734149" TEXT="AerosolKeyProperties_">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1254486057572" ID="Freemind_Link_26535854" MODIFIED="1257777739477" TEXT="AerosolKeyPropertiesAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
@@ -352,7 +352,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1243421900109" ID="Freemind_Link_1833059964" MODIFIED="1257777729399" TEXT="Aerosol_Transport">
+<node COLOR="#000000" CREATED="1243421900109" FOLDED="true" ID="Freemind_Link_1833059964" MODIFIED="1257777729399" TEXT="Aerosol_Transport">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1256285080292" ID="Freemind_Link_330267481" MODIFIED="1257777758002" TEXT="AerosolTransportAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
@@ -463,254 +463,64 @@
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1243422071515" FOLDED="true" ID="Freemind_Link_1203732598" MODIFIED="1258104864633" TEXT="Aerosol_EmissionAndConc">
+<node COLOR="#000000" CREATED="1243422071515" ID="Freemind_Link_1203732598" MODIFIED="1258104864633" TEXT="Aerosol_EmissionAndConc">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#000000" CREATED="1243422235015" ID="Freemind_Link_650081149" MODIFIED="1259249870310" TEXT="Aerosol_2D-Sources">
-<font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#990099" CREATED="1243422252593" ID="Freemind_Link_625857925" MODIFIED="1257938053376" TEXT="Vegetation">
+<node COLOR="#990099" CREATED="1243422252593" ID="Freemind_Link_625857925" MODIFIED="1264679960831" TEXT="2D-Emissions">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1243422324468" ID="Freemind_Link_1623680666" MODIFIED="1259241591694" TEXT="SpeciesEmitted">
+<node COLOR="#996600" CREATED="1244467041993" ID="Freemind_Link_1239785627" MODIFIED="1265031953122" TEXT="Method">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]List of species emitted by vegetation.[/definition]</text>
+<text>[definition]Method used to define aerosol species emitted at the surface (several methods allowed because the different species may not use the same method)[/definition]</text>
 </hook>
-<node COLOR="#111111" CREATED="1244070048872" ID="Freemind_Link_76447788" MODIFIED="1257346662492" STYLE="fork" TEXT="">
+<node COLOR="#000000" CREATED="1243422295125" ID="Freemind_Link_1570018734" MODIFIED="1253695989543" STYLE="fork" TEXT="prescribed (climatology)">
 <font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="pencil"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node COLOR="#000000" CREATED="1243422171765" ID="Freemind_Link_153230918" MODIFIED="1253695977991" STYLE="fork" TEXT="prescribed (spatially uniform)">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node COLOR="#000000" CREATED="1243422165921" ID="Freemind_Link_1191557498" MODIFIED="1253636178446" STYLE="fork" TEXT="interactive">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node COLOR="#000000" CREATED="1243422303484" ID="Freemind_Link_192602583" MODIFIED="1253695060048" STYLE="fork" TEXT="other">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244467041993" ID="Freemind_Link_1987665248" MODIFIED="1259241583853" TEXT="Method">
+<node COLOR="#996600" CREATED="1244467041993" ID="Freemind_Link_1065722201" MODIFIED="1265044313268" TEXT="SourceTypes">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Method used to define species emitted by vegetation.[/definition]</text>
+<text>[definition]Sources of aerosols emitted at the surface that are taken into account in the emissions scheme.[/definition]</text>
 </hook>
-<node COLOR="#000000" CREATED="1243422295125" ID="Freemind_Link_558365600" MODIFIED="1253695989543" STYLE="fork" TEXT="prescribed (climatology)">
+<node COLOR="#000000" CREATED="1243422295125" ID="Freemind_Link_232746905" MODIFIED="1265044080393" STYLE="fork" TEXT="vegetation">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node COLOR="#000000" CREATED="1243422171765" ID="Freemind_Link_1830016631" MODIFIED="1253695977991" STYLE="fork" TEXT="prescribed (spatially uniform)">
+<node COLOR="#000000" CREATED="1243422171765" ID="Freemind_Link_1883374133" MODIFIED="1265044101056" STYLE="fork" TEXT="bare ground">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node COLOR="#000000" CREATED="1243422165921" ID="Freemind_Link_367198678" MODIFIED="1253636178446" STYLE="fork" TEXT="interactive">
+<node COLOR="#000000" CREATED="1243422165921" ID="Freemind_Link_1715725469" MODIFIED="1265044098038" STYLE="fork" TEXT="sea surface">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node COLOR="#000000" CREATED="1243422303484" ID="Freemind_Link_582560258" MODIFIED="1253695060048" STYLE="fork" TEXT="other">
+<node COLOR="#000000" CREATED="1243422303484" ID="Freemind_Link_1376682245" MODIFIED="1265044128021" STYLE="fork" TEXT="anthropogenic">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node COLOR="#000000" CREATED="1243422303484" ID="Freemind_Link_1978884088" MODIFIED="1253695060048" STYLE="fork" TEXT="other">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1256201233253" ID="Freemind_Link_920199159" MODIFIED="1256201284307" TEXT="if Method is &quot;prescribed (climatology)&quot;">
+<node COLOR="#0033ff" CREATED="1257780702273" ID="Freemind_Link_95561302" MODIFIED="1265031824399" TEXT="if Method has &quot;prescribed (climatology)&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1244467041993" ID="Freemind_Link_506167752" MODIFIED="1259239534625" TEXT="ClimatologyType">
+<node COLOR="#996600" CREATED="1244467041993" ID="Freemind_Link_1015159196" MODIFIED="1265032359954" TEXT="ClimatologyType">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Specify the climatology type.[/definition]</text>
-</hook>
-<node COLOR="#111111" CREATED="1243422192375" ID="Freemind_Link_1392247697" MODIFIED="1253695070095" STYLE="fork" TEXT="constant">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node COLOR="#111111" CREATED="1244068644052" ID="Freemind_Link_1913011500" MODIFIED="1250167614944" STYLE="fork" TEXT="interannual">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node COLOR="#111111" CREATED="1244068648459" ID="Freemind_Link_1629257875" MODIFIED="1250167614944" STYLE="fork" TEXT="annual">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node COLOR="#111111" CREATED="1244068651493" ID="Freemind_Link_845576470" MODIFIED="1250167614929" STYLE="fork" TEXT="monthly">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node COLOR="#111111" CREATED="1244068655650" ID="Freemind_Link_936105930" MODIFIED="1250167614929" STYLE="fork" TEXT="daily">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node COLOR="#111111" CREATED="1243422226812" ID="Freemind_Link_1830424714" MODIFIED="1253695074346" STYLE="fork" TEXT="other">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-</node>
-</node>
-</node>
-<node COLOR="#990099" CREATED="1243422252593" ID="Freemind_Link_1795240332" MODIFIED="1258118761332" TEXT="BareGround">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1243422324468" ID="Freemind_Link_1340095942" MODIFIED="1259241569845" TEXT="SpeciesEmitted">
-<font NAME="SansSerif" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]List of species emitted by bare ground.[/definition]</text>
-</hook>
-<node COLOR="#111111" CREATED="1244070048872" ID="Freemind_Link_1943997303" MODIFIED="1257346662492" STYLE="fork" TEXT="">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="pencil"/>
-</node>
-</node>
-<node COLOR="#996600" CREATED="1244467041993" ID="Freemind_Link_831128702" MODIFIED="1259241576292" TEXT="Method">
-<font NAME="SansSerif" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Method used to define species emitted by the sea.[/definition]</text>
-</hook>
-<node COLOR="#000000" CREATED="1243422295125" ID="Freemind_Link_1819062950" MODIFIED="1253695989543" STYLE="fork" TEXT="prescribed (climatology)">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node COLOR="#000000" CREATED="1243422171765" ID="Freemind_Link_1204095379" MODIFIED="1253695977991" STYLE="fork" TEXT="prescribed (spatially uniform)">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node COLOR="#000000" CREATED="1243422165921" ID="Freemind_Link_307235982" MODIFIED="1253636178446" STYLE="fork" TEXT="interactive">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node COLOR="#000000" CREATED="1243422303484" ID="Freemind_Link_1601935251" MODIFIED="1253695060048" STYLE="fork" TEXT="other">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1256201233253" ID="Freemind_Link_215569021" MODIFIED="1256201284307" TEXT="if Method is &quot;prescribed (climatology)&quot;">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1244467041993" ID="Freemind_Link_1038529740" MODIFIED="1259240949400" TEXT="ClimatologyType">
-<font NAME="SansSerif" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Specify the climatology type.[/definition]</text>
-</hook>
-<node COLOR="#111111" CREATED="1243422192375" ID="Freemind_Link_647315491" MODIFIED="1253695070095" STYLE="fork" TEXT="constant">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node COLOR="#111111" CREATED="1244068644052" ID="Freemind_Link_1992950568" MODIFIED="1250167614944" STYLE="fork" TEXT="interannual">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node COLOR="#111111" CREATED="1244068648459" ID="Freemind_Link_781265784" MODIFIED="1250167614944" STYLE="fork" TEXT="annual">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node COLOR="#111111" CREATED="1244068651493" ID="Freemind_Link_203833551" MODIFIED="1250167614929" STYLE="fork" TEXT="monthly">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node COLOR="#111111" CREATED="1244068655650" ID="Freemind_Link_23166036" MODIFIED="1250167614929" STYLE="fork" TEXT="daily">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node COLOR="#111111" CREATED="1243422226812" ID="Freemind_Link_108399191" MODIFIED="1253695074346" STYLE="fork" TEXT="other">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-</node>
-</node>
-</node>
-<node COLOR="#990099" CREATED="1243422252593" ID="Freemind_Link_1469612484" MODIFIED="1257938128034" TEXT="SeaSurface">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1243422324468" ID="Freemind_Link_1940248815" MODIFIED="1259241623231" TEXT="SpeciesEmitted">
-<font NAME="SansSerif" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]list of species emitted by the sea.[/definition]</text>
-</hook>
-<node COLOR="#111111" CREATED="1244070048872" ID="Freemind_Link_1873149913" MODIFIED="1257346662492" STYLE="fork" TEXT="">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="pencil"/>
-</node>
-</node>
-<node COLOR="#996600" CREATED="1244467041993" ID="Freemind_Link_385846381" MODIFIED="1259241512019" TEXT="Method">
-<font NAME="SansSerif" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Method used to define species emitted by the sea.[/definition]</text>
-</hook>
-<node COLOR="#000000" CREATED="1243422295125" ID="Freemind_Link_627535202" MODIFIED="1253695989543" STYLE="fork" TEXT="prescribed (climatology)">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node COLOR="#000000" CREATED="1243422171765" ID="Freemind_Link_748691703" MODIFIED="1253695977991" STYLE="fork" TEXT="prescribed (spatially uniform)">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node COLOR="#000000" CREATED="1243422165921" ID="Freemind_Link_1186909055" MODIFIED="1253636178446" STYLE="fork" TEXT="interactive">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node COLOR="#000000" CREATED="1243422303484" ID="Freemind_Link_1215817263" MODIFIED="1253695060048" STYLE="fork" TEXT="other">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1256201233253" ID="Freemind_Link_1663499231" MODIFIED="1256201284307" TEXT="if Method is &quot;prescribed (climatology)&quot;">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1244467041993" ID="Freemind_Link_1979316294" MODIFIED="1259241422385" TEXT="ClimatologyType">
-<font NAME="SansSerif" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Specify the climatology type.[/definition]</text>
-</hook>
-<node COLOR="#111111" CREATED="1243422192375" ID="Freemind_Link_1498576836" MODIFIED="1253695070095" STYLE="fork" TEXT="constant">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node COLOR="#111111" CREATED="1244068644052" ID="Freemind_Link_295389021" MODIFIED="1250167614944" STYLE="fork" TEXT="interannual">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node COLOR="#111111" CREATED="1244068648459" ID="Freemind_Link_1344281872" MODIFIED="1250167614944" STYLE="fork" TEXT="annual">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node COLOR="#111111" CREATED="1244068651493" ID="Freemind_Link_1184047487" MODIFIED="1250167614929" STYLE="fork" TEXT="monthly">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node COLOR="#111111" CREATED="1244068655650" ID="Freemind_Link_1448158909" MODIFIED="1250167614929" STYLE="fork" TEXT="daily">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node COLOR="#111111" CREATED="1243422226812" ID="Freemind_Link_1292184435" MODIFIED="1253695074346" STYLE="fork" TEXT="other">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-</node>
-</node>
-</node>
-<node COLOR="#990099" CREATED="1243422252593" ID="Freemind_Link_842177742" MODIFIED="1257938394466" TEXT="Anthropogenic">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1243422324468" ID="Freemind_Link_1006973495" MODIFIED="1259241496585" TEXT="SpeciesEmitted">
-<font NAME="SansSerif" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]List of species emitted by human activities at the surface.[/definition]</text>
-</hook>
-<node COLOR="#111111" CREATED="1244070048872" ID="Freemind_Link_1429988358" MODIFIED="1257346662492" STYLE="fork" TEXT="">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="pencil"/>
-</node>
-</node>
-<node COLOR="#996600" CREATED="1244467041993" ID="Freemind_Link_1863185932" MODIFIED="1259241557252" TEXT="Method">
-<font NAME="SansSerif" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Method used to define species emitted by human activities at the surface.[/definition]</text>
-</hook>
-<node COLOR="#000000" CREATED="1243422295125" ID="Freemind_Link_83375512" MODIFIED="1253695989543" STYLE="fork" TEXT="prescribed (climatology)">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node COLOR="#000000" CREATED="1243422171765" ID="Freemind_Link_1756624995" MODIFIED="1253695977991" STYLE="fork" TEXT="prescribed (spatially uniform)">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node COLOR="#000000" CREATED="1243422165921" ID="Freemind_Link_1964481812" MODIFIED="1253636178446" STYLE="fork" TEXT="interactive">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node COLOR="#000000" CREATED="1243422303484" ID="Freemind_Link_1424389033" MODIFIED="1253695060048" STYLE="fork" TEXT="other">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1256201233253" ID="Freemind_Link_748441895" MODIFIED="1256201284307" TEXT="if Method is &quot;prescribed (climatology)&quot;">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1244467041993" ID="Freemind_Link_1015159196" MODIFIED="1259241659352" TEXT="ClimatologyType">
-<font NAME="SansSerif" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Specify the climatology type.[/definition]</text>
+<text>[definition]Specify the climatology type for aerosols emissions prescribed at the surface.[/definition]</text>
 </hook>
 <node COLOR="#111111" CREATED="1243422192375" ID="Freemind_Link_931590779" MODIFIED="1253695070095" STYLE="fork" TEXT="constant">
 <font NAME="SansSerif" SIZE="14"/>
@@ -737,272 +547,206 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-</node>
-</node>
-</node>
-<node COLOR="#000000" CREATED="1243422238671" ID="Freemind_Link_85250288" MODIFIED="1259249884844" TEXT="Aerosol_3D-Sources">
-<font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#990099" CREATED="1243422252593" ID="Freemind_Link_786529567" MODIFIED="1256199523795" TEXT="Aircraft">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1243422324468" ID="Freemind_Link_85322913" MODIFIED="1259247181961" TEXT="SpeciesEmitted">
+<node COLOR="#996600" CREATED="1243422324468" ID="Freemind_Link_1006973495" MODIFIED="1265043617020" TEXT="SpeciesEmitted">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]List of species emitted by aircrafts.[/definition]</text>
+<text>[definition]List of aerosol species emitted at the surface and prescribed via a climatology.[/definition]</text>
 </hook>
-<node COLOR="#111111" CREATED="1244070048872" ID="Freemind_Link_84517240" MODIFIED="1257346662492" STYLE="fork" TEXT="">
+<node COLOR="#111111" CREATED="1244070048872" ID="Freemind_Link_1429988358" MODIFIED="1257346662492" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="pencil"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244467041993" ID="Freemind_Link_1708734731" MODIFIED="1259247239675" TEXT="Method">
+</node>
+<node COLOR="#0033ff" CREATED="1257780702273" ID="Freemind_Link_1750639460" MODIFIED="1265043327520" TEXT="if Method has &quot;prescribed (spatially uniform)&quot;">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#996600" CREATED="1243422324468" ID="Freemind_Link_1775401126" MODIFIED="1265043808245" TEXT="SpeciesEmitted">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Method used to define species emitted by aircraft.[/definition]</text>
+<text>[definition]List of aerosol species emitted at the surface and prescribed as spatially uniform.[/definition]</text>
 </hook>
-<node COLOR="#000000" CREATED="1243422295125" ID="Freemind_Link_1986768966" MODIFIED="1253695989543" STYLE="fork" TEXT="prescribed (climatology)">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node COLOR="#000000" CREATED="1243422171765" ID="Freemind_Link_661116304" MODIFIED="1253695977991" STYLE="fork" TEXT="prescribed (spatially uniform)">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node COLOR="#000000" CREATED="1243422303484" ID="Freemind_Link_237742391" MODIFIED="1253695060048" STYLE="fork" TEXT="other">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1256201233253" ID="Freemind_Link_1491895616" MODIFIED="1256201284307" TEXT="if Method is &quot;prescribed (climatology)&quot;">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1244467041993" ID="Freemind_Link_281365470" MODIFIED="1259247265900" TEXT="ClimatologyType">
-<font NAME="SansSerif" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Specify the climatology type.[/definition]</text>
-</hook>
-<node COLOR="#111111" CREATED="1243422192375" ID="Freemind_Link_1440425721" MODIFIED="1253695070095" STYLE="fork" TEXT="constant">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node COLOR="#111111" CREATED="1244068644052" ID="Freemind_Link_578312784" MODIFIED="1250167614944" STYLE="fork" TEXT="interannual">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node COLOR="#111111" CREATED="1244068648459" ID="Freemind_Link_873982303" MODIFIED="1250167614944" STYLE="fork" TEXT="annual">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node COLOR="#111111" CREATED="1244068651493" ID="Freemind_Link_1004304554" MODIFIED="1250167614929" STYLE="fork" TEXT="monthly">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node COLOR="#111111" CREATED="1244068655650" ID="Freemind_Link_567570292" MODIFIED="1250167614929" STYLE="fork" TEXT="daily">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node COLOR="#111111" CREATED="1243422226812" ID="Freemind_Link_179699952" MODIFIED="1253695074346" STYLE="fork" TEXT="other">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-</node>
-</node>
-</node>
-<node COLOR="#990099" CREATED="1243422257750" ID="Freemind_Link_1260368760" MODIFIED="1256199527394" TEXT="BiomassBurning">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1243422533921" ID="Freemind_Link_279665540" MODIFIED="1259247309262" TEXT="SpeciesEmitted">
-<font NAME="SansSerif" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]List of 3D species emitted by biomass burning.[/definition]</text>
-</hook>
-<node COLOR="#111111" CREATED="1244070048872" ID="Freemind_Link_1338078889" MODIFIED="1257346816774" STYLE="fork" TEXT="">
+<node COLOR="#111111" CREATED="1244070048872" ID="Freemind_Link_408999422" MODIFIED="1257346662492" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="pencil"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244467222650" ID="Freemind_Link_1891984260" MODIFIED="1259247349288" TEXT="Method">
+</node>
+<node COLOR="#0033ff" CREATED="1257780702273" ID="Freemind_Link_59229838" MODIFIED="1265043360436" TEXT="if Method has &quot;interactive&quot;">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#996600" CREATED="1243422324468" ID="Freemind_Link_1590099299" MODIFIED="1265043906588" TEXT="SpeciesEmitted">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Method used to define species emitted by biomass burning.[/definition]</text>
+<text>[definition]List of aerosol species emitted at the surface and specified via an interactive method.[/definition]</text>
 </hook>
-<node COLOR="#000000" CREATED="1243422295125" ID="Freemind_Link_1207645748" MODIFIED="1253695989543" STYLE="fork" TEXT="prescribed (climatology)">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node COLOR="#000000" CREATED="1243422171765" ID="Freemind_Link_376389316" MODIFIED="1253695977991" STYLE="fork" TEXT="prescribed (spatially uniform)">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node COLOR="#000000" CREATED="1243422165921" ID="Freemind_Link_1466048913" MODIFIED="1253695106076" STYLE="fork" TEXT="interactive">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node COLOR="#000000" CREATED="1243422176171" ID="Freemind_Link_4276216" MODIFIED="1253695106060" STYLE="fork" TEXT="other">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1256201233253" ID="Freemind_Link_833652137" MODIFIED="1256201284307" TEXT="if Method is &quot;prescribed (climatology)&quot;">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1244467041993" ID="Freemind_Link_1044820990" MODIFIED="1259247265900" TEXT="ClimatologyType">
-<font NAME="SansSerif" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Specify the climatology type.[/definition]</text>
-</hook>
-<node COLOR="#111111" CREATED="1243422192375" ID="Freemind_Link_998463466" MODIFIED="1253695070095" STYLE="fork" TEXT="constant">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node COLOR="#111111" CREATED="1244068644052" ID="Freemind_Link_1994033044" MODIFIED="1250167614944" STYLE="fork" TEXT="interannual">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node COLOR="#111111" CREATED="1244068648459" ID="Freemind_Link_1901428468" MODIFIED="1250167614944" STYLE="fork" TEXT="annual">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node COLOR="#111111" CREATED="1244068651493" ID="Freemind_Link_1624345235" MODIFIED="1250167614929" STYLE="fork" TEXT="monthly">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node COLOR="#111111" CREATED="1244068655650" ID="Freemind_Link_1023124981" MODIFIED="1250167614929" STYLE="fork" TEXT="daily">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node COLOR="#111111" CREATED="1243422226812" ID="Freemind_Link_1444679501" MODIFIED="1253695074346" STYLE="fork" TEXT="other">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-</node>
-</node>
-</node>
-<node COLOR="#990099" CREATED="1243422272046" ID="Freemind_Link_1268604114" MODIFIED="1257937180742" TEXT="Lightning">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1243422568500" ID="Freemind_Link_1908117934" MODIFIED="1259247379585" TEXT="PrecursorSpeciesEmitted">
-<font NAME="SansSerif" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]List of species emitted by lightning.[/definition]</text>
-</hook>
-<node COLOR="#111111" CREATED="1244070048872" ID="Freemind_Link_488887927" MODIFIED="1257346850206" STYLE="fork" TEXT="">
+<node COLOR="#111111" CREATED="1244070048872" ID="Freemind_Link_1916591148" MODIFIED="1257346662492" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="pencil"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244467222650" ID="Freemind_Link_1448065370" MODIFIED="1259247408523" TEXT="Method">
+</node>
+<node COLOR="#0033ff" CREATED="1257780702273" ID="Freemind_Link_367598105" MODIFIED="1265031835404" TEXT="if Method has &quot;other&quot;">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#996600" CREATED="1258103965122" ID="Freemind_Link_1120034120" MODIFIED="1265032451199" TEXT="MethodCharacteristics">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Method used to define species emitted by lightning.[/definition]</text>
+<text>[definition]Characteristics of the method used for aerosol emissions at the surface.[/definition]</text>
 </hook>
-<node COLOR="#000000" CREATED="1243422295125" ID="Freemind_Link_1261660876" MODIFIED="1253695989543" STYLE="fork" TEXT="prescribed (climatology)">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node COLOR="#000000" CREATED="1243422171765" ID="Freemind_Link_1735093526" MODIFIED="1253695977991" STYLE="fork" TEXT="prescribed (spatially uniform)">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node COLOR="#000000" CREATED="1243422165921" ID="Freemind_Link_1843652670" MODIFIED="1253695106076" STYLE="fork" TEXT="interactive">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node COLOR="#000000" CREATED="1243422176171" ID="Freemind_Link_835718232" MODIFIED="1253695106060" STYLE="fork" TEXT="other">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1256201233253" ID="Freemind_Link_342159055" MODIFIED="1256201284307" TEXT="if Method is &quot;prescribed (climatology)&quot;">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1244467041993" ID="Freemind_Link_1230869942" MODIFIED="1259247265900" TEXT="ClimatologyType">
-<font NAME="SansSerif" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Specify the climatology type.[/definition]</text>
-</hook>
-<node COLOR="#111111" CREATED="1243422192375" ID="Freemind_Link_758431626" MODIFIED="1253695070095" STYLE="fork" TEXT="constant">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node COLOR="#111111" CREATED="1244068644052" ID="Freemind_Link_347638608" MODIFIED="1250167614944" STYLE="fork" TEXT="interannual">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node COLOR="#111111" CREATED="1244068648459" ID="Freemind_Link_1856755" MODIFIED="1250167614944" STYLE="fork" TEXT="annual">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node COLOR="#111111" CREATED="1244068651493" ID="Freemind_Link_600717366" MODIFIED="1250167614929" STYLE="fork" TEXT="monthly">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node COLOR="#111111" CREATED="1244068655650" ID="Freemind_Link_1071146262" MODIFIED="1250167614929" STYLE="fork" TEXT="daily">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node COLOR="#111111" CREATED="1243422226812" ID="Freemind_Link_1206579731" MODIFIED="1253695074346" STYLE="fork" TEXT="other">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-</node>
-</node>
-</node>
-<node COLOR="#990099" CREATED="1243422276578" ID="Freemind_Link_1901109105" MODIFIED="1256199551310" TEXT="Volcanic">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1243422568500" ID="Freemind_Link_1550859625" MODIFIED="1257346881307" TEXT="SpeciesEmitted">
-<font NAME="SansSerif" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]list of 3D species emitted by volcanoes.[/definition]</text>
-</hook>
-<node COLOR="#111111" CREATED="1244070048872" ID="Freemind_Link_257526119" MODIFIED="1257346870068" STYLE="fork" TEXT="">
+<node CREATED="1258104235821" ID="Freemind_Link_650872146" MODIFIED="1258104252264" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="pencil"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244467041993" ID="Freemind_Link_912452292" MODIFIED="1259247464976" TEXT="Method">
+<node COLOR="#996600" CREATED="1243422324468" ID="Freemind_Link_1250937615" MODIFIED="1265043716626" TEXT="SpeciesEmitted">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Method used to define species emitted by volcanoes.[/definition]</text>
+<text>[definition]List of aerosol species emitted at the surface and specified via the method described above.[/definition]</text>
 </hook>
-<node COLOR="#000000" CREATED="1243422295125" ID="Freemind_Link_1236700134" MODIFIED="1253695989543" STYLE="fork" TEXT="prescribed (climatology)">
+<node COLOR="#111111" CREATED="1244070048872" ID="Freemind_Link_207474634" MODIFIED="1257346662492" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node COLOR="#000000" CREATED="1243422171765" ID="Freemind_Link_1551416759" MODIFIED="1253695977991" STYLE="fork" TEXT="prescribed (spatially uniform)">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node COLOR="#000000" CREATED="1243422176171" ID="Freemind_Link_52337859" MODIFIED="1253695106060" STYLE="fork" TEXT="other">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
+<icon BUILTIN="pencil"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1256201233253" ID="Freemind_Link_1137892891" MODIFIED="1256201284307" TEXT="if Method is &quot;prescribed (climatology)&quot;">
+</node>
+</node>
+<node COLOR="#990099" CREATED="1243422252593" ID="Freemind_Link_64279269" MODIFIED="1264681553009" TEXT="3D-Emissions">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1244467041993" ID="Freemind_Link_1554886166" MODIFIED="1259247265900" TEXT="ClimatologyType">
+<node COLOR="#996600" CREATED="1244467041993" ID="Freemind_Link_1016845722" MODIFIED="1265032243766" TEXT="Method">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Specify the climatology type.[/definition]</text>
+<text>[definition]Method used to define aerosol species emitted in the atmosphere (several methods allowed because the different species may not use the same method).[/definition]</text>
 </hook>
-<node COLOR="#111111" CREATED="1243422192375" ID="Freemind_Link_1082314397" MODIFIED="1253695070095" STYLE="fork" TEXT="constant">
+<node COLOR="#000000" CREATED="1243422295125" ID="Freemind_Link_295276803" MODIFIED="1253695989543" STYLE="fork" TEXT="prescribed (climatology)">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node COLOR="#000000" CREATED="1243422171765" ID="Freemind_Link_891744105" MODIFIED="1253695977991" STYLE="fork" TEXT="prescribed (spatially uniform)">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node COLOR="#000000" CREATED="1243422165921" ID="Freemind_Link_493199744" MODIFIED="1253636178446" STYLE="fork" TEXT="interactive">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node COLOR="#000000" CREATED="1243422303484" ID="Freemind_Link_523411660" MODIFIED="1253695060048" STYLE="fork" TEXT="other">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+</node>
+<node COLOR="#996600" CREATED="1244467041993" ID="Freemind_Link_423875565" MODIFIED="1265044322894" TEXT="SourceTypes">
+<font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Sources of aerosols emitted in the atmosphere that are taken into account in the emissions scheme.[/definition]</text>
+</hook>
+<node COLOR="#000000" CREATED="1243422295125" ID="Freemind_Link_1388051881" MODIFIED="1265044217666" STYLE="fork" TEXT="aircraft">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node COLOR="#000000" CREATED="1243422171765" ID="Freemind_Link_708234101" MODIFIED="1265044228272" STYLE="fork" TEXT="biomass burning">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node COLOR="#000000" CREATED="1243422165921" ID="Freemind_Link_661714887" MODIFIED="1265277740278" STYLE="fork" TEXT="lightning">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node COLOR="#000000" CREATED="1243422303484" ID="Freemind_Link_106808488" MODIFIED="1265277751479" STYLE="fork" TEXT="volcanoes">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node COLOR="#000000" CREATED="1243422303484" ID="Freemind_Link_634119130" MODIFIED="1253695060048" STYLE="fork" TEXT="other">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1257780702273" ID="Freemind_Link_1368716603" MODIFIED="1264680787954" TEXT="if Method has &quot;prescribed (climatology)&quot;">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#996600" CREATED="1244467041993" ID="Freemind_Link_93200593" MODIFIED="1265032638352" TEXT="ClimatologyType">
+<font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Specify the climatology type for aerosols emissions prescribed in the atmosphere.[/definition]</text>
+</hook>
+<node COLOR="#111111" CREATED="1243422192375" ID="Freemind_Link_622398568" MODIFIED="1253695070095" STYLE="fork" TEXT="constant">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node COLOR="#111111" CREATED="1244068644052" ID="Freemind_Link_1666791549" MODIFIED="1250167614944" STYLE="fork" TEXT="interannual">
+<node COLOR="#111111" CREATED="1244068644052" ID="Freemind_Link_578572174" MODIFIED="1250167614944" STYLE="fork" TEXT="interannual">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node COLOR="#111111" CREATED="1244068648459" ID="Freemind_Link_928542836" MODIFIED="1250167614944" STYLE="fork" TEXT="annual">
+<node COLOR="#111111" CREATED="1244068648459" ID="Freemind_Link_288922325" MODIFIED="1250167614944" STYLE="fork" TEXT="annual">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node COLOR="#111111" CREATED="1244068651493" ID="Freemind_Link_1119917918" MODIFIED="1250167614929" STYLE="fork" TEXT="monthly">
+<node COLOR="#111111" CREATED="1244068651493" ID="Freemind_Link_1311691626" MODIFIED="1250167614929" STYLE="fork" TEXT="monthly">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node COLOR="#111111" CREATED="1244068655650" ID="Freemind_Link_1667935248" MODIFIED="1250167614929" STYLE="fork" TEXT="daily">
+<node COLOR="#111111" CREATED="1244068655650" ID="Freemind_Link_1655261312" MODIFIED="1250167614929" STYLE="fork" TEXT="daily">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node COLOR="#111111" CREATED="1243422226812" ID="Freemind_Link_897302233" MODIFIED="1253695074346" STYLE="fork" TEXT="other">
+<node COLOR="#111111" CREATED="1243422226812" ID="Freemind_Link_1365853782" MODIFIED="1253695074346" STYLE="fork" TEXT="other">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
+</node>
+<node COLOR="#996600" CREATED="1243422324468" ID="Freemind_Link_1696981333" MODIFIED="1265043788012" TEXT="SpeciesEmitted">
+<font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]List of aerosol species emitted in the atmosphere and prescribed via a climatology.[/definition]</text>
+</hook>
+<node COLOR="#111111" CREATED="1244070048872" ID="Freemind_Link_567329655" MODIFIED="1257346662492" STYLE="fork" TEXT="">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="pencil"/>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1257780702273" ID="Freemind_Link_656515135" MODIFIED="1265043327520" TEXT="if Method has &quot;prescribed (spatially uniform)&quot;">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#996600" CREATED="1243422324468" ID="Freemind_Link_145574185" MODIFIED="1265043817902" TEXT="SpeciesEmitted">
+<font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]List of aerosol species emitted in the atmosphere and prescribed as spatially uniform.[/definition]</text>
+</hook>
+<node COLOR="#111111" CREATED="1244070048872" ID="Freemind_Link_414628421" MODIFIED="1257346662492" STYLE="fork" TEXT="">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="pencil"/>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1257780702273" ID="Freemind_Link_287515875" MODIFIED="1265043360436" TEXT="if Method has &quot;interactive&quot;">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#996600" CREATED="1243422324468" ID="Freemind_Link_1122292032" MODIFIED="1265043927710" TEXT="SpeciesEmitted">
+<font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]List of aerosol species emitted in the atmosphere and specified via an interactive method.[/definition]</text>
+</hook>
+<node COLOR="#111111" CREATED="1244070048872" ID="Freemind_Link_265631292" MODIFIED="1257346662492" STYLE="fork" TEXT="">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="pencil"/>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1257780702273" ID="Freemind_Link_160257054" MODIFIED="1264681166363" TEXT="if Method has &quot;other&quot;">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#996600" CREATED="1258103965122" ID="Freemind_Link_1200913506" MODIFIED="1265032573050" TEXT="MethodCharacteristics">
+<font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Characteristics of the method used for aerosol emissions in the atmosphere.[/definition]</text>
+</hook>
+<node CREATED="1258104235821" ID="Freemind_Link_101449740" MODIFIED="1258104252264" STYLE="fork" TEXT="">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="pencil"/>
+</node>
+</node>
+<node COLOR="#996600" CREATED="1243422324468" ID="Freemind_Link_1498402119" MODIFIED="1265043966975" TEXT="SpeciesEmitted">
+<font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]List of aerosol species emitted in the atmosphere and specified via the method described above.[/definition]</text>
+</hook>
+<node COLOR="#111111" CREATED="1244070048872" ID="Freemind_Link_27384893" MODIFIED="1257346662492" STYLE="fork" TEXT="">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="pencil"/>
 </node>
 </node>
 </node>
@@ -1031,7 +775,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1256200944012" ID="Freemind_Link_1650611385" MODIFIED="1257936984896" TEXT="Aerosol_Model">
+<node COLOR="#000000" CREATED="1256200944012" FOLDED="true" ID="Freemind_Link_1650611385" MODIFIED="1257936984896" TEXT="Aerosol_Model">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1258104783957" ID="Freemind_Link_1993128244" MODIFIED="1258104812365" TEXT="AerosolModelAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
