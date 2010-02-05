@@ -194,16 +194,10 @@ lower priority templates -->
 		  <xsl:if test="not(node[@TEXT='other'])">
 		    <!-- I do not have the value "other" as an option -->
 		    <!-- so add the value "other" -->
-                    <DEBUG>add other here</DEBUG>
-                    <!--
 		    <xsl:element name="value"><xsl:attribute name="name"><xsl:text>other</xsl:text></xsl:attribute></xsl:element>
-                    -->
                   </xsl:if>
 		  <!-- so add the value "n/a" -->
-                  <DEBUG>add n/a here</DEBUG>
-                  <!--
 		  <xsl:element name="value"><xsl:attribute name="name"><xsl:text>n/a</xsl:text></xsl:attribute></xsl:element>
-                  -->
 		</xsl:if>
 	      </xsl:if>
             </xsl:if>
