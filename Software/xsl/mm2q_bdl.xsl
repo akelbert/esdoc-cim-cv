@@ -183,16 +183,45 @@ lower priority templates -->
               <definition status="missing"><xsl:text>Definition of property name </xsl:text><xsl:value-of select="$myName"/><xsl:text> required</xsl:text></definition>
             </xsl:if>
             <xsl:apply-templates/>
+            <!-- add other as a value if values are not a: yes/no b: keyboard c: conditional and if other does not already exist -->
+            <!-- add n/a as a value if values are not a: yes/no b: keyboard c: conditional -->
+	    <xsl:if test="not(count(node/icon[@BUILTIN='button_ok' or @BUILTIN='button_cancel' or @BUILTIN='bookmark'])=2 and node[@TEXT='yes'] and node[@TEXT='no'])">
+              <!-- I do not have yes/no values (exclusively) -->
+              <xsl:if test="not($choice='keyboard')">
+                <!-- My values are not keyboard values -->
+		<xsl:if test="not(ancestor::node[@COLOR='#0033ff'])">
+		  <!-- I do not have a constraint as a parent -->
+		  <xsl:if test="not(node[@TEXT='other'])">
+		    <!-- I do not have the value "other" as an option -->
+		    <!-- so add the value "other" -->
+                    <DEBUG>add other here</DEBUG>
+                    <!--
+		    <xsl:element name="value"><xsl:attribute name="name"><xsl:text>other</xsl:text></xsl:attribute></xsl:element>
+                    -->
+                  </xsl:if>
+		  <!-- so add the value "n/a" -->
+                  <DEBUG>add n/a here</DEBUG>
+                  <!--
+		  <xsl:element name="value"><xsl:attribute name="name"><xsl:text>n/a</xsl:text></xsl:attribute></xsl:element>
+                  -->
+		</xsl:if>
+	      </xsl:if>
+            </xsl:if>
           </parameter>
         </xsl:if>
       </xsl:when>
       <xsl:otherwise>
+	<xsl:message terminate="yes">
+	  <xsl:text>Error: $choice should never be empty as the template aborts if this is the case</xsl:text>
+        </xsl:message>
+<!--
         <parameter name="{$myName}" rawName="{@TEXT}" esgName="{$esgName}">
           <xsl:if test="not(hook/text/definition)">
             <definition status="missing"><xsl:text>Definition of property name </xsl:text><xsl:value-of select="$myName"/><xsl:text> required</xsl:text></definition>
           </xsl:if>
           <xsl:apply-templates/>
         </parameter>
+-->
       </xsl:otherwise>
       </xsl:choose>
 <!--

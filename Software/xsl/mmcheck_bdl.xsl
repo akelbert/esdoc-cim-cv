@@ -445,7 +445,7 @@ any lower priority templates -->
     <xsl:variable name="ValueChildren" select="node[not(icon[@BUILTIN='messagebox_warning'] or font[@ITALIC='true']) and @STYLE='fork']"/>
 
     <xsl:choose>
-    <!-- we musy have at least one value for a parameter -->
+    <!-- we must have at least one value for a parameter -->
     <xsl:when test="count($ValueChildren)=0">
 
       <xsl:message terminate="no">
@@ -877,6 +877,42 @@ any lower priority templates -->
         <xsl:text>' in node '</xsl:text>
         <xsl:value-of select="parent::node/@TEXT"/>
         <xsl:text>' has more than one XOR, OR or AND icon.
+</xsl:text>
+      </xsl:message>
+    </xsl:if>
+
+    <!-- no white space in the names -->
+    <xsl:if test="normalize-space(@TEXT)!=@TEXT">
+      <xsl:message terminate="no">
+        <xsl:text>*ERROR: Value '</xsl:text>
+        <xsl:value-of select="@TEXT"/>
+        <xsl:text>' in node '</xsl:text>
+        <xsl:value-of select="parent::node/@TEXT"/>
+        <xsl:text>' has leading spaces, trailing spaces or multiple spaces
+</xsl:text>
+      </xsl:message>
+    </xsl:if>
+
+    <!-- other is all lower case -->
+    <xsl:if test="@TEXT!='other' and translate(@TEXT,'OTHER','other')='other'">
+      <xsl:message terminate="no">
+        <xsl:text>*ERROR: Value '</xsl:text>
+        <xsl:value-of select="@TEXT"/>
+        <xsl:text>' in node '</xsl:text>
+        <xsl:value-of select="parent::node/@TEXT"/>
+        <xsl:text>' should be all lower case
+</xsl:text>
+      </xsl:message>
+    </xsl:if>
+
+    <!-- n/a does not exist -->
+    <xsl:if test="translate(@TEXT,'NA','na')='n/a'">
+      <xsl:message terminate="no">
+        <xsl:text>*ERROR: Value '</xsl:text>
+        <xsl:value-of select="@TEXT"/>
+        <xsl:text>' in node '</xsl:text>
+        <xsl:value-of select="parent::node/@TEXT"/>
+        <xsl:text>' should not be "n/a" as this value is automatically added where appropriate
 </xsl:text>
       </xsl:message>
     </xsl:if>
