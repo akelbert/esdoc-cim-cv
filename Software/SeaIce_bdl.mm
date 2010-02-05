@@ -170,7 +170,7 @@
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definitions]Are melt-water ponds included in the sea-ice scheme?[/definitions]</text>
 </hook>
-<node CREATED="1233671047851" ID="Freemind_Link_310277531" MODIFIED="1233917930626" STYLE="fork" TEXT="yes ">
+<node CREATED="1233671047851" ID="Freemind_Link_310277531" MODIFIED="1265388515416" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
@@ -375,7 +375,7 @@
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233270123274" ID="Freemind_Link_1994751741" MODIFIED="1236610358577" STYLE="fork" TEXT="Other">
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233270123274" ID="Freemind_Link_1994751741" MODIFIED="1265388729417" STYLE="fork" TEXT="other">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
@@ -432,7 +432,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233669717156" ID="Freemind_Link_1674080121" MODIFIED="1233932889292" STYLE="fork" TEXT="Other">
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233669717156" ID="Freemind_Link_1674080121" MODIFIED="1265388760430" STYLE="fork" TEXT="other">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>

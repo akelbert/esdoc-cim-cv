@@ -997,11 +997,11 @@
 <font NAME="Arial" SIZE="15"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1233141992152" ID="Freemind_Link_1309258875" MODIFIED="1233914291347" STYLE="fork" TEXT=" QUICKEST">
+<node CREATED="1233141992152" ID="Freemind_Link_1309258875" MODIFIED="1265388354947" STYLE="fork" TEXT="QUICKEST">
 <font NAME="Arial" SIZE="15"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1233141992152" ID="Freemind_Link_1731881292" MODIFIED="1233914291331" STYLE="fork" TEXT=" Piecewise Parabolic method">
+<node CREATED="1233141992152" ID="Freemind_Link_1731881292" MODIFIED="1265388405132" STYLE="fork" TEXT="Piecewise Parabolic method">
 <font NAME="Arial" SIZE="15"/>
 <icon BUILTIN="button_cancel"/>
 </node>
