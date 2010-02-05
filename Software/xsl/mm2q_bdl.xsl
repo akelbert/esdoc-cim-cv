@@ -189,13 +189,13 @@ lower priority templates -->
               <!-- I do not have yes/no values (exclusively) -->
               <xsl:if test="not($choice='keyboard')">
                 <!-- My values are not keyboard values -->
+		<xsl:if test="not(node[@TEXT='other'])">
+		  <!-- I do not have the value "other" as an option -->
+		  <!-- so add the value "other" -->
+		  <xsl:element name="value"><xsl:attribute name="name"><xsl:text>other</xsl:text></xsl:attribute></xsl:element>
+                </xsl:if>
 		<xsl:if test="not(ancestor::node[@COLOR='#0033ff'])">
 		  <!-- I do not have a constraint as a parent -->
-		  <xsl:if test="not(node[@TEXT='other'])">
-		    <!-- I do not have the value "other" as an option -->
-		    <!-- so add the value "other" -->
-		    <xsl:element name="value"><xsl:attribute name="name"><xsl:text>other</xsl:text></xsl:attribute></xsl:element>
-                  </xsl:if>
 		  <!-- so add the value "n/a" -->
 		  <xsl:element name="value"><xsl:attribute name="name"><xsl:text>n/a</xsl:text></xsl:attribute></xsl:element>
 		</xsl:if>
