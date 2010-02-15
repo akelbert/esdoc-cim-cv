@@ -17,5 +17,7 @@ for filename in fileNameList :
     result = style(doc)
     listResult=str(result).split()
     finalResult.extend(listResult)
+
+print "model"
 for name in finalResult :
     print name
