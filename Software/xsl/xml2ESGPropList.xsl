@@ -11,6 +11,8 @@
 
 <xsl:template match="parameter">
 
+  <xsl:if test="not(@choice='keyboard')"> <!-- do not output keyboard parameters -->
+
   <xsl:variable name="AttributeString">
     <xsl:for-each select="ancestor::component">
       <xsl:if test="@esgName!='KeyProperties'">
@@ -52,6 +54,7 @@
     </xsl:call-template>
   </xsl:variable>
 -->
+  </xsl:if>
 
 </xsl:template>
 

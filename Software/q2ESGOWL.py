@@ -1,4 +1,5 @@
 #! /usr/bin/env python
+import sys
 import glob
 from lxml import etree as ET
 from copy import deepcopy
@@ -36,6 +37,64 @@ for filename in fileNameList :
     realmName=filename[:filename.find('_')]
     assert realmName in realmNamesList, 'Error, unexpected file name found : '+filename
     doc = ET.parse(filename)
+
+    # preprocess document to sort out any properties that will cause duplicates in he OWL output. I should really do this in the xsl translation phase but can not work out how to do this in xsl :-(
+
+    # duplicates are caused by having more than one parameter with the same name in different constraint groups but in the same propertygroup
+    for myParameterGroup in doc.iter('parametergroup') :
+        myComponentName=myParameterGroup.getparent().get('name')
+        #print myParameterGroup.get('name')
+        #myParameterNames = myParameterGroup.xpath("constraint/parameter[not(@choice='keyboard')]/@name")
+        myParameterNames = myParameterGroup.xpath("constraint/parameter/@name")
+        checked=[]
+        duplicates=[]
+        # find any duplicates ...
+        for myParameterName in myParameterNames :
+            #print '  '+myParameterName
+            if myParameterName not in checked:
+                checked.append(myParameterName) 
+            else :
+                if myParameterName not in duplicates :
+                    duplicates.append(myParameterName)
+                    #print 'Found duplicate parameter in document '+filename+' in component '+myComponentName+' in parametergroup '+myParameterGroup.get('name')+' called '+myParameterName
+        for duplicate in duplicates :
+            #print 'Merging duplicate called '+duplicate
+            #only merge if not a keyboard property
+            parameterList=myParameterGroup.xpath("constraint/parameter[not(@choice='keyboard') and @name='"+duplicate+"']")
+            #print 'There are '+str(len(parameterList))+' duplicates'
+            # move/copy all values into the first instance
+            # remove any duplicate copies of values in the first instance
+            if len(parameterList)>0 : # I am not a keyboard value
+                valuesList=[]
+                for child in parameterList[0] :
+                    if child.tag=='value' :
+                        valuesList.append(child.get('name'))
+                idx=1
+                for parameter in parameterList :
+                    if idx>1 :
+                        #print 'Copying values for duplicate '+str(idx)
+                        for child in parameter :
+                            if child.tag=='value' :
+                                #print '  found value '+child.get('name')
+                                if not child.get('name') in valuesList :
+                                    parameterList[0].append( deepcopy(child) )
+                                    valuesList.append(child.get('name'))
+                                #else :
+                                #    print '  Skipping value '+child.get('name')+' as it already exists'
+                    idx+=1
+
+            #print 'There are '+str(len(parameterList))+' duplicates'
+            #print 'Deleting duplicates'
+            #remove all duplicates
+            parameterList=myParameterGroup.xpath("constraint/parameter[@name='"+duplicate+"']")
+            idx=1
+            for parameter in parameterList :
+                if idx>1 :
+                    parameterParent=parameter.getparent()
+                    parameterParent.remove(parameter)
+                idx+=1
+            #print 'There are now '+str(len(parameterList))+' duplicates'
+            
     styledoc = ET.parse("xsl/"+XSLFILENAME)
     style = ET.XSLT(styledoc)
     result = style(doc)
@@ -45,4 +104,19 @@ for filename in fileNameList :
         if not(idx==1) :
             myOutput.append( deepcopy(child) )
         idx+=1
+
+    # look for duplicate classes in the owl output
+    classes=root.xpath("//owl:Class",namespaces={'owl': OWL_NAMESPACE})
+    checked = []
+    duplicates=[]
+    for myClass in classes :
+        name=myClass.get(RDF_NAMESPACE_BRACKETS+'ID')
+        if name not in checked:
+            checked.append(name) 
+        else :
+            if name not in duplicates :
+                duplicates.append(name)
+                print 'ERROR found duplicate class called '+name
+                sys.exit(1)
+
 print(ET.tostring(myOutput,pretty_print=True))
