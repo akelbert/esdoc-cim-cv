@@ -11,9 +11,8 @@
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1254486057572" ID="Freemind_Link_26535854" MODIFIED="1264499206442" TEXT="OceanBioKeyPropertiesAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233141022285" ID="Freemind_Link_599221753" MODIFIED="1264502947039" STYLE="bubble" TEXT="BasicApproximations">
+<node COLOR="#996600" CREATED="1233141022285" ID="Freemind_Link_599221753" MODIFIED="1268844859742" STYLE="bubble" TEXT="BasicApproximations">
 <font NAME="Arial" SIZE="14"/>
-<icon BUILTIN="ksmiletris"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Description of the basic approximations made in the biogeo chemistry model.[/definition]</text>
 </hook>
@@ -22,9 +21,8 @@
 <icon BUILTIN="pencil"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233587234324" ID="Freemind_Link_1829699314" MODIFIED="1264502947039" TEXT="ListOfPrognosticVariables">
+<node COLOR="#996600" CREATED="1233587234324" ID="Freemind_Link_1829699314" MODIFIED="1268844859758" TEXT="ListOfPrognosticVariables">
 <font NAME="Arial" SIZE="14"/>
-<icon BUILTIN="ksmiletris"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Prognostic variables of the ocean biogeo chemistry model.[/definition]</text>
 </hook>
@@ -92,89 +90,6 @@
 <node CREATED="1256255021042" ID="Freemind_Link_1664852992" MODIFIED="1257238356927" STYLE="fork" TEXT="seconds">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
-</node>
-</node>
-</node>
-</node>
-</node>
-<node COLOR="#000000" CREATED="1253796609575" ID="Freemind_Link_1291132512" MODIFIED="1257328932328" TEXT="OceanBioSpaceConfig_">
-<font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#990099" CREATED="1233751003143" ID="Freemind_Link_1067696709" MODIFIED="1257334995697" STYLE="bubble" TEXT="Horizontal.Domain">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1257238915649" ID="Freemind_Link_62478766" MODIFIED="1259229959412" TEXT="GridConfiguration">
-<font NAME="SansSerif" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Configuration of the horizontal grid used for ocean biogeochemistry (same as Ocean or different?).[/definition]</text>
-</hook>
-<node CREATED="1241016231102" ID="Freemind_Link_1356030046" MODIFIED="1256744305379" STYLE="fork" TEXT="same as Ocean">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node CREATED="1241016236735" ID="Freemind_Link_1379862058" MODIFIED="1257238806449" STYLE="fork" TEXT="different from Ocean">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1257238168276" ID="Freemind_Link_1143551240" MODIFIED="1257334795772" TEXT="if GridConfiguration is &quot;different from Ocean&quot;">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1256740460367" ID="Freemind_Link_1489121474" MODIFIED="1257330418675" TEXT="MeanResolution">
-<font NAME="SansSerif" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Mean horizontal resolution of the ocean biogeochemistry model.[/definition]</text>
-</hook>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_540590316" MODIFIED="1257038155267" STYLE="fork" TEXT="degrees">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="full-1"/>
-</node>
-</node>
-<node COLOR="#996600" CREATED="1256254990298" ID="Freemind_Link_437978356" MODIFIED="1257334771609" TEXT="GridCharacteristrics">
-<font NAME="SansSerif" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Description of the of the horizontal grid used for ocean biogeochemistry.[/definition]</text>
-</hook>
-<node CREATED="1256255021042" ID="Freemind_Link_1717188073" MODIFIED="1257238682406" STYLE="fork" TEXT="">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="pencil"/>
-</node>
-</node>
-</node>
-</node>
-<node COLOR="#990099" CREATED="1233751003143" ID="Freemind_Link_142866659" MODIFIED="1257335087251" STYLE="bubble" TEXT="Vertical.Domain">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1257238915649" ID="Freemind_Link_1264044554" MODIFIED="1259229984638" TEXT="GridConfiguration">
-<font NAME="SansSerif" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Configuration of the vertical grid used for ocean biogeochemistry (same as Ocean or different?).[/definition]</text>
-</hook>
-<node CREATED="1241016231102" ID="Freemind_Link_365961628" MODIFIED="1256744305379" STYLE="fork" TEXT="same as Ocean">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node CREATED="1241016236735" ID="Freemind_Link_1041229605" MODIFIED="1257238806449" STYLE="fork" TEXT="different from Ocean">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1257238168276" ID="Freemind_Link_766400880" MODIFIED="1259230011048" TEXT="if GridConfiguration is &quot;different from Ocean&quot;">
-<font NAME="SansSerif" SIZE="14"/>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_995947235" MODIFIED="1257330398477" TEXT="NumberOfLevels">
-<font NAME="SansSerif" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Total number of vertical levels in ocean biogeochemistry model.[/definition]</text>
-</hook>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_569217197" MODIFIED="1256812397215" STYLE="fork" TEXT="">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="full-1"/>
-</node>
-</node>
-<node COLOR="#996600" CREATED="1256254990298" ID="Freemind_Link_1974159564" MODIFIED="1257334782823" TEXT="GridCharacteristics">
-<font NAME="SansSerif" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Description of the vertical grid used for ocean biogeochemistry.[/definition]</text>
-</hook>
-<node CREATED="1256255021042" ID="Freemind_Link_1578704852" MODIFIED="1257238682406" STYLE="fork" TEXT="">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="pencil"/>
 </node>
 </node>
 </node>
@@ -674,8 +589,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1256256501044" ID="Freemind_Link_917125428" MODIFIED="1257240799932" TEXT="OceanBioTracersEcosystemAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1236609779554" ID="Freemind_Link_1919102301" MODIFIED="1259249141236" TEXT="UpperTrophicLevels">
-<cloud/>
+<node COLOR="#996600" CREATED="1236609779554" ID="Freemind_Link_1919102301" MODIFIED="1269594616024" TEXT="UpperTrophicLevels">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1236609798282" ID="Freemind_Link_1575197756" MODIFIED="1253103360260" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
@@ -684,6 +598,10 @@
 <node CREATED="1236609800882" ID="Freemind_Link_1601175706" MODIFIED="1253103364277" STYLE="fork" TEXT="no">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1269594586711" ID="Freemind_Link_921944361" MODIFIED="1269594626039" STYLE="fork" TEXT="mpm: definition missing here">
+<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="messagebox_warning"/>
 </node>
 </node>
 </node>
@@ -905,8 +823,7 @@
 <font BOLD="true" NAME="Arial" SIZE="14"/>
 <node COLOR="#990099" CREATED="1236610238383" ID="Freemind_Link_607535501" MODIFIED="1264497072697" TEXT="CarbonChemistry">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1252419570622" ID="Freemind_Link_1794269249" MODIFIED="1259255274874" TEXT="pH-scale">
-<cloud/>
+<node COLOR="#996600" CREATED="1252419570622" ID="Freemind_Link_1794269249" MODIFIED="1269594653776" TEXT="pH-scale">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1252419643183" ID="Freemind_Link_172187547" MODIFIED="1253103479841" STYLE="fork" TEXT="sea water">
 <font NAME="SansSerif" SIZE="14"/>
@@ -920,48 +837,35 @@
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1269594586711" ID="Freemind_Link_431066391" MODIFIED="1269594626039" STYLE="fork" TEXT="mpm: definition missing here">
+<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="messagebox_warning"/>
 </node>
-<node COLOR="#996600" CREATED="1252419591695" ID="Freemind_Link_1488845223" MODIFIED="1264496947187" TEXT="CarbonChem_Constants">
-<cloud/>
+</node>
+<node COLOR="#996600" CREATED="1252419591695" ID="Freemind_Link_1488845223" MODIFIED="1269594663619" TEXT="CarbonChem_Constants">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1256251943285" ID="Freemind_Link_591259990" MODIFIED="1259255260850" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="pencil"/>
 </node>
 </node>
+<node BACKGROUND_COLOR="#ff0000" CREATED="1234280637757" ID="Freemind_Link_453557345" MODIFIED="1269594683759" STYLE="fork" TEXT="mpm: Are these 2 parameters satisfying James Orr&apos;s advices about acidification (ph-scale and thermodynamic equilibrium constant) ?">
+<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="messagebox_warning"/>
+<icon BUILTIN="messagebox_warning"/>
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1242815104070" ID="Freemind_Link_475428065" MODIFIED="1256925260876" POSITION="left" STYLE="bubble" TEXT="CV version">
-<font NAME="SansSerif" SIZE="15"/>
-<node CREATED="1242815129537" ID="Freemind_Link_1895918984" MODIFIED="1256925532703" STYLE="fork" TEXT="vX.x (incremented by this revision or not?)">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-<node COLOR="#000000" CREATED="1242815104070" ID="Freemind_Link_1493926227" MODIFIED="1256925260984" POSITION="left" STYLE="bubble" TEXT="DEF version">
-<font NAME="SansSerif" SIZE="15"/>
-<node CREATED="1242815129537" ID="Freemind_Link_1119342713" MODIFIED="1256925557295" STYLE="fork" TEXT="vX.x (incremented by this revision or not?)">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-<node COLOR="#000000" CREATED="1242815104070" ID="Freemind_Link_218480523" MODIFIED="1256925260958" POSITION="left" STYLE="bubble" TEXT="starting version">
-<font NAME="SansSerif" SIZE="15"/>
-<node CREATED="1242815129537" ID="Freemind_Link_277246312" MODIFIED="1257328317708" STYLE="fork" TEXT="start from rXXX of OceanBiogeoChemistry_flat.mm">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node CREATED="1242815129537" ID="Freemind_Link_93957810" MODIFIED="1257241709919" STYLE="fork" TEXT="Ocean_flat.mm based on r888 (mariepierre, 2009-09-16) of OceanBioGeoChemistry.mm">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-<node COLOR="#000000" CREATED="1242815104070" ID="Freemind_Link_169443819" MODIFIED="1256925260942" POSITION="left" STYLE="bubble" TEXT="new scientific input">
-<font NAME="SansSerif" SIZE="15"/>
 </node>
 <node COLOR="#000000" CREATED="1242815104070" ID="Freemind_Link_72730991" MODIFIED="1256925260893" POSITION="left" STYLE="bubble" TEXT="list of scientific contributors">
 <font NAME="SansSerif" SIZE="15"/>
 <node CREATED="1236851769006" ID="Freemind_Link_1607198855" MODIFIED="1257242106143" STYLE="fork" TEXT="Name (Institution): date of interview">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
-<node CREATED="1234280637757" ID="Freemind_Link_819987848" MODIFIED="1257242106174" STYLE="fork" TEXT="Laurent Bopp (LSCE/IPSL): 13/03/2009 + 08/09/2009">
+<node CREATED="1234280637757" ID="Freemind_Link_1336660925" MODIFIED="1257242106174" STYLE="fork" TEXT="Laurent Bopp (LSCE/IPSL): 13/03/2009 + 08/09/2009">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node CREATED="1234280637757" ID="Freemind_Link_819987848" MODIFIED="1268844561071" STYLE="fork" TEXT="James Orr (LSCE/IPSL): 22/01/2010">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 <node CREATED="1237479040864" ID="Freemind_Link_69523487" MODIFIED="1257242106159" STYLE="fork" TEXT="still to interview">
@@ -972,15 +876,6 @@
 <node CREATED="1234280200371" ID="Freemind_Link_1432434875" MODIFIED="1257242106190" TEXT="Helmut Haak">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
-</node>
-</node>
-<node CREATED="1237479815816" ID="Freemind_Link_1979527999" MODIFIED="1257242235375" POSITION="left" STYLE="bubble" TEXT="useful links/docs">
-<font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1233585362916" ID="Freemind_Link_531989929" LINK="http://www-pcmdi.llnl.gov/ipcc/model_documentation/ipcc_model_documentation.php" MODIFIED="1233586713179" STYLE="fork" TEXT="AR4 questionnaire">
-<font NAME="Arial" SIZE="14"/>
-</node>
-<node CREATED="1236616610705" ID="Freemind_Link_1524482503" MODIFIED="1257242106174" STYLE="fork" TEXT="see http://www.eur-oceans.eu/WP3.1/shopping_tool/all_models.php?id_survey=270">
-<font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
 </node>

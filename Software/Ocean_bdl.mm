@@ -236,13 +236,11 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node CREATED="1256897878349" ID="Freemind_Link_220485542" MODIFIED="1257350427527" STYLE="fork" TEXT="mpm: from CMIP3-Q. Or &quot;FreshAndSeaWater&quot;">
+<node BACKGROUND_COLOR="#00ff00" CREATED="1256897878349" ID="Freemind_Link_220485542" MODIFIED="1269524948982" STYLE="fork" TEXT="mpm: from CMIP3-Q">
 <font ITALIC="true" NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="messagebox_warning"/>
+<icon BUILTIN="idea"/>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1253796609575" ID="Freemind_Link_1291132512" MODIFIED="1257243573666" TEXT="OceanSpaceConfiguration_">
-<font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1254486285604" ID="Freemind_Link_851070448" MODIFIED="1258638829132" TEXT="Bathymetry">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1256679216121" ID="Freemind_Link_1958840067" MODIFIED="1263574929902" TEXT="Bathymetry_Type">
@@ -339,10 +337,9 @@
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1256898020839" ID="Freemind_Link_201346944" MODIFIED="1256898059886" STYLE="fork" TEXT="mpm: even if present Q about treatment of subgrid straits?">
+<node BACKGROUND_COLOR="#3399ff" CREATED="1256898020839" ID="Freemind_Link_201346944" MODIFIED="1269525485408" STYLE="fork" TEXT="mpm: even if present Q about treatment of subgrid straits?">
 <font ITALIC="true" NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="messagebox_warning"/>
-<icon BUILTIN="messagebox_warning"/>
+<icon BUILTIN="help"/>
 </node>
 </node>
 <node COLOR="#996600" CREATED="1256300991082" ID="Freemind_Link_110607522" MODIFIED="1258639609840" TEXT="InlandSeasChanges">
@@ -370,321 +367,6 @@
 <node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_866668990" MODIFIED="1256898096671" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="pencil"/>
-</node>
-</node>
-</node>
-</node>
-<node COLOR="#000000" CREATED="1233751003143" ID="Freemind_Link_305402916" MODIFIED="1257336720754" STYLE="bubble" TEXT="Ocean_Horizontal.Domain">
-<font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#990099" CREATED="1256810468669" ID="Freemind_Link_957671028" MODIFIED="1256814745833" TEXT="Grid_">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233587048843" ID="Freemind_Link_1178935152" MODIFIED="1258647089410" STYLE="bubble" TEXT="GridType">
-<font NAME="SansSerif" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Geometry type of the horizontal grid.[/definition]</text>
-</hook>
-<node COLOR="#000000" CREATED="1233330560635" ID="Freemind_Link_962162263" MODIFIED="1254228731110" STYLE="fork" TEXT="latitude-longitude rectangular">
-<font NAME="Arial" SIZE="15"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node COLOR="#000000" CREATED="1233330542003" ID="Freemind_Link_1617730243" MODIFIED="1254228734472" STYLE="fork" TEXT="tripolar curvilinear">
-<font NAME="Arial" SIZE="15"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node COLOR="#000000" CREATED="1233330580115" ID="Freemind_Link_1568024774" MODIFIED="1254228509933" STYLE="fork" TEXT="cube sphere">
-<font NAME="Arial" SIZE="15"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node COLOR="#000000" CREATED="1233751977075" ID="Freemind_Link_282475736" MODIFIED="1254228520268" STYLE="fork" TEXT="other">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-</node>
-<node COLOR="#996600" CREATED="1253871284739" ID="Freemind_Link_1055809870" MODIFIED="1258642155130" TEXT="Horizontal_Discretization">
-<font NAME="SansSerif" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Numerical method used by the horizontal discretization scheme.[/definition]</text>
-</hook>
-<node COLOR="#000000" CREATED="1233751025519" ID="Freemind_Link_929753603" MODIFIED="1255360088825" STYLE="fork" TEXT="finite differences">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node COLOR="#000000" CREATED="1233751040728" ID="Freemind_Link_108495098" MODIFIED="1255360094433" STYLE="fork" TEXT="finite volumes">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node COLOR="#000000" CREATED="1233751034720" ID="Freemind_Link_1632690486" MODIFIED="1255360098716" STYLE="fork" TEXT="finite elements">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node COLOR="#000000" CREATED="1233751034720" ID="Freemind_Link_256117932" MODIFIED="1254225899363" STYLE="fork" TEXT="other">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1255359633399" ID="Freemind_Link_305411266" MODIFIED="1255423410560" TEXT="if HorizontalDiscretization is &quot;finite differences&quot;">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1254225995108" ID="Freemind_Link_1314101764" MODIFIED="1263575059242" TEXT="GridName">
-<font NAME="SansSerif" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Grid configuration name.[/definition]</text>
-</hook>
-<node COLOR="#000000" CREATED="1233751025519" ID="Freemind_Link_1477857623" MODIFIED="1254228158793" STYLE="fork" TEXT="Arakawa B-grid">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node COLOR="#000000" CREATED="1233751025519" ID="Freemind_Link_1357617664" MODIFIED="1258642208568" STYLE="fork" TEXT="Arakawa C-grid">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node COLOR="#000000" CREATED="1233751025519" ID="Freemind_Link_273475768" MODIFIED="1258642215752" STYLE="fork" TEXT="Arakawa E-grid">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-</node>
-</node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1475026673" MODIFIED="1258714745675" TEXT="NorthPoleSingularityTreatment">
-<font NAME="SansSerif" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Method used to deal with north pole singularities.[/definition]</text>
-</hook>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1661762733" MODIFIED="1253869568028" STYLE="fork" TEXT="filter">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1172707747" MODIFIED="1253869568043" STYLE="fork" TEXT="pole rotation">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1647348997" MODIFIED="1253869568043" STYLE="fork" TEXT="artificial island">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1940916691" MODIFIED="1253869568028" STYLE="fork" TEXT="none">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-</node>
-</node>
-<node COLOR="#990099" CREATED="1233752067356" ID="Freemind_Link_1122584785" MODIFIED="1256898467951" TEXT="Resolution_">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1256740460367" ID="Freemind_Link_1489121474" MODIFIED="1257037292370" TEXT="MeanZonalResolution">
-<font NAME="SansSerif" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Mean zonal resolution.[/definition]</text>
-</hook>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_540590316" MODIFIED="1257037302814" STYLE="fork" TEXT="degrees">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="full-1"/>
-</node>
-</node>
-<node COLOR="#996600" CREATED="1256740460367" ID="Freemind_Link_1080699653" MODIFIED="1257037308493" TEXT="MeanMeridionalResolution">
-<font NAME="SansSerif" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Mean meridional resolution.[/definition]</text>
-</hook>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1718277027" MODIFIED="1257037302814" STYLE="fork" TEXT="degrees">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="full-1"/>
-</node>
-</node>
-<node COLOR="#996600" CREATED="1256740460367" ID="Freemind_Link_488745278" MODIFIED="1263575318225" TEXT="EquatorMeridionalRefinement">
-<font NAME="SansSerif" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Meridional resolution near equator.[/definition]</text>
-</hook>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1008558374" MODIFIED="1257037302814" STYLE="fork" TEXT="degrees">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="full-1"/>
-</node>
-</node>
-<node COLOR="#996600" CREATED="1256740460367" ID="Freemind_Link_439662523" MODIFIED="1258714794066" TEXT="SpecialRefinement">
-<font NAME="SansSerif" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Description of any other special gid refinement (location, resolution).[/definition]</text>
-</hook>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1221569672" MODIFIED="1256808908645" STYLE="fork" TEXT="">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="pencil"/>
-</node>
-</node>
-</node>
-<node COLOR="#990099" CREATED="1256810490649" ID="Freemind_Link_1568104395" MODIFIED="1257245821580" TEXT="Extent">
-<font NAME="SansSerif" SIZE="14"/>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_131962856" MODIFIED="1257037341994" TEXT="LatMin">
-<font NAME="SansSerif" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Southern boundary of the geographical domain.[/definition]</text>
-</hook>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_33609826" MODIFIED="1257037352157" STYLE="fork" TEXT="degN">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="full-1"/>
-</node>
-</node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_978370769" MODIFIED="1257037362586" TEXT="LatMax">
-<font NAME="SansSerif" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Northern boundary of the geographical domain.[/definition]</text>
-</hook>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1144380272" MODIFIED="1257037352157" STYLE="fork" TEXT="degN">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="full-1"/>
-</node>
-</node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_823341833" MODIFIED="1258715056006" TEXT="LonMin">
-<font NAME="SansSerif" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Western boundary of the geographical domain.[/definition]</text>
-</hook>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1297746569" MODIFIED="1257037384464" STYLE="fork" TEXT="degE">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="full-1"/>
-</node>
-</node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_600779154" MODIFIED="1258715064008" TEXT="LonMax">
-<font NAME="SansSerif" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Eastern boundary of the geographical domain.[/definition]</text>
-</hook>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1730088724" MODIFIED="1257037384464" STYLE="fork" TEXT="degE">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="full-1"/>
-</node>
-</node>
-</node>
-</node>
-<node COLOR="#990099" CREATED="1233751003143" ID="Freemind_Link_142866659" MODIFIED="1257336604925" STYLE="bubble" TEXT="Vertical.Domain">
-<font NAME="SansSerif" SIZE="14"/>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233751003143" ID="Freemind_Link_1376312766" MODIFIED="1258715083150" STYLE="bubble" TEXT="Vertical_CoordinateSystem">
-<font NAME="SansSerif" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]vertical coordinate system.[/definition]</text>
-</hook>
-<node COLOR="#000000" CREATED="1233330582860" ID="Freemind_Link_1227766503" MODIFIED="1254226141475" STYLE="fork" TEXT="Z-coordinate">
-<font NAME="Arial" SIZE="15"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node COLOR="#000000" CREATED="1233330582860" ID="Freemind_Link_1831160940" MODIFIED="1254226148690" STYLE="fork" TEXT="Z*-coordinate">
-<font NAME="Arial" SIZE="15"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node COLOR="#000000" CREATED="1233330587323" ID="Freemind_Link_1848532712" MODIFIED="1233937529294" STYLE="fork" TEXT="S-coordinate">
-<font NAME="Arial" SIZE="15"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node COLOR="#000000" CREATED="1233752355206" ID="Freemind_Link_782547082" MODIFIED="1233937540526" STYLE="fork" TEXT="isopycnic">
-<font NAME="SansSerif" SIZE="15"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node COLOR="#000000" CREATED="1233330589779" ID="Freemind_Link_462891181" MODIFIED="1255360455176" STYLE="fork" TEXT="Hybrid (Z+S)">
-<font NAME="Arial" SIZE="15"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node COLOR="#000000" CREATED="1233330589779" ID="Freemind_Link_224721448" MODIFIED="1255360470440" STYLE="fork" TEXT="Hybrid (Z+isopycnic)">
-<font NAME="Arial" SIZE="15"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node CREATED="1244812555493" ID="Freemind_Link_447017211" MODIFIED="1246265112679" STYLE="fork" TEXT="Pressure reference (P)">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node CREATED="1244812565136" ID="Freemind_Link_472396627" MODIFIED="1246265112700" STYLE="fork" TEXT="P*">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node CREATED="1244812637051" ID="Freemind_Link_1355586243" MODIFIED="1246265112687" STYLE="fork" TEXT="Z**">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node COLOR="#000000" CREATED="1233270123274" ID="Freemind_Link_1005236616" MODIFIED="1254226765426" STYLE="fork" TEXT="other">
-<font NAME="Arial" SIZE="15"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node CREATED="1244812604050" ID="Freemind_Link_1890874370" MODIFIED="1254226776346" STYLE="fork" TEXT="Balaji: For vertical coordinate definitions see Adcroft 2004">
-<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="messagebox_warning"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1255360198907" ID="Freemind_Link_1843926824" MODIFIED="1255505676314" TEXT="if VerticalCoordinateSystem is &quot;Z-coordinate&quot; or &quot;Z*-coordinate&quot;">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1254225995108" ID="Freemind_Link_304065467" MODIFIED="1263575376117" TEXT="PartialSteps">
-<font NAME="SansSerif" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Does the model use partial steps at bottom or not.[/definition]</text>
-</hook>
-<node COLOR="#000000" CREATED="1254226011363" ID="Freemind_Link_1603622033" MODIFIED="1258728796317" STYLE="fork" TEXT="yes">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node CREATED="1254226011363" ID="Freemind_Link_1122154144" MODIFIED="1254226036128" STYLE="fork" TEXT="no">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1255360198907" ID="Freemind_Link_83715157" MODIFIED="1255360251338" TEXT="if VerticalCoordinateSystem is &quot;S-coordinate&quot;">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233270123274" ID="Freemind_Link_107539316" MODIFIED="1258731108914" STYLE="bubble" TEXT="ReferencePressure">
-<font NAME="Arial" SIZE="15"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Reference pression for S-coordinate.[/definition]</text>
-</hook>
-<node COLOR="#000000" CREATED="1233755964790" ID="Freemind_Link_425207178" MODIFIED="1233937842698" STYLE="fork" TEXT="Sigma0">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node COLOR="#000000" CREATED="1233755970445" ID="Freemind_Link_1192829435" MODIFIED="1233937842698" STYLE="fork" TEXT="Sigma2">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node COLOR="#000000" CREATED="1233755974318" ID="Freemind_Link_827633471" MODIFIED="1233937842698" STYLE="fork" TEXT="Sigma4">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node COLOR="#000000" CREATED="1233270123274" ID="Freemind_Link_323609076" MODIFIED="1254226168531" STYLE="fork" TEXT="other">
-<font NAME="Arial" SIZE="15"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-</node>
-</node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_995947235" MODIFIED="1258731026843" TEXT="NumberOfLevels">
-<font NAME="SansSerif" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Total number of vertical levels.[/definition]</text>
-</hook>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_569217197" MODIFIED="1256812397215" STYLE="fork" TEXT="">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="full-1"/>
-</node>
-</node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1700087151" MODIFIED="1258731030946" TEXT="NumberOfLevelsInUpper100m">
-<font NAME="Arial" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Number of vertical levels in the upper 100 meters.[/definition]</text>
-</hook>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1111637724" MODIFIED="1256812397215" STYLE="fork" TEXT="">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="full-1"/>
-</node>
-</node>
-<node COLOR="#996600" CREATED="1233250004110" ID="Freemind_Link_1252154617" MODIFIED="1258731039619" STYLE="bubble" TEXT="UpperLevel">
-<font NAME="Arial" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Upper level.[/definition]</text>
-</hook>
-<node COLOR="#000000" CREATED="1233250230686" ID="Freemind_Link_1910902026" MODIFIED="1257037434758" STYLE="fork" TEXT="meters">
-<font NAME="Arial" SIZE="14"/>
-<icon BUILTIN="full-1"/>
-</node>
-</node>
-<node COLOR="#996600" CREATED="1233250004110" ID="Freemind_Link_455921828" MODIFIED="1258731049042" STYLE="bubble" TEXT="LowerLevel">
-<font NAME="Arial" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Lower level.[/definition]</text>
-</hook>
-<node COLOR="#000000" CREATED="1233250230686" ID="Freemind_Link_690806304" MODIFIED="1257037434758" STYLE="fork" TEXT="meters">
-<font NAME="Arial" SIZE="14"/>
-<icon BUILTIN="full-1"/>
 </node>
 </node>
 </node>
@@ -836,6 +518,74 @@
 </node>
 </node>
 </node>
+<node COLOR="#990099" CREATED="1256810468669" ID="Freemind_Link_957671028" MODIFIED="1269525087608" TEXT="HorizontalDiscretization">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#996600" CREATED="1253871284739" ID="Freemind_Link_1055809870" MODIFIED="1269525118558" TEXT="SchemeMethod">
+<font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Numerical method used by the horizontal discretization scheme.[/definition]</text>
+</hook>
+<node COLOR="#000000" CREATED="1233751025519" ID="Freemind_Link_929753603" MODIFIED="1255360088825" STYLE="fork" TEXT="finite differences">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node COLOR="#000000" CREATED="1233751040728" ID="Freemind_Link_108495098" MODIFIED="1255360094433" STYLE="fork" TEXT="finite volumes">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node COLOR="#000000" CREATED="1233751034720" ID="Freemind_Link_1632690486" MODIFIED="1255360098716" STYLE="fork" TEXT="finite elements">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node COLOR="#000000" CREATED="1233751034720" ID="Freemind_Link_256117932" MODIFIED="1254225899363" STYLE="fork" TEXT="other">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1255359633399" ID="Freemind_Link_305411266" MODIFIED="1269525531373" TEXT="if SchemeMethod is &quot;finite differences&quot;">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#996600" CREATED="1254225995108" ID="Freemind_Link_1314101764" MODIFIED="1269525394467" TEXT="Staggering">
+<font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]How the different quantities are located within a grid cell.[/definition]</text>
+</hook>
+<node COLOR="#000000" CREATED="1233751025519" ID="Freemind_Link_1477857623" MODIFIED="1254228158793" STYLE="fork" TEXT="Arakawa B-grid">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node COLOR="#000000" CREATED="1233751025519" ID="Freemind_Link_1357617664" MODIFIED="1258642208568" STYLE="fork" TEXT="Arakawa C-grid">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node COLOR="#000000" CREATED="1233751025519" ID="Freemind_Link_273475768" MODIFIED="1258642215752" STYLE="fork" TEXT="Arakawa E-grid">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1475026673" MODIFIED="1269525420044" TEXT="PoleSingularityTreatment">
+<font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Method used to deal with north pole singularities.[/definition]</text>
+</hook>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1661762733" MODIFIED="1253869568028" STYLE="fork" TEXT="filter">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1172707747" MODIFIED="1253869568043" STYLE="fork" TEXT="pole rotation">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1647348997" MODIFIED="1253869568043" STYLE="fork" TEXT="artificial island">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1940916691" MODIFIED="1253869568028" STYLE="fork" TEXT="none">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+</node>
+</node>
 <node COLOR="#990099" CREATED="1233751261777" ID="Freemind_Link_1211028866" MODIFIED="1255359299902" STYLE="bubble" TEXT="TimeSteppingFramework">
 <font NAME="SansSerif" SIZE="15"/>
 <node COLOR="#996600" CREATED="1244812707143" ID="Freemind_Link_44510121" MODIFIED="1259053528340" TEXT="Tracers">
@@ -859,7 +609,7 @@
 <font NAME="SansSerif" SIZE="13"/>
 <icon BUILTIN="messagebox_warning"/>
 <icon BUILTIN="button_cancel"/>
-<node CREATED="1244812985433" ID="Freemind_Link_484264736" MODIFIED="1254227542931" TEXT="Balaji/Eric: Verify if ok for Tracers?">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1244812985433" ID="Freemind_Link_484264736" MODIFIED="1269525446298" TEXT="Balaji/Eric: Verify if ok for Tracers?">
 <font ITALIC="true" NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="messagebox_warning"/>
 </node>
@@ -1846,10 +1596,10 @@
 </node>
 <node CREATED="1253797749288" ID="Freemind_Link_447938745" MODIFIED="1256743827599" TEXT="OceanUpAndLowBoundaries_">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#990099" CREATED="1233329979500" ID="Freemind_Link_786667002" MODIFIED="1259073816796" TEXT="FreeSurface">
+<node COLOR="#990099" CREATED="1233329979500" ID="Freemind_Link_786667002" MODIFIED="1269525738393" TEXT="FreeSurface">
 <font NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[info]If no free surface, then ocean surface is rigid-liquid.[/info]</text>
+<text>[info]If no free surface, then ocean surface is rigid-lid.[/info]</text>
 </hook>
 <node COLOR="#996600" CREATED="1233880197447" ID="Freemind_Link_1985618654" MODIFIED="1259073928683" STYLE="bubble" TEXT="Type">
 <font NAME="SansSerif" SIZE="14"/>
@@ -2030,7 +1780,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1256301155972" ID="Freemind_Link_1608714090" MODIFIED="1256923491485" STYLE="fork" TEXT="Tracers attribute -&gt; need to distingush T,S attributes">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1256301155972" ID="Freemind_Link_1608714090" MODIFIED="1269525650417" STYLE="fork" TEXT="Tracers attribute -&gt; need to distingush T,S attributes">
 <font ITALIC="true" NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="messagebox_warning"/>
 </node>
@@ -2106,18 +1856,6 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1253713965343" ID="Freemind_Link_1051167645" MODIFIED="1259163213125" TEXT="if  OceanColorDependent is &quot;yes&quot;">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="messagebox_warning"/>
-<node COLOR="#996600" CREATED="1237460635585" ID="Freemind_Link_1234449877" MODIFIED="1259163209470" TEXT="OceanColor">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="messagebox_warning"/>
-<node CREATED="1233754598439" ID="Freemind_Link_998518126" MODIFIED="1246542771392" STYLE="fork" TEXT="">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="back"/>
-</node>
-</node>
-</node>
 </node>
 <node COLOR="#990099" CREATED="1233587156860" ID="Freemind_Link_649363320" MODIFIED="1255956320937" TEXT="SurfaceSalinity">
 <font NAME="SansSerif" SIZE="14"/>
@@ -2179,36 +1917,6 @@
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1242815104070" ID="Freemind_Link_475428065" MODIFIED="1256925260876" POSITION="left" STYLE="bubble" TEXT="CV version">
-<font NAME="SansSerif" SIZE="15"/>
-<node CREATED="1242815129537" ID="Freemind_Link_1895918984" MODIFIED="1256925532703" STYLE="fork" TEXT="vX.x (incremented by this revision or not?)">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-<node COLOR="#000000" CREATED="1242815104070" ID="Freemind_Link_1493926227" MODIFIED="1256925260984" POSITION="left" STYLE="bubble" TEXT="DEF version">
-<font NAME="SansSerif" SIZE="15"/>
-<node CREATED="1242815129537" ID="Freemind_Link_1119342713" MODIFIED="1256925557295" STYLE="fork" TEXT="vX.x (incremented by this revision or not?)">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-<node COLOR="#000000" CREATED="1242815104070" ID="Freemind_Link_218480523" MODIFIED="1256925260958" POSITION="left" STYLE="bubble" TEXT="starting version">
-<font NAME="SansSerif" SIZE="15"/>
-<node CREATED="1242815129537" ID="Freemind_Link_277246312" MODIFIED="1256925436980" STYLE="fork" TEXT="start from rXXX of Ocean_flat.mm">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node CREATED="1242815129537" ID="Freemind_Link_93957810" MODIFIED="1256925402007" STYLE="fork" TEXT="Ocean_flat.mm based on r646 (mariepierre, 2009-07-06) of Ocean.mm">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-<node COLOR="#000000" CREATED="1242815104070" ID="Freemind_Link_169443819" MODIFIED="1256925260942" POSITION="left" STYLE="bubble" TEXT="new scientific input">
-<font NAME="SansSerif" SIZE="15"/>
-<node CREATED="1242815129537" ID="Freemind_Link_1208820539" MODIFIED="1262857217975" STYLE="fork" TEXT="Myriam Khodry (IPSL) for Paleo: 29/10/2009">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node CREATED="1262857087097" ID="Freemind_Link_1068066648" MODIFIED="1262857234584" TEXT="Eric Guilyardi (IPSL/LOCEAN) varying freezing point and Cp: 7/1/2010">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
 <node COLOR="#000000" CREATED="1242815104070" ID="Freemind_Link_72730991" MODIFIED="1256925260893" POSITION="left" STYLE="bubble" TEXT="list of scientific contributors">
 <font NAME="SansSerif" SIZE="15"/>
 <node CREATED="1236851769006" ID="Freemind_Link_1607198855" MODIFIED="1257242106143" STYLE="fork" TEXT="Name (Institution): date of interview">
@@ -2226,7 +1934,10 @@
 <node CREATED="1242815129537" ID="Freemind_Link_928879336" MODIFIED="1262857207298" STYLE="fork" TEXT="Masa Kageyama and Olivier Marti (IPSL/LSCE) for Paleo: 26/10/2009">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
-<node CREATED="1242815129537" ID="Freemind_Link_906905690" MODIFIED="1262857201294" STYLE="fork" TEXT="Myriam Khodry (IPSL) for Paleo: 29/10/2009">
+<node CREATED="1242815129537" ID="Freemind_Link_1208820539" MODIFIED="1262857217975" STYLE="fork" TEXT="Myriam Khodry (IPSL) for Paleo: 29/10/2009">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node CREATED="1262857087097" ID="Freemind_Link_1068066648" MODIFIED="1268844946541" STYLE="fork" TEXT="Eric Guilyardi (IPSL/LOCEAN) varying freezing point and Cp: 07/01/2010">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>

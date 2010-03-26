@@ -79,53 +79,6 @@
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1253796609575" ID="Freemind_Link_1291132512" MODIFIED="1256746434572" TEXT="SeaIceSpaceConfiguration_">
-<font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#990099" CREATED="1233751003143" ID="Freemind_Link_305402916" MODIFIED="1257336067800" STYLE="bubble" TEXT="Horizontal.Domain">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1255438538998" ID="Freemind_Link_38895976" MODIFIED="1259587346140" TEXT="GridConfig">
-<font NAME="SansSerif" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition][/definition]</text>
-</hook>
-<node CREATED="1241016231102" ID="Freemind_Link_1356030046" MODIFIED="1257328842499" STYLE="fork" TEXT="same as Ocean">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node CREATED="1241016231102" ID="Freemind_Link_1247011853" MODIFIED="1257328848996" STYLE="fork" TEXT="same as Atmosphere">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node CREATED="1241016236735" ID="Freemind_Link_1379862058" MODIFIED="1256259040527" STYLE="fork" TEXT="specific">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1255423797658" ID="Freemind_Link_713709720" MODIFIED="1256746410233" TEXT="if GridConfig is &quot;specific&quot;">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1256740460367" ID="Freemind_Link_1489121474" MODIFIED="1257330329990" TEXT="MeanResolution">
-<font NAME="SansSerif" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Mean horizontal resolution of the sea ice model.[/definition]</text>
-</hook>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_540590316" MODIFIED="1257038155267" STYLE="fork" TEXT="degrees">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="full-1"/>
-</node>
-</node>
-<node COLOR="#996600" CREATED="1256254990298" ID="Freemind_Link_437978356" MODIFIED="1257329784773" TEXT="GridCharacteristics">
-<font NAME="SansSerif" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Description of the of the horizontal grid used for sea ice.[/definition]</text>
-</hook>
-<node CREATED="1256255021042" ID="Freemind_Link_1717188073" MODIFIED="1257238682406" STYLE="fork" TEXT="">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="pencil"/>
-</node>
-</node>
-</node>
-</node>
-</node>
 <node COLOR="#990099" CREATED="1233751261777" ID="Freemind_Link_1153520910" MODIFIED="1255440450989" STYLE="bubble" TEXT="TimeSteppingFramework">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1253870854444" ID="Freemind_Link_1713086568" MODIFIED="1259587522562" TEXT="Method">
@@ -450,30 +403,6 @@
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1242815104070" ID="Freemind_Link_475428065" MODIFIED="1256925260876" POSITION="left" STYLE="bubble" TEXT="CV version">
-<font NAME="SansSerif" SIZE="15"/>
-<node CREATED="1242815129537" ID="Freemind_Link_1895918984" MODIFIED="1256925532703" STYLE="fork" TEXT="vX.x (incremented by this revision or not?)">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-<node COLOR="#000000" CREATED="1242815104070" ID="Freemind_Link_1493926227" MODIFIED="1256925260984" POSITION="left" STYLE="bubble" TEXT="DEF version">
-<font NAME="SansSerif" SIZE="15"/>
-<node CREATED="1242815129537" ID="Freemind_Link_1119342713" MODIFIED="1256925557295" STYLE="fork" TEXT="vX.x (incremented by this revision or not?)">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-<node COLOR="#000000" CREATED="1242815104070" ID="Freemind_Link_218480523" MODIFIED="1256925260958" POSITION="left" STYLE="bubble" TEXT="starting version">
-<font NAME="SansSerif" SIZE="15"/>
-<node CREATED="1242815129537" ID="Freemind_Link_277246312" MODIFIED="1257328346805" STYLE="fork" TEXT="start from rXXX of SeaIce_flat.mm">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node CREATED="1242815129537" ID="Freemind_Link_93957810" MODIFIED="1257328365822" STYLE="fork" TEXT="SeaIce_flat.mm based on r524 (mariepierre, 2009-05-29) of SeaIce.mm">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-<node COLOR="#000000" CREATED="1242815104070" ID="Freemind_Link_169443819" MODIFIED="1256925260942" POSITION="left" STYLE="bubble" TEXT="new scientific input">
-<font NAME="SansSerif" SIZE="15"/>
-</node>
 <node COLOR="#000000" CREATED="1242815104070" ID="Freemind_Link_72730991" MODIFIED="1256925260893" POSITION="left" STYLE="bubble" TEXT="list of scientific contributors">
 <font NAME="SansSerif" SIZE="15"/>
 <node CREATED="1236851769006" ID="Freemind_Link_1607198855" MODIFIED="1257242106143" STYLE="fork" TEXT="Name (Institution): date of interview">
@@ -491,9 +420,6 @@
 <node CREATED="1233585362916" ID="Freemind_Link_531989929" LINK="http://www-pcmdi.llnl.gov/ipcc/model_documentation/ipcc_model_documentation.php" MODIFIED="1233586713179" STYLE="fork" TEXT="AR4 questionnaire">
 <font NAME="Arial" SIZE="14"/>
 </node>
-</node>
-<node CREATED="1242815104070" ID="Freemind_Link_188906600" MODIFIED="1242815343835" POSITION="left" STYLE="bubble" TEXT="version">
-<font ITALIC="true" NAME="SansSerif" SIZE="15"/>
 </node>
 </node>
 </map>
