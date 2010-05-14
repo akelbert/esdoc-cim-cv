@@ -71,12 +71,45 @@
   </xsl:choose>
 </xsl:variable>
 
+<xsl:variable name="tmpString2">
 <xsl:choose>
   <xsl:when test="contains($tmpString,'_')">
     <xsl:value-of select="substring-after($tmpString,'_')"/>
   </xsl:when>
   <xsl:otherwise>
     <xsl:value-of select="$tmpString"/>
+  </xsl:otherwise>
+</xsl:choose>
+</xsl:variable>
+
+<!-- perform metafor to esg/drs realm mappings -->
+<xsl:choose>
+  <xsl:when test="$tmpString2='Atmosphere'">
+    <xsl:text>atmos</xsl:text>
+  </xsl:when>
+  <xsl:when test="$tmpString2='Ocean'">
+    <xsl:text>ocean</xsl:text>
+  </xsl:when>
+  <xsl:when test="$tmpString2='LandSurface'">
+    <xsl:text>land</xsl:text>
+  </xsl:when>
+  <xsl:when test="$tmpString2='LandIce'">
+    <xsl:text>landIce</xsl:text>
+  </xsl:when>
+  <xsl:when test="$tmpString2='SeaIce'">
+    <xsl:text>seaIce</xsl:text>
+  </xsl:when>
+  <xsl:when test="$tmpString2='OceanBiogeoChemistry'">
+    <xsl:text>ocnBgchem</xsl:text>
+  </xsl:when>
+  <xsl:when test="$tmpString2='AtmosphericChemistry'">
+    <xsl:text>atmosChem</xsl:text>
+  </xsl:when>
+  <xsl:when test="$tmpString2='Aerosols'">
+    <xsl:text>aerosol</xsl:text>
+  </xsl:when>
+  <xsl:otherwise>
+    <xsl:value-of select="$tmpString2"/>
   </xsl:otherwise>
 </xsl:choose>
 

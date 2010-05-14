@@ -35,30 +35,47 @@ lower priority templates -->
   </xsl:template>
 
   <!-- match all nodes to the left (these are for information only) -->
-  <xsl:template match="node[@POSITION='left']" priority="7">
+  <xsl:template match="node[@POSITION='left']" priority="6">
     <!-- skip -->
   </xsl:template>
 
   <!-- match all nodes which are not complete (messagebox_warning icon) -->
-  <xsl:template match="node[icon[@BUILTIN='messagebox_warning']]" priority="6" >
+  <xsl:template match="node[icon[@BUILTIN='messagebox_warning']]" priority="5" >
     <!-- skip -->
   </xsl:template>
 
   <!-- match all nodes in italics as they are comments (but not the top one!)-->
-  <xsl:template match="node[font[@ITALIC='true'] and not(parent::map)]" priority="6" >
+  <xsl:template match="node[font[@ITALIC='true'] and not(parent::map)]" priority="5" >
     <!-- skip -->
   </xsl:template>
 
   <!-- match all textual "hook" nodes which contain node notes -->
-  <!--<xsl:template match="hook" priority="6">-->
+  <!--<xsl:template match="hook" priority="5">-->
     <!-- skip these nodes, the text is picked up separately -->
   <!--</xsl:template>-->
 
   <!-- match all component nodes (bold font) -->
   <!-- note: bold font with colour purple (#990099) is a parameter bundle which is marked to be viewed as a component by the questionnaire -->
   <!-- priority 4 overrides any lower (and default) priority template matches -->
-  <xsl:template match="node[font[@BOLD='true'] and @COLOR!='#990099']" priority="4">
+<!--
+  <xsl:template match="node[font[@BOLD='true']]" priority="4">
+-->
+  <xsl:template match="node[font[@BOLD='true'] and (not(@COLOR) or @COLOR!='#990099')]" priority="4">
     <!-- The presence of a link indicates this is a reference. We allow references but ignore them -->
+
+<!--
+    <xsl:message terminate="yes">
+      <xsl:text>Component is </xsl:text>
+      <xsl:value-of select="@TEXT"/>
+      <xsl:text>
+</xsl:text>
+      <xsl:text>COLOR is </xsl:text>
+      <xsl:value-of select="@COLOR"/>
+      <xsl:text>
+</xsl:text>
+    </xsl:message>
+-->
+
     <xsl:if test="not(@LINK)">
 
         <xsl:variable name="myName">
