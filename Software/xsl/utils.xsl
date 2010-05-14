@@ -82,34 +82,43 @@
 </xsl:choose>
 </xsl:variable>
 
+<xsl:call-template name="convert2drsname">
+<xsl:with-param name="name" select="$tmpString2"/>
+</xsl:call-template>
+
+</xsl:template>
+
+<xsl:template name="convert2drsname">
+<xsl:param name="name"/>
+
 <!-- perform metafor to esg/drs realm mappings -->
 <xsl:choose>
-  <xsl:when test="$tmpString2='Atmosphere'">
+  <xsl:when test="$name='Atmosphere'">
     <xsl:text>atmos</xsl:text>
   </xsl:when>
-  <xsl:when test="$tmpString2='Ocean'">
+  <xsl:when test="$name='Ocean'">
     <xsl:text>ocean</xsl:text>
   </xsl:when>
-  <xsl:when test="$tmpString2='LandSurface'">
+  <xsl:when test="$name='LandSurface'">
     <xsl:text>land</xsl:text>
   </xsl:when>
-  <xsl:when test="$tmpString2='LandIce'">
+  <xsl:when test="$name='LandIce'">
     <xsl:text>landIce</xsl:text>
   </xsl:when>
-  <xsl:when test="$tmpString2='SeaIce'">
+  <xsl:when test="$name='SeaIce'">
     <xsl:text>seaIce</xsl:text>
   </xsl:when>
-  <xsl:when test="$tmpString2='OceanBiogeoChemistry'">
+  <xsl:when test="$name='OceanBiogeoChemistry'">
     <xsl:text>ocnBgchem</xsl:text>
   </xsl:when>
-  <xsl:when test="$tmpString2='AtmosphericChemistry'">
+  <xsl:when test="$name='AtmosphericChemistry'">
     <xsl:text>atmosChem</xsl:text>
   </xsl:when>
-  <xsl:when test="$tmpString2='Aerosols'">
+  <xsl:when test="$name='Aerosols'">
     <xsl:text>aerosol</xsl:text>
   </xsl:when>
   <xsl:otherwise>
-    <xsl:value-of select="$tmpString2"/>
+    <xsl:value-of select="$name"/>
   </xsl:otherwise>
 </xsl:choose>
 

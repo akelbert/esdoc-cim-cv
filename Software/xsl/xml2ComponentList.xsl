@@ -6,12 +6,17 @@
 <xsl:param name="Separator" select="''"/>
 <xsl:param name="NSQualifier" select="''"/>
 
+<!-- include template convert2drsname -->
+<xsl:include href="utils.xsl"/>
+
 <!-- skip definitions as we pull these out separately -->
 <xsl:template match="definition"/>
 
 <xsl:template match="component">
 
-  <xsl:value-of select="@name"/>
+  <xsl:call-template name="convert2drsname">
+  <xsl:with-param name="name" select="@name"/>
+  </xsl:call-template>
   <xsl:text>
 </xsl:text>
 
