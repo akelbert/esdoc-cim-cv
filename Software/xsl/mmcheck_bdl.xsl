@@ -114,6 +114,9 @@ any lower priority templates -->
 
       <xsl:variable name="Children" select="node[not(icon[@BUILTIN='messagebox_warning'] or font[@ITALIC='true'])]"/>
 
+      <!-- true if this is a Component that is also a Property Group -->
+      <xsl:variable name="MixedCompProp" select="@COLOR='#990099'"/>
+
       <!-- A component node must only contain components (bold) and/or a parameter group (#990099) -->
       <xsl:for-each select="$Children">
 <!--
@@ -129,6 +132,19 @@ any lower priority templates -->
 </xsl:text>
           </xsl:message>
         </xsl:if>
+
+        <!-- mixed component properties can not have components as children -->
+        <xsl:if test="$MixedCompProp and font[@BOLD='true'] and not(@COLOR='#990099)')">
+          <xsl:message terminate="no">
+            <xsl:text>*ERROR: Mixed Component/PropertyGroup '</xsl:text>
+            <xsl:value-of select="$NodeName"/>
+            <xsl:text>' has child node '</xsl:text>
+            <xsl:value-of select="@TEXT"/>
+            <xsl:text>' which is a Component.
+</xsl:text>
+          </xsl:message>
+        </xsl:if>
+
       </xsl:for-each>
 
       <!-- A component name must only contain upper and/or lower case letters -->
