@@ -35,28 +35,29 @@ lower priority templates -->
   </xsl:template>
 
   <!-- match all nodes to the left (these are for information only) -->
-  <xsl:template match="node[@POSITION='left']" priority="6">
+  <xsl:template match="node[@POSITION='left']" priority="7">
     <!-- skip -->
   </xsl:template>
 
   <!-- match all nodes which are not complete (messagebox_warning icon) -->
-  <xsl:template match="node[icon[@BUILTIN='messagebox_warning']]" priority="5" >
+  <xsl:template match="node[icon[@BUILTIN='messagebox_warning']]" priority="6" >
     <!-- skip -->
   </xsl:template>
 
   <!-- match all nodes in italics as they are comments (but not the top one!)-->
-  <xsl:template match="node[font[@ITALIC='true'] and not(parent::map)]" priority="5" >
+  <xsl:template match="node[font[@ITALIC='true'] and not(parent::map)]" priority="6" >
     <!-- skip -->
   </xsl:template>
 
   <!-- match all textual "hook" nodes which contain node notes -->
-  <!--<xsl:template match="hook" priority="5">-->
+  <!--<xsl:template match="hook" priority="6">-->
     <!-- skip these nodes, the text is picked up separately -->
   <!--</xsl:template>-->
 
   <!-- match all component nodes (bold font) -->
+  <!-- note: bold font with colour purple (#990099) is a parameter bundle which is marked to be viewed as a component by the questionnaire -->
   <!-- priority 4 overrides any lower (and default) priority template matches -->
-  <xsl:template match="node[font[@BOLD='true']]" priority="4">
+  <xsl:template match="node[font[@BOLD='true'] and @COLOR!='#990099']" priority="4">
     <!-- The presence of a link indicates this is a reference. We allow references but ignore them -->
     <xsl:if test="not(@LINK)">
 
@@ -89,7 +90,7 @@ lower priority templates -->
           </xsl:for-each>
           </xsl:variable>
           <xsl:if test="$match=''">
-            <parametergroup name="General Attributes" rawName="" esgName=""/>
+            <parametergroup name="General Attributes" rawName="" esgName="" componentView="False"/>
           </xsl:if>
           <xsl:apply-templates/>
         </component>
@@ -100,6 +101,18 @@ lower priority templates -->
 
   <!-- match all parameter bundle nodes (colour purple) -->
   <xsl:template match="node[@COLOR='#990099']" priority="3">
+
+        <!-- if the node is also bold then set componentView to true -->
+        <xsl:variable name="componentView">
+          <xsl:choose>
+            <xsl:when test="font[@BOLD='true']">
+              <xsl:text>true</xsl:text>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:text>false</xsl:text>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:variable>
 
         <xsl:variable name="myNameNoUnderscore">
           <xsl:call-template name="normaliseName4Q">
@@ -130,7 +143,7 @@ lower priority templates -->
           </xsl:call-template>
         </xsl:variable>
 
-        <parametergroup name="{$myParamName}" rawName="{@TEXT}" esgName="{$esgName}">
+        <parametergroup name="{$myParamName}" rawName="{@TEXT}" esgName="{$esgName}" componentView="{$componentView}">
           <xsl:apply-templates/>
         </parametergroup>
 
