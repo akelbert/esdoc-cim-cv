@@ -6,12 +6,12 @@
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#000000" CREATED="1256810468669" ID="Freemind_Link_957671028" MODIFIED="1269354038228" TEXT="Horizontal.Grid">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#990099" CREATED="1268737370155" ID="_" MODIFIED="1269353699458" TEXT="GridCharacteritics_">
+<node COLOR="#990099" CREATED="1268737370155" ID="_" MODIFIED="1274792549413" TEXT="Horizontal_CoordinateSystem">
 <font NAME="SansSerif" SIZE="14"/>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1832686028" MODIFIED="1268749300598" TEXT="GridMnemonic">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1832686028" MODIFIED="1274792644697" TEXT="GridMnemonic">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Grid mnemonic commonly used to refer to the grid (eg. T42L26, ORCA1, OM3). Please, try to provide the same mnemonic as the one in CMOR &quot;source&quot; attribute.[/definition]</text>
+<text>[definition]Grid mnemonic commonly used to refer to the grid (eg. T42L26, ORCA1, OM3). Please, provide the same mnemonic as the one used for CMOR &quot;source&quot; attribute.[/definition]</text>
 </hook>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1407036940" MODIFIED="1267723383687" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
@@ -371,19 +371,25 @@
 </node>
 <node COLOR="#0033ff" CREATED="1253713965343" ID="Freemind_Link_1869331808" MODIFIED="1269340529377" TEXT="if GridType is &quot;icosahedral geodesic&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1101250182" MODIFIED="1268735299906" STYLE="bubble" TEXT="NumberOfTotalGridCells">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1101250182" MODIFIED="1274792136894" STYLE="bubble" TEXT="NumberOfGridsCellsInFirstDimensionOfDiamond">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Number of total grid cells of the horizontal grid.[/definition]</text>
+<text>[definition]Number of grid cells in the first dimension of each of the 20 diamonds.[/definition]</text>
 </hook>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1223564402" MODIFIED="1244564007398" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1268738273792" ID="Freemind_Link_1637393704" MODIFIED="1269524877175" STYLE="fork" TEXT="Sophie: OR NumberOfGridsCellsInFirstDimensionOfDiamond + NumberOfGridsCellsInSecondDimensionOfDiamond   ?">
-<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="messagebox_warning"/>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1990512565" MODIFIED="1274792167681" STYLE="bubble" TEXT="NumberOfGridsCellsInSecondDimensionOfDiamond">
+<font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Number of grid cells in the second dimension of each of the 20 diamonds.[/definition]</text>
+</hook>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1641220629" MODIFIED="1244564007398" STYLE="fork" TEXT="">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-1"/>
+</node>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1253713965343" ID="Freemind_Link_270072277" MODIFIED="1269269657485" TEXT="if GridType is &quot;tripolar&quot;">
@@ -502,10 +508,10 @@
 <icon BUILTIN="pencil"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1975292175" MODIFIED="1269424648815" TEXT="SpecificGridRefinement">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1975292175" MODIFIED="1274797348068" TEXT="GridRefinementScheme">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Any relevant grid refinement in specific geographical regions.[/definition]</text>
+<text>[definition]Any relevant details about grid refinement in specific geographical regions.[/definition]</text>
 </hook>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_455769246" MODIFIED="1267723383687" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
@@ -584,14 +590,6 @@
 <node CREATED="1240319766674" ID="Freemind_Link_587974161" MODIFIED="1269424385683" STYLE="fork" TEXT="hybrid">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1268738273792" ID="Freemind_Link_1789237561" MODIFIED="1269524885927" STYLE="fork" TEXT="GridSpec: &quot;hybrid&quot; coordinate with a mass-based element are considered to be &quot;mass-based&quot;. ">
-<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="messagebox_warning"/>
-</node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1268738273792" ID="Freemind_Link_966983581" MODIFIED="1269524885927" STYLE="fork" TEXT="Marie-Pierre: I consider a vertical coordinate is an &quot;hybrid&quot; as long as it is composed of 2 different VerticalCoordinateTypes">
-<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="messagebox_warning"/>
-</node>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1255360198907" ID="Freemind_Link_930426551" MODIFIED="1267725865951" TEXT="if VerticalCoordinateType is &quot;terrain-following&quot;">
@@ -604,20 +602,20 @@
 <node CREATED="1240319813981" ID="Freemind_Link_496069579" MODIFIED="1256811869468" STYLE="fork" TEXT="sigma">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
-<node BACKGROUND_COLOR="#00ff00" CREATED="1268738273792" ID="Freemind_Link_637519753" MODIFIED="1269524832536" STYLE="fork" TEXT="Marie-Pierre: CF standard name = &quot;atmosphere_sigma_coordinate&quot;, &quot;ocean_sigma_coordinate&quot;">
-<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="idea"/>
 </node>
+<node CREATED="1240319766674" ID="Freemind_Link_1291779045" MODIFIED="1269428164505" STYLE="fork" TEXT="S-coordinate">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
 </node>
 <node COLOR="#000000" CREATED="1233270123274" ID="Freemind_Link_165671413" MODIFIED="1253868886792" STYLE="fork" TEXT="other">
 <font NAME="Arial" SIZE="15"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233270123274" ID="Freemind_Link_1865623324" MODIFIED="1269423801447" STYLE="bubble" TEXT="ReferenceSurface">
+<node COLOR="#996600" CREATED="1233270123274" ID="Freemind_Link_1865623324" MODIFIED="1274792832186" STYLE="bubble" TEXT="SurfaceReference">
 <font NAME="Arial" SIZE="15"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Name and/or description of the elevation map of the planetary surface used as surface reference for the &quot;terrain-following&quot; vertical coordinate.[/definition]</text>
+<text>[definition]Surface used as reference for the current vertical coordinate.[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1233270123274" ID="Freemind_Link_1230307887" MODIFIED="1268731110821" STYLE="fork" TEXT="">
 <font NAME="Arial" SIZE="15"/>
@@ -646,38 +644,9 @@
 <text>[definition]&quot;depth&quot; in ocean.[/definition]</text>
 </hook>
 </node>
-<node CREATED="1240319766674" ID="Freemind_Link_1291779045" MODIFIED="1269428164505" STYLE="fork" TEXT="S-coordinate">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-<node BACKGROUND_COLOR="#00ff00" CREATED="1268738273792" ID="Freemind_Link_1585497253" MODIFIED="1269524832536" STYLE="fork" TEXT="Marie-Pierre: CF standard name = &quot;ocean_s_coordinate&quot;">
-<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="idea"/>
-</node>
-<node BACKGROUND_COLOR="#0099ff" CREATED="1268738273792" ID="Freemind_Link_1423807052" MODIFIED="1269428276143" STYLE="fork" TEXT="MariePierre: is &quot;S-coordinate&quot; an hybrid (generalized) coordinate? ">
-<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="help"/>
-</node>
-<node BACKGROUND_COLOR="#ff0033" CREATED="1268738273792" ID="Freemind_Link_1029088989" MODIFIED="1269524899468" STYLE="fork" TEXT="MariePierre: not sure S-coordinate is space-based">
-<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="messagebox_warning"/>
-<icon BUILTIN="messagebox_warning"/>
-</node>
-</node>
 <node CREATED="1240319809200" ID="Freemind_Link_1796063829" MODIFIED="1269421311783" STYLE="fork" TEXT="sleve (smooth level)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
-<node BACKGROUND_COLOR="#0099ff" CREATED="1268738273792" ID="Freemind_Link_1110304155" MODIFIED="1269250997201" STYLE="fork" TEXT="MariePierre: From CF. To be added?">
-<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="help"/>
-</node>
-<node BACKGROUND_COLOR="#00ff00" CREATED="1268738273792" ID="Freemind_Link_986264564" MODIFIED="1269524832536" STYLE="fork" TEXT="Marie-Pierre: CF standard name = &quot;atmosphere_sleve_coordinate&quot;">
-<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="idea"/>
-</node>
-<node BACKGROUND_COLOR="#0099ff" CREATED="1268738273792" ID="Freemind_Link_407414146" MODIFIED="1269266461902" STYLE="fork" TEXT="MariePierre: is &quot;sleve&quot; an hybrid (generalized) coordinate?">
-<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="help"/>
-</node>
 </node>
 <node COLOR="#000000" CREATED="1233270123274" ID="Freemind_Link_1469967699" MODIFIED="1253868886792" STYLE="fork" TEXT="other">
 <font NAME="Arial" SIZE="15"/>
@@ -706,40 +675,23 @@
 <text/>
 </hook>
 </node>
-<node CREATED="1240319809200" ID="Freemind_Link_765910576" MODIFIED="1269250831178" STYLE="fork" TEXT="pressure reference (P)">
+<node CREATED="1240319809200" ID="Freemind_Link_765910576" MODIFIED="1274793885362" STYLE="fork" TEXT="pressure">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
-<node BACKGROUND_COLOR="#0099ff" CREATED="1268738273792" ID="Freemind_Link_1922592878" MODIFIED="1268990267091" STYLE="fork" TEXT="MariePierre: I would tend to replace it by simply &quot;pressure&quot; or &quot;fixed pressure&quot; ?">
-<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="help"/>
-</node>
 </node>
 <node CREATED="1240319766674" ID="Freemind_Link_771846134" MODIFIED="1269421311780" STYLE="fork" TEXT="natural log pressure">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
-<node BACKGROUND_COLOR="#0099ff" CREATED="1268738273792" ID="Freemind_Link_1854317793" MODIFIED="1269250997201" STYLE="fork" TEXT="MariePierre: From CF. To be added?">
-<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="help"/>
-</node>
-<node BACKGROUND_COLOR="#00ff00" CREATED="1268738273792" ID="Freemind_Link_1708199763" MODIFIED="1269524832536" STYLE="fork" TEXT="Marie-Pierre: CF standard name = &quot;atmosphere_ln_pressure_coordinate&quot;">
-<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="idea"/>
-</node>
 </node>
 <node CREATED="1240319809200" ID="Freemind_Link_527474253" MODIFIED="1269251926610" STYLE="fork" TEXT="pressure-height">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
-<node BACKGROUND_COLOR="#0099ff" CREATED="1268738273792" ID="Freemind_Link_1464279702" MODIFIED="1269266470849" STYLE="fork" TEXT="MariePierre: is &quot;pressure-height&quot; an hybrid (generalized) coordinate?">
-<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="help"/>
-</node>
 </node>
 <node COLOR="#000000" CREATED="1233330582860" ID="Freemind_Link_1223983811" MODIFIED="1269421311777" STYLE="fork" TEXT="Z*-coordinate">
 <font NAME="Arial" SIZE="15"/>
 <icon BUILTIN="button_cancel"/>
-<node BACKGROUND_COLOR="#0099ff" CREATED="1268738273792" ID="Freemind_Link_425630808" MODIFIED="1269250658650" STYLE="fork" TEXT="MariePierre: Z* and &quot;pressure-height&quot; are identical?">
+<node BACKGROUND_COLOR="#ffffff" CREATED="1268738273792" ID="Freemind_Link_425630808" MODIFIED="1274792691536" STYLE="fork" TEXT="MariePierre: Z* is different from  pressure-height">
 <font ITALIC="true" NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="help"/>
 </node>
 </node>
 <node CREATED="1244812565136" ID="Freemind_Link_878892120" MODIFIED="1246265112700" STYLE="fork" TEXT="P*">
@@ -749,9 +701,8 @@
 <node COLOR="#000000" CREATED="1233330582860" ID="Freemind_Link_376869721" MODIFIED="1254226141475" STYLE="fork" TEXT="Z-coordinate">
 <font NAME="Arial" SIZE="15"/>
 <icon BUILTIN="button_cancel"/>
-<node BACKGROUND_COLOR="#0099ff" CREATED="1268738273792" ID="Freemind_Link_1752827569" MODIFIED="1269265864414" STYLE="fork" TEXT="MariePierre: it is the geopotential height, OK?">
+<node BACKGROUND_COLOR="#ffffff" CREATED="1268738273792" ID="Freemind_Link_1752827569" MODIFIED="1274792379334" STYLE="fork" TEXT="MariePierre: Z-coordinate is the geopotential height">
 <font ITALIC="true" NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="help"/>
 </node>
 </node>
 <node CREATED="1244812637051" ID="Freemind_Link_1788943705" MODIFIED="1246265112687" STYLE="fork" TEXT="Z**">
@@ -761,6 +712,16 @@
 <node COLOR="#000000" CREATED="1233270123274" ID="Freemind_Link_892228221" MODIFIED="1253868886792" STYLE="fork" TEXT="other">
 <font NAME="Arial" SIZE="15"/>
 <icon BUILTIN="button_cancel"/>
+</node>
+</node>
+<node COLOR="#996600" CREATED="1233270123274" ID="Freemind_Link_60543769" MODIFIED="1274792832186" STYLE="bubble" TEXT="SurfaceReference">
+<font NAME="Arial" SIZE="15"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Surface used as reference for the current vertical coordinate.[/definition]</text>
+</hook>
+<node COLOR="#000000" CREATED="1233270123274" ID="Freemind_Link_1506051135" MODIFIED="1268731110821" STYLE="fork" TEXT="">
+<font NAME="Arial" SIZE="15"/>
+<icon BUILTIN="pencil"/>
 </node>
 </node>
 </node>
@@ -783,51 +744,6 @@
 </node>
 <node COLOR="#0033ff" CREATED="1255360198907" ID="Freemind_Link_1799066791" MODIFIED="1268929469990" TEXT="if VerticalCoordinateType is &quot;hybrid&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233270123274" ID="Freemind_Link_1778826571" MODIFIED="1269428069106" STYLE="bubble" TEXT="HybridType">
-<font NAME="Arial" SIZE="15"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]What kind of hybrid vertical coordinate is used?[/definition]</text>
-</hook>
-<node COLOR="#000000" CREATED="1233270123274" ID="Freemind_Link_1222436889" MODIFIED="1269429999317" STYLE="fork" TEXT="linear combination">
-<font NAME="Arial" SIZE="15"/>
-<icon BUILTIN="button_cancel"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]The hybrid vertical coordinate is a &quot;combination&quot; of two or more conventional coordinates.[/definition]</text>
-</hook>
-</node>
-<node COLOR="#000000" CREATED="1233270123274" ID="Freemind_Link_1091551693" MODIFIED="1269429999317" STYLE="fork" TEXT="generalized">
-<font NAME="Arial" SIZE="15"/>
-<icon BUILTIN="button_cancel"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Hybrid vertical coordinate is a truly generalized coordinate.[/definition]</text>
-</hook>
-</node>
-<node BACKGROUND_COLOR="#3399ff" CREATED="1268738273792" ID="Freemind_Link_1300184421" MODIFIED="1269425078311" STYLE="fork" TEXT="MariePierre: according to Chassignet et al. 2006, &quot;hybrid&quot; can mean different thigs to different people: linear combination of 2 more conventional coord. or truly generalized coord. That&apos;s why I added &quot;HybridType&quot;">
-<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="help"/>
-</node>
-</node>
-<node COLOR="#996600" CREATED="1233270123274" ID="Freemind_Link_943135119" MODIFIED="1269428079600" STYLE="bubble" TEXT="HybridCompounds">
-<font NAME="Arial" SIZE="15"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Type of the vertical coordinate the hybrid coordinate is composed of.[/definition]</text>
-</hook>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233330589779" ID="Freemind_Link_1200068037" MODIFIED="1269428012371" STYLE="fork" TEXT="terrain-following">
-<font NAME="Arial" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Vertical coordinates requiring an elevation map as reference are &quot;terrain-following&quot;.[/definition]</text>
-</hook>
-</node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233330589779" ID="Freemind_Link_779918564" MODIFIED="1269428012379" STYLE="fork" TEXT="space-based">
-<font NAME="Arial" SIZE="15"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node CREATED="1240319809200" ID="Freemind_Link_853945518" MODIFIED="1269428012376" STYLE="fork" TEXT="mass-based">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-</node>
 <node COLOR="#996600" CREATED="1233270123274" ID="Freemind_Link_1538653169" MODIFIED="1269425020686" STYLE="bubble" TEXT="VerticalCoordinate">
 <font NAME="Arial" SIZE="15"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
@@ -836,46 +752,18 @@
 <node CREATED="1240319766674" ID="Freemind_Link_586313841" MODIFIED="1269429849004" STYLE="fork" TEXT="hybrid sigma-pressure">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
-<node BACKGROUND_COLOR="#00ff00" CREATED="1268738273792" ID="Freemind_Link_211364512" MODIFIED="1269524832536" STYLE="fork" TEXT="Marie-Pierre: CF standard name = &quot;atmosphere_hybrid_sigma_pressure_coordinate&quot;&#xa;&#xa;">
-<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="idea"/>
-</node>
 </node>
 <node CREATED="1240319766674" ID="Freemind_Link_1195092793" MODIFIED="1269425425945" STYLE="fork" TEXT="hybrid height">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
-<node BACKGROUND_COLOR="#0099ff" CREATED="1268738273792" ID="Freemind_Link_140572855" MODIFIED="1269425414590" STYLE="fork" TEXT="MariePierre: From CF. To be added? Not ">
-<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="help"/>
-</node>
-<node BACKGROUND_COLOR="#00ff00" CREATED="1268738273792" ID="Freemind_Link_1449306602" MODIFIED="1269524832536" STYLE="fork" TEXT="Marie-Pierre: CF standard name = &quot;atmosphere_hybrid_height_coordinate&quot;&#xa;">
-<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="idea"/>
-</node>
 </node>
 <node CREATED="1240319766674" ID="Freemind_Link_326610452" MODIFIED="1269429858285" STYLE="fork" TEXT="hybrid sigma-z">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
-<node BACKGROUND_COLOR="#0099ff" CREATED="1268738273792" ID="Freemind_Link_889639981" MODIFIED="1269250997201" STYLE="fork" TEXT="MariePierre: From CF. To be added?">
-<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="help"/>
-</node>
-<node BACKGROUND_COLOR="#00ff00" CREATED="1268738273792" ID="Freemind_Link_811185801" MODIFIED="1269524832536" STYLE="fork" TEXT="Marie-Pierre: CF standard name = &quot;ocean_sigma_z_coordinate&quot; ">
-<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="idea"/>
-</node>
 </node>
 <node CREATED="1240319766674" ID="Freemind_Link_361069589" MODIFIED="1269425425946" STYLE="fork" TEXT="double sigma">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
-<node BACKGROUND_COLOR="#0099ff" CREATED="1268738273792" ID="Freemind_Link_855977658" MODIFIED="1269250997201" STYLE="fork" TEXT="MariePierre: From CF. To be added?">
-<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="help"/>
-</node>
-<node BACKGROUND_COLOR="#00ff00" CREATED="1268738273792" ID="Freemind_Link_1642237762" MODIFIED="1269524832536" STYLE="fork" TEXT="Marie-Pierre: CF standard name = &quot;ocean_double_sigma_coordinate&quot; ">
-<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="idea"/>
-</node>
 </node>
 <node COLOR="#000000" CREATED="1233330589779" ID="Freemind_Link_149345745" MODIFIED="1269429825612" STYLE="fork" TEXT="hybrid Z-S">
 <font NAME="Arial" SIZE="15"/>
@@ -888,10 +776,8 @@
 <node CREATED="1240319777079" ID="Freemind_Link_149082754" MODIFIED="1269425429194" STYLE="fork" TEXT="hybrid floating Lagrangian">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
-<node BACKGROUND_COLOR="#ff0033" CREATED="1268738273792" ID="Freemind_Link_1000945665" MODIFIED="1269524904928" STYLE="fork" TEXT="MariePierre: ???">
+<node BACKGROUND_COLOR="#ffffff" CREATED="1268738273792" ID="Freemind_Link_376626113" MODIFIED="1274792422873" STYLE="fork" TEXT="MariePierre: comes from GFDL...">
 <font ITALIC="true" NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="messagebox_warning"/>
-<icon BUILTIN="messagebox_warning"/>
 </node>
 </node>
 <node COLOR="#000000" CREATED="1233330589779" ID="Freemind_Link_1120532596" MODIFIED="1269425458534" STYLE="fork" TEXT="other">
@@ -899,18 +785,14 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233270123274" ID="Freemind_Link_1385394726" MODIFIED="1269429575511" STYLE="bubble" TEXT="Hybridization">
+<node COLOR="#996600" CREATED="1233270123274" ID="Freemind_Link_1385394726" MODIFIED="1274793951210" STYLE="bubble" TEXT="Hybridization">
 <font NAME="Arial" SIZE="15"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Give details of the construction of the hybrid vertical coordinate (e.g. first coordinate below a given level, second coordinate above).[/definition]</text>
+<text>[definition]Give details about the construction of the hybrid vertical coordinate (e.g. first coordinate below a given level, second coordinate above). May include the formula terms according to CF.[/definition]</text>
 </hook>
 <node CREATED="1254226011363" ID="Freemind_Link_458025251" MODIFIED="1268739221630" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="pencil"/>
-</node>
-<node BACKGROUND_COLOR="#00ff00" CREATED="1268738273792" ID="Freemind_Link_567389471" MODIFIED="1269524832520" STYLE="fork" TEXT="Marie-Pierre: May include the &quot;formula terms&quot; in the CF convention....">
-<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="idea"/>
 </node>
 </node>
 </node>
