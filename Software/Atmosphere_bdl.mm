@@ -338,7 +338,7 @@
 </node>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233138776960" ID="Freemind_Link_1994420078" MODIFIED="1256685192010" TEXT="Atmos_DynamicalCore">
 <font BOLD="true" NAME="Arial" SIZE="14"/>
-<node COLOR="#990099" CREATED="1254474552539" ID="Freemind_Link_1344279856" MODIFIED="1256814458845" TEXT="AtmosDynamicalCoreAttributes_">
+<node COLOR="#990099" CREATED="1254474552539" FOLDED="true" ID="Freemind_Link_1344279856" MODIFIED="1256814458845" TEXT="AtmosDynamicalCoreAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1233587234324" FOLDED="true" ID="Freemind_Link_347570863" MODIFIED="1258122981616" TEXT="ListOfPrognosticVariables">
 <font NAME="Arial" SIZE="14"/>
@@ -625,57 +625,101 @@
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1233141996872" FOLDED="true" ID="Freemind_Link_1144449933" MODIFIED="1256685201037" TEXT="Atmos_Advection">
+<node COLOR="#000000" CREATED="1233141996872" ID="Freemind_Link_1144449933" MODIFIED="1256685201037" TEXT="Atmos_Advection">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#990099" CREATED="1243601885374" FOLDED="true" ID="Freemind_Link_1334292817" MODIFIED="1256925076108" TEXT="Tracers">
+<node COLOR="#990099" CREATED="1243601885374" ID="Freemind_Link_1334292817" MODIFIED="1256925076108" TEXT="Tracers">
 <font NAME="SansSerif" SIZE="14"/>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233141816416" FOLDED="true" ID="Freemind_Link_1694965924" MODIFIED="1258363043986" TEXT="SchemeName">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233141816416" ID="Freemind_Link_1694965924" MODIFIED="1272297803686" TEXT="SchemeName">
 <edge WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Commonly used name for tracers advection scheme.[/definition]</text>
+<text>[definition]Commonly used name for tracers advection scheme.[/definition]&#xa;Short Name&#x9;Long Name&#x9;&#x9;Description&#xa;Heun&#x9;&#x9;Heun&#x9;&#x9;&#x9;Modified Euler (predictor-corrector) method with 4th order spatial differencing in the horizontal and 2nd order spatial differencing in the vertical&#xa;RoeTVDVanLeer&#x9;Roe and Van Leer&#x9;Flux corrected transport scheme comprised of the first order Roe Scheme and the Van Leer flux limiting scheme&#xa;RoeTVDSuperbee&#x9;Roe and Superbee&#x9;Flux corrected transport scheme comprised of the first order Roe Scheme and the Superbee flux limiting scheme&#xa;Linear&#x9;&#x9;Linear&#x9;&#x9;&#x9;1-dimensional, conservative scheme extended to multi-dimensions by operator splitting&#xa;Quadratic&#x9;Quadritic&#x9;&#x9;1-dimensional, conservative scheme extended to multi-dimensions by operator splitting&#xa;Quartic&#x9;&#x9;Quartic&#x9;&#x9;&#x9;1-dimensional, conservative scheme extended to multi-dimensions by operator splitting&#xa;Prather&#x9;&#x9;Prather&#x9;&#x9;&#x9;1-dimensional, conservative scheme extended to multi-dimensions by operator splitting and conserves the 1st and 2nd-order moments.&#xa;UTOPIA&#x9;&#x9;UTOPIA&#x9;&#x9;&#x9;Fully multidimensional, quasi-3rd-order, finite volume scheme&#xa;CubicSemiLag&#x9;Cubic Semi-Lagrangian&#x9;Semi-Lagrangian scheme with cubic interpolation&#xa;QuinticSemiLag&#x9;Quintic Semi-Lagrangian&#x9;Semi-Lagrangian scheme with quintic interpolation </text>
 </hook>
-<node CREATED="1244108953139" ID="Freemind_Link_1306986510" MODIFIED="1244120365326" STYLE="fork" TEXT="Prather">
+<node CREATED="1244108953139" ID="Freemind_Link_1306986510" MODIFIED="1272297474735" STYLE="fork" TEXT="Heun">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1233671047851" ID="Freemind_Link_1638866016" MODIFIED="1253105617823" STYLE="fork" TEXT="other">
+<node CREATED="1233671047851" ID="Freemind_Link_1638866016" MODIFIED="1272297898302" STYLE="fork" TEXT="Roe and VanLeer">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1244108953139" ID="Freemind_Link_892715634" MODIFIED="1272297904346" STYLE="fork" TEXT="Roe and Superbee">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1244108953139" ID="Freemind_Link_965500536" MODIFIED="1272297509373" STYLE="fork" TEXT="Linear">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1244108953139" ID="Freemind_Link_339199221" MODIFIED="1272297520236" STYLE="fork" TEXT="Quadratic">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1244108953139" ID="Freemind_Link_790952689" MODIFIED="1272297525124" STYLE="fork" TEXT="Quartic">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1244108953139" ID="Freemind_Link_697359389" MODIFIED="1244120365326" STYLE="fork" TEXT="Prather">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1244108953139" ID="Freemind_Link_1442788114" MODIFIED="1272297544026" STYLE="fork" TEXT="UTOPIA">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1244108953139" ID="Freemind_Link_150341144" MODIFIED="1272297561170" STYLE="fork" TEXT="CubicSemiLagrangian">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1244108953139" ID="Freemind_Link_20108004" MODIFIED="1272297571177" STYLE="fork" TEXT="QuinticSemiLagrangian">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1244108953139" ID="Freemind_Link_367686526" MODIFIED="1272297582072" STYLE="fork" TEXT="Other">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233141816416" FOLDED="true" ID="Freemind_Link_227836179" MODIFIED="1258363874514" TEXT="SchemeType">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233141816416" ID="Freemind_Link_227836179" MODIFIED="1258363874514" TEXT="SchemeType">
 <edge WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Type of numerical scheme used for advection of tracers.[/definition]</text>
 </hook>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233141348258" ID="Freemind_Link_188895135" MODIFIED="1233932890010" STYLE="fork" TEXT="Eulerian">
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233141348258" ID="Freemind_Link_188895135" MODIFIED="1272298091202" STYLE="fork" TEXT="Eulerian">
 <font NAME="Arial" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
+<icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1244107896510" ID="Freemind_Link_896893505" MODIFIED="1253536313470" STYLE="fork" TEXT="Lagrangian">
+<node CREATED="1244107896510" ID="Freemind_Link_896893505" MODIFIED="1272298093130" STYLE="fork" TEXT="Lagrangian">
 <font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
+<icon BUILTIN="button_ok"/>
 </node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233141360010" ID="Freemind_Link_580651099" MODIFIED="1258123787099" STYLE="fork" TEXT="semi-Lagrangian">
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233141360010" ID="Freemind_Link_580651099" MODIFIED="1272298124333" STYLE="fork" TEXT="Semi-Lagrangian">
 <font NAME="Arial" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
+<icon BUILTIN="button_ok"/>
 </node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233141426259" ID="Freemind_Link_1948085898" MODIFIED="1258123791708" STYLE="fork" TEXT="mass-conserving">
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233141426259" ID="Freemind_Link_1948085898" MODIFIED="1272298131520" STYLE="fork" TEXT="Mass-conserving">
 <font NAME="Arial" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
+<icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1243601941117" ID="Freemind_Link_1844065792" MODIFIED="1258123800140" STYLE="fork" TEXT="mass-conserving / finite volume (Lin-Rood)">
+<node CREATED="1243601941117" ID="Freemind_Link_1844065792" MODIFIED="1272298136499" STYLE="fork" TEXT="Finite volume">
 <font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
+<icon BUILTIN="button_ok"/>
 </node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233270123274" ID="Freemind_Link_38898062" MODIFIED="1253105628938" STYLE="fork" TEXT="other">
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233141348258" ID="Freemind_Link_284829931" MODIFIED="1272298109971" STYLE="fork" TEXT="Modifed Euler">
 <font NAME="Arial" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233141348258" ID="Freemind_Link_363756754" MODIFIED="1272298110859" STYLE="fork" TEXT="Flux Corrected">
+<font NAME="Arial" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233270123274" ID="Freemind_Link_38898062" MODIFIED="1272298141082" STYLE="fork" TEXT="Other">
+<font NAME="Arial" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244109921507" FOLDED="true" ID="Freemind_Link_508198756" MODIFIED="1258363203893" STYLE="bubble" TEXT="ConservedQuantities">
+<node COLOR="#996600" CREATED="1244109921507" ID="Freemind_Link_508198756" MODIFIED="1258363203893" STYLE="bubble" TEXT="ConservedQuantities">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Quantities conserved trought tracers advection scheme.[/definition]</text>
@@ -685,7 +729,7 @@
 <icon BUILTIN="pencil"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244109933745" FOLDED="true" ID="Freemind_Link_62962895" MODIFIED="1258363250085" STYLE="bubble" TEXT="ConservationMethod">
+<node COLOR="#996600" CREATED="1244109933745" ID="Freemind_Link_62962895" MODIFIED="1258363250085" STYLE="bubble" TEXT="ConservationMethod">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Method used to ensure conservation in tracers advection scheme.[/definition]</text>
@@ -700,51 +744,75 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1243601892037" FOLDED="true" ID="Freemind_Link_232268089" MODIFIED="1256925080593" TEXT="Momentum">
+<node COLOR="#990099" CREATED="1243601892037" ID="Freemind_Link_232268089" MODIFIED="1256925080593" TEXT="Momentum">
 <font NAME="SansSerif" SIZE="14"/>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233141816416" FOLDED="true" ID="Freemind_Link_955697229" MODIFIED="1258363038604" TEXT="SchemeName">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233141816416" ID="Freemind_Link_955697229" MODIFIED="1258363038604" TEXT="SchemeName">
 <edge WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Commonly used name for momentum advection scheme.[/definition]</text>
 </hook>
-<node CREATED="1233671047851" ID="Freemind_Link_154883559" MODIFIED="1256741193836" STYLE="fork" TEXT="">
+<node CREATED="1233671047851" ID="Freemind_Link_1795817459" MODIFIED="1272298215599" STYLE="fork" TEXT="Van Leer">
 <font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="pencil"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1233671047851" ID="Freemind_Link_1274386034" MODIFIED="1272298227752" STYLE="fork" TEXT="Janjic">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1233671047851" ID="Freemind_Link_691699069" MODIFIED="1272298248682" STYLE="fork" TEXT="Arakawa - C grid">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1233671047851" ID="Freemind_Link_1944219179" MODIFIED="1272298255329" STYLE="fork" TEXT="Arakawa - B grid">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1233671047851" ID="Freemind_Link_1270665826" MODIFIED="1272298270041" STYLE="fork" TEXT="Arakawa - E grid">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1233671047851" ID="Freemind_Link_1008650899" MODIFIED="1272298300555" STYLE="fork" TEXT="SUPG - Streamline Upwind Petrov-Galerkin">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1233671047851" ID="Freemind_Link_1998126553" MODIFIED="1272298281687" STYLE="fork" TEXT="Other">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233141816416" FOLDED="true" ID="Freemind_Link_1253992879" MODIFIED="1258363868851" TEXT="SchemeType">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233141816416" ID="Freemind_Link_1253992879" MODIFIED="1258363868851" TEXT="SchemeType">
 <edge WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Type of numerical scheme used for advection of momentum.[/definition]</text>
 </hook>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233141348258" ID="Freemind_Link_1912184864" MODIFIED="1233932890010" STYLE="fork" TEXT="Eulerian">
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233141426259" ID="Freemind_Link_1929117453" MODIFIED="1272298382350" STYLE="fork" TEXT="2nd Order">
 <font NAME="Arial" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
+<icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1244107896510" ID="Freemind_Link_951141458" MODIFIED="1244120102029" STYLE="fork" TEXT="Lagrangian">
+<node CREATED="1243601941117" ID="Freemind_Link_724072503" MODIFIED="1272298384990" STYLE="fork" TEXT="4th Order">
 <font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
+<icon BUILTIN="button_ok"/>
 </node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233141360010" ID="Freemind_Link_1529925905" MODIFIED="1255516074960" STYLE="fork" TEXT="Semi-Lagrangian">
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233270123274" ID="Freemind_Link_1145018554" MODIFIED="1272298385807" STYLE="fork" TEXT="Cell Centred">
 <font NAME="Arial" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
+<icon BUILTIN="button_ok"/>
 </node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233141426259" ID="Freemind_Link_1929117453" MODIFIED="1233932890010" STYLE="fork" TEXT="Mass-conserving">
-<font NAME="Arial" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node CREATED="1243601941117" ID="Freemind_Link_724072503" MODIFIED="1244564501317" STYLE="fork" TEXT="Mass-conserving / Finite volume (Lin-Rood)">
+<node CREATED="1243601941117" ID="Freemind_Link_473169860" MODIFIED="1272298386295" STYLE="fork" TEXT="Staggered Grid">
 <font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
+<icon BUILTIN="button_ok"/>
 </node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233270123274" ID="Freemind_Link_1145018554" MODIFIED="1253105744651" STYLE="fork" TEXT="other">
-<font NAME="Arial" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
+<node CREATED="1243601941117" ID="Freemind_Link_664568337" MODIFIED="1272298392718" STYLE="fork" TEXT="Semi-Staggered Grid">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1243601941117" ID="Freemind_Link_1378542658" MODIFIED="1272298390087" STYLE="fork" TEXT="Other">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244109921507" FOLDED="true" ID="Freemind_Link_1545836387" MODIFIED="1258363209697" STYLE="bubble" TEXT="ConservedQuantities">
+<node COLOR="#996600" CREATED="1244109921507" ID="Freemind_Link_1545836387" MODIFIED="1258363209697" STYLE="bubble" TEXT="ConservedQuantities">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Quantities conserved trought momentum advection scheme.[/definition]</text>
@@ -754,7 +822,7 @@
 <icon BUILTIN="pencil"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244109933745" FOLDED="true" ID="Freemind_Link_31301119" MODIFIED="1258363229009" STYLE="bubble" TEXT="ConservationMethod">
+<node COLOR="#996600" CREATED="1244109933745" ID="Freemind_Link_31301119" MODIFIED="1258363229009" STYLE="bubble" TEXT="ConservationMethod">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Method used to ensure conservation in momentum advection scheme.[/definition]</text>
@@ -998,7 +1066,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1242399058639" ID="Freemind_Link_1253463125" MODIFIED="1256813314186" TEXT="AtmosConvectTurbulCloud_">
+<node CREATED="1242399058639" FOLDED="true" ID="Freemind_Link_1253463125" MODIFIED="1256813314186" TEXT="AtmosConvectTurbulCloud_">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1233139103300" ID="Freemind_Link_337098503" MODIFIED="1254305385037" TEXT="BoundaryLayerTurbulence">
 <font NAME="Arial" SIZE="14"/>
