@@ -11,7 +11,7 @@ finalResult=[]
 fileNameList=glob.glob("*_bdl.xml")
 assert len(fileNameList)==8 ,'Error, expecting 8 files, one for each realm'
 
-METAFOR_OWL_NAMESPACE = "http://dataportal.ucar.edu/schemas/metafor.owl#"
+METAFOR_OWL_NAMESPACE = "http://www.earthsystemgrid.org/metafor.owl#"
 OWL2XML_NAMESPACE = "http://www.w3.org/2006/12/owl2-xml#"
 OWL2XML_NAMESPACE_BRACKETS="{"+OWL2XML_NAMESPACE+"}"
 RDF_NAMESPACE = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -20,25 +20,26 @@ RDFS_NAMESPACE = "http://www.w3.org/2000/01/rdf-schema#"
 RDFS_NAMESPACE_BRACKETS="{"+RDFS_NAMESPACE+"}"
 OWL_NAMESPACE = "http://www.w3.org/2002/07/owl#"
 OWL_NAMESPACE_BRACKETS="{"+OWL_NAMESPACE+"}"
-ESG_NAMESPACE = "http://dataportal.ucar.edu/schemas/esg.owl#"
+ESG_NAMESPACE = "http://www.earthsystemgrid.org/esg.owl#"
 ESG_NAMESPACE_BRACKETS="{"+ESG_NAMESPACE+"}"
-NSMAP = {None      : METAFOR_OWL_NAMESPACE,     \
-         "owl2xml" : OWL2XML_NAMESPACE, \
-         "rdf"     : RDF_NAMESPACE,             \
-         "rdfs"    : RDFS_NAMESPACE,            \
-         "owl"     : OWL_NAMESPACE,             \
+#NSMAP = {None      : METAFOR_OWL_NAMESPACE,     \
+NSMAP = {"metafor" : METAFOR_OWL_NAMESPACE, \
+         "owl2xml" : OWL2XML_NAMESPACE,     \
+         "rdf"     : RDF_NAMESPACE,         \
+         "rdfs"    : RDFS_NAMESPACE,        \
+         "owl"     : OWL_NAMESPACE,         \
          "esg"     : ESG_NAMESPACE}
 myOutput=ET.Element(RDF_NAMESPACE_BRACKETS+'RDF',nsmap=NSMAP)
 ont=ET.SubElement(myOutput, OWL_NAMESPACE_BRACKETS+'Ontology',{RDF_NAMESPACE_BRACKETS+'about' : ''})
-ET.SubElement(ont, OWL_NAMESPACE_BRACKETS+'imports',{RDF_NAMESPACE_BRACKETS+'resource' : 'http://dataportal.ucar.edu/schemas/esg_data.owl'})
-ET.SubElement(ont, OWL_NAMESPACE_BRACKETS+'imports',{RDF_NAMESPACE_BRACKETS+'resource' : 'http://dataportal.ucar.edu/schemas/grid.owl'})
+ET.SubElement(ont, OWL_NAMESPACE_BRACKETS+'imports',{RDF_NAMESPACE_BRACKETS+'resource' : 'http://ontologies.ucar.edu/owl/esg_data.owl'})
+ET.SubElement(ont, OWL_NAMESPACE_BRACKETS+'imports',{RDF_NAMESPACE_BRACKETS+'resource' : 'http://ontologies.ucar.edu/owl/grid.owl'})
 
 for filename in fileNameList :
     realmName=filename[:filename.find('_')]
     assert realmName in realmNamesList, 'Error, unexpected file name found : '+filename
     doc = ET.parse(filename)
 
-    # preprocess document to sort out any properties that will cause duplicates in he OWL output. I should really do this in the xsl translation phase but can not work out how to do this in xsl :-(
+    # preprocess document to sort out any properties that will cause duplicates in the OWL output. I should really do this in the xsl translation phase but can not work out how to do this in xsl :-(
 
     # duplicates are caused by having more than one parameter with the same name in different constraint groups but in the same propertygroup
     for myParameterGroup in doc.iter('parametergroup') :
@@ -110,13 +111,13 @@ for filename in fileNameList :
     checked = []
     duplicates=[]
     for myClass in classes :
-        name=myClass.get(RDF_NAMESPACE_BRACKETS+'ID')
+        name=myClass.get(RDF_NAMESPACE_BRACKETS+'about')
         if name not in checked:
             checked.append(name) 
         else :
             if name not in duplicates :
                 duplicates.append(name)
-                print 'ERROR found duplicate class called '+name
+                print 'ERROR found duplicate class called ',name
                 sys.exit(1)
 
 print(ET.tostring(myOutput,pretty_print=True))

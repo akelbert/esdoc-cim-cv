@@ -5,22 +5,24 @@
     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:owl="http://www.w3.org/2002/07/owl#"
-    xmlns:esg="http://dataportal.ucar.edu/schemas/esg.owl#"
-    xmlns="http://dataportal.ucar.edu/schemas/metafor.owl#">
+    xmlns:esg="http://www.earthsystemgrid.org/esg.owl#"
+    xmlns:metafor="http://www.earthsystemgrid.org/metafor.owl#"
+>
+<!--    xmlns="http://www.earthsystemgrid.org/metafor.owl#" -->
 <xsl:output method="xml" indent="yes" encoding="UTF-8"/>
 <xsl:strip-space elements="*"/>
 
 <xsl:param name="Separator" select="''"/>
 <xsl:param name="NSQualifier" select="''"/>
-
+<xsl:param name="METAFORNS" select="'http://www.earthsystemgrid.org/metafor.owl#'"/>
 <!-- include template splitName -->
 <xsl:include href="utils.xsl"/>
 
 <xsl:template match="/">
 <rdf:RDF xml:base="http://dataportal.ucar.edu/schemas/cmip5.owl">
   <owl:Ontology rdf:about="">
-    <owl:imports rdf:resource="http://dataportal.ucar.edu/schemas/esg_data.owl"/>
-    <owl:imports rdf:resource="http://dataportal.ucar.edu/schemas/grid.owl"/>
+    <owl:imports rdf:resource="http://ontologies.ucar.edu/owl/esg_data.owl"/>
+    <owl:imports rdf:resource="http://ontologies.ucar.edu/owl/grid.owl"/>
   </owl:Ontology>
   <xsl:apply-templates/>
 </rdf:RDF>
@@ -66,15 +68,15 @@
     </xsl:call-template>
   </xsl:variable>
 
-  <xsl:variable name="RDFProperty" select="concat('has',$AttributeString)"/>
+  <xsl:variable name="RDFProperty" select="concat($METAFORNS,'has',$AttributeString)"/>
 
   <xsl:choose>
     <xsl:when test="@choice='XOR' or @choice='OR' or @choice='AND'">
       <!-- controlled vocab -->
 
-      <owl:Class rdf:ID="{$AttributeString}"/>
+      <owl:Class rdf:about="{$AttributeString}"/>
 
-      <owl:ObjectProperty rdf:ID="{$RDFProperty}">
+      <owl:ObjectProperty rdf:about="{$RDFProperty}">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><xsl:value-of select="$AttributeStringSpaces"/></rdfs:label>
         <rdfs:domain rdf:resource="http://dataportal.ucar.edu/schemas/esg.owl#ModelComponent"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><xsl:value-of select="definition"/></rdfs:comment>
@@ -83,14 +85,14 @@
 
       <xsl:for-each select="value[not(normalize-space(translate(@name,'OTHER','other'))='other')]">
         <!-- RF adding namespace directly below is a hack - but it works -->
-        <xsl:element name="{$NSQualifier}{$AttributeString}">
+        <xsl:element name="{concat('metafor:',$AttributeString)}">
           <!-- generate a valid rdfID based on our Attribute string and parameter name -->
           <xsl:variable name="rdfAttrValID">
           <xsl:call-template name="rdfAttrValIDgen">
             <xsl:with-param name="name" select="@name"/>
           </xsl:call-template>
           </xsl:variable>
-          <xsl:attribute name="rdf:ID"><!--<xsl:text>http://dataportal.ucar.edu/schemas/esg.owl#</xsl:text>--><xsl:value-of select="$AttributeString"/><xsl:text>_</xsl:text><xsl:value-of select="$rdfAttrValID"/></xsl:attribute>
+          <xsl:attribute name="rdf:about"><!--<xsl:text>http://dataportal.ucar.edu/schemas/esg.owl#</xsl:text>--><xsl:value-of select="$AttributeString"/><xsl:text>_</xsl:text><xsl:value-of select="$rdfAttrValID"/></xsl:attribute>
           <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><xsl:value-of select="@name"/></rdfs:label>
         </xsl:element>
       </xsl:for-each>
@@ -119,7 +121,7 @@
         </xsl:choose>
       </xsl:variable>
 
-      <owl:DatatypeProperty rdf:ID="{concat('has',$AttributeString,'Value')}">
+      <owl:DatatypeProperty rdf:about="{$METAFORNS}{concat('has',$AttributeString,'Value')}">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#{$datatype}"><xsl:value-of select="$AttributeStringSpaces"/></rdfs:label>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#{$datatype}"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#{$datatype}"><xsl:value-of select="definition"/></rdfs:comment>

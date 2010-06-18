@@ -134,7 +134,7 @@ any lower priority templates -->
         </xsl:if>
 
         <!-- mixed component properties can not have components as children -->
-        <xsl:if test="$MixedCompProp and font[@BOLD='true'] and not(@COLOR='#990099)')">
+        <xsl:if test="$MixedCompProp and font[@BOLD='true'] and not(@COLOR='#990099')">
           <xsl:message terminate="no">
             <xsl:text>*ERROR: Mixed Component/PropertyGroup '</xsl:text>
             <xsl:value-of select="$NodeName"/>
