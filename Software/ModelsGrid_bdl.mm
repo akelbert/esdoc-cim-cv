@@ -18,16 +18,16 @@
 <icon BUILTIN="pencil"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_874351839" MODIFIED="1268838099007" STYLE="bubble" TEXT="GridDiscretization">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_874351839" MODIFIED="1279011928241" STYLE="bubble" TEXT="GridDiscretization">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]An icosahedral geodesic grid results from a structured triangular discretization of an icosahedral projection.[/definition]</text>
+<text>[definition]Type of horizontal grid discretization.[/definition]&#xa;</text>
 </hook>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1182927049" MODIFIED="1268928699569" STYLE="fork" TEXT="logically rectangular">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1182927049" MODIFIED="1279011868619" STYLE="fork" TEXT="logically rectangular">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]A discretization is &quot;logically rectangular&quot; if the coordinate space (x,y) is translated into one-to-one index space (i,j). (source for def.:gridSpec)[/definition]</text>
+<text>[definition]The coordinate space (x,y) is translated into one-to-one index space (i,j). (source for def.:gridSpec)[/definition]</text>
 </hook>
 </node>
 <node COLOR="#000000" CREATED="1233751977075" ID="Freemind_Link_1298521054" MODIFIED="1268837264085" STYLE="fork" TEXT="structured triangular">
@@ -46,7 +46,14 @@
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node COLOR="#000000" CREATED="1233751977075" ID="Freemind_Link_583811260" MODIFIED="1269338319888" STYLE="fork" TEXT="composite">
+<node COLOR="#000000" CREATED="1233751977075" ID="Freemind_Link_583811260" MODIFIED="1279011909974" STYLE="fork" TEXT="composite">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]The grid is a composite or 2 or more single grid types.[/definition]</text>
+</hook>
+</node>
+<node COLOR="#000000" CREATED="1233751977075" ID="Freemind_Link_1632928299" MODIFIED="1278508476203" STYLE="fork" TEXT="spherical harmonics">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
@@ -55,18 +62,31 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1268747246751" ID="Freemind_Link_1309536700" MODIFIED="1269338332922" TEXT="if GridDiscretization is &quot;composite&quot;">
+<node COLOR="#0033ff" CREATED="1268747246751" ID="Freemind_Link_1406724626" MODIFIED="1278594071096" TEXT="if GridDiscretization is &quot;spherical harmonics&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1500723713" MODIFIED="1269353859413" STYLE="bubble" TEXT="CompositeGridDiscretization">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_545109956" MODIFIED="1267718475445" STYLE="bubble" TEXT="SpectralTruncatureNumber">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]An icosahedral geodesic grid results from a structured triangular discretization of an icosahedral projection.[/definition]</text>
+<text>[definition]Triangular truncature number of the horizontal discretization scheme.[/definition]</text>
 </hook>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_573488999" MODIFIED="1269338385205" STYLE="fork" TEXT="logically rectangular">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1598025020" MODIFIED="1244564007398" STYLE="fork" TEXT="">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-1"/>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1268747246751" ID="Freemind_Link_1309536700" MODIFIED="1278517071460" TEXT="if GridDiscretization is &quot;composite&quot;">
+<font NAME="SansSerif" SIZE="14"/>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1500723713" MODIFIED="1279011952156" STYLE="bubble" TEXT="CompositeGridDiscretization">
+<font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Types of discretization used in the composite grid.[/definition]</text>
+</hook>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_573488999" MODIFIED="1279011959831" STYLE="fork" TEXT="logically rectangular">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]A discretization is &quot;logically rectangular&quot; if the coordinate space (x,y) is translated into one-to-one index space (i,j). (source for def.:gridSpec)[/definition]</text>
+<text>[definition]The coordinate space (x,y) is translated into one-to-one index space (i,j). (source for def.:gridSpec)[/definition]</text>
 </hook>
 </node>
 <node COLOR="#000000" CREATED="1233751977075" ID="Freemind_Link_689511168" MODIFIED="1269338385205" STYLE="fork" TEXT="structured triangular">
@@ -90,20 +110,20 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233587048843" ID="Freemind_Link_468104207" MODIFIED="1268647620507" STYLE="bubble" TEXT="GridType">
+<node COLOR="#996600" CREATED="1233587048843" ID="Freemind_Link_468104207" MODIFIED="1279012018253" STYLE="bubble" TEXT="GridType">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Type of horizontal grid.[/definition]</text>
+<text>[definition]Type of composite horizontal grid.[/definition]</text>
 </hook>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233330560635" ID="Freemind_Link_1926603101" MODIFIED="1269340947915" STYLE="fork" TEXT="ying yang">
 <font NAME="Arial" SIZE="15"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233330560635" ID="Freemind_Link_778271525" MODIFIED="1269353911954" STYLE="fork" TEXT="icosahedral geodesic">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233330560635" ID="Freemind_Link_778271525" MODIFIED="1279011995774" STYLE="fork" TEXT="icosahedral">
 <font NAME="Arial" SIZE="15"/>
 <icon BUILTIN="button_cancel"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]&quot;icosahedral&quot; grids can be described as composite of &quot;logically rectangular&quot; diamonds.[/definition]</text>
+<text>[definition]Grid that results from a structured triangular discretization of an icosahedral projection; can be described as composite of &quot;logically rectangular&quot; diamonds.[/definition]</text>
 </hook>
 </node>
 <node COLOR="#000000" CREATED="1233270123274" ID="Freemind_Link_1354264577" MODIFIED="1253869004853" STYLE="fork" TEXT="other">
@@ -111,10 +131,10 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1081473109" MODIFIED="1269353961905" TEXT="CompositeGrid">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1081473109" MODIFIED="1278925924372" TEXT="CompositeGrid">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Further details about the composite grid.[/definition]</text>
+<text>[definition]Further details about the composite horizontal grid.[/definition]</text>
 </hook>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_11871367" MODIFIED="1269338412380" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
@@ -122,46 +142,46 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1268747246751" ID="Freemind_Link_670376346" MODIFIED="1269338474156" TEXT="if GridDiscretization is &quot;logically rectangular&quot;">
+<node COLOR="#0033ff" CREATED="1268747246751" ID="Freemind_Link_670376346" MODIFIED="1278517070322" TEXT="if GridDiscretization is &quot;logically rectangular&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233587048843" ID="Freemind_Link_826475234" MODIFIED="1268647620507" STYLE="bubble" TEXT="GridType">
+<node COLOR="#996600" CREATED="1233587048843" ID="Freemind_Link_826475234" MODIFIED="1279012472884" STYLE="bubble" TEXT="GridType">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Type of horizontal grid.[/definition]</text>
 </hook>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233330560635" ID="Freemind_Link_349927598" MODIFIED="1269338539934" STYLE="fork" TEXT="latitude-longitude">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233330560635" ID="Freemind_Link_349927598" MODIFIED="1279012071917" STYLE="fork" TEXT="latitude-longitude">
 <font NAME="Arial" SIZE="15"/>
 <icon BUILTIN="button_cancel"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]In a &quot;regular lat lon&quot; grid, grid points geographical coordinates can be uniquely defined by one-dimentionnal, monotically increasing of decreasing arrays (i.e. lon(i), lat(j)).&#xa;Grid point spacing may be irregular along each direction.[/definition]</text>
+<text>[definition]Grid points geographical coordinates can be uniquely defined by one-dimentionnal, monotically increasing of decreasing arrays (i.e. lon(i), lat(j)); grid point spacing may be irregular along each direction.[/definition]</text>
 </hook>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233330560635" ID="Freemind_Link_1483744398" MODIFIED="1269338594370" STYLE="fork" TEXT="spectral gaussian">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233330560635" ID="Freemind_Link_1483744398" MODIFIED="1279012419407" STYLE="fork" TEXT="regular gaussian">
 <font NAME="Arial" SIZE="15"/>
 <icon BUILTIN="button_cancel"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]&quot;spectral gaussian&quot; grid is the complete gaussian one (as opposed to &quot;reduced gaussian&quot;) corresponding to a given spectral decomposition.&#xa;Note that &quot;spectral gaussian&quot; grids are particular &quot;regular latitude-longitude&quot;.[/definition]</text>
+<text>[definition]Gaussian grid (as opposed to &quot;reduced gaussian&quot;) corresponding to a given spectral decomposition; note that &quot;spectral gaussian&quot; grids are particular &quot;regular latitude-longitude&quot;.[/definition]</text>
 </hook>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233330560635" ID="Freemind_Link_1821994551" MODIFIED="1269351995704" STYLE="fork" TEXT="displaced pole">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233330560635" ID="Freemind_Link_1821994551" MODIFIED="1279012346930" STYLE="fork" TEXT="displaced pole">
 <font NAME="Arial" SIZE="15"/>
 <icon BUILTIN="button_cancel"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]&quot;Displaced pole&quot; grids are logically reclangular grids for which the North pole has been displaced. &#xa;Theses grids are also known as &quot;assymetrical bipolar&quot; grids. A &quot;rotated pole&quot; grid can be described as a particular &quot;displaced pole&quot;.[/definition]</text>
+<text>[definition]Grid resulting from logically-rectangular discretization for which the North pole has been displaced; this type of grid is also known as &quot;assymetrical bipolar&quot;;&#xa; &quot;rotated pole&quot; grid can be described as a particular &quot;displaced pole&quot;.[/definition]</text>
 </hook>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233330560635" ID="Freemind_Link_507546984" MODIFIED="1268928747024" STYLE="fork" TEXT="tripolar">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233330560635" ID="Freemind_Link_507546984" MODIFIED="1279012365650" STYLE="fork" TEXT="tripolar">
 <font NAME="Arial" SIZE="15"/>
 <icon BUILTIN="button_cancel"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Logically rectangular discretization may result in a &quot;tripolar grid&quot;. In order to deal with pole singularities, &#xa;tripolar grids have usually 2 poles in northern hemisphere, placed over land in the case of an oceanic model. A well-known example&#xa;is the tripolar grid of Murray (1996).[/definition]</text>
+<text>[definition]Grid resulting from a logically rectangular discretization; in order to deal with pole singularities, tripolar grids have usually 2 poles in northern hemisphere, &#xa;placed over land in the case of an oceanic model; a well-known example is the tripolar grid of Murray (1996).[/definition]</text>
 </hook>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233330560635" ID="Freemind_Link_890090219" MODIFIED="1268928764168" STYLE="fork" TEXT="cubed sphere">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233330560635" ID="Freemind_Link_890090219" MODIFIED="1279012399689" STYLE="fork" TEXT="cubed sphere">
 <font NAME="Arial" SIZE="15"/>
 <icon BUILTIN="button_cancel"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Logically rectangular discretization may result in a &quot;cubed sphere&quot; grid. &#xa;A well-known example is the cube sphere grid of Rancic et al. (1996).[/definition]</text>
+<text>[definition]Grid resulting from a logically rectangular discretization; a well-known example is the cube sphere grid of Rancic et al. (1996).[/definition]</text>
 </hook>
 </node>
 <node COLOR="#000000" CREATED="1233270123274" ID="Freemind_Link_288419204" MODIFIED="1253869004853" STYLE="fork" TEXT="other">
@@ -170,16 +190,19 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1268747246751" ID="Freemind_Link_1627107101" MODIFIED="1268830775827" TEXT="if GridDiscretization is &quot;structured triangular&quot;">
+<node COLOR="#0033ff" CREATED="1268747246751" ID="Freemind_Link_1627107101" MODIFIED="1278517070119" TEXT="if GridDiscretization is &quot;structured triangular&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233587048843" ID="Freemind_Link_667690462" MODIFIED="1268647620507" STYLE="bubble" TEXT="GridType">
+<node COLOR="#996600" CREATED="1233587048843" ID="Freemind_Link_667690462" MODIFIED="1279012485536" STYLE="bubble" TEXT="GridType">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Type of horizontal grid.[/definition]</text>
 </hook>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233330560635" ID="Freemind_Link_573086885" MODIFIED="1268837880301" STYLE="fork" TEXT="icosahedral geodesic">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233330560635" ID="Freemind_Link_573086885" MODIFIED="1279012443899" STYLE="fork" TEXT="icosahedral">
 <font NAME="Arial" SIZE="15"/>
 <icon BUILTIN="button_cancel"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Grid resulting from a structured triangular discretization of an icosahedral projection; can be described as composite of &quot;logically rectangular&quot; diamonds.[/definition]&#xa;</text>
+</hook>
 </node>
 <node COLOR="#000000" CREATED="1233270123274" ID="Freemind_Link_1316667829" MODIFIED="1253869004853" STYLE="fork" TEXT="other">
 <font NAME="Arial" SIZE="15"/>
@@ -187,9 +210,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1268747246751" ID="Freemind_Link_273812155" MODIFIED="1269339874280" TEXT="if GridDiscretization is &quot;unstructured polygonal&quot;">
+<node COLOR="#0033ff" CREATED="1268747246751" ID="Freemind_Link_273812155" MODIFIED="1278517069963" TEXT="if GridDiscretization is &quot;unstructured polygonal&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233587048843" ID="Freemind_Link_1178935152" MODIFIED="1268647620507" STYLE="bubble" TEXT="GridType">
+<node COLOR="#996600" CREATED="1233587048843" ID="Freemind_Link_1178935152" MODIFIED="1279012492150" STYLE="bubble" TEXT="GridType">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Type of horizontal grid.[/definition]</text>
@@ -204,22 +227,22 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1253713965343" ID="Freemind_Link_232861084" MODIFIED="1269340405295" TEXT="if GridType is &quot;latitude-longitude&quot;">
+<node COLOR="#0033ff" CREATED="1253713965343" ID="Freemind_Link_232861084" MODIFIED="1278517069120" TEXT="if GridType is &quot;latitude-longitude&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_556794718" MODIFIED="1269352797693" STYLE="bubble" TEXT="NumberOfZonalGridCells">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_556794718" MODIFIED="1278516463372" STYLE="bubble" TEXT="NumberOfLongitudinalGridCells">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Number of grid cells along the latitude circles.[/definition]</text>
+<text>[definition]Number of grid cells along a parallel.[/definition]</text>
 </hook>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1401204699" MODIFIED="1244564007398" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1193055674" MODIFIED="1269352796780" STYLE="bubble" TEXT="NumberOfMeridionalGridCells">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1193055674" MODIFIED="1278516455806" STYLE="bubble" TEXT="NumberOfLatitudinalGridCells">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Number of grid cells along the longitude circles.[/definition]</text>
+<text>[definition]Number of grid cells along a half-meridian (-90&#xb0;N,+90&#xb0;N).[/definition]</text>
 </hook>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1563646806" MODIFIED="1244564007398" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
@@ -227,32 +250,22 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1253713965343" ID="Freemind_Link_1297668022" MODIFIED="1268647666847" TEXT="if GridType is &quot;spectral gaussian&quot;">
+<node COLOR="#0033ff" CREATED="1253713965343" ID="Freemind_Link_1297668022" MODIFIED="1278517068949" TEXT="if GridType is &quot;regular gaussian&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_545109956" MODIFIED="1267718475445" STYLE="bubble" TEXT="SpectralTruncatureNumber">
-<font NAME="SansSerif" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Triangular truncature number of the horizontal discretization scheme.[/definition]</text>
-</hook>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1598025020" MODIFIED="1244564007398" STYLE="fork" TEXT="">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="full-1"/>
-</node>
-</node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1857431947" MODIFIED="1269352801733" STYLE="bubble" TEXT="NumberOfZonalGridCells">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1857431947" MODIFIED="1278516483871" STYLE="bubble" TEXT="NumberOfLongitudinalGridPoints">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Number of grid cells along the latitude circles.[/definition]</text>
+<text>[definition]Number of grid points along a parallel.[/definition]</text>
 </hook>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1603795087" MODIFIED="1244564007398" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_175298131" MODIFIED="1269352800945" STYLE="bubble" TEXT="NumberOfMeridionalGridCells">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_175298131" MODIFIED="1278510203072" STYLE="bubble" TEXT="NumberOfLatitudePointsPoleToEquator">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Number of grid cells along the longitude circles.[/definition]</text>
+<text>[definition]Number of latitude points between the pole and the equator.[/definition]</text>
 </hook>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_313688476" MODIFIED="1244564007398" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
@@ -260,24 +273,24 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1253713965343" ID="Freemind_Link_831225471" MODIFIED="1268735218178" TEXT="if GridType is &quot;reduced gaussian&quot;">
+<node COLOR="#0033ff" CREATED="1253713965343" ID="Freemind_Link_831225471" MODIFIED="1278517068684" TEXT="if GridType is &quot;reduced gaussian&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_742334368" MODIFIED="1269352796133" STYLE="bubble" TEXT="NumberOfTotalGridCells">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_742334368" MODIFIED="1278516346700" STYLE="bubble" TEXT="NumberOfTotalGridPoints">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Number of total grid cells of the horizontal grid.[/definition]</text>
+<text>[definition]Number of total grid points.[/definition]</text>
 </hook>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1082282377" MODIFIED="1244564007398" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_238620073" MODIFIED="1269340105097" STYLE="bubble" TEXT="NumberOfLatitudeCircles">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_344022459" MODIFIED="1278510203072" STYLE="bubble" TEXT="NumberOfLatitudePointsPoleToEquator">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Number of latitude circles.[/definition]</text>
+<text>[definition]Number of latitude points between the pole and the equator.[/definition]</text>
 </hook>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_308432400" MODIFIED="1244564007398" STYLE="fork" TEXT="">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_503400401" MODIFIED="1244564007398" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
@@ -315,7 +328,7 @@
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1586579072" MODIFIED="1269352935877" TEXT="SecondPoleLon">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1586579072" MODIFIED="1278926320971" TEXT="SecondPoleLon">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Longitude of the second pole.[/definition]</text>
@@ -464,7 +477,7 @@
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1872584274" MODIFIED="1269353120503" STYLE="bubble" TEXT="NumberOfCellsInSecondGridDimension">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" FOLDED="true" ID="Freemind_Link_1872584274" MODIFIED="1269353120503" STYLE="bubble" TEXT="NumberOfCellsInSecondGridDimension">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Number of cells in the second grid dimension.[/definition]</text>
@@ -519,7 +532,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1268737370155" ID="Freemind_Link_1548830267" MODIFIED="1269354057829" TEXT="GridExtent">
+<node COLOR="#990099" CREATED="1268737370155" ID="Freemind_Link_1548830267" MODIFIED="1279190821873" TEXT="Horizontal_Extent">
 <font NAME="SansSerif" SIZE="14"/>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_131962856" MODIFIED="1268730841136" TEXT="LatMin">
 <font NAME="SansSerif" SIZE="14"/>
@@ -563,20 +576,20 @@
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1233750994232" ID="Freemind_Link_1172504540" MODIFIED="1269354134878" STYLE="bubble" TEXT="VerticalGrid">
+<node COLOR="#000000" CREATED="1233750994232" ID="Freemind_Link_1172504540" MODIFIED="1279190891217" STYLE="bubble" TEXT="VerticalGrid_">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1268737370155" ID="Freemind_Link_954160404" MODIFIED="1268750239764" TEXT="VerticalCoordinateSystem_">
 <font NAME="SansSerif" SIZE="14"/>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233751003143" ID="Freemind_Link_1975320271" MODIFIED="1268750244639" STYLE="bubble" TEXT="VerticalCoordinateType">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233751003143" ID="Freemind_Link_1975320271" MODIFIED="1278924403341" STYLE="bubble" TEXT="VerticalCoordinateType">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]vertical coordinate system.[/definition]</text>
+<text>[definition]Vertical coordinate system.[/definition]</text>
 </hook>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233330589779" ID="Freemind_Link_1869485725" MODIFIED="1269423656733" STYLE="fork" TEXT="terrain-following">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233330589779" ID="Freemind_Link_1869485725" MODIFIED="1279012532195" STYLE="fork" TEXT="terrain-following">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Vertical coordinates requiring an elevation map as reference are &quot;terrain-following&quot;.[/definition]</text>
+<text>[definition]Vertical coordinate requiring an elevation map as reference.[/definition]</text>
 </hook>
 </node>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233330589779" ID="Freemind_Link_1063267490" MODIFIED="1268387699436" STYLE="fork" TEXT="space-based">
@@ -594,10 +607,10 @@
 </node>
 <node COLOR="#0033ff" CREATED="1255360198907" ID="Freemind_Link_930426551" MODIFIED="1267725865951" TEXT="if VerticalCoordinateType is &quot;terrain-following&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1254225995108" ID="Freemind_Link_704394989" MODIFIED="1269428055790" TEXT="VerticalCoordinate">
+<node COLOR="#996600" CREATED="1254225995108" ID="Freemind_Link_704394989" MODIFIED="1278925301401" TEXT="VerticalCoordinate">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Vertical coordinate used.[/definition]</text>
+<text>[definition]The terrain-folowing vertical coordinate used.[/definition]</text>
 </hook>
 <node CREATED="1240319813981" ID="Freemind_Link_496069579" MODIFIED="1256811869468" STYLE="fork" TEXT="sigma">
 <font NAME="SansSerif" SIZE="14"/>
@@ -612,10 +625,10 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233270123274" ID="Freemind_Link_1865623324" MODIFIED="1274792832186" STYLE="bubble" TEXT="SurfaceReference">
+<node COLOR="#996600" CREATED="1233270123274" ID="Freemind_Link_1865623324" MODIFIED="1279012561071" STYLE="bubble" TEXT="SurfaceReference">
 <font NAME="Arial" SIZE="15"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Surface used as reference for the current vertical coordinate.[/definition]</text>
+<text>[definition]The surface used as reference for a terrain-following vertical coordinate.[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1233270123274" ID="Freemind_Link_1230307887" MODIFIED="1268731110821" STYLE="fork" TEXT="">
 <font NAME="Arial" SIZE="15"/>
@@ -625,10 +638,10 @@
 </node>
 <node COLOR="#0033ff" CREATED="1255360198907" ID="Freemind_Link_1258231448" MODIFIED="1268929506517" TEXT="if VerticalCoordinateType is &quot;space-based&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1254225995108" ID="Freemind_Link_1888242302" MODIFIED="1269428055665" TEXT="VerticalCoordinate">
+<node COLOR="#996600" CREATED="1254225995108" ID="Freemind_Link_1888242302" MODIFIED="1279012579822" TEXT="VerticalCoordinate">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Vertical coordinate used.[/definition]</text>
+<text>[definition]The space-based vertical coordinate used.[/definition]</text>
 </hook>
 <node CREATED="1240319766674" ID="Freemind_Link_287534260" MODIFIED="1269425594128" STYLE="fork" TEXT="geometric height">
 <font NAME="SansSerif" SIZE="14"/>
@@ -656,23 +669,23 @@
 </node>
 <node COLOR="#0033ff" CREATED="1255360198907" ID="Freemind_Link_1886399298" MODIFIED="1268929515792" TEXT="if VerticalCoordinateType is &quot;mass-based&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1254225995108" ID="Freemind_Link_1872180334" MODIFIED="1268932011516" TEXT="VerticalCoordinate">
+<node COLOR="#996600" CREATED="1254225995108" ID="Freemind_Link_1872180334" MODIFIED="1279012632862" TEXT="VerticalCoordinate">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Vertical coordinate used.[/definition]</text>
+<text>[definition]The mass-based vertical coordinate used.[/definition]</text>
 </hook>
-<node COLOR="#000000" CREATED="1233752355206" ID="Freemind_Link_155792324" MODIFIED="1269427865705" STYLE="fork" TEXT="isopycnic">
+<node COLOR="#000000" CREATED="1233752355206" ID="Freemind_Link_155792324" MODIFIED="1279012609134" STYLE="fork" TEXT="isopycnic">
 <font NAME="SansSerif" SIZE="15"/>
 <icon BUILTIN="button_cancel"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]&quot;isopycnic&quot; coordinate are &quot;density&quot; or &quot;density tracking&quot; coordinate.[/definition]</text>
+<text>[definition]Density or density-tracking coordinate.[/definition]</text>
 </hook>
 </node>
-<node CREATED="1240319798755" ID="Freemind_Link_112527287" MODIFIED="1269427896312" STYLE="fork" TEXT="isentropic">
+<node CREATED="1240319798755" ID="Freemind_Link_112527287" MODIFIED="1279012619087" STYLE="fork" TEXT="isentropic">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text/>
+<text>[definition]Coordinate following the surface of potential temperature.[/definition]</text>
 </hook>
 </node>
 <node CREATED="1240319809200" ID="Freemind_Link_765910576" MODIFIED="1274793885362" STYLE="fork" TEXT="pressure">
@@ -694,18 +707,18 @@
 <font ITALIC="true" NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node CREATED="1244812565136" ID="Freemind_Link_878892120" MODIFIED="1246265112700" STYLE="fork" TEXT="P*">
+<node CREATED="1244812565136" ID="Freemind_Link_878892120" MODIFIED="1278925060358" STYLE="fork" TEXT="P*-coordinate">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node COLOR="#000000" CREATED="1233330582860" ID="Freemind_Link_376869721" MODIFIED="1254226141475" STYLE="fork" TEXT="Z-coordinate">
+<node COLOR="#000000" CREATED="1233330582860" ID="Freemind_Link_376869721" MODIFIED="1278923189676" STYLE="fork" TEXT="Z-coordinate">
 <font NAME="Arial" SIZE="15"/>
 <icon BUILTIN="button_cancel"/>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1268738273792" ID="Freemind_Link_1752827569" MODIFIED="1274792379334" STYLE="fork" TEXT="MariePierre: Z-coordinate is the geopotential height">
-<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Z-coordinate is the geopotential height.[/definition]</text>
+</hook>
 </node>
-</node>
-<node CREATED="1244812637051" ID="Freemind_Link_1788943705" MODIFIED="1246265112687" STYLE="fork" TEXT="Z**">
+<node CREATED="1244812637051" ID="Freemind_Link_1788943705" MODIFIED="1278925066387" STYLE="fork" TEXT="Z**-coordinate">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
@@ -714,10 +727,10 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233270123274" ID="Freemind_Link_60543769" MODIFIED="1274792832186" STYLE="bubble" TEXT="SurfaceReference">
+<node COLOR="#996600" CREATED="1233270123274" ID="Freemind_Link_60543769" MODIFIED="1279012640100" STYLE="bubble" TEXT="SurfaceReference">
 <font NAME="Arial" SIZE="15"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Surface used as reference for the current vertical coordinate.[/definition]</text>
+<text>[definition]Surface used as reference for a mass-based vertical coordinate.[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1233270123274" ID="Freemind_Link_1506051135" MODIFIED="1268731110821" STYLE="fork" TEXT="">
 <font NAME="Arial" SIZE="15"/>
@@ -727,10 +740,10 @@
 </node>
 <node COLOR="#0033ff" CREATED="1255360198907" ID="Freemind_Link_87844057" MODIFIED="1268822655304" TEXT="if VerticalCoordinate is &quot;Z-coordinate&quot; or &quot;Z*-coordinate&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1254225995108" ID="Freemind_Link_227063510" MODIFIED="1263575376117" TEXT="PartialSteps">
+<node COLOR="#996600" CREATED="1254225995108" ID="Freemind_Link_227063510" MODIFIED="1278925668033" TEXT="PartialSteps">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Does the model use partial steps at bottom or not.[/definition]</text>
+<text>[definition]Whether the model uses partial steps or not; partial steps allow the topography heights not to be expressed on model levels.[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1254226011363" ID="Freemind_Link_1439219183" MODIFIED="1258728796317" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
@@ -744,10 +757,10 @@
 </node>
 <node COLOR="#0033ff" CREATED="1255360198907" ID="Freemind_Link_1799066791" MODIFIED="1268929469990" TEXT="if VerticalCoordinateType is &quot;hybrid&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1233270123274" ID="Freemind_Link_1538653169" MODIFIED="1269425020686" STYLE="bubble" TEXT="VerticalCoordinate">
+<node COLOR="#996600" CREATED="1233270123274" ID="Freemind_Link_1538653169" MODIFIED="1279012657058" STYLE="bubble" TEXT="VerticalCoordinate">
 <font NAME="Arial" SIZE="15"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Vertical coordinate used.[/definition]</text>
+<text>[definition]Hybrid vertical coordinate used.[/definition]</text>
 </hook>
 <node CREATED="1240319766674" ID="Freemind_Link_586313841" MODIFIED="1269429849004" STYLE="fork" TEXT="hybrid sigma-pressure">
 <font NAME="SansSerif" SIZE="14"/>
@@ -785,10 +798,10 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233270123274" ID="Freemind_Link_1385394726" MODIFIED="1274793951210" STYLE="bubble" TEXT="Hybridization">
+<node COLOR="#996600" CREATED="1233270123274" ID="Freemind_Link_1385394726" MODIFIED="1278925816389" STYLE="bubble" TEXT="Hybridization">
 <font NAME="Arial" SIZE="15"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Give details about the construction of the hybrid vertical coordinate (e.g. first coordinate below a given level, second coordinate above). May include the formula terms according to CF.[/definition]</text>
+<text>[definition]Give details about the construction of the hybrid vertical coordinate (e.g. first coordinate below a given level, second coordinate above); may include the formula terms according to CF.[/definition]</text>
 </hook>
 <node CREATED="1254226011363" ID="Freemind_Link_458025251" MODIFIED="1268739221630" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
@@ -797,7 +810,23 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1268737370155" ID="Freemind_Link_1562143252" MODIFIED="1268822882235" TEXT="AtmosphericVerticalLevels_">
+<node COLOR="#990099" CREATED="1268737370155" ID="Freemind_Link_1751735179" MODIFIED="1279190982579" TEXT="VerticalExtent_">
+<font NAME="SansSerif" SIZE="14"/>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1970133859" MODIFIED="1279013226408" STYLE="bubble" TEXT="Domain">
+<font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Total number of atmospheric vertical levels.[/definition]</text>
+</hook>
+<node COLOR="#000000" CREATED="1254226011363" ID="Freemind_Link_1286089150" MODIFIED="1279013241525" STYLE="fork" TEXT="atmospheric">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1254226011363" ID="Freemind_Link_625762707" MODIFIED="1279013246010" STYLE="fork" TEXT="oceanic">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1268737370155" ID="Freemind_Link_1562143252" MODIFIED="1279013278199" TEXT="if Domain is &quot;atmospheric&quot;">
 <font NAME="SansSerif" SIZE="14"/>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1307287703" MODIFIED="1268822958675" STYLE="bubble" TEXT="NumberOfLevels">
 <font NAME="SansSerif" SIZE="14"/>
@@ -819,20 +848,20 @@
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1700087151" MODIFIED="1256812372684" TEXT="NumberOfLevelsBellow850hPa">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1700087151" MODIFIED="1278925844188" TEXT="NumberOfLevelsBellow850hPa">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Number of vertical levels bellow 850 hPa.[/definition]</text>
+<text>[definition]Number of atmospheric vertical levels bellow 850 hPa.[/definition]</text>
 </hook>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1111637724" MODIFIED="1256812397215" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_995947235" MODIFIED="1256812360828" TEXT="NumberOfLevelsAbove200hPa">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_995947235" MODIFIED="1278925851520" TEXT="NumberOfLevelsAbove200hPa">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Number of vertical levels above 200 hPa.[/definition]</text>
+<text>[definition]Number of atmospheric vertical levels above 200 hPa.[/definition]</text>
 </hook>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_104791940" MODIFIED="1256812322078" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
@@ -840,7 +869,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1268737370155" ID="Freemind_Link_435397308" MODIFIED="1268822984017" TEXT="OceanicVerticalLevels_">
+<node COLOR="#0033ff" CREATED="1268737370155" ID="Freemind_Link_1163271721" MODIFIED="1279013297871" TEXT="if Domain is &quot;oceanic&quot;">
 <font NAME="SansSerif" SIZE="14"/>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_40351242" MODIFIED="1268822971623" STYLE="bubble" TEXT="NumberOfLevels">
 <font NAME="SansSerif" SIZE="14"/>
@@ -852,30 +881,30 @@
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_769317781" MODIFIED="1258731030946" TEXT="NumberOfLevelsInUpper100m">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_769317781" MODIFIED="1278925862705" TEXT="NumberOfLevelsInUpper100m">
 <font NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Number of vertical levels in the upper 100 meters.[/definition]</text>
+<text>[definition]Number of oceanic vertical levels in the upper 100 meters.[/definition]</text>
 </hook>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1010455598" MODIFIED="1256812397215" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233250004110" ID="Freemind_Link_1656487509" MODIFIED="1258731039619" STYLE="bubble" TEXT="UpperLevel">
+<node COLOR="#996600" CREATED="1233250004110" ID="Freemind_Link_1656487509" MODIFIED="1278925868493" STYLE="bubble" TEXT="UpperLevel">
 <font NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Upper level.[/definition]</text>
+<text>[definition]Upper oceanic level.[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1233250230686" ID="Freemind_Link_8710349" MODIFIED="1257037434758" STYLE="fork" TEXT="meters">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233250004110" ID="Freemind_Link_74806178" MODIFIED="1258731049042" STYLE="bubble" TEXT="LowerLevel">
+<node COLOR="#996600" CREATED="1233250004110" ID="Freemind_Link_74806178" MODIFIED="1278925874031" STYLE="bubble" TEXT="LowerLevel">
 <font NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Lower level.[/definition]</text>
+<text>[definition]Lower oceanic level.[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1233250230686" ID="Freemind_Link_363008785" MODIFIED="1257037434758" STYLE="fork" TEXT="meters">
 <font NAME="Arial" SIZE="14"/>
@@ -883,6 +912,55 @@
 </node>
 </node>
 </node>
+</node>
+</node>
+</node>
+<node COLOR="#000000" CREATED="1242815104070" ID="Freemind_Link_72730991" MODIFIED="1256925260893" POSITION="left" STYLE="bubble" TEXT="list of scientific contributors">
+<font NAME="SansSerif" SIZE="15"/>
+<node CREATED="1236851769006" ID="Freemind_Link_1607198855" MODIFIED="1278926978539" STYLE="fork" TEXT="Name (Institution)">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node CREATED="1233226561929" ID="Freemind_Link_172256697" MODIFIED="1278926764485" STYLE="fork" TEXT="Balaji (GFDL)">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node CREATED="1233226561929" ID="Freemind_Link_1675918738" MODIFIED="1278926956145" STYLE="fork" TEXT="Phil Bentley (MetOffice)">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node CREATED="1233226561929" ID="Freemind_Link_1013141211" MODIFIED="1278926949071" STYLE="fork" TEXT="Frank Toussaint (DKRZ)">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node CREATED="1233226561929" ID="Freemind_Link_1718306830" MODIFIED="1278926796215" STYLE="fork" TEXT="Bryan Lawrence (BADC/NCAS)">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node CREATED="1233226561929" ID="Freemind_Link_42872900" MODIFIED="1278929061880" STYLE="fork" TEXT="Eric Guilyardi (IPSL/Univ. Reading)">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#000000" CREATED="1242815104070" ID="Freemind_Link_1679788654" MODIFIED="1278927013529" POSITION="left" STYLE="bubble" TEXT="related tickets">
+<font NAME="SansSerif" SIZE="15"/>
+<node CREATED="1236851769006" ID="Freemind_Link_761395005" MODIFIED="1278928759026" STYLE="fork" TEXT="Title: #Number">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node CREATED="1233226561929" ID="Freemind_Link_1086645535" LINK="http://metaforclimate.eu/trac/ticket/611" MODIFIED="1278928903501" STYLE="fork" TEXT="Space config, mind maps and the gridPackage/gridSpec: #611">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node CREATED="1233226561929" ID="Freemind_Link_1028694802" LINK="http://metaforclimate.eu/trac/ticket/636" MODIFIED="1278928915092" STYLE="fork" TEXT="Review mind maps to make sure all appropriate info abot grids is there: #636">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node CREATED="1233226561929" ID="Freemind_Link_1309854612" LINK="http://metaforclimate.eu/trac/ticket/657" MODIFIED="1278928874485" STYLE="fork" TEXT="How does gridSpec fit into the CIM: #657">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node CREATED="1233226561929" ID="Freemind_Link_1971916386" LINK="http://metaforclimate.eu/trac/ticket/635" MODIFIED="1278928895717" STYLE="fork" TEXT="Look at grid into CMOR: #635">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node CREATED="1233226561929" ID="Freemind_Link_1044420067" LINK="http://metaforclimate.eu/trac/ticket/277" MODIFIED="1278928886045" STYLE="fork" TEXT="Proposed updates to the CIM Grid logical data model: #277">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node CREATED="1237479815816" ID="Freemind_Link_1979527999" MODIFIED="1278927000198" POSITION="left" STYLE="bubble" TEXT="useful links/docs">
+<font NAME="SansSerif" SIZE="14"/>
+<node CREATED="1233585362916" ID="Freemind_Link_531989929" LINK="http://www-pcmdi.llnl.gov/ipcc/model_documentation/ipcc_model_documentation.php" MODIFIED="1233586713179" STYLE="fork" TEXT="AR4 questionnaire">
+<font NAME="Arial" SIZE="14"/>
 </node>
 </node>
 </node>

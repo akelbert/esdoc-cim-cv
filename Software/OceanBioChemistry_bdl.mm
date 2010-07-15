@@ -7,7 +7,7 @@
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233138714062" ID="Freemind_Link_51409906" MODIFIED="1245068330261" POSITION="right" STYLE="bubble" TEXT="OceanBiogeoChemistry">
 <edge COLOR="#999999"/>
 <font BOLD="true" NAME="Arial" SIZE="16"/>
-<node CREATED="1256254598897" ID="Freemind_Link_1206301233" MODIFIED="1256744119810" TEXT="OceanBioKeyProperties_">
+<node COLOR="#990099" CREATED="1256254598897" ID="Freemind_Link_1206301233" MODIFIED="1275395024799" TEXT="OceanBioKeyProperties_">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1254486057572" ID="Freemind_Link_26535854" MODIFIED="1264499206442" TEXT="OceanBioKeyPropertiesAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
@@ -32,7 +32,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1236610297849" ID="Freemind_Link_1511614965" MODIFIED="1257241483742" TEXT="OceanBio_TimeStepFramework">
+<node COLOR="#990099" CREATED="1236610297849" ID="Freemind_Link_1511614965" MODIFIED="1275395027307" TEXT="OceanBio_TimeStepFramework">
 <font BOLD="true" NAME="Arial" SIZE="14"/>
 <node COLOR="#990099" CREATED="1252419938135" ID="Freemind_Link_1819255384" MODIFIED="1257238335407" TEXT="PassiveTracers">
 <font NAME="SansSerif" SIZE="14"/>

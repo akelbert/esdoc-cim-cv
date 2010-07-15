@@ -6,7 +6,7 @@
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233138680751" ID="Freemind_Link_1161786097" MODIFIED="1233843333819" POSITION="right" STYLE="bubble" TEXT="Ocean">
 <edge COLOR="#999999"/>
 <font BOLD="true" NAME="Arial" SIZE="17"/>
-<node CREATED="1253796559148" ID="Freemind_Link_969659526" MODIFIED="1256742539512" TEXT="OceanKeyProperties_">
+<node COLOR="#990099" CREATED="1253796559148" ID="Freemind_Link_969659526" MODIFIED="1275394982378" TEXT="OceanKeyProperties_">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1255352711909" ID="Freemind_Link_1906682406" MODIFIED="1256896698747" TEXT="OceanKeyPropertiesAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
@@ -44,10 +44,10 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233141022285" ID="Freemind_Link_599221753" MODIFIED="1258638093303" STYLE="bubble" TEXT="BasicApproximations">
+<node COLOR="#996600" CREATED="1233141022285" ID="Freemind_Link_599221753" MODIFIED="1279180846620" STYLE="bubble" TEXT="BasicApproximations">
 <font NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Basic fluid dynamics approximations made in the atmospheric model.[/definition]</text>
+<text>[definition]Basic approximations made in the oceanic model.[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1233141036845" ID="Freemind_Link_1066350301" MODIFIED="1258638210170" STYLE="fork" TEXT="primitive equations">
 <font NAME="Arial" SIZE="14"/>
@@ -371,7 +371,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1254225441012" ID="Freemind_Link_1282063900" MODIFIED="1256899287964" TEXT="OceanNudging_">
+<node COLOR="#990099" CREATED="1254225441012" ID="Freemind_Link_1282063900" MODIFIED="1275394984854" TEXT="OceanNudging_">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1233333993001" ID="Freemind_Link_1055710189" MODIFIED="1254305260721" TEXT="TracersDamping">
 <font NAME="Arial" SIZE="14"/>

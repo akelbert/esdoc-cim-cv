@@ -6,14 +6,14 @@
 <hook NAME="accessories/plugins/CreationModificationPlugin_new.properties"/>
 <node COLOR="#000000" CREATED="1243415250546" ID="Freemind_Link_1289853867" MODIFIED="1258989959256" POSITION="right" STYLE="bubble" TEXT="AtmosphericChemistry">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node COLOR="#000000" CREATED="1253796559148" ID="Freemind_Link_969659526" MODIFIED="1257775576119" TEXT="AtmChemKeyProperties_">
+<node COLOR="#990099" CREATED="1253796559148" ID="Freemind_Link_969659526" MODIFIED="1275394783577" TEXT="AtmChemKeyProperties_">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1254486057572" ID="Freemind_Link_26535854" MODIFIED="1257775566525" TEXT="AtmChemKeyPropertiesAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1243421913562" FOLDED="true" ID="Freemind_Link_879113611" MODIFIED="1259231749646" TEXT="ChemSchemeScope">
+<node COLOR="#996600" CREATED="1243421913562" ID="Freemind_Link_879113611" MODIFIED="1279183569402" TEXT="ChemSchemeScope">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Which atmospheric domains are covered by the atmospheric chemistry model?[/definition]</text>
+<text>[definition]Atmospheric domains covered by the atmospheric chemistry model.[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1243422645484" ID="Freemind_Link_1190317719" MODIFIED="1257333960910" STYLE="fork" TEXT="troposphere">
 <font NAME="SansSerif" SIZE="14"/>
@@ -36,20 +36,20 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233141022285" FOLDED="true" ID="Freemind_Link_599221753" MODIFIED="1259231768859" STYLE="bubble" TEXT="BasicApproximations">
+<node COLOR="#996600" CREATED="1233141022285" ID="Freemind_Link_599221753" MODIFIED="1279183583705" STYLE="bubble" TEXT="BasicApproximations">
 <font NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Decribe the basic approximations made in the Atmospheric Chemistry model.[/definition]</text>
+<text>[definition]Description of th basic approximations made in the Atmospheric Chemistry model.[/definition]</text>
 </hook>
 <node CREATED="1255438025821" ID="Freemind_Link_1737511187" MODIFIED="1257333990921" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="pencil"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233587234324" FOLDED="true" ID="Freemind_Link_1846065429" MODIFIED="1259073065135" TEXT="ListOfPrognosticVariables">
+<node COLOR="#996600" CREATED="1233587234324" ID="Freemind_Link_1846065429" MODIFIED="1279183604786" TEXT="ListOfPrognosticVariables">
 <font NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]What prognostic variables are used by the atmospheric chemistry model?[/definition]</text>
+<text>[definition]Prognostic variables of the Atmospheric Chemistry model.[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1243422645484" ID="Freemind_Link_996127862" MODIFIED="1264503619999" STYLE="fork" TEXT="3D mass/mixing ratio for gas">
 <font NAME="SansSerif" SIZE="14"/>
@@ -60,20 +60,20 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1239099334126" FOLDED="true" ID="Freemind_Link_215406295" MODIFIED="1259084739601" STYLE="bubble" TEXT="NumberOfTracers">
+<node COLOR="#996600" CREATED="1239099334126" ID="Freemind_Link_215406295" MODIFIED="1279183615668" STYLE="bubble" TEXT="NumberOfTracers">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Enter the number of tracers in the atmospheric chemistry model.[/definition]</text>
+<text>[definition]Number of tracers in the Atmospheric Chemistry model.[/definition]</text>
 </hook>
 <node CREATED="1233246454929" HGAP="25" ID="Freemind_Link_242578772" MODIFIED="1256117066669" STYLE="fork" TEXT="" VSHIFT="5">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244069277380" FOLDED="true" ID="Freemind_Link_1129046184" MODIFIED="1258984561909" STYLE="bubble" TEXT="FamilyApproach">
+<node COLOR="#996600" CREATED="1244069277380" ID="Freemind_Link_1129046184" MODIFIED="1279183633110" STYLE="bubble" TEXT="FamilyApproach">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Are atmospheric chemistry calculations generalised into families of species?[/definition]&#xa;[info]Moved here from time stepping framework [/info]</text>
+<text>[definition]Atmospheric Chemistry calculations are generalised into families of species.[/definition]</text>
 </hook>
 <node CREATED="1233937791616" ID="Freemind_Link_910186188" MODIFIED="1233937816630" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
@@ -84,10 +84,10 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1239092321265" ID="Freemind_Link_1075077157" MODIFIED="1258985427869" TEXT="CouplingWithChemicalReactivity">
+<node COLOR="#996600" CREATED="1239092321265" ID="Freemind_Link_1075077157" MODIFIED="1279183669476" TEXT="CouplingWithChemicalReactivity">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Is chemistry transport scheme turbulence coupled with chemical reactivity?[/definition]</text>
+<text>[definition]Chemistry transport scheme turbulence is coupled with chemical reactivity.[/definition]</text>
 </hook>
 <node CREATED="1233937791616" ID="Freemind_Link_267120436" MODIFIED="1233937816630" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
@@ -99,162 +99,29 @@
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1253796609575" FOLDED="true" ID="Freemind_Link_1291132512" MODIFIED="1257775570636" TEXT="AtmChemSpaceConfig_">
-<font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#990099" CREATED="1233751003143" FOLDED="true" ID="Freemind_Link_305402916" MODIFIED="1257336090082" STYLE="bubble" TEXT="Horizontal.Domain">
+<node COLOR="#990099" CREATED="1233751261777" ID="Freemind_Link_1153520910" MODIFIED="1257779770368" STYLE="bubble" TEXT="TimeSteppingFramework">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1255438538998" FOLDED="true" ID="Freemind_Link_38895976" MODIFIED="1256258799099" TEXT="GridConfig">
-<font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1241016231102" ID="Freemind_Link_1356030046" MODIFIED="1257334089650" STYLE="fork" TEXT="same as Atmosphere">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node CREATED="1241016236735" ID="Freemind_Link_1379862058" MODIFIED="1257334099649" STYLE="fork" TEXT="different from Atmosphere">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1255423797658" FOLDED="true" ID="Freemind_Link_713709720" MODIFIED="1257334353669" TEXT="if GridConfig is &quot;different from Atmosphere&quot;">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1256254990298" FOLDED="true" ID="Freemind_Link_437978356" MODIFIED="1257334342699" TEXT="GridCharacteristics">
-<font NAME="Arial" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Description of the horizontal grid used for atmospheric chemistry and aerosols.[/definition]</text>
-</hook>
-<node CREATED="1256255021042" ID="Freemind_Link_1717188073" MODIFIED="1257238682406" STYLE="fork" TEXT="">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="pencil"/>
-</node>
-</node>
-<node COLOR="#996600" CREATED="1256740460367" FOLDED="true" ID="Freemind_Link_1489121474" MODIFIED="1257334285881" TEXT="MeanResolution">
+<node COLOR="#996600" CREATED="1239098125683" ID="Freemind_Link_1971524831" MODIFIED="1279183772249" STYLE="bubble" TEXT="Method">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Mean horizontal resolution of the atmospheric chemistry and aerosols model.[/definition]</text>
+<text>[definition]Mathematical method deployed to solve the evolution of a given variable.[/definition]</text>
 </hook>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_540590316" MODIFIED="1257038155267" STYLE="fork" TEXT="degrees">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="full-1"/>
-</node>
-</node>
-</node>
-</node>
-<node COLOR="#990099" CREATED="1233751003143" FOLDED="true" ID="Freemind_Link_142866659" MODIFIED="1257336094405" STYLE="bubble" TEXT="Vertical.Domain">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1257238915649" FOLDED="true" ID="Freemind_Link_1264044554" MODIFIED="1258101481327" TEXT="GridConfiguration">
-<font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1241016231102" ID="Freemind_Link_365961628" MODIFIED="1257336981016" STYLE="fork" TEXT="same as Atmosphere">
+<node CREATED="1239098471806" ID="Freemind_Link_965357301" MODIFIED="1279183827543" STYLE="fork" TEXT="operator splitting">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
-</node>
-<node CREATED="1241016236735" ID="Freemind_Link_1041229605" MODIFIED="1257336993205" STYLE="fork" TEXT="different from Atmosphere">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1257238168276" FOLDED="true" ID="Freemind_Link_766400880" MODIFIED="1258101481327" TEXT="if GridConfiguration is &quot;different form Atmosphere&quot;">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1256254990298" FOLDED="true" ID="Freemind_Link_1974159564" MODIFIED="1257337075557" TEXT="GridCharacteristics">
-<font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Description of the vertical grid used for atmospheric chemistry and aerosols.[/definition]</text>
+<text>[definition]All the processes are decoupled, the time evolution is calculated sequentially and the tendencies are cumulated; the global evolution depends on the order the cumulation performed.[/definition]</text>
 </hook>
-<node CREATED="1256255021042" ID="Freemind_Link_1578704852" MODIFIED="1257238682406" STYLE="fork" TEXT="">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="pencil"/>
 </node>
-</node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" FOLDED="true" ID="Freemind_Link_1424452534" MODIFIED="1257337091994" TEXT="NumberOfLevels">
+<node CREATED="1239098618071" ID="Freemind_Link_774878778" MODIFIED="1279183751977" STYLE="fork" TEXT="integrated">
 <font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Total number of vertical levels in atmospheric chemistry and aerosols model.[/definition]</text>
+<text>[definition]All the processes having an impact on the time evolution are taken into account and solved simultaneously.[/definition]</text>
 </hook>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_569217197" MODIFIED="1256812397215" STYLE="fork" TEXT="">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="full-1"/>
 </node>
 </node>
-</node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" FOLDED="true" ID="Freemind_Link_995947235" MODIFIED="1257336883345" TEXT="NumberOfLevels">
-<font NAME="SansSerif" SIZE="14"/>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1130278950" MODIFIED="1258018586719" STYLE="fork" TEXT="">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="full-1"/>
-</node>
-</node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233751003143" FOLDED="true" ID="Freemind_Link_1555116625" MODIFIED="1257336899313" STYLE="bubble" TEXT="Vertical_CoordinateSystem">
-<font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1239098224898" ID="Freemind_Link_1853536067" MODIFIED="1239188485339" STYLE="fork" TEXT="pressure">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node CREATED="1239098232597" ID="Freemind_Link_1907138004" MODIFIED="1239188485261" STYLE="fork" TEXT="sigma">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node CREATED="1239098238548" ID="Freemind_Link_250682908" MODIFIED="1239188485277" STYLE="fork" TEXT="potential temperature">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node CREATED="1239098252627" ID="Freemind_Link_1335742992" MODIFIED="1256285407822" STYLE="fork" TEXT="hybrid sigma pressure">
-<edge WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node CREATED="1239098276830" ID="Freemind_Link_1353972239" MODIFIED="1239188485324" STYLE="fork" TEXT="altitude">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node CREATED="1239098209072" ID="Freemind_Link_1625193345" MODIFIED="1256115031012" STYLE="fork" TEXT="other">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1256259857517" FOLDED="true" ID="Freemind_Link_433572456" MODIFIED="1256285384523" TEXT="if VerticalCoordinateSystem is not &quot;hybrid sigma pressure&quot;">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1256259901795" FOLDED="true" ID="Freemind_Link_1155340440" MODIFIED="1256259940651" TEXT="LevelsValues">
-<font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1256259916241" ID="Freemind_Link_1451895441" MODIFIED="1256259937236" STYLE="fork" TEXT="">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="pencil"/>
-</node>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1256259857517" FOLDED="true" ID="Freemind_Link_1284374812" MODIFIED="1256285391145" TEXT="if VerticalCoordinateSystem is &quot;hybrid sigma pressure&quot;">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1256259901795" FOLDED="true" ID="Freemind_Link_1171102801" MODIFIED="1256259977770" TEXT="LevelsA-Values">
-<font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1256259916241" ID="Freemind_Link_1128750335" MODIFIED="1256259937236" STYLE="fork" TEXT="">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="pencil"/>
-</node>
-</node>
-<node COLOR="#996600" CREATED="1256259901795" FOLDED="true" ID="Freemind_Link_391869073" MODIFIED="1256259987992" TEXT="LevelsB-Values">
-<font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1256259916241" ID="Freemind_Link_665798254" MODIFIED="1256259937236" STYLE="fork" TEXT="">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="pencil"/>
-</node>
-</node>
-</node>
-</node>
-</node>
-<node COLOR="#990099" CREATED="1233751261777" FOLDED="true" ID="Freemind_Link_1153520910" MODIFIED="1257779770368" STYLE="bubble" TEXT="TimeSteppingFramework">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1239098125683" FOLDED="true" ID="Freemind_Link_1971524831" MODIFIED="1259240716474" STYLE="bubble" TEXT="Method">
-<font NAME="SansSerif" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Mathematical method deployed to solve the evolution of a given variable.&#xa;If &quot;operator splitting&quot; all the processes are decoupled, the time evolution is calculated sequentially and the tendencies &quot;cumulated&quot;. &#xa;If &quot;integrated&quot; all the processes having an impact on the time evolution are taken into account and solved simultaneously. &#xa;[/definition]&#xa;[info]In operator splitting the global evolution depends on the order the &quot;cumulation&quot; is performed.[/info]</text>
-</hook>
-<node CREATED="1239098471806" ID="Freemind_Link_965357301" MODIFIED="1239189250804" STYLE="fork" TEXT="operator splitting">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node CREATED="1239098618071" ID="Freemind_Link_774878778" MODIFIED="1239188329230" STYLE="fork" TEXT="integrated">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1256115436117" FOLDED="true" ID="Freemind_Link_280463155" MODIFIED="1257339778984" TEXT="if Method is &quot;operator splitting&quot;">
+<node COLOR="#0033ff" CREATED="1256115436117" ID="Freemind_Link_280463155" MODIFIED="1257339778984" TEXT="if Method is &quot;operator splitting&quot;">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1239098686632" FOLDED="true" ID="Freemind_Link_295168920" MODIFIED="1257346135121" STYLE="bubble" TEXT="AdvectionTimeStep">
 <font NAME="SansSerif" SIZE="14"/>
@@ -400,12 +267,12 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1256116727093" FOLDED="true" ID="Freemind_Link_1888122970" MODIFIED="1256255319734" TEXT="if Method is &quot;integrated&quot;">
+<node COLOR="#0033ff" CREATED="1256116727093" ID="Freemind_Link_1888122970" MODIFIED="1256255319734" TEXT="if Method is &quot;integrated&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1239098631308" FOLDED="true" ID="Freemind_Link_1655237676" MODIFIED="1259232984871" STYLE="bubble" TEXT="TimeStep">
+<node COLOR="#996600" CREATED="1239098631308" FOLDED="true" ID="Freemind_Link_1655237676" MODIFIED="1279183849096" STYLE="bubble" TEXT="TimeStep">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Time step for the chemistry model[/definition]</text>
+<text>[definition]Time step for the Atmospheric Chemistry model.[/definition]</text>
 </hook>
 <node CREATED="1233246454929" HGAP="25" ID="Freemind_Link_1994160294" MODIFIED="1257341147173" STYLE="fork" TEXT="seconds" VSHIFT="5">
 <font NAME="Arial" SIZE="14"/>
@@ -456,10 +323,10 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1239099014334" FOLDED="true" ID="Freemind_Link_1376668304" MODIFIED="1259253055452" STYLE="bubble" TEXT="MeteorologicalForcings">
+<node COLOR="#990099" CREATED="1239099014334" ID="Freemind_Link_1376668304" MODIFIED="1259253055452" STYLE="bubble" TEXT="MeteorologicalForcings">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="messagebox_warning"/>
-<node COLOR="#996600" CREATED="1239099027851" FOLDED="true" ID="Freemind_Link_1135732469" MODIFIED="1269595122821" STYLE="bubble" TEXT="3D-Variables">
+<node COLOR="#996600" CREATED="1239099027851" ID="Freemind_Link_1135732469" MODIFIED="1269595122821" STYLE="bubble" TEXT="3D-Variables">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]3-Dimensional forcing variables e.g. U, V, W, T, Q, P, convective mass flux[/definition]</text>
@@ -469,7 +336,7 @@
 <icon BUILTIN="pencil"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1239099108199" FOLDED="true" ID="Freemind_Link_521810339" MODIFIED="1269595122837" STYLE="bubble" TEXT="2D-Variables">
+<node COLOR="#996600" CREATED="1239099108199" ID="Freemind_Link_521810339" MODIFIED="1269595122837" STYLE="bubble" TEXT="2D-Variables">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]2-Dimensional forcing variables e.g. land-sea mask[/definition]</text>
@@ -479,7 +346,7 @@
 <icon BUILTIN="pencil"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1239099148353" FOLDED="true" ID="Freemind_Link_182221243" MODIFIED="1269595122821" STYLE="bubble" TEXT="Frequency">
+<node COLOR="#996600" CREATED="1239099148353" ID="Freemind_Link_182221243" MODIFIED="1269595122821" STYLE="bubble" TEXT="Frequency">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Frequency with which meteorological forcings are applied[/definition]</text>
@@ -497,12 +364,12 @@
 </node>
 <node COLOR="#000000" CREATED="1243421900109" ID="Freemind_Link_1833059964" MODIFIED="1257775613528" TEXT="AtmChem_Transport">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#990099" CREATED="1256285080292" FOLDED="true" ID="Freemind_Link_330267481" MODIFIED="1257775617654" TEXT="AtmChemTransportAttributes_">
+<node COLOR="#990099" CREATED="1256285080292" ID="Freemind_Link_330267481" MODIFIED="1257775617654" TEXT="AtmChemTransportAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1244049519101" FOLDED="true" ID="Freemind_Link_1441580281" MODIFIED="1259237465579" TEXT="SchemeType">
+<node COLOR="#996600" CREATED="1244049519101" ID="Freemind_Link_1441580281" MODIFIED="1279183874304" TEXT="SchemeType">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]The type of atmospheric chemistry transport scheme.[/definition]</text>
+<text>[definition]The type of Atmospheric Chemistry transport scheme.[/definition]</text>
 </hook>
 <node COLOR="#111111" CREATED="1244058418478" ID="Freemind_Link_307872876" MODIFIED="1256121577379" STYLE="fork" TEXT="Eulerian">
 <font NAME="SansSerif" SIZE="14"/>
@@ -525,45 +392,60 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244049532088" FOLDED="true" ID="Freemind_Link_729944958" MODIFIED="1258984885809" TEXT="MassConservation">
+<node COLOR="#996600" CREATED="1244049532088" ID="Freemind_Link_1360648730" MODIFIED="1279182447950" TEXT="MassConservation">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]How is mass conservation maintained?&#xa;i) &quot;mass adjustment&quot;: Adjustment is required to conserve mass.&#xa;ii) &quot;concentration positivity&quot;: Negative concentrations are reset.&#xa;iii) &quot;gradient monotony&quot;: Sharp gradients in concentration are smoothed.[/definition]</text>
+<text>[definition]Method used to ensure mass conservation.[/definition]</text>
 </hook>
-<node COLOR="#000000" CREATED="1244049570737" ID="Freemind_Link_1024786624" MODIFIED="1253636310687" STYLE="fork" TEXT="mass adjustment">
+<node COLOR="#000000" CREATED="1244049570737" ID="Freemind_Link_144327061" MODIFIED="1279182342054" STYLE="fork" TEXT="mass adjustment">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
-</node>
-<node COLOR="#000000" CREATED="1239091588860" ID="Freemind_Link_820598391" MODIFIED="1253636330359" STYLE="fork" TEXT="concentrations positivity">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node COLOR="#000000" CREATED="1239091588860" ID="Freemind_Link_405596296" MODIFIED="1253636367908" STYLE="fork" TEXT="gradients monotony">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-</node>
-<node COLOR="#996600" CREATED="1244049628488" FOLDED="true" ID="Freemind_Link_773190523" MODIFIED="1258985055253" TEXT="Convection">
-<font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Convective Transport:&#xa;i) &quot;convective fluxes connected to tracers&quot;: Do tracers &quot;see&quot; convection?&#xa;ii) &quot;vertical velocities connected to tracers&quot;: Are the mass flux vertical velocities connected with tracers in the atmos chemistry scheme?&#xa;[/definition]</text>
+<text>[definition]Adjustment is required to conserve mass.[/definition]</text>
 </hook>
-<node COLOR="#000000" CREATED="1244049677745" ID="Freemind_Link_624468838" MODIFIED="1256142853017" STYLE="fork" TEXT="convective fluxes connected to tracers">
+</node>
+<node COLOR="#000000" CREATED="1239091588860" ID="Freemind_Link_1183325918" MODIFIED="1279182440949" STYLE="fork" TEXT="concentrations positivity">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Negative concentrations are reset.[/definition]</text>
+</hook>
 </node>
-<node COLOR="#000000" CREATED="1244049685054" ID="Freemind_Link_282753276" MODIFIED="1253636410668" STYLE="fork" TEXT="vertical velocities connected to tracers">
+<node COLOR="#000000" CREATED="1239091588860" ID="Freemind_Link_1137783445" MODIFIED="1279182471081" STYLE="fork" TEXT="gradients monotony">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Sharp gradients in concentration are smoothed.[/definition]</text>
+</hook>
 </node>
 </node>
-</node>
-<node COLOR="#990099" CREATED="1239091990958" FOLDED="true" ID="Freemind_Link_396080714" MODIFIED="1256121739152" TEXT="Turbulence">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1239092150882" FOLDED="true" ID="Freemind_Link_595025936" MODIFIED="1258985281986" TEXT="Type">
+<node COLOR="#996600" CREATED="1244049628488" ID="Freemind_Link_1616423602" MODIFIED="1279182560982" TEXT="Convection">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Is chemistry transport scheme turbulence in 2D or 3D?[/definition]</text>
+<text>[definition]Transport by convection.[/definition]</text>
+</hook>
+<node COLOR="#000000" CREATED="1244049677745" ID="Freemind_Link_1272464403" MODIFIED="1279182627493" STYLE="fork" TEXT="convective fluxes connected to tracers">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Tracers &quot;see&quot; the convection.[/definition]</text>
+</hook>
+</node>
+<node COLOR="#000000" CREATED="1244049685054" ID="Freemind_Link_359936109" MODIFIED="1279182675157" STYLE="fork" TEXT="vertical velocities connected to tracers">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Mass flux vertical velocities are connected with tracers.[/definition]</text>
+</hook>
+</node>
+</node>
+</node>
+<node COLOR="#990099" CREATED="1239091990958" ID="Freemind_Link_396080714" MODIFIED="1256121739152" TEXT="Turbulence">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#996600" CREATED="1239092150882" ID="Freemind_Link_595025936" MODIFIED="1279184004805" TEXT="Type">
+<font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Dimension of the turbulence scheme in chemistry transport.[/definition]</text>
 </hook>
 <node CREATED="1239092127747" ID="Freemind_Link_791086155" MODIFIED="1239109150985" STYLE="fork" TEXT="2D">
 <font NAME="SansSerif" SIZE="14"/>
@@ -574,10 +456,10 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1239092321265" FOLDED="true" ID="Freemind_Link_1173589054" MODIFIED="1258985427869" TEXT="CouplingWithChemicalReactivity">
+<node COLOR="#996600" CREATED="1239092321265" ID="Freemind_Link_1173589054" MODIFIED="1279184020887" TEXT="CouplingWithChemicalReactivity">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Is chemistry transport scheme turbulence coupled with chemical reactivity?[/definition]</text>
+<text>[definition]Chemistry transport scheme turbulence is coupled with chemical reactivity.[/definition]</text>
 </hook>
 <node CREATED="1233937791616" ID="Freemind_Link_121188564" MODIFIED="1233937816630" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
@@ -592,12 +474,12 @@
 </node>
 <node COLOR="#000000" CREATED="1243422071515" ID="Freemind_Link_1266135633" MODIFIED="1269598418908" TEXT="AtmChem_EmissionAndConc">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#990099" CREATED="1243422252593" FOLDED="true" ID="Freemind_Link_1774355464" MODIFIED="1264679960831" TEXT="2D-Emissions">
+<node COLOR="#990099" CREATED="1243422252593" ID="Freemind_Link_1774355464" MODIFIED="1264679960831" TEXT="2D-Emissions">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1244467041993" FOLDED="true" ID="Freemind_Link_1239785627" MODIFIED="1265031953122" TEXT="Method">
+<node COLOR="#996600" CREATED="1244467041993" ID="Freemind_Link_1239785627" MODIFIED="1279184127326" TEXT="Method">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Method used to define aerosol species emitted at the surface (several methods allowed because the different species may not use the same method)[/definition]</text>
+<text>[definition]Method used to define chemical species emitted at the surface (several methods allowed because the different species may not use the same method)[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1243422295125" ID="Freemind_Link_1570018734" MODIFIED="1253695989543" STYLE="fork" TEXT="prescribed (climatology)">
 <font NAME="SansSerif" SIZE="14"/>
@@ -616,10 +498,10 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244467041993" FOLDED="true" ID="Freemind_Link_1065722201" MODIFIED="1265044313268" TEXT="SourceTypes">
+<node COLOR="#996600" CREATED="1244467041993" ID="Freemind_Link_1065722201" MODIFIED="1279184141455" TEXT="SourceTypes">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Sources of aerosols emitted at the surface that are taken into account in the emissions scheme.[/definition]</text>
+<text>[definition]Sources of chemical species emitted at the surface that are taken into account in the emissions scheme.[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1243422295125" ID="Freemind_Link_232746905" MODIFIED="1265044080393" STYLE="fork" TEXT="vegetation">
 <font NAME="SansSerif" SIZE="14"/>
@@ -642,12 +524,12 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1257780702273" FOLDED="true" ID="Freemind_Link_95561302" MODIFIED="1265031824399" TEXT="if Method has &quot;prescribed (climatology)&quot;">
+<node COLOR="#0033ff" CREATED="1257780702273" ID="Freemind_Link_95561302" MODIFIED="1265031824399" TEXT="if Method has &quot;prescribed (climatology)&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1244467041993" FOLDED="true" ID="Freemind_Link_785643854" MODIFIED="1265032359954" TEXT="ClimatologyType">
+<node COLOR="#996600" CREATED="1244467041993" FOLDED="true" ID="Freemind_Link_785643854" MODIFIED="1279184161040" TEXT="ClimatologyType">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Specify the climatology type for aerosols emissions prescribed at the surface.[/definition]</text>
+<text>[definition]Specify the climatology type for chemical emissions prescribed at the surface.[/definition]</text>
 </hook>
 <node COLOR="#111111" CREATED="1243422192375" ID="Freemind_Link_588980410" MODIFIED="1253695070095" STYLE="fork" TEXT="constant">
 <font NAME="SansSerif" SIZE="14"/>
@@ -674,10 +556,10 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1243422324468" FOLDED="true" ID="Freemind_Link_92874310" MODIFIED="1265043617020" TEXT="SpeciesEmitted">
+<node COLOR="#996600" CREATED="1243422324468" FOLDED="true" ID="Freemind_Link_92874310" MODIFIED="1279184170778" TEXT="SpeciesEmitted">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]List of aerosol species emitted at the surface and prescribed via a climatology.[/definition]</text>
+<text>[definition]List of chemical species emitted at the surface and prescribed via a climatology.[/definition]</text>
 </hook>
 <node COLOR="#111111" CREATED="1244070048872" ID="Freemind_Link_489376238" MODIFIED="1257346662492" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
@@ -685,12 +567,12 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1257780702273" FOLDED="true" ID="Freemind_Link_1750639460" MODIFIED="1265043327520" TEXT="if Method has &quot;prescribed (spatially uniform)&quot;">
+<node COLOR="#0033ff" CREATED="1257780702273" ID="Freemind_Link_1750639460" MODIFIED="1265043327520" TEXT="if Method has &quot;prescribed (spatially uniform)&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1243422324468" FOLDED="true" ID="Freemind_Link_1775401126" MODIFIED="1265043808245" TEXT="SpeciesEmitted">
+<node COLOR="#996600" CREATED="1243422324468" FOLDED="true" ID="Freemind_Link_1775401126" MODIFIED="1279184179237" TEXT="SpeciesEmitted">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]List of aerosol species emitted at the surface and prescribed as spatially uniform.[/definition]</text>
+<text>[definition]List of chemical species emitted at the surface and prescribed as spatially uniform.[/definition]</text>
 </hook>
 <node COLOR="#111111" CREATED="1244070048872" ID="Freemind_Link_408999422" MODIFIED="1257346662492" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
@@ -698,12 +580,12 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1257780702273" FOLDED="true" ID="Freemind_Link_59229838" MODIFIED="1265043360436" TEXT="if Method has &quot;interactive&quot;">
+<node COLOR="#0033ff" CREATED="1257780702273" ID="Freemind_Link_59229838" MODIFIED="1265043360436" TEXT="if Method has &quot;interactive&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1243422324468" FOLDED="true" ID="Freemind_Link_1590099299" MODIFIED="1265043906588" TEXT="SpeciesEmitted">
+<node COLOR="#996600" CREATED="1243422324468" FOLDED="true" ID="Freemind_Link_1590099299" MODIFIED="1279184086336" TEXT="SpeciesEmitted">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]List of aerosol species emitted at the surface and specified via an interactive method.[/definition]</text>
+<text>[definition]List of chemical species emitted at the surface and specified via an interactive method.[/definition]</text>
 </hook>
 <node COLOR="#111111" CREATED="1244070048872" ID="Freemind_Link_1916591148" MODIFIED="1257346662492" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
@@ -711,22 +593,22 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1257780702273" FOLDED="true" ID="Freemind_Link_367598105" MODIFIED="1265031835404" TEXT="if Method has &quot;other&quot;">
+<node COLOR="#0033ff" CREATED="1257780702273" ID="Freemind_Link_367598105" MODIFIED="1265031835404" TEXT="if Method has &quot;other&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1258103965122" FOLDED="true" ID="Freemind_Link_1120034120" MODIFIED="1265032451199" TEXT="MethodCharacteristics">
+<node COLOR="#996600" CREATED="1258103965122" FOLDED="true" ID="Freemind_Link_1120034120" MODIFIED="1279184096419" TEXT="MethodCharacteristics">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Characteristics of the method used for aerosol emissions at the surface.[/definition]</text>
+<text>[definition]Characteristics of the method used for chemical emissions at the surface.[/definition]</text>
 </hook>
 <node CREATED="1258104235821" ID="Freemind_Link_650872146" MODIFIED="1258104252264" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="pencil"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1243422324468" FOLDED="true" ID="Freemind_Link_1250937615" MODIFIED="1265043716626" TEXT="SpeciesEmitted">
+<node COLOR="#996600" CREATED="1243422324468" FOLDED="true" ID="Freemind_Link_1250937615" MODIFIED="1279184103936" TEXT="SpeciesEmitted">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]List of aerosol species emitted at the surface and specified via the method described above.[/definition]</text>
+<text>[definition]List of chemical species emitted at the surface and specified via the method described above.[/definition]</text>
 </hook>
 <node COLOR="#111111" CREATED="1244070048872" ID="Freemind_Link_207474634" MODIFIED="1257346662492" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
@@ -735,12 +617,12 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1243422252593" FOLDED="true" ID="Freemind_Link_64279269" MODIFIED="1264681553009" TEXT="3D-Emissions">
+<node COLOR="#990099" CREATED="1243422252593" ID="Freemind_Link_64279269" MODIFIED="1264681553009" TEXT="3D-Emissions">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1244467041993" FOLDED="true" ID="Freemind_Link_1016845722" MODIFIED="1265032243766" TEXT="Method">
+<node COLOR="#996600" CREATED="1244467041993" ID="Freemind_Link_1016845722" MODIFIED="1279184199210" TEXT="Method">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Method used to define aerosol species emitted in the atmosphere (several methods allowed because the different species may not use the same method).[/definition]</text>
+<text>[definition]Method used to define the chemical species emitted in the atmosphere (several methods allowed because the different species may not use the same method).[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1243422295125" ID="Freemind_Link_295276803" MODIFIED="1253695989543" STYLE="fork" TEXT="prescribed (climatology)">
 <font NAME="SansSerif" SIZE="14"/>
@@ -759,10 +641,10 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244467041993" FOLDED="true" ID="Freemind_Link_423875565" MODIFIED="1265044322894" TEXT="SourceTypes">
+<node COLOR="#996600" CREATED="1244467041993" ID="Freemind_Link_423875565" MODIFIED="1279184211354" TEXT="SourceTypes">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Sources of aerosols emitted in the atmosphere that are taken into account in the emissions scheme.[/definition]</text>
+<text>[definition]Sources of chemical species emitted in the atmosphere that are taken into account in the emissions scheme.[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1243422295125" ID="Freemind_Link_1388051881" MODIFIED="1265044217666" STYLE="fork" TEXT="aircraft">
 <font NAME="SansSerif" SIZE="14"/>
@@ -785,12 +667,12 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1257780702273" FOLDED="true" ID="Freemind_Link_1368716603" MODIFIED="1264680787954" TEXT="if Method has &quot;prescribed (climatology)&quot;">
+<node COLOR="#0033ff" CREATED="1257780702273" ID="Freemind_Link_1368716603" MODIFIED="1264680787954" TEXT="if Method has &quot;prescribed (climatology)&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1244467041993" FOLDED="true" ID="Freemind_Link_93200593" MODIFIED="1265032638352" TEXT="ClimatologyType">
+<node COLOR="#996600" CREATED="1244467041993" FOLDED="true" ID="Freemind_Link_93200593" MODIFIED="1279184220082" TEXT="ClimatologyType">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Specify the climatology type for aerosols emissions prescribed in the atmosphere.[/definition]</text>
+<text>[definition]Specify the climatology type for chemical emissions prescribed in the atmosphere.[/definition]</text>
 </hook>
 <node COLOR="#111111" CREATED="1243422192375" ID="Freemind_Link_622398568" MODIFIED="1253695070095" STYLE="fork" TEXT="constant">
 <font NAME="SansSerif" SIZE="14"/>
@@ -828,12 +710,12 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1257780702273" FOLDED="true" ID="Freemind_Link_656515135" MODIFIED="1265043327520" TEXT="if Method has &quot;prescribed (spatially uniform)&quot;">
+<node COLOR="#0033ff" CREATED="1257780702273" ID="Freemind_Link_656515135" MODIFIED="1265043327520" TEXT="if Method has &quot;prescribed (spatially uniform)&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1243422324468" FOLDED="true" ID="Freemind_Link_145574185" MODIFIED="1265043817902" TEXT="SpeciesEmitted">
+<node COLOR="#996600" CREATED="1243422324468" FOLDED="true" ID="Freemind_Link_145574185" MODIFIED="1279184227606" TEXT="SpeciesEmitted">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]List of aerosol species emitted in the atmosphere and prescribed as spatially uniform.[/definition]</text>
+<text>[definition]List of chemical species emitted in the atmosphere and prescribed as spatially uniform.[/definition]</text>
 </hook>
 <node COLOR="#111111" CREATED="1244070048872" ID="Freemind_Link_414628421" MODIFIED="1257346662492" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
@@ -841,12 +723,12 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1257780702273" FOLDED="true" ID="Freemind_Link_287515875" MODIFIED="1265043360436" TEXT="if Method has &quot;interactive&quot;">
+<node COLOR="#0033ff" CREATED="1257780702273" ID="Freemind_Link_287515875" MODIFIED="1265043360436" TEXT="if Method has &quot;interactive&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1243422324468" FOLDED="true" ID="Freemind_Link_1122292032" MODIFIED="1265043927710" TEXT="SpeciesEmitted">
+<node COLOR="#996600" CREATED="1243422324468" FOLDED="true" ID="Freemind_Link_1122292032" MODIFIED="1279184236107" TEXT="SpeciesEmitted">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]List of aerosol species emitted in the atmosphere and specified via an interactive method.[/definition]</text>
+<text>[definition]List of chemical species emitted in the atmosphere and specified via an interactive method.[/definition]</text>
 </hook>
 <node COLOR="#111111" CREATED="1244070048872" ID="Freemind_Link_265631292" MODIFIED="1257346662492" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
@@ -854,22 +736,22 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1257780702273" FOLDED="true" ID="Freemind_Link_160257054" MODIFIED="1264681166363" TEXT="if Method has &quot;other&quot;">
+<node COLOR="#0033ff" CREATED="1257780702273" ID="Freemind_Link_160257054" MODIFIED="1264681166363" TEXT="if Method has &quot;other&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1258103965122" FOLDED="true" ID="Freemind_Link_1200913506" MODIFIED="1265032573050" TEXT="MethodCharacteristics">
+<node COLOR="#996600" CREATED="1258103965122" FOLDED="true" ID="Freemind_Link_1200913506" MODIFIED="1279184243751" TEXT="MethodCharacteristics">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Characteristics of the method used for aerosol emissions in the atmosphere.[/definition]</text>
+<text>[definition]Characteristics of the method used for chemical emissions in the atmosphere.[/definition]</text>
 </hook>
 <node CREATED="1258104235821" ID="Freemind_Link_101449740" MODIFIED="1258104252264" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="pencil"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1243422324468" FOLDED="true" ID="Freemind_Link_1498402119" MODIFIED="1265043966975" TEXT="SpeciesEmitted">
+<node COLOR="#996600" CREATED="1243422324468" FOLDED="true" ID="Freemind_Link_1498402119" MODIFIED="1279184249636" TEXT="SpeciesEmitted">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]List of aerosol species emitted in the atmosphere and specified via the method described above.[/definition]</text>
+<text>[definition]List of chemical species emitted in the atmosphere and specified via the method described above.[/definition]</text>
 </hook>
 <node COLOR="#111111" CREATED="1244070048872" ID="Freemind_Link_27384893" MODIFIED="1257346662492" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
@@ -878,9 +760,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1244068729399" FOLDED="true" ID="Freemind_Link_1670336521" MODIFIED="1256199786544" TEXT="Concentrations">
+<node COLOR="#990099" CREATED="1244068729399" ID="Freemind_Link_1670336521" MODIFIED="1256199786544" TEXT="Concentrations">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1244068742729" FOLDED="true" ID="Freemind_Link_1701507840" MODIFIED="1257346917012" TEXT="PrescribedLowerBoundary">
+<node COLOR="#996600" CREATED="1244068742729" ID="Freemind_Link_1701507840" MODIFIED="1257346917012" TEXT="PrescribedLowerBoundary">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]List of species prescribed at the lower boundary.[/definition]</text>
@@ -890,7 +772,7 @@
 <icon BUILTIN="pencil"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244068753954" FOLDED="true" ID="Freemind_Link_1309362891" MODIFIED="1259247497491" TEXT="PrescribedUpperBoundary">
+<node COLOR="#996600" CREATED="1244068753954" ID="Freemind_Link_1309362891" MODIFIED="1259247497491" TEXT="PrescribedUpperBoundary">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]List of species prescribed at the upper boundary.[/definition]</text>
@@ -904,9 +786,9 @@
 </node>
 <node COLOR="#000000" CREATED="1244062026857" ID="Freemind_Link_1658904618" MODIFIED="1264511750715" TEXT="AtmChem_GasPhaseChemistry">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#990099" CREATED="1258105576222" FOLDED="true" ID="_" MODIFIED="1258105604395" TEXT="AtmGasPhaseChemistryAttributes_">
+<node COLOR="#990099" CREATED="1258105576222" ID="_" MODIFIED="1258105604395" TEXT="AtmGasPhaseChemistryAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1243421960140" FOLDED="true" ID="Freemind_Link_1586399056" MODIFIED="1259248308131" TEXT="Species">
+<node COLOR="#996600" CREATED="1243421960140" ID="Freemind_Link_1586399056" MODIFIED="1259248308131" TEXT="Species">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Species included in the gas phase chemistry scheme.[/definition]</text>
@@ -953,12 +835,12 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1243421967109" FOLDED="true" ID="Freemind_Link_1856848959" MODIFIED="1256200444621" TEXT="Processes">
+<node COLOR="#990099" CREATED="1243421967109" ID="Freemind_Link_1856848959" MODIFIED="1256200444621" TEXT="Processes">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1243422075515" FOLDED="true" ID="Freemind_Link_1525698741" MODIFIED="1258990121759" TEXT="DryDeposition">
+<node COLOR="#996600" CREATED="1243422075515" ID="Freemind_Link_1525698741" MODIFIED="1279184460162" TEXT="DryDeposition">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Is dry deposition prescribed or interactive?  Dry deposition describes the dry processes by which gaseous species deposit themselves on solid surfaces thus decreasing their concentration in the air.[/definition]</text>
+<text>[definition]Dry deposition is prescribed or interactive. Dry deposition describes the dry processes by which gaseous species deposit themselves on solid surfaces thus decreasing their concentration in the air.[/definition]</text>
 </hook>
 <node COLOR="#111111" CREATED="1243422111046" ID="Freemind_Link_629893309" MODIFIED="1253695188148" STYLE="fork" TEXT="prescribed">
 <font NAME="SansSerif" SIZE="14"/>
@@ -969,10 +851,10 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1243422079562" FOLDED="true" ID="Freemind_Link_1815102915" MODIFIED="1258990175594" TEXT="WetDeposition">
+<node COLOR="#996600" CREATED="1243422079562" ID="Freemind_Link_1815102915" MODIFIED="1279184464780" TEXT="WetDeposition">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Is wet deposition included?  Wet deposition describes the moist processes by which gaseous species deposit themselves on solid surfaces thus decreasing their concentration in the air.[/definition]</text>
+<text>[definition]Wet deposition is included or not. Wet deposition describes the moist processes by which gaseous species deposit themselves on solid surfaces thus decreasing their concentration in the air.[/definition]</text>
 </hook>
 <node COLOR="#111111" CREATED="1244467432064" ID="Freemind_Link_964595177" MODIFIED="1250167614742" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
@@ -983,10 +865,10 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244068541318" FOLDED="true" ID="Freemind_Link_339660491" MODIFIED="1258990047629" TEXT="Oxidation">
+<node COLOR="#996600" CREATED="1244068541318" ID="Freemind_Link_339660491" MODIFIED="1279184468822" TEXT="Oxidation">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Is oxidation included? Oxidation describes the loss of electrons or an increase in oxidation state by a molecule. [/definition]</text>
+<text>[definition]Oxidation is included or not. Oxidation describes the loss of electrons or an increase in oxidation state by a molecule. [/definition]</text>
 </hook>
 <node COLOR="#111111" CREATED="1244467439958" ID="Freemind_Link_1895355301" MODIFIED="1250167614726" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
@@ -997,7 +879,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244049962944" FOLDED="true" ID="Freemind_Link_764628178" MODIFIED="1256200465870" TEXT="WashOut-RainOut">
+<node COLOR="#996600" CREATED="1244049962944" ID="Freemind_Link_764628178" MODIFIED="1256200465870" TEXT="WashOut-RainOut">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Downward transport of soluble chemistry species in clouds.[/definition]&#xa;</text>
@@ -1012,9 +894,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1243421950156" FOLDED="true" ID="Freemind_Link_1148089485" MODIFIED="1256200759012" TEXT="NumOfReactionsAndSpecies">
+<node COLOR="#990099" CREATED="1243421950156" ID="Freemind_Link_1148089485" MODIFIED="1256200759012" TEXT="NumOfReactionsAndSpecies">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1243422663812" FOLDED="true" ID="Freemind_Link_418531539" MODIFIED="1259248277671" TEXT="NumberOfBimolecularReactions">
+<node COLOR="#996600" CREATED="1243422663812" ID="Freemind_Link_418531539" MODIFIED="1259248277671" TEXT="NumberOfBimolecularReactions">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]The number of bi-molecular reactions in the gas phase chemistry scheme.[/definition]</text>
@@ -1024,7 +906,7 @@
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1243422663812" FOLDED="true" ID="Freemind_Link_459989577" MODIFIED="1259248269335" TEXT="NumberOfTermolecularReactions">
+<node COLOR="#996600" CREATED="1243422663812" ID="Freemind_Link_459989577" MODIFIED="1259248269335" TEXT="NumberOfTermolecularReactions">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]The number of ter-molecular reactions in the gas phase chemistry scheme.[/definition]</text>
@@ -1034,7 +916,7 @@
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1243422663812" FOLDED="true" ID="Freemind_Link_1775179408" MODIFIED="1259248262325" TEXT="NumberOfAdvectedSpecies">
+<node COLOR="#996600" CREATED="1243422663812" ID="Freemind_Link_1775179408" MODIFIED="1259248262325" TEXT="NumberOfAdvectedSpecies">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]The number of advected species in the gas phase chemistry scheme.[/definition]</text>
@@ -1044,7 +926,7 @@
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1243422663812" FOLDED="true" ID="Freemind_Link_206533849" MODIFIED="1259248248811" TEXT="NumberOfSteadyStateSpecies">
+<node COLOR="#996600" CREATED="1243422663812" ID="Freemind_Link_206533849" MODIFIED="1259248248811" TEXT="NumberOfSteadyStateSpecies">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]The number of steady state species in the gas phase chemistry scheme.[/definition]</text>
@@ -1058,9 +940,9 @@
 </node>
 <node COLOR="#000000" CREATED="1244057714894" ID="Freemind_Link_47709925" MODIFIED="1264667835696" TEXT="AtmChem_HeterogenChemistry">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#000000" CREATED="1244069441485" FOLDED="true" ID="Freemind_Link_1820070223" MODIFIED="1257347074066" TEXT="Stratospheric.HeterChem">
+<node COLOR="#000000" CREATED="1244069441485" ID="Freemind_Link_1820070223" MODIFIED="1257347074066" TEXT="Stratospheric.HeterChem">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#990099" CREATED="1244058101228" FOLDED="true" ID="Freemind_Link_61219831" MODIFIED="1256200475577" TEXT="Species">
+<node COLOR="#990099" CREATED="1244058101228" ID="Freemind_Link_61219831" MODIFIED="1256200475577" TEXT="Species">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1244063735330" FOLDED="true" ID="Freemind_Link_1274278688" MODIFIED="1264602176920" TEXT="GasPhase">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1115,12 +997,12 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1243421967109" FOLDED="true" ID="Freemind_Link_840670510" MODIFIED="1256200475537" TEXT="Processes">
+<node COLOR="#990099" CREATED="1243421967109" ID="Freemind_Link_840670510" MODIFIED="1256200475537" TEXT="Processes">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1244069718439" FOLDED="true" ID="Freemind_Link_433279967" MODIFIED="1259248194516" TEXT="Sedimentation">
+<node COLOR="#996600" CREATED="1244069718439" FOLDED="true" ID="Freemind_Link_433279967" MODIFIED="1279184489282" TEXT="Sedimentation">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Is sedimentation included in the stratospheric heterogeneous chemistry scheme?  &#xa;Sedimentation is the vertical settling of particles. [/definition]</text>
+<text>[definition]Sedimentation is included in the stratospheric heterogeneous chemistry scheme or not. Sedimentation is the vertical settling of particles. [/definition]</text>
 </hook>
 <node COLOR="#111111" CREATED="1244467519029" ID="Freemind_Link_1664722456" MODIFIED="1250167714082" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1131,10 +1013,10 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244069953392" FOLDED="true" ID="Freemind_Link_1499725962" MODIFIED="1259248186840" TEXT="Coagulation">
+<node COLOR="#996600" CREATED="1244069953392" FOLDED="true" ID="Freemind_Link_1499725962" MODIFIED="1279184521025" TEXT="Coagulation">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Is coagulation included in the stratospheric heterogeneous chemistry scheme? &#xa; Coagulation is a process by which aerosol particles grow. [/definition]&#xa;[info]Implies link/coupling with aerosol scheme.[/info]</text>
+<text>[definition]Coagulation is included in the stratospheric heterogeneous chemistry scheme or not. Coagulation is a process by which aerosol particles grow. [/definition]&#xa;[info]Implies link/coupling with aerosol scheme.[/info]</text>
 </hook>
 <node COLOR="#111111" CREATED="1244467542616" ID="Freemind_Link_904056364" MODIFIED="1250167714051" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1146,7 +1028,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1243421955578" FOLDED="true" ID="Freemind_Link_414974984" MODIFIED="1256200475469" TEXT="NumOfReactionsAndSpecies">
+<node COLOR="#990099" CREATED="1243421955578" ID="Freemind_Link_414974984" MODIFIED="1256200475469" TEXT="NumOfReactionsAndSpecies">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1243421950156" FOLDED="true" ID="Freemind_Link_114942711" MODIFIED="1259248179674" TEXT="NumberOfReactions">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1180,9 +1062,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1244069441485" FOLDED="true" ID="Freemind_Link_1859110436" MODIFIED="1257347089324" TEXT="Tropospheric.HeterChem">
+<node COLOR="#000000" CREATED="1244069441485" ID="Freemind_Link_1859110436" MODIFIED="1257347089324" TEXT="Tropospheric.HeterChem">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#990099" CREATED="1244058101228" FOLDED="true" ID="Freemind_Link_104726676" MODIFIED="1256200484095" TEXT="Species">
+<node COLOR="#990099" CREATED="1244058101228" ID="Freemind_Link_104726676" MODIFIED="1256200484095" TEXT="Species">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1244063735330" FOLDED="true" ID="Freemind_Link_663231646" MODIFIED="1264602162435" TEXT="GasPhase">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1237,12 +1119,12 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1243421967109" FOLDED="true" ID="Freemind_Link_1341305389" MODIFIED="1256200483998" TEXT="Processes">
+<node COLOR="#990099" CREATED="1243421967109" ID="Freemind_Link_1341305389" MODIFIED="1256200483998" TEXT="Processes">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1243422075515" FOLDED="true" ID="Freemind_Link_612378400" MODIFIED="1259248110367" TEXT="DryDeposition">
+<node COLOR="#996600" CREATED="1243422075515" FOLDED="true" ID="Freemind_Link_612378400" MODIFIED="1279184552352" TEXT="DryDeposition">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Is dry deposition prescribed or interactive?  &#xa;Dry deposition describes the dry processes by which species deposit themselves on solid surfaces thus decreasing their concentration in the air.[/definition]</text>
+<text>[definition]Dry deposition is prescribed or interactive. Dry deposition describes the dry processes by which species deposit themselves on solid surfaces thus decreasing their concentration in the air.[/definition]</text>
 </hook>
 <node COLOR="#111111" CREATED="1243422111046" ID="Freemind_Link_1349410089" MODIFIED="1250167614757" STYLE="fork" TEXT="Prescribed">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1253,10 +1135,10 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1243422079562" FOLDED="true" ID="Freemind_Link_581563861" MODIFIED="1259248083755" TEXT="WetDeposition">
+<node COLOR="#996600" CREATED="1243422079562" FOLDED="true" ID="Freemind_Link_581563861" MODIFIED="1279184570906" TEXT="WetDeposition">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Is wet deposition included?  &#xa;Wet deposition describes the moist processes by which species deposit themselves on solid surfaces thus decreasing their concentration in the air.[/definition]</text>
+<text>[definition]Wet deposition is included or not. Wet deposition describes the moist processes by which species deposit themselves on solid surfaces thus decreasing their concentration in the air.[/definition]</text>
 </hook>
 <node COLOR="#111111" CREATED="1244467432064" ID="Freemind_Link_1373179188" MODIFIED="1250167614742" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1281,10 +1163,10 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1244069953392" FOLDED="true" ID="Freemind_Link_1053135572" MODIFIED="1264503107149" TEXT="Coagulation">
+<node COLOR="#996600" CREATED="1244069953392" FOLDED="true" ID="Freemind_Link_1053135572" MODIFIED="1279184591217" TEXT="Coagulation">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Is coagulation included in the stratospheric heterogeneous chemistry scheme?  &#xa;Coagulation is a process by which aerosol particles grow. [/definition]&#xa;[info]Implies link/coupling with aerosol scheme.[/info]</text>
+<text>[definition]Coagulation is included in the stratospheric heterogeneous chemistry scheme or not. Coagulation is a process by which aerosol particles grow. [/definition]&#xa;[info]Implies link/coupling with aerosol scheme.[/info]</text>
 </hook>
 <node COLOR="#111111" CREATED="1244467542616" ID="Freemind_Link_1752878215" MODIFIED="1250167714051" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1296,7 +1178,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1243421955578" FOLDED="true" ID="Freemind_Link_1068353151" MODIFIED="1256200483932" TEXT="NumOfReactionsAndSpecies">
+<node COLOR="#990099" CREATED="1243421955578" ID="Freemind_Link_1068353151" MODIFIED="1256200483932" TEXT="NumOfReactionsAndSpecies">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1243421950156" FOLDED="true" ID="Freemind_Link_664090872" MODIFIED="1259248044556" TEXT="NumberOfReactions">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1308,20 +1190,20 @@
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1243422663812" FOLDED="true" ID="Freemind_Link_195116975" MODIFIED="1259248037002" TEXT="NumberOfAdvectedSpecies">
+<node COLOR="#996600" CREATED="1243422663812" FOLDED="true" ID="Freemind_Link_195116975" MODIFIED="1279184608343" TEXT="NumberOfAdvectedSpecies">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]The number of advected species in the tropospheric heterogeneous chemistry scheme.[/definition][definition]Enter the number of advected species in the tropospheric heterogeneous chemistry scheme.[/definition]</text>
+<text>[definition]Number of advected species in the tropospheric heterogeneous chemistry scheme.[/definition]</text>
 </hook>
 <node CREATED="1250169579304" ID="Freemind_Link_707466566" MODIFIED="1250604655568" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1243422663812" FOLDED="true" ID="Freemind_Link_1852713026" MODIFIED="1259248030304" TEXT="NumberOfSteadyStateSpecies">
+<node COLOR="#996600" CREATED="1243422663812" FOLDED="true" ID="Freemind_Link_1852713026" MODIFIED="1279184617341" TEXT="NumberOfSteadyStateSpecies">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]The number of steady state species in the tropospheric heterogeneous chemistry scheme.[/definition]</text>
+<text>[definition]Number of steady state species in the tropospheric heterogeneous chemistry scheme.[/definition]</text>
 </hook>
 <node CREATED="1250169579304" ID="Freemind_Link_888826642" MODIFIED="1250604655568" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1333,32 +1215,38 @@
 </node>
 <node COLOR="#000000" CREATED="1244062831575" ID="Freemind_Link_1028391829" MODIFIED="1264511768047" TEXT="AtmChem_PhotoChemistry">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#990099" CREATED="1243422093890" FOLDED="true" ID="Freemind_Link_690400866" MODIFIED="1256200821217" TEXT="Photolysis">
+<node COLOR="#990099" CREATED="1243422093890" ID="Freemind_Link_690400866" MODIFIED="1256200821217" TEXT="Photolysis">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1250608849938" FOLDED="true" ID="Freemind_Link_125663643" MODIFIED="1259247976181" TEXT="Method">
+<node COLOR="#996600" CREATED="1250608849938" ID="Freemind_Link_125663643" MODIFIED="1279184642645" TEXT="Method">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Is the photolysis scheme online or offline? &#xa;If it is offline, does the look up table take clouds into account with respect to effective photolysis rate for photodissociation?[/definition]</text>
+<text>[definition]Photolysis scheme online or offline.[/definition]</text>
 </hook>
-<node COLOR="#000000" CREATED="1243422121875" ID="Freemind_Link_221094950" MODIFIED="1256200880764" STYLE="fork" TEXT="offline (clearsky)">
+<node COLOR="#000000" CREATED="1243422121875" ID="Freemind_Link_221094950" MODIFIED="1279190701812" STYLE="fork" TEXT="offline (clearsky)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Look up tables do not take clouds into account.[/definition]</text>
+</hook>
 </node>
-<node COLOR="#000000" CREATED="1243422121875" ID="Freemind_Link_1661040932" MODIFIED="1256200887895" STYLE="fork" TEXT="offline (with clouds)">
+<node COLOR="#000000" CREATED="1243422121875" ID="Freemind_Link_1661040932" MODIFIED="1279190707365" STYLE="fork" TEXT="offline (with clouds)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Look up tables take clouds into account with respect to effective photolysis rate for photodissociation.[/definition]</text>
+</hook>
 </node>
 <node COLOR="#000000" CREATED="1243422125265" ID="Freemind_Link_1116161064" MODIFIED="1256200892575" STYLE="fork" TEXT="online">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1256200829443" FOLDED="true" ID="Freemind_Link_237675487" MODIFIED="1257347227810" TEXT="if Method is &quot;online&quot;">
+<node COLOR="#0033ff" CREATED="1256200829443" ID="Freemind_Link_237675487" MODIFIED="1257347227810" TEXT="if Method is &quot;online&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1243422121875" FOLDED="true" ID="Freemind_Link_1047443208" MODIFIED="1259247954230" TEXT="Processes">
+<node COLOR="#996600" CREATED="1243422121875" ID="Freemind_Link_1047443208" MODIFIED="1279184850980" TEXT="Processes">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Processes included in the photolysis scheme.[/definition]&#xa;[constraint]Only required if &quot;online&quot; is selected for &quot;Photolysis&quot;.[/constraint]</text>
+<text>[definition]Processes included in the photolysis scheme.[/definition]</text>
 </hook>
 <node COLOR="#111111" CREATED="1244070709690" ID="Freemind_Link_1823260407" MODIFIED="1256200912835" STYLE="fork" TEXT="scattering">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1382,7 +1270,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1239094899251" FOLDED="true" ID="Freemind_Link_454827706" MODIFIED="1259247936391" TEXT="ReactionData">
+<node COLOR="#996600" CREATED="1239094899251" ID="Freemind_Link_454827706" MODIFIED="1259247936391" TEXT="ReactionData">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Reaction information taken into account by the photolysis scheme.[/definition]</text>
@@ -1401,9 +1289,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1243421955578" FOLDED="true" ID="Freemind_Link_1345394609" MODIFIED="1256200821167" TEXT="NumOfReactionsAndSpecies">
+<node COLOR="#990099" CREATED="1243421955578" ID="Freemind_Link_1345394609" MODIFIED="1256200821167" TEXT="NumOfReactionsAndSpecies">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1243421950156" FOLDED="true" ID="Freemind_Link_1854432849" MODIFIED="1259248013906" TEXT="NumberOfReactions">
+<node COLOR="#996600" CREATED="1243421950156" ID="Freemind_Link_1854432849" MODIFIED="1259248013906" TEXT="NumberOfReactions">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]The number of reactions in the photo-chemistry scheme.[/definition]</text>
@@ -1413,7 +1301,7 @@
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1243421955578" FOLDED="true" ID="Freemind_Link_1066338150" MODIFIED="1259248021949" TEXT="NumberOfSpecies">
+<node COLOR="#996600" CREATED="1243421955578" ID="Freemind_Link_1066338150" MODIFIED="1259248021949" TEXT="NumberOfSpecies">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]The number of species in the photo-chemistry scheme.[/definition]</text>

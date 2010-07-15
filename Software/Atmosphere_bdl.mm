@@ -7,7 +7,7 @@
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233138667215" ID="_" MODIFIED="1236848504074" POSITION="right" STYLE="bubble" TEXT="Atmosphere">
 <edge COLOR="#999999" STYLE="bezier" WIDTH="2"/>
 <font BOLD="true" NAME="Arial" SIZE="18"/>
-<node COLOR="#000000" CREATED="1253796559148" ID="Freemind_Link_969659526" MODIFIED="1256740926774" TEXT="Atmos_KeyProperties">
+<node COLOR="#990099" CREATED="1253796559148" ID="Freemind_Link_969659526" MODIFIED="1278495833282" TEXT="Atmos_KeyProperties">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1254486057572" ID="Freemind_Link_26535854" MODIFIED="1256809354852" TEXT="AtmosKeyPropertiesAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
@@ -24,15 +24,15 @@
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1243412801407" ID="Freemind_Link_281954297" MODIFIED="1269524284999" STYLE="fork" TEXT="mpm: Find more...">
-<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="messagebox_warning"/>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233140643598" ID="Freemind_Link_1534732415" MODIFIED="1279016110028" STYLE="fork" TEXT="other">
+<font NAME="Arial" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233141022285" ID="Freemind_Link_599221753" MODIFIED="1258110338532" STYLE="bubble" TEXT="BasicApproximations">
+<node COLOR="#996600" CREATED="1233141022285" ID="Freemind_Link_599221753" MODIFIED="1279016154867" STYLE="bubble" TEXT="BasicApproximations">
 <font NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Basic fluid dynamics approximations made in the atmospheric model.[/definition]</text>
+<text>[definition]Basic approximations made in the atmospheric model.[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1233141036845" ID="Freemind_Link_1066350301" MODIFIED="1258638116188" STYLE="fork" TEXT="primitive equations">
 <font NAME="Arial" SIZE="14"/>
@@ -50,16 +50,6 @@
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1240321887237" ID="Freemind_Link_1802726362" MODIFIED="1258638130798" STYLE="fork" TEXT="deep-atmosphere">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="messagebox_warning"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node CREATED="1240321922165" ID="Freemind_Link_1209549881" MODIFIED="1258638154283" STYLE="fork" TEXT="shallow-atmosphere">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="messagebox_warning"/>
-<icon BUILTIN="button_ok"/>
-</node>
 <node CREATED="1240321897946" ID="Freemind_Link_1612544966" MODIFIED="1258638158722" STYLE="fork" TEXT="hydrostatic">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
@@ -71,10 +61,6 @@
 <node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233141048117" ID="Freemind_Link_680291509" MODIFIED="1253105360500" STYLE="fork" TEXT="other">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
-</node>
-<node BACKGROUND_COLOR="#ffff00" COLOR="#000000" CREATED="1244108236987" ID="Freemind_Link_1421530295" MODIFIED="1269524297199" STYLE="fork" TEXT="Bryan: to check Deep/shallow... seems to come from Ocean vocab...">
-<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="messagebox_warning"/>
 </node>
 </node>
 <node COLOR="#996600" CREATED="1256808650636" ID="Freemind_Link_907728733" MODIFIED="1258110404661" TEXT="VolcanoesImplementation">
@@ -133,14 +119,16 @@
 <icon BUILTIN="messagebox_warning"/>
 </node>
 </node>
+<node CREATED="1256809093989" ID="Freemind_Link_49220353" MODIFIED="1279016188856" TEXT="GHG">
+<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="messagebox_warning"/>
+<icon BUILTIN="messagebox_warning"/>
+</node>
 </node>
 <node BACKGROUND_COLOR="#ff0000" CREATED="1256809079292" ID="Freemind_Link_894255056" MODIFIED="1269524322221" STYLE="fork" TEXT="Eric: if not atmos chemistry model then specify">
 <font ITALIC="true" NAME="Arial" SIZE="14"/>
 <icon BUILTIN="messagebox_warning"/>
 <icon BUILTIN="messagebox_warning"/>
-<node CREATED="1256809093989" ID="Freemind_Link_49220353" MODIFIED="1269524591898" TEXT="GHG">
-<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
-</node>
 <node CREATED="1256809097301" ID="Freemind_Link_115834150" MODIFIED="1269524591898" TEXT="tropospheric aerosols">
 <font ITALIC="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1256809110444" ID="Freemind_Link_978628982" MODIFIED="1269524591898" STYLE="fork" TEXT="black carbon">
@@ -183,10 +171,10 @@
 </node>
 <node COLOR="#0033ff" CREATED="1256650877395" ID="Freemind_Link_1482178477" MODIFIED="1258640320546" TEXT="if OrographyType is &quot;modified&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1256301624095" ID="Freemind_Link_181495917" MODIFIED="1258640204092" TEXT="Orography_Changes">
+<node COLOR="#996600" CREATED="1256301624095" ID="Freemind_Link_181495917" MODIFIED="1279016270199" TEXT="Orography_Changes">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Changes in orography for its time phasing.[/definition]</text>
+<text>[definition]Changes in orography for its time adaptation.[/definition]</text>
 </hook>
 <node CREATED="1256301531598" ID="Freemind_Link_18616048" MODIFIED="1256655519727" STYLE="fork" TEXT="related to ice sheet">
 <font NAME="SansSerif" SIZE="14"/>
@@ -207,7 +195,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1256303464288" ID="Freemind_Link_875811821" MODIFIED="1256924075933" TEXT="TopOfAtmos_Insolation">
+<node COLOR="#990099" CREATED="1256303464288" ID="Freemind_Link_875811821" MODIFIED="1278495837065" TEXT="TopOfAtmos_Insolation">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1256650840766" ID="Freemind_Link_818741463" MODIFIED="1256812889692" TEXT="TopOfAtmosInsolationAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
@@ -311,10 +299,10 @@
 </node>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1256303502302" ID="Freemind_Link_461428822" MODIFIED="1258119424418" TEXT="ComputationMethod">
+<node COLOR="#996600" CREATED="1256303502302" ID="Freemind_Link_461428822" MODIFIED="1279016321715" TEXT="ComputationMethod">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Method for computing orbital parameters.[/definition]</text>
+<text>[definition]Method used for computing orbital parameters.[/definition]</text>
 </hook>
 <node CREATED="1256303511454" ID="Freemind_Link_1063064793" MODIFIED="1256650750418" STYLE="fork" TEXT="Berger 1978">
 <font NAME="SansSerif" SIZE="14"/>
@@ -399,7 +387,7 @@
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Type of boundary layer at top of the model.[/definition]</text>
 </hook>
-<node CREATED="1243603034779" ID="Freemind_Link_1144685774" MODIFIED="1258557630989" STYLE="fork" TEXT="sponge layer">
+<node CREATED="1243603034779" ID="Freemind_Link_1144685774" MODIFIED="1279016364815" STYLE="fork" TEXT="sponge layer">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
@@ -600,10 +588,10 @@
 </node>
 <node COLOR="#990099" CREATED="1233138780735" ID="Freemind_Link_1831007531" MODIFIED="1255421791485" TEXT="HorizontalDiffusion">
 <font NAME="Arial" SIZE="14"/>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233141816416" ID="Freemind_Link_298070539" MODIFIED="1258123566335" TEXT="SchemeName">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233141816416" ID="Freemind_Link_298070539" MODIFIED="1279016430727" TEXT="SchemeName">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]commonly used name of the horizontal diffusion scheme.[/definition]</text>
+<text>[definition]Commonly used name of the horizontal diffusion scheme.[/definition]</text>
 </hook>
 <node CREATED="1233671047851" ID="Freemind_Link_108363767" MODIFIED="1256741193836" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
@@ -629,64 +617,63 @@
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1243601885374" ID="Freemind_Link_1334292817" MODIFIED="1256925076108" TEXT="Tracers">
 <font NAME="SansSerif" SIZE="14"/>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233141816416" ID="Freemind_Link_1694965924" MODIFIED="1272297803686" TEXT="SchemeName">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233141816416" ID="Freemind_Link_1694965924" MODIFIED="1279017252365" TEXT="SchemeName">
 <edge WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Commonly used name for tracers advection scheme.[/definition]&#xa;Short Name&#x9;Long Name&#x9;&#x9;Description&#xa;Heun&#x9;&#x9;Heun&#x9;&#x9;&#x9;Modified Euler (predictor-corrector) method with 4th order spatial differencing in the horizontal and 2nd order spatial differencing in the vertical&#xa;RoeTVDVanLeer&#x9;Roe and Van Leer&#x9;Flux corrected transport scheme comprised of the first order Roe Scheme and the Van Leer flux limiting scheme&#xa;RoeTVDSuperbee&#x9;Roe and Superbee&#x9;Flux corrected transport scheme comprised of the first order Roe Scheme and the Superbee flux limiting scheme&#xa;Linear&#x9;&#x9;Linear&#x9;&#x9;&#x9;1-dimensional, conservative scheme extended to multi-dimensions by operator splitting&#xa;Quadratic&#x9;Quadritic&#x9;&#x9;1-dimensional, conservative scheme extended to multi-dimensions by operator splitting&#xa;Quartic&#x9;&#x9;Quartic&#x9;&#x9;&#x9;1-dimensional, conservative scheme extended to multi-dimensions by operator splitting&#xa;Prather&#x9;&#x9;Prather&#x9;&#x9;&#x9;1-dimensional, conservative scheme extended to multi-dimensions by operator splitting and conserves the 1st and 2nd-order moments.&#xa;UTOPIA&#x9;&#x9;UTOPIA&#x9;&#x9;&#x9;Fully multidimensional, quasi-3rd-order, finite volume scheme&#xa;CubicSemiLag&#x9;Cubic Semi-Lagrangian&#x9;Semi-Lagrangian scheme with cubic interpolation&#xa;QuinticSemiLag&#x9;Quintic Semi-Lagrangian&#x9;Semi-Lagrangian scheme with quintic interpolation </text>
+<text>[definition]Commonly used name for tracers advection scheme.[/definition]</text>
 </hook>
-<node CREATED="1244108953139" ID="Freemind_Link_1306986510" MODIFIED="1272297474735" STYLE="fork" TEXT="Heun">
+<node CREATED="1244108953139" ID="Freemind_Link_1306986510" MODIFIED="1279016512386" STYLE="fork" TEXT="Heun">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Modified Euler (predictor-corrector) method with 4th order spatial differencing in the horizontal and 2nd order spatial differencing in the vertical.[/definition]</text>
+</hook>
 </node>
-<node CREATED="1233671047851" ID="Freemind_Link_1638866016" MODIFIED="1272297898302" STYLE="fork" TEXT="Roe and VanLeer">
+<node CREATED="1233671047851" ID="Freemind_Link_1638866016" MODIFIED="1279017273723" STYLE="fork" TEXT="Roe and VanLeer">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Flux corrected transport scheme comprised of the first order Roe Scheme and the Van Leer flux limiting scheme.[/definition]</text>
+</hook>
 </node>
-<node CREATED="1244108953139" ID="Freemind_Link_892715634" MODIFIED="1272297904346" STYLE="fork" TEXT="Roe and Superbee">
+<node CREATED="1244108953139" ID="Freemind_Link_892715634" MODIFIED="1279016640517" STYLE="fork" TEXT="Roe and Superbee">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Flux corrected transport scheme comprised of the first order Roe Scheme and the Superbee flux limiting scheme.[/definition]</text>
+</hook>
 </node>
-<node CREATED="1244108953139" ID="Freemind_Link_965500536" MODIFIED="1278492680122" STYLE="fork" TEXT="linear">
+<node CREATED="1244108953139" ID="Freemind_Link_697359389" MODIFIED="1279017132789" STYLE="fork" TEXT="Prather">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]1-dimensional, conservative scheme extended to multi-dimensions by operator splitting and conserves the 1st and 2nd-order moments.[/definition]</text>
+</hook>
 </node>
-<node CREATED="1244108953139" ID="Freemind_Link_339199221" MODIFIED="1278492687134" STYLE="fork" TEXT="quadratic">
+<node CREATED="1244108953139" ID="Freemind_Link_1442788114" MODIFIED="1279017177162" STYLE="fork" TEXT="UTOPIA">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
-</node>
-<node CREATED="1244108953139" ID="Freemind_Link_790952689" MODIFIED="1278492692298" STYLE="fork" TEXT="quartic">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node CREATED="1244108953139" ID="Freemind_Link_697359389" MODIFIED="1244120365326" STYLE="fork" TEXT="Prather">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node CREATED="1244108953139" ID="Freemind_Link_1442788114" MODIFIED="1272297544026" STYLE="fork" TEXT="UTOPIA">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node CREATED="1244108953139" ID="Freemind_Link_150341144" MODIFIED="1278492705706" STYLE="fork" TEXT="cubic semi-Lagrangian">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node CREATED="1244108953139" ID="Freemind_Link_20108004" MODIFIED="1278492713950" STYLE="fork" TEXT="quintic semi-Lagrangian">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Fully multidimensional, quasi-3rd-order, finite volume scheme.[/definition]</text>
+</hook>
 </node>
 <node CREATED="1244108953139" ID="Freemind_Link_367686526" MODIFIED="1278403950721" STYLE="fork" TEXT="other">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233141816416" ID="Freemind_Link_227836179" MODIFIED="1258363874514" TEXT="SchemeType">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233141816416" ID="Freemind_Link_227836179" MODIFIED="1279179992928" TEXT="SchemeCharacteristics">
 <edge WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Type of numerical scheme used for advection of tracers.[/definition]</text>
+<text>[definition]Characteristics of the numerical scheme used for advection of tracers.[/definition]</text>
 </hook>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233141348258" ID="Freemind_Link_188895135" MODIFIED="1272298091202" STYLE="fork" TEXT="Eulerian">
+<font NAME="Arial" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233141348258" ID="Freemind_Link_284829931" MODIFIED="1278492756429" STYLE="fork" TEXT="modifed Euler">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
@@ -698,6 +685,20 @@
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
+<node CREATED="1244108953139" ID="Freemind_Link_150341144" MODIFIED="1279180398787" STYLE="fork" TEXT="cubic semi-Lagrangian">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Semi-Lagrangian scheme with cubic interpolation.[/definition]</text>
+</hook>
+</node>
+<node CREATED="1244108953139" ID="Freemind_Link_20108004" MODIFIED="1279180398792" STYLE="fork" TEXT="quintic semi-Lagrangian">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Semi-Lagrangian scheme with quintic interpolation.[/definition]</text>
+</hook>
+</node>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233141426259" ID="Freemind_Link_1948085898" MODIFIED="1278492732062" STYLE="fork" TEXT="mass-conserving">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
@@ -706,13 +707,30 @@
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233141348258" ID="Freemind_Link_284829931" MODIFIED="1278492756429" STYLE="fork" TEXT="modifed Euler">
-<font NAME="Arial" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233141348258" ID="Freemind_Link_363756754" MODIFIED="1278492764892" STYLE="fork" TEXT="flux-corrected">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1244108953139" ID="Freemind_Link_965500536" MODIFIED="1279179829565" STYLE="fork" TEXT="linear">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]1-dimensional, conservative scheme extended to multi-dimensions by operator splitting.[/definition]</text>
+</hook>
+</node>
+<node CREATED="1244108953139" ID="Freemind_Link_339199221" MODIFIED="1279179829583" STYLE="fork" TEXT="quadratic">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]1-dimensional, conservative scheme extended to multi-dimensions by operator splitting.[/definition]</text>
+</hook>
+</node>
+<node CREATED="1244108953139" ID="Freemind_Link_790952689" MODIFIED="1279179829575" STYLE="fork" TEXT="quartic">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]1-dimensional, conservative scheme extended to multi-dimensions by operator splitting.[/definition]</text>
+</hook>
 </node>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233270123274" ID="Freemind_Link_38898062" MODIFIED="1278492769315" STYLE="fork" TEXT="other">
 <font NAME="Arial" SIZE="14"/>
@@ -734,13 +752,13 @@
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Method used to ensure conservation in tracers advection scheme.[/definition]</text>
 </hook>
-<node COLOR="#000000" CREATED="1244110196087" ID="Freemind_Link_1809356501" MODIFIED="1244120183664" STYLE="fork" TEXT="conservation fixer">
+<node COLOR="#000000" CREATED="1244110196087" ID="Freemind_Link_1809356501" MODIFIED="1279025421229" STYLE="fork" TEXT="conservation fixer">
 <font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
+<icon BUILTIN="button_cancel"/>
 </node>
-<node COLOR="#000000" CREATED="1244110196087" ID="Freemind_Link_636119884" MODIFIED="1253105679911" STYLE="fork" TEXT="other">
+<node COLOR="#000000" CREATED="1244110196087" ID="Freemind_Link_636119884" MODIFIED="1279025421238" STYLE="fork" TEXT="other">
 <font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
+<icon BUILTIN="button_cancel"/>
 </node>
 </node>
 </node>
@@ -760,18 +778,6 @@
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1233671047851" ID="Freemind_Link_691699069" MODIFIED="1272298248682" STYLE="fork" TEXT="Arakawa - C grid">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node CREATED="1233671047851" ID="Freemind_Link_1944219179" MODIFIED="1272298255329" STYLE="fork" TEXT="Arakawa - B grid">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node CREATED="1233671047851" ID="Freemind_Link_1270665826" MODIFIED="1272298270041" STYLE="fork" TEXT="Arakawa - E grid">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
 <node CREATED="1233671047851" ID="Freemind_Link_1008650899" MODIFIED="1278403717330" STYLE="fork" TEXT="SUPG (Streamline Upwind Petrov-Galerkin)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
@@ -781,11 +787,11 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233141816416" ID="Freemind_Link_1253992879" MODIFIED="1258363868851" TEXT="SchemeType">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233141816416" ID="Freemind_Link_1253992879" MODIFIED="1279190481383" TEXT="SchemeCharacteristics">
 <edge WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Type of numerical scheme used for advection of momentum.[/definition]</text>
+<text>[definition]Characteristics of the numerical scheme used for advection of momentum.[/definition]</text>
 </hook>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233141426259" ID="Freemind_Link_1929117453" MODIFIED="1278403683236" STYLE="fork" TEXT="2nd order">
 <font NAME="Arial" SIZE="14"/>
@@ -799,7 +805,7 @@
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1243601941117" ID="Freemind_Link_473169860" MODIFIED="1278492799267" STYLE="fork" TEXT="staggered grid">
+<node CREATED="1233671047851" ID="Freemind_Link_1382104368" MODIFIED="1279180489561" STYLE="fork" TEXT="staggered grid">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
@@ -810,6 +816,36 @@
 <node CREATED="1243601941117" ID="Freemind_Link_1378542658" MODIFIED="1278403577842" STYLE="fork" TEXT="other">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1253713965343" ID="Freemind_Link_959695872" MODIFIED="1279180619624" TEXT="if SchemeCharacteristics has &quot;staggered grid&quot;">
+<font NAME="SansSerif" SIZE="14"/>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233141816416" ID="Freemind_Link_1787636190" MODIFIED="1279180662313" TEXT="StaggeringType">
+<edge WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Type of staggered grid.[/definition]</text>
+</hook>
+<node CREATED="1233671047851" ID="Freemind_Link_1409511867" MODIFIED="1279180568647" STYLE="fork" TEXT="Arakawa B-grid">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1233671047851" ID="Freemind_Link_1797603410" MODIFIED="1279180568684" STYLE="fork" TEXT="Arakawa C-grid">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1233671047851" ID="Freemind_Link_1564473676" MODIFIED="1279180568675" STYLE="fork" TEXT="Arakawa D-grid">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1233671047851" ID="Freemind_Link_1523233190" MODIFIED="1279180568666" STYLE="fork" TEXT="Arakawa E-grid">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1243601941117" ID="Freemind_Link_1730492309" MODIFIED="1279180568657" STYLE="fork" TEXT="other">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
 </node>
 </node>
 <node COLOR="#996600" CREATED="1244109921507" ID="Freemind_Link_1545836387" MODIFIED="1258363209697" STYLE="bubble" TEXT="ConservedQuantities">
@@ -827,13 +863,13 @@
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Method used to ensure conservation in momentum advection scheme.[/definition]</text>
 </hook>
-<node COLOR="#000000" CREATED="1244110196087" ID="Freemind_Link_920260848" MODIFIED="1244120183664" STYLE="fork" TEXT="conservation fixer">
+<node COLOR="#000000" CREATED="1244110196087" ID="Freemind_Link_920260848" MODIFIED="1279025314947" STYLE="fork" TEXT="conservation fixer">
 <font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
+<icon BUILTIN="button_cancel"/>
 </node>
-<node COLOR="#000000" CREATED="1244110196087" ID="Freemind_Link_1062830759" MODIFIED="1253105679911" STYLE="fork" TEXT="other">
+<node COLOR="#000000" CREATED="1244110196087" ID="Freemind_Link_1062830759" MODIFIED="1279025314960" STYLE="fork" TEXT="other">
 <font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
+<icon BUILTIN="button_cancel"/>
 </node>
 </node>
 </node>
@@ -952,10 +988,10 @@
 </node>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#990099" CREATED="1233138867142" ID="Freemind_Link_1498154611" MODIFIED="1254305372314" TEXT="Longwave">
 <font NAME="SansSerif" SIZE="14"/>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233141816416" ID="Freemind_Link_1079260256" MODIFIED="1258368037806" TEXT="SchemeType">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233141816416" ID="Freemind_Link_1079260256" MODIFIED="1279023558817" TEXT="SchemeType">
 <font NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Type of scheme used for longwave radiation parametrisation.[/definition]</text>
+<text>[definition]Type of scheme used for longwave radiation parametrization.[/definition]</text>
 </hook>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233141824057" ID="Freemind_Link_1844753971" MODIFIED="1278492824866" STYLE="fork" TEXT="wide-band model">
 <font NAME="Arial" SIZE="14"/>
@@ -978,14 +1014,17 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233141795576" ID="Freemind_Link_917090139" MODIFIED="1258708343660" TEXT="SchemeMethod">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233141795576" ID="Freemind_Link_917090139" MODIFIED="1279023522826" TEXT="SchemeMethod">
 <font NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Method for the radiative transfert calculations used in the longwave scheme.[/definition]&#xa;[info]&quot;Two-stream&quot; qualifies the discrete-ordinate scattering algorithm used to model the scattering of thermal infrared by clouds.[/info]</text>
+<text>[definition]Method for the radiative transfert calculations used in the longwave scheme.[/definition]</text>
 </hook>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233141594990" ID="Freemind_Link_1524094671" MODIFIED="1278492844663" STYLE="fork" TEXT="two-stream">
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233141594990" ID="Freemind_Link_1524094671" MODIFIED="1279023516311" STYLE="fork" TEXT="two-stream">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Discrete-ordinate scattering algorithm used to model the scattering of thermal infrared by clouds.[/definition]</text>
+</hook>
 </node>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233141619982" ID="Freemind_Link_1984874114" MODIFIED="1278492848539" STYLE="fork" TEXT="layer interaction">
 <font NAME="Arial" SIZE="14"/>
@@ -996,10 +1035,10 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233141726024" ID="Freemind_Link_1559169206" MODIFIED="1258369311967" TEXT="NumberOfSpectralIntervals">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233141726024" ID="Freemind_Link_1559169206" MODIFIED="1279023536707" TEXT="NumberOfSpectralIntervals">
 <font NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Number of spectral interval of the longwave radiation scheme.[/definition]</text>
+<text>[definition]Number of spectral intervals of the longwave radiation scheme.[/definition]</text>
 </hook>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233141751017" ID="Freemind_Link_172550769" MODIFIED="1244622070536" STYLE="fork" TEXT="">
 <font NAME="Arial" SIZE="14"/>
@@ -1027,10 +1066,10 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233141726024" ID="Freemind_Link_759096318" MODIFIED="1258452007395" TEXT="NumberOfSpectralIntervals">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233141726024" ID="Freemind_Link_759096318" MODIFIED="1279023578420" TEXT="NumberOfSpectralIntervals">
 <font NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Number of spectral intervals of the short radiation scheme.[/definition]</text>
+<text>[definition]Number of spectral intervals of the shortwave radiation scheme.[/definition]</text>
 </hook>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233141751017" ID="Freemind_Link_696596729" MODIFIED="1244622070552" STYLE="fork" TEXT="">
 <font NAME="Arial" SIZE="14"/>
@@ -1123,10 +1162,10 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1242400331739" ID="Freemind_Link_1728849002" MODIFIED="1258708890034" STYLE="bubble" TEXT="CounterGradient">
+<node COLOR="#996600" CREATED="1242400331739" ID="Freemind_Link_1728849002" MODIFIED="1279023687753" STYLE="bubble" TEXT="CounterGradient">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Application of a counter-gradient term for calculation of the vertical turbulent heat fluxes in case of slighlty stable layer.[/definition]&#xa;[info]Counter-gradient heat flux for parametrization of the nonlocal vertical diffusion.[/info]</text>
+<text>[definition]Application of a counter-gradient term for calculation of the vertical turbulent heat fluxes in case of slighlty stable layer; &#xa;counter-gradient heat flux for parametrization of the nonlocal vertical diffusion.[/definition]</text>
 </hook>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233270123274" ID="Freemind_Link_1062082467" MODIFIED="1253106357350" STYLE="fork" TEXT="yes">
 <font NAME="Arial" SIZE="14"/>
@@ -1179,13 +1218,19 @@
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Method for mass flux calculation in deep convection.[/definition]</text>
 </hook>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233142114760" ID="Freemind_Link_1964973647" MODIFIED="1278494642844" STYLE="fork" TEXT="mass flux determined by CAPE">
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233142114760" ID="Freemind_Link_1964973647" MODIFIED="1279023829555" STYLE="fork" TEXT="CAPE">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Mass flux determined by CAPE.[/definition]</text>
+</hook>
 </node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233142114760" ID="Freemind_Link_1758968224" MODIFIED="1278494650916" STYLE="fork" TEXT="bulk mass flux scheme">
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233142114760" ID="Freemind_Link_1758968224" MODIFIED="1279023887184" STYLE="fork" TEXT="bulk">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]A bulk mass flux scheme is used.[/definition]</text>
+</hook>
 </node>
 </node>
 </node>
@@ -1194,7 +1239,7 @@
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Physical processes taken into account in the parametrization of the deep convection.[/definition]</text>
 </hook>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233142114760" ID="Freemind_Link_1868337790" MODIFIED="1253106426045" STYLE="fork" TEXT="vertical momentum transport">
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233142114760" ID="Freemind_Link_1868337790" MODIFIED="1279023775344" STYLE="fork" TEXT="vertical momentum transport">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
@@ -1202,13 +1247,19 @@
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233142114760" ID="Freemind_Link_1153128642" MODIFIED="1253106434016" STYLE="fork" TEXT="penetrative convection effects included">
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233142114760" ID="Freemind_Link_1153128642" MODIFIED="1279024007961" STYLE="fork" TEXT="penetrative convection">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Effects of penetrative convection taken into account.[/definition]</text>
+</hook>
 </node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233142114760" ID="Freemind_Link_1504290494" MODIFIED="1253106439422" STYLE="fork" TEXT="representation of updrafts and downdrafts">
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233142114760" ID="Freemind_Link_1504290494" MODIFIED="1279024049039" STYLE="fork" TEXT="updrafts and downdrafts">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Representation of updrafts and downdrafts.[/definition]</text>
+</hook>
 </node>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233142114760" ID="Freemind_Link_993117098" MODIFIED="1254475083380" STYLE="fork" TEXT="radiative effects of anvils">
 <font NAME="Arial" SIZE="14"/>
@@ -1239,7 +1290,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node COLOR="#000000" CREATED="1242400493277" ID="Freemind_Link_1321538724" MODIFIED="1253106542429" STYLE="fork" TEXT="included in Boundary Layer Turbulence">
+<node COLOR="#000000" CREATED="1242400493277" ID="Freemind_Link_1321538724" MODIFIED="1279024134973" STYLE="fork" TEXT="included in boundary layer turbulence">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
@@ -1282,20 +1333,20 @@
 </node>
 <node COLOR="#990099" CREATED="1233139089011" ID="Freemind_Link_1449818111" MODIFIED="1264600154996" TEXT="OtherConvection">
 <font NAME="SansSerif" SIZE="14"/>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233141816416" ID="Freemind_Link_356773749" MODIFIED="1258452335222" TEXT="SchemeName">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233141816416" ID="Freemind_Link_356773749" MODIFIED="1279024233233" TEXT="SchemeName">
 <font NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Commonly used name for mid-level convection scheme.[/definition]</text>
+<text>[definition]Commonly used scheme name for other type convection.[/definition]</text>
 </hook>
 <node CREATED="1233671047851" ID="Freemind_Link_289741146" MODIFIED="1256741438692" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="pencil"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233142100081" ID="Freemind_Link_1281582482" MODIFIED="1258452342960" TEXT="SchemeType">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233142100081" ID="Freemind_Link_1281582482" MODIFIED="1279024246729" TEXT="SchemeType">
 <font NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Type of scheme used for parametrization of mid-level convection.[/definition]</text>
+<text>[definition]Type of scheme used for parametrization of other type of convection.[/definition]</text>
 </hook>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233142117128" ID="Freemind_Link_1594072661" MODIFIED="1258452349583" STYLE="fork" TEXT="mass-flux">
 <font NAME="Arial" SIZE="14"/>
@@ -1319,10 +1370,10 @@
 <icon BUILTIN="pencil"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1233142661079" ID="Freemind_Link_1079972455" MODIFIED="1258551455370" TEXT="PrecipitatingHydrometeors">
+<node COLOR="#996600" CREATED="1233142661079" ID="Freemind_Link_1079972455" MODIFIED="1279024275044" TEXT="PrecipitatingHydrometeors">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Precipitating hydrometeors in the large scale precipitation scheme.[/definition]</text>
+<text>[definition]Precipitating hydrometeors taken into account in the large scale precipitation scheme.[/definition]</text>
 </hook>
 <node CREATED="1233142793015" ID="Freemind_Link_767459701" MODIFIED="1253107021863" STYLE="fork" TEXT="liquid rain">
 <font NAME="Arial" SIZE="14"/>
@@ -1362,10 +1413,10 @@
 <icon BUILTIN="pencil"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233142100081" ID="Freemind_Link_495080761" MODIFIED="1258551651571" TEXT="Processes">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233142100081" ID="Freemind_Link_495080761" MODIFIED="1279024314644" TEXT="Processes">
 <font NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Description of the microphysics processes that are taken into account in the microphysics scheme.[/definition]&#xa;[info]Details for their relathionships can be provided in free-text box below.[/info]</text>
+<text>[definition]Microphysical processes taken into account in the microphysics scheme.[/definition]</text>
 </hook>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233142114760" ID="Freemind_Link_793100447" MODIFIED="1253107102765" STYLE="fork" TEXT="mixed phase">
 <font NAME="Arial" SIZE="14"/>
@@ -1455,7 +1506,7 @@
 </node>
 <node COLOR="#990099" CREATED="1242399316765" ID="Freemind_Link_398816266" MODIFIED="1255339378132" TEXT="SubGridScaleWaterDistribution">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1242399294597" ID="Freemind_Link_774479283" MODIFIED="1259589005645" TEXT="Type">
+<node COLOR="#996600" CREATED="1242399294597" ID="Freemind_Link_774479283" MODIFIED="1279190325793" TEXT="Type">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Approach used for cloud water content and fractional cloud cover.[/definition]&#xa;[info]A famous prognostic scheme for stratiform and convective clouds is Tidke 1993.[/info]</text>
@@ -1489,10 +1540,10 @@
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1242399395966" ID="Freemind_Link_97333883" MODIFIED="1259589209463" STYLE="bubble" TEXT="CouplingWithConvection">
+<node COLOR="#996600" CREATED="1242399395966" ID="Freemind_Link_97333883" MODIFIED="1279024611869" STYLE="bubble" TEXT="CouplingWithConvection">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Cloud formation coupled with convection. [/definition][info] (large-scale ascents, boundary layer turbulence, convective updrafts, etc.).[/info]</text>
+<text>[definition]Type(s) of convection the formation of clouds is coupled with.[/definition]&#xa;[info] (large-scale ascents, boundary layer turbulence, convective updrafts, etc.).[/info]</text>
 </hook>
 <node CREATED="1242399480978" ID="Freemind_Link_482211163" MODIFIED="1255524736019" STYLE="fork" TEXT="coupled with deep">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1536,30 +1587,30 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233142100081" ID="Freemind_Link_379457172" MODIFIED="1259691503877" TEXT="NumberOfGridpoints">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233142100081" ID="Freemind_Link_379457172" MODIFIED="1279024635466" TEXT="NumberOfGridpoints">
 <font NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Number of gridpoints used. [/definition]</text>
+<text>[definition]Number of gridpoints used by COSP.[/definition]</text>
 </hook>
 <node CREATED="1233246454929" ID="Freemind_Link_317933300" MODIFIED="1244732879929" STYLE="fork" TEXT="">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233142100081" ID="Freemind_Link_359074274" MODIFIED="1259691509298" TEXT="NumberOfColumns">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233142100081" ID="Freemind_Link_359074274" MODIFIED="1279024644955" TEXT="NumberOfColumns">
 <font NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Number of subcolumns used. [/definition]</text>
+<text>[definition]Number of subcolumns used by COSP.[/definition]</text>
 </hook>
 <node CREATED="1233246454929" ID="Freemind_Link_1808400904" MODIFIED="1244732879929" STYLE="fork" TEXT="">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233142100081" ID="Freemind_Link_1693201935" MODIFIED="1259691514547" TEXT="NumberOfLevels">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233142100081" ID="Freemind_Link_1693201935" MODIFIED="1279024651505" TEXT="NumberOfLevels">
 <font NAME="Arial" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Number of model levels used. [/definition]</text>
+<text>[definition]Number of model levels used by COSP.[/definition]</text>
 </hook>
 <node CREATED="1233246454929" ID="Freemind_Link_1101388700" MODIFIED="1244732879929" STYLE="fork" TEXT="">
 <font NAME="Arial" SIZE="14"/>
@@ -1579,10 +1630,10 @@
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1242399294597" ID="Freemind_Link_883151249" MODIFIED="1259589385997" TEXT="RadarType">
+<node COLOR="#996600" CREATED="1242399294597" ID="Freemind_Link_883151249" MODIFIED="1279024760895" TEXT="RadarType">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Type of radar - surface or spaceborne?[/definition]&#xa;</text>
+<text>[definition]Type of radar.[/definition]&#xa;</text>
 </hook>
 <node CREATED="1242399773976" ID="Freemind_Link_417449739" MODIFIED="1259577121843" STYLE="fork" TEXT="surface">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1593,10 +1644,10 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1242399940288" ID="Freemind_Link_1078051760" MODIFIED="1259691527433" STYLE="bubble" TEXT="UseGasAbsorption">
+<node COLOR="#996600" CREATED="1242399940288" ID="Freemind_Link_1078051760" MODIFIED="1279024723448" STYLE="bubble" TEXT="UseGasAbsorption">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Include gaseous absorption?[/definition]</text>
+<text>[definition]Does the radar simulator include gaseous absorption?[/definition]</text>
 </hook>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233142114760" ID="Freemind_Link_802627241" MODIFIED="1258453449034" STYLE="fork" TEXT="yes">
 <font NAME="Arial" SIZE="14"/>
@@ -1663,28 +1714,34 @@
 </node>
 <node COLOR="#990099" CREATED="1242399316765" HGAP="24" ID="Freemind_Link_1000667363" MODIFIED="1259691622850" TEXT="ISSCP.Attributes" VSHIFT="12">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1242399294597" ID="Freemind_Link_135780205" MODIFIED="1259691635104" TEXT="TopHeight">
+<node COLOR="#996600" CREATED="1242399294597" ID="Freemind_Link_135780205" MODIFIED="1279024812025" TEXT="TopHeight">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Cloud top height management. e.g. adjusted using both a computed infrared brightness temperature and visible optical depth to adjust cloud top pressure. [/definition]&#xa;</text>
+<text>[definition]Cloud top height management.[/definition]&#xa;</text>
 </hook>
 <node CREATED="1242399773976" ID="Freemind_Link_1990654177" MODIFIED="1259749008476" STYLE="fork" TEXT="no adjustment">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1242399782236" ID="Freemind_Link_1893288052" MODIFIED="1259748889122" STYLE="fork" TEXT="IR brightness">
+<node CREATED="1242399782236" ID="Freemind_Link_1893288052" MODIFIED="1279190358667" STYLE="fork" TEXT="IR brightness">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text> [definition]Cloud top pressure adjusted using only the computed infrared IR brightness temperature.[/definition]</text>
+</hook>
 </node>
-<node CREATED="1242399782236" ID="Freemind_Link_1245760774" MODIFIED="1259748901446" STYLE="fork" TEXT="IR brightness and visible optical depth">
+<node CREATED="1242399782236" ID="Freemind_Link_1245760774" MODIFIED="1279190365824" STYLE="fork" TEXT="IR brightness and visible optical depth">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text> [definition]Cloud top pressure adjusted using both a computed infrared IR brightness temperature and visible optical depth.[/definition]</text>
+</hook>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1242399294597" ID="Freemind_Link_279872687" MODIFIED="1259691641398" TEXT="TopHeightDirection">
+<node COLOR="#996600" CREATED="1242399294597" ID="Freemind_Link_279872687" MODIFIED="1279024984874" TEXT="TopHeightDirection">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]&#xa;Direction for finding the radiance determined cloud-top pressure.  &#xa;Atmosphere pressure level with interpolated temperature equal to the radiance determined cloud-top pressure.[/definition]&#xa;</text>
+<text>[definition]Direction for finding the radiance determined cloud-top pressure; atmosphere pressure level with interpolated temperature equal to the radiance determined cloud-top pressure.[/definition]&#xa;</text>
 </hook>
 <node CREATED="1242399773976" ID="Freemind_Link_1315057180" MODIFIED="1269600402755" STYLE="fork" TEXT="lowest altitude level">
 <font NAME="SansSerif" SIZE="14"/>
