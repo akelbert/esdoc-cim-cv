@@ -4,20 +4,10 @@
 <font ITALIC="true" NAME="SansSerif" SIZE="16"/>
 <node COLOR="#000000" CREATED="1233751003143" ID="Freemind_Link_305402916" MODIFIED="1269353674280" POSITION="right" STYLE="bubble" TEXT="ModelComponent.Grid">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#000000" CREATED="1256810468669" ID="Freemind_Link_957671028" MODIFIED="1269354038228" TEXT="Horizontal.Grid">
+<node COLOR="#000000" CREATED="1256810468669" ID="Freemind_Link_957671028" MODIFIED="1279274757178" TEXT="Horizontal.Grid">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1268737370155" ID="_" MODIFIED="1274792549413" TEXT="Horizontal_CoordinateSystem">
 <font NAME="SansSerif" SIZE="14"/>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1832686028" MODIFIED="1274792644697" TEXT="GridMnemonic">
-<font NAME="SansSerif" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Grid mnemonic commonly used to refer to the grid (eg. T42L26, ORCA1, OM3). Please, provide the same mnemonic as the one used for CMOR &quot;source&quot; attribute.[/definition]</text>
-</hook>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1407036940" MODIFIED="1267723383687" STYLE="fork" TEXT="">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="pencil"/>
-</node>
-</node>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_874351839" MODIFIED="1279011928241" STYLE="bubble" TEXT="GridDiscretization">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
@@ -576,7 +566,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1233750994232" ID="Freemind_Link_1172504540" MODIFIED="1279190891217" STYLE="bubble" TEXT="VerticalGrid_">
+<node COLOR="#000000" CREATED="1233750994232" ID="Freemind_Link_1172504540" MODIFIED="1279274750931" STYLE="bubble" TEXT="VerticalGrid_">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1268737370155" ID="Freemind_Link_954160404" MODIFIED="1268750239764" TEXT="VerticalCoordinateSystem_">
 <font NAME="SansSerif" SIZE="14"/>
