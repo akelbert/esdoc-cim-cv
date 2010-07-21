@@ -107,7 +107,7 @@ lower priority templates -->
           </xsl:for-each>
           </xsl:variable>
           <xsl:if test="$match=''">
-            <parametergroup name="General Attributes" rawName="" esgName="" componentView="False"/>
+            <parametergroup name="General Attributes" rawName="" esgName="" componentView="false"/>
           </xsl:if>
           <xsl:apply-templates/>
         </component>
