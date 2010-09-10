@@ -526,7 +526,7 @@
 </node>
 <node COLOR="#0033ff" CREATED="1257780702273" ID="Freemind_Link_95561302" MODIFIED="1265031824399" TEXT="if Method has &quot;prescribed (climatology)&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1244467041993" FOLDED="true" ID="Freemind_Link_785643854" MODIFIED="1279184161040" TEXT="ClimatologyType">
+<node COLOR="#996600" CREATED="1244467041993" ID="Freemind_Link_785643854" MODIFIED="1279184161040" TEXT="ClimatologyType">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Specify the climatology type for chemical emissions prescribed at the surface.[/definition]</text>
@@ -556,7 +556,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1243422324468" FOLDED="true" ID="Freemind_Link_92874310" MODIFIED="1279184170778" TEXT="SpeciesEmitted">
+<node COLOR="#996600" CREATED="1243422324468" ID="Freemind_Link_92874310" MODIFIED="1284132547519" TEXT="ClimEmittedSpecies">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]List of chemical species emitted at the surface and prescribed via a climatology.[/definition]</text>
@@ -569,7 +569,7 @@
 </node>
 <node COLOR="#0033ff" CREATED="1257780702273" ID="Freemind_Link_1750639460" MODIFIED="1265043327520" TEXT="if Method has &quot;prescribed (spatially uniform)&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1243422324468" FOLDED="true" ID="Freemind_Link_1775401126" MODIFIED="1279184179237" TEXT="SpeciesEmitted">
+<node COLOR="#996600" CREATED="1243422324468" ID="Freemind_Link_1775401126" MODIFIED="1284132560132" TEXT="UniformEmittedSpecies">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]List of chemical species emitted at the surface and prescribed as spatially uniform.[/definition]</text>
@@ -582,7 +582,7 @@
 </node>
 <node COLOR="#0033ff" CREATED="1257780702273" ID="Freemind_Link_59229838" MODIFIED="1265043360436" TEXT="if Method has &quot;interactive&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1243422324468" FOLDED="true" ID="Freemind_Link_1590099299" MODIFIED="1279184086336" TEXT="SpeciesEmitted">
+<node COLOR="#996600" CREATED="1243422324468" ID="Freemind_Link_1590099299" MODIFIED="1284132578655" TEXT="InteractivEmittedSpecies">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]List of chemical species emitted at the surface and specified via an interactive method.[/definition]</text>
@@ -595,7 +595,7 @@
 </node>
 <node COLOR="#0033ff" CREATED="1257780702273" ID="Freemind_Link_367598105" MODIFIED="1265031835404" TEXT="if Method has &quot;other&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1258103965122" FOLDED="true" ID="Freemind_Link_1120034120" MODIFIED="1279184096419" TEXT="MethodCharacteristics">
+<node COLOR="#996600" CREATED="1258103965122" ID="Freemind_Link_1120034120" MODIFIED="1279184096419" TEXT="MethodCharacteristics">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Characteristics of the method used for chemical emissions at the surface.[/definition]</text>
@@ -605,7 +605,7 @@
 <icon BUILTIN="pencil"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1243422324468" FOLDED="true" ID="Freemind_Link_1250937615" MODIFIED="1279184103936" TEXT="SpeciesEmitted">
+<node COLOR="#996600" CREATED="1243422324468" ID="Freemind_Link_1250937615" MODIFIED="1284132599446" TEXT="EmittedSpecies">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]List of chemical species emitted at the surface and specified via the method described above.[/definition]</text>
@@ -699,7 +699,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1243422324468" FOLDED="true" ID="Freemind_Link_1696981333" MODIFIED="1265043788012" TEXT="SpeciesEmitted">
+<node COLOR="#996600" CREATED="1243422324468" ID="Freemind_Link_1696981333" MODIFIED="1284132619643" TEXT="ClimEmittedSpecies">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]List of aerosol species emitted in the atmosphere and prescribed via a climatology.[/definition]</text>
@@ -712,7 +712,7 @@
 </node>
 <node COLOR="#0033ff" CREATED="1257780702273" ID="Freemind_Link_656515135" MODIFIED="1265043327520" TEXT="if Method has &quot;prescribed (spatially uniform)&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1243422324468" FOLDED="true" ID="Freemind_Link_145574185" MODIFIED="1279184227606" TEXT="SpeciesEmitted">
+<node COLOR="#996600" CREATED="1243422324468" ID="Freemind_Link_145574185" MODIFIED="1284132631661" TEXT="UniformEmittedSpecies">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]List of chemical species emitted in the atmosphere and prescribed as spatially uniform.[/definition]</text>
@@ -725,7 +725,7 @@
 </node>
 <node COLOR="#0033ff" CREATED="1257780702273" ID="Freemind_Link_287515875" MODIFIED="1265043360436" TEXT="if Method has &quot;interactive&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1243422324468" FOLDED="true" ID="Freemind_Link_1122292032" MODIFIED="1279184236107" TEXT="SpeciesEmitted">
+<node COLOR="#996600" CREATED="1243422324468" ID="Freemind_Link_1122292032" MODIFIED="1284132643889" TEXT="InteractivEmittedSpecies">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]List of chemical species emitted in the atmosphere and specified via an interactive method.[/definition]</text>
@@ -738,7 +738,7 @@
 </node>
 <node COLOR="#0033ff" CREATED="1257780702273" ID="Freemind_Link_160257054" MODIFIED="1264681166363" TEXT="if Method has &quot;other&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1258103965122" FOLDED="true" ID="Freemind_Link_1200913506" MODIFIED="1279184243751" TEXT="MethodCharacteristics">
+<node COLOR="#996600" CREATED="1258103965122" ID="Freemind_Link_1200913506" MODIFIED="1279184243751" TEXT="MethodCharacteristics">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Characteristics of the method used for chemical emissions in the atmosphere.[/definition]</text>
@@ -748,7 +748,7 @@
 <icon BUILTIN="pencil"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1243422324468" FOLDED="true" ID="Freemind_Link_1498402119" MODIFIED="1279184249636" TEXT="SpeciesEmitted">
+<node COLOR="#996600" CREATED="1243422324468" ID="Freemind_Link_1498402119" MODIFIED="1284132668909" TEXT="EmittedSpecies">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]List of chemical species emitted in the atmosphere and specified via the method described above.[/definition]</text>
