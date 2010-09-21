@@ -3,6 +3,8 @@ import glob
 from lxml import etree as ET
 
 realmNamesList=['Atmosphere','Ocean','LandIce','Aerosols','AtmosphericChemistry','OceanBioChemistry','LandSurface','SeaIce']
+ModelType="model"
+CMIP5RealmType=['atmos','ocean','land','landIce','seaIce','ocnBgchem','atmosChem','aerosol']
 XSLFILENAME="xml2ComponentList.xsl"
 
 finalResult=[]
@@ -18,6 +20,12 @@ for filename in fileNameList :
     listResult=str(result).split()
     finalResult.extend(listResult)
 
-print "model"
-for name in finalResult :
-    print name
+# we have a top level model type
+print ModelType
+# we have the realm component types
+for type in CMIP5RealmType :
+    print type
+# we have the Metafor CV component types for each mindmap
+for type in finalResult :
+    print type
+
