@@ -875,7 +875,7 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233138793223" ID="Freemind_Link_581230624" MODIFIED="1256685262003" TEXT="Atmos_Radiation">
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233138793223" FOLDED="true" ID="Freemind_Link_581230624" MODIFIED="1256685262003" TEXT="Atmos_Radiation">
 <font BOLD="true" NAME="Arial" SIZE="14"/>
 <node COLOR="#990099" CREATED="1254474733213" ID="Freemind_Link_339973238" MODIFIED="1256814425952" TEXT="AtmosRadiationAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1388,10 +1388,6 @@
 <icon BUILTIN="button_ok"/>
 </node>
 <node CREATED="1233142814153" ID="Freemind_Link_1215299515" MODIFIED="1253107034367" STYLE="fork" TEXT="graupel">
-<font NAME="Arial" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node CREATED="1233142973114" ID="Freemind_Link_1549395469" MODIFIED="1253107050684" STYLE="fork" TEXT="cats &amp; dogs">
 <font NAME="Arial" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
