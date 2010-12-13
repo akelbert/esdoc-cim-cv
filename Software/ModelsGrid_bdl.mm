@@ -2,9 +2,70 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#cc3300" CREATED="1267692092071" ID="Freemind_Link_1740199649" MODIFIED="1269354198721" TEXT="Description of the Grids used by the models">
 <font ITALIC="true" NAME="SansSerif" SIZE="16"/>
-<node COLOR="#000000" CREATED="1233751003143" ID="Freemind_Link_305402916" MODIFIED="1269353674280" POSITION="right" STYLE="bubble" TEXT="ModelComponent.Grid">
+<node COLOR="#000000" CREATED="1242815104070" ID="Freemind_Link_72730991" MODIFIED="1256925260893" POSITION="left" STYLE="bubble" TEXT="list of scientific contributors">
+<font NAME="SansSerif" SIZE="15"/>
+<node CREATED="1236851769006" ID="Freemind_Link_1607198855" MODIFIED="1278926978539" STYLE="fork" TEXT="Name (Institution)">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node CREATED="1233226561929" ID="Freemind_Link_172256697" MODIFIED="1278926764485" STYLE="fork" TEXT="Balaji (GFDL)">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node CREATED="1233226561929" ID="Freemind_Link_1675918738" MODIFIED="1278926956145" STYLE="fork" TEXT="Phil Bentley (MetOffice)">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node CREATED="1233226561929" ID="Freemind_Link_1013141211" MODIFIED="1278926949071" STYLE="fork" TEXT="Frank Toussaint (DKRZ)">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node CREATED="1233226561929" ID="Freemind_Link_1718306830" MODIFIED="1278926796215" STYLE="fork" TEXT="Bryan Lawrence (BADC/NCAS)">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node CREATED="1233226561929" ID="Freemind_Link_42872900" MODIFIED="1278929061880" STYLE="fork" TEXT="Eric Guilyardi (IPSL/Univ. Reading)">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#000000" CREATED="1242815104070" ID="Freemind_Link_1679788654" MODIFIED="1278927013529" POSITION="left" STYLE="bubble" TEXT="related tickets">
+<font NAME="SansSerif" SIZE="15"/>
+<node CREATED="1236851769006" ID="Freemind_Link_761395005" MODIFIED="1278928759026" STYLE="fork" TEXT="Title: #Number">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node CREATED="1233226561929" ID="Freemind_Link_1086645535" LINK="http://metaforclimate.eu/trac/ticket/611" MODIFIED="1278928903501" STYLE="fork" TEXT="Space config, mind maps and the gridPackage/gridSpec: #611">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node CREATED="1233226561929" ID="Freemind_Link_1028694802" LINK="http://metaforclimate.eu/trac/ticket/636" MODIFIED="1278928915092" STYLE="fork" TEXT="Review mind maps to make sure all appropriate info abot grids is there: #636">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node CREATED="1233226561929" ID="Freemind_Link_1309854612" LINK="http://metaforclimate.eu/trac/ticket/657" MODIFIED="1278928874485" STYLE="fork" TEXT="How does gridSpec fit into the CIM: #657">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node CREATED="1233226561929" ID="Freemind_Link_1971916386" LINK="http://metaforclimate.eu/trac/ticket/635" MODIFIED="1278928895717" STYLE="fork" TEXT="Look at grid into CMOR: #635">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node CREATED="1233226561929" ID="Freemind_Link_1044420067" LINK="http://metaforclimate.eu/trac/ticket/277" MODIFIED="1278928886045" STYLE="fork" TEXT="Proposed updates to the CIM Grid logical data model: #277">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node CREATED="1237479815816" ID="Freemind_Link_1979527999" MODIFIED="1278927000198" POSITION="left" STYLE="bubble" TEXT="useful links/docs">
+<font NAME="SansSerif" SIZE="14"/>
+<node CREATED="1233585362916" ID="Freemind_Link_531989929" LINK="http://www-pcmdi.llnl.gov/ipcc/model_documentation/ipcc_model_documentation.php" MODIFIED="1233586713179" STYLE="fork" TEXT="AR4 questionnaire">
+<font NAME="Arial" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#000000" CREATED="1233751003143" ID="Freemind_Link_305402916" MODIFIED="1292229968597" POSITION="right" STYLE="bubble" TEXT="ModelComponent.Grid">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#000000" CREATED="1256810468669" ID="Freemind_Link_957671028" MODIFIED="1279274757178" TEXT="Horizontal.Grid">
+<node COLOR="#990099" CREATED="1268737370155" ID="Freemind_Link_1353417581" MODIFIED="1292230164478" TEXT="ModelComponentGridAttributes_">
+<font NAME="SansSerif" SIZE="14"/>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_391021576" MODIFIED="1292231265074" TEXT="Mnemonic">
+<font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]The grid mnemonic (e.g. : N96L38, T42L26, ORCA1L42). May be different (shorter) than the grid short name.[/definition]</text>
+</hook>
+<node COLOR="#000000" CREATED="1233270123274" ID="Freemind_Link_393529224" MODIFIED="1268731110821" STYLE="fork" TEXT="">
+<font NAME="Arial" SIZE="15"/>
+<icon BUILTIN="pencil"/>
+</node>
+</node>
+</node>
+<node COLOR="#990099" CREATED="1256810468669" ID="Freemind_Link_957671028" MODIFIED="1291728211458" TEXT="HorizontalProperties">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1268737370155" ID="_" MODIFIED="1274792549413" TEXT="Horizontal_CoordinateSystem">
 <font NAME="SansSerif" SIZE="14"/>
@@ -566,7 +627,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1233750994232" ID="Freemind_Link_1172504540" MODIFIED="1279274750931" STYLE="bubble" TEXT="VerticalGrid_">
+<node COLOR="#990099" CREATED="1233750994232" ID="Freemind_Link_1172504540" MODIFIED="1291728223985" STYLE="bubble" TEXT="VerticalProperties">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1268737370155" ID="Freemind_Link_954160404" MODIFIED="1268750239764" TEXT="VerticalCoordinateSystem_">
 <font NAME="SansSerif" SIZE="14"/>
@@ -838,7 +899,7 @@
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1700087151" MODIFIED="1278925844188" TEXT="NumberOfLevelsBellow850hPa">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1700087151" MODIFIED="1292229990320" TEXT="NumberOfLevelsBelow850hPa">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Number of atmospheric vertical levels bellow 850 hPa.[/definition]</text>
@@ -903,54 +964,6 @@
 </node>
 </node>
 </node>
-</node>
-</node>
-<node COLOR="#000000" CREATED="1242815104070" ID="Freemind_Link_72730991" MODIFIED="1256925260893" POSITION="left" STYLE="bubble" TEXT="list of scientific contributors">
-<font NAME="SansSerif" SIZE="15"/>
-<node CREATED="1236851769006" ID="Freemind_Link_1607198855" MODIFIED="1278926978539" STYLE="fork" TEXT="Name (Institution)">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node CREATED="1233226561929" ID="Freemind_Link_172256697" MODIFIED="1278926764485" STYLE="fork" TEXT="Balaji (GFDL)">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node CREATED="1233226561929" ID="Freemind_Link_1675918738" MODIFIED="1278926956145" STYLE="fork" TEXT="Phil Bentley (MetOffice)">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node CREATED="1233226561929" ID="Freemind_Link_1013141211" MODIFIED="1278926949071" STYLE="fork" TEXT="Frank Toussaint (DKRZ)">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node CREATED="1233226561929" ID="Freemind_Link_1718306830" MODIFIED="1278926796215" STYLE="fork" TEXT="Bryan Lawrence (BADC/NCAS)">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node CREATED="1233226561929" ID="Freemind_Link_42872900" MODIFIED="1278929061880" STYLE="fork" TEXT="Eric Guilyardi (IPSL/Univ. Reading)">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-<node COLOR="#000000" CREATED="1242815104070" ID="Freemind_Link_1679788654" MODIFIED="1278927013529" POSITION="left" STYLE="bubble" TEXT="related tickets">
-<font NAME="SansSerif" SIZE="15"/>
-<node CREATED="1236851769006" ID="Freemind_Link_761395005" MODIFIED="1278928759026" STYLE="fork" TEXT="Title: #Number">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node CREATED="1233226561929" ID="Freemind_Link_1086645535" LINK="http://metaforclimate.eu/trac/ticket/611" MODIFIED="1278928903501" STYLE="fork" TEXT="Space config, mind maps and the gridPackage/gridSpec: #611">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node CREATED="1233226561929" ID="Freemind_Link_1028694802" LINK="http://metaforclimate.eu/trac/ticket/636" MODIFIED="1278928915092" STYLE="fork" TEXT="Review mind maps to make sure all appropriate info abot grids is there: #636">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node CREATED="1233226561929" ID="Freemind_Link_1309854612" LINK="http://metaforclimate.eu/trac/ticket/657" MODIFIED="1278928874485" STYLE="fork" TEXT="How does gridSpec fit into the CIM: #657">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node CREATED="1233226561929" ID="Freemind_Link_1971916386" LINK="http://metaforclimate.eu/trac/ticket/635" MODIFIED="1278928895717" STYLE="fork" TEXT="Look at grid into CMOR: #635">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node CREATED="1233226561929" ID="Freemind_Link_1044420067" LINK="http://metaforclimate.eu/trac/ticket/277" MODIFIED="1278928886045" STYLE="fork" TEXT="Proposed updates to the CIM Grid logical data model: #277">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-</node>
-<node CREATED="1237479815816" ID="Freemind_Link_1979527999" MODIFIED="1278927000198" POSITION="left" STYLE="bubble" TEXT="useful links/docs">
-<font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1233585362916" ID="Freemind_Link_531989929" LINK="http://www-pcmdi.llnl.gov/ipcc/model_documentation/ipcc_model_documentation.php" MODIFIED="1233586713179" STYLE="fork" TEXT="AR4 questionnaire">
-<font NAME="Arial" SIZE="14"/>
 </node>
 </node>
 </node>
