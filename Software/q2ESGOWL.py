@@ -3,9 +3,12 @@ import sys
 import glob
 from lxml import etree as ET
 from copy import deepcopy
+import os
 
 realmNamesList=['Atmosphere','Ocean','LandIce','Aerosols','AtmosphericChemistry','OceanBioChemistry','LandSurface','SeaIce']
 XSLFILENAME="xml2ESGOWL.xsl"
+SCRIPTLOCATION=os.path.dirname(sys.argv[0])
+XSLTDIR = os.path.join(SCRIPTLOCATION,"xsl")
 
 finalResult=[]
 fileNameList=glob.glob("*_bdl.xml")
@@ -96,7 +99,7 @@ for filename in fileNameList :
                 idx+=1
             #print 'There are now '+str(len(parameterList))+' duplicates'
             
-    styledoc = ET.parse("xsl/"+XSLFILENAME)
+    styledoc = ET.parse(os.path.join(XSLTDIR,XSLFILENAME))
     style = ET.XSLT(styledoc)
     result = style(doc)
     root=result.getroot()
