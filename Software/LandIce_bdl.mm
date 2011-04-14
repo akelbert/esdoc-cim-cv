@@ -106,7 +106,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1256302127722" ID="Freemind_Link_1177747191" MODIFIED="1257331146019" TEXT="DowscalingTechnique">
+<node COLOR="#996600" CREATED="1256302127722" ID="Freemind_Link_1177747191" MODIFIED="1257331146019" TEXT="DownscalingTechnique">
 <richcontent TYPE="NOTE"><html><head/><body><p align="left">[definition]How the atmospheric variables are used in the mass balance calculations.[/definition]</p></body></html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1256302196652" ID="Freemind_Link_1596279209" MODIFIED="1257331161518" STYLE="fork" TEXT="">
@@ -403,7 +403,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1256302127722" ID="Freemind_Link_1983163047" MODIFIED="1257332174975" TEXT="DowscalingTechnique">
+<node COLOR="#996600" CREATED="1256302127722" ID="Freemind_Link_1983163047" MODIFIED="1257332174975" TEXT="DownscalingTechnique">
 <richcontent TYPE="NOTE"><html><head/><body><p align="left">[definition]How the atmospheric variables are used in the mass balance calculations.[/definition]</p></body></html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1256302196652" ID="Freemind_Link_1522570702" MODIFIED="1257332182931" STYLE="fork" TEXT="">
