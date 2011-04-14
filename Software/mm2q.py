@@ -83,7 +83,7 @@ if options.preprocess:
   fpre = open(args[0]+'.pre', 'w')
   print "preprocessing mm xml from %s to %s" % (fin.name,fpre.name)
   for line in fin:
-    if re.match("^<text>",line):
+    if re.match("^<text>",line) or re.match("^<richcontent TYPE=",line):
       line=line.replace('[','<')
       line=line.replace(']','>')
     fpre.write(line)

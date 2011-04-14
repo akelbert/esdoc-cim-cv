@@ -5,14 +5,15 @@ from lxml import etree as ET
 from copy import deepcopy
 import os
 
-realmNamesList=['Atmosphere','Ocean','LandIce','Aerosols','AtmosphericChemistry','OceanBioChemistry','LandSurface','SeaIce']
+#realmNamesList=['Atmosphere','Ocean','LandIce','Aerosols','AtmosphericChemistry','OceanBioChemistry','LandSurface','SeaIce']
+realmNamesList=['ModelsGrid']
 XSLFILENAME="xml2ESGOWL.xsl"
 SCRIPTLOCATION=os.path.dirname(sys.argv[0])
 XSLTDIR = os.path.join(SCRIPTLOCATION,"xsl")
 
 finalResult=[]
-fileNameList=glob.glob("*_bdl.xml")
-assert len(fileNameList)==8 ,'Error, expecting 8 files, one for each realm'
+fileNameList=["ModelsGrid_bdl.xml"]
+assert len(fileNameList)==1 ,'Error, expecting 8 files, one for each realm but found '+str(fileNameList)
 
 METAFOR_OWL_NAMESPACE = "http://www.earthsystemgrid.org/metafor.owl#"
 OWL2XML_NAMESPACE = "http://www.w3.org/2006/12/owl2-xml#"

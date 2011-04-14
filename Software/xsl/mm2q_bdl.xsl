@@ -91,7 +91,7 @@ lower priority templates -->
         </xsl:variable>
 
         <component name="{$myName}" rawName="{@TEXT}" esgName="{$esgName}">
-          <xsl:if test="not(hook/text/definition)">
+          <xsl:if test="not(hook/text/definition) and not(richcontent/html/body/p/definition)">
             <definition status="missing"><xsl:text>Definition of component type </xsl:text><xsl:value-of select="$myName"/><xsl:text> required</xsl:text></definition>
           </xsl:if>
           <xsl:variable name="match">
@@ -209,7 +209,7 @@ lower priority templates -->
       <xsl:when test="$choice">
         <xsl:if test="not($Couple='no' and $choice='couple')">
           <parameter name="{$myName}" rawName="{@TEXT}" esgName="{$esgName}" choice="{$choice}" >
-            <xsl:if test="not(hook/text/definition)">
+            <xsl:if test="not(hook/text/definition) and not(richcontent/html/body/p/definition)">
               <definition status="missing"><xsl:text>Definition of property name </xsl:text><xsl:value-of select="$myName"/><xsl:text> required</xsl:text></definition>
             </xsl:if>
             <xsl:apply-templates/>
