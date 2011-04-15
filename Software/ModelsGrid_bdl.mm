@@ -367,7 +367,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1253713965343" ID="Freemind_Link_1869331808" MODIFIED="1269340529377" TEXT="if GridType is &quot;icosahedral geodesic&quot;">
+<node COLOR="#0033ff" CREATED="1253713965343" ID="Freemind_Link_1869331808" MODIFIED="1269340529377" TEXT="if GridType is &quot;icosahedral&quot;">
 <font NAME="SansSerif" SIZE="14"/>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1101250182" MODIFIED="1274792136894" STYLE="bubble" TEXT="NumberOfGridsCellsInFirstDimensionOfDiamond">
 <richcontent TYPE="NOTE"><html><head/><body><p align="left">[definition]Number of grid cells in the first dimension of each of the 20 diamonds.[/definition]</p></body></html></richcontent>
