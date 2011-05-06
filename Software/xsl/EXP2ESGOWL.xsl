@@ -78,7 +78,7 @@
       <xsl:if test="substring(.//m4:duration,string-length(.//m4:duration),1)!='Y'">
         <xsl:message terminate="yes"><xsl:text>Unexpected duration format found. Expecting Y at the end of the string but got </xsl:text><xsl:value-of select="substring(.//m4:duration,string-length(.//m4:duration),1)"/></xsl:message>
       </xsl:if>
-      <esg:hasExperimentRequiredDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#int"><xsl:value-of select="substring(.//m4:duration,2,string-length(.//m4:duration)-2)"/><xsl:text> years</xsl:text></esg:hasExperimentRequiredDuration>
+      <esg:hasExperimentRequiredDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><xsl:value-of select="substring(.//m4:duration,2,string-length(.//m4:duration)-2)"/><xsl:text> years</xsl:text></esg:hasExperimentRequiredDuration>
     </xsl:if>
   </xsl:when>
 
