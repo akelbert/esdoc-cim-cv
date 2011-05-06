@@ -28,7 +28,12 @@
         <xsl:value-of select="@esgName"/>
       </xsl:if>
     </xsl:for-each>
+    <xsl:for-each select="ancestor::parametergroup">
+      <xsl:value-of select="@esgName"/>
+    </xsl:for-each>
+<!--
     <xsl:value-of select="ancestor::parametergroup[1]/@esgName"/>
+-->
     <xsl:value-of select="@esgName"/>
   </xsl:variable>
 
@@ -38,9 +43,16 @@
         <xsl:value-of select="@name"/>
       </xsl:if>
     </xsl:for-each>
+    <xsl:for-each select="ancestor::parametergroup">
+      <xsl:if test="@name!='General Attributes'">
+        <xsl:value-of select="@name"/>
+      </xsl:if>
+    </xsl:for-each>
+<!--
     <xsl:if test="ancestor::parametergroup[1]/@name!='General Attributes'">
       <xsl:value-of select="ancestor::parametergroup[1]/@name"/>
     </xsl:if>
+-->
     <xsl:value-of select="@name"/>
   </xsl:variable>
 
