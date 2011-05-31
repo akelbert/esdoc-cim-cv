@@ -32,7 +32,7 @@
 </node>
 <node CREATED="1306831304467" ID="_" MODIFIED="1306831314351" POSITION="right" TEXT="Model">
 <font BOLD="true" NAME="SansSerif" SIZE="18"/>
-<node CREATED="1306830610580" FOLDED="true" ID="Freemind_Link_1307555421" MODIFIED="1306835002780" TEXT="key properties">
+<node CREATED="1306830610580" ID="Freemind_Link_1307555421" MODIFIED="1306835002780" TEXT="key properties">
 <font NAME="SansSerif" SIZE="18"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>Things that are common to each of the systems included in an Integrated Assessment Model.</text>
@@ -72,7 +72,7 @@
 </hook>
 </node>
 </node>
-<node CREATED="1306415878440" FOLDED="true" ID="Freemind_Link_1213011371" MODIFIED="1306513327308" TEXT="policy">
+<node CREATED="1306415878440" ID="Freemind_Link_1213011371" MODIFIED="1306513327308" TEXT="policy">
 <font NAME="SansSerif" SIZE="16"/>
 <node CREATED="1306416324141" ID="Freemind_Link_612987354" MODIFIED="1306505348724" TEXT="carbon tax">
 <font NAME="SansSerif" SIZE="16"/>
@@ -99,7 +99,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node CREATED="1306425081279" FOLDED="true" ID="Freemind_Link_1282982003" MODIFIED="1306513297465" TEXT="sustainability">
+<node CREATED="1306425081279" ID="Freemind_Link_1282982003" MODIFIED="1306513297465" TEXT="sustainability">
 <font NAME="SansSerif" SIZE="16"/>
 <node CREATED="1306425104042" ID="Freemind_Link_879933512" MODIFIED="1306504269459" TEXT="socio-economic development">
 <font NAME="SansSerif" SIZE="16"/>
@@ -380,11 +380,11 @@
 <text>passing data after the model has run&#xa;</text>
 </hook>
 </node>
-<node CREATED="1306336420161" ID="Freemind_Link_742177721" MODIFIED="1306506013253" TEXT="soft coupling">
+<node CREATED="1306336420161" ID="Freemind_Link_742177721" MODIFIED="1306854484541" TEXT="hard coupling">
 <font NAME="SansSerif" SIZE="16"/>
 <icon BUILTIN="button_cancel"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>passing data after the model has run&#xa;</text>
+<text>passing data during the model run&#xa;</text>
 </hook>
 </node>
 </node>
