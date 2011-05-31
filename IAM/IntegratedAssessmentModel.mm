@@ -10,10 +10,10 @@
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>&#xa;model has a name&#xa;</text>
 </hook>
-<node CREATED="1306414592579" ID="Freemind_Link_1714638390" MODIFIED="1306507852449" TEXT="system">
+<node CREATED="1306414592579" ID="Freemind_Link_1714638390" MODIFIED="1306835038237" TEXT="system">
 <font NAME="SansSerif" SIZE="18"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>scope of the model.  eg one or more of climate, land surface, energy, economy&#xa;&#xa;</text>
+<text>scope of the model.  eg one or more of climate, land use, energy, economy&#xa;&#xa;</text>
 </hook>
 <node CREATED="1306486483706" ID="Freemind_Link_168196379" MODIFIED="1306490534717" TEXT="dimension">
 <font NAME="SansSerif" SIZE="18"/>
@@ -32,8 +32,11 @@
 </node>
 <node CREATED="1306831304467" ID="_" MODIFIED="1306831314351" POSITION="right" TEXT="Model">
 <font BOLD="true" NAME="SansSerif" SIZE="18"/>
-<node CREATED="1306830610580" ID="Freemind_Link_1307555421" MODIFIED="1306830624036" TEXT="key properties">
+<node CREATED="1306830610580" FOLDED="true" ID="Freemind_Link_1307555421" MODIFIED="1306835002780" TEXT="key properties">
 <font NAME="SansSerif" SIZE="18"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>Things that are common to each of the systems included in an Integrated Assessment Model.</text>
+</hook>
 <node CREATED="1306415498469" FOLDED="true" ID="Freemind_Link_1049444593" MODIFIED="1306490800745" TEXT="time horizon">
 <font NAME="SansSerif" SIZE="16"/>
 <node CREATED="1306504202738" ID="Freemind_Link_1066733359" MODIFIED="1306504211271" TEXT="">
@@ -140,7 +143,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1306830724357" ID="Freemind_Link_660152025" MODIFIED="1306830733638" TEXT="economy">
+<node CREATED="1306830724357" FOLDED="true" ID="Freemind_Link_660152025" MODIFIED="1306830733638" TEXT="economy">
 <font NAME="SansSerif" SIZE="18"/>
 <node CREATED="1306415878440" ID="Freemind_Link_1301733496" MODIFIED="1306510784500" TEXT="sector">
 <font NAME="SansSerif" SIZE="18"/>
