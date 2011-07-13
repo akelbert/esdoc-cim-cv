@@ -83,6 +83,13 @@
         <rdfs:range rdf:resource="#{$AttributeString}"/>
       </owl:ObjectProperty> 
 
+      <owl:DatatypeProperty rdf:about="http://www.earthsystemgrid.org/metafor.owl#has{$AttributeString}Description">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><xsl:value-of select="$AttributeStringSpaces"/><xsl:text> Description</xsl:text></rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"><xsl:value-of select="definition"/></rdfs:comment>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:domain rdf:resource="http://dataportal.ucar.edu/schemas/esg.owl#ModelComponent"/>
+      </owl:DatatypeProperty>
+
       <xsl:for-each select="value[not(normalize-space(translate(@name,'OTHER','other'))='other')]">
         <!-- RF adding namespace directly below is a hack - but it works -->
         <xsl:element name="{concat('metafor:',$AttributeString)}">

@@ -82,12 +82,28 @@
     </xsl:if>
   </xsl:when>
 
-  <xsl:otherwise> <!-- initialCondition or boundaryCondition -->
+  <xsl:otherwise> <!-- initialCondition, boundaryCondition or numericalRequirement-->
     <esg:hasExperimentalRequirement>
       <esg:ExperimentalRequirements rdf:about="http://www.earthsystemgrid.org/esg.owl#experimentalrequirements_{.//m4:name}">
 	<xsl:for-each select="*">
+
+          <xsl:variable name="requirementType">
+            <xsl:choose>
+              <xsl:when test="local-name()='initialCondition'">
+                <xsl:text>initial</xsl:text>
+              </xsl:when>
+              <xsl:when test="local-name()='boundaryCondition'">
+                 <xsl:text>boundary</xsl:text>
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:message terminate="yes"><xsl:text>Error, expecting initialCondition or boundaryCondition but found </xsl:text><xsl:value-of select="local-name()"/><xsl:text>
+</xsl:text></xsl:message>
+              </xsl:otherwise>
+            </xsl:choose>
+          </xsl:variable>
+
 	  <!--requirementType-->
-          <esg:hasExperimentalRequirementType rdf:resource="http://www.earthsystemgrid.org/esg.owl#experimentalrequirementtype_{local-name()}"/>
+          <esg:hasExperimentalRequirementType rdf:resource="http://www.earthsystemgrid.org/esg.owl#experimentalrequirementtype_{$requirementType}"/>
 	  <!--requirementOption TBD -->
 	  <!--id TBD -->
 	  <!--name-->

@@ -174,6 +174,10 @@ for filename in glob.glob( os.path.join(path, '*.xml') ):
     copyElement(root,newRoot,'creationDate',newName='documentCreationDate')
 
     expRoot,sep,expType=expID.partition('-')
+    # fix the exception to the above expType splitting rule
+    if expType in ["1","2"]:
+      expRoot=expID
+      expType=''
     # if something ...
     if expType is not '' :
         assert expRoot, "We should have an experiment root if we have extracted an experiment id"
