@@ -215,6 +215,15 @@ lower priority templates -->
             <xsl:apply-templates/>
             <!-- add 'other' and 'unknown'(Ensembles-specific) as a value if values are not a: yes/no b: keyboard c: conditional and if it does not already exist -->
             <!-- add N/A as a value if values are not a: yes/no b: keyboard c: conditional -->
+            <xsl:if test="not($choice='keyboard')">
+              <!-- My values are not keyboard values -->
+	      <xsl:if test="not(node[@TEXT='Unknown'])">
+	        <!-- I do not have the value "Unknown" as an option -->
+	        <!-- so add the value "Unknown" -->
+	        <!--<xsl:element name="value"><xsl:attribute name="name"><xsl:text>Unknown</xsl:text></xsl:attribute></xsl:element> -->
+	        <value name="Unknown"/> 
+              </xsl:if>
+	    </xsl:if>
 	    <xsl:if test="not(count(node/icon[@BUILTIN='button_ok' or @BUILTIN='button_cancel' or @BUILTIN='bookmark'])=2 and node[@TEXT='yes'] and node[@TEXT='no'])">
               <!-- I do not have yes/no values (exclusively) -->
               <xsl:if test="not($choice='keyboard')">
@@ -223,11 +232,6 @@ lower priority templates -->
 		  <!-- I do not have the value "other" as an option -->
 		  <!-- so add the value "other" -->
 		  <xsl:element name="value"><xsl:attribute name="name"><xsl:text>other</xsl:text></xsl:attribute></xsl:element>
-                </xsl:if>
-		<xsl:if test="not(node[@TEXT='Unknown'])">
-		  <!-- I do not have the value "Unknown" as an option -->
-		  <!-- so add the value "Unknown" -->
-		  <xsl:element name="value"><xsl:attribute name="name"><xsl:text>Unknown</xsl:text></xsl:attribute></xsl:element>
                 </xsl:if>
 		<xsl:if test="not(ancestor::node[@COLOR='#0033ff'])">
 		  <!-- I do not have a constraint as a parent -->
