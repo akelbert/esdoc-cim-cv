@@ -1,0 +1,15 @@
+---------------------------------------------------
+README file for mindmaps_freemind_vn0.9.0 directory
+
+Gerard Devine, g.m.devine@reading.ac.uk
+---------------------------------------------------
+
+This directory contains the cmip5 controlled vocabulary mindmaps 
+produced/compatible with freemind version 0.9.0, which differs slightly 
+from those produced by vn 0.8.1. As such, the instructions for running 
+these through the mindmap checker and mindmap translator scripts is modified, 
+and can be found on the wiki page:
+
+http://metaforclimate.eu/trac/wiki/tickets/244
+
+
