@@ -251,7 +251,7 @@
 </node>
 </node>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1193055674" MODIFIED="1278516455806" STYLE="bubble" TEXT="NumberOfLatitudinalGridCells">
-<richcontent TYPE="NOTE"><html><head/><body><p align="left">[definition]Number of grid cells along a half-meridian (-90°N,+90°N).[/definition]</p></body></html></richcontent>
+<richcontent TYPE="NOTE"><html><head/><body><p align="left">[definition]Number of grid cells along a half-meridian (-90Â°N,+90Â°N).[/definition]</p></body></html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1563646806" MODIFIED="1244564007398" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
