@@ -21,9 +21,11 @@ parser.add_option("-w", "--warning",
 parser.add_option("-f", "--flat",
                   action="store_true", dest="flat", default=False,
                   help="parse a flattened mindmap rather than a bundled one")
+parser.add_option("-v", "--version", dest="version", default='0.8.1',
+                  help="Freemind version that mindmap was produced with (default = 0.8.1)")
 (options, args) = parser.parse_args()
 
-if len(args) != 1:
+if len(args) < 1 or len(args) > 2:
   parser.error("incorrect number of arguments")
 
 if options.flat:
@@ -35,7 +37,13 @@ else:
   if not(args[0].endswith("_bdl.mm")):
      parser.error("expecting input file with name mindmap_bdl.mm. Use the -f option is you want to parse a mindmap_flat.mm file.")
   foutname=args[0].replace("_bdl.mm",".xml")
-  XSLFileName="mmcheck_bdl.xsl"
+  # Check which xsl file to use depending on freemind version 
+  if options.version == '0.9':
+    XSLFileName="mmcheck_0.9.0_bdl.xsl"
+  elif options.version == '0.8.1':
+    XSLFileName="mmcheck_bdl.xsl"
+  else:
+    parser.error("Freemind version is not recognised. Leave blank for default version (0.8.1) or use -v 0.9")
 
 try:
   fin = open(args[0], 'r')
@@ -47,9 +55,16 @@ if options.preprocess:
   fpre = open(args[0]+'.pre', 'w')
   print "preprocessing mm xml from %s to %s" % (fin.name,fpre.name)
   for line in fin:
-    if re.match("^<text>",line):
-      line=line.replace('[','<')
-      line=line.replace(']','>')
+    if options.version == '0.8.1':
+      # replacements in the event of freemind version 0.8.1
+      if re.match("^<text>",line):
+        line=line.replace('[','<')
+        line=line.replace(']','>')
+    elif options.version == '0.9':
+      # replacements in the event of freemind version 0.9.0
+      if re.match("^<richcontent",line):
+        line=line.replace('[','<')
+        line=line.replace(']','>')
     fpre.write(line)
   fpre.close()
 else:
