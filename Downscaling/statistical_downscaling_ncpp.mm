@@ -8,21 +8,64 @@
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1276003690723" ID="Freemind_Link_1728846463" MODIFIED="1359395185304" TEXT="Method">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_192809526" MODIFIED="1289208333601" TEXT="MethodType">
+<node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_1307798977" MODIFIED="1360358332682" TEXT="MethodType">
 <font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1274083217782" ID="Freemind_Link_998051903" MODIFIED="1286462651580" STYLE="fork" TEXT="weather typing">
+<node CREATED="1274083217782" ID="Freemind_Link_1524458789" MODIFIED="1286462651580" STYLE="fork" TEXT="weather typing">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
-<node CREATED="1276676189985" ID="Freemind_Link_1953686992" MODIFIED="1276676931045" TEXT="DSCLIM">
+<node CREATED="1276676189985" ID="Freemind_Link_1561592705" MODIFIED="1276676931045" TEXT="DSCLIM">
 <font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="back"/>
 </node>
 </node>
-<node CREATED="1274083217782" ID="Freemind_Link_1985875062" MODIFIED="1286462651595" STYLE="fork" TEXT="transfer function">
+<node CREATED="1274083217782" ID="Freemind_Link_365043999" MODIFIED="1286462651595" STYLE="fork" TEXT="transfer function">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1274083217782" ID="Freemind_Link_9639133" MODIFIED="1286462651580" STYLE="fork" TEXT="weather generator">
+<node CREATED="1274083217782" ID="Freemind_Link_1232459457" MODIFIED="1360359743087" STYLE="fork" TEXT="NCPP: delta method">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1274083228037" ID="Freemind_Link_1889734663" MODIFIED="1360359747204" STYLE="fork" TEXT="NCPP: weather analog">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1274083217782" ID="Freemind_Link_1580898772" MODIFIED="1360359751141" STYLE="fork" TEXT="NCPP: change factor">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1274083217782" ID="Freemind_Link_865566862" MODIFIED="1360359754671" STYLE="fork" TEXT="NCPP: scaling">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1274083228037" ID="Freemind_Link_276176224" MODIFIED="1286462651580" STYLE="fork" TEXT="other">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node COLOR="#000000" CREATED="1274083330956" ID="Freemind_Link_1120648248" MODIFIED="1360358533560" STYLE="fork" TEXT="NCPP: It does not make sense to have a hierachy/categorization here?  Instead a flat list of fully-specified types and then a set of constraints elsewhere in the mindmap.">
+<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="help"/>
+</node>
+<node COLOR="#000000" CREATED="1274083330956" ID="Freemind_Link_283723942" MODIFIED="1360359515399" STYLE="fork" TEXT="NCPP: Or maybe have two types of method (at the same level)?">
+<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="help"/>
+</node>
+<node COLOR="#000000" CREATED="1274083330956" ID="Freemind_Link_1819248090" MODIFIED="1360358533560" STYLE="fork" TEXT="NCPP: It does not make sense to have a hierachy/categorization here?  Instead a flat list of fully-specified types and then a set of constraints elsewhere in the mindmap.">
+<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="help"/>
+</node>
+</node>
+<node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_192809526" MODIFIED="1360359553651" TEXT="ClassificationType">
+<font NAME="SansSerif" SIZE="14"/>
+<node CREATED="1274083217782" ID="Freemind_Link_745913344" MODIFIED="1360358486654" STYLE="fork" TEXT="NCPP: PP (Perfect Prog)">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1274083217782" ID="Freemind_Link_573128327" MODIFIED="1360358482399" STYLE="fork" TEXT="NCPP: MOS (model output statistics)">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1274083217782" ID="Freemind_Link_1850381398" MODIFIED="1360359607757" STYLE="fork" TEXT="NCPP: Weather Generator">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
@@ -30,12 +73,12 @@
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node COLOR="#000000" CREATED="1274083330956" ID="Freemind_Link_281897513" MODIFIED="1360349055037" STYLE="fork" TEXT="NCPP: Does it make sense to have a hierachy/categorization here?  Conceptually yes, however I don&apos;t think that&apos;s how mindmaps work when they work as configuration tools for the CIM Editor / CMIP5 Questionnaire.  Instead a flat list of fully-specified types and then a set of constraints elsewhere in the mindmap.">
+<node COLOR="#000000" CREATED="1274083330956" ID="Freemind_Link_587886860" MODIFIED="1360359639884" STYLE="fork" TEXT="NCPP: this comes from &quot;Maraun&apos;s Classification&quot;">
 <font ITALIC="true" NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="help"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1274083183709" FOLDED="true" ID="Freemind_Link_1382649634" MODIFIED="1286463650572" TEXT="AppliedToExtremes">
+<node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_1382649634" MODIFIED="1286463650572" TEXT="AppliedToExtremes">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#000000" CREATED="1274083330956" ID="Freemind_Link_783306312" MODIFIED="1285332084108" STYLE="fork" TEXT="CLIMPACT: added">
 <font ITALIC="true" NAME="SansSerif" SIZE="14"/>
@@ -98,14 +141,14 @@
 <node COLOR="#990099" CREATED="1274083313167" ID="Freemind_Link_721480308" MODIFIED="1359747561952" TEXT="LearningPeriod (&quot;Calibration Period&quot;?)">
 <edge WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1274083313167" FOLDED="true" ID="Freemind_Link_1293205397" MODIFIED="1285332239812" TEXT="FirstYear">
+<node COLOR="#996600" CREATED="1274083313167" ID="Freemind_Link_1293205397" MODIFIED="1285332239812" TEXT="FirstYear">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1274083363905" ID="Freemind_Link_714397423" MODIFIED="1276676160010" STYLE="fork" TEXT="(years)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1274083313167" FOLDED="true" ID="Freemind_Link_561096137" MODIFIED="1285332264351" TEXT="LastYear">
+<node COLOR="#996600" CREATED="1274083313167" ID="Freemind_Link_561096137" MODIFIED="1285332264351" TEXT="LastYear">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1274083363905" ID="Freemind_Link_1422045778" MODIFIED="1276676160010" STYLE="fork" TEXT="(years)">
 <font NAME="SansSerif" SIZE="14"/>
@@ -116,14 +159,14 @@
 <node COLOR="#990099" CREATED="1274083313167" ID="Freemind_Link_123403292" MODIFIED="1285332283235" TEXT="ApplicationPeriod">
 <edge WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1274083313167" FOLDED="true" ID="Freemind_Link_825937310" MODIFIED="1285332239812" TEXT="FirstYear">
+<node COLOR="#996600" CREATED="1274083313167" ID="Freemind_Link_825937310" MODIFIED="1285332239812" TEXT="FirstYear">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1274083363905" ID="Freemind_Link_418412840" MODIFIED="1276676160010" STYLE="fork" TEXT="(years)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1274083313167" FOLDED="true" ID="Freemind_Link_518699300" MODIFIED="1285332264351" TEXT="LastYear">
+<node COLOR="#996600" CREATED="1274083313167" ID="Freemind_Link_518699300" MODIFIED="1285332264351" TEXT="LastYear">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1274083363905" ID="Freemind_Link_416404890" MODIFIED="1276676160010" STYLE="fork" TEXT="(years)">
 <font NAME="SansSerif" SIZE="14"/>
