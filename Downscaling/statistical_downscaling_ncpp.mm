@@ -4,10 +4,31 @@
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#000000" CREATED="1274083152242" ID="_" MODIFIED="1289207973498" POSITION="right" STYLE="bubble" TEXT="StatisticalDowscaling">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990099" CREATED="1274083183709" ID="Freemind_Link_956360077" MODIFIED="1289208348990" TEXT="StatisticalDownscaling_KeyProperties">
+<node COLOR="#990099" CREATED="1274083183709" ID="Freemind_Link_956360077" MODIFIED="1362175559602" TEXT="StatisticalDownscaling_KeyProperties">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
 <node COLOR="#990099" CREATED="1276003690723" ID="Freemind_Link_1728846463" MODIFIED="1359395185304" TEXT="Method">
 <font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_192809526" MODIFIED="1362171877828" TEXT="MauranClassificationType">
+<font NAME="SansSerif" SIZE="14"/>
+<node CREATED="1274083217782" ID="Freemind_Link_745913344" MODIFIED="1360358486654" STYLE="fork" TEXT="NCPP: PP (Perfect Prog)">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1274083217782" ID="Freemind_Link_573128327" MODIFIED="1360358482399" STYLE="fork" TEXT="NCPP: MOS (model output statistics)">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1274083217782" ID="Freemind_Link_1850381398" MODIFIED="1360359607757" STYLE="fork" TEXT="NCPP: Weather Generator">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1274083228037" ID="Freemind_Link_397948262" MODIFIED="1286462651580" STYLE="fork" TEXT="other">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1362172010726" ID="Freemind_Link_46993424" MODIFIED="1362172106669" TEXT="The MauranClassificationType is a classification following the system used by Maraun et. al. Reviews of Geophysics, 2010."/>
+</node>
 <node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_1307798977" MODIFIED="1360358332682" TEXT="MethodType">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1274083217782" ID="Freemind_Link_1524458789" MODIFIED="1286462651580" STYLE="fork" TEXT="weather typing">
@@ -54,29 +75,7 @@
 <font ITALIC="true" NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="help"/>
 </node>
-</node>
-<node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_192809526" MODIFIED="1360359553651" TEXT="ClassificationType">
-<font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1274083217782" ID="Freemind_Link_745913344" MODIFIED="1360358486654" STYLE="fork" TEXT="NCPP: PP (Perfect Prog)">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node CREATED="1274083217782" ID="Freemind_Link_573128327" MODIFIED="1360358482399" STYLE="fork" TEXT="NCPP: MOS (model output statistics)">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node CREATED="1274083217782" ID="Freemind_Link_1850381398" MODIFIED="1360359607757" STYLE="fork" TEXT="NCPP: Weather Generator">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node CREATED="1274083228037" ID="Freemind_Link_397948262" MODIFIED="1286462651580" STYLE="fork" TEXT="other">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node COLOR="#000000" CREATED="1274083330956" ID="Freemind_Link_587886860" MODIFIED="1360359639884" STYLE="fork" TEXT="NCPP: this comes from &quot;Maraun&apos;s Classification&quot;">
-<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="help"/>
-</node>
+<node CREATED="1362171957783" ID="Freemind_Link_1397490755" MODIFIED="1362172002542" TEXT="The MethodType describes the statistical core of the specific method."/>
 </node>
 <node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_1382649634" MODIFIED="1286463650572" TEXT="AppliedToExtremes">
 <font NAME="SansSerif" SIZE="14"/>
@@ -91,6 +90,18 @@
 <node CREATED="1274083363905" ID="Freemind_Link_397170142" MODIFIED="1286463659350" STYLE="fork" TEXT="no">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
+</node>
+</node>
+<node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_1160299196" MODIFIED="1362418368367" TEXT="SpatialApplication">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="ksmiletris"/>
+<node CREATED="1274083363905" ID="Freemind_Link_1837705782" MODIFIED="1362418362562" STYLE="fork" TEXT="station">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1274083363905" ID="Freemind_Link_603757741" MODIFIED="1362418374102" STYLE="fork" TEXT="gridded">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
 </node>
 </node>
 <node COLOR="#996600" CREATED="1274083183709" FOLDED="true" ID="Freemind_Link_652742434" MODIFIED="1289209291151" TEXT="Predictor-PredictandRelationship">
@@ -235,6 +246,26 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
+<node COLOR="#996600" CREATED="1274083313167" ID="Freemind_Link_708631586" MODIFIED="1362175963446" TEXT="bias_correction">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="ksmiletris"/>
+<node CREATED="1274083217782" ID="Freemind_Link_1985791480" MODIFIED="1362176106938" STYLE="fork" TEXT="Quantile Mapping">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1274083217782" ID="Freemind_Link_472017586" MODIFIED="1362176116223" STYLE="fork" TEXT="Quantile Regression">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1274083217782" ID="Freemind_Link_1901640929" MODIFIED="1362176147729" STYLE="fork" TEXT="Other">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1362175970561" ID="Freemind_Link_680634096" MODIFIED="1362176072956" TEXT="Is an explicit bias correction step included in this method?  If so, please describe the type of bias correction used"/>
+<node CREATED="1362176367268" ID="Freemind_Link_1634515684" MODIFIED="1362176379863" TEXT="NCPP: is this the right place for this?">
+<icon BUILTIN="help"/>
+</node>
+</node>
 </node>
 <node COLOR="#990099" CREATED="1274083313167" ID="Freemind_Link_1161476640" MODIFIED="1289209252697" TEXT="PreProcessing">
 <edge WIDTH="thin"/>
@@ -288,7 +319,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1276003690723" ID="Freemind_Link_648636339" MODIFIED="1288883765353" TEXT="PostProcessing">
+<node COLOR="#990099" CREATED="1276003690723" ID="Freemind_Link_648636339" MODIFIED="1362175960771" TEXT="PostProcessing">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_1326692444" MODIFIED="1288884553469" TEXT="PostprocessingMethod">
 <font NAME="SansSerif" SIZE="14"/>
@@ -305,7 +336,7 @@
 </node>
 <node COLOR="#990099" CREATED="1276003631167" ID="Freemind_Link_9667563" MODIFIED="1289303286450" TEXT="DownscalingVariables">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#990099" CREATED="1274083183709" FOLDED="true" ID="Freemind_Link_67479211" MODIFIED="1359748085723" TEXT="&quot;Predictors&quot;? LargeScaleVariables">
+<node COLOR="#990099" CREATED="1274083183709" ID="Freemind_Link_67479211" MODIFIED="1359748085723" TEXT="&quot;Predictors&quot;? LargeScaleVariables">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_897930087" MODIFIED="1288884153858" TEXT="PredictorOriginType">
 <font NAME="SansSerif" SIZE="14"/>
@@ -444,7 +475,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1274083363905" FOLDED="true" ID="Freemind_Link_1978025955" MODIFIED="1274102698324" STYLE="fork" TEXT="temperature">
+<node CREATED="1274083363905" ID="Freemind_Link_1978025955" MODIFIED="1274102698324" STYLE="fork" TEXT="temperature">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 <node CREATED="1276676189985" ID="Freemind_Link_1774387485" MODIFIED="1276676955958" TEXT="DSCLIM (T2m)">
