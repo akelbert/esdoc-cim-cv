@@ -29,7 +29,7 @@
 </node>
 <node CREATED="1362172010726" ID="Freemind_Link_46993424" MODIFIED="1362172106669" TEXT="The MauranClassificationType is a classification following the system used by Maraun et. al. Reviews of Geophysics, 2010."/>
 </node>
-<node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_1307798977" MODIFIED="1360358332682" TEXT="MethodType">
+<node COLOR="#996600" CREATED="1274083183709" FOLDED="true" ID="Freemind_Link_1307798977" MODIFIED="1360358332682" TEXT="MethodType">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1274083217782" ID="Freemind_Link_1524458789" MODIFIED="1286462651580" STYLE="fork" TEXT="weather typing">
 <font NAME="SansSerif" SIZE="14"/>
@@ -77,7 +77,7 @@
 </node>
 <node CREATED="1362171957783" ID="Freemind_Link_1397490755" MODIFIED="1362172002542" TEXT="The MethodType describes the statistical core of the specific method."/>
 </node>
-<node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_1382649634" MODIFIED="1286463650572" TEXT="AppliedToExtremes">
+<node COLOR="#996600" CREATED="1274083183709" FOLDED="true" ID="Freemind_Link_1382649634" MODIFIED="1286463650572" TEXT="AppliedToExtremes">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#000000" CREATED="1274083330956" ID="Freemind_Link_783306312" MODIFIED="1285332084108" STYLE="fork" TEXT="CLIMPACT: added">
 <font ITALIC="true" NAME="SansSerif" SIZE="14"/>
@@ -92,7 +92,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_1160299196" MODIFIED="1362418368367" TEXT="SpatialApplication">
+<node COLOR="#996600" CREATED="1274083183709" FOLDED="true" ID="Freemind_Link_1160299196" MODIFIED="1362418368367" TEXT="SpatialApplication">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="ksmiletris"/>
 <node CREATED="1274083363905" ID="Freemind_Link_1837705782" MODIFIED="1362418362562" STYLE="fork" TEXT="station">
@@ -104,10 +104,37 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1274083183709" FOLDED="true" ID="Freemind_Link_652742434" MODIFIED="1289209291151" TEXT="Predictor-PredictandRelationship">
+<node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_1521238775" MODIFIED="1363387252242" TEXT="Muti-SiteMethod">
+<font NAME="SansSerif" SIZE="14"/>
+<node CREATED="1274083363905" ID="Freemind_Link_1412169370" MODIFIED="1274105378017" STYLE="fork" TEXT="yes">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1274083363905" ID="Freemind_Link_127053009" MODIFIED="1274105382741" STYLE="fork" TEXT="no">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+</node>
+<node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_1798882507" MODIFIED="1363387321418" TEXT="Multi-VariateMethod">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="messagebox_warning"/>
-<node CREATED="1274083330956" ID="Freemind_Link_858886305" MODIFIED="1288883991672" STYLE="fork" TEXT="M. DEQUE: the properties listed here &#xa;are charateristics of the Predictands, not of their relationship to Predictors.">
+<node CREATED="1274083363905" ID="Freemind_Link_140607715" MODIFIED="1274105378017" STYLE="fork" TEXT="yes">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1274083363905" ID="Freemind_Link_1043663246" MODIFIED="1274105382741" STYLE="fork" TEXT="no">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1274083330956" ID="Freemind_Link_1679957099" MODIFIED="1286460315031" STYLE="fork" TEXT="mariepierre: if there is sevaral predictors, Predictand result from a &quot;multi-variate&quot; analysis, Right? If implicit, then this parameter is not necessary...">
+<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="help"/>
+</node>
+</node>
+<node COLOR="#996600" CREATED="1274083183709" FOLDED="true" ID="Freemind_Link_652742434" MODIFIED="1363382973718" TEXT="Predictor-PredictandRelationship" VSHIFT="55">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="messagebox_warning"/>
+<node CREATED="1274083330956" HGAP="28" ID="Freemind_Link_858886305" MODIFIED="1363386497646" STYLE="fork" TEXT="M. DEQUE: the properties listed here &#xa;are charateristics of the Predictands, not of their relationship to Predictors." VSHIFT="-23">
 <font ITALIC="true" NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="idea"/>
 </node>
@@ -147,7 +174,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1276003690723" ID="Freemind_Link_675476867" MODIFIED="1359747452930" TEXT="MethodPhases">
+<node COLOR="#990099" CREATED="1276003690723" FOLDED="true" ID="Freemind_Link_675476867" MODIFIED="1359747452930" TEXT="MethodPhases">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1274083313167" ID="Freemind_Link_721480308" MODIFIED="1359747561952" TEXT="LearningPeriod (&quot;Calibration Period&quot;?)">
 <edge WIDTH="thin"/>
@@ -185,12 +212,12 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1274083313167" ID="Freemind_Link_142285060" MODIFIED="1359747581683" TEXT="ValidationPeriod">
+<node COLOR="#990099" CREATED="1274083313167" HGAP="25" ID="Freemind_Link_142285060" MODIFIED="1363383318117" TEXT="ValidationPeriod" VSHIFT="6">
 <edge WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1276003690723" ID="Freemind_Link_719256564" MODIFIED="1289303019839" TEXT="ProcessingSteps">
+<node COLOR="#990099" CREATED="1276003690723" FOLDED="true" ID="Freemind_Link_719256564" MODIFIED="1363383301514" TEXT="ProcessingSteps" VSHIFT="31">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1274083313167" ID="Freemind_Link_750672234" MODIFIED="1360349571610" TEXT="&quot;Main&quot;">
 <edge WIDTH="thin"/>
@@ -336,9 +363,133 @@
 </node>
 <node COLOR="#990099" CREATED="1276003631167" ID="Freemind_Link_9667563" MODIFIED="1289303286450" TEXT="DownscalingVariables">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#990099" CREATED="1274083183709" ID="Freemind_Link_67479211" MODIFIED="1359748085723" TEXT="&quot;Predictors&quot;? LargeScaleVariables">
+<node COLOR="#990099" CREATED="1274083183709" ID="Freemind_Link_1279593643" MODIFIED="1363382380671" TEXT="Local Predictands">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_897930087" MODIFIED="1288884153858" TEXT="PredictorOriginType">
+<node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_1803311756" MODIFIED="1363384399195" TEXT="CalibrationPredictandOriginType">
+<font NAME="SansSerif" SIZE="14"/>
+<node CREATED="1274083363905" ID="Freemind_Link_313502486" MODIFIED="1285333088526" STYLE="fork" TEXT="station">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1274083363905" ID="Freemind_Link_851762638" MODIFIED="1285333099409" STYLE="fork" TEXT="gridded observations">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1274083363905" ID="Freemind_Link_1071892402" MODIFIED="1285333112896" STYLE="fork" TEXT="satellite">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1274083363905" ID="Freemind_Link_594680968" MODIFIED="1363384442331" STYLE="fork" TEXT="GCM">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1274083363905" ID="Freemind_Link_47870824" MODIFIED="1363384805682" STYLE="fork" TEXT="other">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1363384547479" ID="Freemind_Link_1377011933" MODIFIED="1363384628527" TEXT="documentaion: If the origin type is &quot;GCM,&quot; then this refers to a high-resolution GCM used in perfect model experiments."/>
+</node>
+<node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_704981312" MODIFIED="1363384887201" TEXT="CalibrationPredictandOriginName">
+<font NAME="SansSerif" SIZE="14"/>
+<node CREATED="1274083363905" ID="Freemind_Link_1999752568" MODIFIED="1285332981529" STYLE="fork" TEXT="">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="pencil"/>
+</node>
+<node CREATED="1363385536705" ID="Freemind_Link_1650783643" MODIFIED="1363385901319" TEXT="NCPP: we may want to replace this with an open enumeration"/>
+<node CREATED="1363385901755" ID="Freemind_Link_1716332905" MODIFIED="1363386008679" TEXT="documentation: if the origin type is &quot;station&quot;, then the specific stations will be defined in the simulation, this name refers to the preferred dataset (if it exists).  If the origin type is &quot;GCM,&quot; this name refers to the GCM run idientified as specifically as possible."/>
+</node>
+<node COLOR="#996600" CREATED="1274083183709" HGAP="36" ID="Freemind_Link_1724943888" MODIFIED="1363387640951" TEXT="PredictandDataSubset" VSHIFT="8">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#000000" CREATED="1274083330956" ID="Freemind_Link_1689372410" MODIFIED="1285332750890" STYLE="fork" TEXT="CLIMPACT: added">
+<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="idea"/>
+</node>
+<node CREATED="1274083363905" ID="Freemind_Link_327450619" MODIFIED="1286458079249" STYLE="fork" TEXT="extremes only">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1274083363905" ID="Freemind_Link_219714777" MODIFIED="1285332381795" STYLE="fork" TEXT="all data">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1274083363905" ID="Freemind_Link_1439733249" MODIFIED="1286458030202" STYLE="fork" TEXT="no extremes">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+</node>
+<node COLOR="#996600" CREATED="1274083183709" HGAP="34" ID="Freemind_Link_1234364823" MODIFIED="1363385255910" TEXT="PredictandFrequency" VSHIFT="7">
+<font NAME="SansSerif" SIZE="14"/>
+<node CREATED="1274083363905" FOLDED="true" ID="Freemind_Link_525073865" MODIFIED="1286460931200" STYLE="fork" TEXT="monthly">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+<node COLOR="#000000" CREATED="1274083330956" ID="Freemind_Link_671790487" MODIFIED="1285332750890" STYLE="fork" TEXT="CLIMPACT: added">
+<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="idea"/>
+</node>
+</node>
+<node CREATED="1274083363905" ID="Freemind_Link_1016499275" MODIFIED="1274110207561" STYLE="fork" TEXT="daily">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1274083363905" ID="Freemind_Link_1404589256" MODIFIED="1274113732460" STYLE="fork" TEXT="hourly">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1274083363905" ID="Freemind_Link_1888401254" MODIFIED="1274110223565" STYLE="fork" TEXT="other">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+</node>
+<node COLOR="#996600" CREATED="1274083183709" HGAP="38" ID="Freemind_Link_1069728295" MODIFIED="1363386753781" TEXT="PredictandVariables" VSHIFT="11">
+<font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Local surface variables.[/definition]</text>
+</hook>
+<node CREATED="1274083363905" FOLDED="true" ID="Freemind_Link_1426939729" MODIFIED="1274105346984" STYLE="fork" TEXT="precipitation">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+<node CREATED="1276676189985" ID="Freemind_Link_982046530" MODIFIED="1277138141366" TEXT="DSCLIM">
+<font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="12"/>
+<icon BUILTIN="back"/>
+</node>
+</node>
+<node CREATED="1274083363905" ID="Freemind_Link_688270388" MODIFIED="1363387025321" STYLE="fork" TEXT="t_average">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1274083363905" ID="Freemind_Link_173419910" MODIFIED="1363387021322" STYLE="fork" TEXT="t_min">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1274083363905" ID="Freemind_Link_526366104" MODIFIED="1363387013543" STYLE="fork" TEXT="t_max">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1274083363905" ID="Freemind_Link_1723788350" MODIFIED="1363387044389" STYLE="fork" TEXT="wind speed">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1274083363905" ID="Freemind_Link_1358414307" MODIFIED="1363387078907" STYLE="fork" TEXT="relative humidity">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1274083363905" ID="Freemind_Link_740525671" MODIFIED="1363387065685" STYLE="fork" TEXT="specific humidity">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1274083363905" ID="Freemind_Link_1566950307" MODIFIED="1274083834267" STYLE="fork" TEXT="other">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1274083330956" ID="Freemind_Link_263574177" MODIFIED="1363386778897" STYLE="fork" TEXT="mariepierre: make this list different according to the MethodFamily? ncpp: no.">
+<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="help"/>
+</node>
+</node>
+</node>
+<node COLOR="#990099" CREATED="1274083183709" FOLDED="true" ID="Freemind_Link_67479211" MODIFIED="1363382411579" TEXT="Large Scale Predictors">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_897930087" MODIFIED="1363383684994" TEXT="CalibrationPredictorOriginType" VSHIFT="31">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#000000" CREATED="1274083330956" ID="Freemind_Link_712238376" MODIFIED="1288884189566" STYLE="fork" TEXT="CLIMPACT: splitted into different types">
 <font ITALIC="true" NAME="SansSerif" SIZE="14"/>
@@ -360,10 +511,11 @@
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
+<node CREATED="1363383424317" ID="Freemind_Link_494989289" MODIFIED="1363383453079" TEXT="NCPP: the GCM&apos;s that were used will be described in simulation::downscaledFrom"/>
 </node>
-<node COLOR="#0033ff" CREATED="1274083183709" FOLDED="true" ID="Freemind_Link_1471741414" MODIFIED="1289208883570" TEXT="if PredictorOriginType is &quot;analysis/reanalysis&quot;">
+<node COLOR="#0033ff" CREATED="1274083183709" ID="Freemind_Link_1471741414" MODIFIED="1363383613290" TEXT="if CalibrationPredictorPredictorOriginType is &quot;analysis/reanalysis&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1274083183709" FOLDED="true" ID="Freemind_Link_1971068097" MODIFIED="1285332908994" TEXT="AnalysisName">
+<node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_1971068097" MODIFIED="1285332908994" TEXT="AnalysisName">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1274083363905" ID="Freemind_Link_1179428577" MODIFIED="1285332672957" STYLE="fork" TEXT="NCEP1">
 <font NAME="SansSerif" SIZE="14"/>
@@ -391,19 +543,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1274083183709" FOLDED="true" ID="Freemind_Link_479686789" MODIFIED="1289208896759" TEXT="if PredictorOriginType is &quot;GCM&quot;">
+<node COLOR="#0033ff" CREATED="1274083183709" ID="Freemind_Link_523396500" MODIFIED="1289208906642" TEXT="if PredictorOiginType is &quot;satellite&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1274083183709" FOLDED="true" ID="Freemind_Link_978684692" MODIFIED="1285333014858" TEXT="GCM-Name">
-<font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1274083363905" ID="Freemind_Link_1455465251" MODIFIED="1285332981529" STYLE="fork" TEXT="">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="pencil"/>
-</node>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1274083183709" FOLDED="true" ID="Freemind_Link_523396500" MODIFIED="1289208906642" TEXT="if PredictorOiginType is &quot;satellite&quot;">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1274083183709" FOLDED="true" ID="Freemind_Link_1049383901" MODIFIED="1285333007845" TEXT="SatelliteName">
+<node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_1049383901" MODIFIED="1285333007845" TEXT="SatelliteName">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1274083363905" ID="Freemind_Link_1459126648" MODIFIED="1285332981529" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
@@ -530,184 +672,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1274083183709" FOLDED="true" ID="Freemind_Link_1279593643" MODIFIED="1360349094786" TEXT="&quot;Predictands&quot;? LocalVariables">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_1803311756" MODIFIED="1289209074974" TEXT="PredictandOriginType">
-<font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1274083363905" ID="Freemind_Link_313502486" MODIFIED="1285333088526" STYLE="fork" TEXT="station">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node CREATED="1274083363905" ID="Freemind_Link_851762638" MODIFIED="1285333099409" STYLE="fork" TEXT="gridded observations">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node CREATED="1274083363905" ID="Freemind_Link_1071892402" MODIFIED="1285333112896" STYLE="fork" TEXT="satellite">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1274083183709" ID="Freemind_Link_1950358758" MODIFIED="1289209086167" TEXT="if PredictandOriginType is &quot;station&quot;">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_1165063088" MODIFIED="1285333139492" TEXT="StationName">
-<font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1274083363905" ID="Freemind_Link_1656616568" MODIFIED="1285332981529" STYLE="fork" TEXT="">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="pencil"/>
-</node>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1274083183709" ID="Freemind_Link_256446570" MODIFIED="1289209093787" TEXT="if PredictandOriginType is &quot;gridded observation&quot;">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_575926935" MODIFIED="1285333192899" TEXT="GriddedObsName">
-<font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1274083363905" ID="Freemind_Link_1246358827" MODIFIED="1285332981529" STYLE="fork" TEXT="">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="pencil"/>
-</node>
-</node>
-</node>
-<node COLOR="#0033ff" CREATED="1274083183709" ID="Freemind_Link_1876808352" MODIFIED="1289209103810" TEXT="if PredictandOriginType is &quot;satellite&quot;">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_1433197388" MODIFIED="1285333007845" TEXT="SatelliteName">
-<font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1274083363905" ID="Freemind_Link_1699191030" MODIFIED="1285332981529" STYLE="fork" TEXT="">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="pencil"/>
-</node>
-</node>
-</node>
-<node COLOR="#996600" CREATED="1276003745125" ID="Freemind_Link_764992923" MODIFIED="1289209298296" TEXT="Name">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="messagebox_warning"/>
-<node CREATED="1274083363905" ID="Freemind_Link_666758904" MODIFIED="1286458153598" STYLE="fork" TEXT="SAFRAN mesoscale analysis">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-<icon BUILTIN="messagebox_warning"/>
-<node COLOR="#000000" CREATED="1274083330956" ID="Freemind_Link_1116540322" MODIFIED="1285333258123" STYLE="fork" TEXT="CLIMPACT: too much specific and non-public data">
-<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="idea"/>
-</node>
-</node>
-<node CREATED="1274083363905" ID="Freemind_Link_1673591637" MODIFIED="1286458153598" STYLE="fork" TEXT="ECA network">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-<icon BUILTIN="messagebox_warning"/>
-<node COLOR="#000000" CREATED="1274083330956" ID="Freemind_Link_70279685" MODIFIED="1285333258123" STYLE="fork" TEXT="CLIMPACT: too much specific and non-public data">
-<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="idea"/>
-</node>
-</node>
-<node CREATED="1274083363905" ID="Freemind_Link_1614515349" MODIFIED="1286458163894" STYLE="fork" TEXT="other">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-</node>
-<node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_1724943888" MODIFIED="1285332422182" TEXT="PredictandType">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#000000" CREATED="1274083330956" ID="Freemind_Link_1689372410" MODIFIED="1285332750890" STYLE="fork" TEXT="CLIMPACT: added">
-<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="idea"/>
-</node>
-<node CREATED="1274083363905" ID="Freemind_Link_327450619" MODIFIED="1286458079249" STYLE="fork" TEXT="extremes only">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node CREATED="1274083363905" ID="Freemind_Link_219714777" MODIFIED="1285332381795" STYLE="fork" TEXT="all data">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node CREATED="1274083363905" ID="Freemind_Link_1439733249" MODIFIED="1286458030202" STYLE="fork" TEXT="no extremes">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-</node>
-<node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_1069728295" MODIFIED="1274102450108" TEXT="Predictands">
-<font NAME="SansSerif" SIZE="14"/>
-<hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Local surface variables.[/definition]</text>
-</hook>
-<node CREATED="1274083363905" FOLDED="true" ID="Freemind_Link_1426939729" MODIFIED="1274105346984" STYLE="fork" TEXT="precipitation">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-<node CREATED="1276676189985" ID="Freemind_Link_982046530" MODIFIED="1277138141366" TEXT="DSCLIM">
-<font BOLD="true" ITALIC="true" NAME="SansSerif" SIZE="12"/>
-<icon BUILTIN="back"/>
-</node>
-</node>
-<node CREATED="1274083363905" ID="Freemind_Link_526366104" MODIFIED="1274105342843" STYLE="fork" TEXT="temperature">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node CREATED="1274083363905" FOLDED="true" ID="Freemind_Link_1723788350" MODIFIED="1286463497505" STYLE="fork" TEXT="wind speed norm">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-<node COLOR="#000000" CREATED="1274083330956" ID="Freemind_Link_1289599497" MODIFIED="1285331406912" STYLE="fork" TEXT="CLIMPACT: added">
-<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="idea"/>
-</node>
-</node>
-<node CREATED="1274083363905" ID="Freemind_Link_1566950307" MODIFIED="1274083834267" STYLE="fork" TEXT="other">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node CREATED="1274083330956" ID="Freemind_Link_263574177" MODIFIED="1286459370425" STYLE="fork" TEXT="mariepierre: make this list different according to the MethodFamily?">
-<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="help"/>
-</node>
-</node>
-<node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_1234364823" MODIFIED="1274110196399" TEXT="PredictandFrequency">
-<font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1274083363905" FOLDED="true" ID="Freemind_Link_525073865" MODIFIED="1286460931200" STYLE="fork" TEXT="monthly">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-<node COLOR="#000000" CREATED="1274083330956" ID="Freemind_Link_671790487" MODIFIED="1285332750890" STYLE="fork" TEXT="CLIMPACT: added">
-<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="idea"/>
-</node>
-</node>
-<node CREATED="1274083363905" ID="Freemind_Link_1016499275" MODIFIED="1274110207561" STYLE="fork" TEXT="daily">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node CREATED="1274083363905" ID="Freemind_Link_1404589256" MODIFIED="1274113732460" STYLE="fork" TEXT="hourly">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node CREATED="1274083363905" ID="Freemind_Link_1888401254" MODIFIED="1274110223565" STYLE="fork" TEXT="other">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-</node>
-<node COLOR="#996600" CREATED="1274083183709" FOLDED="true" ID="Freemind_Link_1521238775" MODIFIED="1274178305842" TEXT="Muti-SitePredictand">
-<font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1274083363905" ID="Freemind_Link_1412169370" MODIFIED="1274105378017" STYLE="fork" TEXT="yes">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node CREATED="1274083363905" ID="Freemind_Link_127053009" MODIFIED="1274105382741" STYLE="fork" TEXT="no">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-</node>
-<node COLOR="#996600" CREATED="1274083183709" FOLDED="true" ID="Freemind_Link_1798882507" MODIFIED="1289209303506" TEXT="Multi-VariatePredictand">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="messagebox_warning"/>
-<node CREATED="1274083363905" ID="Freemind_Link_140607715" MODIFIED="1274105378017" STYLE="fork" TEXT="yes">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node CREATED="1274083363905" ID="Freemind_Link_1043663246" MODIFIED="1274105382741" STYLE="fork" TEXT="no">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node CREATED="1274083330956" ID="Freemind_Link_1679957099" MODIFIED="1286460315031" STYLE="fork" TEXT="mariepierre: if there is sevaral predictors, Predictand result from a &quot;multi-variate&quot; analysis, Right? If implicit, then this parameter is not necessary...">
-<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="help"/>
-</node>
-</node>
-</node>
-<node COLOR="#990099" CREATED="1276003690723" ID="Freemind_Link_1953268810" MODIFIED="1289303019839" TEXT="ProcessingSteps">
+<node COLOR="#990099" CREATED="1276003690723" FOLDED="true" ID="Freemind_Link_1953268810" MODIFIED="1289303019839" TEXT="ProcessingSteps">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#000000" CREATED="1274083330956" ID="Freemind_Link_1601192666" MODIFIED="1360349659922" STYLE="fork" TEXT="NCPP: Not Needed?">
 <font ITALIC="true" NAME="SansSerif" SIZE="14"/>
@@ -914,7 +879,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1274083274057" ID="Freemind_Link_100387067" MODIFIED="1288879468125" STYLE="bubble" TEXT="if ClassificationMethod has &quot;clustering&quot;">
+<node COLOR="#0033ff" CREATED="1274083274057" FOLDED="true" ID="Freemind_Link_100387067" MODIFIED="1288879468125" STYLE="bubble" TEXT="if ClassificationMethod has &quot;clustering&quot;">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1274083313167" FOLDED="true" ID="Freemind_Link_939182826" MODIFIED="1288879345727" TEXT="ClusterNumType">
 <font NAME="SansSerif" SIZE="14"/>
