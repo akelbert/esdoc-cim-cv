@@ -7,7 +7,7 @@
 <node COLOR="#990099" CREATED="1274083183709" ID="Freemind_Link_956360077" MODIFIED="1362175559602" TEXT="StatisticalDownscaling_KeyProperties">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
-<node COLOR="#990099" CREATED="1276003690723" ID="Freemind_Link_1728846463" MODIFIED="1359395185304" TEXT="Method">
+<node COLOR="#990099" CREATED="1276003690723" HGAP="110" ID="Freemind_Link_1728846463" MODIFIED="1363983333279" TEXT="Method" VSHIFT="51">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_192809526" MODIFIED="1362171877828" TEXT="MauranClassificationType">
 <font NAME="SansSerif" SIZE="14"/>
@@ -29,7 +29,7 @@
 </node>
 <node CREATED="1362172010726" ID="Freemind_Link_46993424" MODIFIED="1362172106669" TEXT="The MauranClassificationType is a classification following the system used by Maraun et. al. Reviews of Geophysics, 2010."/>
 </node>
-<node COLOR="#996600" CREATED="1274083183709" FOLDED="true" ID="Freemind_Link_1307798977" MODIFIED="1360358332682" TEXT="MethodType">
+<node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_1307798977" MODIFIED="1360358332682" TEXT="MethodType">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1274083217782" ID="Freemind_Link_1524458789" MODIFIED="1286462651580" STYLE="fork" TEXT="weather typing">
 <font NAME="SansSerif" SIZE="14"/>
@@ -174,7 +174,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1276003690723" FOLDED="true" ID="Freemind_Link_675476867" MODIFIED="1359747452930" TEXT="MethodPhases">
+<node COLOR="#990099" CREATED="1276003690723" ID="Freemind_Link_675476867" MODIFIED="1359747452930" TEXT="MethodPhases">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1274083313167" ID="Freemind_Link_721480308" MODIFIED="1359747561952" TEXT="LearningPeriod (&quot;Calibration Period&quot;?)">
 <edge WIDTH="thin"/>
@@ -194,6 +194,10 @@
 </node>
 </node>
 </node>
+<node COLOR="#990099" CREATED="1274083313167" HGAP="25" ID="Freemind_Link_142285060" MODIFIED="1363383318117" TEXT="ValidationPeriod" VSHIFT="6">
+<edge WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 <node COLOR="#990099" CREATED="1274083313167" ID="Freemind_Link_123403292" MODIFIED="1285332283235" TEXT="ApplicationPeriod">
 <edge WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
@@ -212,12 +216,8 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1274083313167" HGAP="25" ID="Freemind_Link_142285060" MODIFIED="1363383318117" TEXT="ValidationPeriod" VSHIFT="6">
-<edge WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="14"/>
 </node>
-</node>
-<node COLOR="#990099" CREATED="1276003690723" FOLDED="true" ID="Freemind_Link_719256564" MODIFIED="1363383301514" TEXT="ProcessingSteps" VSHIFT="31">
+<node COLOR="#990099" CREATED="1276003690723" ID="Freemind_Link_719256564" MODIFIED="1363383301514" TEXT="ProcessingSteps" VSHIFT="31">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1274083313167" ID="Freemind_Link_750672234" MODIFIED="1360349571610" TEXT="&quot;Main&quot;">
 <edge WIDTH="thin"/>
@@ -273,6 +273,14 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
+<node COLOR="#996600" CREATED="1274083313167" ID="Freemind_Link_400747371" MODIFIED="1363984836706" TEXT="ApplicationAdditionalSteps">
+<font NAME="SansSerif" SIZE="14"/>
+<node CREATED="1363984596871" ID="Freemind_Link_1707344763" MODIFIED="1363984615181" TEXT="was anything done differently than in the other phases"/>
+<node CREATED="1274083363905" ID="Freemind_Link_1614582457" MODIFIED="1288884287786" STYLE="fork" TEXT="">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="pencil"/>
+</node>
+</node>
 <node COLOR="#996600" CREATED="1274083313167" ID="Freemind_Link_708631586" MODIFIED="1362175963446" TEXT="bias_correction">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="ksmiletris"/>
@@ -294,7 +302,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1274083313167" ID="Freemind_Link_1161476640" MODIFIED="1289209252697" TEXT="PreProcessing">
+<node COLOR="#990099" CREATED="1274083313167" FOLDED="true" ID="Freemind_Link_1161476640" MODIFIED="1289209252697" TEXT="PreProcessing">
 <edge WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_1052453138" MODIFIED="1288879708820" TEXT="Filtering">
@@ -361,9 +369,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1276003631167" ID="Freemind_Link_9667563" MODIFIED="1289303286450" TEXT="DownscalingVariables">
+<node COLOR="#990099" CREATED="1276003631167" HGAP="97" ID="Freemind_Link_9667563" MODIFIED="1363982869356" TEXT="DownscalingVariables" VSHIFT="61">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#990099" CREATED="1274083183709" ID="Freemind_Link_1279593643" MODIFIED="1363382380671" TEXT="Local Predictands">
+<node COLOR="#990099" CREATED="1274083183709" FOLDED="true" ID="Freemind_Link_1279593643" MODIFIED="1363382380671" TEXT="Local Predictands">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_1803311756" MODIFIED="1363384399195" TEXT="CalibrationPredictandOriginType">
 <font NAME="SansSerif" SIZE="14"/>
@@ -672,7 +680,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1276003690723" FOLDED="true" ID="Freemind_Link_1953268810" MODIFIED="1289303019839" TEXT="ProcessingSteps">
+<node COLOR="#990099" CREATED="1276003690723" ID="Freemind_Link_1953268810" MODIFIED="1289303019839" TEXT="ProcessingSteps">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#000000" CREATED="1274083330956" ID="Freemind_Link_1601192666" MODIFIED="1360349659922" STYLE="fork" TEXT="NCPP: Not Needed?">
 <font ITALIC="true" NAME="SansSerif" SIZE="14"/>
@@ -743,6 +751,7 @@
 </node>
 </node>
 </node>
+<node CREATED="1363983230664" ID="Freemind_Link_786634527" MODIFIED="1363983301519" TEXT="should we copy &quot;main&quot; here (in case we hope to force users to describe method details completely at the variable level)?&#xa;"/>
 </node>
 </node>
 <node COLOR="#990099" CREATED="1276003690723" ID="Freemind_Link_1128726576" MODIFIED="1289208670450" TEXT="Region">
