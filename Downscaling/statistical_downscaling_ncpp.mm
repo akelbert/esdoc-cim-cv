@@ -4,7 +4,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#000000" CREATED="1274083152242" ID="_" MODIFIED="1289207973498" POSITION="right" STYLE="bubble" TEXT="StatisticalDowscaling">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990099" CREATED="1274083183709" FOLDED="true" ID="Freemind_Link_956360077" MODIFIED="1382070111331" TEXT="StatisticalDownscaling_KeyProperties">
+<node COLOR="#990099" CREATED="1274083183709" ID="Freemind_Link_956360077" MODIFIED="1382070111331" TEXT="StatisticalDownscaling_KeyProperties">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1276003690723" HGAP="110" ID="Freemind_Link_1728846463" MODIFIED="1363983333279" TEXT="Method" VSHIFT="51">
 <font NAME="SansSerif" SIZE="14"/>
@@ -82,7 +82,7 @@
 <node CREATED="1362171957783" ID="Freemind_Link_1397490755" MODIFIED="1362172002542" TEXT="The MethodType describes the statistical core of the specific method."/>
 <node BACKGROUND_COLOR="#ff3366" CREATED="1362171957783" ID="Freemind_Link_481071495" MODIFIED="1382070337188" TEXT="there may be more/less values to put here"/>
 </node>
-<node COLOR="#996600" CREATED="1274083183709" FOLDED="true" ID="Freemind_Link_1382649634" MODIFIED="1382050381073" TEXT="DevelopedForExtremes">
+<node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_1382649634" MODIFIED="1382050381073" TEXT="DevelopedForExtremes">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1274083363905" ID="Freemind_Link_83981682" MODIFIED="1382048949556" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
@@ -93,38 +93,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_1160299196" MODIFIED="1382070797668" TEXT="SpatialApplication">
-<font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1274083363905" ID="Freemind_Link_1837705782" MODIFIED="1362418362562" STYLE="fork" TEXT="station">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node CREATED="1274083363905" ID="Freemind_Link_603757741" MODIFIED="1362418374102" STYLE="fork" TEXT="gridded">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node BACKGROUND_COLOR="#ff3366" CREATED="1362171957783" ID="Freemind_Link_623085614" MODIFIED="1382070846994" TEXT="shouldn&apos;t this be XOR?"/>
-</node>
-<node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_1978268949" MODIFIED="1382070799474" TEXT="TemporalApplication">
-<font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1274083363905" ID="Freemind_Link_1509103829" MODIFIED="1382070810764" STYLE="fork" TEXT="monthly">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node CREATED="1274083363905" ID="Freemind_Link_1472403079" MODIFIED="1382070811441" STYLE="fork" TEXT="seasonal">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node CREATED="1274083363905" ID="Freemind_Link_1295538623" MODIFIED="1382070812128" STYLE="fork" TEXT="annual">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-<node CREATED="1274083363905" ID="Freemind_Link_946922015" MODIFIED="1382070812805" STYLE="fork" TEXT="other">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_cancel"/>
-</node>
-</node>
-<node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_1521238775" MODIFIED="1363387252242" TEXT="Muti-SiteMethod">
+<node COLOR="#996600" CREATED="1274083183709" FOLDED="true" ID="Freemind_Link_1521238775" MODIFIED="1363387252242" TEXT="Muti-SiteMethod">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1274083363905" ID="Freemind_Link_1412169370" MODIFIED="1274105378017" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
@@ -135,7 +104,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_1798882507" MODIFIED="1382070878620" TEXT="MultiVariateOutput">
+<node COLOR="#996600" CREATED="1274083183709" FOLDED="true" ID="Freemind_Link_1798882507" MODIFIED="1382070878620" TEXT="MultiVariateOutput">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1274083363905" ID="Freemind_Link_140607715" MODIFIED="1274105378017" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
@@ -150,7 +119,7 @@
 <icon BUILTIN="help"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_652742434" MODIFIED="1382070882664" TEXT="Predictor-PredictandRelationship" VSHIFT="55">
+<node COLOR="#996600" CREATED="1274083183709" FOLDED="true" ID="Freemind_Link_652742434" MODIFIED="1382070882664" TEXT="Predictor-PredictandRelationship" VSHIFT="55">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1274083363905" ID="Freemind_Link_1766748001" MODIFIED="1382052775322" STYLE="fork" TEXT="preserving correlations among predictands">
 <font NAME="SansSerif" SIZE="14"/>
@@ -270,11 +239,10 @@
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="pencil"/>
 </node>
-<node CREATED="1363984596871" ID="Freemind_Link_1843635654" MODIFIED="1382052903317" TEXT="For example, BCCA used even numbered years for calibration and odd numbered years for validation"/>
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1276003690723" ID="Freemind_Link_719256564" MODIFIED="1363383301514" TEXT="ProcessingSteps" VSHIFT="31">
+<node COLOR="#990099" CREATED="1276003690723" FOLDED="true" ID="Freemind_Link_719256564" MODIFIED="1363383301514" TEXT="ProcessingSteps" VSHIFT="31">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1274083313167" ID="Freemind_Link_750672234" MODIFIED="1360349571610" TEXT="&quot;Main&quot;">
 <edge WIDTH="thin"/>
@@ -338,9 +306,8 @@
 <icon BUILTIN="pencil"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1274083313167" ID="Freemind_Link_708631586" MODIFIED="1362175963446" TEXT="bias_correction">
+<node COLOR="#996600" CREATED="1274083313167" ID="Freemind_Link_708631586" MODIFIED="1382120945084" TEXT="bias_correction">
 <font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="ksmiletris"/>
 <node CREATED="1274083217782" ID="Freemind_Link_1985791480" MODIFIED="1362176106938" STYLE="fork" TEXT="Quantile Mapping">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
@@ -427,13 +394,76 @@
 <node BACKGROUND_COLOR="#ff3366" CREATED="1382070922930" ID="Freemind_Link_1985814289" MODIFIED="1382070945546" TEXT="still todo"/>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1276003690723" ID="Freemind_Link_1128726576" MODIFIED="1382053143802" TEXT="RegionDevelopedFor">
+<node COLOR="#990099" CREATED="1276003690723" ID="Freemind_Link_1962387080" MODIFIED="1382121356940" TEXT="SpatialApplication">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_1160299196" MODIFIED="1382121510479" TEXT="OutputDataType">
+<font NAME="SansSerif" SIZE="14"/>
+<node CREATED="1274083363905" ID="Freemind_Link_1837705782" MODIFIED="1362418362562" STYLE="fork" TEXT="station">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1274083363905" ID="Freemind_Link_603757741" MODIFIED="1362418374102" STYLE="fork" TEXT="gridded">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1274083274057" ID="Freemind_Link_204241259" MODIFIED="1382121547951" STYLE="bubble" TEXT="If OutputDataType is &quot;gridded&quot;">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#996600" CREATED="1274083313167" ID="Freemind_Link_991119955" MODIFIED="1382121555948" TEXT="Resolution">
+<font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Fisrt classification algorithm used to derive the weather types over the learning period (past period).[/definition)</text>
+</hook>
+<node CREATED="1274083363905" ID="Freemind_Link_882079958" MODIFIED="1382121580271" STYLE="fork" TEXT="">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-1"/>
+</node>
+</node>
+</node>
+<node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_1789126176" MODIFIED="1382121567047" TEXT="RegionDevelopedFor">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1274083363905" ID="Freemind_Link_1918362349" MODIFIED="1360349609792" STYLE="fork" TEXT="free-text description">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="pencil"/>
 </node>
-<node CREATED="1363984596871" ID="Freemind_Link_1734018716" MODIFIED="1382053204766" TEXT="For example,BCSD was developed for the US."/>
+<node CREATED="1363984596871" ID="Freemind_Link_120170974" MODIFIED="1382053204766" TEXT="For example,BCSD was developed for the US."/>
+</node>
+</node>
+<node COLOR="#990099" CREATED="1276003690723" ID="Freemind_Link_1348669047" MODIFIED="1382121365136" TEXT="TemporalApplication">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_1978268949" MODIFIED="1382121701647" TEXT="Scale">
+<font NAME="SansSerif" SIZE="14"/>
+<node CREATED="1274083363905" ID="Freemind_Link_1509103829" MODIFIED="1382070810764" STYLE="fork" TEXT="monthly">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1274083363905" ID="Freemind_Link_1472403079" MODIFIED="1382070811441" STYLE="fork" TEXT="seasonal">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1274083363905" ID="Freemind_Link_1295538623" MODIFIED="1382070812128" STYLE="fork" TEXT="annual">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1274083363905" ID="Freemind_Link_946922015" MODIFIED="1382070812805" STYLE="fork" TEXT="other">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1274083274057" ID="Freemind_Link_570625315" MODIFIED="1382121735723" STYLE="bubble" TEXT="if Scale is &quot;seasonal&quot;">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#996600" CREATED="1274083313167" ID="Freemind_Link_281447578" MODIFIED="1382121760138" TEXT="NamesOfSeasons">
+<font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Fisrt classification algorithm used to derive the weather types over the learning period (past period).[/definition)</text>
+</hook>
+<node CREATED="1274083363905" ID="Freemind_Link_306769168" MODIFIED="1360349609792" STYLE="fork" TEXT="free-text description">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="pencil"/>
+</node>
+<node CREATED="1363984596871" ID="Freemind_Link_1768685398" MODIFIED="1382121820313" TEXT="Three letter list of months used (for example, JFM)"/>
+</node>
+</node>
 </node>
 </node>
 <node COLOR="#990099" CREATED="1276003631167" HGAP="97" ID="Freemind_Link_9667563" MODIFIED="1382044146644" TEXT="Variables" VSHIFT="61">
@@ -656,7 +686,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1274083183709" ID="Freemind_Link_67479211" MODIFIED="1363382411579" TEXT="Large Scale Predictors">
+<node COLOR="#990099" CREATED="1274083183709" FOLDED="true" ID="Freemind_Link_67479211" MODIFIED="1363382411579" TEXT="Large Scale Predictors">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_897930087" MODIFIED="1363383684994" TEXT="CalibrationPredictorOriginType" VSHIFT="31">
 <font NAME="SansSerif" SIZE="14"/>
