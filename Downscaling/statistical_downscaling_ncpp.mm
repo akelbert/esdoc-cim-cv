@@ -92,7 +92,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1274083183709" FOLDED="true" ID="Freemind_Link_1798882507" MODIFIED="1382070878620" TEXT="MultiVariateOutput">
+<node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_1798882507" MODIFIED="1382070878620" TEXT="MultiVariateOutput">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1274083363905" ID="Freemind_Link_140607715" MODIFIED="1274105378017" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
@@ -102,27 +102,38 @@
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1274083330956" ID="Freemind_Link_1679957099" MODIFIED="1286460315031" STYLE="fork" TEXT="mariepierre: if there is sevaral predictors, Predictand result from a &quot;multi-variate&quot; analysis, Right? If implicit, then this parameter is not necessary...">
-<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="help"/>
 </node>
-</node>
-<node COLOR="#996600" CREATED="1274083183709" FOLDED="true" ID="Freemind_Link_652742434" MODIFIED="1382070882664" TEXT="Predictor-PredictandRelationship" VSHIFT="55">
+<node COLOR="#0033ff" CREATED="1274083274057" ID="Freemind_Link_1985702491" MODIFIED="1382123270963" STYLE="bubble" TEXT="if MultiVariateOutput is &quot;yes&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1274083363905" ID="Freemind_Link_1766748001" MODIFIED="1382052775322" STYLE="fork" TEXT="preserving correlations among predictands">
+<node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_296326326" MODIFIED="1382123490621" TEXT="CorrelationsAmongPredictands">
+<font NAME="SansSerif" SIZE="14"/>
+<node CREATED="1274083363905" ID="Freemind_Link_1239695109" MODIFIED="1382123547155" STYLE="fork" TEXT="method preserves correlations among predictands">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1274083363905" ID="Freemind_Link_1085461155" MODIFIED="1382123535876" STYLE="fork" TEXT="method developed independently for each predictand">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1274083363905" ID="Freemind_Link_1866575541" MODIFIED="1382123554898" STYLE="fork" TEXT="other">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+</node>
+</node>
+<node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_652742434" MODIFIED="1382070882664" TEXT="Predictor-PredictandRelationship" VSHIFT="55">
+<font NAME="SansSerif" SIZE="14"/>
+<node CREATED="1274083363905" ID="Freemind_Link_1766748001" MODIFIED="1382123340093" STYLE="fork" TEXT="homogeneous">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1274083363905" ID="Freemind_Link_1763235917" MODIFIED="1382052717392" STYLE="fork" TEXT="developed separately for each predictand">
+<node CREATED="1274083363905" ID="Freemind_Link_1763235917" MODIFIED="1382123347706" STYLE="fork" TEXT="heterogeneous">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1274083363905" ID="Freemind_Link_288022549" MODIFIED="1274083834267" STYLE="fork" TEXT="other">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
+<node CREATED="1363984596871" ID="Freemind_Link_267850159" MODIFIED="1382123451822" TEXT="Where homegeneous implies surface predictors to surface predictands (as in Rummukainen 1997) and heterogeneous implies upper-air predictors to surface predictands."/>
 </node>
-</node>
-<node COLOR="#990099" CREATED="1276003690723" ID="Freemind_Link_675476867" MODIFIED="1359747452930" TEXT="MethodPhases">
+<node COLOR="#990099" CREATED="1276003690723" FOLDED="true" ID="Freemind_Link_675476867" MODIFIED="1359747452930" TEXT="MethodPhases">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1274083313167" ID="Freemind_Link_721480308" MODIFIED="1359747561952" TEXT="LearningPeriod (&quot;Calibration Period&quot;?)">
 <edge WIDTH="thin"/>
@@ -397,7 +408,7 @@
 </node>
 <node COLOR="#0033ff" CREATED="1274083274057" ID="Freemind_Link_204241259" MODIFIED="1382121547951" STYLE="bubble" TEXT="If OutputDataType is &quot;gridded&quot;">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1274083313167" ID="Freemind_Link_991119955" MODIFIED="1382121555948" TEXT="Resolution">
+<node COLOR="#996600" CREATED="1274083313167" ID="Freemind_Link_991119955" MODIFIED="1382123668010" TEXT="GridResolution">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Fisrt classification algorithm used to derive the weather types over the learning period (past period).[/definition)</text>
