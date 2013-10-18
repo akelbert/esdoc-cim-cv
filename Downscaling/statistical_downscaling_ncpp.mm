@@ -39,7 +39,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1274083217782" ID="Freemind_Link_1232459457" MODIFIED="1382070241315" STYLE="fork" TEXT="delta method">
+<node CREATED="1274083217782" ID="Freemind_Link_1580898772" MODIFIED="1382122691793" STYLE="fork" TEXT="change factor (including delta)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
@@ -47,31 +47,19 @@
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1274083217782" ID="Freemind_Link_1580898772" MODIFIED="1382070225853" STYLE="fork" TEXT="change factor">
+<node CREATED="1274083217782" ID="Freemind_Link_865566862" MODIFIED="1382122098118" STYLE="fork" TEXT="scaling bias correction">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1274083217782" ID="Freemind_Link_865566862" MODIFIED="1382070229560" STYLE="fork" TEXT="scaling">
+<node CREATED="1274083363905" ID="Freemind_Link_1045297357" MODIFIED="1382122742857" STYLE="fork" TEXT="interpolation">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1274083217782" ID="Freemind_Link_639565059" MODIFIED="1382070233613" STYLE="fork" TEXT="classification and regression trees (CART)">
+<node CREATED="1274083363905" ID="Freemind_Link_1371553220" MODIFIED="1382122750480" STYLE="fork" TEXT="weather generator">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1274083363905" FOLDED="true" ID="Freemind_Link_1237397273" MODIFIED="1382070255299" STYLE="fork" TEXT="self-organizing map">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-<node COLOR="#000000" CREATED="1274083330956" ID="Freemind_Link_356200929" MODIFIED="1286463510890" STYLE="fork" TEXT="mariepierre: in Wilby 2004. No details given...">
-<font ITALIC="true" NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="help"/>
-</node>
-</node>
-<node CREATED="1274083363905" ID="Freemind_Link_1646102697" MODIFIED="1382070256458" STYLE="fork" TEXT="partitional clustering">
-<font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
-</node>
-<node CREATED="1274083363905" ID="Freemind_Link_271479899" MODIFIED="1382070257479" STYLE="fork" TEXT="hierarchical clustering">
+<node CREATED="1274083363905" ID="Freemind_Link_96608167" MODIFIED="1382122756545" STYLE="fork" TEXT="transfer function">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
@@ -80,7 +68,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 <node CREATED="1362171957783" ID="Freemind_Link_1397490755" MODIFIED="1362172002542" TEXT="The MethodType describes the statistical core of the specific method."/>
-<node BACKGROUND_COLOR="#ff3366" CREATED="1362171957783" ID="Freemind_Link_481071495" MODIFIED="1382070337188" TEXT="there may be more/less values to put here"/>
+<node BACKGROUND_COLOR="#ff3366" CREATED="1362171957783" ID="Freemind_Link_481071495" MODIFIED="1382122299758" TEXT="there may be more/less values to put here (the level of specificity must be decided)"/>
 </node>
 <node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_1382649634" MODIFIED="1382050381073" TEXT="DevelopedForExtremes">
 <font NAME="SansSerif" SIZE="14"/>
