@@ -259,7 +259,7 @@
 <node BACKGROUND_COLOR="#ffcc33" CREATED="1362175970561" ID="Freemind_Link_1384892162" MODIFIED="1382133938552" TEXT="Is this the right place for this?"/>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1276003690723" ID="Freemind_Link_1962387080" MODIFIED="1382121356940" TEXT="SpatialApplication">
+<node COLOR="#990099" CREATED="1276003690723" ID="Freemind_Link_1962387080" MODIFIED="1382134489216" TEXT="SpatialTreatment">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_1160299196" MODIFIED="1382121510479" TEXT="OutputDataType">
 <font NAME="SansSerif" SIZE="14"/>
@@ -291,7 +291,7 @@
 <node CREATED="1363984596871" ID="Freemind_Link_120170974" MODIFIED="1382053204766" TEXT="For example,BCSD was developed for the US."/>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1276003690723" ID="Freemind_Link_1348669047" MODIFIED="1382121365136" TEXT="TemporalApplication">
+<node COLOR="#990099" CREATED="1276003690723" ID="Freemind_Link_1348669047" MODIFIED="1382134494149" TEXT="TemporalTreatment">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_1978268949" MODIFIED="1382133151981" TEXT="DevelomentTimeWindow">
 <font NAME="SansSerif" SIZE="14"/>
