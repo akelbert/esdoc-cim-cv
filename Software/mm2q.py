@@ -2,8 +2,9 @@
 from optparse import OptionParser
 import re
 import sys
-import libxml2
-import libxslt
+#import libxml2
+#import libxslt
+from lxml import etree as et
 import os
 from subprocess import *
 import datetime
@@ -97,14 +98,34 @@ else:
   couple="'no'"
 
 print "translating mm xml from file %s" % fpre.name
-styledoc = libxml2.parseFile("xsl/"+XSLFileName)
-style = libxslt.parseStylesheetDoc(styledoc)
-doc = libxml2.parseFile(fpre.name)
-result = style.applyStylesheet(doc,{"Couple" : couple, "Revision" : revision, "URL" : "'"+mmurl+"'", "LCRevision" : mmlcrevision, "TranslatorRevision" : transrevision, "TranslatorURL" : "'"+transurl+"'", "Date" : "'"+str(datetime.datetime.now())+"'"})
-style.saveResultToFilename(foutname, result, 0)
-style.freeStylesheet()
-doc.freeDoc()
-result.freeDoc()
+params = {
+    "Couple"             : couple, 
+    "Revision"           : "'" + revision + "'",
+    "URL"                : "'" + mmurl + "'", 
+    "LCRevision"         : "'" + mmlcrevision + "'",
+    "TranslatorRevision" : "'" + transrevision + "'", 
+    "TranslatorURL"      : "'" + transurl + "'", 
+    "Date"               : "'" + str(datetime.datetime.now()) + "'"
+}
+styledoc     	= open("xsl/"+XSLFileName)
+style        	= et.parse(styledoc)
+styledoc.close()
+predoc       	= open(fpre.name)
+doc 		= et.parse(predoc)
+predoc.close()
+transform 	= et.XSLT(style)
+result 		= transform(doc,**params)
+resultdoc 	= open(foutname,"w")
+resultdoc.write(str(result))
+resultdoc.close()
+#styledoc = libxml2.parseFile("xsl/"+XSLFileName)
+#style = libxslt.parseStylesheetDoc(styledoc)
+#doc = libxml2.parseFile(fpre.name)
+#result = style.applyStylesheet(doc,{"Couple" : couple, "Revision" : revision, "URL" : "'"+mmurl+"'", "LCRevision" : mmlcrevision, "TranslatorRevision" : transrevision, "TranslatorURL" : "'"+transurl+"'", "Date" : "'"+str(datetime.datetime.now())+"'"})
+#style.saveResultToFilename(foutname, result, 0)
+#style.freeStylesheet()
+#doc.freeDoc()
+#result.freeDoc()
 
 print "written output to file %s" % foutname
 
