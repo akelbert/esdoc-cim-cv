@@ -2,13 +2,13 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node BACKGROUND_COLOR="#ffffff" COLOR="#990000" CREATED="1233138660368" ID="Freemind_Link_1634648506" MODIFIED="1242072486397" STYLE="fork" TEXT="                   Ocean &#xa;         mind map rewriting&#xa;  for questionnaire processing">
 <edge WIDTH="2"/>
-<font ITALIC="true" NAME="Arial" SIZE="15"/>
+<font ITALIC="true" NAME="Dialog" SIZE="15"/>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233138680751" ID="Freemind_Link_1161786097" MODIFIED="1233843333819" POSITION="right" STYLE="bubble" TEXT="Ocean">
 <edge COLOR="#999999"/>
-<font BOLD="true" NAME="Arial" SIZE="17"/>
+<font BOLD="true" NAME="Dialog" SIZE="17"/>
 <node COLOR="#990099" CREATED="1253796559148" ID="Freemind_Link_969659526" MODIFIED="1275394982378" TEXT="OceanKeyProperties_">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#990099" CREATED="1255352711909" ID="Freemind_Link_1906682406" MODIFIED="1256896698747" TEXT="OceanKeyPropertiesAttributes_">
+<node COLOR="#990099" CREATED="1255352711909" FOLDED="true" ID="Freemind_Link_1906682406" MODIFIED="1256896698747" TEXT="OceanKeyPropertiesAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1233140619821" ID="Freemind_Link_1325999493" MODIFIED="1258638078140" STYLE="bubble" TEXT="ModelFamily">
 <font NAME="SansSerif" SIZE="14"/>
@@ -16,45 +16,45 @@
 <text>[definition]Type of oceanic model.[/definition]</text>
 </hook>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233140643598" ID="Freemind_Link_503184076" MODIFIED="1237385512766" STYLE="fork" TEXT="OGCM">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node COLOR="#000000" CREATED="1233140662726" ID="Freemind_Link_48478127" MODIFIED="1254228379876" STYLE="fork" TEXT="1D (SCM)">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node COLOR="#000000" CREATED="1233140662726" ID="Freemind_Link_1979122212" MODIFIED="1258638199867" STYLE="fork" TEXT="1D (ocean mixed layer)">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233141283578" ID="Freemind_Link_917041471" MODIFIED="1258638181700" STYLE="fork" TEXT="shallow-water">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node COLOR="#000000" CREATED="1233141298266" ID="Freemind_Link_629066195" MODIFIED="1233938856105" STYLE="fork" TEXT="1 layer">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node COLOR="#000000" CREATED="1233141307402" ID="Freemind_Link_174577812" MODIFIED="1258638057251" STYLE="fork" TEXT="slab">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node COLOR="#000000" CREATED="1233141307402" ID="Freemind_Link_1339328401" MODIFIED="1254228981996" STYLE="fork" TEXT="other">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
 <node COLOR="#996600" CREATED="1233141022285" ID="Freemind_Link_599221753" MODIFIED="1279180846620" STYLE="bubble" TEXT="BasicApproximations">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Basic approximations made in the oceanic model.[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1233141036845" ID="Freemind_Link_1066350301" MODIFIED="1258638210170" STYLE="fork" TEXT="primitive equations">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
 <node COLOR="#000000" CREATED="1233141059277" ID="Freemind_Link_356047771" MODIFIED="1258638246589" STYLE="fork" TEXT="non-hydrostatic">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
 <node CREATED="1240321882128" ID="Freemind_Link_94085251" MODIFIED="1244119558106" STYLE="fork" TEXT="Boussinesq">
@@ -62,12 +62,12 @@
 <icon BUILTIN="button_ok"/>
 </node>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233141048117" ID="Freemind_Link_680291509" MODIFIED="1253105360500" STYLE="fork" TEXT="other">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
 <node COLOR="#996600" CREATED="1233587234324" ID="Freemind_Link_507186487" MODIFIED="1258638291657" TEXT="ListOfPrognosticVariables">
-<font NAME="Arial" SIZE="15"/>
+<font NAME="Dialog" SIZE="15"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]List of the prognostic variables of the model.[/definition]</text>
 </hook>
@@ -105,15 +105,15 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1233329896856" ID="Freemind_Link_1267304035" MODIFIED="1255609633295" TEXT="SeaWater">
-<font NAME="Arial" SIZE="14"/>
+<node COLOR="#990099" CREATED="1233329896856" FOLDED="true" ID="Freemind_Link_1267304035" MODIFIED="1255609633295" TEXT="SeaWater">
+<font NAME="Dialog" SIZE="14"/>
 <node COLOR="#996600" CREATED="1233330693116" ID="Freemind_Link_28789769" MODIFIED="1258638575858" TEXT="EquationOfState">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Formulation for equation of state of sea water.[/definition]</text>
 </hook>
 <node CREATED="1233246454929" ID="Freemind_Link_834498088" MODIFIED="1255961060384" STYLE="fork" TEXT="linear">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233755193282" ID="Freemind_Link_1703635139" MODIFIED="1233916782505" STYLE="fork" TEXT="McDougall et al.">
@@ -125,7 +125,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233270123274" ID="Freemind_Link_256456180" MODIFIED="1246544871575" STYLE="fork" TEXT="other">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
@@ -151,7 +151,7 @@
 <text>[definition]Sea water freezing temperature.[/definition]</text>
 </hook>
 <node CREATED="1233246454929" ID="Freemind_Link_1096789349" MODIFIED="1257037193926" STYLE="fork" TEXT="degC">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
@@ -191,7 +191,7 @@
 <text>[definition]Value of the sea water specific heat.[/definition]</text>
 </hook>
 <node CREATED="1233246454929" ID="Freemind_Link_1073986252" MODIFIED="1257037214167" STYLE="fork" TEXT="J.kg-1.K-1">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
@@ -241,7 +241,7 @@
 <icon BUILTIN="idea"/>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1254486285604" ID="Freemind_Link_851070448" MODIFIED="1258638829132" TEXT="Bathymetry">
+<node COLOR="#990099" CREATED="1254486285604" FOLDED="true" ID="Freemind_Link_851070448" MODIFIED="1258638829132" TEXT="Bathymetry">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1256679216121" ID="Freemind_Link_1958840067" MODIFIED="1263574929902" TEXT="Bathymetry_Type">
 <font NAME="SansSerif" SIZE="14"/>
@@ -283,7 +283,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233270123274" ID="Freemind_Link_1467401280" MODIFIED="1246544871575" STYLE="fork" TEXT="other">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
@@ -371,10 +371,10 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1254225441012" ID="Freemind_Link_1282063900" MODIFIED="1275394984854" TEXT="OceanNudging_">
+<node COLOR="#990099" CREATED="1254225441012" FOLDED="true" ID="Freemind_Link_1282063900" MODIFIED="1275394984854" TEXT="OceanNudging_">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1233333993001" ID="Freemind_Link_1055710189" MODIFIED="1254305260721" TEXT="TracersDamping">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <node COLOR="#996600" CREATED="1244813200289" ID="Freemind_Link_915274174" MODIFIED="1258731222373" STYLE="bubble" TEXT="AppliedTo">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
@@ -434,7 +434,7 @@
 </node>
 </node>
 <node COLOR="#996600" CREATED="1233250004110" ID="Freemind_Link_232319022" MODIFIED="1257037511532" STYLE="bubble" TEXT="UpperLevel">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Upper level of the tracers damping zone.[/definition]</text>
 </hook>
@@ -444,7 +444,7 @@
 </node>
 </node>
 <node COLOR="#996600" CREATED="1233250004110" ID="Freemind_Link_1737265691" MODIFIED="1257037524956" STYLE="bubble" TEXT="LowerLevel">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Lower level of the tracers damping zone.[/definition]</text>
 </hook>
@@ -455,7 +455,7 @@
 </node>
 </node>
 <node COLOR="#990099" CREATED="1233333993001" ID="Freemind_Link_1883344718" MODIFIED="1254305260727" TEXT="MomentumDamping">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_904872654" MODIFIED="1257037614608" TEXT="LatMin">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
@@ -497,7 +497,7 @@
 </node>
 </node>
 <node COLOR="#996600" CREATED="1233250004110" ID="Freemind_Link_448874578" MODIFIED="1257037587247" STYLE="bubble" TEXT="UpperLevel">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Upper level of the momentum damping zone.[/definition]</text>
 </hook>
@@ -507,7 +507,7 @@
 </node>
 </node>
 <node COLOR="#996600" CREATED="1233250004110" ID="Freemind_Link_1707625142" MODIFIED="1257037580367" STYLE="bubble" TEXT="LowerLevel">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Lower level of the momentum damping zone.[/definition]</text>
 </hook>
@@ -518,7 +518,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1256810468669" ID="Freemind_Link_957671028" MODIFIED="1269525087608" TEXT="HorizontalDiscretization">
+<node COLOR="#990099" CREATED="1256810468669" FOLDED="true" ID="Freemind_Link_957671028" MODIFIED="1269525087608" TEXT="HorizontalDiscretization">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1253871284739" ID="Freemind_Link_1055809870" MODIFIED="1269525118558" TEXT="SchemeMethod">
 <font NAME="SansSerif" SIZE="14"/>
@@ -619,7 +619,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 <node COLOR="#000000" CREATED="1233270123274" ID="Freemind_Link_28356479" MODIFIED="1254227642201" STYLE="fork" TEXT="other">
-<font NAME="Arial" SIZE="15"/>
+<font NAME="Dialog" SIZE="15"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
@@ -649,7 +649,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 <node COLOR="#000000" CREATED="1233270123274" ID="Freemind_Link_989188846" MODIFIED="1254227710522" STYLE="fork" TEXT="other">
-<font NAME="Arial" SIZE="15"/>
+<font NAME="Dialog" SIZE="15"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
@@ -679,7 +679,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 <node COLOR="#000000" CREATED="1233270123274" ID="Freemind_Link_1622396248" MODIFIED="1254227710522" STYLE="fork" TEXT="other">
-<font NAME="Arial" SIZE="15"/>
+<font NAME="Dialog" SIZE="15"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
@@ -689,18 +689,18 @@
 <text>[definition]Time step of the model.[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1233270123274" ID="Freemind_Link_857353586" MODIFIED="1257037649809" STYLE="fork" TEXT="seconds">
-<font NAME="Arial" SIZE="15"/>
+<font NAME="Dialog" SIZE="15"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffff" CREATED="1233138776960" ID="Freemind_Link_1047373511" MODIFIED="1256686675674" STYLE="bubble" TEXT="OceanAdvection_">
-<font BOLD="true" NAME="Arial" SIZE="14"/>
+<node BACKGROUND_COLOR="#ffffff" CREATED="1233138776960" FOLDED="true" ID="Freemind_Link_1047373511" MODIFIED="1256686675674" STYLE="bubble" TEXT="OceanAdvection_">
+<font BOLD="true" NAME="Dialog" SIZE="14"/>
 <node COLOR="#990099" CREATED="1233333764840" ID="Freemind_Link_381163598" MODIFIED="1256922160060" TEXT="Momentum">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1233141992152" ID="Freemind_Link_394277166" MODIFIED="1258731725387" STYLE="bubble" TEXT="SchemeName">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Commonly used name for momentum advection scheme.[/definition]</text>
 </hook>
@@ -710,7 +710,7 @@
 </node>
 </node>
 <node COLOR="#996600" CREATED="1233141992152" ID="Freemind_Link_1308725448" MODIFIED="1258731759582" STYLE="bubble" TEXT="SchemeType">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Type of numerical scheme used for advection of momentum.[/definition]</text>
 </hook>
@@ -740,19 +740,19 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233141992152" ID="Freemind_Link_463342757" MODIFIED="1255516195719" STYLE="fork" TEXT="Total Variance Dissipation (TVD)">
-<font NAME="Arial" SIZE="15"/>
+<font NAME="Dialog" SIZE="15"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233141992152" ID="Freemind_Link_1876711591" MODIFIED="1233914291362" STYLE="fork" TEXT="MUSCL">
-<font NAME="Arial" SIZE="15"/>
+<font NAME="Dialog" SIZE="15"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233141992152" ID="Freemind_Link_1309258875" MODIFIED="1265388354947" STYLE="fork" TEXT="QUICKEST">
-<font NAME="Arial" SIZE="15"/>
+<font NAME="Dialog" SIZE="15"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233141992152" ID="Freemind_Link_1731881292" MODIFIED="1265388405132" STYLE="fork" TEXT="Piecewise Parabolic method">
-<font NAME="Arial" SIZE="15"/>
+<font NAME="Dialog" SIZE="15"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1244815236138" ID="Freemind_Link_940352013" MODIFIED="1246262067772" STYLE="fork" TEXT="Sweby">
@@ -764,7 +764,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233270123274" ID="Freemind_Link_724383996" MODIFIED="1253538044602" STYLE="fork" TEXT="other">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
@@ -810,7 +810,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233270123274" ID="Freemind_Link_1321691088" MODIFIED="1253538051255" STYLE="fork" TEXT="other">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
@@ -831,22 +831,22 @@
 </node>
 </node>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233138780735" ID="Freemind_Link_1105657077" MODIFIED="1256743148998" STYLE="bubble" TEXT="Ocean_LateralPhysics">
-<font BOLD="true" NAME="Arial" SIZE="14"/>
-<node COLOR="#000000" CREATED="1233331528175" ID="Freemind_Link_236153178" MODIFIED="1256916001421" TEXT="OceanLateralPhys_Momentum">
+<font BOLD="true" NAME="Dialog" SIZE="14"/>
+<node COLOR="#000000" CREATED="1233331528175" FOLDED="true" ID="Freemind_Link_236153178" MODIFIED="1256916001421" TEXT="OceanLateralPhys_Momentum">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1253798338110" ID="_" MODIFIED="1255362020339" TEXT="Operator">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1233141996872" ID="Freemind_Link_1727620717" MODIFIED="1259055831251" STYLE="bubble" TEXT="Direction">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Type of iso-surface on which lateral diffusion of momentum is formulated.[/definition]</text>
 </hook>
 <node CREATED="1233141348258" ID="Freemind_Link_59584860" MODIFIED="1253538079359" STYLE="fork" TEXT="horizontal">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233141360010" ID="Freemind_Link_965216697" MODIFIED="1253538083968" STYLE="fork" TEXT="isopycnal">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233753610947" ID="Freemind_Link_1335346535" MODIFIED="1253538087611" STYLE="fork" TEXT="isoneutral">
@@ -854,33 +854,33 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233141360010" ID="Freemind_Link_654296209" MODIFIED="1253538091207" STYLE="fork" TEXT="geopotential">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233141360010" ID="Freemind_Link_1596330384" MODIFIED="1253538094896" STYLE="fork" TEXT="iso-level">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233270123274" ID="Freemind_Link_110019764" MODIFIED="1253538101737" STYLE="fork" TEXT="other">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
 <node COLOR="#996600" CREATED="1233141996872" ID="Freemind_Link_1443027422" MODIFIED="1259055817695" STYLE="bubble" TEXT="Order">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Order of the diffusion operator used to model the lateral diffusion of momentum.[/definition]</text>
 </hook>
 <node CREATED="1233141450859" ID="Freemind_Link_1513571669" MODIFIED="1253538109279" STYLE="fork" TEXT="harmonic (second order)">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233141462339" ID="Freemind_Link_809391686" MODIFIED="1253538113374" STYLE="fork" TEXT="bi-harmonic (fourth order)">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233270123274" ID="Freemind_Link_1594469701" MODIFIED="1259055228703" STYLE="fork" TEXT="other">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
@@ -904,26 +904,26 @@
 </node>
 </node>
 <node COLOR="#990099" CREATED="1233245834351" ID="Freemind_Link_1713607070" MODIFIED="1256917117437" STYLE="bubble" TEXT="EddyViscosityCoefficient">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_52027852" MODIFIED="1259068514848" TEXT="Coefficient_Type">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Property of the eddy viscosity coefficient for momentum.[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1233245843791" ID="Freemind_Link_361137282" MODIFIED="1253534844418" STYLE="fork" TEXT="constant">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233245849951" ID="Freemind_Link_1490096143" MODIFIED="1253534848154" STYLE="fork" TEXT="space varying">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233245849951" ID="Freemind_Link_415996958" MODIFIED="1253534855197" STYLE="fork" TEXT="time + space varying (Smagorinski)">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233270123274" ID="Freemind_Link_1147864459" MODIFIED="1256917378090" STYLE="fork" TEXT="other">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
@@ -935,7 +935,7 @@
 <text>[definition]Constant value of the eddy viscosity coefficient for momentum.[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1233245864615" ID="Freemind_Link_462417391" MODIFIED="1257037751186" STYLE="fork" TEXT="m2/s">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
@@ -948,32 +948,32 @@
 <text>[definition]Directions along which the eddy viscosity coefficient for momentum is varying.[/definition]</text>
 </hook>
 <node CREATED="1233246454929" ID="Freemind_Link_313048469" MODIFIED="1259056837768" STYLE="fork" TEXT="depth">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
 <node CREATED="1233246454929" ID="Freemind_Link_1676129842" MODIFIED="1259056842846" STYLE="fork" TEXT="latitude">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
 <node CREATED="1233246454929" ID="Freemind_Link_124167459" MODIFIED="1259056849343" STYLE="fork" TEXT="longitude">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
 </node>
 <node COLOR="#996600" CREATED="1233332461227" ID="Freemind_Link_1717546516" MODIFIED="1259055756934" STYLE="bubble" TEXT="MinimalBackgroundValue">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Minimal background value of eddy viscosity coefficient for momentum.[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1233245864615" ID="Freemind_Link_1391564121" MODIFIED="1257037751186" STYLE="fork" TEXT="m2/s">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1233331540535" ID="Freemind_Link_531784001" MODIFIED="1256916141556" TEXT="OceanLateralPhys_Tracers">
+<node COLOR="#000000" CREATED="1233331540535" FOLDED="true" ID="Freemind_Link_531784001" MODIFIED="1256916141556" TEXT="OceanLateralPhys_Tracers">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1255362116460" ID="Freemind_Link_1044558789" MODIFIED="1256916080981" TEXT="OceanLateralPhysTracersAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
@@ -998,16 +998,16 @@
 <text>[definition]Diffusion operator for parametrization of geostrophic eddies (first part: mixing of tracers along iso-surfaces) (???).[/definition]</text>
 </hook>
 <node COLOR="#996600" CREATED="1233141996872" ID="Freemind_Link_756215669" MODIFIED="1259055875195" STYLE="bubble" TEXT="Direction">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Type of iso-surface on which lateral diffusion of tracers is formulated.[/definition]</text>
 </hook>
 <node CREATED="1233141348258" ID="Freemind_Link_1148271963" MODIFIED="1253538079359" STYLE="fork" TEXT="horizontal">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233141360010" ID="Freemind_Link_855817523" MODIFIED="1253538083968" STYLE="fork" TEXT="isopycnal">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233753610947" ID="Freemind_Link_1728625148" MODIFIED="1253538087611" STYLE="fork" TEXT="isoneutral">
@@ -1015,33 +1015,33 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233141360010" ID="Freemind_Link_914647669" MODIFIED="1253538091207" STYLE="fork" TEXT="geopotential">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233141360010" ID="Freemind_Link_633148414" MODIFIED="1253538094896" STYLE="fork" TEXT="iso-level">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233270123274" ID="Freemind_Link_380627464" MODIFIED="1253538101737" STYLE="fork" TEXT="other">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
 <node COLOR="#996600" CREATED="1233141996872" ID="Freemind_Link_537387508" MODIFIED="1259055893509" STYLE="bubble" TEXT="Order">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Order of the diffusion operator used to model the lateral diffusion of tracers.[/definition]</text>
 </hook>
 <node CREATED="1233141450859" ID="Freemind_Link_1872804436" MODIFIED="1253538109279" STYLE="fork" TEXT="harmonic (second order)">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233141462339" ID="Freemind_Link_556347417" MODIFIED="1253538113374" STYLE="fork" TEXT="bi-harmonic (fourth order)">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233270123274" ID="Freemind_Link_1517072992" MODIFIED="1259066970084" STYLE="fork" TEXT="other">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
@@ -1065,7 +1065,7 @@
 </node>
 </node>
 <node COLOR="#990099" CREATED="1233245834351" ID="Freemind_Link_459859742" MODIFIED="1259070610254" STYLE="bubble" TEXT="EddyViscosityCoefficient">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Mixing of tracers along iso-surfaces (???).[/definition]</text>
 </hook>
@@ -1075,11 +1075,11 @@
 <text>[definition]Property of the eddy viscosity coefficient for tracers.[/definition]</text>
 </hook>
 <node CREATED="1233245843791" ID="Freemind_Link_1971300003" MODIFIED="1253537293540" STYLE="fork" TEXT="constant">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233245849951" ID="Freemind_Link_235683340" MODIFIED="1253537297292" STYLE="fork" TEXT="space varying">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
@@ -1091,7 +1091,7 @@
 <text>[definition]Value of the eddy viscosity coefficient for tracers.[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1233245864615" ID="Freemind_Link_45716581" MODIFIED="1257037751186" STYLE="fork" TEXT="m2/s">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
@@ -1104,32 +1104,32 @@
 <text>[definition]Directions along which the eddy viscosity coefficient for tracers is varying.[/definition]</text>
 </hook>
 <node CREATED="1233246454929" ID="Freemind_Link_925774952" MODIFIED="1259056893810" STYLE="fork" TEXT="depth">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
 <node CREATED="1233246454929" ID="Freemind_Link_800233739" MODIFIED="1259056898560" STYLE="fork" TEXT="latitude">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
 <node CREATED="1233246454929" ID="Freemind_Link_1686392006" MODIFIED="1259056905229" STYLE="fork" TEXT="longitude">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
 </node>
 <node COLOR="#996600" CREATED="1233332461227" ID="Freemind_Link_360521088" MODIFIED="1259056230655" STYLE="bubble" TEXT="BackgroundValue">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Background value of eddy viscosity coefficient for tracers.[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1233245864615" ID="Freemind_Link_321856045" MODIFIED="1257037751186" STYLE="fork" TEXT="m2/s">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
 </node>
 <node COLOR="#990099" CREATED="1233331939265" ID="Freemind_Link_582474887" MODIFIED="1259070664526" STYLE="bubble" TEXT="Eddy-inducedVelocity">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Adiabatic re-arrangement of tracers through an advective flux (???).[/definition]</text>
 </hook>
@@ -1139,14 +1139,14 @@
 <text>[definition]Scheme used to parametrise eddy fluxes as eddy-induced velocity (adiabatic).[/definition]</text>
 </hook>
 <node CREATED="1233245983568" ID="Freemind_Link_952414299" MODIFIED="1259070077390" STYLE="fork" TEXT="GM scheme">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Gent-Mc Williams scheme for ocean eddy parametrization (adiabatic, mesoscale eddies).[/definition]</text>
 </hook>
 </node>
 <node CREATED="1233270123274" ID="Freemind_Link_1561501259" MODIFIED="1253537963560" STYLE="fork" TEXT="other">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
@@ -1175,7 +1175,7 @@
 <text>[definition]Value of the oefficient for eddy-induced velocity.[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1233245864615" ID="Freemind_Link_1927130733" MODIFIED="1257037751186" STYLE="fork" TEXT="m2/s">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
@@ -1216,8 +1216,8 @@
 </node>
 </node>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233139103300" ID="Freemind_Link_1128738111" MODIFIED="1256227013693" TEXT="Ocean_VerticalPhysics">
-<font BOLD="true" NAME="Arial" SIZE="14"/>
-<node COLOR="#990099" CREATED="1255362404701" ID="Freemind_Link_1617854006" MODIFIED="1257240623082" TEXT="OceanVerticalPhysicsAttributes_">
+<font BOLD="true" NAME="Dialog" SIZE="14"/>
+<node COLOR="#990099" CREATED="1255362404701" FOLDED="true" ID="Freemind_Link_1617854006" MODIFIED="1257240623082" TEXT="OceanVerticalPhysicsAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1233876721494" ID="Freemind_Link_204814154" MODIFIED="1259071422406" TEXT="Convection">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1225,19 +1225,19 @@
 <text>[definition]Properties of ocean convection scheme.[/definition]</text>
 </hook>
 <node CREATED="1233141348258" ID="Freemind_Link_1973563419" MODIFIED="1253537893040" STYLE="fork" TEXT="non-penetrative convective adjustment">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233141360010" ID="Freemind_Link_384199934" MODIFIED="1253537897244" STYLE="fork" TEXT="enhanced vertical diffusion">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233141360010" ID="Freemind_Link_1791627468" MODIFIED="1255524864228" STYLE="fork" TEXT="included in the turbulence closure scheme">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233270123274" ID="Freemind_Link_1417768499" MODIFIED="1253537910972" STYLE="fork" TEXT="other">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
@@ -1247,16 +1247,16 @@
 <text>[definition]Impact of tides on the ocean vertical mixing.[/definition]</text>
 </hook>
 <node CREATED="1233141992152" ID="Freemind_Link_7412656" MODIFIED="1246541816491" STYLE="fork" TEXT="baroclinic tides">
-<font NAME="Arial" SIZE="15"/>
+<font NAME="Dialog" SIZE="15"/>
 <icon BUILTIN="button_ok"/>
 </node>
 <node CREATED="1233141992152" ID="Freemind_Link_521626348" MODIFIED="1246541816494" STYLE="fork" TEXT="barotropic tides">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1233246062296" ID="Freemind_Link_1633074101" MODIFIED="1256743691433" TEXT="Ocean_MixedLayer">
+<node COLOR="#000000" CREATED="1233246062296" FOLDED="true" ID="Freemind_Link_1633074101" MODIFIED="1256743691433" TEXT="Ocean_MixedLayer">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1237460441632" ID="Freemind_Link_1163028242" MODIFIED="1255362164157" TEXT="Tracers">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1266,22 +1266,22 @@
 <text>[definition]Type of scheme used for parametrization of tracers vertical mixing in the ocean mixed layer.[/definition]</text>
 </hook>
 <node CREATED="1233246047504" ID="Freemind_Link_1270332863" MODIFIED="1253119061556" STYLE="fork" TEXT="constant values">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233246081176" ID="Freemind_Link_1925006707" MODIFIED="1246541022047" STYLE="fork" TEXT="turbulent closure (TKE)">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233246081176" ID="Freemind_Link_729500558" MODIFIED="1259071740677" STYLE="fork" TEXT="turbulent closure (KPP)">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Nonlocal K-profile parametrization scheme.[/definition]</text>
 </hook>
 </node>
 <node CREATED="1233246081176" ID="Freemind_Link_524466092" MODIFIED="1246541043036" STYLE="fork" TEXT="turbulent closure (Mellor-Yamada)">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1244814179643" ID="Freemind_Link_775377248" MODIFIED="1253698769690" STYLE="fork" TEXT="turbulent closure (Bulk Mixed Layer)">
@@ -1289,15 +1289,15 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233246089248" ID="Freemind_Link_1977826817" MODIFIED="1246541094328" STYLE="fork" TEXT="Richardson number dependent (PP)">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233246089248" ID="Freemind_Link_1885194513" MODIFIED="1246541105340" STYLE="fork" TEXT="Richardson number dependent (KT)">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233270123274" ID="Freemind_Link_1132935349" MODIFIED="1253119066821" STYLE="fork" TEXT="other">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
@@ -1334,18 +1334,18 @@
 <text>[definition]Value of the vertical mixing coefficient for tracers in the mixed layer.[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1233245864615" ID="Freemind_Link_697942850" MODIFIED="1257037751186" STYLE="fork" TEXT="m2/s">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
 </node>
 <node COLOR="#996600" CREATED="1233332461227" ID="Freemind_Link_1198663475" MODIFIED="1259073578175" TEXT="BackgroundCoefficient">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Value of the background mixing coefficient for tracers in the mixed layer.[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1233245864615" ID="Freemind_Link_717242218" MODIFIED="1257037751186" STYLE="fork" TEXT="m2/s">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
@@ -1358,19 +1358,19 @@
 <text>[definition]Type of scheme used for parametrization of momentum vertical mixing in the ocean mixed layer.[/definition]</text>
 </hook>
 <node CREATED="1233246047504" ID="Freemind_Link_1660894580" MODIFIED="1253537543577" STYLE="fork" TEXT="constant values">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233246081176" ID="Freemind_Link_199534696" MODIFIED="1246541022047" STYLE="fork" TEXT="turbulent closure (TKE)">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233246081176" ID="Freemind_Link_1292712403" MODIFIED="1246541032698" STYLE="fork" TEXT="turbulent closure (KPP)">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233246081176" ID="Freemind_Link_980053587" MODIFIED="1246541043036" STYLE="fork" TEXT="turbulent closure (Mellor-Yamada)">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1244814179643" ID="Freemind_Link_1263494173" MODIFIED="1253699030858" STYLE="fork" TEXT="turbulent closure (Bulk Mixed Layer)">
@@ -1378,15 +1378,15 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233246089248" ID="Freemind_Link_695253223" MODIFIED="1246541094328" STYLE="fork" TEXT="Richardson number dependent (PP)">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233246089248" ID="Freemind_Link_669752924" MODIFIED="1246541105340" STYLE="fork" TEXT="Richardson number dependent (KT)">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233270123274" ID="Freemind_Link_636771698" MODIFIED="1253537539014" STYLE="fork" TEXT="other">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
@@ -1416,31 +1416,31 @@
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1253713965343" ID="Freemind_Link_598981968" MODIFIED="1257037882601" TEXT="if SchemeType is &quot;constant values&quot;">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <node COLOR="#996600" CREATED="1233871287685" ID="Freemind_Link_754942619" MODIFIED="1259072882315" STYLE="bubble" TEXT="MixingCoefficient">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Value of the vertical mixing coefficient for momentum in the mixed layer.[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1233245864615" ID="Freemind_Link_1085763722" MODIFIED="1257037751186" STYLE="fork" TEXT="m2/s">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
 </node>
 <node COLOR="#996600" CREATED="1233332461227" ID="Freemind_Link_748309711" MODIFIED="1259073598362" TEXT="BackgroundValue">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Value of the background vertical mixing coefficient for momentum in the mixed layer.[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1233245864615" ID="Freemind_Link_1987549706" MODIFIED="1257037751186" STYLE="fork" TEXT="m2/s">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1233246069744" ID="Freemind_Link_1880376878" MODIFIED="1256743684835" TEXT="Ocean_InteriorMixing">
+<node COLOR="#000000" CREATED="1233246069744" FOLDED="true" ID="Freemind_Link_1880376878" MODIFIED="1256743684835" TEXT="Ocean_InteriorMixing">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1237460441632" ID="Freemind_Link_1032629079" MODIFIED="1255362164157" TEXT="Tracers">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1450,29 +1450,29 @@
 <text>[definition]Type of scheme used for parametrization of tracers vertical mixing in the ocean interior.[/definition]</text>
 </hook>
 <node CREATED="1233246047504" ID="Freemind_Link_1009211014" MODIFIED="1253537505879" STYLE="fork" TEXT="constant values">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233246081176" ID="Freemind_Link_797375106" MODIFIED="1253798616213" STYLE="fork" TEXT="turbulent closure (TKE)">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 <icon BUILTIN="messagebox_warning"/>
 </node>
 <node CREATED="1233246081176" ID="Freemind_Link_1450351778" MODIFIED="1253798616229" STYLE="fork" TEXT="turbulent closure (Mellor-Yamada)">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 <icon BUILTIN="messagebox_warning"/>
 </node>
 <node CREATED="1233246089248" ID="Freemind_Link_1384925562" MODIFIED="1246541443763" STYLE="fork" TEXT="Richardson number dependent (PP)">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233246089248" ID="Freemind_Link_936207142" MODIFIED="1246541452805" STYLE="fork" TEXT="Richardson number dependent (KT)">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233270123274" ID="Freemind_Link_230248677" MODIFIED="1253537528538" STYLE="fork" TEXT="other">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
@@ -1484,13 +1484,13 @@
 <text>[definition]Value of the vertical mixing coefficient for tracers in the ocean interior.[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1233245864615" ID="Freemind_Link_148811114" MODIFIED="1257037751186" STYLE="fork" TEXT="m2/s">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
 </node>
 <node COLOR="#996600" CREATED="1233332461227" ID="Freemind_Link_1162981823" MODIFIED="1259073508085" TEXT="BackgroundType">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Type of tracers background mixing coefficient used in the ocean interior.[/definition]</text>
 </hook>
@@ -1511,7 +1511,7 @@
 <text>[definition]Value of the background mixing coefficient for tracers in the ocean interior.[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1233245864615" ID="Freemind_Link_624944104" MODIFIED="1257037751186" STYLE="fork" TEXT="m2/s">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
@@ -1525,29 +1525,29 @@
 <text>[definition]Type of scheme used for parametrization of momentum vertical mixing in the ocean interior.[/definition]</text>
 </hook>
 <node CREATED="1233246047504" ID="Freemind_Link_704522522" MODIFIED="1253537510442" STYLE="fork" TEXT="constant values">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233246081176" ID="Freemind_Link_640913839" MODIFIED="1253798629200" STYLE="fork" TEXT="turbulent closure (TKE)">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 <icon BUILTIN="messagebox_warning"/>
 </node>
 <node CREATED="1233246081176" ID="Freemind_Link_667459102" MODIFIED="1253798629200" STYLE="fork" TEXT="turbulent closure (Mellor-Yamada)">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 <icon BUILTIN="messagebox_warning"/>
 </node>
 <node CREATED="1233246089248" ID="Freemind_Link_1297397966" MODIFIED="1246541443763" STYLE="fork" TEXT="Richardson number dependent (PP)">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233246089248" ID="Freemind_Link_1285889640" MODIFIED="1246541452805" STYLE="fork" TEXT="Richardson number dependent (KT)">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233270123274" ID="Freemind_Link_647888443" MODIFIED="1253537523788" STYLE="fork" TEXT="other">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
@@ -1559,13 +1559,13 @@
 <text>[definition]Value of the vertical mixing coefficient for momentum in the ocean interior.[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1233245864615" ID="Freemind_Link_1192583381" MODIFIED="1257037751186" STYLE="fork" TEXT="m2/s">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
 </node>
 <node COLOR="#996600" CREATED="1233332461227" ID="Freemind_Link_926445296" MODIFIED="1259073501267" TEXT="BackgroundType">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Type of momentum background mixing coefficient used in the ocean interior.[/definition]</text>
 </hook>
@@ -1586,7 +1586,7 @@
 <text>[definition]Value of the background mixing coefficient for momentum in the ocean interior.[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1233245864615" ID="Freemind_Link_840883389" MODIFIED="1257037751186" STYLE="fork" TEXT="m2/s">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
@@ -1594,10 +1594,10 @@
 </node>
 </node>
 </node>
-<node CREATED="1253797749288" ID="Freemind_Link_447938745" MODIFIED="1256743827599" TEXT="OceanUpAndLowBoundaries_">
+<node CREATED="1253797749288" FOLDED="true" ID="Freemind_Link_447938745" MODIFIED="1256743827599" TEXT="OceanUpAndLowBoundaries_">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1233329979500" ID="Freemind_Link_786667002" MODIFIED="1269525738393" TEXT="FreeSurface">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[info]If no free surface, then ocean surface is rigid-lid.[/info]</text>
 </hook>
@@ -1607,48 +1607,48 @@
 <text>[definition]Numerical formulation for the ocean free surface.[/definition]</text>
 </hook>
 <node CREATED="1233245277943" ID="Freemind_Link_524633888" MODIFIED="1246544877090" STYLE="fork" TEXT="linear implicit">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233245277943" ID="Freemind_Link_94825646" MODIFIED="1246544883049" STYLE="fork" TEXT="linear filtered">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233245277943" ID="Freemind_Link_848925417" MODIFIED="1246544888444" STYLE="fork" TEXT="linear split-explicit">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233245277943" ID="Freemind_Link_1101031294" MODIFIED="1246544894045" STYLE="fork" TEXT="non-linear implicit">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233245277943" ID="Freemind_Link_1112508858" MODIFIED="1246544898842" STYLE="fork" TEXT="non-linear filtered">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233245277943" ID="Freemind_Link_1564324731" MODIFIED="1246544903955" STYLE="fork" TEXT="non-linear split-explicit">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
 </node>
 <node COLOR="#990099" CREATED="1233139487492" ID="Freemind_Link_942916441" MODIFIED="1256040724228" TEXT="BottomBoundaryLayer">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <node COLOR="#996600" CREATED="1233876932609" ID="Freemind_Link_588636220" MODIFIED="1259165969581" TEXT="Type">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Type of ocean bottom boundary layer.[/definition]</text>
 </hook>
 <node CREATED="1233141992152" ID="Freemind_Link_90665189" MODIFIED="1253780319779" STYLE="fork" TEXT="diffusive">
-<font NAME="Arial" SIZE="15"/>
+<font NAME="Dialog" SIZE="15"/>
 <icon BUILTIN="button_ok"/>
 </node>
 <node CREATED="1233141992152" ID="Freemind_Link_1366869575" MODIFIED="1253780319779" STYLE="fork" TEXT="advective">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
 <node CREATED="1233270123274" ID="Freemind_Link_847119474" MODIFIED="1253780319779" STYLE="fork" TEXT="other">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
@@ -1660,7 +1660,7 @@
 <text>[definition]Value of the lateral mixing coefficient in the bottom boundary layer.[/definition]</text>
 </hook>
 <node COLOR="#000000" CREATED="1233245864615" ID="Freemind_Link_1366206020" MODIFIED="1257037751186" STYLE="fork" TEXT="m2/s">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
@@ -1682,7 +1682,7 @@
 </node>
 </node>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233335383551" ID="Freemind_Link_1642798336" MODIFIED="1256227100792" TEXT="Ocean_BoundaryForcing">
-<font BOLD="true" NAME="Arial" SIZE="14"/>
+<font BOLD="true" NAME="Dialog" SIZE="14"/>
 <node COLOR="#990099" CREATED="1233335440743" ID="Freemind_Link_1956977750" MODIFIED="1255363438697" TEXT="Momentum">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1233332569323" ID="Freemind_Link_637862031" MODIFIED="1259163661424" TEXT="BottomFriction">
@@ -1691,11 +1691,11 @@
 <text>[definition]Numerical scheme used to formulate the effect bottom friction on momentum.[/definition]</text>
 </hook>
 <node CREATED="1233332580852" ID="Freemind_Link_1582065820" MODIFIED="1246542357034" STYLE="fork" TEXT="linear">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233332586555" ID="Freemind_Link_774372598" MODIFIED="1246542341449" STYLE="fork" TEXT="non-linear">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1244813669249" ID="Freemind_Link_472134531" MODIFIED="1253798730636" STYLE="fork" TEXT="non-linear (drag function of speed of tides)">
@@ -1729,7 +1729,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233270123274" ID="Freemind_Link_1153833174" MODIFIED="1246542399164" STYLE="fork" TEXT="other">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
@@ -1753,16 +1753,16 @@
 <node COLOR="#990099" CREATED="1255418915766" ID="Freemind_Link_44972487" MODIFIED="1257240640765" TEXT="OceanBoundForcingTracersAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1233335331423" ID="Freemind_Link_1931729648" MODIFIED="1259163863453" TEXT="GeothermalHeating">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Characteristics of the geothermal forcing at ocean bottom.[/definition]</text>
 </hook>
 <node CREATED="1233246089248" ID="Freemind_Link_772418523" MODIFIED="1246543121010" STYLE="fork" TEXT="spatial varying">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233270123274" ID="Freemind_Link_1254515121" MODIFIED="1246543121007" STYLE="fork" TEXT="other">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
@@ -1786,26 +1786,26 @@
 </node>
 </node>
 <node COLOR="#990099" CREATED="1233139413774" ID="Freemind_Link_1484919451" MODIFIED="1255362651586" TEXT="SunlightPenetration">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <node COLOR="#996600" CREATED="1233878176257" ID="Freemind_Link_1169909143" MODIFIED="1259164252580" STYLE="bubble" TEXT="SchemeType">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Type of physical scheme used to formulate sunlight penetration into ocean.[/definition]</text>
 </hook>
 <node CREATED="1233141348258" ID="Freemind_Link_102779744" MODIFIED="1256040373237" STYLE="fork" TEXT="1 extinction depth">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233141348258" ID="Freemind_Link_1384579441" MODIFIED="1255363250266" STYLE="fork" TEXT="2 extinction depths">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233141360010" ID="Freemind_Link_1932121342" MODIFIED="1255363265288" STYLE="fork" TEXT="3 extinction depths">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233141360010" ID="Freemind_Link_976695396" MODIFIED="1254224920128" STYLE="fork" TEXT="other">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
@@ -1817,7 +1817,7 @@
 <text>[definition]Fisrt extinction depth of the ocean sunlight penetration scheme.[/definition]</text>
 </hook>
 <node CREATED="1233246285256" ID="Freemind_Link_928866214" MODIFIED="1257037984088" STYLE="fork" TEXT="meters">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
@@ -1827,7 +1827,7 @@
 <text>[definition]Second extinction depth of the ocean sunlight penetration scheme.[/definition]</text>
 </hook>
 <node CREATED="1233246285256" ID="Freemind_Link_132534239" MODIFIED="1257037984088" STYLE="fork" TEXT="meters">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
@@ -1837,7 +1837,7 @@
 <text>[definition]Third extinction depth of the ocean sunlight penetration scheme.[/definition]</text>
 </hook>
 <node CREATED="1233246285256" ID="Freemind_Link_212144036" MODIFIED="1257037984088" STYLE="fork" TEXT="meters">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="full-1"/>
 </node>
 </node>
@@ -1873,7 +1873,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233270123274" ID="Freemind_Link_198872795" MODIFIED="1246543385145" STYLE="fork" TEXT="other">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
@@ -1891,7 +1891,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233270123274" ID="Freemind_Link_1548725347" MODIFIED="1246543385139" STYLE="fork" TEXT="other">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
@@ -1909,7 +1909,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 <node CREATED="1233270123274" ID="Freemind_Link_1598483682" MODIFIED="1246543385134" STYLE="fork" TEXT="other">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
@@ -1944,7 +1944,7 @@
 <node CREATED="1237479815816" ID="Freemind_Link_1979527999" MODIFIED="1257242227146" POSITION="left" STYLE="bubble" TEXT="useful links/docs">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1233585362916" ID="Freemind_Link_531989929" LINK="http://www-pcmdi.llnl.gov/ipcc/model_documentation/ipcc_model_documentation.php" MODIFIED="1233586713179" STYLE="fork" TEXT="AR4 questionnaire">
-<font NAME="Arial" SIZE="14"/>
+<font NAME="Dialog" SIZE="14"/>
 </node>
 <node CREATED="1233227027975" ID="Freemind_Link_317786699" MODIFIED="1256925728589" STYLE="fork" TEXT="NEMO Ocean (v.3) and MOM4 docs (from web sites)">
 <font NAME="SansSerif" SIZE="14"/>
