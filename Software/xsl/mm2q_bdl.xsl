@@ -60,8 +60,10 @@ lower priority templates -->
 <!--
   <xsl:template match="node[font[@BOLD='true']]" priority="4">
 -->
-  <xsl:template match="node[font[@BOLD='true'] and (not(@COLOR) or @COLOR!='#990099')]" priority="4">
-    <!-- The presence of a link indicates this is a reference. We allow references but ignore them -->
+  <!--<xsl:template match="node[font[@BOLD='true'] and (not(@COLOR) or @COLOR!='#990099')]" priority="4">-->
+  <xsl:template match="node[font[@BOLD='true'] and (not(@COLOR) or (@COLOR='#990099' and icon[@BUILTIN='attach']) or @COLOR!='#990099')]" priority="4">   
+
+  <!-- The presence of a link indicates this is a reference. We allow references but ignore them -->
 
 <!--
     <xsl:message terminate="yes">

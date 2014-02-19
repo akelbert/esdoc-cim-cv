@@ -2,8 +2,9 @@
 from optparse import OptionParser
 import re
 import sys
-import libxml2
-import libxslt
+#import libxml2
+#import libxslt
+from lxml import etree as et
 import os
 
 usage = "usage: %prog [options] mindmap_[flat,bdl].mm"
@@ -61,17 +62,33 @@ else:
   warn="'no'"
 
 print "checking mm xml from file %s" % fpre.name
-styledoc = libxml2.parseFile("xsl/"+XSLFileName)
-style = libxslt.parseStylesheetDoc(styledoc)
-doc = libxml2.parseFile(fpre.name)
+params = {
+	"Warning"	: warn,
+	"CheckConstraints" : "'yes'",
+}
+styledoc		= open("xsl/"+XSLFileName)
+style			= et.parse(styledoc)
+styledoc.close()
+predoc			= open(fpre.name)
+doc			= et.parse(predoc)
+predoc.close()
 print "Start of errors"
-sys.stdout.flush()
-result = style.applyStylesheet(doc,{"Warning" : warn, "CheckConstraints" : "'yes'" })
-#result = style.applyStylesheet(doc,{"Warning" : warn, "CheckConstraints" : "yes", "CompLen" : "25"})
+#sys.stdout.flush()
+transform = et.XSLT(style)
+transform(doc,**params)
+print transform.error_log
 print "End of errors"
-style.freeStylesheet()
-doc.freeDoc()
-result.freeDoc()
+#styledoc = libxml2.parseFile("xsl/"+XSLFileName)
+#style = libxslt.parseStylesheetDoc(styledoc)
+#doc = libxml2.parseFile(fpre.name)
+#print "Start of errors"
+#sys.stdout.flush()
+#result = style.applyStylesheet(doc,{"Warning" : warn, "CheckConstraints" : "'yes'" })
+##result = style.applyStylesheet(doc,{"Warning" : warn, "CheckConstraints" : "yes", "CompLen" : "25"})
+#print "End of errors"
+#style.freeStylesheet()
+#doc.freeDoc()
+#result.freeDoc()
 
 if not(options.keep) and options.preprocess:
   print "removed temporary file %s" % fpre.name
