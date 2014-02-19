@@ -7,15 +7,15 @@
 <node BACKGROUND_COLOR="#ffcc33" CREATED="1382071455854" ID="Freemind_Link_396132494" MODIFIED="1389199580247" TEXT="Note the introduction of the &quot;attach&quot; icon (paperclip); This signifies that the PropertyBundle should be treated as a virtual component by the Questionnaire.">
 <icon BUILTIN="messagebox_warning"/>
 </node>
-<node COLOR="#990099" CREATED="1253796559148" FOLDED="true" ID="Freemind_Link_969659526" MODIFIED="1389196401278" TEXT="StatisticalDownscaling_KeyProperties">
+<node COLOR="#990099" CREATED="1253796559148" ID="Freemind_Link_969659526" MODIFIED="1389196401278" TEXT="StatisticalDownscaling_KeyProperties">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="attach"/>
 <node COLOR="#990099" CREATED="1254486057572" ID="Freemind_Link_26535854" MODIFIED="1389143012344" TEXT="StatisticalDownscaling_KeyPropertiesAttributes">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_405915947" MODIFIED="1392778969885" TEXT="MaraunClassificationType">
+<node COLOR="#996600" CREATED="1274083183709" FOLDED="true" ID="Freemind_Link_405915947" MODIFIED="1392784536559" TEXT="MaraunClassificationType">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]The MauranClassificationType is a classification following the system used by Maraun et. al. Reviews of Geophysics, 2010.[/definition]</text>
+<text>[definition]The MaraunClassificationType is a classification following the system used by Maraun et. al. Reviews of Geophysics, 2010.[/definition]</text>
 </hook>
 <node CREATED="1274083217782" ID="Freemind_Link_1257088532" MODIFIED="1382070140690" STYLE="fork" TEXT="PP (Perfect Prog)">
 <font NAME="SansSerif" SIZE="14"/>
