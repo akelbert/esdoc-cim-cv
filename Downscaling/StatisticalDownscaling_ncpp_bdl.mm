@@ -12,10 +12,10 @@
 <icon BUILTIN="attach"/>
 <node COLOR="#990099" CREATED="1254486057572" ID="Freemind_Link_26535854" MODIFIED="1389143012344" TEXT="StatisticalDownscaling_KeyPropertiesAttributes">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1274083183709" FOLDED="true" ID="Freemind_Link_405915947" MODIFIED="1392784536559" TEXT="MaraunClassificationType">
+<node COLOR="#996600" CREATED="1274083183709" FOLDED="true" ID="Freemind_Link_405915947" MODIFIED="1393290484060" TEXT="ClassificationType">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]The MaraunClassificationType is a classification following the system used by Maraun et. al. Reviews of Geophysics, 2010.[/definition]</text>
+<text>[definition]The ClassificationType is a classification following the system used by Maraun et. al. Reviews of Geophysics, 2010.[/definition]</text>
 </hook>
 <node CREATED="1274083217782" ID="Freemind_Link_1257088532" MODIFIED="1382070140690" STYLE="fork" TEXT="PP (Perfect Prog)">
 <font NAME="SansSerif" SIZE="14"/>
@@ -25,6 +25,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
+<node CREATED="1392995114827" ID="Freemind_Link_1908042153" MODIFIED="1392995517195" TEXT="the predictor nature"/>
 </node>
 <node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_371451596" MODIFIED="1386967985590" TEXT="MathematicalModelType">
 <font NAME="SansSerif" SIZE="14"/>
@@ -43,7 +44,7 @@
 <icon BUILTIN="messagebox_warning"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_786761298" MODIFIED="1385510728454" TEXT="MethodType">
+<node COLOR="#996600" CREATED="1274083183709" FOLDED="true" ID="Freemind_Link_786761298" MODIFIED="1385510728454" TEXT="MethodType">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]The MethodType describes the statistical core of the specific method.[/definition]</text>
@@ -88,7 +89,7 @@
 <icon BUILTIN="messagebox_warning"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_863399238" MODIFIED="1386967325906" TEXT="CompoundMethod" VSHIFT="10">
+<node COLOR="#996600" CREATED="1274083183709" FOLDED="true" ID="Freemind_Link_863399238" MODIFIED="1386967325906" TEXT="CompoundMethod" VSHIFT="10">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]&quot;Compound&quot; means that several method types are used; it is distinguished from &quot;hybrid&quot; which implies dynamical and statistical used together.[/definition]</text>
@@ -113,7 +114,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1274083274057" FOLDED="true" ID="Freemind_Link_960708436" MODIFIED="1386967405470" STYLE="bubble" TEXT="if Multi-SiteMethod is &quot;yes&quot;">
+<node COLOR="#0033ff" CREATED="1274083274057" ID="Freemind_Link_960708436" MODIFIED="1386967405470" STYLE="bubble" TEXT="if Multi-SiteMethod is &quot;yes&quot;">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_240689240" MODIFIED="1386967500945" TEXT="CorrelationsAmongSites">
 <font NAME="SansSerif" SIZE="14"/>
@@ -131,7 +132,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1274083183709" FOLDED="true" ID="Freemind_Link_265799895" MODIFIED="1382070878620" TEXT="MultiVariateOutput">
+<node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_265799895" MODIFIED="1382070878620" TEXT="MultiVariateOutput">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1274083363905" ID="Freemind_Link_1031740631" MODIFIED="1274105378017" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
@@ -142,7 +143,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1274083274057" FOLDED="true" ID="Freemind_Link_85863192" MODIFIED="1382123270963" STYLE="bubble" TEXT="if MultiVariateOutput is &quot;yes&quot;">
+<node COLOR="#0033ff" CREATED="1274083274057" ID="Freemind_Link_85863192" MODIFIED="1382123270963" STYLE="bubble" TEXT="if MultiVariateOutput is &quot;yes&quot;">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_223564181" MODIFIED="1382123490621" TEXT="CorrelationsAmongPredictands">
 <font NAME="SansSerif" SIZE="14"/>
@@ -171,7 +172,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1274083183709" FOLDED="true" ID="Freemind_Link_1630706508" MODIFIED="1386967608253" TEXT="Predictor-PredictandRelationship" VSHIFT="55">
+<node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_1630706508" MODIFIED="1386967608253" TEXT="Predictor-PredictandRelationship" VSHIFT="55">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Where homegeneous implies same surface predictors and surface predictands (as in Rummukainen 1997), and heterogeneous implies upper-air predictors to surface predictands.[/definition]</text>
@@ -214,10 +215,13 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1256303464288" ID="Freemind_Link_875811821" MODIFIED="1389199511199" TEXT="MethodPhases">
+<node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_711590784" MODIFIED="1392996854812" TEXT="SomeInformationAboutValidation">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990099" CREATED="1256303464288" FOLDED="true" ID="Freemind_Link_875811821" MODIFIED="1389199511199" TEXT="MethodPhases">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="attach"/>
-<node COLOR="#990099" CREATED="1274083313167" ID="Freemind_Link_1503412363" MODIFIED="1385512418559" TEXT="LearningPeriod">
+<node COLOR="#990099" CREATED="1274083313167" FOLDED="true" ID="Freemind_Link_1503412363" MODIFIED="1385512418559" TEXT="LearningPeriod">
 <edge WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1274083313167" ID="Freemind_Link_1671392679" MODIFIED="1285332239812" TEXT="FirstYear">
@@ -248,7 +252,7 @@
 <icon BUILTIN="messagebox_warning"/>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1274083313167" FOLDED="true" HGAP="25" ID="Freemind_Link_973227750" MODIFIED="1363383318117" TEXT="ValidationPeriod" VSHIFT="6">
+<node COLOR="#990099" CREATED="1274083313167" HGAP="25" ID="Freemind_Link_973227750" MODIFIED="1363383318117" TEXT="ValidationPeriod" VSHIFT="6">
 <edge WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1274083313167" ID="Freemind_Link_1217249236" MODIFIED="1285332239812" TEXT="FirstYear">
@@ -352,7 +356,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1274083313167" ID="Freemind_Link_1704499061" MODIFIED="1389158151412" TEXT="ApplicationPeriod" VSHIFT="2">
+<node COLOR="#990099" CREATED="1274083313167" FOLDED="true" ID="Freemind_Link_1704499061" MODIFIED="1389158151412" TEXT="ApplicationPeriod" VSHIFT="2">
 <edge WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1274083313167" ID="Freemind_Link_1349259788" MODIFIED="1285332239812" TEXT="FirstYear">
@@ -381,7 +385,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1276003690723" ID="Freemind_Link_206703416" MODIFIED="1382134489216" TEXT="SpatialTreatment">
+<node COLOR="#990099" CREATED="1276003690723" FOLDED="true" ID="Freemind_Link_206703416" MODIFIED="1382134489216" TEXT="SpatialTreatment">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_573186905" MODIFIED="1382121510479" TEXT="OutputDataType">
 <font NAME="SansSerif" SIZE="14"/>
@@ -394,7 +398,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1274083274057" ID="Freemind_Link_444212656" MODIFIED="1385514963363" STYLE="bubble" TEXT="if OutputDataType is &quot;gridded&quot;">
+<node COLOR="#0033ff" CREATED="1274083274057" FOLDED="true" ID="Freemind_Link_444212656" MODIFIED="1385514963363" STYLE="bubble" TEXT="if OutputDataType is &quot;gridded&quot;">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1274083313167" ID="Freemind_Link_1818283897" MODIFIED="1382123668010" TEXT="GridResolution">
 <font NAME="SansSerif" SIZE="14"/>
@@ -422,7 +426,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1276003690723" ID="Freemind_Link_902390215" MODIFIED="1382134494149" TEXT="TemporalTreatment">
+<node COLOR="#990099" CREATED="1276003690723" FOLDED="true" ID="Freemind_Link_902390215" MODIFIED="1382134494149" TEXT="TemporalTreatment">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_1046858377" MODIFIED="1382133151981" TEXT="DevelomentTimeWindow">
 <font NAME="SansSerif" SIZE="14"/>
@@ -447,7 +451,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1274083313167" ID="Freemind_Link_1775609733" MODIFIED="1385510957600" TEXT="AdditionalInformation">
+<node COLOR="#996600" CREATED="1274083313167" FOLDED="true" ID="Freemind_Link_1775609733" MODIFIED="1385510957600" TEXT="AdditionalInformation">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]For example, a list of three-letter acronymns indicating which months are used, or a description of the moving window.[/definition]</text>
@@ -459,16 +463,16 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1253796559148" ID="Freemind_Link_353734054" MODIFIED="1389196407043" TEXT="Variables" VSHIFT="14">
+<node COLOR="#990099" CREATED="1253796559148" HGAP="33" ID="Freemind_Link_353734054" MODIFIED="1392996814194" TEXT="Variables" VSHIFT="-28">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="attach"/>
-<node COLOR="#990099" CREATED="1274083183709" ID="Freemind_Link_299915377" MODIFIED="1389199518701" TEXT="LocalPredictands">
+<node COLOR="#990099" CREATED="1274083183709" FOLDED="true" ID="Freemind_Link_299915377" MODIFIED="1389199518701" TEXT="LocalPredictands">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="attach"/>
-<node COLOR="#990099" CREATED="1274083313167" ID="Freemind_Link_642779911" MODIFIED="1385571952811" TEXT="PredictandDetails">
+<node COLOR="#990099" CREATED="1274083313167" FOLDED="true" ID="Freemind_Link_642779911" MODIFIED="1385571952811" TEXT="PredictandDetails">
 <edge WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1274083183709" HGAP="41" ID="Freemind_Link_594712559" MODIFIED="1385581422460" TEXT="CalibrationPredictandOriginType" VSHIFT="1">
+<node COLOR="#996600" CREATED="1274083183709" FOLDED="true" HGAP="41" ID="Freemind_Link_594712559" MODIFIED="1385581422460" TEXT="CalibrationPredictandOriginType" VSHIFT="1">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1274083363905" ID="Freemind_Link_1515735309" MODIFIED="1285333088526" STYLE="fork" TEXT="station">
 <font NAME="SansSerif" SIZE="14"/>
@@ -491,7 +495,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1274083183709" HGAP="41" ID="Freemind_Link_251526980" MODIFIED="1386968748090" TEXT="CalibrationPredictandOriginName" VSHIFT="-12">
+<node COLOR="#996600" CREATED="1274083183709" FOLDED="true" HGAP="41" ID="Freemind_Link_251526980" MODIFIED="1386968748090" TEXT="CalibrationPredictandOriginName" VSHIFT="-12">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]If the origin type is &quot;station&quot;, then the specific stations will be defined in the simulation.  This name refers to the preferred dataset (if it exists).  If the origin type is &quot;GCM,&quot; then this name refers to the GCM run idientified as specifically as possible.  Also, if the origin type is &quot;GCM,&quot; then this refers to a high-resolution GCM used in perfect model experiments.[/definition]</text>
@@ -520,7 +524,7 @@
 <icon BUILTIN="messagebox_warning"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1274083183709" HGAP="36" ID="Freemind_Link_1083327521" MODIFIED="1382049190356" TEXT="PredictandPDFSubset" VSHIFT="8">
+<node COLOR="#996600" CREATED="1274083183709" FOLDED="true" HGAP="36" ID="Freemind_Link_1083327521" MODIFIED="1382049190356" TEXT="PredictandPDFSubset" VSHIFT="8">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1274083363905" ID="Freemind_Link_1391196376" MODIFIED="1286458079249" STYLE="fork" TEXT="extremes only">
 <font NAME="SansSerif" SIZE="14"/>
@@ -535,7 +539,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1274083183709" HGAP="34" ID="Freemind_Link_100350093" MODIFIED="1363385255910" TEXT="PredictandFrequency" VSHIFT="7">
+<node COLOR="#996600" CREATED="1274083183709" FOLDED="true" HGAP="34" ID="Freemind_Link_100350093" MODIFIED="1363385255910" TEXT="PredictandFrequency" VSHIFT="7">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1274083363905" ID="Freemind_Link_400407980" MODIFIED="1286460931200" STYLE="fork" TEXT="monthly">
 <font NAME="SansSerif" SIZE="14"/>
@@ -554,7 +558,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1274083183709" HGAP="39" ID="Freemind_Link_1605899561" MODIFIED="1386968927259" TEXT="TemporalTreatment" VSHIFT="22">
+<node COLOR="#996600" CREATED="1274083183709" FOLDED="true" HGAP="39" ID="Freemind_Link_1605899561" MODIFIED="1386968927259" TEXT="TemporalTreatment" VSHIFT="22">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Are any of the predictands related to different sets of predictors at specific times of year?  If so, please list the predictands, corresponding months/seasons, and criteria for choosing the set of predictors.  For example, in AARM, for precipitation, a predictor was selected for each month based on three variables using RMSE.  Most methods do not have special treatment of predictands.[/definition]</text>
@@ -564,7 +568,7 @@
 <icon BUILTIN="pencil"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1274083183709" HGAP="40" ID="Freemind_Link_1492770483" MODIFIED="1385581432388" TEXT="PredictandVariables" VSHIFT="23">
+<node COLOR="#996600" CREATED="1274083183709" FOLDED="true" HGAP="40" ID="Freemind_Link_1492770483" MODIFIED="1385581432388" TEXT="PredictandVariables" VSHIFT="23">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Local surface variables.[/definition]</text>
@@ -663,9 +667,9 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1276003690723" ID="Freemind_Link_1523182945" MODIFIED="1288883765353" TEXT="PostProcessing">
+<node COLOR="#990099" CREATED="1276003690723" FOLDED="true" ID="Freemind_Link_1523182945" MODIFIED="1288883765353" TEXT="PostProcessing">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_1454046396" MODIFIED="1386969141516" TEXT="PostprocessingMethod">
+<node COLOR="#996600" CREATED="1274083183709" FOLDED="true" ID="Freemind_Link_1454046396" MODIFIED="1386969141516" TEXT="PostprocessingMethod">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Provide any relevant details about the post-processing step (e.g. how the full signal is rebuild: use of trends, seasonal cycle and downscalled anomalies).  For example, for ARRM bias correction was done in the tails of the distribution.[/definition]</text>
@@ -677,13 +681,13 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1274083183709" ID="Freemind_Link_702730272" MODIFIED="1389199522040" TEXT="LargeScalePredictors">
+<node COLOR="#990099" CREATED="1274083183709" FOLDED="true" ID="Freemind_Link_702730272" MODIFIED="1389199522040" TEXT="LargeScalePredictors">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="attach"/>
-<node COLOR="#990099" CREATED="1274083313167" ID="Freemind_Link_1516351770" MODIFIED="1385572199414" TEXT="PredictorDetails">
+<node COLOR="#990099" CREATED="1274083313167" FOLDED="true" ID="Freemind_Link_1516351770" MODIFIED="1385572199414" TEXT="PredictorDetails">
 <edge WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1274083183709" HGAP="34" ID="Freemind_Link_179744215" MODIFIED="1386969180593" TEXT="CalibrationPredictorOriginType" VSHIFT="31">
+<node COLOR="#996600" CREATED="1274083183709" FOLDED="true" HGAP="34" ID="Freemind_Link_179744215" MODIFIED="1386969180593" TEXT="CalibrationPredictorOriginType" VSHIFT="31">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1274083363905" ID="Freemind_Link_447418490" MODIFIED="1285332602308" STYLE="fork" TEXT="analysis/reanalysis">
 <font NAME="SansSerif" SIZE="14"/>
@@ -705,7 +709,7 @@
 <icon BUILTIN="messagebox_warning"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1274083183709" HGAP="35" ID="Freemind_Link_1660235616" MODIFIED="1386969177814" TEXT="CalibrationPredictorOriginName" VSHIFT="2">
+<node COLOR="#996600" CREATED="1274083183709" FOLDED="true" HGAP="35" ID="Freemind_Link_1660235616" MODIFIED="1386969177814" TEXT="CalibrationPredictorOriginName" VSHIFT="2">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]The name of the analysis (NCEP1, ERA40) or satellite[/definition]</text>
@@ -731,7 +735,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1274083183709" HGAP="32" ID="Freemind_Link_572922962" MODIFIED="1386969174742" TEXT="Predictors" VSHIFT="2">
+<node COLOR="#996600" CREATED="1274083183709" FOLDED="true" HGAP="32" ID="Freemind_Link_572922962" MODIFIED="1386969174742" TEXT="Predictors" VSHIFT="2">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Large scale atmospheric variables.[/definition]</text>
@@ -789,7 +793,7 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1274083183709" HGAP="33" ID="Freemind_Link_1800259513" MODIFIED="1386969172396" TEXT="PredictorPDFSubset" VSHIFT="-7">
+<node COLOR="#996600" CREATED="1274083183709" FOLDED="true" HGAP="33" ID="Freemind_Link_1800259513" MODIFIED="1386969172396" TEXT="PredictorPDFSubset" VSHIFT="-7">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1274083363905" ID="Freemind_Link_1625488549" MODIFIED="1286458079249" STYLE="fork" TEXT="extremes only">
 <font NAME="SansSerif" SIZE="14"/>
@@ -804,7 +808,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1274083183709" HGAP="37" ID="Freemind_Link_899358157" MODIFIED="1386969184383" TEXT="PredictorFrequency" VSHIFT="2">
+<node COLOR="#996600" CREATED="1274083183709" FOLDED="true" HGAP="37" ID="Freemind_Link_899358157" MODIFIED="1386969184383" TEXT="PredictorFrequency" VSHIFT="2">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1274083363905" ID="Freemind_Link_105447485" MODIFIED="1286460121311" STYLE="fork" TEXT="monthly">
 <font NAME="SansSerif" SIZE="14"/>
@@ -831,7 +835,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1274083183709" HGAP="33" ID="Freemind_Link_1971252109" MODIFIED="1386969168525" TEXT="TemporalTreatment" VSHIFT="13">
+<node COLOR="#996600" CREATED="1274083183709" FOLDED="true" HGAP="33" ID="Freemind_Link_1971252109" MODIFIED="1386969168525" TEXT="TemporalTreatment" VSHIFT="13">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]Are any variables only used in specific times of year as predictors?  If so, please list the variables and corresponding months/seasons.  For example, in AARM, for precipitation, a predictor was selected for each month based on three variables using RMSE.[/definition]&#xa;</text>
