@@ -891,9 +891,6 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffcc33" CREATED="1382071370570" ID="Freemind_Link_1387837005" MODIFIED="1385572978582" TEXT="An issue we are just accepting for now is that these variables are defined as a set rather than individually; therefore, it is impossible to know for sure on which specific variables things like preprocessing methods or predictor frequency are applied" VSHIFT="17">
-<icon BUILTIN="messagebox_warning"/>
-</node>
 </node>
 <node BACKGROUND_COLOR="#ffcc33" CREATED="1382071455854" ID="Freemind_Link_1561613178" MODIFIED="1389886363954" TEXT="Nodes below this point are specific types of methods.  This set can be expanded by the community.  They are not complete.">
 <icon BUILTIN="messagebox_warning"/>
