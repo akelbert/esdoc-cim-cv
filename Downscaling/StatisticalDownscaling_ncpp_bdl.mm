@@ -892,7 +892,7 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffcc33" CREATED="1382071455854" ID="Freemind_Link_1561613178" MODIFIED="1393890748737" TEXT="Nodes below this point exemplify types of methods.  This is by no means a final classification and we will be working with the community to review expand this set of methods.">
+<node BACKGROUND_COLOR="#ffcc33" CREATED="1382071455854" ID="Freemind_Link_1561613178" MODIFIED="1393890827400" TEXT="Nodes below this point exemplify types of methods.  This is by no means a final classification and we will be working with the community to review and expand this set of methods.">
 <icon BUILTIN="messagebox_warning"/>
 </node>
 <node COLOR="#000000" CREATED="1274083313167" FOLDED="true" ID="Freemind_Link_994629276" MODIFIED="1274105856399" TEXT="WeatherTyping">
