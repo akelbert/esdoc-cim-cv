@@ -10,7 +10,7 @@
 <node COLOR="#990099" CREATED="1253796559148" ID="Freemind_Link_969659526" MODIFIED="1389196401278" TEXT="StatisticalDownscaling_KeyProperties">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="attach"/>
-<node COLOR="#990099" CREATED="1254486057572" ID="Freemind_Link_26535854" MODIFIED="1389143012344" TEXT="StatisticalDownscaling_KeyPropertiesAttributes">
+<node COLOR="#990099" CREATED="1254486057572" FOLDED="true" ID="Freemind_Link_26535854" MODIFIED="1389143012344" TEXT="StatisticalDownscaling_KeyPropertiesAttributes">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1274083183709" FOLDED="true" ID="Freemind_Link_405915947" MODIFIED="1393290484060" TEXT="ClassificationType">
 <font NAME="SansSerif" SIZE="14"/>
@@ -892,7 +892,7 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffcc33" CREATED="1382071455854" ID="Freemind_Link_1561613178" MODIFIED="1389886363954" TEXT="Nodes below this point are specific types of methods.  This set can be expanded by the community.  They are not complete.">
+<node BACKGROUND_COLOR="#ffcc33" CREATED="1382071455854" ID="Freemind_Link_1561613178" MODIFIED="1393890533342" TEXT="Nodes below this point exemplify types of methods.  This is by no means is a final classification and we will be working with the community to expand this set of methods.">
 <icon BUILTIN="messagebox_warning"/>
 </node>
 <node COLOR="#000000" CREATED="1274083313167" FOLDED="true" ID="Freemind_Link_994629276" MODIFIED="1274105856399" TEXT="WeatherTyping">
