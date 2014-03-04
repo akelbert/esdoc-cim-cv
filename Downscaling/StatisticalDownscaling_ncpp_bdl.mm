@@ -2,7 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node COLOR="#cc3300" CREATED="1274083108819" ID="Freemind_Link_1813720185" MODIFIED="1274083456485" TEXT="Statistical Downscaling Methods">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#000000" CREATED="1274083152242" ID="_" MODIFIED="1289207973498" POSITION="right" STYLE="bubble" TEXT="StatisticalDowscaling">
+<node COLOR="#000000" CREATED="1274083152242" ID="_" MODIFIED="1393910449265" POSITION="right" STYLE="bubble" TEXT="StatisticalDownscaling">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node BACKGROUND_COLOR="#ffcc33" CREATED="1382071455854" ID="Freemind_Link_396132494" MODIFIED="1389199580247" TEXT="Note the introduction of the &quot;attach&quot; icon (paperclip); This signifies that the PropertyBundle should be treated as a virtual component by the Questionnaire.">
 <icon BUILTIN="messagebox_warning"/>
