@@ -9,7 +9,7 @@
 <font BOLD="true" NAME="Dialog" SIZE="18"/>
 <node COLOR="#990099" CREATED="1253796559148" ID="Freemind_Link_969659526" MODIFIED="1278495833282" TEXT="Atmos_KeyProperties">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node COLOR="#990099" CREATED="1254486057572" ID="Freemind_Link_26535854" MODIFIED="1256809354852" TEXT="AtmosKeyPropertiesAttributes_">
+<node COLOR="#990099" CREATED="1254486057572" FOLDED="true" ID="Freemind_Link_26535854" MODIFIED="1256809354852" TEXT="AtmosKeyPropertiesAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233140619821" ID="Freemind_Link_660949458" MODIFIED="1258116706193" STYLE="bubble" TEXT="ModelFamily">
 <font NAME="SansSerif" SIZE="14"/>
@@ -371,29 +371,34 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1256650877395" ID="Freemind_Link_166780052" MODIFIED="1395328540485" TEXT="if OrographyType is &quot;modified&quot;">
-<font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1256301624095" ID="Freemind_Link_1863841780" MODIFIED="1395328589051" TEXT="Orography_Changes">
+<node COLOR="#996600" CREATED="1256808827517" ID="Freemind_Link_1525041072" MODIFIED="1395358196483" TEXT="PoleSingularityTreatment">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
-<text>[definition]Changes in orography for its time phasing.[/definition]</text>
+<text>[definition]Method used to deal with the pole singularities.[/definition]&#xa;</text>
 </hook>
-<node CREATED="1240321897946" ID="Freemind_Link_888696652" MODIFIED="1395328618143" STYLE="fork" TEXT="related to ice sheet">
+<node CREATED="1256808973381" ID="Freemind_Link_376706638" MODIFIED="1395358212710" STYLE="fork" TEXT="filter">
 <font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
+<icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1240321897946" ID="Freemind_Link_1217133618" MODIFIED="1395328628573" STYLE="fork" TEXT="related to tectonics">
+<node CREATED="1256808975628" ID="Freemind_Link_915270634" MODIFIED="1395358215945" STYLE="fork" TEXT="pole rotation">
 <font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
+<icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1240321897946" ID="Freemind_Link_1994263961" MODIFIED="1395328640125" STYLE="fork" TEXT="modified mean">
+<node CREATED="1256808975628" ID="Freemind_Link_1565991757" MODIFIED="1395358223299" STYLE="fork" TEXT="artificial island">
 <font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
+<icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1240321897946" ID="Freemind_Link_1401814569" MODIFIED="1395328676198" STYLE="fork" TEXT="modified variance if taken into account in model (cf gravity waves)">
+<node CREATED="1256808975628" ID="Freemind_Link_1377202250" MODIFIED="1395358229640" STYLE="fork" TEXT="none">
 <font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="button_ok"/>
+<icon BUILTIN="button_cancel"/>
 </node>
+<node CREATED="1256808975628" ID="Freemind_Link_343713188" MODIFIED="1395358231417" STYLE="fork" TEXT="other">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1256808975628" ID="Freemind_Link_873801037" MODIFIED="1395358236032" STYLE="fork" TEXT="N/A">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
 </node>
 </node>
 </node>
@@ -565,7 +570,7 @@
 </node>
 <node BACKGROUND_COLOR="#ffffff" CREATED="1233138776960" ID="Freemind_Link_1994420078" MODIFIED="1256685192010" TEXT="Atmos_DynamicalCore">
 <font BOLD="true" NAME="Dialog" SIZE="14"/>
-<node COLOR="#990099" CREATED="1254474552539" ID="Freemind_Link_1344279856" MODIFIED="1256814458845" TEXT="AtmosDynamicalCoreAttributes_">
+<node COLOR="#990099" CREATED="1254474552539" FOLDED="true" ID="Freemind_Link_1344279856" MODIFIED="1256814458845" TEXT="AtmosDynamicalCoreAttributes_">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1233587234324" ID="Freemind_Link_347570863" MODIFIED="1258122981616" TEXT="ListOfPrognosticVariables">
 <font NAME="Dialog" SIZE="14"/>
@@ -764,7 +769,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1233750994232" ID="Freemind_Link_796460613" MODIFIED="1254305314962" STYLE="bubble" TEXT="HorizontalDiscretization">
+<node COLOR="#990099" CREATED="1233750994232" FOLDED="true" ID="Freemind_Link_796460613" MODIFIED="1254305314962" STYLE="bubble" TEXT="HorizontalDiscretization">
 <font NAME="SansSerif" SIZE="14"/>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#996600" CREATED="1233752067356" ID="Freemind_Link_1659996911" MODIFIED="1258123217644" STYLE="bubble" TEXT="SchemeType">
 <font NAME="SansSerif" SIZE="14"/>
@@ -870,7 +875,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1233141996872" ID="Freemind_Link_1144449933" MODIFIED="1256685201037" TEXT="Atmos_Advection">
+<node COLOR="#000000" CREATED="1233141996872" FOLDED="true" ID="Freemind_Link_1144449933" MODIFIED="1256685201037" TEXT="Atmos_Advection">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node COLOR="#990099" CREATED="1243601885374" FOLDED="true" ID="Freemind_Link_1334292817" MODIFIED="1256925076108" TEXT="Tracers">
 <font NAME="SansSerif" SIZE="14"/>
