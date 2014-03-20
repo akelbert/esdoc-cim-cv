@@ -10,9 +10,9 @@
 <node COLOR="#990099" CREATED="1253796559148" ID="Freemind_Link_969659526" MODIFIED="1389196401278" TEXT="StatisticalDownscaling_KeyProperties">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="attach"/>
-<node COLOR="#990099" CREATED="1254486057572" FOLDED="true" ID="Freemind_Link_26535854" MODIFIED="1389143012344" TEXT="StatisticalDownscaling_KeyPropertiesAttributes">
+<node COLOR="#990099" CREATED="1254486057572" ID="Freemind_Link_26535854" MODIFIED="1389143012344" TEXT="StatisticalDownscaling_KeyPropertiesAttributes">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1274083183709" FOLDED="true" ID="Freemind_Link_405915947" MODIFIED="1393290484060" TEXT="ClassificationType">
+<node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_405915947" MODIFIED="1393290484060" TEXT="ClassificationType">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]The ClassificationType is a classification following the system used by Maraun et. al. Reviews of Geophysics, 2010.[/definition]</text>
@@ -25,7 +25,6 @@
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
-<node CREATED="1392995114827" ID="Freemind_Link_1908042153" MODIFIED="1392995517195" TEXT="the predictor nature"/>
 </node>
 <node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_371451596" MODIFIED="1386967985590" TEXT="MathematicalModelType">
 <font NAME="SansSerif" SIZE="14"/>
@@ -44,7 +43,7 @@
 <icon BUILTIN="messagebox_warning"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1274083183709" FOLDED="true" ID="Freemind_Link_786761298" MODIFIED="1385510728454" TEXT="MethodType">
+<node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_786761298" MODIFIED="1385510728454" TEXT="MethodType">
 <font NAME="SansSerif" SIZE="14"/>
 <hook NAME="accessories/plugins/NodeNote.properties">
 <text>[definition]The MethodType describes the statistical core of the specific method.[/definition]</text>
@@ -385,7 +384,108 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1276003690723" FOLDED="true" ID="Freemind_Link_206703416" MODIFIED="1382134489216" TEXT="SpatialTreatment">
+<node COLOR="#990099" CREATED="1256303464288" ID="Freemind_Link_663691157" MODIFIED="1395357450417" TEXT="HorizontalDomain">
+<font BOLD="true" NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="attach"/>
+<node COLOR="#990099" CREATED="1256650840766" ID="Freemind_Link_236372390" MODIFIED="1395329312598" TEXT="Grid">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#996600" CREATED="1256808827517" ID="Freemind_Link_677229923" MODIFIED="1395329353911" TEXT="GridType">
+<font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Geometry type of the horizontal grid.[/definition]&#xa;</text>
+</hook>
+<node CREATED="1256808973381" ID="Freemind_Link_522994094" MODIFIED="1395329370831" STYLE="fork" TEXT="latitude-longitude rectangular">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1256808975628" ID="Freemind_Link_1389767025" MODIFIED="1395329378680" STYLE="fork" TEXT="latitude-longitude">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1256808975628" ID="Freemind_Link_203985893" MODIFIED="1395331372343" STYLE="fork" TEXT="gaussian grid (full)">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1256808975628" ID="Freemind_Link_1617365310" MODIFIED="1395357495342" STYLE="fork" TEXT="Lambert Conformal">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1256808975628" ID="Freemind_Link_990057528" MODIFIED="1395357498860" STYLE="fork" TEXT="Polar Stereographic">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1256808975628" ID="Freemind_Link_1387739500" MODIFIED="1395357502726" STYLE="fork" TEXT="transverse Mercator">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1256808975628" ID="Freemind_Link_954819522" MODIFIED="1395357507052" STYLE="fork" TEXT="Mercator">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1256808975628" ID="Freemind_Link_319860343" MODIFIED="1395329393377" STYLE="fork" TEXT="other">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+</node>
+</node>
+<node COLOR="#990099" CREATED="1256650840766" ID="Freemind_Link_978387085" MODIFIED="1395329322163" TEXT="Resolution">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#996600" CREATED="1256808827517" FOLDED="true" ID="Freemind_Link_187394689" MODIFIED="1395357675774" TEXT="GridResolution">
+<font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]resolution of grid.[/definition]</text>
+</hook>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1502223563" MODIFIED="1395329629493" STYLE="fork" TEXT="degrees">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-1"/>
+</node>
+</node>
+</node>
+<node COLOR="#990099" CREATED="1256650840766" ID="Freemind_Link_1782368613" MODIFIED="1395329325808" TEXT="Extent">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#996600" CREATED="1256808827517" ID="Freemind_Link_450973690" MODIFIED="1395329768303" TEXT="LatMin">
+<font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Southern boundary of the geographical domain.[/definition]</text>
+</hook>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1090470378" MODIFIED="1395329733827" STYLE="fork" TEXT="degN">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-1"/>
+</node>
+</node>
+<node COLOR="#996600" CREATED="1256808827517" ID="Freemind_Link_933985321" MODIFIED="1395329819984" TEXT="LatMax">
+<font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Northern boundary of the geographical domain.[/definition]</text>
+</hook>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_23896991" MODIFIED="1395329733827" STYLE="fork" TEXT="degN">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-1"/>
+</node>
+</node>
+<node COLOR="#996600" CREATED="1256808827517" ID="Freemind_Link_591048921" MODIFIED="1395329827142" TEXT="LonMin">
+<font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Western boundary of the geographical domain.[/definition]</text>
+</hook>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1790798720" MODIFIED="1395329803956" STYLE="fork" TEXT="degE">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-1"/>
+</node>
+</node>
+<node COLOR="#996600" CREATED="1256808827517" ID="Freemind_Link_896818231" MODIFIED="1395329835922" TEXT="LonMax">
+<font NAME="SansSerif" SIZE="14"/>
+<hook NAME="accessories/plugins/NodeNote.properties">
+<text>[definition]Eastern boundary of the geographical domain.[/definition]</text>
+</hook>
+<node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="Freemind_Link_1709075053" MODIFIED="1395329802353" STYLE="fork" TEXT="degE">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="full-1"/>
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#990099" CREATED="1276003690723" ID="Freemind_Link_206703416" MODIFIED="1382134489216" TEXT="SpatialTreatment">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_573186905" MODIFIED="1382121510479" TEXT="OutputDataType">
 <font NAME="SansSerif" SIZE="14"/>
