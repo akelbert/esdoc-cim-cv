@@ -342,7 +342,27 @@
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1256808975628" ID="Freemind_Link_203985893" MODIFIED="1395329389402" STYLE="fork" TEXT="reduced gaussian">
+<node CREATED="1256808975628" ID="Freemind_Link_203985893" MODIFIED="1395331372343" STYLE="fork" TEXT="gaussian grid (full)">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1256808975628" ID="Freemind_Link_1169706714" MODIFIED="1395331380770" STYLE="fork" TEXT="gaussian grid (reduced)">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1256808975628" ID="Freemind_Link_1617365310" MODIFIED="1395331388392" STYLE="fork" TEXT="projected - Lambert Conformal">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1256808975628" ID="Freemind_Link_990057528" MODIFIED="1395331410080" STYLE="fork" TEXT="projected - Polar Stereographic">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1256808975628" ID="Freemind_Link_1387739500" MODIFIED="1395331404463" STYLE="fork" TEXT="projected - transverse Mercator">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1256808975628" ID="Freemind_Link_954819522" MODIFIED="1395331416016" STYLE="fork" TEXT="projected - Mercator">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
