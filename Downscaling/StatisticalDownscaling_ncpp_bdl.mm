@@ -535,7 +535,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1274083363905" ID="ID_1091862014" MODIFIED="1401228037816" STYLE="fork" TEXT="relationship based on variable distributions">
+<node CREATED="1274083363905" ID="ID_1091862014" MODIFIED="1401228076853" STYLE="fork" TEXT="relationship based on the statistical distribution of the variables (distribution-wise)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
