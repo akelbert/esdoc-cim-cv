@@ -192,7 +192,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_1630706508" MODIFIED="1401227763889" TEXT="Predictor-PredictandRelationship" VSHIFT="55">
+<node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_1630706508" MODIFIED="1401229420803" TEXT="Predictor-PredictandCorrespondance" VSHIFT="55">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -549,7 +549,7 @@
 <node COLOR="#990099" CREATED="1253796559148" HGAP="33" ID="Freemind_Link_353734054" MODIFIED="1401228776918" TEXT="Variables" VSHIFT="-28">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="attach"/>
-<node COLOR="#990099" CREATED="1274083183709" FOLDED="true" ID="Freemind_Link_299915377" MODIFIED="1401228792721" TEXT="LocalPredictands">
+<node COLOR="#990099" CREATED="1274083183709" ID="Freemind_Link_299915377" MODIFIED="1401229388325" TEXT="LocalPredictands">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="attach"/>
 <node COLOR="#990099" CREATED="1274083313167" ID="Freemind_Link_642779911" MODIFIED="1400866470865" TEXT="PredictandDetails">
