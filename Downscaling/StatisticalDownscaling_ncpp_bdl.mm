@@ -432,14 +432,14 @@
 </node>
 <node COLOR="#990099" CREATED="1276003690723" ID="ID_1010906769" MODIFIED="1401230643800" TEXT="AdditionalEvaluations">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#996600" CREATED="1274083183709" ID="ID_705136758" MODIFIED="1401230653323" TEXT="EvaluationOfStationarity">
+<node COLOR="#996600" CREATED="1274083183709" ID="ID_705136758" MODIFIED="1401230838979" TEXT="EvaluationOfStationarity">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      [definition][/definition]
+      [definition]Using a perfect model protocol or a pseudo-reality protocol.[/definition]
     </p>
   </body>
 </html>
@@ -454,17 +454,21 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1274083183709" ID="ID_32681379" MODIFIED="1401230622671" TEXT="EvaluationOfDownscaledGCMData">
+<node COLOR="#996600" CREATED="1274083183709" ID="ID_32681379" MODIFIED="1401230793614" TEXT="EvaluationOfDownscaledGCMData">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      [definition][/definition]
+      [definition]Using presentday GCM predictors
+    </p>
+    <p>
+      [/definition]
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1274083363905" ID="ID_1496123879" MODIFIED="1401230457603" STYLE="fork" TEXT="yes">
 <font NAME="SansSerif" SIZE="14"/>
