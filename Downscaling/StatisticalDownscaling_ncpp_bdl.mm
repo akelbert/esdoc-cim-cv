@@ -546,10 +546,10 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1253796559148" FOLDED="true" HGAP="33" ID="Freemind_Link_353734054" MODIFIED="1400866833530" TEXT="Variables" VSHIFT="-28">
+<node COLOR="#990099" CREATED="1253796559148" HGAP="33" ID="Freemind_Link_353734054" MODIFIED="1401228776918" TEXT="Variables" VSHIFT="-28">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="attach"/>
-<node COLOR="#990099" CREATED="1274083183709" ID="Freemind_Link_299915377" MODIFIED="1400863774446" TEXT="LocalPredictands">
+<node COLOR="#990099" CREATED="1274083183709" FOLDED="true" ID="Freemind_Link_299915377" MODIFIED="1401228792721" TEXT="LocalPredictands">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="attach"/>
 <node COLOR="#990099" CREATED="1274083313167" ID="Freemind_Link_642779911" MODIFIED="1400866470865" TEXT="PredictandDetails">
@@ -892,7 +892,7 @@
 <node COLOR="#990099" CREATED="1274083183709" ID="Freemind_Link_702730272" MODIFIED="1400863780518" TEXT="LargeScalePredictors">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="attach"/>
-<node COLOR="#990099" CREATED="1274083313167" FOLDED="true" ID="Freemind_Link_1516351770" MODIFIED="1400866418922" TEXT="PredictorDetails">
+<node COLOR="#990099" CREATED="1274083313167" ID="Freemind_Link_1516351770" MODIFIED="1401228796459" TEXT="PredictorDetails">
 <edge WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1274083183709" HGAP="34" ID="Freemind_Link_179744215" MODIFIED="1399568956720" TEXT="CalibrationPredictorOriginType" VSHIFT="31">
@@ -917,8 +917,18 @@
 <icon BUILTIN="messagebox_warning"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1274083183709" FOLDED="true" HGAP="35" ID="Freemind_Link_1660235616" MODIFIED="1386969177814" TEXT="CalibrationPredictorOriginName" VSHIFT="2">
-<richcontent TYPE="NOTE"><html><head/><body><p>[definition]The name of the analysis (NCEP1, ERA40) or satellite[/definition]</p></body></html></richcontent>
+<node COLOR="#996600" CREATED="1274083183709" HGAP="35" ID="Freemind_Link_1660235616" MODIFIED="1401229004087" TEXT="CalibrationPredictorOriginName" VSHIFT="2">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      [definition]The name of the analysis (NCEP1, ERA40) or satellite[/definition]
+    </p>
+  </body>
+</html>
+</richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1274083363905" ID="Freemind_Link_1299230291" MODIFIED="1285332672957" STYLE="fork" TEXT="NCEP1">
 <font NAME="SansSerif" SIZE="14"/>
@@ -941,8 +951,18 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1274083183709" FOLDED="true" HGAP="32" ID="Freemind_Link_572922962" MODIFIED="1386969174742" TEXT="Predictors" VSHIFT="2">
-<richcontent TYPE="NOTE"><html><head/><body><p>[definition]Large scale atmospheric variables.[/definition]</p></body></html></richcontent>
+<node COLOR="#996600" CREATED="1274083183709" HGAP="32" ID="Freemind_Link_572922962" MODIFIED="1401229003184" TEXT="Predictors" VSHIFT="2">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      [definition]Large scale atmospheric variables.[/definition]
+    </p>
+  </body>
+</html>
+</richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1274083363905" ID="Freemind_Link_840068988" MODIFIED="1274101928779" STYLE="fork" TEXT="sea-level pressure">
 <font NAME="SansSerif" SIZE="14"/>
@@ -997,7 +1017,25 @@
 <icon BUILTIN="button_ok"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1274083183709" FOLDED="true" HGAP="33" ID="Freemind_Link_1800259513" MODIFIED="1386969172396" TEXT="PredictorPDFSubset" VSHIFT="-7">
+<node COLOR="#996600" CREATED="1274083183709" HGAP="39" ID="ID_1075392364" MODIFIED="1401229317940" TEXT="PredictorChoice" VSHIFT="-5">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      [definition]Please describe how you chose the predictors.&#160;&#160;In particular, was a fixed or varying set of predictors used, and how were they chosen?[/definition]
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="14"/>
+<node CREATED="1274083363905" ID="ID_777649366" MODIFIED="1288884287786" STYLE="fork" TEXT="">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="pencil"/>
+</node>
+</node>
+<node COLOR="#996600" CREATED="1274083183709" HGAP="33" ID="Freemind_Link_1800259513" MODIFIED="1401228805512" TEXT="PredictorPDFSubset" VSHIFT="-7">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1274083363905" ID="Freemind_Link_1625488549" MODIFIED="1286458079249" STYLE="fork" TEXT="extremes only">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1012,7 +1050,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1274083183709" FOLDED="true" HGAP="37" ID="Freemind_Link_899358157" MODIFIED="1386969184383" TEXT="PredictorFrequency" VSHIFT="2">
+<node COLOR="#996600" CREATED="1274083183709" HGAP="37" ID="Freemind_Link_899358157" MODIFIED="1401228808586" TEXT="PredictorFrequency" VSHIFT="2">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1274083363905" ID="Freemind_Link_105447485" MODIFIED="1286460121311" STYLE="fork" TEXT="monthly">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1039,7 +1077,7 @@
 <icon BUILTIN="button_cancel"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1274083183709" HGAP="33" ID="Freemind_Link_1971252109" MODIFIED="1400866283329" TEXT="SpatialTreatment" VSHIFT="13">
+<node COLOR="#996600" CREATED="1274083183709" HGAP="33" ID="Freemind_Link_1971252109" MODIFIED="1401229002644" TEXT="SpatialTreatment" VSHIFT="13">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1049,14 +1087,15 @@
       [definition]Please provide further details of the extent and resolution of the input variables, including whether they have been interpolated.[/definition]<br />
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1274083363905" ID="Freemind_Link_1525816978" MODIFIED="1288884287786" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="pencil"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1274083183709" HGAP="33" ID="ID_1447649514" MODIFIED="1400866064727" TEXT="TemporalTreatment" VSHIFT="13">
+<node COLOR="#996600" CREATED="1274083183709" HGAP="33" ID="ID_1447649514" MODIFIED="1401229002262" TEXT="TemporalTreatment" VSHIFT="13">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1066,7 +1105,8 @@
       [definition]Are any variables only used in specific times of year as predictors? &#160;If so, please list the variables and corresponding months/seasons. &#160;For example, in AARM, for precipitation, a predictor was selected for each month based on three variables using RMSE.[/definition]<br />
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1274083363905" ID="ID_857796884" MODIFIED="1288884287786" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
