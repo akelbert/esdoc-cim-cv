@@ -518,20 +518,20 @@
 <icon BUILTIN="pencil"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1274083313167" ID="ID_1789008266" MODIFIED="1401228048830" TEXT="Correspondance">
+<node COLOR="#996600" CREATED="1274083313167" ID="ID_1789008266" MODIFIED="1401228541385" TEXT="Correspondance">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      [definition][/definition]
+      [definition]This indicates whether there is a one-to-one correspondence between the time series.[/definition]
     </p>
   </body>
 </html>
 </richcontent>
 <font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1274083363905" ID="ID_1715951825" MODIFIED="1401228027817" STYLE="fork" TEXT="relationship based on time series (event-wise)">
+<node CREATED="1274083363905" ID="ID_1715951825" MODIFIED="1401228410592" STYLE="fork" TEXT="relationship based on time series (pair-wise)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_cancel"/>
 </node>
