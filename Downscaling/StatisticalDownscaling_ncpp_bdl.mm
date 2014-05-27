@@ -252,9 +252,6 @@
 </node>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_711590784" MODIFIED="1392996854812" TEXT="SomeInformationAboutValidation">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
 <node COLOR="#990099" CREATED="1256303464288" ID="Freemind_Link_875811821" MODIFIED="1401230216104" TEXT="MethodPhases">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="attach"/>
