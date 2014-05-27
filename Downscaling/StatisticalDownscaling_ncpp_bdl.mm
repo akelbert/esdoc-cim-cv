@@ -58,7 +58,7 @@
 <icon BUILTIN="help"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1274083183709" FOLDED="true" ID="Freemind_Link_786761298" MODIFIED="1401227001852" TEXT="MethodType">
+<node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_786761298" MODIFIED="1401229779493" TEXT="MethodType">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -88,6 +88,10 @@
 <icon BUILTIN="button_ok"/>
 </node>
 <node CREATED="1274083217782" ID="Freemind_Link_575517402" MODIFIED="1382134233657" STYLE="fork" TEXT="spatial disaggregation">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_ok"/>
+</node>
+<node CREATED="1274083217782" ID="ID_1196587359" MODIFIED="1401229803002" STYLE="fork" TEXT="interpolation">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="button_ok"/>
 </node>
@@ -251,10 +255,10 @@
 <node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_711590784" MODIFIED="1392996854812" TEXT="SomeInformationAboutValidation">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#990099" CREATED="1256303464288" FOLDED="true" ID="Freemind_Link_875811821" MODIFIED="1401227929194" TEXT="MethodPhases">
+<node COLOR="#990099" CREATED="1256303464288" ID="Freemind_Link_875811821" MODIFIED="1401230216104" TEXT="MethodPhases">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="attach"/>
-<node COLOR="#990099" CREATED="1274083313167" ID="Freemind_Link_1503412363" MODIFIED="1400866505167" TEXT="CalibrationPeriod">
+<node COLOR="#990099" CREATED="1274083313167" ID="Freemind_Link_1503412363" MODIFIED="1401230255602" TEXT="CalibrationPhase">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -297,7 +301,7 @@
 <icon BUILTIN="help"/>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1274083313167" HGAP="25" ID="Freemind_Link_973227750" MODIFIED="1363383318117" TEXT="ValidationPeriod" VSHIFT="6">
+<node COLOR="#990099" CREATED="1274083313167" HGAP="25" ID="Freemind_Link_973227750" MODIFIED="1401230252188" TEXT="ValidationPhase" VSHIFT="6">
 <edge WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1274083313167" FOLDED="true" ID="Freemind_Link_1217249236" MODIFIED="1401227027814" TEXT="FirstYear">
@@ -314,7 +318,7 @@
 <icon BUILTIN="full-1"/>
 </node>
 </node>
-<node COLOR="#996600" CREATED="1274083183709" FOLDED="true" ID="Freemind_Link_645129177" MODIFIED="1401227029349" TEXT="ValidationType">
+<node COLOR="#996600" CREATED="1274083183709" ID="Freemind_Link_645129177" MODIFIED="1401230220234" TEXT="ValidationType">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1274083363905" ID="Freemind_Link_44796482" MODIFIED="1382052996758" STYLE="fork" TEXT="jacknife">
 <font NAME="SansSerif" SIZE="14"/>
@@ -399,7 +403,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#990099" CREATED="1274083313167" FOLDED="true" ID="Freemind_Link_1704499061" MODIFIED="1389158151412" TEXT="ApplicationPeriod" VSHIFT="2">
+<node COLOR="#990099" CREATED="1274083313167" FOLDED="true" ID="Freemind_Link_1704499061" MODIFIED="1401230260556" TEXT="ApplicationPhase" VSHIFT="2">
 <edge WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#996600" CREATED="1274083313167" ID="Freemind_Link_1349259788" MODIFIED="1285332239812" TEXT="FirstYear">
@@ -423,6 +427,52 @@
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="pencil"/>
 </node>
+</node>
+</node>
+</node>
+<node COLOR="#990099" CREATED="1276003690723" ID="ID_1010906769" MODIFIED="1401230643800" TEXT="AdditionalEvaluations">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#996600" CREATED="1274083183709" ID="ID_705136758" MODIFIED="1401230653323" TEXT="EvaluationOfStationarity">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      [definition][/definition]
+    </p>
+  </body>
+</html>
+</richcontent>
+<font NAME="SansSerif" SIZE="14"/>
+<node CREATED="1274083363905" ID="ID_728835184" MODIFIED="1401230457603" STYLE="fork" TEXT="yes">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1274083363905" ID="ID_1301278989" MODIFIED="1401230510117" STYLE="fork" TEXT="no">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+</node>
+<node COLOR="#996600" CREATED="1274083183709" ID="ID_32681379" MODIFIED="1401230622671" TEXT="EvaluationOfDownscaledGCMData">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      [definition][/definition]
+    </p>
+  </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="14"/>
+<node CREATED="1274083363905" ID="ID_1496123879" MODIFIED="1401230457603" STYLE="fork" TEXT="yes">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
+</node>
+<node CREATED="1274083363905" ID="ID_1049748662" MODIFIED="1401230510117" STYLE="fork" TEXT="no">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="button_cancel"/>
 </node>
 </node>
 </node>
