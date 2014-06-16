@@ -21,7 +21,7 @@ Metafor was a European project tasked with defining a metadata standard for desc
 What is esdoc-cim-cv ?
 ----------------------
 
-esdoc-cim contains representations of CIM Controlled Vocabularies in various formats and software to translate between them.  We store CVs in FreeMind mind-map format for easy editing and colaboration and translate to machine-readable formats for use by downstream tools
+esdoc-cim-cv contains representations of CIM Controlled Vocabularies in various formats and software to translate between them.  We store CVs in FreeMind mind-map format for easy editing and colaboration and translate to machine-readable formats for use by downstream tools.
 
 
 What are the contents of esdoc-questionnaire ?
@@ -33,7 +33,11 @@ What are the contents of esdoc-questionnaire ?
     \Software	  CVs related to components of model software
 
 
+<!-- TODO : Add Futher information
+
 Further Information ?
 --------------------------------------
 
-Please refer to the documentation for further information: http://es-doc.github.io/esdoc-questionnaire/
+Please refer to the documentation for further information: TODO
+
+-->
