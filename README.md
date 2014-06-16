@@ -1,7 +1,7 @@
 esdoc-cim-cv
 ============
 
-Repository supporing CIM Controlled Vocabularies for the esdoc eco-system.
+Metafor CIM controlled vocabulary assets.
 
 
 ==================================================
