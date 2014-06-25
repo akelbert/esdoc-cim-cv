@@ -2,8 +2,7 @@
 from optparse import OptionParser
 import re
 import sys
-import libxml2
-import libxslt
+import lxml.etree as ET
 import os
 from subprocess import *
 import datetime
@@ -45,39 +44,32 @@ except IOError, (errno, strerror):
   print "I/O error(%s) for file %s: %s" % (errno, args[0], strerror)
   sys.exit(1)
 
-#determine the svn info of the mindmap file
-mmurl=""
-revision=""
-mmlcrevision=""
-svninforaw = Popen(["svn", "info" ,args[0]], stdout=PIPE).communicate()[0]
-svninfo=svninforaw.split("\n")
-for line in svninfo:
-  if re.match("^Revision:",line):
-    print line
-    revsplit=line.split(": ")
-    revision=revsplit[1]
-  if re.match("^Last Changed Rev:",line):
-    print line
-    lcrevsplit=line.split(": ")
-    mmlcrevision=lcrevsplit[1]
-  if re.match("^URL:",line):
-    print line
-    urlsplit=line.split(": ")
-    mmurl=urlsplit[1]
+# Configure revision metadata
+gitinforaw = Popen('git remote show origin'.split(), stdout=PIPE).communicate()[0]
+gitinfo = gitinforaw.split('\n')
+git_remote_url = None
+for line in gitinfo:
+  mo = re.match(r'\s*Fetch URL: (.*)', line)
+  if mo:
+    git_remote_url = mo.group(1)
 
-transrevision=""
-transurl=""
-svninforaw = Popen(["svn", "info" ,sys.argv[0]], stdout=PIPE).communicate()[0]
-svninfo=svninforaw.split("\n")
-for line in svninfo:
-  if re.match("^Revision:",line):
-    print line
-    revsplit=line.split(": ")
-    transrevision=revsplit[1]
-  if re.match("^URL:",line):
-    print line
-    urlsplit=line.split(": ")
-    transurl=urlsplit[1]
+gitinforaw = Popen('git describe'.split(), stdout=PIPE).communicate()[0]
+git_describe_tag = gitinforaw.strip()
+
+#
+# These parameters were obtained from the SVN metadata but are not relevant to git.
+# Currently the following mappings are implemented:
+#    mmurl -> git remote url
+#    revision -> git describe tag
+#    mmlcrevision = git describe tag
+#    transrevision -> git describe tag
+#    transurl -> git remote url
+mmurl = git_remote_url
+revision = git_describe_tag
+mmlcrevision = git_describe_tag
+transrevision = git_describe_tag
+transurl = git_remote_url
+
 
 if options.preprocess:
   fpre = open(args[0]+'.pre', 'w')
@@ -97,14 +89,19 @@ else:
   couple="'no'"
 
 print "translating mm xml from file %s" % fpre.name
-styledoc = libxml2.parseFile("xsl/"+XSLFileName)
-style = libxslt.parseStylesheetDoc(styledoc)
-doc = libxml2.parseFile(fpre.name)
-result = style.applyStylesheet(doc,{"Couple" : couple, "Revision" : revision, "URL" : "'"+mmurl+"'", "LCRevision" : mmlcrevision, "TranslatorRevision" : transrevision, "TranslatorURL" : "'"+transurl+"'", "Date" : "'"+str(datetime.datetime.now())+"'"})
-style.saveResultToFilename(foutname, result, 0)
-style.freeStylesheet()
-doc.freeDoc()
-result.freeDoc()
+
+styledoc = ET.parse("xsl/"+XSLFileName)
+style = ET.XSLT(styledoc)
+doc = ET.parse(fpre.name)
+result = style(doc, **{"Couple" : couple, 
+                       "Revision" : repr(revision), 
+                       "URL" : "'"+mmurl+"'", 
+                       "LCRevision" : repr(mmlcrevision), 
+                       "TranslatorRevision" : repr(transrevision), 
+                       "TranslatorURL" : "'"+transurl+"'", 
+                       "Date" : "'"+str(datetime.datetime.now())+"'"})
+with open(foutname, 'w') as fh:
+  fh.write(str(result))
 
 print "written output to file %s" % foutname
 
