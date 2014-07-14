@@ -5,7 +5,7 @@
 <node CREATED="1289310888467" ID="Freemind_Link_1411926899" MODIFIED="1289310962824" POSITION="right" TEXT="Please click on leaf circles to expand the tree-structure">
 <font ITALIC="true" NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#000000" CREATED="1274083152242" ID="_" MODIFIED="1289207973498" POSITION="right" STYLE="bubble" TEXT="StatisticalDowscaling">
+<node COLOR="#000000" CREATED="1274083152242" ID="_" MODIFIED="1405366913793" POSITION="right" STYLE="bubble" TEXT="StatisticalDownscaling">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node BACKGROUND_COLOR="#ffcc33" CREATED="1382071455854" ID="ID_474461967" MODIFIED="1399054138604" TEXT="Note the introduction of the &quot;attach&quot; icon (paperclip); This signifies that the PropertyBundle should be treated as a virtual component by the Questionnaire.">
 <icon BUILTIN="messagebox_warning"/>
@@ -169,8 +169,7 @@
       [definition]Where homogeneous implies same surface predictors and surface predictands (as in Rummukainen 1997), and heterogeneous implies upper-air predictors to surface predictands.&#160;&#160;If this method includes both homogeneous and heterogeneous relationships, please provide more details in the description field of this property.[/definition]
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1274083363905" ID="Freemind_Link_741891726" MODIFIED="1403796433147" STYLE="fork" TEXT="homogeneous, same surface predictors and surface predictands">
 <font NAME="SansSerif" SIZE="14"/>
@@ -213,8 +212,7 @@
       [definition]Is an explicit bias correction step included in this method? &#160;If so, please describe the type of bias correction used[/definition]
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1274083217782" ID="Freemind_Link_1917776002" MODIFIED="1385511833086" STYLE="fork" TEXT="quantile mapping">
 <font NAME="SansSerif" SIZE="14"/>
@@ -503,8 +501,7 @@
       [definition]This is only valid for gridded output data types.[/definition]
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 <node BACKGROUND_COLOR="#ffffff" COLOR="#000000" CREATED="1233848466968" ID="ID_273505193" MODIFIED="1395329629493" STYLE="fork" TEXT="degrees">
 <font NAME="SansSerif" SIZE="14"/>
@@ -521,8 +518,7 @@
       [definition]For example, BCSD was developed for the US.[/definition]
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1274083363905" ID="Freemind_Link_1615336838" MODIFIED="1385515080167" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1224,8 +1220,7 @@
       [definition]Final classification of the days by assignation to a weather-type over the reconstruction period.[/definition]
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1274083363905" ID="Freemind_Link_623959417" MODIFIED="1274179595945" STYLE="fork" TEXT="analogs">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1298,8 +1293,7 @@
       [definition]Some of these are only valid in the context of partitional or hierarchical clustering.[/definition]
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1274083363905" ID="ID_1849225574" MODIFIED="1274110116458" STYLE="fork" TEXT="k-means">
 <richcontent TYPE="NOTE"><html><head/><body><p>[definition]The k-means algorithm assign each point to the cluster whose center (also called centroid) is neareast.[/definition]</p></body></html></richcontent>
@@ -1358,8 +1352,7 @@
       [definition]Number of clusters defined a-priori.[/definition]
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1274083363905" ID="ID_342501555" MODIFIED="1274085917548" STYLE="fork" TEXT="">
 <font NAME="SansSerif" SIZE="14"/>
@@ -1473,8 +1466,7 @@
       [definition]Some of these values only apply to linear or non-linear schemes.[/definition]
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1274083363905" ID="ID_800471051" MODIFIED="1403797089915" STYLE="fork" TEXT="multiple linear regression">
 <font NAME="SansSerif" SIZE="14"/>
